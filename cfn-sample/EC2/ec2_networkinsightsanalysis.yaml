@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Networkinsightsanalysis:
+  CfnSampleEc2Networkinsightsanalysis:
     Type: AWS::EC2::NetworkInsightsAnalysis
     Properties:
       AdditionalAccounts: []

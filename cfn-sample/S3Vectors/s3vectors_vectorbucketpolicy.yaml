@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3vectorsVectorbucketpolicy:
+  CfnSampleS3vectorsVectorbucketpolicy:
     Type: AWS::S3Vectors::VectorBucketPolicy
     Properties:
       VectorBucketArn: ""

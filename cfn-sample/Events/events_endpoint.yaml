@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEventsEndpoint:
+  CfnSampleEventsEndpoint:
     Type: AWS::Events::Endpoint
     Properties:
       Description: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleServicecatalogPortfolioshare:
+  CfnSampleServicecatalogPortfolioshare:
     Type: AWS::ServiceCatalog::PortfolioShare
     Properties:
       AcceptLanguage: ""

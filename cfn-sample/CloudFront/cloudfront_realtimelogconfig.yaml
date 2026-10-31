@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudfrontRealtimelogconfig:
+  CfnSampleCloudfrontRealtimelogconfig:
     Type: AWS::CloudFront::RealtimeLogConfig
     Properties:
       Fields: []

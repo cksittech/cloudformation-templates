@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGreengrassFunctiondefinition:
+  CfnSampleGreengrassFunctiondefinition:
     Type: AWS::Greengrass::FunctionDefinition
     Properties:
       Name: ""

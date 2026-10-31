@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRdsDbproxyendpoint:
+  CfnSampleRdsDbproxyendpoint:
     Type: AWS::RDS::DBProxyEndpoint
     Properties:
       DBProxyEndpointName: ""

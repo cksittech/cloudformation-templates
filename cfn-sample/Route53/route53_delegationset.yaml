@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53Delegationset:
+  CfnSampleRoute53Delegationset:
     Type: AWS::Route53::DelegationSet
     Properties: {}

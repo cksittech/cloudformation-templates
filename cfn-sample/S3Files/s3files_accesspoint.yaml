@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3filesAccesspoint:
+  CfnSampleS3filesAccesspoint:
     Type: AWS::S3Files::AccessPoint
     Properties:
       ClientToken: ""

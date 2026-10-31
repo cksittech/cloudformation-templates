@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCleanroomsmlConfiguredmodelalgorithmassociation:
+  CfnSampleCleanroomsmlConfiguredmodelalgorithmassociation:
     Type: AWS::CleanRoomsML::ConfiguredModelAlgorithmAssociation
     Properties:
       ConfiguredModelAlgorithmArn: ""

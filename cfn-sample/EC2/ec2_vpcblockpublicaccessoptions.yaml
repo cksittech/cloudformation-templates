@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Vpcblockpublicaccessoptions:
+  CfnSampleEc2Vpcblockpublicaccessoptions:
     Type: AWS::EC2::VPCBlockPublicAccessOptions
     Properties:
       InternetGatewayBlockMode: ""

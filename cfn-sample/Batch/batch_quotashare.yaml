@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBatchQuotashare:
+  CfnSampleBatchQuotashare:
     Type: AWS::Batch::QuotaShare
     Properties:
       JobQueue: ""

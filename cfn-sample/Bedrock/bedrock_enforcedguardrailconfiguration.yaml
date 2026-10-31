@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockEnforcedguardrailconfiguration:
+  CfnSampleBedrockEnforcedguardrailconfiguration:
     Type: AWS::Bedrock::EnforcedGuardrailConfiguration
     Properties:
       GuardrailIdentifier: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Eip:
+  CfnSampleEc2Eip:
     Type: AWS::EC2::EIP
     Properties:
       Address: ""

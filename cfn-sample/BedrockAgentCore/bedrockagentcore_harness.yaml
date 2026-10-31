@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockagentcoreHarness:
+  CfnSampleBedrockagentcoreHarness:
     Type: AWS::BedrockAgentCore::Harness
     Properties:
       AllowedTools: []

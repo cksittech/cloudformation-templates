@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGlobalacceleratorAccelerator:
+  CfnSampleGlobalacceleratorAccelerator:
     Type: AWS::GlobalAccelerator::Accelerator
     Properties:
       Enabled: true

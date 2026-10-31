@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSmsvoiceVerifieddestinationnumber:
+  CfnSampleSmsvoiceVerifieddestinationnumber:
     Type: AWS::SMSVOICE::VerifiedDestinationNumber
     Properties:
       DestinationPhoneNumber: ""

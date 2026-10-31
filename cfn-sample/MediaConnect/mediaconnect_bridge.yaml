@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMediaconnectBridge:
+  CfnSampleMediaconnectBridge:
     Type: AWS::MediaConnect::Bridge
     Properties:
       Name: ""

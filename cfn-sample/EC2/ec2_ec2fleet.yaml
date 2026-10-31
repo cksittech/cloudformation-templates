@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Ec2fleet:
+  CfnSampleEc2Ec2fleet:
     Type: AWS::EC2::EC2Fleet
     Properties:
       Context: ""

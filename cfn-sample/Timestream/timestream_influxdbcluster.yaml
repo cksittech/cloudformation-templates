@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleTimestreamInfluxdbcluster:
+  CfnSampleTimestreamInfluxdbcluster:
     Type: AWS::Timestream::InfluxDBCluster
     Properties:
       AllocatedStorage: 0

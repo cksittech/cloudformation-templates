@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRedshiftClustersecuritygroupingress:
+  CfnSampleRedshiftClustersecuritygroupingress:
     Type: AWS::Redshift::ClusterSecurityGroupIngress
     Properties:
       CIDRIP: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleArczonalshiftZonalautoshiftconfiguration:
+  CfnSampleArczonalshiftZonalautoshiftconfiguration:
     Type: AWS::ARCZonalShift::ZonalAutoshiftConfiguration
     Properties:
       ResourceIdentifier: ""

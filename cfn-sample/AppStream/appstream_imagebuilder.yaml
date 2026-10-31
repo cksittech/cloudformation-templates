@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAppstreamImagebuilder:
+  CfnSampleAppstreamImagebuilder:
     Type: AWS::AppStream::ImageBuilder
     Properties:
       AppstreamAgentVersion: ""

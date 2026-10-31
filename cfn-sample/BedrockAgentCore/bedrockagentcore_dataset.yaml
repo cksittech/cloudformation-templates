@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockagentcoreDataset:
+  CfnSampleBedrockagentcoreDataset:
     Type: AWS::BedrockAgentCore::Dataset
     Properties:
       DatasetName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAcmpcaCertificateauthorityactivation:
+  CfnSampleAcmpcaCertificateauthorityactivation:
     Type: AWS::ACMPCA::CertificateAuthorityActivation
     Properties:
       Certificate: ""

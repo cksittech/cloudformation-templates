@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIamUsertogroupaddition:
+  CfnSampleIamUsertogroupaddition:
     Type: AWS::IAM::UserToGroupAddition
     Properties:
       GroupName: ""

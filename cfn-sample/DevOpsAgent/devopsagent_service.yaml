@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDevopsagentService:
+  CfnSampleDevopsagentService:
     Type: AWS::DevOpsAgent::Service
     Properties:
       ExchangeUrlPrivateConnectionName: ""

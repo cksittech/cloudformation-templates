@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConnectDatatableattribute:
+  CfnSampleConnectDatatableattribute:
     Type: AWS::Connect::DataTableAttribute
     Properties:
       DataTableArn: ""

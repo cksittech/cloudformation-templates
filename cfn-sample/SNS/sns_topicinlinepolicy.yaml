@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSnsTopicinlinepolicy:
+  CfnSampleSnsTopicinlinepolicy:
     Type: AWS::SNS::TopicInlinePolicy
     Properties:
       TopicArn: ""

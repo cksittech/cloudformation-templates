@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Sqlhastandbydetectedinstance:
+  CfnSampleEc2Sqlhastandbydetectedinstance:
     Type: AWS::EC2::SqlHaStandbyDetectedInstance
     Properties:
       InstanceId: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Subnet:
+  CfnSampleEc2Subnet:
     Type: AWS::EC2::Subnet
     Properties:
       AssignIpv6AddressOnCreation: false

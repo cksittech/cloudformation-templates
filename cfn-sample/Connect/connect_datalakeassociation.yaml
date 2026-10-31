@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConnectDatalakeassociation:
+  CfnSampleConnectDatalakeassociation:
     Type: AWS::Connect::DataLakeAssociation
     Properties:
       DataSetId: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConnectcampaignsv2Campaign:
+  CfnSampleConnectcampaignsv2Campaign:
     Type: AWS::ConnectCampaignsV2::Campaign
     Properties:
       ConnectCampaignFlowArn: ""

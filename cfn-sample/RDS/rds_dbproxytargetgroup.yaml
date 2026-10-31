@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRdsDbproxytargetgroup:
+  CfnSampleRdsDbproxytargetgroup:
     Type: AWS::RDS::DBProxyTargetGroup
     Properties:
       DBClusterIdentifiers: []

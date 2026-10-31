@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGuarddutyPublishingdestination:
+  CfnSampleGuarddutyPublishingdestination:
     Type: AWS::GuardDuty::PublishingDestination
     Properties:
       DestinationType: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53Cidrcollection:
+  CfnSampleRoute53Cidrcollection:
     Type: AWS::Route53::CidrCollection
     Properties:
       Name: ""

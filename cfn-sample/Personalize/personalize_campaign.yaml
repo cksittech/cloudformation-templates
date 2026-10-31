@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SamplePersonalizeCampaign:
+  CfnSamplePersonalizeCampaign:
     Type: AWS::Personalize::Campaign
     Properties:
       MinProvisionedTPS: 0

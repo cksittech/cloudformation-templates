@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGuarddutyTrustedentityset:
+  CfnSampleGuarddutyTrustedentityset:
     Type: AWS::GuardDuty::TrustedEntitySet
     Properties:
       Activate: false

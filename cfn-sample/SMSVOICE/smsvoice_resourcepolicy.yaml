@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSmsvoiceResourcepolicy:
+  CfnSampleSmsvoiceResourcepolicy:
     Type: AWS::SMSVOICE::ResourcePolicy
     Properties:
       ResourceArn: ""

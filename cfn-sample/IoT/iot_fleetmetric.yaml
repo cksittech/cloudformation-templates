@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIotFleetmetric:
+  CfnSampleIotFleetmetric:
     Type: AWS::IoT::FleetMetric
     Properties:
       AggregationField: ""

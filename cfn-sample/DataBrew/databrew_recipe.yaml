@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatabrewRecipe:
+  CfnSampleDatabrewRecipe:
     Type: AWS::DataBrew::Recipe
     Properties:
       Description: ""

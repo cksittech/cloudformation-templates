@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleElasticsearchDomain:
+  CfnSampleElasticsearchDomain:
     Type: AWS::Elasticsearch::Domain
     Properties:
       DomainName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAuditmanagerAssessment:
+  CfnSampleAuditmanagerAssessment:
     Type: AWS::AuditManager::Assessment
     Properties:
       Description: ""

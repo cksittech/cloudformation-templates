@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAppconfigConfigurationprofile:
+  CfnSampleAppconfigConfigurationprofile:
     Type: AWS::AppConfig::ConfigurationProfile
     Properties:
       ApplicationId: ""

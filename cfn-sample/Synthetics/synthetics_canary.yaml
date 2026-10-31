@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSyntheticsCanary:
+  CfnSampleSyntheticsCanary:
     Type: AWS::Synthetics::Canary
     Properties:
       ArtifactS3Location: ""

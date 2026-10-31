@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBackupBackupplan:
+  CfnSampleBackupBackupplan:
     Type: AWS::Backup::BackupPlan
     Properties:
       BackupPlan:

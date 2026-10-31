@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Verifiedaccessgroup:
+  CfnSampleEc2Verifiedaccessgroup:
     Type: AWS::EC2::VerifiedAccessGroup
     Properties:
       Description: ""

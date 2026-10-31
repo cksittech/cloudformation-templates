@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBatchSchedulingpolicy:
+  CfnSampleBatchSchedulingpolicy:
     Type: AWS::Batch::SchedulingPolicy
     Properties:
       Name: ""

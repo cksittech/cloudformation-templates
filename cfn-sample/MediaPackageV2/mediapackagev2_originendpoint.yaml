@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMediapackagev2Originendpoint:
+  CfnSampleMediapackagev2Originendpoint:
     Type: AWS::MediaPackageV2::OriginEndpoint
     Properties:
       ChannelGroupName: ""

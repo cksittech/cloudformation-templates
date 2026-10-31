@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Transitgatewayconnect:
+  CfnSampleEc2Transitgatewayconnect:
     Type: AWS::EC2::TransitGatewayConnect
     Properties:
       TransportTransitGatewayAttachmentId: ""

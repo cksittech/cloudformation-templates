@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3Multiregionaccesspoint:
+  CfnSampleS3Multiregionaccesspoint:
     Type: AWS::S3::MultiRegionAccessPoint
     Properties:
       Name: ""

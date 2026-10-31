@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWafv2Regexpatternset:
+  CfnSampleWafv2Regexpatternset:
     Type: AWS::WAFv2::RegexPatternSet
     Properties:
       Description: ""

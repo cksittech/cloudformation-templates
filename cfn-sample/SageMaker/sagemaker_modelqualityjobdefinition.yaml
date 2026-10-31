@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSagemakerModelqualityjobdefinition:
+  CfnSampleSagemakerModelqualityjobdefinition:
     Type: AWS::SageMaker::ModelQualityJobDefinition
     Properties:
       EndpointName: ""

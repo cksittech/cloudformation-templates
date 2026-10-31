@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRdsDbclusterendpoint:
+  CfnSampleRdsDbclusterendpoint:
     Type: AWS::RDS::DBClusterEndpoint
     Properties:
       CustomEndpointType: ""

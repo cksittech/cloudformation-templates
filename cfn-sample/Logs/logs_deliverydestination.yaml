@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLogsDeliverydestination:
+  CfnSampleLogsDeliverydestination:
     Type: AWS::Logs::DeliveryDestination
     Properties:
       DeliveryDestinationType: ""

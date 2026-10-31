@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSchedulerSchedulegroup:
+  CfnSampleSchedulerSchedulegroup:
     Type: AWS::Scheduler::ScheduleGroup
     Properties:
       Name: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLogsTransformer:
+  CfnSampleLogsTransformer:
     Type: AWS::Logs::Transformer
     Properties:
       LogGroupIdentifier: ""

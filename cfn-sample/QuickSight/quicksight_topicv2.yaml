@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleQuicksightTopicv2:
+  CfnSampleQuicksightTopicv2:
     Type: AWS::QuickSight::TopicV2
     Properties:
       AwsAccountId: ""

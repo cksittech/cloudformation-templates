@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLicensemanagerLicenseassetruleset:
+  CfnSampleLicensemanagerLicenseassetruleset:
     Type: AWS::LicenseManager::LicenseAssetRuleSet
     Properties:
       Description: ""

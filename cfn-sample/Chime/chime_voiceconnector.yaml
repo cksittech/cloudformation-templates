@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleChimeVoiceconnector:
+  CfnSampleChimeVoiceconnector:
     Type: AWS::Chime::VoiceConnector
     Properties:
       AwsRegion: ""

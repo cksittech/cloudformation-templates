@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleNeptuneDbsubnetgroup:
+  CfnSampleNeptuneDbsubnetgroup:
     Type: AWS::Neptune::DBSubnetGroup
     Properties:
       DBSubnetGroupDescription: ""

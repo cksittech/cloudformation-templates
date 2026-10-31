@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRekognitionProject:
+  CfnSampleRekognitionProject:
     Type: AWS::Rekognition::Project
     Properties:
       ProjectName: ""

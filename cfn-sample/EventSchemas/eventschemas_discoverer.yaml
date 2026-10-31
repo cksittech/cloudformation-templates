@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEventschemasDiscoverer:
+  CfnSampleEventschemasDiscoverer:
     Type: AWS::EventSchemas::Discoverer
     Properties:
       CrossAccount: true

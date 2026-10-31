@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53Recordsetgroup:
+  CfnSampleRoute53Recordsetgroup:
     Type: AWS::Route53::RecordSetGroup
     Properties:
       Comment: ""

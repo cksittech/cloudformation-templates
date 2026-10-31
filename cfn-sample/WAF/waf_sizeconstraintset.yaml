@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWafSizeconstraintset:
+  CfnSampleWafSizeconstraintset:
     Type: AWS::WAF::SizeConstraintSet
     Properties:
       Name: ""

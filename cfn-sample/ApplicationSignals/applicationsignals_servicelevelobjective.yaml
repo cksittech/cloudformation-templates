@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApplicationsignalsServicelevelobjective:
+  CfnSampleApplicationsignalsServicelevelobjective:
     Type: AWS::ApplicationSignals::ServiceLevelObjective
     Properties:
       Description: "No description"

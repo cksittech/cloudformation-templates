@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConnectRoutingprofile:
+  CfnSampleConnectRoutingprofile:
     Type: AWS::Connect::RoutingProfile
     Properties:
       AgentAvailabilityTimer: ""

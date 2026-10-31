@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDeadlineBudget:
+  CfnSampleDeadlineBudget:
     Type: AWS::Deadline::Budget
     Properties:
       ApproximateDollarLimit: 0

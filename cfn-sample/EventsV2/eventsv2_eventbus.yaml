@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEventsv2Eventbus:
+  CfnSampleEventsv2Eventbus:
     Type: AWS::EventsV2::EventBus
     Properties:
       Description: ""

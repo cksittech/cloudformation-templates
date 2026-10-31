@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCustomerprofilesObjecttype:
+  CfnSampleCustomerprofilesObjecttype:
     Type: AWS::CustomerProfiles::ObjectType
     Properties:
       AllowProfileCreation: false

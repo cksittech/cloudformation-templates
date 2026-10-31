@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53resolverFirewallrulegroupassociation:
+  CfnSampleRoute53resolverFirewallrulegroupassociation:
     Type: AWS::Route53Resolver::FirewallRuleGroupAssociation
     Properties:
       FirewallRuleGroupId: ""

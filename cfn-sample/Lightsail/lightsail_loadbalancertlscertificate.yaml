@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLightsailLoadbalancertlscertificate:
+  CfnSampleLightsailLoadbalancertlscertificate:
     Type: AWS::Lightsail::LoadBalancerTlsCertificate
     Properties:
       CertificateAlternativeNames: []

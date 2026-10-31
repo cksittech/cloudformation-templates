@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3tablesNamespace:
+  CfnSampleS3tablesNamespace:
     Type: AWS::S3Tables::Namespace
     Properties:
       Namespace: ""

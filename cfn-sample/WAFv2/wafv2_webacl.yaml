@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWafv2Webacl:
+  CfnSampleWafv2Webacl:
     Type: AWS::WAFv2::WebACL
     Properties:
       Description: ""

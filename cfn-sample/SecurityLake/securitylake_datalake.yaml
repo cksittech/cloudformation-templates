@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecuritylakeDatalake:
+  CfnSampleSecuritylakeDatalake:
     Type: AWS::SecurityLake::DataLake
     Properties:
       MetaStoreManagerRoleArn: ""

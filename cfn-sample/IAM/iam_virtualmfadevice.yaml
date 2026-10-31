@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIamVirtualmfadevice:
+  CfnSampleIamVirtualmfadevice:
     Type: AWS::IAM::VirtualMFADevice
     Properties:
       Path: ""

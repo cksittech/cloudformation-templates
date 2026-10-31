@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSmsvoiceOptoutlist:
+  CfnSampleSmsvoiceOptoutlist:
     Type: AWS::SMSVOICE::OptOutList
     Properties:
       OptOutListName: ""

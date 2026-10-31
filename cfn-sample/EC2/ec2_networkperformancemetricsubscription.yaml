@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Networkperformancemetricsubscription:
+  CfnSampleEc2Networkperformancemetricsubscription:
     Type: AWS::EC2::NetworkPerformanceMetricSubscription
     Properties:
       Destination: ""

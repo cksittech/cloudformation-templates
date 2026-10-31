@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53globalresolverAccesstoken:
+  CfnSampleRoute53globalresolverAccesstoken:
     Type: AWS::Route53GlobalResolver::AccessToken
     Properties:
       ClientToken: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIotSoftwarepackageversion:
+  CfnSampleIotSoftwarepackageversion:
     Type: AWS::IoT::SoftwarePackageVersion
     Properties:
       Description: ""

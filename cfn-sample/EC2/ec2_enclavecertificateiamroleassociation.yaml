@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Enclavecertificateiamroleassociation:
+  CfnSampleEc2Enclavecertificateiamroleassociation:
     Type: AWS::EC2::EnclaveCertificateIamRoleAssociation
     Properties:
       CertificateArn: ""

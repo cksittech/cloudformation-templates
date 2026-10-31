@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWafv2Ipset:
+  CfnSampleWafv2Ipset:
     Type: AWS::WAFv2::IPSet
     Properties:
       Addresses: []

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIottwinmakerWorkspace:
+  CfnSampleIottwinmakerWorkspace:
     Type: AWS::IoTTwinMaker::Workspace
     Properties:
       Description: ""

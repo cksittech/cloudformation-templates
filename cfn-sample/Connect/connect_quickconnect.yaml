@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConnectQuickconnect:
+  CfnSampleConnectQuickconnect:
     Type: AWS::Connect::QuickConnect
     Properties:
       Description: ""

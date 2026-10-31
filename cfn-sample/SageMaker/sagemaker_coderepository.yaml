@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSagemakerCoderepository:
+  CfnSampleSagemakerCoderepository:
     Type: AWS::SageMaker::CodeRepository
     Properties:
       CodeRepositoryName: ""

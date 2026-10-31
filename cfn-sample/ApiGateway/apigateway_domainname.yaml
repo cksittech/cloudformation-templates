@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApigatewayDomainname:
+  CfnSampleApigatewayDomainname:
     Type: AWS::ApiGateway::DomainName
     Properties:
       CertificateArn: ""

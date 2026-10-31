@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSsmguiconnectPreferences:
+  CfnSampleSsmguiconnectPreferences:
     Type: AWS::SSMGuiConnect::Preferences
     Properties:
       ConnectionRecordingPreferences:

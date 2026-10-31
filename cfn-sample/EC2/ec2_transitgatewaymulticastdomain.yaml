@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Transitgatewaymulticastdomain:
+  CfnSampleEc2Transitgatewaymulticastdomain:
     Type: AWS::EC2::TransitGatewayMulticastDomain
     Properties:
       TransitGatewayId: ""

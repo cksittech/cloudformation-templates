@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Ipampoolcidr:
+  CfnSampleEc2Ipampoolcidr:
     Type: AWS::EC2::IPAMPoolCidr
     Properties:
       Cidr: ""

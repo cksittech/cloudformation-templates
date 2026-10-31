@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApplicationinsightsApplication:
+  CfnSampleApplicationinsightsApplication:
     Type: AWS::ApplicationInsights::Application
     Properties:
       AttachMissingPermission: false

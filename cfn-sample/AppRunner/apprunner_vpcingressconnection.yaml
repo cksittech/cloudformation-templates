@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApprunnerVpcingressconnection:
+  CfnSampleApprunnerVpcingressconnection:
     Type: AWS::AppRunner::VpcIngressConnection
     Properties:
       ServiceArn: ""

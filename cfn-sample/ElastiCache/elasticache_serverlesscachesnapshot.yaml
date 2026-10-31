@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleElasticacheServerlesscachesnapshot:
+  CfnSampleElasticacheServerlesscachesnapshot:
     Type: AWS::ElastiCache::ServerlessCacheSnapshot
     Properties:
       KmsKeyId: ""

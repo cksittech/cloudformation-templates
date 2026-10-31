@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationTypeactivation:
+  CfnSampleCloudformationTypeactivation:
     Type: AWS::CloudFormation::TypeActivation
     Properties:
       AutoUpdate: false

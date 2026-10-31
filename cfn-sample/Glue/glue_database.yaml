@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGlueDatabase:
+  CfnSampleGlueDatabase:
     Type: AWS::Glue::Database
     Properties:
       CatalogId: ""

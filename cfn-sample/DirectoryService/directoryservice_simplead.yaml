@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDirectoryserviceSimplead:
+  CfnSampleDirectoryserviceSimplead:
     Type: AWS::DirectoryService::SimpleAD
     Properties:
       CreateAlias: false

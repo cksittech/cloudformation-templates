@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLakeformationTag:
+  CfnSampleLakeformationTag:
     Type: AWS::LakeFormation::Tag
     Properties:
       CatalogId: ""

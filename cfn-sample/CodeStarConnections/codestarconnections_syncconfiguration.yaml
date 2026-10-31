@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCodestarconnectionsSyncconfiguration:
+  CfnSampleCodestarconnectionsSyncconfiguration:
     Type: AWS::CodeStarConnections::SyncConfiguration
     Properties:
       Branch: ""

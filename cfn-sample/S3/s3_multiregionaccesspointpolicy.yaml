@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3Multiregionaccesspointpolicy:
+  CfnSampleS3Multiregionaccesspointpolicy:
     Type: AWS::S3::MultiRegionAccessPointPolicy
     Properties:
       MrapName: ""

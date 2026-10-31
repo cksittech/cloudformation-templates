@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMskServerlesscluster:
+  CfnSampleMskServerlesscluster:
     Type: AWS::MSK::ServerlessCluster
     Properties:
       ClusterName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3Storagelensgroup:
+  CfnSampleS3Storagelensgroup:
     Type: AWS::S3::StorageLensGroup
     Properties:
       Name: ""

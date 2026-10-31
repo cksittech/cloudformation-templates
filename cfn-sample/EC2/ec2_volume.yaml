@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Volume:
+  CfnSampleEc2Volume:
     Type: AWS::EC2::Volume
     Properties:
       AutoEnableIO: false

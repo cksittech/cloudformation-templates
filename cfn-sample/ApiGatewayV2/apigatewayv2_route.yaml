@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApigatewayv2Route:
+  CfnSampleApigatewayv2Route:
     Type: AWS::ApiGatewayV2::Route
     Properties:
       ApiId: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLocationRoutecalculator:
+  CfnSampleLocationRoutecalculator:
     Type: AWS::Location::RouteCalculator
     Properties:
       CalculatorName: ""

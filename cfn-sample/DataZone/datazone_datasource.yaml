@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatazoneDatasource:
+  CfnSampleDatazoneDatasource:
     Type: AWS::DataZone::DataSource
     Properties:
       ConnectionIdentifier: ""

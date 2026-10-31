@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCodeartifactDomain:
+  CfnSampleCodeartifactDomain:
     Type: AWS::CodeArtifact::Domain
     Properties:
       DomainName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGreengrassv2Deployment:
+  CfnSampleGreengrassv2Deployment:
     Type: AWS::GreengrassV2::Deployment
     Properties:
       DeploymentName: ""

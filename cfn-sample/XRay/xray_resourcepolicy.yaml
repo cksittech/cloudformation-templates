@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleXrayResourcepolicy:
+  CfnSampleXrayResourcepolicy:
     Type: AWS::XRay::ResourcePolicy
     Properties:
       BypassPolicyLockoutCheck: false

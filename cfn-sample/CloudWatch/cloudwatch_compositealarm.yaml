@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudwatchCompositealarm:
+  CfnSampleCloudwatchCompositealarm:
     Type: AWS::CloudWatch::CompositeAlarm
     Properties:
       ActionsEnabled: false

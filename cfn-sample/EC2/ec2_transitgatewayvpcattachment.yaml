@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Transitgatewayvpcattachment:
+  CfnSampleEc2Transitgatewayvpcattachment:
     Type: AWS::EC2::TransitGatewayVpcAttachment
     Properties:
       AddSubnetIds: []

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBudgetsBudgetsaction:
+  CfnSampleBudgetsBudgetsaction:
     Type: AWS::Budgets::BudgetsAction
     Properties:
       ActionType: ""

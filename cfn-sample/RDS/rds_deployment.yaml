@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRdsDeployment:
+  CfnSampleRdsDeployment:
     Type: AWS::RDS::Deployment
     Properties:
       BlueGreenDeploymentName: ""

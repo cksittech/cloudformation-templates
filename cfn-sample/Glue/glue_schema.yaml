@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGlueSchema:
+  CfnSampleGlueSchema:
     Type: AWS::Glue::Schema
     Properties:
       Compatibility: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLambdaFunction:
+  CfnSampleLambdaFunction:
     Type: AWS::Lambda::Function
     Properties:
       Architectures: []

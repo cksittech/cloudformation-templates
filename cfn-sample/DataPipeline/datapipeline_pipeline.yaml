@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatapipelinePipeline:
+  CfnSampleDatapipelinePipeline:
     Type: AWS::DataPipeline::Pipeline
     Properties:
       Activate: false

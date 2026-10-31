@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockagentcoreGatewaytarget:
+  CfnSampleBedrockagentcoreGatewaytarget:
     Type: AWS::BedrockAgentCore::GatewayTarget
     Properties:
       Description: ""

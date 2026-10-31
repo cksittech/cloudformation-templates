@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleArczonalshiftAutoshiftobservernotificationstatus:
+  CfnSampleArczonalshiftAutoshiftobservernotificationstatus:
     Type: AWS::ARCZonalShift::AutoshiftObserverNotificationStatus
     Properties:
       Status: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMedialiveCloudwatchalarmtemplate:
+  CfnSampleMedialiveCloudwatchalarmtemplate:
     Type: AWS::MediaLive::CloudWatchAlarmTemplate
     Properties:
       ComparisonOperator: ""

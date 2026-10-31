@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatazoneEnvironment:
+  CfnSampleDatazoneEnvironment:
     Type: AWS::DataZone::Environment
     Properties:
       DeploymentOrder: 0

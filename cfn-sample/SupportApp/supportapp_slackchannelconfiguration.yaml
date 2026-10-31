@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSupportappSlackchannelconfiguration:
+  CfnSampleSupportappSlackchannelconfiguration:
     Type: AWS::SupportApp::SlackChannelConfiguration
     Properties:
       ChannelId: ""

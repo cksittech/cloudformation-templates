@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleVpclatticeServicenetwork:
+  CfnSampleVpclatticeServicenetwork:
     Type: AWS::VpcLattice::ServiceNetwork
     Properties:
       AuthType: "NONE"

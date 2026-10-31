@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3expressBucketpolicy:
+  CfnSampleS3expressBucketpolicy:
     Type: AWS::S3Express::BucketPolicy
     Properties:
       Bucket: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAmazonmqConfigurationassociation:
+  CfnSampleAmazonmqConfigurationassociation:
     Type: AWS::AmazonMQ::ConfigurationAssociation
     Properties:
       Broker: ""

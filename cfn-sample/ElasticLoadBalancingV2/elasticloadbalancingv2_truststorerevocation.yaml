@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleElasticloadbalancingv2Truststorerevocation:
+  CfnSampleElasticloadbalancingv2Truststorerevocation:
     Type: AWS::ElasticLoadBalancingV2::TrustStoreRevocation
     Properties:
       TrustStoreArn: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockagentcoreWorkloadidentity:
+  CfnSampleBedrockagentcoreWorkloadidentity:
     Type: AWS::BedrockAgentCore::WorkloadIdentity
     Properties:
       AllowedResourceOauth2ReturnUrls: []

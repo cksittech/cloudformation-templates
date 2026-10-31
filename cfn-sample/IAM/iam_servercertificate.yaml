@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIamServercertificate:
+  CfnSampleIamServercertificate:
     Type: AWS::IAM::ServerCertificate
     Properties:
       CertificateBody: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3outpostsBucketpolicy:
+  CfnSampleS3outpostsBucketpolicy:
     Type: AWS::S3Outposts::BucketPolicy
     Properties:
       Bucket: ""

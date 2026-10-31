@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleConfigConfigurationrecorder:
+  CfnSampleConfigConfigurationrecorder:
     Type: AWS::Config::ConfigurationRecorder
     Properties:
       Name: ""

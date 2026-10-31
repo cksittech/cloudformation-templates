@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDmsEndpoint:
+  CfnSampleDmsEndpoint:
     Type: AWS::DMS::Endpoint
     Properties:
       CertificateArn: ""

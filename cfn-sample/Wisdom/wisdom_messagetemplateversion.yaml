@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWisdomMessagetemplateversion:
+  CfnSampleWisdomMessagetemplateversion:
     Type: AWS::Wisdom::MessageTemplateVersion
     Properties:
       MessageTemplateArn: ""

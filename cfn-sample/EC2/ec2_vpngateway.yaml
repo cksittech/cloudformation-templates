@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Vpngateway:
+  CfnSampleEc2Vpngateway:
     Type: AWS::EC2::VPNGateway
     Properties:
       AmazonSideAsn: 0

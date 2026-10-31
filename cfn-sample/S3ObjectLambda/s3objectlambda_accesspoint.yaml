@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3objectlambdaAccesspoint:
+  CfnSampleS3objectlambdaAccesspoint:
     Type: AWS::S3ObjectLambda::AccessPoint
     Properties:
       Name: ""

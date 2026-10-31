@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDrsReplicationconfigurationtemplate:
+  CfnSampleDrsReplicationconfigurationtemplate:
     Type: AWS::DRS::ReplicationConfigurationTemplate
     Properties:
       AssociateDefaultSecurityGroup: false

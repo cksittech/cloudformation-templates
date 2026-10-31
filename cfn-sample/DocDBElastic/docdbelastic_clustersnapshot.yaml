@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDocdbelasticClustersnapshot:
+  CfnSampleDocdbelasticClustersnapshot:
     Type: AWS::DocDBElastic::ClusterSnapshot
     Properties:
       ClusterArn: ""

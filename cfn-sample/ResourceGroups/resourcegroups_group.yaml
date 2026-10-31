@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleResourcegroupsGroup:
+  CfnSampleResourcegroupsGroup:
     Type: AWS::ResourceGroups::Group
     Properties:
       Description: ""

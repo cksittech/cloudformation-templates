@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleNeptuneDbinstance:
+  CfnSampleNeptuneDbinstance:
     Type: AWS::Neptune::DBInstance
     Properties:
       AllowMajorVersionUpgrade: false

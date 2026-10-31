@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleNeptunegraphGraph:
+  CfnSampleNeptunegraphGraph:
     Type: AWS::NeptuneGraph::Graph
     Properties:
       DeletionProtection: false

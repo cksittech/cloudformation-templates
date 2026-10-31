@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGreengrassv2Componentversion:
+  CfnSampleGreengrassv2Componentversion:
     Type: AWS::GreengrassV2::ComponentVersion
     Properties:
       InlineRecipe: ""

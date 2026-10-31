@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGameliftGameservergroup:
+  CfnSampleGameliftGameservergroup:
     Type: AWS::GameLift::GameServerGroup
     Properties:
       BalancingStrategy: ""

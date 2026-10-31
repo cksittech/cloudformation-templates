@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationStack:
+  CfnSampleCloudformationStack:
     Type: AWS::CloudFormation::Stack
     Properties:
       Capabilities: []

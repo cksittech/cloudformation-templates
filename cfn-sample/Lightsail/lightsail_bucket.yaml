@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLightsailBucket:
+  CfnSampleLightsailBucket:
     Type: AWS::Lightsail::Bucket
     Properties:
       BucketName: ""

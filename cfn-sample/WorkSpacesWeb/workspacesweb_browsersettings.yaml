@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWorkspaceswebBrowsersettings:
+  CfnSampleWorkspaceswebBrowsersettings:
     Type: AWS::WorkSpacesWeb::BrowserSettings
     Properties:
       BrowserPolicy: ""

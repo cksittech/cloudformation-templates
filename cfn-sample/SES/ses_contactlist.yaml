@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSesContactlist:
+  CfnSampleSesContactlist:
     Type: AWS::SES::ContactList
     Properties:
       ContactListName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecurityhubHubv2:
+  CfnSampleSecurityhubHubv2:
     Type: AWS::SecurityHub::HubV2
     Properties:
       NetworkScanning:

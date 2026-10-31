@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleKinesisanalyticsv2Applicationreferencedatasource:
+  CfnSampleKinesisanalyticsv2Applicationreferencedatasource:
     Type: AWS::KinesisAnalyticsV2::ApplicationReferenceDataSource
     Properties:
       ApplicationName: ""

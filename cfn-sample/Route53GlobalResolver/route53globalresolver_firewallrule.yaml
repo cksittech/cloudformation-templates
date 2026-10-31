@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53globalresolverFirewallrule:
+  CfnSampleRoute53globalresolverFirewallrule:
     Type: AWS::Route53GlobalResolver::FirewallRule
     Properties:
       Action: ""

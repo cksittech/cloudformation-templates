@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleFsxFilecache:
+  CfnSampleFsxFilecache:
     Type: AWS::FSx::FileCache
     Properties:
       CopyTagsToDataRepositoryAssociations: false

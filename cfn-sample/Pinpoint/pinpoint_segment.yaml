@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SamplePinpointSegment:
+  CfnSamplePinpointSegment:
     Type: AWS::Pinpoint::Segment
     Properties:
       ApplicationId: ""

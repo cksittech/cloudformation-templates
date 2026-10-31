@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSsoAssignment:
+  CfnSampleSsoAssignment:
     Type: AWS::SSO::Assignment
     Properties:
       InstanceArn: ""

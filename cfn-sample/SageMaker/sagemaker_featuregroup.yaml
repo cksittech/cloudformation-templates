@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSagemakerFeaturegroup:
+  CfnSampleSagemakerFeaturegroup:
     Type: AWS::SageMaker::FeatureGroup
     Properties:
       Description: ""

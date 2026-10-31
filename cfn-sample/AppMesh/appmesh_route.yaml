@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAppmeshRoute:
+  CfnSampleAppmeshRoute:
     Type: AWS::AppMesh::Route
     Properties:
       MeshName: ""

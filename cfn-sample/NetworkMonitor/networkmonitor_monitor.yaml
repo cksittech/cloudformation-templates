@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleNetworkmonitorMonitor:
+  CfnSampleNetworkmonitorMonitor:
     Type: AWS::NetworkMonitor::Monitor
     Properties:
       AggregationPeriod: 0

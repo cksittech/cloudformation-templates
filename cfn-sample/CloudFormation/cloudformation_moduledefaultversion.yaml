@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationModuledefaultversion:
+  CfnSampleCloudformationModuledefaultversion:
     Type: AWS::CloudFormation::ModuleDefaultVersion
     Properties:
       Arn: ""

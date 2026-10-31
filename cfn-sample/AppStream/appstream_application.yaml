@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAppstreamApplication:
+  CfnSampleAppstreamApplication:
     Type: AWS::AppStream::Application
     Properties:
       AppBlockArn: ""

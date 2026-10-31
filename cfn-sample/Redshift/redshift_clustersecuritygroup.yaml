@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRedshiftClustersecuritygroup:
+  CfnSampleRedshiftClustersecuritygroup:
     Type: AWS::Redshift::ClusterSecurityGroup
     Properties:
       Description: ""

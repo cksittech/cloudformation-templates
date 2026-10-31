@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecurityhubStandard:
+  CfnSampleSecurityhubStandard:
     Type: AWS::SecurityHub::Standard
     Properties:
       StandardsArn: ""

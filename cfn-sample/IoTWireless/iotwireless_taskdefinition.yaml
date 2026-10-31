@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIotwirelessTaskdefinition:
+  CfnSampleIotwirelessTaskdefinition:
     Type: AWS::IoTWireless::TaskDefinition
     Properties:
       AutoCreateTasks: false

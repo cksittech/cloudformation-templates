@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatazoneOwner:
+  CfnSampleDatazoneOwner:
     Type: AWS::DataZone::Owner
     Properties:
       DomainIdentifier: ""

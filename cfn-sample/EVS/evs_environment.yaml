@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEvsEnvironment:
+  CfnSampleEvsEnvironment:
     Type: AWS::EVS::Environment
     Properties:
       EnvironmentName: ""

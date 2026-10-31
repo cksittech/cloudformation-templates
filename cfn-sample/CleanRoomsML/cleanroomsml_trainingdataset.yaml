@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCleanroomsmlTrainingdataset:
+  CfnSampleCleanroomsmlTrainingdataset:
     Type: AWS::CleanRoomsML::TrainingDataset
     Properties:
       Description: ""

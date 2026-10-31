@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIamOidcprovider:
+  CfnSampleIamOidcprovider:
     Type: AWS::IAM::OIDCProvider
     Properties:
       ClientIdList: []

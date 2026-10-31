@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCodeartifactRepository:
+  CfnSampleCodeartifactRepository:
     Type: AWS::CodeArtifact::Repository
     Properties:
       Description: ""

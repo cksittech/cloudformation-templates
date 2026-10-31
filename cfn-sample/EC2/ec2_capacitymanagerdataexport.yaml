@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Capacitymanagerdataexport:
+  CfnSampleEc2Capacitymanagerdataexport:
     Type: AWS::EC2::CapacityManagerDataExport
     Properties:
       OutputFormat: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIotwirelessFuotatask:
+  CfnSampleIotwirelessFuotatask:
     Type: AWS::IoTWireless::FuotaTask
     Properties:
       AssociateMulticastGroup: ""

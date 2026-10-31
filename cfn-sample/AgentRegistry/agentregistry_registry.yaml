@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAgentregistryRegistry:
+  CfnSampleAgentregistryRegistry:
     Type: AWS::AgentRegistry::Registry
     Properties:
       AuthorizerType: ""

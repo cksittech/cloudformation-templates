@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleServicecatalogappregistryAttributegroup:
+  CfnSampleServicecatalogappregistryAttributegroup:
     Type: AWS::ServiceCatalogAppRegistry::AttributeGroup
     Properties:
       Description: ""

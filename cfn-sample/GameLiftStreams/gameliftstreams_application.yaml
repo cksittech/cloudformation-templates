@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGameliftstreamsApplication:
+  CfnSampleGameliftstreamsApplication:
     Type: AWS::GameLiftStreams::Application
     Properties:
       ApplicationLogOutputUri: ""

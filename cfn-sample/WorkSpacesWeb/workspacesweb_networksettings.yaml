@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWorkspaceswebNetworksettings:
+  CfnSampleWorkspaceswebNetworksettings:
     Type: AWS::WorkSpacesWeb::NetworkSettings
     Properties:
       SecurityGroupIds: []

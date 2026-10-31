@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3filesFilesystem:
+  CfnSampleS3filesFilesystem:
     Type: AWS::S3Files::FileSystem
     Properties:
       AcceptBucketWarning: false

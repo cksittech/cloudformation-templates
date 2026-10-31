@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Ipamscope:
+  CfnSampleEc2Ipamscope:
     Type: AWS::EC2::IPAMScope
     Properties:
       Description: ""

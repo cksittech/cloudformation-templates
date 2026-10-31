@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SamplePcaconnectoradTemplategroupaccesscontrolentry:
+  CfnSamplePcaconnectoradTemplategroupaccesscontrolentry:
     Type: AWS::PCAConnectorAD::TemplateGroupAccessControlEntry
     Properties:
       GroupDisplayName: ""

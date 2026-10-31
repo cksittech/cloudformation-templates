@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGameliftMatchmakingconfiguration:
+  CfnSampleGameliftMatchmakingconfiguration:
     Type: AWS::GameLift::MatchmakingConfiguration
     Properties:
       AcceptanceRequired: false

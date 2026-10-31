@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleKinesisanalyticsApplicationoutput:
+  CfnSampleKinesisanalyticsApplicationoutput:
     Type: AWS::KinesisAnalytics::ApplicationOutput
     Properties:
       ApplicationName: ""

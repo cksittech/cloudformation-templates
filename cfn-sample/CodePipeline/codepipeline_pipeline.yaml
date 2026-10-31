@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCodepipelinePipeline:
+  CfnSampleCodepipelinePipeline:
     Type: AWS::CodePipeline::Pipeline
     Properties:
       ExecutionMode: "SUPERSEDED"

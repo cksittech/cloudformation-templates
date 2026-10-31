@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLightsailLoadbalancer:
+  CfnSampleLightsailLoadbalancer:
     Type: AWS::Lightsail::LoadBalancer
     Properties:
       AttachedInstances: []

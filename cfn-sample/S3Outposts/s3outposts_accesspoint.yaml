@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3outpostsAccesspoint:
+  CfnSampleS3outpostsAccesspoint:
     Type: AWS::S3Outposts::AccessPoint
     Properties:
       Bucket: ""

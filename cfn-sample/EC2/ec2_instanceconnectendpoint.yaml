@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Instanceconnectendpoint:
+  CfnSampleEc2Instanceconnectendpoint:
     Type: AWS::EC2::InstanceConnectEndpoint
     Properties:
       ClientToken: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleOpensearchserverlessSecuritypolicy:
+  CfnSampleOpensearchserverlessSecuritypolicy:
     Type: AWS::OpenSearchServerless::SecurityPolicy
     Properties:
       Description: ""

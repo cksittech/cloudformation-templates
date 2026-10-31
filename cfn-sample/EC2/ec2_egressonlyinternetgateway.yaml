@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Egressonlyinternetgateway:
+  CfnSampleEc2Egressonlyinternetgateway:
     Type: AWS::EC2::EgressOnlyInternetGateway
     Properties:
       VpcId: ""

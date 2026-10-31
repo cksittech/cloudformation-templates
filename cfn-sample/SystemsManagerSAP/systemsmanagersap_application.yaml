@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSystemsmanagersapApplication:
+  CfnSampleSystemsmanagersapApplication:
     Type: AWS::SystemsManagerSAP::Application
     Properties:
       ApplicationId: ""

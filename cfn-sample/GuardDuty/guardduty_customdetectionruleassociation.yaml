@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGuarddutyCustomdetectionruleassociation:
+  CfnSampleGuarddutyCustomdetectionruleassociation:
     Type: AWS::GuardDuty::CustomDetectionRuleAssociation
     Properties:
       Mode: ""

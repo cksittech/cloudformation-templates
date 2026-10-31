@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Localgatewayroute:
+  CfnSampleEc2Localgatewayroute:
     Type: AWS::EC2::LocalGatewayRoute
     Properties:
       DestinationCidrBlock: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSesVdmattributes:
+  CfnSampleSesVdmattributes:
     Type: AWS::SES::VdmAttributes
     Properties:
       DashboardAttributes:

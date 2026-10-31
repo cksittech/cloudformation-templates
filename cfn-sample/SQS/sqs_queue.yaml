@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSqsQueue:
+  CfnSampleSqsQueue:
     Type: AWS::SQS::Queue
     Properties:
       ContentBasedDeduplication: false

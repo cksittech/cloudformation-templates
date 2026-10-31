@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleQuicksightDashboard:
+  CfnSampleQuicksightDashboard:
     Type: AWS::QuickSight::Dashboard
     Properties:
       AwsAccountId: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleNetworkmanagerConnectpeer:
+  CfnSampleNetworkmanagerConnectpeer:
     Type: AWS::NetworkManager::ConnectPeer
     Properties:
       ConnectAttachmentId: ""

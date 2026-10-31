@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAcmpcaPermission:
+  CfnSampleAcmpcaPermission:
     Type: AWS::ACMPCA::Permission
     Properties:
       Actions: []

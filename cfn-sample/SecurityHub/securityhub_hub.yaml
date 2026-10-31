@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecurityhubHub:
+  CfnSampleSecurityhubHub:
     Type: AWS::SecurityHub::Hub
     Properties:
       AutoEnableControls: false

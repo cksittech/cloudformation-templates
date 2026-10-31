@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleKmsAlias:
+  CfnSampleKmsAlias:
     Type: AWS::KMS::Alias
     Properties:
       AliasName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleKinesisResourcepolicy:
+  CfnSampleKinesisResourcepolicy:
     Type: AWS::Kinesis::ResourcePolicy
     Properties:
       ResourceArn: ""

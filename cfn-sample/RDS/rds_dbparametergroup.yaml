@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRdsDbparametergroup:
+  CfnSampleRdsDbparametergroup:
     Type: AWS::RDS::DBParameterGroup
     Properties:
       DBParameterGroupName: ""

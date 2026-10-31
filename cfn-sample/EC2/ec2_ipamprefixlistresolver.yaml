@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Ipamprefixlistresolver:
+  CfnSampleEc2Ipamprefixlistresolver:
     Type: AWS::EC2::IPAMPrefixListResolver
     Properties:
       AddressFamily: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleStepfunctionsActivity:
+  CfnSampleStepfunctionsActivity:
     Type: AWS::StepFunctions::Activity
     Properties:
       Name: ""

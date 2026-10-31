@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleGreengrassGroup:
+  CfnSampleGreengrassGroup:
     Type: AWS::Greengrass::Group
     Properties:
       Name: ""

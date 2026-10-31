@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockDataautomationproject:
+  CfnSampleBedrockDataautomationproject:
     Type: AWS::Bedrock::DataAutomationProject
     Properties:
       KmsKeyId: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLicensemanagerLicense:
+  CfnSampleLicensemanagerLicense:
     Type: AWS::LicenseManager::License
     Properties:
       Beneficiary: ""

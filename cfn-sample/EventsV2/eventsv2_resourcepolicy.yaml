@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEventsv2Resourcepolicy:
+  CfnSampleEventsv2Resourcepolicy:
     Type: AWS::EventsV2::ResourcePolicy
     Properties:
       EventBusArn: ""

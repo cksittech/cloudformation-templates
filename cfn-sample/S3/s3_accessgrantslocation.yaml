@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3Accessgrantslocation:
+  CfnSampleS3Accessgrantslocation:
     Type: AWS::S3::AccessGrantsLocation
     Properties:
       IamRoleArn: ""

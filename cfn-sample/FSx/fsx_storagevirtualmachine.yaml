@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleFsxStoragevirtualmachine:
+  CfnSampleFsxStoragevirtualmachine:
     Type: AWS::FSx::StorageVirtualMachine
     Properties:
       FileSystemId: ""

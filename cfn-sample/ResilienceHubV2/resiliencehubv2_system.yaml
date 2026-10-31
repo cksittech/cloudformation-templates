@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleResiliencehubv2System:
+  CfnSampleResiliencehubv2System:
     Type: AWS::ResilienceHubV2::System
     Properties:
       Description: ""

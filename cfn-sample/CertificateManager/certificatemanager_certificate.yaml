@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCertificatemanagerCertificate:
+  CfnSampleCertificatemanagerCertificate:
     Type: AWS::CertificateManager::Certificate
     Properties:
       CertificateAuthorityArn: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEfsFilesystem:
+  CfnSampleEfsFilesystem:
     Type: AWS::EFS::FileSystem
     Properties:
       AvailabilityZoneName: ""

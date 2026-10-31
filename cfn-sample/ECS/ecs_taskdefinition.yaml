@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEcsTaskdefinition:
+  CfnSampleEcsTaskdefinition:
     Type: AWS::ECS::TaskDefinition
     Properties:
       Cpu: ""

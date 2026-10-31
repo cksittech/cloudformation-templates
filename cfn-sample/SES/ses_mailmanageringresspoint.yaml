@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSesMailmanageringresspoint:
+  CfnSampleSesMailmanageringresspoint:
     Type: AWS::SES::MailManagerIngressPoint
     Properties:
       IngressPointName: ""

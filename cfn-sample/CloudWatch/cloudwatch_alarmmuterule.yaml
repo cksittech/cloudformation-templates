@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudwatchAlarmmuterule:
+  CfnSampleCloudwatchAlarmmuterule:
     Type: AWS::CloudWatch::AlarmMuteRule
     Properties:
       Description: ""

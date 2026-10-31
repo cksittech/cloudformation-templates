@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleControltowerEnabledcontrol:
+  CfnSampleControltowerEnabledcontrol:
     Type: AWS::ControlTower::EnabledControl
     Properties:
       ControlIdentifier: ""

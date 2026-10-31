@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRekognitionStreamprocessor:
+  CfnSampleRekognitionStreamprocessor:
     Type: AWS::Rekognition::StreamProcessor
     Properties:
       KmsKeyId: ""

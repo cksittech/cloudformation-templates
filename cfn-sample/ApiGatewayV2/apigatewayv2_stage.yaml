@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApigatewayv2Stage:
+  CfnSampleApigatewayv2Stage:
     Type: AWS::ApiGatewayV2::Stage
     Properties:
       ApiId: ""

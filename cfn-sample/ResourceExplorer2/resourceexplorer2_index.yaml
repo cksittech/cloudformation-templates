@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleResourceexplorer2Index:
+  CfnSampleResourceexplorer2Index:
     Type: AWS::ResourceExplorer2::Index
     Properties:
       Type: ""

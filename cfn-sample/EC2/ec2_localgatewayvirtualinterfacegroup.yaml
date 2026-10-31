@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Localgatewayvirtualinterfacegroup:
+  CfnSampleEc2Localgatewayvirtualinterfacegroup:
     Type: AWS::EC2::LocalGatewayVirtualInterfaceGroup
     Properties:
       LocalBgpAsn: 0

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53Healthcheck:
+  CfnSampleRoute53Healthcheck:
     Type: AWS::Route53::HealthCheck
     Properties:
       HealthCheckConfig:

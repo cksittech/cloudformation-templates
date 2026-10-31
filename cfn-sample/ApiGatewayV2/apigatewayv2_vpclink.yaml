@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApigatewayv2Vpclink:
+  CfnSampleApigatewayv2Vpclink:
     Type: AWS::ApiGatewayV2::VpcLink
     Properties:
       Name: ""

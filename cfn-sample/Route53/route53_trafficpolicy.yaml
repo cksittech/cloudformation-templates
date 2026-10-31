@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53Trafficpolicy:
+  CfnSampleRoute53Trafficpolicy:
     Type: AWS::Route53::TrafficPolicy
     Properties:
       Comment: ""

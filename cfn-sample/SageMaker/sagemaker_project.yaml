@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSagemakerProject:
+  CfnSampleSagemakerProject:
     Type: AWS::SageMaker::Project
     Properties:
       ProjectDescription: ""

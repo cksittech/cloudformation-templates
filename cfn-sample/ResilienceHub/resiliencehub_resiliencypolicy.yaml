@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleResiliencehubResiliencypolicy:
+  CfnSampleResiliencehubResiliencypolicy:
     Type: AWS::ResilienceHub::ResiliencyPolicy
     Properties:
       DataLocationConstraint: ""

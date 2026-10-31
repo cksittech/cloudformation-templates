@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Natgateway:
+  CfnSampleEc2Natgateway:
     Type: AWS::EC2::NatGateway
     Properties:
       AllocationId: ""

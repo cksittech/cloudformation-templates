@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIotsitewiseGateway:
+  CfnSampleIotsitewiseGateway:
     Type: AWS::IoTSiteWise::Gateway
     Properties:
       GatewayName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SamplePcaconnectorscepConnector:
+  CfnSamplePcaconnectorscepConnector:
     Type: AWS::PCAConnectorSCEP::Connector
     Properties:
       CertificateAuthorityArn: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSsmResourcepolicy:
+  CfnSampleSsmResourcepolicy:
     Type: AWS::SSM::ResourcePolicy
     Properties:
       ResourceArn: ""

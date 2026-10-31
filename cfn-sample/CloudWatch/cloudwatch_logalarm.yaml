@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudwatchLogalarm:
+  CfnSampleCloudwatchLogalarm:
     Type: AWS::CloudWatch::LogAlarm
     Properties:
       ActionLogLineCount: 0

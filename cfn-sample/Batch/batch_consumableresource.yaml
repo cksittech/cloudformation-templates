@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBatchConsumableresource:
+  CfnSampleBatchConsumableresource:
     Type: AWS::Batch::ConsumableResource
     Properties:
       ConsumableResourceName: ""

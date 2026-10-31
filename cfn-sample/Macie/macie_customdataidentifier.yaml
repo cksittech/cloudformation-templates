@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMacieCustomdataidentifier:
+  CfnSampleMacieCustomdataidentifier:
     Type: AWS::Macie::CustomDataIdentifier
     Properties:
       Description: ""

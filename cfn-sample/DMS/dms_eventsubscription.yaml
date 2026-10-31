@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDmsEventsubscription:
+  CfnSampleDmsEventsubscription:
     Type: AWS::DMS::EventSubscription
     Properties:
       Enabled: false

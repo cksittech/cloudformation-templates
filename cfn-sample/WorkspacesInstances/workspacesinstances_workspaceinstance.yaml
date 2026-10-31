@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWorkspacesinstancesWorkspaceinstance:
+  CfnSampleWorkspacesinstancesWorkspaceinstance:
     Type: AWS::WorkspacesInstances::WorkspaceInstance
     Properties:
       ManagedInstance:

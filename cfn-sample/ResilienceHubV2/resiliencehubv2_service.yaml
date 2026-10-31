@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleResiliencehubv2Service:
+  CfnSampleResiliencehubv2Service:
     Type: AWS::ResilienceHubV2::Service
     Properties:
       DependencyDiscovery: ""

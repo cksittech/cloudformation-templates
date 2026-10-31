@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecurityagentApplication:
+  CfnSampleSecurityagentApplication:
     Type: AWS::SecurityAgent::Application
     Properties:
       DefaultKmsKeyId: ""

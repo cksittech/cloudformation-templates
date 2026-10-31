@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleKinesisanalyticsv2Application:
+  CfnSampleKinesisanalyticsv2Application:
     Type: AWS::KinesisAnalyticsV2::Application
     Properties:
       ApplicationDescription: ""

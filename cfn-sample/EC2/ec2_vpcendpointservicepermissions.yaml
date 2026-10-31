@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Vpcendpointservicepermissions:
+  CfnSampleEc2Vpcendpointservicepermissions:
     Type: AWS::EC2::VPCEndpointServicePermissions
     Properties:
       AllowedPrincipals: []

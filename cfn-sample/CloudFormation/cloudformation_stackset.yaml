@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationStackset:
+  CfnSampleCloudformationStackset:
     Type: AWS::CloudFormation::StackSet
     Properties:
       AdministrationRoleARN: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMacieAllowlist:
+  CfnSampleMacieAllowlist:
     Type: AWS::Macie::AllowList
     Properties:
       Description: ""

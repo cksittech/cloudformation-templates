@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSecurityagentTargetdomain:
+  CfnSampleSecurityagentTargetdomain:
     Type: AWS::SecurityAgent::TargetDomain
     Properties:
       TargetDomainName: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleAmazonmqConfiguration:
+  CfnSampleAmazonmqConfiguration:
     Type: AWS::AmazonMQ::Configuration
     Properties:
       AuthenticationStrategy: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleApigatewayModel:
+  CfnSampleApigatewayModel:
     Type: AWS::ApiGateway::Model
     Properties:
       ContentType: ""

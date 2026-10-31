@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBatchJobqueue:
+  CfnSampleBatchJobqueue:
     Type: AWS::Batch::JobQueue
     Properties:
       JobQueueName: ""

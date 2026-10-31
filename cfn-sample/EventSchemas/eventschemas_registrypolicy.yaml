@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEventschemasRegistrypolicy:
+  CfnSampleEventschemasRegistrypolicy:
     Type: AWS::EventSchemas::RegistryPolicy
     Properties:
       RegistryName: ""

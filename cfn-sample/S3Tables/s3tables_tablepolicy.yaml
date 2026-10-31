@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleS3tablesTablepolicy:
+  CfnSampleS3tablesTablepolicy:
     Type: AWS::S3Tables::TablePolicy
     Properties:
       TableARN: ""

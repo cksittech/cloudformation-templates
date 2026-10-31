@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDatazoneEnvironmentactions:
+  CfnSampleDatazoneEnvironmentactions:
     Type: AWS::DataZone::EnvironmentActions
     Properties:
       Description: ""

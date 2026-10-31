@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleUxcAccountcustomization:
+  CfnSampleUxcAccountcustomization:
     Type: AWS::UXC::AccountCustomization
     Properties:
       AccountColor: ""

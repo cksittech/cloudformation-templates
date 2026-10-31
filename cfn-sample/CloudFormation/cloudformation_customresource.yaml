@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationCustomresource:
+  CfnSampleCloudformationCustomresource:
     Type: AWS::CloudFormation::CustomResource
     Properties:
       ServiceTimeout: 0

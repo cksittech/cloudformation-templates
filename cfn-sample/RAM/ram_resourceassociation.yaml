@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRamResourceassociation:
+  CfnSampleRamResourceassociation:
     Type: AWS::RAM::ResourceAssociation
     Properties:
       ResourceArn: ""

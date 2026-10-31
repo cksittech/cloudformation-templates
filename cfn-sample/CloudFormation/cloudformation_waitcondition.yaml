@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudformationWaitcondition:
+  CfnSampleCloudformationWaitcondition:
     Type: AWS::CloudFormation::WaitCondition
     Properties:
       Count: 0

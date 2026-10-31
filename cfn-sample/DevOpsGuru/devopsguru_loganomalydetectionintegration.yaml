@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleDevopsguruLoganomalydetectionintegration:
+  CfnSampleDevopsguruLoganomalydetectionintegration:
     Type: AWS::DevOpsGuru::LogAnomalyDetectionIntegration
     Properties: {}

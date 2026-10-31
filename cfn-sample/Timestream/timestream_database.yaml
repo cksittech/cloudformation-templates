@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleTimestreamDatabase:
+  CfnSampleTimestreamDatabase:
     Type: AWS::Timestream::Database
     Properties:
       DatabaseName: ""

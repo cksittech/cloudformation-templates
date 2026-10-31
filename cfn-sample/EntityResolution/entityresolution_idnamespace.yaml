@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEntityresolutionIdnamespace:
+  CfnSampleEntityresolutionIdnamespace:
     Type: AWS::EntityResolution::IdNamespace
     Properties:
       Description: ""

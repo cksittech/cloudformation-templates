@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleIvsPublickey:
+  CfnSampleIvsPublickey:
     Type: AWS::IVS::PublicKey
     Properties:
       Name: ""

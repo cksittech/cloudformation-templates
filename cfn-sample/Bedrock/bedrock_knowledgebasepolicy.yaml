@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleBedrockKnowledgebasepolicy:
+  CfnSampleBedrockKnowledgebasepolicy:
     Type: AWS::Bedrock::KnowledgeBasePolicy
     Properties:
       KnowledgeBaseId: ""

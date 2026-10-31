@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleRoute53resolverResolverconfig:
+  CfnSampleRoute53resolverResolverconfig:
     Type: AWS::Route53Resolver::ResolverConfig
     Properties:
       AutodefinedReverseFlag: ""

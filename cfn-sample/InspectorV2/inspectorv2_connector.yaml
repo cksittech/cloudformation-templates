@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleInspectorv2Connector:
+  CfnSampleInspectorv2Connector:
     Type: AWS::InspectorV2::Connector
     Properties:
       Description: ""

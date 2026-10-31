@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLocationTrackerconsumer:
+  CfnSampleLocationTrackerconsumer:
     Type: AWS::Location::TrackerConsumer
     Properties:
       ConsumerArn: ""

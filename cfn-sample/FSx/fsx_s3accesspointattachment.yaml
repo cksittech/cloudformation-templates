@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleFsxS3accesspointattachment:
+  CfnSampleFsxS3accesspointattachment:
     Type: AWS::FSx::S3AccessPointAttachment
     Properties:
       Name: ""

@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Placementgroup:
+  CfnSampleEc2Placementgroup:
     Type: AWS::EC2::PlacementGroup
     Properties:
       ParentGroupId: ""

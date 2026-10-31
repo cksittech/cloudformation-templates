@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMediaconnectFlowmediastream:
+  CfnSampleMediaconnectFlowmediastream:
     Type: AWS::MediaConnect::FlowMediaStream
     Properties:
       ClockRate: 0

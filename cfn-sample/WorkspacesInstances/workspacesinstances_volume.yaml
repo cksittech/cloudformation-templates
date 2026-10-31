@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleWorkspacesinstancesVolume:
+  CfnSampleWorkspacesinstancesVolume:
     Type: AWS::WorkspacesInstances::Volume
     Properties:
       AvailabilityZone: ""

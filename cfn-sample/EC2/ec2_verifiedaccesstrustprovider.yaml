@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleEc2Verifiedaccesstrustprovider:
+  CfnSampleEc2Verifiedaccesstrustprovider:
     Type: AWS::EC2::VerifiedAccessTrustProvider
     Properties:
       Description: ""

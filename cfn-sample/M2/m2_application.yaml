@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleM2Application:
+  CfnSampleM2Application:
     Type: AWS::M2::Application
     Properties:
       Description: ""

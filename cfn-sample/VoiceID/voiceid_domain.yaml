@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleVoiceidDomain:
+  CfnSampleVoiceidDomain:
     Type: AWS::VoiceID::Domain
     Properties:
       Description: ""

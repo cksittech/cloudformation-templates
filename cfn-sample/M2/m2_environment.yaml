@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleM2Environment:
+  CfnSampleM2Environment:
     Type: AWS::M2::Environment
     Properties:
       Description: ""

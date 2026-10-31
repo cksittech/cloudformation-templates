@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCloudwatchMetricstream:
+  CfnSampleCloudwatchMetricstream:
     Type: AWS::CloudWatch::MetricStream
     Properties:
       FirehoseArn: ""

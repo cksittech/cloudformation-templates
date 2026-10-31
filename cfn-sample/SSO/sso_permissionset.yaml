@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleSsoPermissionset:
+  CfnSampleSsoPermissionset:
     Type: AWS::SSO::PermissionSet
     Properties:
       Description: ""

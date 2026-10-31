@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleLightsailDisksnapshot:
+  CfnSampleLightsailDisksnapshot:
     Type: AWS::Lightsail::DiskSnapshot
     Properties:
       DiskName: ""

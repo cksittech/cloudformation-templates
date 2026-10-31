@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleOpensearchserverlessCollectionindex:
+  CfnSampleOpensearchserverlessCollectionindex:
     Type: AWS::OpenSearchServerless::CollectionIndex
     Properties:
       Id: ""

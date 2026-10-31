@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleCodeguruprofilerProfilinggroup:
+  CfnSampleCodeguruprofilerProfilinggroup:
     Type: AWS::CodeGuruProfiler::ProfilingGroup
     Properties:
       ComputePlatform: ""

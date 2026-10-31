@@ -1,7 +1,7 @@
 AWSTemplateFormatVersion: "2010-09-09"
 
 Resources:
-  SampleMacieMember:
+  CfnSampleMacieMember:
     Type: AWS::Macie::Member
     Properties:
       AccountId: ""
