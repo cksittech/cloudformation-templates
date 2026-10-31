@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinsightsaccessscopeanalysis:
+    Type: AWS::EC2::NetworkInsightsAccessScopeAnalysis
+    Properties:
+      NetworkInsightsAccessScopeId: ""
+      Tags:
+        - Key: ""
+          Value: ""

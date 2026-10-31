@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafv2Webaclassociation:
+    Type: AWS::WAFv2::WebACLAssociation
+    Properties:
+      ResourceArn: ""
+      WebACLArn: ""

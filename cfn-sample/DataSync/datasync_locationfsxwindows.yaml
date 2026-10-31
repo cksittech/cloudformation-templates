@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationfsxwindows:
+    Type: AWS::DataSync::LocationFSxWindows
+    Properties:
+      Domain: ""
+      FsxFilesystemArn: ""
+      Password: ""
+      SecurityGroupArns: []
+      Subdirectory: ""
+      User: ""
+      CmkSecretConfig:
+        KmsKeyArn: ""
+      CustomSecretConfig:
+        SecretAccessRoleArn: ""
+        SecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

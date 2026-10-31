@@ -1,0 +1,91 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAcmpcaCertificateauthority:
+    Type: AWS::ACMPCA::CertificateAuthority
+    Properties:
+      KeyAlgorithm: ""
+      KeyStorageSecurityStandard: ""
+      SigningAlgorithm: ""
+      Type: ""
+      UsageMode: ""
+      CsrExtensions:
+        KeyUsage:
+          CRLSign: false
+          DataEncipherment: false
+          DecipherOnly: false
+          DigitalSignature: false
+          EncipherOnly: false
+          KeyAgreement: false
+          KeyCertSign: false
+          KeyEncipherment: false
+          NonRepudiation: false
+        SubjectInformationAccess:
+          - AccessLocation:
+              DnsName: ""
+              IpAddress: ""
+              RegisteredId: ""
+              Rfc822Name: ""
+              UniformResourceIdentifier: ""
+              DirectoryName:
+                CommonName: ""
+                Country: ""
+                DistinguishedNameQualifier: ""
+                GenerationQualifier: ""
+                GivenName: ""
+                Initials: ""
+                Locality: ""
+                Organization: ""
+                OrganizationalUnit: ""
+                Pseudonym: ""
+                SerialNumber: ""
+                State: ""
+                Surname: ""
+                Title: ""
+                CustomAttributes:
+                  - ObjectIdentifier: ""
+                    Value: ""
+              EdiPartyName:
+                NameAssigner: ""
+                PartyName: ""
+              OtherName:
+                TypeId: ""
+                Value: ""
+            AccessMethod:
+              AccessMethodType: ""
+              CustomObjectIdentifier: ""
+      RevocationConfiguration:
+        CrlConfiguration:
+          CrlType: ""
+          CustomCname: ""
+          CustomPath: ""
+          Enabled: false
+          ExpirationInDays: 0
+          S3BucketName: ""
+          S3ObjectAcl: ""
+          CrlDistributionPointExtensionConfiguration:
+            OmitExtension: false
+        OcspConfiguration:
+          Enabled: false
+          OcspCustomCname: ""
+      Subject:
+        CommonName: ""
+        Country: ""
+        DistinguishedNameQualifier: ""
+        GenerationQualifier: ""
+        GivenName: ""
+        Initials: ""
+        Locality: ""
+        Organization: ""
+        OrganizationalUnit: ""
+        Pseudonym: ""
+        SerialNumber: ""
+        State: ""
+        Surname: ""
+        Title: ""
+        CustomAttributes:
+          - ObjectIdentifier: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchLogalarm:
+    Type: AWS::CloudWatch::LogAlarm
+    Properties:
+      ActionLogLineCount: 0
+      ActionLogLineRoleArn: ""
+      ActionsEnabled: true
+      AlarmActions: []
+      AlarmDescription: ""
+      AlarmName: ""
+      ComparisonOperator: ""
+      InsufficientDataActions: []
+      OKActions: []
+      QueryResultsToAlarm: 0
+      QueryResultsToEvaluate: 0
+      Threshold: 0
+      TreatMissingData: ""
+      ActionConfiguration:
+        AlarmTagsPropagation:
+          Enabled: false
+          ExcludedTagKeys: []
+          IncludedTagKeys: []
+      ScheduledQueryConfiguration:
+        AggregationExpression: ""
+        LogGroupIdentifiers: []
+        QueryString: ""
+        ScheduledQueryRoleARN: ""
+        ScheduleConfiguration:
+          EndTimeOffset: 0
+          ScheduleExpression: ""
+          StartTimeOffset: 0
+        Tags:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WarmUpConfiguration:
+        OnlyStartEvaluatingAfterWarmUpPeriodEnds: false
+        WarmUpPeriodDurationInMinutes: 0

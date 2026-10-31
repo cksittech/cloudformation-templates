@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsPublickey:
+    Type: AWS::IVS::PublicKey
+    Properties:
+      Name: ""
+      PublicKeyMaterial: ""
+      Tags:
+        - Key: ""
+          Value: ""

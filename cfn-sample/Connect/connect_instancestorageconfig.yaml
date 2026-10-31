@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectInstancestorageconfig:
+    Type: AWS::Connect::InstanceStorageConfig
+    Properties:
+      InstanceArn: ""
+      ResourceType: ""
+      StorageType: ""
+      KinesisFirehoseConfig:
+        FirehoseArn: ""
+      KinesisStreamConfig:
+        StreamArn: ""
+      KinesisVideoStreamConfig:
+        Prefix: ""
+        RetentionPeriodHours: 0
+        EncryptionConfig:
+          EncryptionType: ""
+          KeyId: ""
+      S3Config:
+        BucketName: ""
+        BucketPrefix: ""
+        EncryptionConfig:
+          EncryptionType: ""
+          KeyId: ""

@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsReplicationconfig:
+    Type: AWS::DMS::ReplicationConfig
+    Properties:
+      ReplicationConfigIdentifier: ""
+      ReplicationType: ""
+      ResourceIdentifier: ""
+      SourceEndpointArn: ""
+      TargetEndpointArn: ""
+      ComputeConfig:
+        AvailabilityZone: ""
+        DnsNameServers: ""
+        KmsKeyId: ""
+        MaxCapacityUnits: 0
+        MinCapacityUnits: 0
+        MultiAZ: false
+        PreferredMaintenanceWindow: ""
+        ReplicationSubnetGroupId: ""
+        VpcSecurityGroupIds: []
+      ReplicationSettings: {}
+      SupplementalSettings: {}
+      TableMappings: {}
+      Tags:
+        - Key: ""
+          Value: ""

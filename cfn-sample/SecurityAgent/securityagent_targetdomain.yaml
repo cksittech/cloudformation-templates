@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityagentTargetdomain:
+    Type: AWS::SecurityAgent::TargetDomain
+    Properties:
+      TargetDomainName: ""
+      VerificationMethod: ""
+      Tags:
+        - Key: ""
+          Value: ""

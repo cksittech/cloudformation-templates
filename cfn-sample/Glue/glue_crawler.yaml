@@ -1,0 +1,66 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueCrawler:
+    Type: AWS::Glue::Crawler
+    Properties:
+      Classifiers: []
+      Configuration: ""
+      CrawlerSecurityConfiguration: ""
+      DatabaseName: ""
+      Description: ""
+      Name: ""
+      Role: ""
+      TablePrefix: ""
+      LakeFormationConfiguration:
+        AccountId: ""
+        UseLakeFormationCredentials: false
+      RecrawlPolicy:
+        RecrawlBehavior: ""
+      Schedule:
+        ScheduleExpression: ""
+      SchemaChangePolicy:
+        DeleteBehavior: ""
+        UpdateBehavior: ""
+      Tags: {}
+      Targets:
+        CatalogTargets:
+          - ConnectionName: ""
+            DatabaseName: ""
+            DlqEventQueueArn: ""
+            EventQueueArn: ""
+            Tables: []
+        DeltaTargets:
+          - ConnectionName: ""
+            CreateNativeDeltaTable: false
+            DeltaTables: []
+            WriteManifest: false
+        DynamoDBTargets:
+          - Path: ""
+            ScanAll: false
+            ScanRate: 0
+        HudiTargets:
+          - ConnectionName: ""
+            Exclusions: []
+            MaximumTraversalDepth: 0
+            Paths: []
+        IcebergTargets:
+          - ConnectionName: ""
+            Exclusions: []
+            MaximumTraversalDepth: 0
+            Paths: []
+        JdbcTargets:
+          - ConnectionName: ""
+            EnableAdditionalMetadata: []
+            Exclusions: []
+            Path: ""
+        MongoDBTargets:
+          - ConnectionName: ""
+            Path: ""
+        S3Targets:
+          - ConnectionName: ""
+            DlqEventQueueArn: ""
+            EventQueueArn: ""
+            Exclusions: []
+            Path: ""
+            SampleSize: 0

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleChimeSipmediaapplication:
+    Type: AWS::Chime::SipMediaApplication
+    Properties:
+      AwsRegion: ""
+      Name: ""
+      Endpoints:
+        - LambdaArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

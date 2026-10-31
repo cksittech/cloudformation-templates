@@ -1,0 +1,616 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafv2Webacl:
+    Type: AWS::WAFv2::WebACL
+    Properties:
+      Description: ""
+      Name: ""
+      Scope: ""
+      TokenDomains: []
+      ApplicationConfig:
+        Attributes:
+          - Name: ""
+            Values: []
+      AssociationConfig:
+        RequestBody: {}
+      CaptchaConfig:
+        ImmunityTimeProperty:
+          ImmunityTime: 0
+      ChallengeConfig:
+        ImmunityTimeProperty:
+          ImmunityTime: 0
+      CustomResponseBodies: {}
+      DataProtectionConfig:
+        DataProtections:
+          - Action: ""
+            ExcludeRateBasedDetails: false
+            ExcludeRuleMatchDetails: false
+            Field:
+              FieldKeys: []
+              FieldType: ""
+      DefaultAction:
+        Allow:
+          CustomRequestHandling:
+            InsertHeaders:
+              - Name: ""
+                Value: ""
+        Block:
+          CustomResponse:
+            CustomResponseBodyKey: ""
+            ResponseCode: 0
+            ResponseHeaders:
+              - Name: ""
+                Value: ""
+      MonetizationConfig:
+        CurrencyMode: ""
+        CryptoConfig:
+          PaymentNetworks:
+            - Chain: ""
+              WalletAddress: ""
+              Prices:
+                - Amount: ""
+                  Currency: ""
+      OnSourceDDoSProtectionConfig:
+        ALBLowReputationMode: ""
+      Rules:
+        - Name: ""
+          Priority: 0
+          Action:
+            Allow:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Block:
+              CustomResponse:
+                CustomResponseBodyKey: ""
+                ResponseCode: 0
+                ResponseHeaders:
+                  - Name: ""
+                    Value: ""
+            Captcha:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Challenge:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Count:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Monetize:
+              PriceMultiplier: ""
+          CaptchaConfig:
+            ImmunityTimeProperty:
+              ImmunityTime: 0
+          ChallengeConfig:
+            ImmunityTimeProperty:
+              ImmunityTime: 0
+          OverrideAction:
+            Count: {}
+            None: {}
+          RuleLabels:
+            - Name: ""
+          Statement:
+            AndStatement:
+              Statements: []
+            AsnMatchStatement:
+              AsnList: []
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+            ByteMatchStatement:
+              PositionalConstraint: ""
+              SearchString: ""
+              SearchStringBase64: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            GeoMatchStatement:
+              CountryCodes: []
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+            IPSetReferenceStatement:
+              Arn: ""
+              IPSetForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+                Position: ""
+            LabelMatchStatement:
+              Key: ""
+              Scope: ""
+            ManagedRuleGroupStatement:
+              Name: ""
+              VendorName: ""
+              Version: ""
+              ExcludedRules:
+                - Name: ""
+              ManagedRuleGroupConfigs:
+                - LoginPath: ""
+                  PayloadType: ""
+                  AWSManagedRulesACFPRuleSet:
+                    CreationPath: ""
+                    EnableRegexInPath: false
+                    RegistrationPagePath: ""
+                    RequestInspection:
+                      PayloadType: ""
+                      AddressFields:
+                        - Identifier: ""
+                      EmailField:
+                        Identifier: ""
+                      PasswordField:
+                        Identifier: ""
+                      PhoneNumberFields:
+                        - Identifier: ""
+                      UsernameField:
+                        Identifier: ""
+                    ResponseInspection:
+                      BodyContains:
+                        FailureStrings: []
+                        SuccessStrings: []
+                      Header:
+                        FailureValues: []
+                        Name: ""
+                        SuccessValues: []
+                      Json:
+                        FailureValues: []
+                        Identifier: ""
+                        SuccessValues: []
+                      StatusCode:
+                        FailureCodes: []
+                        SuccessCodes: []
+                  AWSManagedRulesATPRuleSet:
+                    EnableRegexInPath: false
+                    LoginPath: ""
+                    RequestInspection:
+                      PayloadType: ""
+                      PasswordField:
+                        Identifier: ""
+                      UsernameField:
+                        Identifier: ""
+                    ResponseInspection:
+                      BodyContains:
+                        FailureStrings: []
+                        SuccessStrings: []
+                      Header:
+                        FailureValues: []
+                        Name: ""
+                        SuccessValues: []
+                      Json:
+                        FailureValues: []
+                        Identifier: ""
+                        SuccessValues: []
+                      StatusCode:
+                        FailureCodes: []
+                        SuccessCodes: []
+                  AWSManagedRulesAntiDDoSRuleSet:
+                    SensitivityToBlock: ""
+                    ClientSideActionConfig:
+                      Challenge:
+                        Sensitivity: ""
+                        UsageOfAction: ""
+                        ExemptUriRegularExpressions:
+                          - RegexString: ""
+                  AWSManagedRulesBotControlRuleSet:
+                    EnableMachineLearning: false
+                    InspectionLevel: ""
+                  PasswordField:
+                    Identifier: ""
+                  UsernameField:
+                    Identifier: ""
+              RuleActionOverrides:
+                - Name: ""
+                  ActionToUse:
+                    Allow:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Block:
+                      CustomResponse:
+                        CustomResponseBodyKey: ""
+                        ResponseCode: 0
+                        ResponseHeaders:
+                          - Name: ""
+                            Value: ""
+                    Captcha:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Challenge:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Count:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Monetize:
+                      PriceMultiplier: ""
+              ScopeDownStatement: {}
+            NotStatement:
+              Statement: {}
+            OrStatement:
+              Statements: []
+            RateBasedStatement:
+              AggregateKeyType: ""
+              EvaluationWindowSec: 0
+              Limit: 0
+              CustomKeys:
+                - ASN: {}
+                  Cookie:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  ForwardedIP: {}
+                  HTTPMethod: {}
+                  Header:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  IP: {}
+                  JA3Fingerprint:
+                    FallbackBehavior: ""
+                  JA4Fingerprint:
+                    FallbackBehavior: ""
+                  LabelNamespace:
+                    Namespace: ""
+                  QueryArgument:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  QueryString:
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  UriPath:
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+              ScopeDownStatement: {}
+            RegexMatchStatement:
+              RegexString: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            RegexPatternSetReferenceStatement:
+              Arn: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            RuleGroupReferenceStatement:
+              Arn: ""
+              ExcludedRules:
+                - Name: ""
+              RuleActionOverrides:
+                - Name: ""
+                  ActionToUse:
+                    Allow:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Block:
+                      CustomResponse:
+                        CustomResponseBodyKey: ""
+                        ResponseCode: 0
+                        ResponseHeaders:
+                          - Name: ""
+                            Value: ""
+                    Captcha:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Challenge:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Count:
+                      CustomRequestHandling:
+                        InsertHeaders:
+                          - Name: ""
+                            Value: ""
+                    Monetize:
+                      PriceMultiplier: ""
+            SizeConstraintStatement:
+              ComparisonOperator: ""
+              Size: 0
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            SqliMatchStatement:
+              SensitivityLevel: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            XssMatchStatement:
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+          VisibilityConfig:
+            CloudWatchMetricsEnabled: false
+            MetricName: ""
+            SampledRequestsEnabled: false
+      Tags:
+        - Key: ""
+          Value: ""
+      VisibilityConfig:
+        CloudWatchMetricsEnabled: false
+        MetricName: ""
+        SampledRequestsEnabled: false

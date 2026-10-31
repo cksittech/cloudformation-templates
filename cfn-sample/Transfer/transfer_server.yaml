@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferServer:
+    Type: AWS::Transfer::Server
+    Properties:
+      Certificate: ""
+      CreateWithHostKey: false
+      Domain: ""
+      EndpointType: ""
+      IdentityProviderType: ""
+      IpAddressType: ""
+      LoggingRole: ""
+      PostAuthenticationLoginBanner: ""
+      PreAuthenticationLoginBanner: ""
+      Protocols: []
+      SecurityPolicyName: ""
+      StructuredLogDestinations: []
+      EndpointDetails:
+        AddressAllocationIds: []
+        SecurityGroupIds: []
+        SubnetIds: []
+        VpcEndpointId: ""
+        VpcId: ""
+      IdentityProviderDetails:
+        DirectoryId: ""
+        Function: ""
+        InvocationRole: ""
+        SftpAuthenticationMethods: ""
+        Url: ""
+      ProtocolDetails:
+        As2Transports: []
+        PassiveIp: ""
+        SetStatOption: ""
+        TlsSessionResumptionMode: ""
+        ProxyConfig:
+          SftpMode: ""
+      S3StorageOptions:
+        DirectoryListingOptimization: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkflowDetails:
+        OnPartialUpload:
+          - ExecutionRole: ""
+            WorkflowId: ""
+        OnUpload:
+          - ExecutionRole: ""
+            WorkflowId: ""

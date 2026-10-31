@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Integration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      ApiId: ""
+      ConnectionId: ""
+      ConnectionType: ""
+      ContentHandlingStrategy: ""
+      CredentialsArn: ""
+      Description: ""
+      IntegrationMethod: ""
+      IntegrationSubtype: ""
+      IntegrationType: ""
+      IntegrationUri: ""
+      PassthroughBehavior: ""
+      PayloadFormatVersion: ""
+      TemplateSelectionExpression: ""
+      TimeoutInMillis: 0
+      RequestParameters: {}
+      RequestTemplates: {}
+      ResponseParameters: {}
+      TlsConfig:
+        ServerNameToVerify: ""

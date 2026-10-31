@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubApp:
+    Type: AWS::ResilienceHub::App
+    Properties:
+      AppAssessmentSchedule: ""
+      AppTemplateBody: ""
+      Description: ""
+      Name: ""
+      ResiliencyPolicyArn: ""
+      EventSubscriptions:
+        - EventType: ""
+          Name: ""
+          SnsTopicArn: ""
+      PermissionModel:
+        CrossAccountRoleArns: []
+        InvokerRoleName: ""
+        Type: ""
+      ResourceMappings:
+        - EksSourceName: ""
+          LogicalStackName: ""
+          MappingType: ""
+          ResourceName: ""
+          TerraformSourceName: ""
+          PhysicalResourceId:
+            AwsAccountId: ""
+            AwsRegion: ""
+            Identifier: ""
+            Type: ""
+      Tags: {}

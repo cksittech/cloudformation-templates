@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsScheduledquery:
+    Type: AWS::Logs::ScheduledQuery
+    Properties:
+      Description: ""
+      ExecutionRoleArn: ""
+      LogGroupIdentifiers: []
+      Name: ""
+      QueryLanguage: ""
+      QueryString: ""
+      ScheduleEndTime: 0
+      ScheduleExpression: ""
+      ScheduleStartTime: 0
+      StartTimeOffset: 0
+      State: ""
+      Timezone: ""
+      DestinationConfiguration:
+        S3Configuration:
+          DestinationIdentifier: ""
+          RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

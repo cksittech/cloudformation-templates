@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightVpcconnection:
+    Type: AWS::QuickSight::VPCConnection
+    Properties:
+      AvailabilityStatus: ""
+      AwsAccountId: ""
+      DnsResolvers: []
+      Name: ""
+      RoleArn: ""
+      SecurityGroupIds: []
+      SubnetIds: []
+      VPCConnectionId: ""
+      Tags:
+        - Key: ""
+          Value: ""

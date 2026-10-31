@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesContactlist:
+    Type: AWS::SES::ContactList
+    Properties:
+      ContactListName: ""
+      Description: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Topics:
+        - DefaultSubscriptionStatus: ""
+          Description: ""
+          DisplayName: ""
+          TopicName: ""

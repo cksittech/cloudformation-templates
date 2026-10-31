@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchAnomalydetector:
+    Type: AWS::CloudWatch::AnomalyDetector
+    Properties:
+      MetricName: ""
+      Namespace: ""
+      Stat: ""
+      Configuration:
+        MetricTimeZone: ""
+        ExcludedTimeRanges:
+          - EndTime: ""
+            StartTime: ""
+      Dimensions:
+        - Name: ""
+          Value: ""
+      MetricCharacteristics:
+        PeriodicSpikes: false
+      MetricMathAnomalyDetector:
+        MetricDataQueries:
+          - AccountId: ""
+            Expression: ""
+            Id: ""
+            Label: ""
+            Period: 0
+            ReturnData: false
+            MetricStat:
+              Period: 0
+              Stat: ""
+              Unit: ""
+              Metric:
+                MetricName: ""
+                Namespace: ""
+                Dimensions:
+                  - Name: ""
+                    Value: ""
+      SingleMetricAnomalyDetector:
+        AccountId: ""
+        MetricName: ""
+        Namespace: ""
+        Stat: ""
+        Dimensions:
+          - Name: ""
+            Value: ""

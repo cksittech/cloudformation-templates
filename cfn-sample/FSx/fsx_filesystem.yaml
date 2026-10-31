@@ -1,0 +1,118 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxFilesystem:
+    Type: AWS::FSx::FileSystem
+    Properties:
+      BackupId: ""
+      FileSystemType: ""
+      FileSystemTypeVersion: ""
+      KmsKeyId: ""
+      NetworkType: ""
+      SecurityGroupIds: []
+      StorageCapacity: 0
+      StorageType: ""
+      SubnetIds: []
+      LustreConfiguration:
+        AutoImportPolicy: ""
+        AutomaticBackupRetentionDays: 0
+        CopyTagsToBackups: false
+        DailyAutomaticBackupStartTime: ""
+        DataCompressionType: ""
+        DeploymentType: ""
+        DriveCacheType: ""
+        EfaEnabled: false
+        ExportPath: ""
+        ImportPath: ""
+        ImportedFileChunkSize: 0
+        PerUnitStorageThroughput: 0
+        ThroughputCapacity: 0
+        WeeklyMaintenanceStartTime: ""
+        DataReadCacheConfiguration:
+          SizeGiB: 0
+          SizingMode: ""
+        LogConfiguration:
+          Destination: ""
+          Level: ""
+        MetadataConfiguration:
+          Iops: 0
+          Mode: ""
+      OntapConfiguration:
+        AutomaticBackupRetentionDays: 0
+        DailyAutomaticBackupStartTime: ""
+        DeploymentType: ""
+        EndpointIpAddressRange: ""
+        EndpointIpv6AddressRange: ""
+        FsxAdminPassword: ""
+        HAPairs: 0
+        PreferredSubnetId: ""
+        RouteTableIds: []
+        ThroughputCapacity: 0
+        ThroughputCapacityPerHAPair: 0
+        WeeklyMaintenanceStartTime: ""
+        DiskIopsConfiguration:
+          Iops: 0
+          Mode: ""
+      OpenZFSConfiguration:
+        AutomaticBackupRetentionDays: 0
+        CopyTagsToBackups: false
+        CopyTagsToVolumes: false
+        DailyAutomaticBackupStartTime: ""
+        DeploymentType: ""
+        EndpointIpAddressRange: ""
+        EndpointIpv6AddressRange: ""
+        Options: []
+        PreferredSubnetId: ""
+        RouteTableIds: []
+        ThroughputCapacity: 0
+        WeeklyMaintenanceStartTime: ""
+        DiskIopsConfiguration:
+          Iops: 0
+          Mode: ""
+        ReadCacheConfiguration:
+          SizeGiB: 0
+          SizingMode: ""
+        RootVolumeConfiguration:
+          CopyTagsToSnapshots: false
+          DataCompressionType: ""
+          ReadOnly: false
+          RecordSizeKiB: 0
+          NfsExports:
+            - ClientConfigurations:
+                - Clients: ""
+                  Options: []
+          UserAndGroupQuotas:
+            - Id: 0
+              StorageCapacityQuotaGiB: 0
+              Type: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WindowsConfiguration:
+        ActiveDirectoryId: ""
+        Aliases: []
+        AutomaticBackupRetentionDays: 0
+        CopyTagsToBackups: false
+        DailyAutomaticBackupStartTime: ""
+        DeploymentType: ""
+        PreferredSubnetId: ""
+        ThroughputCapacity: 0
+        WeeklyMaintenanceStartTime: ""
+        AuditLogConfiguration:
+          AuditLogDestination: ""
+          FileAccessAuditLogLevel: ""
+          FileShareAccessAuditLogLevel: ""
+        DiskIopsConfiguration:
+          Iops: 0
+          Mode: ""
+        FsrmConfiguration:
+          EventLogDestination: ""
+          FsrmServiceEnabled: false
+        SelfManagedActiveDirectoryConfiguration:
+          DnsIps: []
+          DomainJoinServiceAccountSecret: ""
+          DomainName: ""
+          FileSystemAdministratorsGroup: ""
+          OrganizationalUnitDistinguishedName: ""
+          Password: ""
+          UserName: ""

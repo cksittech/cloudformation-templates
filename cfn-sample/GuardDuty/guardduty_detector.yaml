@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyDetector:
+    Type: AWS::GuardDuty::Detector
+    Properties:
+      Enable: false
+      FindingPublishingFrequency: ""
+      DataSources:
+        Kubernetes:
+          AuditLogs:
+            Enable: false
+        MalwareProtection:
+          ScanEc2InstanceWithFindings:
+            EbsVolumes: false
+        S3Logs:
+          Enable: false
+      Features:
+        - Name: ""
+          Status: ""
+          AdditionalConfiguration:
+            - Name: ""
+              Status: ""
+      Tags:
+        - Key: ""
+          Value: ""

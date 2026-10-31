@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbsecuritygroupingress:
+    Type: AWS::RDS::DBSecurityGroupIngress
+    Properties:
+      CIDRIP: ""
+      DBSecurityGroupName: ""
+      EC2SecurityGroupId: ""
+      EC2SecurityGroupName: ""
+      EC2SecurityGroupOwnerId: ""

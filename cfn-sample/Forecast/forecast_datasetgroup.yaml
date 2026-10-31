@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleForecastDatasetgroup:
+    Type: AWS::Forecast::DatasetGroup
+    Properties:
+      DatasetArns: []
+      DatasetGroupName: ""
+      Domain: ""
+      Tags:
+        - Key: ""
+          Value: ""

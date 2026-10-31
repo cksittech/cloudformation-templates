@@ -1,0 +1,59 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftContainerfleet:
+    Type: AWS::GameLift::ContainerFleet
+    Properties:
+      BillingType: ""
+      Description: ""
+      FleetRoleArn: ""
+      GameServerContainerGroupDefinitionName: ""
+      GameServerContainerGroupsPerInstance: 0
+      InstanceType: ""
+      MetricGroups: []
+      NewGameSessionProtectionPolicy: ""
+      PerInstanceContainerGroupDefinitionName: ""
+      PlayerGatewayMode: ""
+      DeploymentConfiguration:
+        ImpairmentStrategy: ""
+        MinimumHealthyPercentage: 0
+        ProtectionStrategy: ""
+      GameSessionCreationLimitPolicy:
+        NewGameSessionsPerCreator: 0
+        PolicyPeriodInMinutes: 0
+      InstanceConnectionPortRange:
+        FromPort: 0
+        ToPort: 0
+      InstanceInboundPermissions:
+        - FromPort: 0
+          IpRange: ""
+          Protocol: ""
+          ToPort: 0
+      Locations:
+        - Location: ""
+          StoppedActions: []
+          LocationCapacity:
+            DesiredEC2Instances: 0
+            MaxSize: 0
+            MinSize: 0
+            ManagedCapacityConfiguration:
+              ScaleInAfterInactivityMinutes: 0
+              ZeroCapacityStrategy: ""
+      LogConfiguration:
+        LogDestination: ""
+        LogGroupArn: ""
+        S3BucketName: ""
+      ScalingPolicies:
+        - ComparisonOperator: ""
+          EvaluationPeriods: 0
+          MetricName: ""
+          Name: ""
+          PolicyType: ""
+          ScalingAdjustment: 0
+          ScalingAdjustmentType: ""
+          Threshold: 0
+          TargetConfiguration:
+            TargetValue: 0
+      Tags:
+        - Key: ""
+          Value: ""

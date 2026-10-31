@@ -1,0 +1,145 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerEndpointconfig:
+    Type: AWS::SageMaker::EndpointConfig
+    Properties:
+      EnableNetworkIsolation: false
+      EndpointConfigName: ""
+      ExecutionRoleArn: ""
+      KmsKeyId: ""
+      AsyncInferenceConfig:
+        ClientConfig:
+          MaxConcurrentInvocationsPerInstance: 0
+        OutputConfig:
+          KmsKeyId: ""
+          S3FailurePath: ""
+          S3OutputPath: ""
+          NotificationConfig:
+            ErrorTopic: ""
+            IncludeInferenceResponseIn: []
+            SuccessTopic: ""
+      DataCaptureConfig:
+        DestinationS3Uri: ""
+        EnableCapture: false
+        InitialSamplingPercentage: 0
+        KmsKeyId: ""
+        CaptureContentTypeHeader:
+          CsvContentTypes: []
+          JsonContentTypes: []
+        CaptureOptions:
+          - CaptureMode: ""
+      ExplainerConfig:
+        ClarifyExplainerConfig:
+          EnableExplanations: ""
+          InferenceConfig:
+            ContentTemplate: ""
+            FeatureHeaders: []
+            FeatureTypes: []
+            FeaturesAttribute: ""
+            LabelAttribute: ""
+            LabelHeaders: []
+            LabelIndex: 0
+            MaxPayloadInMB: 0
+            MaxRecordCount: 0
+            ProbabilityAttribute: ""
+            ProbabilityIndex: 0
+          ShapConfig:
+            NumberOfSamples: 0
+            Seed: 0
+            UseLogit: false
+            ShapBaselineConfig:
+              MimeType: ""
+              ShapBaseline: ""
+              ShapBaselineUri: ""
+            TextConfig:
+              Granularity: ""
+              Language: ""
+      MetricsConfig:
+        EnableDetailedObservability: false
+        EnableEnhancedMetrics: false
+        MetricPublishFrequencyInSeconds: 0
+      ProductionVariants:
+        - ContainerStartupHealthCheckTimeoutInSeconds: 0
+          EnableSSMAccess: false
+          InferenceAmiVersion: ""
+          InitialInstanceCount: 0
+          InitialVariantWeight: 0
+          InstanceType: ""
+          ModelDataDownloadTimeoutInSeconds: 0
+          ModelName: ""
+          VariantInstanceProvisionTimeoutInSeconds: 0
+          VariantName: ""
+          VolumeSizeInGB: 0
+          CapacityReservationConfig:
+            CapacityReservationPreference: ""
+            MlReservationArn: ""
+          CoreDumpConfig:
+            DestinationS3Uri: ""
+            KmsKeyId: ""
+          InstancePools:
+            - InstanceType: ""
+              ModelNameOverride: ""
+              Priority: 0
+          ManagedInstanceScaling:
+            MaxInstanceCount: 0
+            MinInstanceCount: 0
+            Status: ""
+            ScaleInPolicy:
+              CooldownInMinutes: 0
+              MaximumStepSize: 0
+              Strategy: ""
+          RoutingConfig:
+            RoutingStrategy: ""
+            PrefixAwareRoutingConfig:
+              ConcurrencyThreshold: 0
+              PrefixLength: 0
+          ServerlessConfig:
+            MaxConcurrency: 0
+            MemorySizeInMB: 0
+            ProvisionedConcurrency: 0
+      ShadowProductionVariants:
+        - ContainerStartupHealthCheckTimeoutInSeconds: 0
+          EnableSSMAccess: false
+          InferenceAmiVersion: ""
+          InitialInstanceCount: 0
+          InitialVariantWeight: 0
+          InstanceType: ""
+          ModelDataDownloadTimeoutInSeconds: 0
+          ModelName: ""
+          VariantInstanceProvisionTimeoutInSeconds: 0
+          VariantName: ""
+          VolumeSizeInGB: 0
+          CapacityReservationConfig:
+            CapacityReservationPreference: ""
+            MlReservationArn: ""
+          CoreDumpConfig:
+            DestinationS3Uri: ""
+            KmsKeyId: ""
+          InstancePools:
+            - InstanceType: ""
+              ModelNameOverride: ""
+              Priority: 0
+          ManagedInstanceScaling:
+            MaxInstanceCount: 0
+            MinInstanceCount: 0
+            Status: ""
+            ScaleInPolicy:
+              CooldownInMinutes: 0
+              MaximumStepSize: 0
+              Strategy: ""
+          RoutingConfig:
+            RoutingStrategy: ""
+            PrefixAwareRoutingConfig:
+              ConcurrencyThreshold: 0
+              PrefixLength: 0
+          ServerlessConfig:
+            MaxConcurrency: 0
+            MemorySizeInMB: 0
+            ProvisionedConcurrency: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []

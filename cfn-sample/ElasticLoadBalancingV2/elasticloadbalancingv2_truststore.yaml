@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingv2Truststore:
+    Type: AWS::ElasticLoadBalancingV2::TrustStore
+    Properties:
+      CaCertificatesBundleS3Bucket: ""
+      CaCertificatesBundleS3Key: ""
+      CaCertificatesBundleS3ObjectVersion: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

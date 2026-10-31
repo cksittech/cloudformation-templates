@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueClassifier:
+    Type: AWS::Glue::Classifier
+    Properties:
+      CsvClassifier:
+        AllowSingleColumn: false
+        ContainsCustomDatatype: []
+        ContainsHeader: ""
+        CustomDatatypeConfigured: false
+        Delimiter: ""
+        DisableValueTrimming: false
+        Header: []
+        Name: ""
+        QuoteSymbol: ""
+      GrokClassifier:
+        Classification: ""
+        CustomPatterns: ""
+        GrokPattern: ""
+        Name: ""
+      JsonClassifier:
+        JsonPath: ""
+        Name: ""
+      XMLClassifier:
+        Classification: ""
+        Name: ""
+        RowTag: ""

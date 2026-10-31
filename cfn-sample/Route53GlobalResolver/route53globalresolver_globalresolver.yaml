@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverGlobalresolver:
+    Type: AWS::Route53GlobalResolver::GlobalResolver
+    Properties:
+      ClientToken: ""
+      Description: ""
+      IpAddressType: ""
+      Name: ""
+      ObservabilityRegion: ""
+      Regions: []
+      Tags:
+        - Key: ""
+          Value: ""

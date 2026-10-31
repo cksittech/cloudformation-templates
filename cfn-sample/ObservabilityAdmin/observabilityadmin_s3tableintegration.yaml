@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleObservabilityadminS3tableintegration:
+    Type: AWS::ObservabilityAdmin::S3TableIntegration
+    Properties:
+      RoleArn: ""
+      Encryption:
+        KmsKeyArn: ""
+        SseAlgorithm: ""
+      LogSources:
+        - Name: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

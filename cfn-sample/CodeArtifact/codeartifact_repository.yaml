@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodeartifactRepository:
+    Type: AWS::CodeArtifact::Repository
+    Properties:
+      Description: ""
+      DomainName: ""
+      ExternalConnections: []
+      RepositoryName: ""
+      Upstreams: []
+      PermissionsPolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

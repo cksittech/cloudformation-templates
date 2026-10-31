@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeListener:
+    Type: AWS::VpcLattice::Listener
+    Properties:
+      Name: ""
+      Port: 0
+      Protocol: ""
+      ServiceIdentifier: ""
+      DefaultAction:
+        FixedResponse:
+          StatusCode: 0
+        Forward:
+          TargetGroups:
+            - TargetGroupIdentifier: ""
+              Weight: 0
+      Tags:
+        - Key: ""
+          Value: ""

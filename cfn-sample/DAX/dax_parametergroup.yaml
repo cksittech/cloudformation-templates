@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDaxParametergroup:
+    Type: AWS::DAX::ParameterGroup
+    Properties:
+      Description: ""
+      ParameterGroupName: ""
+      ParameterNameValues: {}

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotcoredeviceadvisorSuitedefinition:
+    Type: AWS::IoTCoreDeviceAdvisor::SuiteDefinition
+    Properties:
+      SuiteDefinitionConfiguration:
+        DevicePermissionRoleArn: ""
+        IntendedForQualification: false
+        RootGroup: ""
+        SuiteDefinitionName: ""
+        Devices:
+          - CertificateArn: ""
+            ThingArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

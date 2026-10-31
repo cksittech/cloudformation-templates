@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModelexplainabilityjobdefinition:
+    Type: AWS::SageMaker::ModelExplainabilityJobDefinition
+    Properties:
+      EndpointName: ""
+      JobDefinitionName: ""
+      RoleArn: ""
+      JobResources:
+        ClusterConfig:
+          InstanceCount: 0
+          InstanceType: ""
+          VolumeKmsKeyId: ""
+          VolumeSizeInGB: 0
+      ModelExplainabilityAppSpecification:
+        ConfigUri: ""
+        ImageUri: ""
+        Environment: {}
+      ModelExplainabilityBaselineConfig:
+        BaseliningJobName: ""
+        ConstraintsResource:
+          S3Uri: ""
+      ModelExplainabilityJobInput:
+        BatchTransformInput:
+          DataCapturedDestinationS3Uri: ""
+          FeaturesAttribute: ""
+          InferenceAttribute: ""
+          LocalPath: ""
+          ProbabilityAttribute: ""
+          S3DataDistributionType: ""
+          S3InputMode: ""
+          DatasetFormat:
+            Parquet: false
+            Csv:
+              Header: false
+            Json:
+              Line: false
+        EndpointInput:
+          EndpointName: ""
+          FeaturesAttribute: ""
+          InferenceAttribute: ""
+          LocalPath: ""
+          ProbabilityAttribute: ""
+          S3DataDistributionType: ""
+          S3InputMode: ""
+      ModelExplainabilityJobOutputConfig:
+        KmsKeyId: ""
+        MonitoringOutputs:
+          - S3Output:
+              LocalPath: ""
+              S3UploadMode: ""
+              S3Uri: ""
+      NetworkConfig:
+        EnableInterContainerTrafficEncryption: false
+        EnableNetworkIsolation: false
+        VpcConfig:
+          SecurityGroupIds: []
+          Subnets: []
+      StoppingCondition:
+        MaxRuntimeInSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""

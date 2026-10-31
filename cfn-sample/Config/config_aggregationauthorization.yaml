@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigAggregationauthorization:
+    Type: AWS::Config::AggregationAuthorization
+    Properties:
+      AuthorizedAccountId: ""
+      AuthorizedAwsRegion: ""
+      Tags:
+        - Key: ""
+          Value: ""

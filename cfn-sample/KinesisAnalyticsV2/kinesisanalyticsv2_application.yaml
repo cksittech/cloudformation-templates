@@ -1,0 +1,83 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisanalyticsv2Application:
+    Type: AWS::KinesisAnalyticsV2::Application
+    Properties:
+      ApplicationDescription: ""
+      ApplicationMode: ""
+      ApplicationName: ""
+      RuntimeEnvironment: ""
+      ServiceExecutionRole: ""
+      ApplicationConfiguration:
+        ApplicationCodeConfiguration:
+          CodeContentType: ""
+          CodeContent:
+            TextContent: ""
+            ZipFileContent: ""
+            S3ContentLocation:
+              BucketARN: ""
+              FileKey: ""
+              ObjectVersion: ""
+        ApplicationEncryptionConfiguration:
+          KeyId: ""
+          KeyType: ""
+        ApplicationSnapshotConfiguration:
+          SnapshotMode: ""
+          SnapshotsEnabled: false
+        ApplicationSystemRollbackConfiguration:
+          RollbackEnabled: false
+        EnvironmentProperties:
+          PropertyGroups:
+            - PropertyGroupId: ""
+              PropertyMap: {}
+        FlinkApplicationConfiguration:
+          CheckpointConfiguration:
+            CheckpointInterval: 0
+            CheckpointingEnabled: false
+            ConfigurationType: ""
+            MinPauseBetweenCheckpoints: 0
+          MonitoringConfiguration:
+            ConfigurationType: ""
+            LogLevel: ""
+            MetricsLevel: ""
+          ParallelismConfiguration:
+            AutoScalingEnabled: false
+            ConfigurationType: ""
+            Parallelism: 0
+            ParallelismPerKPU: 0
+        VpcConfigurations:
+          - SecurityGroupIds: []
+            SubnetIds: []
+        ZeppelinApplicationConfiguration:
+          CatalogConfiguration:
+            GlueDataCatalogConfiguration:
+              DatabaseARN: ""
+          CustomArtifactsConfiguration:
+            - ArtifactType: ""
+              MavenReference:
+                ArtifactId: ""
+                GroupId: ""
+                Version: ""
+              S3ContentLocation:
+                BucketARN: ""
+                FileKey: ""
+                ObjectVersion: ""
+          DeployAsApplicationConfiguration:
+            S3ContentLocation:
+              BasePath: ""
+              BucketARN: ""
+          MonitoringConfiguration:
+            LogLevel: ""
+      ApplicationMaintenanceConfiguration:
+        ApplicationMaintenanceWindowStartTime: ""
+      RunConfiguration:
+        ApplicationRestoreConfiguration:
+          ApplicationRestoreType: ""
+          SnapshotArn: ""
+          SnapshotName: ""
+        FlinkRunConfiguration:
+          AllowNonRestoredState: false
+      Tags:
+        - Key: ""
+          Value: ""

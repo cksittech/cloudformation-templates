@@ -1,0 +1,48 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTimestreamScheduledquery:
+    Type: AWS::Timestream::ScheduledQuery
+    Properties:
+      ClientToken: ""
+      KmsKeyId: ""
+      QueryString: ""
+      ScheduledQueryExecutionRoleArn: ""
+      ScheduledQueryName: ""
+      ErrorReportConfiguration:
+        S3Configuration:
+          BucketName: ""
+          EncryptionOption: ""
+          ObjectKeyPrefix: ""
+      NotificationConfiguration:
+        SnsConfiguration:
+          TopicArn: ""
+      ScheduleConfiguration:
+        ScheduleExpression: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetConfiguration:
+        TimestreamConfiguration:
+          DatabaseName: ""
+          MeasureNameColumn: ""
+          TableName: ""
+          TimeColumn: ""
+          DimensionMappings:
+            - DimensionValueType: ""
+              Name: ""
+          MixedMeasureMappings:
+            - MeasureName: ""
+              MeasureValueType: ""
+              SourceColumn: ""
+              TargetMeasureName: ""
+              MultiMeasureAttributeMappings:
+                - MeasureValueType: ""
+                  SourceColumn: ""
+                  TargetMultiMeasureAttributeName: ""
+          MultiMeasureMappings:
+            TargetMultiMeasureName: ""
+            MultiMeasureAttributeMappings:
+              - MeasureValueType: ""
+                SourceColumn: ""
+                TargetMultiMeasureAttributeName: ""

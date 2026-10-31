@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchDomainaccessgrantfororganization:
+    Type: AWS::CloudWatch::DomainAccessGrantForOrganization
+    Properties:
+      DomainId: ""
+      Name: ""
+      Permission: ""
+      Principal:
+        PrincipalId: ""
+        PrincipalType: ""
+        PrincipalAttributes:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRamPermissionassociation:
+    Type: AWS::RAM::PermissionAssociation
+    Properties:
+      PermissionArn: ""
+      Replace: false
+      ResourceShareArn: ""

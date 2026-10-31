@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneDomain:
+    Type: AWS::DataZone::Domain
+    Properties:
+      Description: ""
+      DomainExecutionRole: ""
+      DomainVersion: ""
+      KmsKeyIdentifier: ""
+      Name: ""
+      ServiceRole: ""
+      SingleSignOn:
+        IdcInstanceArn: ""
+        Type: ""
+        UserAssignment: ""
+      Tags:
+        - Key: ""
+          Value: ""

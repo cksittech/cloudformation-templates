@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamPolicy:
+    Type: AWS::IAM::Policy
+    Properties:
+      Groups: []
+      PolicyName: ""
+      Roles: []
+      Users: []
+      PolicyDocument: {}

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAiguardrailversion:
+    Type: AWS::Wisdom::AIGuardrailVersion
+    Properties:
+      AIGuardrailId: ""
+      AssistantId: ""
+      ModifiedTimeSeconds: 0

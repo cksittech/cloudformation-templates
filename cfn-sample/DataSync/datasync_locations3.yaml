@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocations3:
+    Type: AWS::DataSync::LocationS3
+    Properties:
+      S3BucketArn: ""
+      S3StorageClass: "STANDARD"
+      Subdirectory: ""
+      S3Config:
+        BucketAccessRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

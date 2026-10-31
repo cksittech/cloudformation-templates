@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaWebfunctionrevision:
+    Type: AWS::Lambda::WebFunctionRevision
+    Properties:
+      Description: ""
+      FunctionName: ""
+      KmsKeyArn: ""
+      BuildConfig:
+        CodeConfig:
+          S3Object:
+            Bucket: ""
+            Key: ""
+            VersionId: ""
+        RuntimeConfig:
+          Runtime: ""
+      ServiceConfig:
+        EgressNetworkConnectorArn: ""
+        ExecutionRoleArn: ""
+        MaxConcurrencyPerEnvironment: 0
+        TimeoutSeconds: 0
+        EnvironmentVariables: {}
+        TelemetryConfig:
+          LoggingConfig:
+            ApplicationLogLevel: ""
+            LogGroup: ""
+            SystemLogLevel: ""

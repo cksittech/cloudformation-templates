@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayBasepathmappingv2:
+    Type: AWS::ApiGateway::BasePathMappingV2
+    Properties:
+      BasePath: ""
+      DomainNameArn: ""
+      RestApiId: ""
+      Stage: ""

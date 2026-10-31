@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpcendpoint:
+    Type: AWS::EC2::VPCEndpoint
+    Properties:
+      IpAddressType: ""
+      PolicyDocument: ""
+      PrivateDnsEnabled: false
+      ResourceConfigurationArn: ""
+      RouteTableIds: []
+      SecurityGroupIds: []
+      ServiceName: ""
+      ServiceNetworkArn: ""
+      ServiceRegion: ""
+      SubnetIds: []
+      VpcEndpointType: ""
+      VpcId: ""
+      DnsOptions:
+        DnsRecordIpType: ""
+        PrivateDnsOnlyForInboundResolverEndpoint: ""
+        PrivateDnsPreference: ""
+        PrivateDnsSpecifiedDomains: []
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBcmpricingcalculatorBillscenario:
+    Type: AWS::BcmPricingCalculator::BillScenario
+    Properties:
+      CostCategoryGroupSharingPreferenceArn: ""
+      ExpiresAt: ""
+      GroupSharingPreference: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

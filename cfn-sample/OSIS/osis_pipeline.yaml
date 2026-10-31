@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOsisPipeline:
+    Type: AWS::OSIS::Pipeline
+    Properties:
+      MaxUnits: 0
+      MinUnits: 0
+      PipelineConfigurationBody: ""
+      PipelineName: ""
+      PipelineRoleArn: ""
+      BufferOptions:
+        PersistentBufferEnabled: false
+      EncryptionAtRestOptions:
+        KmsKeyArn: ""
+      LogPublishingOptions:
+        IsLoggingEnabled: false
+        CloudWatchLogDestination:
+          LogGroup: ""
+      ResourcePolicy:
+        Policy: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcOptions:
+        SecurityGroupIds: []
+        SubnetIds: []
+        VpcEndpointManagement: ""
+        VpcAttachmentOptions:
+          AttachToVpc: false
+          CidrBlock: ""

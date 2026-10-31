@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModelpackagegroup:
+    Type: AWS::SageMaker::ModelPackageGroup
+    Properties:
+      ModelPackageGroupDescription: ""
+      ModelPackageGroupName: ""
+      ModelPackageGroupPolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

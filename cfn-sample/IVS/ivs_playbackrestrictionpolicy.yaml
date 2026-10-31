@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsPlaybackrestrictionpolicy:
+    Type: AWS::IVS::PlaybackRestrictionPolicy
+    Properties:
+      AllowedCountries: []
+      AllowedOrigins: []
+      EnableStrictOriginEnforcement: false
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

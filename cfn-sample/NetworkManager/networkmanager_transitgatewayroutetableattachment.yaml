@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerTransitgatewayroutetableattachment:
+    Type: AWS::NetworkManager::TransitGatewayRouteTableAttachment
+    Properties:
+      NetworkFunctionGroupName: ""
+      PeeringId: ""
+      RoutingPolicyLabel: ""
+      TransitGatewayRouteTableArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

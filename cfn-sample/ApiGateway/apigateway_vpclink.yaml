@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayVpclink:
+    Type: AWS::ApiGateway::VpcLink
+    Properties:
+      Description: ""
+      Name: ""
+      TargetArns: []
+      Tags:
+        - Key: ""
+          Value: ""

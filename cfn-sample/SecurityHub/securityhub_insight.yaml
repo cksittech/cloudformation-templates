@@ -1,0 +1,347 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubInsight:
+    Type: AWS::SecurityHub::Insight
+    Properties:
+      GroupByAttribute: ""
+      Name: ""
+      Filters:
+        AwsAccountId:
+          - Comparison: ""
+            Value: ""
+        AwsAccountName:
+          - Comparison: ""
+            Value: ""
+        CompanyName:
+          - Comparison: ""
+            Value: ""
+        ComplianceAssociatedStandardsId:
+          - Comparison: ""
+            Value: ""
+        ComplianceSecurityControlId:
+          - Comparison: ""
+            Value: ""
+        ComplianceSecurityControlParametersName:
+          - Comparison: ""
+            Value: ""
+        ComplianceSecurityControlParametersValue:
+          - Comparison: ""
+            Value: ""
+        ComplianceStatus:
+          - Comparison: ""
+            Value: ""
+        Confidence:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        CreatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        Criticality:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        Description:
+          - Comparison: ""
+            Value: ""
+        FindingProviderFieldsConfidence:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        FindingProviderFieldsCriticality:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        FindingProviderFieldsRelatedFindingsId:
+          - Comparison: ""
+            Value: ""
+        FindingProviderFieldsRelatedFindingsProductArn:
+          - Comparison: ""
+            Value: ""
+        FindingProviderFieldsSeverityLabel:
+          - Comparison: ""
+            Value: ""
+        FindingProviderFieldsSeverityOriginal:
+          - Comparison: ""
+            Value: ""
+        FindingProviderFieldsTypes:
+          - Comparison: ""
+            Value: ""
+        FirstObservedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        GeneratorId:
+          - Comparison: ""
+            Value: ""
+        Id:
+          - Comparison: ""
+            Value: ""
+        LastObservedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        MalwareName:
+          - Comparison: ""
+            Value: ""
+        MalwarePath:
+          - Comparison: ""
+            Value: ""
+        MalwareState:
+          - Comparison: ""
+            Value: ""
+        MalwareType:
+          - Comparison: ""
+            Value: ""
+        NetworkDestinationDomain:
+          - Comparison: ""
+            Value: ""
+        NetworkDestinationIpV4:
+          - Cidr: ""
+        NetworkDestinationIpV6:
+          - Cidr: ""
+        NetworkDestinationPort:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        NetworkDirection:
+          - Comparison: ""
+            Value: ""
+        NetworkProtocol:
+          - Comparison: ""
+            Value: ""
+        NetworkSourceDomain:
+          - Comparison: ""
+            Value: ""
+        NetworkSourceIpV4:
+          - Cidr: ""
+        NetworkSourceIpV6:
+          - Cidr: ""
+        NetworkSourceMac:
+          - Comparison: ""
+            Value: ""
+        NetworkSourcePort:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        NoteText:
+          - Comparison: ""
+            Value: ""
+        NoteUpdatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        NoteUpdatedBy:
+          - Comparison: ""
+            Value: ""
+        ProcessLaunchedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ProcessName:
+          - Comparison: ""
+            Value: ""
+        ProcessParentPid:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        ProcessPath:
+          - Comparison: ""
+            Value: ""
+        ProcessPid:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        ProcessTerminatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ProductArn:
+          - Comparison: ""
+            Value: ""
+        ProductFields:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ProductName:
+          - Comparison: ""
+            Value: ""
+        RecommendationText:
+          - Comparison: ""
+            Value: ""
+        RecordState:
+          - Comparison: ""
+            Value: ""
+        Region:
+          - Comparison: ""
+            Value: ""
+        RelatedFindingsId:
+          - Comparison: ""
+            Value: ""
+        RelatedFindingsProductArn:
+          - Comparison: ""
+            Value: ""
+        ResourceApplicationArn:
+          - Comparison: ""
+            Value: ""
+        ResourceApplicationName:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceIamInstanceProfileArn:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceImageId:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceIpV4Addresses:
+          - Cidr: ""
+        ResourceAwsEc2InstanceIpV6Addresses:
+          - Cidr: ""
+        ResourceAwsEc2InstanceKeyName:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceLaunchedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ResourceAwsEc2InstanceSubnetId:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceType:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsEc2InstanceVpcId:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsIamAccessKeyCreatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ResourceAwsIamAccessKeyPrincipalName:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsIamAccessKeyStatus:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsIamUserUserName:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsS3BucketOwnerId:
+          - Comparison: ""
+            Value: ""
+        ResourceAwsS3BucketOwnerName:
+          - Comparison: ""
+            Value: ""
+        ResourceContainerImageId:
+          - Comparison: ""
+            Value: ""
+        ResourceContainerImageName:
+          - Comparison: ""
+            Value: ""
+        ResourceContainerLaunchedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ResourceContainerName:
+          - Comparison: ""
+            Value: ""
+        ResourceDetailsOther:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ResourceId:
+          - Comparison: ""
+            Value: ""
+        ResourcePartition:
+          - Comparison: ""
+            Value: ""
+        ResourceRegion:
+          - Comparison: ""
+            Value: ""
+        ResourceTags:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ResourceType:
+          - Comparison: ""
+            Value: ""
+        Sample:
+          - Value: false
+        SeverityLabel:
+          - Comparison: ""
+            Value: ""
+        SourceUrl:
+          - Comparison: ""
+            Value: ""
+        ThreatIntelIndicatorCategory:
+          - Comparison: ""
+            Value: ""
+        ThreatIntelIndicatorLastObservedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        ThreatIntelIndicatorSource:
+          - Comparison: ""
+            Value: ""
+        ThreatIntelIndicatorSourceUrl:
+          - Comparison: ""
+            Value: ""
+        ThreatIntelIndicatorType:
+          - Comparison: ""
+            Value: ""
+        ThreatIntelIndicatorValue:
+          - Comparison: ""
+            Value: ""
+        Title:
+          - Comparison: ""
+            Value: ""
+        Type:
+          - Comparison: ""
+            Value: ""
+        UpdatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        UserDefinedFields:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        VerificationState:
+          - Comparison: ""
+            Value: ""
+        VulnerabilitiesExploitAvailable:
+          - Comparison: ""
+            Value: ""
+        VulnerabilitiesFixAvailable:
+          - Comparison: ""
+            Value: ""
+        WorkflowState:
+          - Comparison: ""
+            Value: ""
+        WorkflowStatus:
+          - Comparison: ""
+            Value: ""

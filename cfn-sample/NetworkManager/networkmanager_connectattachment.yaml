@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerConnectattachment:
+    Type: AWS::NetworkManager::ConnectAttachment
+    Properties:
+      CoreNetworkId: ""
+      EdgeLocation: ""
+      NetworkFunctionGroupName: ""
+      RoutingPolicyLabel: ""
+      TransportAttachmentId: ""
+      Options:
+        Protocol: ""
+      Tags:
+        - Key: ""
+          Value: ""

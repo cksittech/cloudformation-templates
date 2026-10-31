@@ -1,0 +1,113 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerUserprofile:
+    Type: AWS::SageMaker::UserProfile
+    Properties:
+      DomainId: ""
+      SingleSignOnUserIdentifier: ""
+      SingleSignOnUserValue: ""
+      UserProfileName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserSettings:
+        AutoMountHomeEFS: ""
+        DefaultLandingUri: ""
+        ExecutionRole: ""
+        SecurityGroups: []
+        StudioWebPortal: ""
+        CodeEditorAppSettings:
+          BuiltInLifecycleConfigArn: ""
+          LifecycleConfigArns: []
+          AppLifecycleManagement:
+            IdleSettings:
+              IdleTimeoutInMinutes: 0
+              LifecycleManagement: ""
+              MaxIdleTimeoutInMinutes: 0
+              MinIdleTimeoutInMinutes: 0
+          CustomImages:
+            - AppImageConfigName: ""
+              ImageName: ""
+              ImageVersionNumber: 0
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        CustomFileSystemConfigs:
+          - EFSFileSystemConfig:
+              FileSystemId: ""
+              FileSystemPath: ""
+            FSxLustreFileSystemConfig:
+              FileSystemId: ""
+              FileSystemPath: ""
+            S3FileSystemConfig:
+              MountPath: ""
+              S3Uri: ""
+        CustomPosixUserConfig:
+          Gid: 0
+          Uid: 0
+        JupyterLabAppSettings:
+          BuiltInLifecycleConfigArn: ""
+          LifecycleConfigArns: []
+          AppLifecycleManagement:
+            IdleSettings:
+              IdleTimeoutInMinutes: 0
+              LifecycleManagement: ""
+              MaxIdleTimeoutInMinutes: 0
+              MinIdleTimeoutInMinutes: 0
+          CodeRepositories:
+            - RepositoryUrl: ""
+          CustomImages:
+            - AppImageConfigName: ""
+              ImageName: ""
+              ImageVersionNumber: 0
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+          EmrSettings:
+            AssumableRoleArns: []
+            ExecutionRoleArns: []
+        JupyterServerAppSettings:
+          LifecycleConfigArns: []
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        KernelGatewayAppSettings:
+          LifecycleConfigArns: []
+          CustomImages:
+            - AppImageConfigName: ""
+              ImageName: ""
+              ImageVersionNumber: 0
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        RStudioServerProAppSettings:
+          AccessStatus: ""
+          UserGroup: ""
+        SharingSettings:
+          NotebookOutputOption: ""
+          S3KmsKeyId: ""
+          S3OutputPath: ""
+        SpaceStorageSettings:
+          DefaultEbsStorageSettings:
+            DefaultEbsVolumeSizeInGb: 0
+            MaximumEbsVolumeSizeInGb: 0
+        StudioWebPortalSettings:
+          HiddenAppTypes: []
+          HiddenInstanceTypes: []
+          HiddenMlTools: []
+          HiddenSageMakerImageVersionAliases:
+            - SageMakerImageName: ""
+              VersionAliases: []

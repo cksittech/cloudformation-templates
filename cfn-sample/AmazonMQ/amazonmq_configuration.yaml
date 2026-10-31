@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmazonmqConfiguration:
+    Type: AWS::AmazonMQ::Configuration
+    Properties:
+      AuthenticationStrategy: ""
+      Data: ""
+      Description: ""
+      EngineType: ""
+      EngineVersion: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

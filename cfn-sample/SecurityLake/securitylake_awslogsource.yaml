@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecuritylakeAwslogsource:
+    Type: AWS::SecurityLake::AwsLogSource
+    Properties:
+      Accounts: []
+      DataLakeArn: ""
+      SourceName: ""
+      SourceVersion: ""

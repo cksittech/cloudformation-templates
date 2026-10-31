@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3filesFilesystempolicy:
+    Type: AWS::S3Files::FileSystemPolicy
+    Properties:
+      FileSystemId: ""
+      Policy: {}

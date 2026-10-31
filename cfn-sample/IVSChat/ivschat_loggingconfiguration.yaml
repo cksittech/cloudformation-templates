@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvschatLoggingconfiguration:
+    Type: AWS::IVSChat::LoggingConfiguration
+    Properties:
+      Name: ""
+      DestinationConfiguration:
+        CloudWatchLogs:
+          LogGroupName: ""
+        Firehose:
+          DeliveryStreamName: ""
+        S3:
+          BucketName: ""
+      Tags:
+        - Key: ""
+          Value: ""

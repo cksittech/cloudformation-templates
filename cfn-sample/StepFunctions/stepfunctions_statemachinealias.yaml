@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleStepfunctionsStatemachinealias:
+    Type: AWS::StepFunctions::StateMachineAlias
+    Properties:
+      Description: ""
+      Name: ""
+      StateMachineArn: ""
+      DeploymentPreference:
+        Alarms: []
+        Interval: 0
+        Percentage: 0
+        StateMachineVersionArn: ""
+        Type: ""
+      RoutingConfiguration:
+        - StateMachineVersionArn: ""
+          Weight: 0

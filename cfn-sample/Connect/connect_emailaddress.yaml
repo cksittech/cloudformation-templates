@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectEmailaddress:
+    Type: AWS::Connect::EmailAddress
+    Properties:
+      Description: ""
+      DisplayName: ""
+      EmailAddress: ""
+      InstanceArn: ""
+      AliasConfigurations:
+        - EmailAddressArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

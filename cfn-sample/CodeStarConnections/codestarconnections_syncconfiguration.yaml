@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodestarconnectionsSyncconfiguration:
+    Type: AWS::CodeStarConnections::SyncConfiguration
+    Properties:
+      Branch: ""
+      ConfigFile: ""
+      PublishDeploymentStatus: ""
+      RepositoryLinkId: ""
+      ResourceName: ""
+      RoleArn: ""
+      SyncType: ""
+      TriggerResourceUpdateOn: ""

@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSqsQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      ContentBasedDeduplication: false
+      DeduplicationScope: ""
+      DelaySeconds: 0
+      FifoQueue: false
+      FifoThroughputLimit: ""
+      KmsDataKeyReusePeriodSeconds: 0
+      KmsMasterKeyId: ""
+      MaximumMessageSize: 0
+      MessageRetentionPeriod: 0
+      QueueName: ""
+      ReceiveMessageWaitTimeSeconds: 0
+      SqsManagedSseEnabled: false
+      VisibilityTimeout: 0
+      RedriveAllowPolicy: {}
+      RedrivePolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

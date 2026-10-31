@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsRecordingconfiguration:
+    Type: AWS::IVS::RecordingConfiguration
+    Properties:
+      Name: ""
+      RecordingReconnectWindowSeconds: 0
+      DestinationConfiguration:
+        S3:
+          BucketName: ""
+      RenditionConfiguration:
+        RenditionSelection: "ALL"
+        Renditions: []
+      Tags:
+        - Key: ""
+          Value: ""
+      ThumbnailConfiguration:
+        RecordingMode: "INTERVAL"
+        Resolution: ""
+        Storage: []
+        TargetIntervalSeconds: 60

@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmincidentsReplicationset:
+    Type: AWS::SSMIncidents::ReplicationSet
+    Properties:
+      DeletionProtected: false
+      Regions:
+        - RegionName: ""
+          RegionConfiguration:
+            SseKmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""

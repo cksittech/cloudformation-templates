@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDrsReplicationconfigurationtemplate:
+    Type: AWS::DRS::ReplicationConfigurationTemplate
+    Properties:
+      AssociateDefaultSecurityGroup: false
+      AutoReplicateNewDisks: false
+      BandwidthThrottling: 0
+      CreatePublicIP: false
+      DataPlaneRouting: ""
+      DefaultLargeStagingDiskType: ""
+      EbsEncryption: ""
+      EbsEncryptionKeyArn: ""
+      InternetProtocol: ""
+      ReplicationServerInstanceType: ""
+      ReplicationServersSecurityGroupsIDs: []
+      StagingAreaSubnetId: ""
+      UseDedicatedReplicationServer: false
+      PitPolicy:
+        - Enabled: false
+          Interval: 0
+          RetentionDuration: 0
+          RuleID: 0
+          Units: ""
+      StagingAreaTags: {}
+      Tags:
+        - Key: ""
+          Value: ""

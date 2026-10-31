@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafv2Ipset:
+    Type: AWS::WAFv2::IPSet
+    Properties:
+      Addresses: []
+      Description: ""
+      IPAddressVersion: ""
+      Name: ""
+      Scope: ""
+      Tags:
+        - Key: ""
+          Value: ""

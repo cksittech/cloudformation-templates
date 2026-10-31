@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockAgentalias:
+    Type: AWS::Bedrock::AgentAlias
+    Properties:
+      AgentAliasName: ""
+      AgentId: ""
+      Description: ""
+      RoutingConfiguration:
+        - AgentVersion: ""
+      Tags: {}

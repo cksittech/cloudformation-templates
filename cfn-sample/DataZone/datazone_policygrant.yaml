@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazonePolicygrant:
+    Type: AWS::DataZone::PolicyGrant
+    Properties:
+      DomainIdentifier: ""
+      EntityIdentifier: ""
+      EntityType: ""
+      PolicyType: ""
+      Detail:
+        AddToProjectMemberPool:
+          IncludeChildDomainUnits: false
+        CreateAssetType:
+          IncludeChildDomainUnits: false
+        CreateDomainUnit:
+          IncludeChildDomainUnits: false
+        CreateEnvironment: {}
+        CreateEnvironmentFromBlueprint: {}
+        CreateEnvironmentProfile:
+          DomainUnitId: ""
+        CreateFormType:
+          IncludeChildDomainUnits: false
+        CreateGlossary:
+          IncludeChildDomainUnits: false
+        CreateProject:
+          IncludeChildDomainUnits: false
+        CreateProjectFromProjectProfile:
+          IncludeChildDomainUnits: false
+          ProjectProfiles: []
+        DelegateCreateEnvironmentProfile: {}
+        OverrideDomainUnitOwners:
+          IncludeChildDomainUnits: false
+        OverrideProjectOwners:
+          IncludeChildDomainUnits: false
+      Principal:
+        DomainUnit:
+          DomainUnitDesignation: ""
+          DomainUnitIdentifier: ""
+          DomainUnitGrantFilter:
+            AllDomainUnitsGrantFilter: {}
+        Group:
+          GroupIdentifier: ""
+        Project:
+          ProjectDesignation: ""
+          ProjectIdentifier: ""
+          ProjectGrantFilter:
+            DomainUnitFilter:
+              DomainUnit: ""
+              IncludeChildDomainUnits: false
+        User:
+          UserIdentifier: ""
+          AllUsersGrantFilter: {}

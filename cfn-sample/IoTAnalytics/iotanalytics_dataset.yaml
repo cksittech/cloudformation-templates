@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotanalyticsDataset:
+    Type: AWS::IoTAnalytics::Dataset
+    Properties:
+      DatasetName: ""
+      Actions:
+        - ActionName: ""
+          ContainerAction:
+            ExecutionRoleArn: ""
+            Image: ""
+            ResourceConfiguration:
+              ComputeType: ""
+              VolumeSizeInGB: 0
+            Variables:
+              - DoubleValue: 0
+                StringValue: ""
+                VariableName: ""
+                DatasetContentVersionValue:
+                  DatasetName: ""
+                OutputFileUriValue:
+                  FileName: ""
+          QueryAction:
+            SqlQuery: ""
+            Filters:
+              - DeltaTime:
+                  OffsetSeconds: 0
+                  TimeExpression: ""
+      ContentDeliveryRules:
+        - EntryName: ""
+          Destination:
+            IotEventsDestinationConfiguration:
+              InputName: ""
+              RoleArn: ""
+            S3DestinationConfiguration:
+              Bucket: ""
+              Key: ""
+              RoleArn: ""
+              GlueConfiguration:
+                DatabaseName: ""
+                TableName: ""
+      LateDataRules:
+        - RuleName: ""
+          RuleConfiguration:
+            DeltaTimeSessionWindowConfiguration:
+              TimeoutInMinutes: 0
+      RetentionPeriod:
+        NumberOfDays: 0
+        Unlimited: false
+      Tags:
+        - Key: ""
+          Value: ""
+      Triggers:
+        - Schedule:
+            ScheduleExpression: ""
+          TriggeringDataset:
+            DatasetName: ""
+      VersioningConfiguration:
+        MaxVersions: 0
+        Unlimited: false

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationTagassociation:
+    Type: AWS::LakeFormation::TagAssociation
+    Properties:
+      LFTags:
+        - CatalogId: ""
+          TagKey: ""
+          TagValues: []
+      Resource:
+        Database:
+          CatalogId: ""
+          Name: ""
+        Table:
+          CatalogId: ""
+          DatabaseName: ""
+          Name: ""
+        TableWithColumns:
+          CatalogId: ""
+          ColumnNames: []
+          DatabaseName: ""
+          Name: ""

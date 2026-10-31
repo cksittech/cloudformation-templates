@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerPipeline:
+    Type: AWS::SageMaker::Pipeline
+    Properties:
+      PipelineDescription: ""
+      PipelineDisplayName: ""
+      PipelineName: ""
+      RoleArn: ""
+      ParallelismConfiguration:
+        MaxParallelExecutionSteps: 0
+      PipelineDefinition:
+        PipelineDefinitionBody: ""
+        PipelineDefinitionS3Location:
+          Bucket: ""
+          ETag: ""
+          Key: ""
+          Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

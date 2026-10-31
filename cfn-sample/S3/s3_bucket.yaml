@@ -1,0 +1,245 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Bucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      AbacStatus: ""
+      AccessControl: ""
+      BucketName: ""
+      BucketNamePrefix: ""
+      BucketNamespace: ""
+      ObjectLockEnabled: false
+      AccelerateConfiguration:
+        AccelerationStatus: ""
+      AnalyticsConfigurations:
+        - Id: ""
+          Prefix: ""
+          StorageClassAnalysis:
+            DataExport:
+              OutputSchemaVersion: ""
+              Destination:
+                BucketAccountId: ""
+                BucketArn: ""
+                Format: ""
+                Prefix: ""
+          TagFilters:
+            - Key: ""
+              Value: ""
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - BucketKeyEnabled: false
+            BlockedEncryptionTypes:
+              EncryptionType: []
+            ServerSideEncryptionByDefault:
+              KMSMasterKeyID: ""
+              SSEAlgorithm: ""
+      CorsConfiguration:
+        CorsRules:
+          - AllowedHeaders: []
+            AllowedMethods: []
+            AllowedOrigins: []
+            ExposedHeaders: []
+            Id: ""
+            MaxAge: 0
+      IntelligentTieringConfigurations:
+        - Id: ""
+          Prefix: ""
+          Status: ""
+          TagFilters:
+            - Key: ""
+              Value: ""
+          Tierings:
+            - AccessTier: ""
+              Days: 0
+      InventoryConfigurations:
+        - Enabled: false
+          Id: ""
+          IncludedObjectVersions: ""
+          OptionalFields: []
+          Prefix: ""
+          ScheduleFrequency: ""
+          Destination:
+            BucketAccountId: ""
+            BucketArn: ""
+            Format: ""
+            Prefix: ""
+      LifecycleConfiguration:
+        TransitionDefaultMinimumObjectSize: ""
+        Rules:
+          - ExpirationDate: ""
+            ExpirationInDays: 0
+            ExpiredObjectDeleteMarker: false
+            Id: ""
+            NoncurrentVersionExpirationInDays: 0
+            ObjectSizeGreaterThan: ""
+            ObjectSizeLessThan: ""
+            Prefix: ""
+            Status: ""
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 0
+            NoncurrentVersionExpiration:
+              NewerNoncurrentVersions: 0
+              NoncurrentDays: 0
+            NoncurrentVersionTransition:
+              NewerNoncurrentVersions: 0
+              StorageClass: ""
+              TransitionInDays: 0
+            NoncurrentVersionTransitions:
+              - NewerNoncurrentVersions: 0
+                StorageClass: ""
+                TransitionInDays: 0
+            TagFilters:
+              - Key: ""
+                Value: ""
+            Transition:
+              StorageClass: ""
+              TransitionDate: ""
+              TransitionInDays: 0
+            Transitions:
+              - StorageClass: ""
+                TransitionDate: ""
+                TransitionInDays: 0
+      LoggingConfiguration:
+        DestinationBucketName: ""
+        LogFilePrefix: ""
+        TargetObjectKeyFormat:
+          PartitionedPrefix:
+            PartitionDateSource: ""
+          SimplePrefix: {}
+      MetadataConfiguration:
+        AnnotationTableConfiguration:
+          ConfigurationState: ""
+          Role: ""
+          EncryptionConfiguration:
+            KmsKeyArn: ""
+            SseAlgorithm: ""
+        InventoryTableConfiguration:
+          ConfigurationState: ""
+          EncryptionConfiguration:
+            KmsKeyArn: ""
+            SseAlgorithm: ""
+        JournalTableConfiguration:
+          EncryptionConfiguration:
+            KmsKeyArn: ""
+            SseAlgorithm: ""
+          RecordExpiration:
+            Days: 0
+            Expiration: ""
+      MetadataTableConfiguration:
+        S3TablesDestination:
+          TableBucketArn: ""
+          TableName: ""
+      MetricsConfigurations:
+        - AccessPointArn: ""
+          Id: ""
+          Prefix: ""
+          TagFilters:
+            - Key: ""
+              Value: ""
+      NotificationConfiguration:
+        EventBridgeConfiguration:
+          EventBridgeEnabled: false
+        LambdaConfigurations:
+          - Event: ""
+            Function: ""
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: ""
+                    Value: ""
+        QueueConfigurations:
+          - Event: ""
+            Queue: ""
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: ""
+                    Value: ""
+        TopicConfigurations:
+          - Event: ""
+            Topic: ""
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: ""
+                    Value: ""
+      ObjectLockConfiguration:
+        ObjectLockEnabled: ""
+        Rule:
+          DefaultRetention:
+            Days: 0
+            Mode: ""
+            Years: 0
+            DefaultEventHold:
+              Days: 0
+              Years: 0
+      OwnershipControls:
+        Rules:
+          - ObjectOwnership: ""
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      ReplicationConfiguration:
+        Role: ""
+        Rules:
+          - Id: ""
+            Prefix: ""
+            Priority: 0
+            Status: ""
+            DeleteMarkerReplication:
+              Status: ""
+            Destination:
+              Account: ""
+              Bucket: ""
+              StorageClass: ""
+              AccessControlTranslation:
+                Owner: ""
+              EncryptionConfiguration:
+                ReplicaKmsKeyID: ""
+              Metrics:
+                Status: ""
+                EventThreshold:
+                  Minutes: 0
+              ReplicationTime:
+                Status: ""
+                Time:
+                  Minutes: 0
+            Filter:
+              Prefix: ""
+              And:
+                Prefix: ""
+                TagFilters:
+                  - Key: ""
+                    Value: ""
+              TagFilter:
+                Key: ""
+                Value: ""
+            SourceSelectionCriteria:
+              ReplicaModifications:
+                Status: ""
+              SseKmsEncryptedObjects:
+                Status: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VersioningConfiguration:
+        Status: "Suspended"
+      WebsiteConfiguration:
+        ErrorDocument: ""
+        IndexDocument: ""
+        RedirectAllRequestsTo:
+          HostName: ""
+          Protocol: ""
+        RoutingRules:
+          - RedirectRule:
+              HostName: ""
+              HttpRedirectCode: ""
+              Protocol: ""
+              ReplaceKeyPrefixWith: ""
+              ReplaceKeyWith: ""
+            RoutingRuleCondition:
+              HttpErrorCodeReturnedEquals: ""
+              KeyPrefixEquals: ""

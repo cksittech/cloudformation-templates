@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeFilter:
+    Type: AWS::Personalize::Filter
+    Properties:
+      DatasetGroupArn: ""
+      FilterExpression: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbclusterparametergroup:
+    Type: AWS::RDS::DBClusterParameterGroup
+    Properties:
+      DBClusterParameterGroupName: ""
+      Description: ""
+      Family: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

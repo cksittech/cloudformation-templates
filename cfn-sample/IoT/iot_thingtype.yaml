@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotThingtype:
+    Type: AWS::IoT::ThingType
+    Properties:
+      DeprecateThingType: false
+      ThingTypeName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ThingTypeProperties:
+        SearchableAttributes: []
+        ThingTypeDescription: ""
+        Mqtt5Configuration:
+          PropagatingAttributes:
+            - ConnectionAttribute: ""
+              ThingAttribute: ""
+              UserPropertyKey: ""

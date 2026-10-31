@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogLaunchtemplateconstraint:
+    Type: AWS::ServiceCatalog::LaunchTemplateConstraint
+    Properties:
+      AcceptLanguage: ""
+      Description: ""
+      PortfolioId: ""
+      ProductId: ""
+      Rules: ""

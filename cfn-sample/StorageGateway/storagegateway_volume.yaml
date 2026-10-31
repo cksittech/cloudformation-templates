@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleStoragegatewayVolume:
+    Type: AWS::StorageGateway::Volume
+    Properties:
+      GatewayARN: ""
+      KMSEncrypted: false
+      KMSKey: ""
+      NetworkInterfaceId: ""
+      SnapshotId: ""
+      SourceVolumeARN: ""
+      TargetName: ""
+      VolumeSizeInBytes: 0
+      Tags:
+        - Key: ""
+          Value: ""

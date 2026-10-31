@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupLogicallyairgappedbackupvault:
+    Type: AWS::Backup::LogicallyAirGappedBackupVault
+    Properties:
+      BackupVaultName: ""
+      EncryptionKeyArn: ""
+      MaxRetentionDays: 0
+      MinRetentionDays: 0
+      MpaApprovalTeamArn: ""
+      AccessPolicy: {}
+      BackupVaultTags: {}
+      Notifications:
+        BackupVaultEvents: []
+        SNSTopicArn: ""

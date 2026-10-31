@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Storagelensgroup:
+    Type: AWS::S3::StorageLensGroup
+    Properties:
+      Name: ""
+      Filter:
+        MatchAnyPrefix: []
+        MatchAnySuffix: []
+        And:
+          MatchAnyPrefix: []
+          MatchAnySuffix: []
+          MatchAnyTag:
+            - Key: ""
+              Value: ""
+          MatchObjectAge:
+            DaysGreaterThan: 0
+            DaysLessThan: 0
+          MatchObjectSize:
+            BytesGreaterThan: 0
+            BytesLessThan: 0
+        MatchAnyTag:
+          - Key: ""
+            Value: ""
+        MatchObjectAge:
+          DaysGreaterThan: 0
+          DaysLessThan: 0
+        MatchObjectSize:
+          BytesGreaterThan: 0
+          BytesLessThan: 0
+        Or:
+          MatchAnyPrefix: []
+          MatchAnySuffix: []
+          MatchAnyTag:
+            - Key: ""
+              Value: ""
+          MatchObjectAge:
+            DaysGreaterThan: 0
+            DaysLessThan: 0
+          MatchObjectSize:
+            BytesGreaterThan: 0
+            BytesLessThan: 0
+      Tags:
+        - Key: ""
+          Value: ""

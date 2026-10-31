@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRumAppmonitor:
+    Type: AWS::RUM::AppMonitor
+    Properties:
+      CwLogEnabled: false
+      Domain: ""
+      DomainList: []
+      Name: ""
+      Platform: ""
+      AppMonitorConfiguration:
+        AllowCookies: false
+        EnableXRay: false
+        ExcludedPages: []
+        FavoritePages: []
+        GuestRoleArn: ""
+        IdentityPoolId: ""
+        IncludedPages: []
+        SessionSampleRate: 0
+        Telemetries: []
+        MetricDestinations:
+          - Destination: ""
+            MetricDefinitions:
+              - EventPattern: ""
+                Name: ""
+                Namespace: ""
+                UnitLabel: ""
+                ValueKey: ""
+                DimensionKeys: {}
+      CustomEvents:
+        Status: ""
+      DeobfuscationConfiguration:
+        JavaScriptSourceMaps:
+          S3Uri: ""
+          Status: ""
+      ResourcePolicy:
+        PolicyDocument: ""
+        PolicyRevisionId: ""
+      Tags:
+        - Key: ""
+          Value: ""

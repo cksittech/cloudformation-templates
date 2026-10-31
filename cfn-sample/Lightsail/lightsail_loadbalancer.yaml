@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailLoadbalancer:
+    Type: AWS::Lightsail::LoadBalancer
+    Properties:
+      AttachedInstances: []
+      HealthCheckPath: ""
+      InstancePort: 0
+      IpAddressType: ""
+      LoadBalancerName: ""
+      SessionStickinessEnabled: false
+      SessionStickinessLBCookieDurationSeconds: ""
+      TlsPolicyName: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCasesLayout:
+    Type: AWS::Cases::Layout
+    Properties:
+      DomainId: ""
+      Name: ""
+      Content:
+        Basic:
+          MoreInfo:
+            Sections:
+              - FieldGroup:
+                  Name: ""
+                  Fields:
+                    - Id: ""
+          TopPanel:
+            Sections:
+              - FieldGroup:
+                  Name: ""
+                  Fields:
+                    - Id: ""
+      Tags:
+        - Key: ""
+          Value: ""

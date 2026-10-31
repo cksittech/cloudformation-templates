@@ -1,0 +1,364 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrCluster:
+    Type: AWS::EMR::Cluster
+    Properties:
+      AutoScalingRole: ""
+      CustomAmiId: ""
+      EbsRootVolumeIops: 0
+      EbsRootVolumeSize: 0
+      EbsRootVolumeThroughput: 0
+      JobFlowRole: ""
+      LogEncryptionKmsKeyId: ""
+      LogUri: ""
+      Name: ""
+      OSReleaseLabel: ""
+      ReleaseLabel: ""
+      ScaleDownBehavior: ""
+      SecurityConfiguration: ""
+      ServiceRole: ""
+      StepConcurrencyLevel: 0
+      VisibleToAllUsers: false
+      AdditionalInfo: {}
+      Applications:
+        - Args: []
+          Name: ""
+          Version: ""
+          AdditionalInfo: {}
+      AutoTerminationPolicy:
+        IdleTimeout: 0
+      BootstrapActions:
+        - Name: ""
+          ScriptBootstrapAction:
+            Args: []
+            Path: ""
+      Configurations:
+        - Classification: ""
+          Configurations: []
+          ConfigurationProperties: {}
+      Instances:
+        AdditionalMasterSecurityGroups: []
+        AdditionalSlaveSecurityGroups: []
+        Ec2KeyName: ""
+        Ec2SubnetId: ""
+        Ec2SubnetIds: []
+        EmrManagedMasterSecurityGroup: ""
+        EmrManagedSlaveSecurityGroup: ""
+        HadoopVersion: ""
+        KeepJobFlowAliveWhenNoSteps: false
+        ServiceAccessSecurityGroup: ""
+        TerminationProtected: false
+        UnhealthyNodeReplacement: false
+        CoreInstanceFleet:
+          Name: ""
+          TargetOnDemandCapacity: 0
+          TargetSpotCapacity: 0
+          InstanceTypeConfigs:
+            - BidPrice: ""
+              BidPriceAsPercentageOfOnDemandPrice: 0
+              CustomAmiId: ""
+              InstanceType: ""
+              Priority: 0
+              WeightedCapacity: 0
+              Configurations:
+                - Classification: ""
+                  Configurations: []
+                  ConfigurationProperties: {}
+              EbsConfiguration:
+                EbsOptimized: false
+                EbsBlockDeviceConfigs:
+                  - VolumesPerInstance: 0
+                    VolumeSpecification:
+                      Iops: 0
+                      SizeInGB: 0
+                      Throughput: 0
+                      VolumeType: ""
+          LaunchSpecifications:
+            OnDemandSpecification:
+              AllocationStrategy: ""
+              CapacityReservationOptions:
+                CapacityReservationPreference: ""
+                CapacityReservationResourceGroupArn: ""
+                UsageStrategy: ""
+            SpotSpecification:
+              AllocationStrategy: ""
+              BlockDurationMinutes: 0
+              TimeoutAction: ""
+              TimeoutDurationMinutes: 0
+          ResizeSpecifications:
+            OnDemandResizeSpecification:
+              AllocationStrategy: ""
+              TimeoutDurationMinutes: 0
+              CapacityReservationOptions:
+                CapacityReservationPreference: ""
+                CapacityReservationResourceGroupArn: ""
+                UsageStrategy: ""
+            SpotResizeSpecification:
+              AllocationStrategy: ""
+              TimeoutDurationMinutes: 0
+        CoreInstanceGroup:
+          BidPrice: ""
+          CustomAmiId: ""
+          InstanceCount: 0
+          InstanceType: ""
+          Market: ""
+          Name: ""
+          AutoScalingPolicy:
+            Constraints:
+              MaxCapacity: 0
+              MinCapacity: 0
+            Rules:
+              - Description: ""
+                Name: ""
+                Action:
+                  Market: ""
+                  SimpleScalingPolicyConfiguration:
+                    AdjustmentType: ""
+                    CoolDown: 0
+                    ScalingAdjustment: 0
+                Trigger:
+                  CloudWatchAlarmDefinition:
+                    ComparisonOperator: ""
+                    EvaluationPeriods: 0
+                    MetricName: ""
+                    Namespace: ""
+                    Period: 0
+                    Statistic: ""
+                    Threshold: 0
+                    Unit: ""
+                    Dimensions:
+                      - Key: ""
+                        Value: ""
+          Configurations:
+            - Classification: ""
+              Configurations: []
+              ConfigurationProperties: {}
+          EbsConfiguration:
+            EbsOptimized: false
+            EbsBlockDeviceConfigs:
+              - VolumesPerInstance: 0
+                VolumeSpecification:
+                  Iops: 0
+                  SizeInGB: 0
+                  Throughput: 0
+                  VolumeType: ""
+        MasterInstanceFleet:
+          Name: ""
+          TargetOnDemandCapacity: 0
+          TargetSpotCapacity: 0
+          InstanceTypeConfigs:
+            - BidPrice: ""
+              BidPriceAsPercentageOfOnDemandPrice: 0
+              CustomAmiId: ""
+              InstanceType: ""
+              Priority: 0
+              WeightedCapacity: 0
+              Configurations:
+                - Classification: ""
+                  Configurations: []
+                  ConfigurationProperties: {}
+              EbsConfiguration:
+                EbsOptimized: false
+                EbsBlockDeviceConfigs:
+                  - VolumesPerInstance: 0
+                    VolumeSpecification:
+                      Iops: 0
+                      SizeInGB: 0
+                      Throughput: 0
+                      VolumeType: ""
+          LaunchSpecifications:
+            OnDemandSpecification:
+              AllocationStrategy: ""
+              CapacityReservationOptions:
+                CapacityReservationPreference: ""
+                CapacityReservationResourceGroupArn: ""
+                UsageStrategy: ""
+            SpotSpecification:
+              AllocationStrategy: ""
+              BlockDurationMinutes: 0
+              TimeoutAction: ""
+              TimeoutDurationMinutes: 0
+          ResizeSpecifications:
+            OnDemandResizeSpecification:
+              AllocationStrategy: ""
+              TimeoutDurationMinutes: 0
+              CapacityReservationOptions:
+                CapacityReservationPreference: ""
+                CapacityReservationResourceGroupArn: ""
+                UsageStrategy: ""
+            SpotResizeSpecification:
+              AllocationStrategy: ""
+              TimeoutDurationMinutes: 0
+        MasterInstanceGroup:
+          BidPrice: ""
+          CustomAmiId: ""
+          InstanceCount: 0
+          InstanceType: ""
+          Market: ""
+          Name: ""
+          AutoScalingPolicy:
+            Constraints:
+              MaxCapacity: 0
+              MinCapacity: 0
+            Rules:
+              - Description: ""
+                Name: ""
+                Action:
+                  Market: ""
+                  SimpleScalingPolicyConfiguration:
+                    AdjustmentType: ""
+                    CoolDown: 0
+                    ScalingAdjustment: 0
+                Trigger:
+                  CloudWatchAlarmDefinition:
+                    ComparisonOperator: ""
+                    EvaluationPeriods: 0
+                    MetricName: ""
+                    Namespace: ""
+                    Period: 0
+                    Statistic: ""
+                    Threshold: 0
+                    Unit: ""
+                    Dimensions:
+                      - Key: ""
+                        Value: ""
+          Configurations:
+            - Classification: ""
+              Configurations: []
+              ConfigurationProperties: {}
+          EbsConfiguration:
+            EbsOptimized: false
+            EbsBlockDeviceConfigs:
+              - VolumesPerInstance: 0
+                VolumeSpecification:
+                  Iops: 0
+                  SizeInGB: 0
+                  Throughput: 0
+                  VolumeType: ""
+        Placement:
+          AvailabilityZone: ""
+        TaskInstanceFleets:
+          - Name: ""
+            TargetOnDemandCapacity: 0
+            TargetSpotCapacity: 0
+            InstanceTypeConfigs:
+              - BidPrice: ""
+                BidPriceAsPercentageOfOnDemandPrice: 0
+                CustomAmiId: ""
+                InstanceType: ""
+                Priority: 0
+                WeightedCapacity: 0
+                Configurations:
+                  - Classification: ""
+                    Configurations: []
+                    ConfigurationProperties: {}
+                EbsConfiguration:
+                  EbsOptimized: false
+                  EbsBlockDeviceConfigs:
+                    - VolumesPerInstance: 0
+                      VolumeSpecification:
+                        Iops: 0
+                        SizeInGB: 0
+                        Throughput: 0
+                        VolumeType: ""
+            LaunchSpecifications:
+              OnDemandSpecification:
+                AllocationStrategy: ""
+                CapacityReservationOptions:
+                  CapacityReservationPreference: ""
+                  CapacityReservationResourceGroupArn: ""
+                  UsageStrategy: ""
+              SpotSpecification:
+                AllocationStrategy: ""
+                BlockDurationMinutes: 0
+                TimeoutAction: ""
+                TimeoutDurationMinutes: 0
+            ResizeSpecifications:
+              OnDemandResizeSpecification:
+                AllocationStrategy: ""
+                TimeoutDurationMinutes: 0
+                CapacityReservationOptions:
+                  CapacityReservationPreference: ""
+                  CapacityReservationResourceGroupArn: ""
+                  UsageStrategy: ""
+              SpotResizeSpecification:
+                AllocationStrategy: ""
+                TimeoutDurationMinutes: 0
+        TaskInstanceGroups:
+          - BidPrice: ""
+            CustomAmiId: ""
+            InstanceCount: 0
+            InstanceType: ""
+            Market: ""
+            Name: ""
+            AutoScalingPolicy:
+              Constraints:
+                MaxCapacity: 0
+                MinCapacity: 0
+              Rules:
+                - Description: ""
+                  Name: ""
+                  Action:
+                    Market: ""
+                    SimpleScalingPolicyConfiguration:
+                      AdjustmentType: ""
+                      CoolDown: 0
+                      ScalingAdjustment: 0
+                  Trigger:
+                    CloudWatchAlarmDefinition:
+                      ComparisonOperator: ""
+                      EvaluationPeriods: 0
+                      MetricName: ""
+                      Namespace: ""
+                      Period: 0
+                      Statistic: ""
+                      Threshold: 0
+                      Unit: ""
+                      Dimensions:
+                        - Key: ""
+                          Value: ""
+            Configurations:
+              - Classification: ""
+                Configurations: []
+                ConfigurationProperties: {}
+            EbsConfiguration:
+              EbsOptimized: false
+              EbsBlockDeviceConfigs:
+                - VolumesPerInstance: 0
+                  VolumeSpecification:
+                    Iops: 0
+                    SizeInGB: 0
+                    Throughput: 0
+                    VolumeType: ""
+      KerberosAttributes:
+        ADDomainJoinPassword: ""
+        ADDomainJoinUser: ""
+        CrossRealmTrustPrincipalPassword: ""
+        KdcAdminPassword: ""
+        Realm: ""
+      ManagedScalingPolicy:
+        ScalingStrategy: ""
+        UtilizationPerformanceIndex: 0
+        ComputeLimits:
+          MaximumCapacityUnits: 0
+          MaximumCoreCapacityUnits: 0
+          MaximumOnDemandCapacityUnits: 0
+          MinimumCapacityUnits: 0
+          UnitType: ""
+      PlacementGroupConfigs:
+        - InstanceRole: ""
+          PlacementStrategy: ""
+      Steps:
+        - ActionOnFailure: ""
+          Name: ""
+          HadoopJarStep:
+            Args: []
+            Jar: ""
+            MainClass: ""
+            StepProperties:
+              - Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

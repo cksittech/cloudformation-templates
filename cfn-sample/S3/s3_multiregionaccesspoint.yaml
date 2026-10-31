@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Multiregionaccesspoint:
+    Type: AWS::S3::MultiRegionAccessPoint
+    Properties:
+      Name: ""
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      Regions:
+        - Bucket: ""
+          BucketAccountId: ""

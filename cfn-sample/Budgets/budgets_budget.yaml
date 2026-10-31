@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBudgetsBudget:
+    Type: AWS::Budgets::Budget
+    Properties:
+      Budget:
+        BillingViewArn: ""
+        BudgetName: ""
+        BudgetType: ""
+        Metrics: []
+        TimeUnit: ""
+        AutoAdjustData:
+          AutoAdjustType: ""
+          HistoricalOptions:
+            BudgetAdjustmentPeriod: 0
+        BudgetLimit:
+          Amount: 0
+          Unit: ""
+        CostFilters: {}
+        CostTypes:
+          IncludeCredit: false
+          IncludeDiscount: false
+          IncludeOtherSubscription: false
+          IncludeRecurring: false
+          IncludeRefund: false
+          IncludeSubscription: false
+          IncludeSupport: false
+          IncludeTax: false
+          IncludeUpfront: false
+          UseAmortized: false
+          UseBlended: false
+        FilterExpression:
+          And: []
+          Or: []
+          CostCategories:
+            Key: ""
+            MatchOptions: []
+            Values: []
+          Dimensions:
+            Key: ""
+            MatchOptions: []
+            Values: []
+          Not: {}
+          Tags:
+            Key: ""
+            MatchOptions: []
+            Values: []
+        PlannedBudgetLimits: {}
+        TimePeriod:
+          End: ""
+          Start: ""
+      NotificationsWithSubscribers:
+        - Notification:
+            ComparisonOperator: ""
+            NotificationType: ""
+            Threshold: 0
+            ThresholdType: ""
+          Subscribers:
+            - Address: ""
+              SubscriptionType: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""

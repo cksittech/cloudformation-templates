@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmonitorProbe:
+    Type: AWS::NetworkMonitor::Probe
+    Properties:
+      Destination: ""
+      DestinationPort: 0
+      MonitorName: ""
+      PacketSize: 0
+      Protocol: ""
+      SourceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

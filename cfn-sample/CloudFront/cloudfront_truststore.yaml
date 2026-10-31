@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontTruststore:
+    Type: AWS::CloudFront::TrustStore
+    Properties:
+      Name: ""
+      UseClientCertificateOCSPEndpoint: false
+      CaCertificatesBundleSource:
+        CaCertificatesBundleS3Location:
+          Bucket: ""
+          Key: ""
+          Region: ""
+          Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

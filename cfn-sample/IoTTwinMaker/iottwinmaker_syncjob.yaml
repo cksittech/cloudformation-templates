@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIottwinmakerSyncjob:
+    Type: AWS::IoTTwinMaker::SyncJob
+    Properties:
+      SyncRole: ""
+      SyncSource: ""
+      WorkspaceId: ""
+      Tags: {}

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskServerlesscluster:
+    Type: AWS::MSK::ServerlessCluster
+    Properties:
+      ClusterName: ""
+      ClientAuthentication:
+        Sasl:
+          Iam:
+            Enabled: false
+      Tags: {}
+      VpcConfigs:
+        - SecurityGroups: []
+          SubnetIds: []

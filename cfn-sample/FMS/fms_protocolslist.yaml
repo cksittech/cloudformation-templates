@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFmsProtocolslist:
+    Type: AWS::FMS::ProtocolsList
+    Properties:
+      ListName: ""
+      ProtocolsList: []
+      Tags:
+        - Key: ""
+          Value: ""

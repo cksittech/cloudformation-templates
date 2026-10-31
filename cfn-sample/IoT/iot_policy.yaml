@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotPolicy:
+    Type: AWS::IoT::Policy
+    Properties:
+      PolicyName: ""
+      PolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

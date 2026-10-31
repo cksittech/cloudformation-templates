@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoIdentitypool:
+    Type: AWS::Cognito::IdentityPool
+    Properties:
+      AllowClassicFlow: false
+      AllowUnauthenticatedIdentities: false
+      DeveloperProviderName: ""
+      IdentityPoolName: ""
+      OpenIdConnectProviderARNs: []
+      SamlProviderARNs: []
+      CognitoEvents: {}
+      CognitoIdentityProviders:
+        - ClientId: ""
+          ProviderName: ""
+          ServerSideTokenCheck: false
+      CognitoStreams:
+        RoleArn: ""
+        StreamName: ""
+        StreamingStatus: ""
+      IdentityPoolTags:
+        - Key: ""
+          Value: ""
+      PushSync:
+        ApplicationArns: []
+        RoleArn: ""
+      SupportedLoginProviders: {}

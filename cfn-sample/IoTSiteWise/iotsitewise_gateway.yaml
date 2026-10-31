@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewiseGateway:
+    Type: AWS::IoTSiteWise::Gateway
+    Properties:
+      GatewayName: ""
+      GatewayVersion: ""
+      GatewayCapabilitySummaries:
+        - CapabilityConfiguration: ""
+          CapabilityNamespace: ""
+      GatewayPlatform:
+        GreengrassV2:
+          CoreDeviceOperatingSystem: ""
+          CoreDeviceThingName: ""
+        SiemensIE:
+          IotCoreThingName: ""
+      Tags:
+        - Key: ""
+          Value: ""

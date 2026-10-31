@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatapipelinePipeline:
+    Type: AWS::DataPipeline::Pipeline
+    Properties:
+      Activate: false
+      Description: ""
+      Name: ""
+      ParameterObjects:
+        - Id: ""
+          Attributes:
+            - Key: ""
+              StringValue: ""
+      ParameterValues:
+        - Id: ""
+          StringValue: ""
+      PipelineObjects:
+        - Id: ""
+          Name: ""
+          Fields:
+            - Key: ""
+              RefValue: ""
+              StringValue: ""
+      PipelineTags:
+        - Key: ""
+          Value: ""

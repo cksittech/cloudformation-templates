@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchIntegration:
+    Type: AWS::CloudWatch::Integration
+    Properties:
+      IntegrationType: ""
+      Name: ""
+      RoleArn: ""
+      Credential:
+        ApiKeyCredential:
+          ApiKeyValue: ""
+      IntegrationAttributes: {}
+      Tags:
+        - Key: ""
+          Value: ""

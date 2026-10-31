@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Securitygroup:
+    Type: AWS::EC2::SecurityGroup
+    Properties:
+      GroupDescription: ""
+      GroupName: ""
+      VpcId: ""
+      SecurityGroupEgress:
+        - CidrIp: ""
+          CidrIpv6: ""
+          Description: ""
+          DestinationPrefixListId: ""
+          DestinationSecurityGroupId: ""
+          FromPort: 0
+          IpProtocol: ""
+          ToPort: 0
+      SecurityGroupIngress:
+        - CidrIp: ""
+          CidrIpv6: ""
+          Description: ""
+          FromPort: 0
+          IpProtocol: ""
+          SourcePrefixListId: ""
+          SourceSecurityGroupId: ""
+          SourceSecurityGroupName: ""
+          SourceSecurityGroupOwnerId: ""
+          ToPort: 0
+      Tags:
+        - Key: ""
+          Value: ""

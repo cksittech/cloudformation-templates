@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamVirtualmfadevice:
+    Type: AWS::IAM::VirtualMFADevice
+    Properties:
+      Path: ""
+      Users: []
+      VirtualMfaDeviceName: ""
+      Tags:
+        - Key: ""
+          Value: ""

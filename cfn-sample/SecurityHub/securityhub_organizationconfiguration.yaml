@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubOrganizationconfiguration:
+    Type: AWS::SecurityHub::OrganizationConfiguration
+    Properties:
+      AutoEnable: false
+      AutoEnableStandards: ""
+      ConfigurationType: ""

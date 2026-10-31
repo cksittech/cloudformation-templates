@@ -1,0 +1,48 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleComputeoptimizerAutomationrule:
+    Type: AWS::ComputeOptimizer::AutomationRule
+    Properties:
+      Description: ""
+      Name: ""
+      Priority: ""
+      RecommendedActionTypes: []
+      RuleType: ""
+      Status: ""
+      Criteria:
+        EbsVolumeSizeInGib:
+          - Comparison: ""
+            Values: []
+        EbsVolumeType:
+          - Comparison: ""
+            Values: []
+        EstimatedMonthlySavings:
+          - Comparison: ""
+            Values: []
+        LookBackPeriodInDays:
+          - Comparison: ""
+            Values: []
+        Region:
+          - Comparison: ""
+            Values: []
+        ResourceArn:
+          - Comparison: ""
+            Values: []
+        ResourceTag:
+          - Comparison: ""
+            Key: ""
+            Values: []
+        RestartNeeded:
+          - Comparison: ""
+            Values: []
+      OrganizationConfiguration:
+        AccountIds: []
+        RuleApplyOrder: ""
+      Schedule:
+        ExecutionWindowInMinutes: 0
+        ScheduleExpression: ""
+        ScheduleExpressionTimezone: ""
+      Tags:
+        - Key: ""
+          Value: ""

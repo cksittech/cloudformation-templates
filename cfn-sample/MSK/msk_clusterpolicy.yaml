@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskClusterpolicy:
+    Type: AWS::MSK::ClusterPolicy
+    Properties:
+      ClusterArn: ""
+      Policy: {}

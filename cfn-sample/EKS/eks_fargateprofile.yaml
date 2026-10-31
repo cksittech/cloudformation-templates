@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksFargateprofile:
+    Type: AWS::EKS::FargateProfile
+    Properties:
+      ClusterName: ""
+      FargateProfileName: ""
+      PodExecutionRoleArn: ""
+      Subnets: []
+      Selectors:
+        - Namespace: ""
+          Labels:
+            - Key: ""
+              Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

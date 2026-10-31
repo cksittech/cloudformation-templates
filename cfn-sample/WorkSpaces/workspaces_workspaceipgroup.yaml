@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesWorkspaceipgroup:
+    Type: AWS::WorkSpaces::WorkspaceIpGroup
+    Properties:
+      GroupDesc: ""
+      GroupName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserRules:
+        - IpRule: ""
+          RuleDesc: ""

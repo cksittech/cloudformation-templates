@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectBridgesource:
+    Type: AWS::MediaConnect::BridgeSource
+    Properties:
+      BridgeArn: ""
+      Name: ""
+      FlowSource:
+        FlowArn: ""
+        FlowVpcInterfaceAttachment:
+          VpcInterfaceName: ""
+      NetworkSource:
+        MulticastIp: ""
+        NetworkName: ""
+        Port: 0
+        Protocol: ""
+        MulticastSourceSettings:
+          MulticastSourceIp: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxSnapshot:
+    Type: AWS::FSx::Snapshot
+    Properties:
+      Name: ""
+      VolumeId: ""
+      Tags:
+        - Key: ""
+          Value: ""

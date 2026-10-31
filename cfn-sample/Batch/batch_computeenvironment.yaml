@@ -1,0 +1,82 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchComputeenvironment:
+    Type: AWS::Batch::ComputeEnvironment
+    Properties:
+      ComputeEnvironmentName: ""
+      Context: ""
+      ReplaceComputeEnvironment: true
+      ServiceRole: ""
+      State: ""
+      Type: ""
+      UnmanagedvCpus: 0
+      ComputeResources:
+        AllocationStrategy: ""
+        BidPercentage: 0
+        DesiredvCpus: 0
+        Ec2KeyPair: ""
+        ImageId: ""
+        InstanceRole: ""
+        InstanceTypes: []
+        MaxvCpus: 0
+        MinvCpus: 0
+        PlacementGroup: ""
+        SecurityGroupIds: []
+        SpotIamFleetRole: ""
+        Subnets: []
+        Type: ""
+        UpdateToLatestImageVersion: false
+        CapacityTags: {}
+        Ec2Configuration:
+          - ImageIdOverride: ""
+            ImageKubernetesVersion: ""
+            ImageType: ""
+        LaunchTemplate:
+          LaunchTemplateId: ""
+          LaunchTemplateName: ""
+          UserdataType: ""
+          Version: ""
+          Overrides:
+            - LaunchTemplateId: ""
+              LaunchTemplateName: ""
+              TargetInstanceTypes: []
+              UserdataType: ""
+              Version: ""
+        ManagedInstancesProvider:
+          InfrastructureRoleArn: ""
+          PropagateTags: ""
+          InfrastructureOptimization:
+            ScaleInAfter: 0
+          InstanceLaunchTemplate:
+            CapacityOptionType: ""
+            Ec2InstanceProfileArn: ""
+            FipsEnabled: false
+            InstanceMetadataTagsPropagation: false
+            Monitoring: ""
+            CapacityReservations:
+              ReservationGroupArn: ""
+              ReservationPreference: ""
+            InstanceRequirements:
+              AllowedInstanceTypes: []
+            LocalStorageConfiguration:
+              UseLocalStorage: false
+            NetworkConfiguration:
+              SecurityGroups: []
+              Subnets: []
+            StorageConfiguration:
+              StorageSizeGiB: 0
+        ScalingPolicy:
+          MinScaleDownDelayMinutes: 0
+        Tags: {}
+      EcsSettings:
+        ContainerInsights: ""
+      EksConfiguration:
+        EksClusterArn: ""
+        KubernetesNamespace: ""
+        AccessEntry:
+          DesiredState: ""
+      Tags: {}
+      UpdatePolicy:
+        JobExecutionTimeoutMinutes: 30
+        TerminateJobsOnUpdate: false

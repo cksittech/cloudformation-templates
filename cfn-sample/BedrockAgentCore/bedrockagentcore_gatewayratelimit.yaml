@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreGatewayratelimit:
+    Type: AWS::BedrockAgentCore::GatewayRateLimit
+    Properties:
+      Description: ""
+      DimensionKeys: []
+      GatewayIdentifier: ""
+      RateLimitId: ""
+      Entries:
+        - Connections:
+            - Period: ""
+              Rate: 0
+          Dimensions: {}
+          Requests:
+            - Period: ""
+              Rate: 0
+          Tokens:
+            - Period: ""
+              Rate: 0

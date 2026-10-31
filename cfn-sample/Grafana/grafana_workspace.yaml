@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGrafanaWorkspace:
+    Type: AWS::Grafana::Workspace
+    Properties:
+      AccountAccessType: ""
+      AuthenticationProviders: []
+      ClientToken: ""
+      DataSources: []
+      Description: ""
+      GrafanaVersion: ""
+      Name: ""
+      NotificationDestinations: []
+      OrganizationRoleName: ""
+      OrganizationalUnits: []
+      PermissionType: ""
+      PluginAdminEnabled: false
+      RoleArn: ""
+      StackSetName: ""
+      NetworkAccessControl:
+        PrefixListIds: []
+        VpceIds: []
+      SamlConfiguration:
+        AllowedOrganizations: []
+        LoginValidityDuration: 0
+        AssertionAttributes:
+          Email: ""
+          Groups: ""
+          Login: ""
+          Name: ""
+          Org: ""
+          Role: ""
+        IdpMetadata:
+          Url: ""
+          Xml: ""
+        RoleValues:
+          Admin: []
+          Editor: []
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfiguration:
+        SecurityGroupIds: []
+        SubnetIds: []

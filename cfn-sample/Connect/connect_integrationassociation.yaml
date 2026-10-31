@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectIntegrationassociation:
+    Type: AWS::Connect::IntegrationAssociation
+    Properties:
+      InstanceId: ""
+      IntegrationArn: ""
+      IntegrationType: ""
+      SourceApplicationName: ""
+      SourceApplicationUrl: ""
+      SourceType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsEventsubscription:
+    Type: AWS::DMS::EventSubscription
+    Properties:
+      Enabled: false
+      EventCategories: []
+      SnsTopicArn: ""
+      SourceIds: []
+      SourceType: ""
+      SubscriptionName: ""
+      Tags:
+        - Key: ""
+          Value: ""

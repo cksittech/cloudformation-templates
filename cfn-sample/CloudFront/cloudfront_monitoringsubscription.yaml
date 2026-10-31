@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontMonitoringsubscription:
+    Type: AWS::CloudFront::MonitoringSubscription
+    Properties:
+      DistributionId: ""
+      MonitoringSubscription:
+        RealtimeMetricsSubscriptionConfig:
+          RealtimeMetricsSubscriptionStatus: ""

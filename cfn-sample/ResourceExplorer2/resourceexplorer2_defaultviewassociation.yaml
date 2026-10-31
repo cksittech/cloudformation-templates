@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResourceexplorer2Defaultviewassociation:
+    Type: AWS::ResourceExplorer2::DefaultViewAssociation
+    Properties:
+      ViewArn: ""

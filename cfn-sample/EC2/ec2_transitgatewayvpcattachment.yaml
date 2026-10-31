@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewayvpcattachment:
+    Type: AWS::EC2::TransitGatewayVpcAttachment
+    Properties:
+      AddSubnetIds: []
+      RemoveSubnetIds: []
+      SubnetIds: []
+      TransitGatewayId: ""
+      VpcId: ""
+      Options:
+        ApplianceModeSupport: ""
+        DnsSupport: ""
+        Ipv6Support: ""
+        SecurityGroupReferencingSupport: ""
+      Tags:
+        - Key: ""
+          Value: ""

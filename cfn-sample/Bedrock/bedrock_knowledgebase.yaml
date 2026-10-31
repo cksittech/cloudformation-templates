@@ -1,0 +1,145 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockKnowledgebase:
+    Type: AWS::Bedrock::KnowledgeBase
+    Properties:
+      Description: ""
+      Name: ""
+      RoleArn: ""
+      KnowledgeBaseConfiguration:
+        Type: ""
+        KendraKnowledgeBaseConfiguration:
+          KendraIndexArn: ""
+        ManagedKnowledgeBaseConfiguration:
+          EmbeddingModelArn: ""
+          EmbeddingModelType: ""
+          EmbeddingModelConfiguration:
+            BedrockEmbeddingModelConfiguration:
+              Dimensions: 0
+              EmbeddingDataType: ""
+              Audio:
+                - SegmentationConfiguration:
+                    FixedLengthDuration: 0
+              ModelConfiguration: {}
+              Video:
+                - SegmentationConfiguration:
+                    FixedLengthDuration: 0
+          ServerSideEncryptionConfiguration:
+            KmsKeyArn: ""
+          SupplementalDataStorageConfiguration:
+            SupplementalDataStorageLocations:
+              - SupplementalDataStorageLocationType: ""
+                S3Location:
+                  URI: ""
+        SqlKnowledgeBaseConfiguration:
+          Type: ""
+          RedshiftConfiguration:
+            QueryEngineConfiguration:
+              Type: ""
+              ProvisionedConfiguration:
+                ClusterIdentifier: ""
+                AuthConfiguration:
+                  DatabaseUser: ""
+                  Type: ""
+                  UsernamePasswordSecretArn: ""
+              ServerlessConfiguration:
+                WorkgroupArn: ""
+                AuthConfiguration:
+                  Type: ""
+                  UsernamePasswordSecretArn: ""
+            QueryGenerationConfiguration:
+              ExecutionTimeoutSeconds: 0
+              GenerationContext:
+                CuratedQueries:
+                  - NaturalLanguage: ""
+                    Sql: ""
+                Tables:
+                  - Description: ""
+                    Inclusion: ""
+                    Name: ""
+                    Columns:
+                      - Description: ""
+                        Inclusion: ""
+                        Name: ""
+            StorageConfigurations:
+              - Type: ""
+                AwsDataCatalogConfiguration:
+                  TableNames: []
+                RedshiftConfiguration:
+                  DatabaseName: ""
+        VectorKnowledgeBaseConfiguration:
+          EmbeddingModelArn: ""
+          EmbeddingModelConfiguration:
+            BedrockEmbeddingModelConfiguration:
+              Dimensions: 0
+              EmbeddingDataType: ""
+              Audio:
+                - SegmentationConfiguration:
+                    FixedLengthDuration: 0
+              ModelConfiguration: {}
+              Video:
+                - SegmentationConfiguration:
+                    FixedLengthDuration: 0
+          SupplementalDataStorageConfiguration:
+            SupplementalDataStorageLocations:
+              - SupplementalDataStorageLocationType: ""
+                S3Location:
+                  URI: ""
+      StorageConfiguration:
+        Type: ""
+        MongoDbAtlasConfiguration:
+          CollectionName: ""
+          CredentialsSecretArn: ""
+          DatabaseName: ""
+          Endpoint: ""
+          EndpointServiceName: ""
+          TextIndexName: ""
+          VectorIndexName: ""
+          FieldMapping:
+            MetadataField: ""
+            TextField: ""
+            VectorField: ""
+        NeptuneAnalyticsConfiguration:
+          GraphArn: ""
+          FieldMapping:
+            MetadataField: ""
+            TextField: ""
+        OpensearchManagedClusterConfiguration:
+          DomainArn: ""
+          DomainEndpoint: ""
+          VectorIndexName: ""
+          FieldMapping:
+            MetadataField: ""
+            TextField: ""
+            VectorField: ""
+        OpensearchServerlessConfiguration:
+          CollectionArn: ""
+          VectorIndexName: ""
+          FieldMapping:
+            MetadataField: ""
+            TextField: ""
+            VectorField: ""
+        PineconeConfiguration:
+          ConnectionString: ""
+          CredentialsSecretArn: ""
+          Namespace: ""
+          FieldMapping:
+            MetadataField: ""
+            TextField: ""
+        RdsConfiguration:
+          CredentialsSecretArn: ""
+          DatabaseName: ""
+          ResourceArn: ""
+          TableName: ""
+          FieldMapping:
+            CustomMetadataField: ""
+            MetadataField: ""
+            PrimaryKeyField: ""
+            TextField: ""
+            VectorField: ""
+        S3VectorsConfiguration:
+          IndexArn: ""
+          IndexName: ""
+          VectorBucketArn: ""
+      Tags: {}

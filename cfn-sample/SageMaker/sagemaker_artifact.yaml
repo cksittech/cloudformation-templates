@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerArtifact:
+    Type: AWS::SageMaker::Artifact
+    Properties:
+      ArtifactName: ""
+      ArtifactType: ""
+      MetadataProperties:
+        CommitId: ""
+        GeneratedBy: ""
+        ProjectId: ""
+        Repository: ""
+      Properties: {}
+      Source:
+        SourceUri: ""
+        SourceTypes:
+          - SourceIdType: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

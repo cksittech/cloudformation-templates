@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWellarchitectedProfile:
+    Type: AWS::WellArchitected::Profile
+    Properties:
+      ProfileDescription: ""
+      ProfileName: ""
+      ProfileQuestions:
+        - QuestionId: ""
+          SelectedChoiceIds: []
+      Tags:
+        - Key: ""
+          Value: ""

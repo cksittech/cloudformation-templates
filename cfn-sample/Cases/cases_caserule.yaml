@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCasesCaserule:
+    Type: AWS::Cases::CaseRule
+    Properties:
+      Description: ""
+      DomainId: ""
+      Name: ""
+      Rule:
+        Hidden:
+          DefaultValue: false
+          Conditions:
+            - EqualTo:
+                Result: false
+                OperandOne:
+                  FieldId: ""
+                OperandTwo:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+              NotEqualTo:
+                Result: false
+                OperandOne:
+                  FieldId: ""
+                OperandTwo:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+        Required:
+          DefaultValue: false
+          Conditions:
+            - EqualTo:
+                Result: false
+                OperandOne:
+                  FieldId: ""
+                OperandTwo:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+              NotEqualTo:
+                Result: false
+                OperandOne:
+                  FieldId: ""
+                OperandTwo:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesReceiptrule:
+    Type: AWS::SES::ReceiptRule
+    Properties:
+      After: ""
+      RuleSetName: ""
+      Rule:
+        Enabled: false
+        Name: ""
+        Recipients: []
+        ScanEnabled: false
+        TlsPolicy: ""
+        Actions:
+          - AddHeaderAction:
+              HeaderName: ""
+              HeaderValue: ""
+            BounceAction:
+              Message: ""
+              Sender: ""
+              SmtpReplyCode: ""
+              StatusCode: ""
+              TopicArn: ""
+            ConnectAction:
+              IAMRoleARN: ""
+              InstanceARN: ""
+            LambdaAction:
+              FunctionArn: ""
+              InvocationType: ""
+              TopicArn: ""
+            S3Action:
+              BucketName: ""
+              IamRoleArn: ""
+              KmsKeyArn: ""
+              ObjectKeyPrefix: ""
+              TopicArn: ""
+            SNSAction:
+              Encoding: ""
+              TopicArn: ""
+            StopAction:
+              Scope: ""
+              TopicArn: ""
+            WorkmailAction:
+              OrganizationArn: ""
+              TopicArn: ""

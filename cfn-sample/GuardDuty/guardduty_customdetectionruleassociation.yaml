@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyCustomdetectionruleassociation:
+    Type: AWS::GuardDuty::CustomDetectionRuleAssociation
+    Properties:
+      Mode: ""
+      RuleId: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewayattachmentnatconfiguration:
+    Type: AWS::EC2::TransitGatewayAttachmentNatConfiguration
+    Properties:
+      NatGatewaySupport: ""
+      NatSystemRouteSupport: ""
+      TransitGatewayAttachmentId: ""
+      NatGatewayRules:
+        - MatchSourceCidr: ""
+          NatCidr: ""
+          RuleNumber: 0

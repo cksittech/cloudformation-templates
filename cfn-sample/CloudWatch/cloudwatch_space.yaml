@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchSpace:
+    Type: AWS::CloudWatch::Space
+    Properties:
+      AgentCoreEvaluationRoleArn: ""
+      DataAccessRoleArn: ""
+      DomainId: ""
+      Name: ""
+      EncryptionConfiguration:
+        EncryptionStrategy: ""
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

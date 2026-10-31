@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53Keysigningkey:
+    Type: AWS::Route53::KeySigningKey
+    Properties:
+      HostedZoneId: ""
+      KeyManagementServiceArn: ""
+      Name: ""
+      Status: ""

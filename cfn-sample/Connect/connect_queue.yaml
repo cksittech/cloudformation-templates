@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectQueue:
+    Type: AWS::Connect::Queue
+    Properties:
+      Description: ""
+      HoursOfOperationArn: ""
+      InstanceArn: ""
+      MaxContacts: 0
+      Name: ""
+      QuickConnectArns: []
+      Status: ""
+      AdditionalEmailAddresses:
+        - EmailAddressArn: ""
+      OutboundCallerConfig:
+        OutboundCallerIdName: ""
+        OutboundCallerIdNumberArn: ""
+        OutboundFlowArn: ""
+      OutboundEmailConfig:
+        OutboundEmailAddressId: ""
+      Tags:
+        - Key: ""
+          Value: ""

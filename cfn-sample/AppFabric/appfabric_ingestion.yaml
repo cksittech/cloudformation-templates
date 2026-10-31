@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppfabricIngestion:
+    Type: AWS::AppFabric::Ingestion
+    Properties:
+      App: ""
+      AppBundleArn: ""
+      IngestionType: ""
+      TenantId: ""
+      Tags:
+        - Key: ""
+          Value: ""

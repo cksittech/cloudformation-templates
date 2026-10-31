@@ -1,0 +1,57 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKafkaconnectConnector:
+    Type: AWS::KafkaConnect::Connector
+    Properties:
+      ConnectorDescription: ""
+      ConnectorName: ""
+      KafkaConnectVersion: ""
+      NetworkType: ""
+      ServiceExecutionRoleArn: ""
+      Capacity:
+        AutoScaling:
+          MaxAutoscalingTaskCount: 0
+          MaxWorkerCount: 0
+          McuCount: 0
+          MinWorkerCount: 0
+          ScaleInPolicy:
+            CpuUtilizationPercentage: 0
+          ScaleOutPolicy:
+            CpuUtilizationPercentage: 0
+        ProvisionedCapacity:
+          McuCount: 0
+          WorkerCount: 0
+      ConnectorConfiguration: {}
+      KafkaCluster:
+        ApacheKafkaCluster:
+          BootstrapServers: ""
+          Vpc:
+            SecurityGroups: []
+            Subnets: []
+      KafkaClusterClientAuthentication:
+        AuthenticationType: ""
+      KafkaClusterEncryptionInTransit:
+        EncryptionType: ""
+      LogDelivery:
+        WorkerLogDelivery:
+          CloudWatchLogs:
+            Enabled: false
+            LogGroup: ""
+          Firehose:
+            DeliveryStream: ""
+            Enabled: false
+          S3:
+            Bucket: ""
+            Enabled: false
+            Prefix: ""
+      Plugins:
+        - CustomPlugin:
+            CustomPluginArn: ""
+            Revision: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkerConfiguration:
+        Revision: 0
+        WorkerConfigurationArn: ""

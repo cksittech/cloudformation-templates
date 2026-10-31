@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleXrayTransactionsearchconfig:
+    Type: AWS::XRay::TransactionSearchConfig
+    Properties:
+      IndexingPercentage: 0
+      CloudWatchLogsConfiguration:
+        SpansLogGroupKmsKeyId: ""

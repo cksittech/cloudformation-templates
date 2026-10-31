@@ -1,0 +1,149 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshRoute:
+    Type: AWS::AppMesh::Route
+    Properties:
+      MeshName: ""
+      MeshOwner: ""
+      RouteName: ""
+      VirtualRouterName: ""
+      Spec:
+        Priority: 0
+        GrpcRoute:
+          Action:
+            WeightedTargets:
+              - Port: 0
+                VirtualNode: ""
+                Weight: 0
+          Match:
+            MethodName: ""
+            Port: 0
+            ServiceName: ""
+            Metadata:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+          RetryPolicy:
+            GrpcRetryEvents: []
+            HttpRetryEvents: []
+            MaxRetries: 0
+            TcpRetryEvents: []
+            PerRetryTimeout:
+              Unit: ""
+              Value: 0
+          Timeout:
+            Idle:
+              Unit: ""
+              Value: 0
+            PerRequest:
+              Unit: ""
+              Value: 0
+        Http2Route:
+          Action:
+            WeightedTargets:
+              - Port: 0
+                VirtualNode: ""
+                Weight: 0
+          Match:
+            Method: ""
+            Port: 0
+            Prefix: ""
+            Scheme: ""
+            Headers:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+            Path:
+              Exact: ""
+              Regex: ""
+            QueryParameters:
+              - Name: ""
+                Match:
+                  Exact: ""
+          RetryPolicy:
+            HttpRetryEvents: []
+            MaxRetries: 0
+            TcpRetryEvents: []
+            PerRetryTimeout:
+              Unit: ""
+              Value: 0
+          Timeout:
+            Idle:
+              Unit: ""
+              Value: 0
+            PerRequest:
+              Unit: ""
+              Value: 0
+        HttpRoute:
+          Action:
+            WeightedTargets:
+              - Port: 0
+                VirtualNode: ""
+                Weight: 0
+          Match:
+            Method: ""
+            Port: 0
+            Prefix: ""
+            Scheme: ""
+            Headers:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+            Path:
+              Exact: ""
+              Regex: ""
+            QueryParameters:
+              - Name: ""
+                Match:
+                  Exact: ""
+          RetryPolicy:
+            HttpRetryEvents: []
+            MaxRetries: 0
+            TcpRetryEvents: []
+            PerRetryTimeout:
+              Unit: ""
+              Value: 0
+          Timeout:
+            Idle:
+              Unit: ""
+              Value: 0
+            PerRequest:
+              Unit: ""
+              Value: 0
+        TcpRoute:
+          Action:
+            WeightedTargets:
+              - Port: 0
+                VirtualNode: ""
+                Weight: 0
+          Match:
+            Port: 0
+          Timeout:
+            Idle:
+              Unit: ""
+              Value: 0
+      Tags:
+        - Key: ""
+          Value: ""

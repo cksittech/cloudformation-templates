@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmonitorMonitor:
+    Type: AWS::NetworkMonitor::Monitor
+    Properties:
+      AggregationPeriod: 0
+      MonitorName: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDrsRecoveryplan:
+    Type: AWS::DRS::RecoveryPlan
+    Properties:
+      Description: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

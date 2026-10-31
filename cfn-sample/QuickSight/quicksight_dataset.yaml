@@ -1,0 +1,87 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightDataset:
+    Type: AWS::QuickSight::DataSet
+    Properties:
+      AwsAccountId: ""
+      DataSetId: ""
+      FolderArns: []
+      ImportMode: ""
+      Name: ""
+      UseAs: ""
+      ColumnGroups:
+        - GeoSpatialColumnGroup:
+            Columns: []
+            CountryCode: ""
+            Name: ""
+      ColumnLevelPermissionRules:
+        - ColumnNames: []
+          Principals: []
+      DataPrepConfiguration:
+        DestinationTableMap: {}
+        SourceTableMap: {}
+        TransformStepMap: {}
+      DataSetRefreshProperties:
+        FailureConfiguration:
+          EmailAlert:
+            AlertStatus: ""
+        RefreshConfiguration:
+          IncrementalRefresh:
+            LookbackWindow:
+              ColumnName: ""
+              Size: 0
+              SizeUnit: ""
+      DataSetUsageConfiguration:
+        DisableUseAsDirectQuerySource: false
+        DisableUseAsImportedSource: false
+      DatasetParameters:
+        - DateTimeDatasetParameter:
+            Id: ""
+            Name: ""
+            TimeGranularity: ""
+            ValueType: ""
+            DefaultValues:
+              StaticValues: []
+          DecimalDatasetParameter:
+            Id: ""
+            Name: ""
+            ValueType: ""
+            DefaultValues:
+              StaticValues: []
+          IntegerDatasetParameter:
+            Id: ""
+            Name: ""
+            ValueType: ""
+            DefaultValues:
+              StaticValues: []
+          StringDatasetParameter:
+            Id: ""
+            Name: ""
+            ValueType: ""
+            DefaultValues:
+              StaticValues: []
+      FieldFolders: {}
+      IngestionWaitPolicy:
+        IngestionWaitTimeInHours: 36
+        WaitForSpiceIngestion: true
+      PerformanceConfiguration:
+        UniqueKeys:
+          - ColumnNames: []
+      Permissions:
+        - Actions: []
+          Principal: ""
+      PhysicalTableMap: {}
+      SemanticModelConfiguration:
+        SemanticMetadata:
+          - CustomInstructions:
+              - InlineCustomInstruction:
+                  InstructionText: ""
+                  UploadedDocumentMetadata:
+                    Name: ""
+            Description:
+              Text: ""
+        TableMap: {}
+      Tags:
+        - Key: ""
+          Value: ""

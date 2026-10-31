@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafRule:
+    Type: AWS::WAF::Rule
+    Properties:
+      MetricName: ""
+      Name: ""
+      Predicates:
+        - DataId: ""
+          Negated: false
+          Type: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentAsset:
+    Type: AWS::DevOpsAgent::Asset
+    Properties:
+      AgentSpaceId: ""
+      AssetType: ""
+      Zip: ""
+      Files:
+        - ContentBytes: ""
+          ContentText: ""
+          Path: ""
+          Metadata: {}
+      Metadata: {}

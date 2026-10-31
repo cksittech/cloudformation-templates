@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigConfigurationaggregator:
+    Type: AWS::Config::ConfigurationAggregator
+    Properties:
+      ConfigurationAggregatorName: ""
+      AccountAggregationSources:
+        - AccountIds: []
+          AllAwsRegions: false
+          AwsRegions: []
+      OrganizationAggregationSource:
+        AllAwsRegions: false
+        AwsRegions: []
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

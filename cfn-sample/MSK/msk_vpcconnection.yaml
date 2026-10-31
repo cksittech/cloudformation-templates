@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskVpcconnection:
+    Type: AWS::MSK::VpcConnection
+    Properties:
+      Authentication: ""
+      ClientSubnets: []
+      SecurityGroups: []
+      TargetClusterArn: ""
+      VpcId: ""
+      Tags: {}

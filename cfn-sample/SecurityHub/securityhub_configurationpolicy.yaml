@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubConfigurationpolicy:
+    Type: AWS::SecurityHub::ConfigurationPolicy
+    Properties:
+      Description: ""
+      Name: ""
+      ConfigurationPolicy:
+        SecurityHub:
+          EnabledStandardIdentifiers: []
+          ServiceEnabled: false
+          SecurityControlsConfiguration:
+            DisabledSecurityControlIdentifiers: []
+            EnabledSecurityControlIdentifiers: []
+            SecurityControlCustomParameters:
+              - SecurityControlId: ""
+                Parameters: {}
+      Tags: {}

@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApprunnerService:
+    Type: AWS::AppRunner::Service
+    Properties:
+      AutoScalingConfigurationArn: ""
+      ServiceName: ""
+      EncryptionConfiguration:
+        KmsKey: ""
+      HealthCheckConfiguration:
+        HealthyThreshold: 0
+        Interval: 0
+        Path: ""
+        Protocol: ""
+        Timeout: 0
+        UnhealthyThreshold: 0
+      InstanceConfiguration:
+        Cpu: ""
+        InstanceRoleArn: ""
+        Memory: ""
+      NetworkConfiguration:
+        IpAddressType: ""
+        EgressConfiguration:
+          EgressType: ""
+          VpcConnectorArn: ""
+        IngressConfiguration:
+          IsPubliclyAccessible: false
+      ObservabilityConfiguration:
+        ObservabilityConfigurationArn: ""
+        ObservabilityEnabled: false
+      SourceConfiguration:
+        AutoDeploymentsEnabled: false
+        AuthenticationConfiguration:
+          AccessRoleArn: ""
+          ConnectionArn: ""
+        CodeRepository:
+          RepositoryUrl: ""
+          SourceDirectory: ""
+          CodeConfiguration:
+            ConfigurationSource: ""
+            CodeConfigurationValues:
+              BuildCommand: ""
+              Port: ""
+              Runtime: ""
+              StartCommand: ""
+              RuntimeEnvironmentSecrets:
+                - Name: ""
+                  Value: ""
+              RuntimeEnvironmentVariables:
+                - Name: ""
+                  Value: ""
+          SourceCodeVersion:
+            Type: ""
+            Value: ""
+        ImageRepository:
+          ImageIdentifier: ""
+          ImageRepositoryType: ""
+          ImageConfiguration:
+            Port: ""
+            StartCommand: ""
+            RuntimeEnvironmentSecrets:
+              - Name: ""
+                Value: ""
+            RuntimeEnvironmentVariables:
+              - Name: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

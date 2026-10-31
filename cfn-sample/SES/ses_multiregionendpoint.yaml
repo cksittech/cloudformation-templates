@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMultiregionendpoint:
+    Type: AWS::SES::MultiRegionEndpoint
+    Properties:
+      EndpointName: ""
+      Details:
+        RouteDetails:
+          - Region: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneEnvironment:
+    Type: AWS::DataZone::Environment
+    Properties:
+      DeploymentOrder: 0
+      Description: ""
+      DomainIdentifier: ""
+      EnvironmentAccountIdentifier: ""
+      EnvironmentAccountRegion: ""
+      EnvironmentBlueprintIdentifier: ""
+      EnvironmentConfigurationId: ""
+      EnvironmentProfileIdentifier: ""
+      EnvironmentRoleArn: ""
+      GlossaryTerms: []
+      Name: ""
+      ProjectIdentifier: ""
+      UserParameters:
+        - Name: ""
+          Value: ""

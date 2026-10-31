@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSnsSubscription:
+    Type: AWS::SNS::Subscription
+    Properties:
+      Endpoint: ""
+      FilterPolicyScope: ""
+      Protocol: ""
+      RawMessageDelivery: false
+      Region: ""
+      SubscriptionRoleArn: ""
+      TopicArn: ""
+      DeliveryPolicy: {}
+      FilterPolicy: {}
+      RedrivePolicy: {}
+      ReplayPolicy: {}

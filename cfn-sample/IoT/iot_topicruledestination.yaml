@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotTopicruledestination:
+    Type: AWS::IoT::TopicRuleDestination
+    Properties:
+      Status: ""
+      HttpUrlProperties:
+        ConfirmationUrl: ""
+      InfluxDBProperties:
+        Endpoint: ""
+        InfluxDBVersion: ""
+        SecretId: ""
+        SecretKey: ""
+        SecretType: ""
+      VpcProperties:
+        RoleArn: ""
+        SecurityGroups: []
+        SubnetIds: []
+        VpcId: ""

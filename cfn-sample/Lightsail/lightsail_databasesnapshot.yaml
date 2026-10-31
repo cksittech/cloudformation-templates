@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailDatabasesnapshot:
+    Type: AWS::Lightsail::DatabaseSnapshot
+    Properties:
+      RelationalDatabaseName: ""
+      RelationalDatabaseSnapshotName: ""
+      Tags:
+        - Key: ""
+          Value: ""

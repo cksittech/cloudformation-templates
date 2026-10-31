@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectRoutingprofile:
+    Type: AWS::Connect::RoutingProfile
+    Properties:
+      AgentAvailabilityTimer: ""
+      DefaultOutboundQueueArn: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      ManualAssignmentQueueConfigs:
+        - QueueReference:
+            Channel: ""
+            QueueArn: ""
+      MediaConcurrencies:
+        - Channel: ""
+          Concurrency: 0
+          CrossChannelBehavior:
+            BehaviorType: ""
+      QueueConfigs:
+        - Delay: 0
+          Priority: 0
+          QueueReference:
+            Channel: ""
+            QueueArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferHostkey:
+    Type: AWS::Transfer::HostKey
+    Properties:
+      Description: ""
+      HostKeyBody: ""
+      KmsKey: ""
+      ServerId: ""
+      StorageType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupRestoretestingplan:
+    Type: AWS::Backup::RestoreTestingPlan
+    Properties:
+      RestoreTestingPlanName: ""
+      ScheduleExpression: ""
+      ScheduleExpressionTimezone: ""
+      StartWindowHours: 0
+      RecoveryPointSelection:
+        Algorithm: ""
+        ExcludeVaults: []
+        IncludeVaults: []
+        RecoveryPointTypes: []
+        SelectionWindowDays: 0
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApsRulegroupsnamespace:
+    Type: AWS::APS::RuleGroupsNamespace
+    Properties:
+      Data: ""
+      Name: ""
+      Workspace: ""
+      Tags:
+        - Key: ""
+          Value: ""

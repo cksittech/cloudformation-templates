@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveSdisource:
+    Type: AWS::MediaLive::SdiSource
+    Properties:
+      Mode: ""
+      Name: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

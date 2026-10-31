@@ -1,0 +1,98 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsTransformer:
+    Type: AWS::Logs::Transformer
+    Properties:
+      LogGroupIdentifier: ""
+      TransformerConfig:
+        - AddKeys:
+            Entries:
+              - Key: ""
+                OverwriteIfExists: false
+                Value: ""
+          CopyValue:
+            Entries:
+              - OverwriteIfExists: false
+                Source: ""
+                Target: ""
+          Csv:
+            Columns: []
+            Delimiter: ""
+            QuoteCharacter: ""
+            Source: ""
+          DateTimeConverter:
+            Locale: ""
+            MatchPatterns: []
+            Source: ""
+            SourceTimezone: ""
+            Target: ""
+            TargetFormat: ""
+            TargetTimezone: ""
+          DeleteKeys:
+            WithKeys: []
+          Grok:
+            Match: ""
+            Source: ""
+          ListToMap:
+            Flatten: false
+            FlattenedElement: ""
+            Key: ""
+            Source: ""
+            Target: ""
+            ValueKey: ""
+          LowerCaseString:
+            WithKeys: []
+          MoveKeys:
+            Entries:
+              - OverwriteIfExists: false
+                Source: ""
+                Target: ""
+          ParseCloudfront:
+            Source: ""
+          ParseJSON:
+            Destination: ""
+            Source: ""
+          ParseKeyValue:
+            Destination: ""
+            FieldDelimiter: ""
+            KeyPrefix: ""
+            KeyValueDelimiter: ""
+            NonMatchValue: ""
+            OverwriteIfExists: false
+            Source: ""
+          ParsePostgres:
+            Source: ""
+          ParseRoute53:
+            Source: ""
+          ParseToOCSF:
+            EventSource: ""
+            MappingVersion: ""
+            OcsfVersion: ""
+            Source: ""
+          ParseVPC:
+            Source: ""
+          ParseWAF:
+            Source: ""
+          RenameKeys:
+            Entries:
+              - Key: ""
+                OverwriteIfExists: false
+                RenameTo: ""
+          SplitString:
+            Entries:
+              - Delimiter: ""
+                Source: ""
+          SubstituteString:
+            Entries:
+              - From: ""
+                Source: ""
+                To: ""
+          TrimString:
+            WithKeys: []
+          TypeConverter:
+            Entries:
+              - Key: ""
+                Type: ""
+          UpperCaseString:
+            WithKeys: []

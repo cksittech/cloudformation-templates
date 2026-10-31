@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3outpostsEndpoint:
+    Type: AWS::S3Outposts::Endpoint
+    Properties:
+      AccessType: "Private"
+      CustomerOwnedIpv4Pool: ""
+      OutpostId: ""
+      SecurityGroupId: ""
+      SubnetId: ""
+      FailedReason:
+        ErrorCode: ""
+        Message: ""

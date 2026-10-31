@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmcontactsPlan:
+    Type: AWS::SSMContacts::Plan
+    Properties:
+      ContactId: ""
+      RotationIds: []
+      Stages:
+        - DurationInMinutes: 0
+          Targets:
+            - ChannelTargetInfo:
+                ChannelId: ""
+                RetryIntervalInMinutes: 0
+              ContactTargetInfo:
+                ContactId: ""
+                IsEssential: false

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleXrayResourcepolicy:
+    Type: AWS::XRay::ResourcePolicy
+    Properties:
+      BypassPolicyLockoutCheck: false
+      PolicyDocument: ""
+      PolicyName: ""

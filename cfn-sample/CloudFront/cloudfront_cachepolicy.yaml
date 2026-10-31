@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontCachepolicy:
+    Type: AWS::CloudFront::CachePolicy
+    Properties:
+      CachePolicyConfig:
+        Comment: ""
+        DefaultTTL: 0
+        MaxTTL: 0
+        MinTTL: 0
+        Name: ""
+        ParametersInCacheKeyAndForwardedToOrigin:
+          EnableAcceptEncodingBrotli: false
+          EnableAcceptEncodingGzip: false
+          CookiesConfig:
+            CookieBehavior: ""
+            Cookies: []
+          HeadersConfig:
+            HeaderBehavior: ""
+            Headers: []
+          QueryStringsConfig:
+            QueryStringBehavior: ""
+            QueryStrings: []

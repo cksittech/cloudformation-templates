@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodestarnotificationsNotificationrule:
+    Type: AWS::CodeStarNotifications::NotificationRule
+    Properties:
+      CreatedBy: ""
+      DetailType: ""
+      EventTypeId: ""
+      EventTypeIds: []
+      Name: ""
+      Resource: ""
+      Status: ""
+      TargetAddress: ""
+      Tags: {}
+      Targets:
+        - TargetAddress: ""
+          TargetType: ""

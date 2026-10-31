@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Placementgroup:
+    Type: AWS::EC2::PlacementGroup
+    Properties:
+      ParentGroupId: ""
+      PartitionCount: 0
+      SpreadLevel: ""
+      Strategy: ""
+      Tags:
+        - Key: ""
+          Value: ""

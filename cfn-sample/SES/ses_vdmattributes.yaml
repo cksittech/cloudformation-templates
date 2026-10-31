@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesVdmattributes:
+    Type: AWS::SES::VdmAttributes
+    Properties:
+      DashboardAttributes:
+        EngagementMetrics: ""
+      GuardianAttributes:
+        OptimizedSharedDelivery: ""

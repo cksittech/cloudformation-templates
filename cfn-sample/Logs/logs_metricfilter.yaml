@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsMetricfilter:
+    Type: AWS::Logs::MetricFilter
+    Properties:
+      ApplyOnTransformedLogs: false
+      EmitSystemFieldDimensions: []
+      FieldSelectionCriteria: ""
+      FilterName: ""
+      FilterPattern: ""
+      LogGroupName: ""
+      MetricTransformations:
+        - DefaultValue: 0
+          MetricName: ""
+          MetricNamespace: ""
+          MetricValue: ""
+          Unit: ""
+          Dimensions:
+            - Key: ""
+              Value: ""

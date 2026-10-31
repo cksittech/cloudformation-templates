@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchResourcemetricsconfiguration:
+    Type: AWS::CloudWatch::ResourceMetricsConfiguration
+    Properties:
+      ResourceArn: ""
+      MetricSelections:
+        - IncludeMetrics: []

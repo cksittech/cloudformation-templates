@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotAuthorizer:
+    Type: AWS::IoT::Authorizer
+    Properties:
+      AuthorizerFunctionArn: ""
+      AuthorizerName: ""
+      EnableCachingForHttp: false
+      SigningDisabled: false
+      Status: ""
+      TokenKeyName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TokenSigningPublicKeys: {}

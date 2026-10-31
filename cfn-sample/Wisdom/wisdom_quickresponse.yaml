@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomQuickresponse:
+    Type: AWS::Wisdom::QuickResponse
+    Properties:
+      Channels: []
+      ContentType: ""
+      Description: ""
+      IsActive: false
+      KnowledgeBaseArn: ""
+      Language: ""
+      Name: ""
+      ShortcutKey: ""
+      Content:
+        Content: ""
+      GroupingConfiguration:
+        Criteria: ""
+        Values: []
+      Tags:
+        - Key: ""
+          Value: ""

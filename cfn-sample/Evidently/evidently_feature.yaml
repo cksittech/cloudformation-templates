@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEvidentlyFeature:
+    Type: AWS::Evidently::Feature
+    Properties:
+      DefaultVariation: ""
+      Description: ""
+      EvaluationStrategy: ""
+      Name: ""
+      Project: ""
+      EntityOverrides:
+        - EntityId: ""
+          Variation: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Variations:
+        - BooleanValue: false
+          DoubleValue: 0
+          LongValue: 0
+          StringValue: ""
+          VariationName: ""

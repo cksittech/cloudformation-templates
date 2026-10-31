@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Capacitymanagerdataexport:
+    Type: AWS::EC2::CapacityManagerDataExport
+    Properties:
+      OutputFormat: ""
+      S3BucketName: ""
+      S3BucketPrefix: ""
+      Schedule: ""
+      Tags:
+        - Key: ""
+          Value: ""

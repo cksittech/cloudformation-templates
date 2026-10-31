@@ -1,0 +1,90 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Storagelens:
+    Type: AWS::S3::StorageLens
+    Properties:
+      StorageLensConfiguration:
+        Id: ""
+        IsEnabled: false
+        PrefixDelimiter: ""
+        AccountLevel:
+          ActivityMetrics:
+            IsEnabled: false
+          AdvancedCostOptimizationMetrics:
+            IsEnabled: false
+          AdvancedDataProtectionMetrics:
+            IsEnabled: false
+          AdvancedPerformanceMetrics:
+            IsEnabled: false
+          BucketLevel:
+            ActivityMetrics:
+              IsEnabled: false
+            AdvancedCostOptimizationMetrics:
+              IsEnabled: false
+            AdvancedDataProtectionMetrics:
+              IsEnabled: false
+            AdvancedPerformanceMetrics:
+              IsEnabled: false
+            DetailedStatusCodesMetrics:
+              IsEnabled: false
+            PrefixLevel:
+              StorageMetrics:
+                IsEnabled: false
+                SelectionCriteria:
+                  Delimiter: ""
+                  MaxDepth: 0
+                  MinStorageBytesPercentage: 0
+          DetailedStatusCodesMetrics:
+            IsEnabled: false
+          StorageLensGroupLevel:
+            StorageLensGroupSelectionCriteria:
+              Exclude: []
+              Include: []
+        AwsOrg:
+          Arn: ""
+        DataExport:
+          CloudWatchMetrics:
+            IsEnabled: false
+          S3BucketDestination:
+            AccountId: ""
+            Arn: ""
+            Format: ""
+            OutputSchemaVersion: ""
+            Prefix: ""
+            Encryption:
+              SSEKMS:
+                KeyId: ""
+              SSES3: {}
+          StorageLensTableDestination:
+            IsEnabled: false
+            Encryption:
+              SSEKMS:
+                KeyId: ""
+              SSES3: {}
+        Exclude:
+          Buckets: []
+          Regions: []
+        ExpandedPrefixesDataExport:
+          S3BucketDestination:
+            AccountId: ""
+            Arn: ""
+            Format: ""
+            OutputSchemaVersion: ""
+            Prefix: ""
+            Encryption:
+              SSEKMS:
+                KeyId: ""
+              SSES3: {}
+          StorageLensTableDestination:
+            IsEnabled: false
+            Encryption:
+              SSEKMS:
+                KeyId: ""
+              SSES3: {}
+        Include:
+          Buckets: []
+          Regions: []
+      Tags:
+        - Key: ""
+          Value: ""

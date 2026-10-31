@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsInstanceprofile:
+    Type: AWS::DMS::InstanceProfile
+    Properties:
+      AvailabilityZone: ""
+      Description: ""
+      InstanceProfileName: ""
+      KmsKeyArn: ""
+      NetworkType: ""
+      PubliclyAccessible: false
+      SubnetGroupIdentifier: ""
+      VpcSecurityGroups: []
+      Tags:
+        - Key: ""
+          Value: ""

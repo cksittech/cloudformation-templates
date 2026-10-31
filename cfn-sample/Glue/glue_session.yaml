@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueSession:
+    Type: AWS::Glue::Session
+    Properties:
+      Description: ""
+      GlueVersion: ""
+      Id: ""
+      IdleTimeout: 0
+      MaxCapacity: 0
+      NumberOfWorkers: 0
+      RequestOrigin: ""
+      Role: ""
+      SecurityConfiguration: ""
+      Timeout: 0
+      WorkerType: ""
+      Command:
+        Name: ""
+        PythonVersion: ""
+      Connections:
+        Connections: []
+      DefaultArguments: {}
+      Tags:
+        - Key: ""
+          Value: ""

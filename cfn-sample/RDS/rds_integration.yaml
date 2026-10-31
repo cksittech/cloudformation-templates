@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsIntegration:
+    Type: AWS::RDS::Integration
+    Properties:
+      DataFilter: ""
+      Description: ""
+      IntegrationName: ""
+      KMSKeyId: ""
+      SourceArn: ""
+      TargetArn: ""
+      AdditionalEncryptionContext: {}
+      Tags:
+        - Key: ""
+          Value: ""

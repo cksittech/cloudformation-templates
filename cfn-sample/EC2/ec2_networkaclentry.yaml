@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkaclentry:
+    Type: AWS::EC2::NetworkAclEntry
+    Properties:
+      CidrBlock: ""
+      Egress: false
+      Ipv6CidrBlock: ""
+      NetworkAclId: ""
+      Protocol: 0
+      RuleAction: ""
+      RuleNumber: 0
+      Icmp:
+        Code: 0
+        Type: 0
+      PortRange:
+        From: 0
+        To: 0

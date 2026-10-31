@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyuibuilderComponent:
+    Type: AWS::AmplifyUIBuilder::Component
+    Properties:
+      AppId: ""
+      ComponentType: ""
+      EnvironmentName: ""
+      Name: ""
+      SchemaVersion: ""
+      SourceId: ""
+      BindingProperties: {}
+      Children:
+        - Children: []
+          ComponentType: ""
+          Name: ""
+          SourceId: ""
+          Events: {}
+          Properties: {}
+      CollectionProperties: {}
+      Events: {}
+      Overrides: {}
+      Properties: {}
+      Tags: {}
+      Variants:
+        - Overrides: {}
+          VariantValues: {}

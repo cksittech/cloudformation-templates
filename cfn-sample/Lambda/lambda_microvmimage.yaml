@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaMicrovmimage:
+    Type: AWS::Lambda::MicrovmImage
+    Properties:
+      AdditionalOsCapabilities: []
+      BaseImageArn: ""
+      BaseImageVersion: ""
+      BuildRoleArn: ""
+      Description: ""
+      EgressNetworkConnectors: []
+      Name: ""
+      CodeArtifact:
+        Uri: ""
+      CpuConfigurations:
+        - Architecture: ""
+      EnvironmentVariables:
+        - Key: ""
+          Value: ""
+      Hooks:
+        Port: 0
+        MicrovmHooks:
+          Resume: ""
+          ResumeTimeoutInSeconds: 0
+          Run: ""
+          RunTimeoutInSeconds: 0
+          Suspend: ""
+          SuspendTimeoutInSeconds: 0
+          Terminate: ""
+          TerminateTimeoutInSeconds: 0
+        MicrovmImageHooks:
+          Ready: ""
+          ReadyTimeoutInSeconds: 0
+          Validate: ""
+          ValidateTimeoutInSeconds: 0
+      Logging:
+        Disabled: false
+        CloudWatch:
+          LogGroup: ""
+          LogStream: ""
+      Resources:
+        - MinimumMemoryInMiB: 0
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomKnowledgebase:
+    Type: AWS::Wisdom::KnowledgeBase
+    Properties:
+      Description: ""
+      KnowledgeBaseType: ""
+      Name: ""
+      RenderingConfiguration:
+        TemplateUri: ""
+      ServerSideEncryptionConfiguration:
+        KmsKeyId: ""
+      SourceConfiguration:
+        AppIntegrations:
+          AppIntegrationArn: ""
+          ObjectFields: []
+        ManagedSourceConfiguration:
+          WebCrawlerConfiguration:
+            ExclusionFilters: []
+            InclusionFilters: []
+            Scope: ""
+            CrawlerLimits:
+              RateLimit: 0
+            UrlConfiguration:
+              SeedUrls:
+                - Url: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VectorIngestionConfiguration:
+        ChunkingConfiguration:
+          ChunkingStrategy: ""
+          FixedSizeChunkingConfiguration:
+            MaxTokens: 0
+            OverlapPercentage: 0
+          HierarchicalChunkingConfiguration:
+            OverlapTokens: 0
+            LevelConfigurations:
+              - MaxTokens: 0
+          SemanticChunkingConfiguration:
+            BreakpointPercentileThreshold: 0
+            BufferSize: 0
+            MaxTokens: 0
+        ParsingConfiguration:
+          ParsingStrategy: ""
+          BedrockFoundationModelConfiguration:
+            ModelArn: ""
+            ParsingPrompt:
+              ParsingPromptText: ""

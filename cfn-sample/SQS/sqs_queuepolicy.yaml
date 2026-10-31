@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSqsQueuepolicy:
+    Type: AWS::SQS::QueuePolicy
+    Properties:
+      Queues: []
+      PolicyDocument: {}

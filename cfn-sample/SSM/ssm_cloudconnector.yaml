@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmCloudconnector:
+    Type: AWS::SSM::CloudConnector
+    Properties:
+      ConfigConnectorArn: ""
+      Description: ""
+      DisplayName: ""
+      RoleArn: ""
+      Configuration:
+        AzureConfiguration:
+          ApplicationDisplayName: ""
+          ApplicationId: ""
+          TenantDisplayName: ""
+          TenantId: ""
+          Targets:
+            Subscriptions:
+              - DisplayName: ""
+                Id: ""
+      Tags:
+        - Key: ""
+          Value: ""

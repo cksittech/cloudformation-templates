@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxFilecache:
+    Type: AWS::FSx::FileCache
+    Properties:
+      CopyTagsToDataRepositoryAssociations: false
+      FileCacheType: ""
+      FileCacheTypeVersion: ""
+      KmsKeyId: ""
+      SecurityGroupIds: []
+      StorageCapacity: 0
+      SubnetIds: []
+      DataRepositoryAssociations:
+        - DataRepositoryPath: ""
+          FileCachePath: ""
+      LustreConfiguration:
+        DeploymentType: ""
+        PerUnitStorageThroughput: 0
+        WeeklyMaintenanceStartTime: ""
+        MetadataConfiguration:
+          StorageCapacity: 0
+      Tags:
+        - Key: ""
+          Value: ""

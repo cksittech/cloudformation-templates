@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayResource:
+    Type: AWS::ApiGateway::Resource
+    Properties:
+      ParentId: ""
+      PathPart: ""
+      RestApiId: ""

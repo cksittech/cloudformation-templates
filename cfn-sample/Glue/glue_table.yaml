@@ -1,0 +1,99 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueTable:
+    Type: AWS::Glue::Table
+    Properties:
+      CatalogId: ""
+      DatabaseName: ""
+      Name: ""
+      OpenTableFormatInput:
+        IcebergInput:
+          MetadataOperation: ""
+          Version: ""
+          IcebergTableInput:
+            Location: ""
+            PartitionSpec:
+              SpecId: 0
+              Fields:
+                - FieldId: 0
+                  Name: ""
+                  SourceId: 0
+                  Transform: ""
+            Properties: {}
+            Schema:
+              IdentifierFieldIds: []
+              SchemaId: 0
+              Type: ""
+              Fields:
+                - Doc: ""
+                  Id: 0
+                  Name: ""
+                  Required: false
+                  Type: ""
+            WriteOrder:
+              OrderId: 0
+              Fields:
+                - Direction: ""
+                  NullOrder: ""
+                  SourceId: 0
+                  Transform: ""
+      TableInput:
+        Description: ""
+        Name: ""
+        Owner: ""
+        Retention: 0
+        TableType: ""
+        ViewExpandedText: ""
+        ViewOriginalText: ""
+        Parameters: {}
+        PartitionKeys:
+          - Comment: ""
+            Name: ""
+            Type: ""
+        StorageDescriptor:
+          BucketColumns: []
+          Compressed: false
+          InputFormat: ""
+          Location: ""
+          NumberOfBuckets: 0
+          OutputFormat: ""
+          StoredAsSubDirectories: false
+          Columns:
+            - Comment: ""
+              Name: ""
+              Type: ""
+          Parameters: {}
+          SchemaReference:
+            SchemaVersionId: ""
+            SchemaVersionNumber: 0
+            SchemaId:
+              RegistryName: ""
+              SchemaArn: ""
+              SchemaName: ""
+          SerdeInfo:
+            Name: ""
+            SerializationLibrary: ""
+            Parameters: {}
+          SkewedInfo:
+            SkewedColumnNames: []
+            SkewedColumnValues: []
+            SkewedColumnValueLocationMaps: {}
+          SortColumns:
+            - Column: ""
+              SortOrder: 0
+        TargetTable:
+          CatalogId: ""
+          DatabaseName: ""
+          Name: ""
+          Region: ""
+        ViewDefinition:
+          Definer: ""
+          IsProtected: false
+          SubObjects: []
+          Representations:
+            - Dialect: ""
+              DialectVersion: ""
+              ValidationConnection: ""
+              ViewExpandedText: ""
+              ViewOriginalText: ""

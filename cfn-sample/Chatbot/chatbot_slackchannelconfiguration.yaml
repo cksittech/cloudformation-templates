@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleChatbotSlackchannelconfiguration:
+    Type: AWS::Chatbot::SlackChannelConfiguration
+    Properties:
+      ConfigurationName: ""
+      CustomizationResourceArns: []
+      GuardrailPolicies: []
+      IamRoleArn: ""
+      LoggingLevel: "NONE"
+      SlackChannelId: ""
+      SlackWorkspaceId: ""
+      SnsTopicArns: []
+      UserRoleRequired: false
+      Tags:
+        - Key: ""
+          Value: ""

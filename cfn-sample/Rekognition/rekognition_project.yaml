@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRekognitionProject:
+    Type: AWS::Rekognition::Project
+    Properties:
+      ProjectName: ""
+      Tags:
+        - Key: ""
+          Value: ""

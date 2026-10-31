@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncChannelnamespace:
+    Type: AWS::AppSync::ChannelNamespace
+    Properties:
+      ApiId: ""
+      CodeHandlers: ""
+      CodeS3Location: ""
+      Name: ""
+      HandlerConfigs:
+        OnPublish:
+          Behavior: ""
+          Integration:
+            DataSourceName: ""
+            LambdaConfig:
+              InvokeType: ""
+        OnSubscribe:
+          Behavior: ""
+          Integration:
+            DataSourceName: ""
+            LambdaConfig:
+              InvokeType: ""
+      PublishAuthModes:
+        - AuthType: ""
+      SubscribeAuthModes:
+        - AuthType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEvidentlyProject:
+    Type: AWS::Evidently::Project
+    Properties:
+      Description: ""
+      Name: ""
+      AppConfigResource:
+        ApplicationId: ""
+        EnvironmentId: ""
+      DataDelivery:
+        LogGroup: ""
+        S3:
+          BucketName: ""
+          Prefix: ""
+      Tags:
+        - Key: ""
+          Value: ""

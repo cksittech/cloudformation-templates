@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDaxCluster:
+    Type: AWS::DAX::Cluster
+    Properties:
+      AvailabilityZones: []
+      ClusterEndpointEncryptionType: ""
+      ClusterName: ""
+      Description: ""
+      IAMRoleARN: ""
+      NetworkType: ""
+      NodeType: ""
+      NotificationTopicARN: ""
+      ParameterGroupName: ""
+      PreferredMaintenanceWindow: ""
+      ReplicationFactor: 0
+      SecurityGroupIds: []
+      SubnetGroupName: ""
+      SSESpecification:
+        SSEEnabled: false
+      Tags: {}

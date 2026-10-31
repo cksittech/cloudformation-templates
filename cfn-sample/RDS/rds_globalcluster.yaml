@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsGlobalcluster:
+    Type: AWS::RDS::GlobalCluster
+    Properties:
+      DeletionProtection: false
+      Engine: ""
+      EngineLifecycleSupport: ""
+      EngineVersion: ""
+      GlobalClusterIdentifier: ""
+      SourceDBClusterIdentifier: ""
+      StorageEncrypted: false
+      Tags:
+        - Key: ""
+          Value: ""

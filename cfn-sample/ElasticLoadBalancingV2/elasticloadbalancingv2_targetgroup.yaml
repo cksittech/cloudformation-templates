@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingv2Targetgroup:
+    Type: AWS::ElasticLoadBalancingV2::TargetGroup
+    Properties:
+      HealthCheckEnabled: false
+      HealthCheckIntervalSeconds: 0
+      HealthCheckPath: ""
+      HealthCheckPort: ""
+      HealthCheckProtocol: ""
+      HealthCheckTimeoutSeconds: 0
+      HealthyThresholdCount: 0
+      IpAddressType: ""
+      Name: ""
+      Port: 0
+      Protocol: ""
+      ProtocolVersion: ""
+      TargetControlPort: 0
+      TargetType: ""
+      UnhealthyThresholdCount: 0
+      VpcId: ""
+      Matcher:
+        GrpcCode: ""
+        HttpCode: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetGroupAttributes:
+        - Key: ""
+          Value: ""
+      Targets:
+        - AvailabilityZone: ""
+          Id: ""
+          Port: 0
+          QuicServerId: ""

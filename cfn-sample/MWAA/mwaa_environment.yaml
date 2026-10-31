@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMwaaEnvironment:
+    Type: AWS::MWAA::Environment
+    Properties:
+      AirflowVersion: ""
+      DagS3Path: ""
+      EndpointManagement: ""
+      EnvironmentClass: ""
+      ExecutionRoleArn: ""
+      KmsKey: ""
+      MaxWebservers: 0
+      MaxWorkers: 0
+      MinWebservers: 0
+      MinWorkers: 0
+      Name: ""
+      PluginsS3ObjectVersion: ""
+      PluginsS3Path: ""
+      RequirementsS3ObjectVersion: ""
+      RequirementsS3Path: ""
+      Schedulers: 0
+      SourceBucketArn: ""
+      StartupScriptS3ObjectVersion: ""
+      StartupScriptS3Path: ""
+      WebserverAccessMode: ""
+      WeeklyMaintenanceWindowStart: ""
+      WorkerReplacementStrategy: ""
+      AirflowConfigurationOptions: {}
+      LoggingConfiguration:
+        DagProcessingLogs:
+          Enabled: false
+          LogLevel: ""
+        SchedulerLogs:
+          Enabled: false
+          LogLevel: ""
+        TaskLogs:
+          Enabled: false
+          LogLevel: ""
+        WebserverLogs:
+          Enabled: false
+          LogLevel: ""
+        WorkerLogs:
+          Enabled: false
+          LogLevel: ""
+      NetworkConfiguration:
+        SecurityGroupIds: []
+        SubnetIds: []
+      Tags: {}

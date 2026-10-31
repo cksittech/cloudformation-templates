@@ -1,0 +1,57 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncGraphqlapi:
+    Type: AWS::AppSync::GraphQLApi
+    Properties:
+      ApiType: ""
+      AuthenticationType: ""
+      IntrospectionConfig: ""
+      MergedApiExecutionRoleArn: ""
+      Name: ""
+      OwnerContact: ""
+      QueryDepthLimit: 0
+      ResolverCountLimit: 0
+      Visibility: ""
+      XrayEnabled: false
+      AdditionalAuthenticationProviders:
+        - AuthenticationType: ""
+          LambdaAuthorizerConfig:
+            AuthorizerResultTtlInSeconds: 0
+            AuthorizerUri: ""
+            IdentityValidationExpression: ""
+          OpenIDConnectConfig:
+            AuthTTL: 0
+            ClientId: ""
+            IatTTL: 0
+            Issuer: ""
+          UserPoolConfig:
+            AppIdClientRegex: ""
+            AwsRegion: ""
+            UserPoolId: ""
+      EnhancedMetricsConfig:
+        DataSourceLevelMetricsBehavior: ""
+        OperationLevelMetricsConfig: ""
+        ResolverLevelMetricsBehavior: ""
+      EnvironmentVariables: {}
+      LambdaAuthorizerConfig:
+        AuthorizerResultTtlInSeconds: 0
+        AuthorizerUri: ""
+        IdentityValidationExpression: ""
+      LogConfig:
+        CloudWatchLogsRoleArn: ""
+        ExcludeVerboseContent: false
+        FieldLogLevel: ""
+      OpenIDConnectConfig:
+        AuthTTL: 0
+        ClientId: ""
+        IatTTL: 0
+        Issuer: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserPoolConfig:
+        AppIdClientRegex: ""
+        AwsRegion: ""
+        DefaultAction: ""
+        UserPoolId: ""

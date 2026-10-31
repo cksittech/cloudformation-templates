@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftSnapshot:
+    Type: AWS::Redshift::Snapshot
+    Properties:
+      ClusterIdentifier: ""
+      ManualSnapshotRetentionPeriod: 0
+      SnapshotIdentifier: ""
+      Tags:
+        - Key: ""
+          Value: ""

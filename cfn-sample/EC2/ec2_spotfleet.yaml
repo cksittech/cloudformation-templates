@@ -1,0 +1,206 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Spotfleet:
+    Type: AWS::EC2::SpotFleet
+    Properties:
+      SpotFleetRequestConfigData:
+        AllocationStrategy: ""
+        Context: ""
+        ExcessCapacityTerminationPolicy: ""
+        IamFleetRole: ""
+        InstanceInterruptionBehavior: ""
+        InstancePoolsToUseCount: 0
+        OnDemandAllocationStrategy: ""
+        OnDemandMaxTotalPrice: ""
+        OnDemandTargetCapacity: 0
+        ReplaceUnhealthyInstances: false
+        SpotMaxTotalPrice: ""
+        SpotPrice: ""
+        TargetCapacity: 0
+        TargetCapacityUnitType: ""
+        TerminateInstancesWithExpiration: false
+        Type: ""
+        ValidFrom: ""
+        ValidUntil: ""
+        LaunchSpecifications:
+          - EbsOptimized: false
+            ImageId: ""
+            InstanceType: ""
+            KernelId: ""
+            KeyName: ""
+            RamdiskId: ""
+            SpotPrice: ""
+            SubnetId: ""
+            UserData: ""
+            WeightedCapacity: 0
+            BlockDeviceMappings:
+              - DeviceName: ""
+                NoDevice: ""
+                VirtualName: ""
+                Ebs:
+                  DeleteOnTermination: false
+                  Encrypted: false
+                  Iops: 0
+                  SnapshotId: ""
+                  VolumeSize: 0
+                  VolumeType: ""
+            IamInstanceProfile:
+              Arn: ""
+            InstanceRequirements:
+              AcceleratorManufacturers: []
+              AcceleratorNames: []
+              AcceleratorTypes: []
+              AllowedInstanceTypes: []
+              BareMetal: ""
+              BurstablePerformance: ""
+              CpuManufacturers: []
+              ExcludedInstanceTypes: []
+              InstanceGenerations: []
+              LocalStorage: ""
+              LocalStorageTypes: []
+              MaxSpotPriceAsPercentageOfOptimalOnDemandPrice: 0
+              OnDemandMaxPricePercentageOverLowestPrice: 0
+              RequireEncryptionInTransit: false
+              RequireHibernateSupport: false
+              SpotMaxPricePercentageOverLowestPrice: 0
+              AcceleratorCount:
+                Max: 0
+                Min: 0
+              AcceleratorTotalMemoryMiB:
+                Max: 0
+                Min: 0
+              BaselineEbsBandwidthMbps:
+                Max: 0
+                Min: 0
+              BaselinePerformanceFactors:
+                Cpu:
+                  References:
+                    - InstanceFamily: ""
+              MemoryGiBPerVCpu:
+                Max: 0
+                Min: 0
+              MemoryMiB:
+                Max: 0
+                Min: 0
+              NetworkBandwidthGbps:
+                Max: 0
+                Min: 0
+              NetworkInterfaceCount:
+                Max: 0
+                Min: 0
+              TotalLocalStorageGB:
+                Max: 0
+                Min: 0
+              VCpuCount:
+                Max: 0
+                Min: 0
+            Monitoring:
+              Enabled: false
+            NetworkInterfaces:
+              - AssociatePublicIpAddress: false
+                DeleteOnTermination: false
+                Description: ""
+                DeviceIndex: 0
+                Groups: []
+                Ipv6AddressCount: 0
+                NetworkInterfaceId: ""
+                SecondaryPrivateIpAddressCount: 0
+                SubnetId: ""
+                Ipv6Addresses:
+                  - Ipv6Address: ""
+                PrivateIpAddresses:
+                  - Primary: false
+                    PrivateIpAddress: ""
+            Placement:
+              AvailabilityZone: ""
+              AvailabilityZoneId: ""
+              GroupName: ""
+              Tenancy: ""
+            SecurityGroups:
+              - GroupId: ""
+            TagSpecifications:
+              - ResourceType: ""
+                Tags:
+                  - Key: ""
+                    Value: ""
+        LaunchTemplateConfigs:
+          - LaunchTemplateSpecification:
+              LaunchTemplateId: ""
+              LaunchTemplateName: ""
+              Version: ""
+            Overrides:
+              - AvailabilityZone: ""
+                AvailabilityZoneId: ""
+                InstanceType: ""
+                Priority: 0
+                SpotPrice: ""
+                SubnetId: ""
+                WeightedCapacity: 0
+                InstanceRequirements:
+                  AcceleratorManufacturers: []
+                  AcceleratorNames: []
+                  AcceleratorTypes: []
+                  AllowedInstanceTypes: []
+                  BareMetal: ""
+                  BurstablePerformance: ""
+                  CpuManufacturers: []
+                  ExcludedInstanceTypes: []
+                  InstanceGenerations: []
+                  LocalStorage: ""
+                  LocalStorageTypes: []
+                  MaxSpotPriceAsPercentageOfOptimalOnDemandPrice: 0
+                  OnDemandMaxPricePercentageOverLowestPrice: 0
+                  RequireEncryptionInTransit: false
+                  RequireHibernateSupport: false
+                  SpotMaxPricePercentageOverLowestPrice: 0
+                  AcceleratorCount:
+                    Max: 0
+                    Min: 0
+                  AcceleratorTotalMemoryMiB:
+                    Max: 0
+                    Min: 0
+                  BaselineEbsBandwidthMbps:
+                    Max: 0
+                    Min: 0
+                  BaselinePerformanceFactors:
+                    Cpu:
+                      References:
+                        - InstanceFamily: ""
+                  MemoryGiBPerVCpu:
+                    Max: 0
+                    Min: 0
+                  MemoryMiB:
+                    Max: 0
+                    Min: 0
+                  NetworkBandwidthGbps:
+                    Max: 0
+                    Min: 0
+                  NetworkInterfaceCount:
+                    Max: 0
+                    Min: 0
+                  TotalLocalStorageGB:
+                    Max: 0
+                    Min: 0
+                  VCpuCount:
+                    Max: 0
+                    Min: 0
+        LoadBalancersConfig:
+          ClassicLoadBalancersConfig:
+            ClassicLoadBalancers:
+              - Name: ""
+          TargetGroupsConfig:
+            TargetGroups:
+              - Arn: ""
+        SpotMaintenanceStrategies:
+          CapacityRebalance:
+            ReplacementStrategy: ""
+            TerminationDelay: 0
+        TagSpecifications:
+          - ResourceType: ""
+            Tags:
+              - Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

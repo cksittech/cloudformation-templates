@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Trafficmirrorfilter:
+    Type: AWS::EC2::TrafficMirrorFilter
+    Properties:
+      Description: ""
+      NetworkServices: []
+      Tags:
+        - Key: ""
+          Value: ""

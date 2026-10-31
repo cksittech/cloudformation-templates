@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassResourcedefinition:
+    Type: AWS::Greengrass::ResourceDefinition
+    Properties:
+      Name: ""
+      InitialVersion:
+        Resources:
+          - Id: ""
+            Name: ""
+            ResourceDataContainer:
+              LocalDeviceResourceData:
+                SourcePath: ""
+                GroupOwnerSetting:
+                  AutoAddGroupOwner: false
+                  GroupOwner: ""
+              LocalVolumeResourceData:
+                DestinationPath: ""
+                SourcePath: ""
+                GroupOwnerSetting:
+                  AutoAddGroupOwner: false
+                  GroupOwner: ""
+              S3MachineLearningModelResourceData:
+                DestinationPath: ""
+                S3Uri: ""
+                OwnerSetting:
+                  GroupOwner: ""
+                  GroupPermission: ""
+              SageMakerMachineLearningModelResourceData:
+                DestinationPath: ""
+                SageMakerJobArn: ""
+                OwnerSetting:
+                  GroupOwner: ""
+                  GroupPermission: ""
+              SecretsManagerSecretResourceData:
+                ARN: ""
+                AdditionalStagingLabelsToDownload: []
+      Tags: {}

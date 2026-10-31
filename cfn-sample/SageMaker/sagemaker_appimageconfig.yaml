@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerAppimageconfig:
+    Type: AWS::SageMaker::AppImageConfig
+    Properties:
+      AppImageConfigName: ""
+      CodeEditorAppImageConfig:
+        ContainerConfig:
+          ContainerArguments: []
+          ContainerEntrypoint: []
+          ContainerEnvironmentVariables:
+            - Key: ""
+              Value: ""
+      JupyterLabAppImageConfig:
+        ContainerConfig:
+          ContainerArguments: []
+          ContainerEntrypoint: []
+          ContainerEnvironmentVariables:
+            - Key: ""
+              Value: ""
+      KernelGatewayImageConfig:
+        FileSystemConfig:
+          DefaultGid: 0
+          DefaultUid: 0
+          MountPath: ""
+        KernelSpecs:
+          - DisplayName: ""
+            Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

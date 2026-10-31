@@ -1,0 +1,90 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksCluster:
+    Type: AWS::EKS::Cluster
+    Properties:
+      ActiveCertificateAuthorityId: ""
+      BootstrapSelfManagedAddons: false
+      DeletionProtection: false
+      Force: false
+      Name: ""
+      RoleArn: ""
+      Version: ""
+      AccessConfig:
+        AuthenticationMode: ""
+        BootstrapClusterCreatorAdminPermissions: false
+      CertificateAuthority:
+        Active: {}
+      ComputeConfig:
+        Enabled: false
+        NodePools: []
+        NodeRoleArn: ""
+      ControlPlaneScalingConfig:
+        Tier: ""
+      EncryptionConfig:
+        - Resources: []
+          Provider:
+            KeyArn: ""
+      KubeApiServerConfig:
+        EventTtl: ""
+        ServiceNodePortRange:
+          MaxPort: 0
+          MinPort: 0
+      KubeControllerManagerConfig:
+        HorizontalPodAutoscalerControllerConfig:
+          HorizontalPodAutoscalerSyncPeriod: ""
+        PodGcControllerConfig:
+          TerminatedPodGcThreshold: 0
+      KubeSchedulerConfig:
+        NodeResourcesFit:
+          ScoringStrategy:
+            Type: ""
+            Resources:
+              - Name: ""
+                Weight: 0
+      KubernetesNetworkConfig:
+        IpFamily: ""
+        ServiceIpv4Cidr: ""
+        ElasticLoadBalancing:
+          Enabled: false
+          GatewayApi:
+            Crds:
+              Managed: false
+      Logging:
+        ClusterLogging:
+          EnabledTypes:
+            - Type: ""
+      OutpostConfig:
+        ControlPlaneInstanceType: ""
+        EtcdInstanceType: ""
+        OutpostArns: []
+        ControlPlanePlacement:
+          GroupName: ""
+          SpreadLevel: ""
+        EtcdPlacement:
+          SpreadLevel: ""
+      RemoteNetworkConfig:
+        RemoteNodeNetworks:
+          - Cidrs: []
+        RemotePodNetworks:
+          - Cidrs: []
+      ResourcesVpcConfig:
+        ControlPlaneEgressMode: ""
+        EndpointPrivateAccess: false
+        EndpointPublicAccess: false
+        PublicAccessCidrs: []
+        SecurityGroupIds: []
+        SubnetIds: []
+      RollbackConfig:
+        TimeoutMinutes: 0
+      StorageConfig:
+        BlockStorage:
+          Enabled: false
+      Tags:
+        - Key: ""
+          Value: ""
+      UpgradePolicy:
+        SupportType: ""
+      ZonalShiftConfig:
+        Enabled: false

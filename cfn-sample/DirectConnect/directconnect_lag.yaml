@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectconnectLag:
+    Type: AWS::DirectConnect::Lag
+    Properties:
+      ConnectionsBandwidth: ""
+      LagName: ""
+      Location: ""
+      MinimumLinks: 0
+      ProviderName: ""
+      RequestMACSec: false
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleShieldDrtaccess:
+    Type: AWS::Shield::DRTAccess
+    Properties:
+      LogBucketList: []
+      RoleArn: ""

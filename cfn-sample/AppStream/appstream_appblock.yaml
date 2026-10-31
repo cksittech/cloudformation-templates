@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamAppblock:
+    Type: AWS::AppStream::AppBlock
+    Properties:
+      Description: ""
+      DisplayName: ""
+      Name: ""
+      PackagingType: ""
+      PostSetupScriptDetails:
+        ExecutableParameters: ""
+        ExecutablePath: ""
+        TimeoutInSeconds: 0
+        ScriptS3Location:
+          S3Bucket: ""
+          S3Key: ""
+      SetupScriptDetails:
+        ExecutableParameters: ""
+        ExecutablePath: ""
+        TimeoutInSeconds: 0
+        ScriptS3Location:
+          S3Bucket: ""
+          S3Key: ""
+      SourceS3Location:
+        S3Bucket: ""
+        S3Key: ""
+      Tags:
+        - Key: ""
+          TagKey: ""
+          TagValue: ""
+          Value: ""

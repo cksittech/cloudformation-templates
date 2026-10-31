@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Localgatewayroutetablevirtualinterfacegroupassociation:
+    Type: AWS::EC2::LocalGatewayRouteTableVirtualInterfaceGroupAssociation
+    Properties:
+      LocalGatewayRouteTableId: ""
+      LocalGatewayVirtualInterfaceGroupId: ""
+      Tags:
+        - Key: ""
+          Value: ""

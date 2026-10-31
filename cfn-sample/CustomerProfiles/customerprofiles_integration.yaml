@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesIntegration:
+    Type: AWS::CustomerProfiles::Integration
+    Properties:
+      DomainName: ""
+      EventTriggerNames: []
+      ObjectTypeName: ""
+      Scope: ""
+      Uri: ""
+      FlowDefinition:
+        Description: ""
+        FlowName: ""
+        KmsArn: ""
+        SourceFlowConfig:
+          ConnectorProfileName: ""
+          ConnectorType: ""
+          IncrementalPullConfig:
+            DatetimeTypeFieldName: ""
+          SourceConnectorProperties:
+            Marketo:
+              Object: ""
+            S3:
+              BucketName: ""
+              BucketPrefix: ""
+            Salesforce:
+              EnableDynamicFieldUpdate: false
+              IncludeDeletedRecords: false
+              Object: ""
+            ServiceNow:
+              Object: ""
+            Zendesk:
+              Object: ""
+        Tasks:
+          - DestinationField: ""
+            SourceFields: []
+            TaskType: ""
+            ConnectorOperator:
+              Marketo: ""
+              S3: ""
+              Salesforce: ""
+              ServiceNow: ""
+              Zendesk: ""
+            TaskProperties:
+              - OperatorPropertyKey: ""
+                Property: ""
+        TriggerConfig:
+          TriggerType: ""
+          TriggerProperties:
+            Scheduled:
+              DataPullMode: ""
+              FirstExecutionFrom: 0
+              ScheduleEndTime: 0
+              ScheduleExpression: ""
+              ScheduleOffset: 0
+              ScheduleStartTime: 0
+              Timezone: ""
+      ObjectTypeNames:
+        - Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

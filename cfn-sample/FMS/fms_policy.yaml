@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFmsPolicy:
+    Type: AWS::FMS::Policy
+    Properties:
+      DeleteAllPolicyResources: false
+      ExcludeResourceTags: false
+      PolicyDescription: ""
+      PolicyName: ""
+      RemediationEnabled: false
+      ResourceSetIds: []
+      ResourceTagLogicalOperator: ""
+      ResourceType: ""
+      ResourceTypeList: []
+      ResourcesCleanUp: false
+      ExcludeMap:
+        ACCOUNT: []
+        ORGUNIT: []
+      IncludeMap:
+        ACCOUNT: []
+        ORGUNIT: []
+      ResourceTags:
+        - Key: ""
+          Value: ""
+      SecurityServicePolicyData:
+        ManagedServiceData: ""
+        Type: ""
+        PolicyOption:
+          NetworkAclCommonPolicy:
+            NetworkAclEntrySet:
+              ForceRemediateForFirstEntries: false
+              ForceRemediateForLastEntries: false
+              FirstEntries:
+                - CidrBlock: ""
+                  Egress: false
+                  Ipv6CidrBlock: ""
+                  Protocol: ""
+                  RuleAction: ""
+                  IcmpTypeCode:
+                    Code: 0
+                    Type: 0
+                  PortRange:
+                    From: 0
+                    To: 0
+              LastEntries:
+                - CidrBlock: ""
+                  Egress: false
+                  Ipv6CidrBlock: ""
+                  Protocol: ""
+                  RuleAction: ""
+                  IcmpTypeCode:
+                    Code: 0
+                    Type: 0
+                  PortRange:
+                    From: 0
+                    To: 0
+          NetworkFirewallPolicy:
+            FirewallDeploymentModel: ""
+          ThirdPartyFirewallPolicy:
+            FirewallDeploymentModel: ""
+      Tags:
+        - Key: ""
+          Value: ""

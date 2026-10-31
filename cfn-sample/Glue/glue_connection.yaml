@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueConnection:
+    Type: AWS::Glue::Connection
+    Properties:
+      CatalogId: ""
+      ConnectionInput:
+        ConnectionType: ""
+        Description: ""
+        MatchCriteria: []
+        Name: ""
+        ValidateCredentials: false
+        ValidateForComputeEnvironments: []
+        AthenaProperties: {}
+        AuthenticationConfiguration:
+          AuthenticationType: ""
+          KmsKeyArn: ""
+          SecretArn: ""
+          BasicAuthenticationCredentials:
+            Password: ""
+            Username: ""
+          CustomAuthenticationCredentials: {}
+          OAuth2Properties:
+            OAuth2GrantType: ""
+            TokenUrl: ""
+            AuthorizationCodeProperties:
+              AuthorizationCode: ""
+              RedirectUri: ""
+            OAuth2ClientApplication:
+              AWSManagedClientApplicationReference: ""
+              UserManagedClientApplicationClientId: ""
+            OAuth2Credentials:
+              AccessToken: ""
+              JwtToken: ""
+              RefreshToken: ""
+              UserManagedClientApplicationClientSecret: ""
+            TokenUrlParametersMap: {}
+        ConnectionProperties: {}
+        PhysicalConnectionRequirements:
+          AvailabilityZone: ""
+          SecurityGroupIdList: []
+          SubnetId: ""
+        PythonProperties: {}
+        SparkProperties: {}
+      Tags: {}

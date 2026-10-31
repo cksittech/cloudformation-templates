@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineFarm:
+    Type: AWS::Deadline::Farm
+    Properties:
+      CostScaleFactor: 1
+      Description: ""
+      DisplayName: ""
+      KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

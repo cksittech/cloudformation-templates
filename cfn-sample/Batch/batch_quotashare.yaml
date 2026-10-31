@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchQuotashare:
+    Type: AWS::Batch::QuotaShare
+    Properties:
+      JobQueue: ""
+      QuotaShareName: ""
+      State: ""
+      CapacityLimits:
+        - CapacityUnit: ""
+          MaxCapacity: 0
+      PreemptionConfiguration:
+        InSharePreemption: ""
+      ResourceSharingConfiguration:
+        BorrowLimit: 0
+        Strategy: ""
+      Tags: {}

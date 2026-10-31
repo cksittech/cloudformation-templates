@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleProtonServicetemplate:
+    Type: AWS::Proton::ServiceTemplate
+    Properties:
+      Description: ""
+      DisplayName: ""
+      EncryptionKey: ""
+      Name: ""
+      PipelineProvisioning: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagev2Channelgroup:
+    Type: AWS::MediaPackageV2::ChannelGroup
+    Properties:
+      ChannelGroupName: ""
+      Description: ""
+      Tags:
+        - Key: ""
+          Value: ""

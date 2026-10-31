@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsQuerydefinition:
+    Type: AWS::Logs::QueryDefinition
+    Properties:
+      LogGroupNames: []
+      Name: ""
+      QueryLanguage: "CWLI"
+      QueryString: ""
+      Parameters:
+        - DefaultValue: ""
+          Description: ""
+          Name: ""

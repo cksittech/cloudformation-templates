@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendraThesaurus:
+    Type: AWS::Kendra::Thesaurus
+    Properties:
+      Description: ""
+      IndexId: ""
+      Name: ""
+      RoleArn: ""
+      SourceS3Path:
+        Bucket: ""
+        Key: ""
+      Tags:
+        - Key: ""
+          Value: ""

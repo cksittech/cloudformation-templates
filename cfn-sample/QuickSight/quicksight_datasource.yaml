@@ -1,0 +1,378 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightDatasource:
+    Type: AWS::QuickSight::DataSource
+    Properties:
+      AwsAccountId: ""
+      DataSourceId: ""
+      FolderArns: []
+      Name: ""
+      Type: ""
+      AlternateDataSourceParameters:
+        - AmazonElasticsearchParameters:
+            Domain: ""
+          AmazonOpenSearchParameters:
+            Domain: ""
+          AthenaParameters:
+            ConsumerAccountRoleArn: ""
+            RoleArn: ""
+            WorkGroup: ""
+            IdentityCenterConfiguration:
+              EnableIdentityPropagation: false
+          AuroraParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          AuroraPostgreSqlParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          DatabricksParameters:
+            AuthenticationType: ""
+            Host: ""
+            Port: 0
+            SqlEndpointPath: ""
+            OAuthParameters:
+              IdentityProviderResourceUri: ""
+              OAuthScope: ""
+              TokenProviderUrl: ""
+              IdentityProviderVpcConnectionProperties:
+                VpcConnectionArn: ""
+          MariaDbParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          MySqlParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          OracleParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+            UseServiceName: false
+          PostgreSqlParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          PrestoParameters:
+            Catalog: ""
+            Host: ""
+            Port: 0
+          RdsParameters:
+            Database: ""
+            InstanceId: ""
+          RedshiftParameters:
+            ClusterId: ""
+            Database: ""
+            Host: ""
+            Port: 0
+            IAMParameters:
+              AutoCreateDatabaseUser: false
+              DatabaseGroups: []
+              DatabaseUser: ""
+              RoleArn: ""
+            IdentityCenterConfiguration:
+              EnableIdentityPropagation: false
+          S3Parameters:
+            RoleArn: ""
+            ManifestFileLocation:
+              Bucket: ""
+              Key: ""
+          S3TablesParameters:
+            TableBucketArn: ""
+          SnowflakeParameters:
+            AuthenticationType: ""
+            Database: ""
+            DatabaseAccessControlRole: ""
+            Host: ""
+            Warehouse: ""
+            OAuthParameters:
+              IdentityProviderResourceUri: ""
+              OAuthScope: ""
+              TokenProviderUrl: ""
+              IdentityProviderVpcConnectionProperties:
+                VpcConnectionArn: ""
+          SparkParameters:
+            Host: ""
+            Port: 0
+          SqlServerParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          StarburstParameters:
+            AuthenticationType: ""
+            Catalog: ""
+            DatabaseAccessControlRole: ""
+            Host: ""
+            Port: 0
+            ProductType: ""
+            OAuthParameters:
+              IdentityProviderResourceUri: ""
+              OAuthScope: ""
+              TokenProviderUrl: ""
+              IdentityProviderVpcConnectionProperties:
+                VpcConnectionArn: ""
+          TeradataParameters:
+            Database: ""
+            Host: ""
+            Port: 0
+          TrinoParameters:
+            Catalog: ""
+            Host: ""
+            Port: 0
+      Credentials:
+        CopySourceArn: ""
+        SecretArn: ""
+        CredentialPair:
+          Password: ""
+          Username: ""
+          AlternateDataSourceParameters:
+            - AmazonElasticsearchParameters:
+                Domain: ""
+              AmazonOpenSearchParameters:
+                Domain: ""
+              AthenaParameters:
+                ConsumerAccountRoleArn: ""
+                RoleArn: ""
+                WorkGroup: ""
+                IdentityCenterConfiguration:
+                  EnableIdentityPropagation: false
+              AuroraParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              AuroraPostgreSqlParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              DatabricksParameters:
+                AuthenticationType: ""
+                Host: ""
+                Port: 0
+                SqlEndpointPath: ""
+                OAuthParameters:
+                  IdentityProviderResourceUri: ""
+                  OAuthScope: ""
+                  TokenProviderUrl: ""
+                  IdentityProviderVpcConnectionProperties:
+                    VpcConnectionArn: ""
+              MariaDbParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              MySqlParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              OracleParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+                UseServiceName: false
+              PostgreSqlParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              PrestoParameters:
+                Catalog: ""
+                Host: ""
+                Port: 0
+              RdsParameters:
+                Database: ""
+                InstanceId: ""
+              RedshiftParameters:
+                ClusterId: ""
+                Database: ""
+                Host: ""
+                Port: 0
+                IAMParameters:
+                  AutoCreateDatabaseUser: false
+                  DatabaseGroups: []
+                  DatabaseUser: ""
+                  RoleArn: ""
+                IdentityCenterConfiguration:
+                  EnableIdentityPropagation: false
+              S3Parameters:
+                RoleArn: ""
+                ManifestFileLocation:
+                  Bucket: ""
+                  Key: ""
+              S3TablesParameters:
+                TableBucketArn: ""
+              SnowflakeParameters:
+                AuthenticationType: ""
+                Database: ""
+                DatabaseAccessControlRole: ""
+                Host: ""
+                Warehouse: ""
+                OAuthParameters:
+                  IdentityProviderResourceUri: ""
+                  OAuthScope: ""
+                  TokenProviderUrl: ""
+                  IdentityProviderVpcConnectionProperties:
+                    VpcConnectionArn: ""
+              SparkParameters:
+                Host: ""
+                Port: 0
+              SqlServerParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              StarburstParameters:
+                AuthenticationType: ""
+                Catalog: ""
+                DatabaseAccessControlRole: ""
+                Host: ""
+                Port: 0
+                ProductType: ""
+                OAuthParameters:
+                  IdentityProviderResourceUri: ""
+                  OAuthScope: ""
+                  TokenProviderUrl: ""
+                  IdentityProviderVpcConnectionProperties:
+                    VpcConnectionArn: ""
+              TeradataParameters:
+                Database: ""
+                Host: ""
+                Port: 0
+              TrinoParameters:
+                Catalog: ""
+                Host: ""
+                Port: 0
+        KeyPairCredentials:
+          KeyPairUsername: ""
+          PrivateKey: ""
+          PrivateKeyPassphrase: ""
+        OAuthClientCredentials:
+          ClientId: ""
+          ClientSecret: ""
+          Username: ""
+      DataSourceParameters:
+        AmazonElasticsearchParameters:
+          Domain: ""
+        AmazonOpenSearchParameters:
+          Domain: ""
+        AthenaParameters:
+          ConsumerAccountRoleArn: ""
+          RoleArn: ""
+          WorkGroup: ""
+          IdentityCenterConfiguration:
+            EnableIdentityPropagation: false
+        AuroraParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        AuroraPostgreSqlParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        DatabricksParameters:
+          AuthenticationType: ""
+          Host: ""
+          Port: 0
+          SqlEndpointPath: ""
+          OAuthParameters:
+            IdentityProviderResourceUri: ""
+            OAuthScope: ""
+            TokenProviderUrl: ""
+            IdentityProviderVpcConnectionProperties:
+              VpcConnectionArn: ""
+        MariaDbParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        MySqlParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        OracleParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+          UseServiceName: false
+        PostgreSqlParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        PrestoParameters:
+          Catalog: ""
+          Host: ""
+          Port: 0
+        RdsParameters:
+          Database: ""
+          InstanceId: ""
+        RedshiftParameters:
+          ClusterId: ""
+          Database: ""
+          Host: ""
+          Port: 0
+          IAMParameters:
+            AutoCreateDatabaseUser: false
+            DatabaseGroups: []
+            DatabaseUser: ""
+            RoleArn: ""
+          IdentityCenterConfiguration:
+            EnableIdentityPropagation: false
+        S3Parameters:
+          RoleArn: ""
+          ManifestFileLocation:
+            Bucket: ""
+            Key: ""
+        S3TablesParameters:
+          TableBucketArn: ""
+        SnowflakeParameters:
+          AuthenticationType: ""
+          Database: ""
+          DatabaseAccessControlRole: ""
+          Host: ""
+          Warehouse: ""
+          OAuthParameters:
+            IdentityProviderResourceUri: ""
+            OAuthScope: ""
+            TokenProviderUrl: ""
+            IdentityProviderVpcConnectionProperties:
+              VpcConnectionArn: ""
+        SparkParameters:
+          Host: ""
+          Port: 0
+        SqlServerParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        StarburstParameters:
+          AuthenticationType: ""
+          Catalog: ""
+          DatabaseAccessControlRole: ""
+          Host: ""
+          Port: 0
+          ProductType: ""
+          OAuthParameters:
+            IdentityProviderResourceUri: ""
+            OAuthScope: ""
+            TokenProviderUrl: ""
+            IdentityProviderVpcConnectionProperties:
+              VpcConnectionArn: ""
+        TeradataParameters:
+          Database: ""
+          Host: ""
+          Port: 0
+        TrinoParameters:
+          Catalog: ""
+          Host: ""
+          Port: 0
+      ErrorInfo:
+        Message: ""
+        Type: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+          Resource: ""
+      SslProperties:
+        DisableSsl: false
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConnectionProperties:
+        VpcConnectionArn: ""

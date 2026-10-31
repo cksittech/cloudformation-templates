@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmquicksetupConfigurationmanager:
+    Type: AWS::SSMQuickSetup::ConfigurationManager
+    Properties:
+      Description: ""
+      Name: ""
+      ConfigurationDefinitions:
+        - LocalDeploymentAdministrationRoleArn: ""
+          LocalDeploymentExecutionRoleName: ""
+          Type: ""
+          TypeVersion: ""
+          Parameters: {}
+      Tags: {}

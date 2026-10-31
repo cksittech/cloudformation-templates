@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleStepfunctionsStatemachine:
+    Type: AWS::StepFunctions::StateMachine
+    Properties:
+      DefinitionString: ""
+      RoleArn: ""
+      StateMachineName: ""
+      StateMachineType: ""
+      Definition: {}
+      DefinitionS3Location:
+        Bucket: ""
+        Key: ""
+        Version: ""
+      DefinitionSubstitutions: {}
+      EncryptionConfiguration:
+        KmsDataKeyReusePeriodSeconds: 0
+        KmsKeyId: ""
+        Type: ""
+      LoggingConfiguration:
+        IncludeExecutionData: false
+        Level: ""
+        Destinations:
+          - CloudWatchLogsLogGroup:
+              LogGroupArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TracingConfiguration:
+        Enabled: false

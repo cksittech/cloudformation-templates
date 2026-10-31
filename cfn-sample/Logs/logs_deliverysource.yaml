@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsDeliverysource:
+    Type: AWS::Logs::DeliverySource
+    Properties:
+      LogType: ""
+      Name: ""
+      ResourceArn: ""
+      DeliverySourceConfiguration: {}
+      Tags:
+        - Key: ""
+          Value: ""

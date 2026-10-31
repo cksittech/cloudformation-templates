@@ -1,0 +1,184 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcaconnectoradTemplate:
+    Type: AWS::PCAConnectorAD::Template
+    Properties:
+      ConnectorArn: ""
+      Name: ""
+      ReenrollAllCertificateHolders: false
+      Definition:
+        TemplateV2:
+          SupersededTemplates: []
+          CertificateValidity:
+            RenewalPeriod:
+              Period: 0
+              PeriodType: ""
+            ValidityPeriod:
+              Period: 0
+              PeriodType: ""
+          EnrollmentFlags:
+            EnableKeyReuseOnNtTokenKeysetStorageFull: false
+            IncludeSymmetricAlgorithms: false
+            NoSecurityExtension: false
+            RemoveInvalidCertificateFromPersonalStore: false
+            UserInteractionRequired: false
+          Extensions:
+            ApplicationPolicies:
+              Critical: false
+              Policies:
+                - PolicyObjectIdentifier: ""
+                  PolicyType: ""
+            KeyUsage:
+              Critical: false
+              UsageFlags:
+                DataEncipherment: false
+                DigitalSignature: false
+                KeyAgreement: false
+                KeyEncipherment: false
+                NonRepudiation: false
+          GeneralFlags:
+            AutoEnrollment: false
+            MachineType: false
+          PrivateKeyAttributes:
+            CryptoProviders: []
+            KeySpec: ""
+            MinimalKeyLength: 0
+          PrivateKeyFlags:
+            ClientVersion: ""
+            ExportableKey: false
+            StrongKeyProtectionRequired: false
+          SubjectNameFlags:
+            RequireCommonName: false
+            RequireDirectoryPath: false
+            RequireDnsAsCn: false
+            RequireEmail: false
+            SanRequireDirectoryGuid: false
+            SanRequireDns: false
+            SanRequireDomainDns: false
+            SanRequireEmail: false
+            SanRequireSpn: false
+            SanRequireUpn: false
+        TemplateV3:
+          HashAlgorithm: ""
+          SupersededTemplates: []
+          CertificateValidity:
+            RenewalPeriod:
+              Period: 0
+              PeriodType: ""
+            ValidityPeriod:
+              Period: 0
+              PeriodType: ""
+          EnrollmentFlags:
+            EnableKeyReuseOnNtTokenKeysetStorageFull: false
+            IncludeSymmetricAlgorithms: false
+            NoSecurityExtension: false
+            RemoveInvalidCertificateFromPersonalStore: false
+            UserInteractionRequired: false
+          Extensions:
+            ApplicationPolicies:
+              Critical: false
+              Policies:
+                - PolicyObjectIdentifier: ""
+                  PolicyType: ""
+            KeyUsage:
+              Critical: false
+              UsageFlags:
+                DataEncipherment: false
+                DigitalSignature: false
+                KeyAgreement: false
+                KeyEncipherment: false
+                NonRepudiation: false
+          GeneralFlags:
+            AutoEnrollment: false
+            MachineType: false
+          PrivateKeyAttributes:
+            Algorithm: ""
+            CryptoProviders: []
+            KeySpec: ""
+            MinimalKeyLength: 0
+            KeyUsageProperty:
+              PropertyType: ""
+              PropertyFlags:
+                Decrypt: false
+                KeyAgreement: false
+                Sign: false
+          PrivateKeyFlags:
+            ClientVersion: ""
+            ExportableKey: false
+            RequireAlternateSignatureAlgorithm: false
+            StrongKeyProtectionRequired: false
+          SubjectNameFlags:
+            RequireCommonName: false
+            RequireDirectoryPath: false
+            RequireDnsAsCn: false
+            RequireEmail: false
+            SanRequireDirectoryGuid: false
+            SanRequireDns: false
+            SanRequireDomainDns: false
+            SanRequireEmail: false
+            SanRequireSpn: false
+            SanRequireUpn: false
+        TemplateV4:
+          HashAlgorithm: ""
+          SupersededTemplates: []
+          CertificateValidity:
+            RenewalPeriod:
+              Period: 0
+              PeriodType: ""
+            ValidityPeriod:
+              Period: 0
+              PeriodType: ""
+          EnrollmentFlags:
+            EnableKeyReuseOnNtTokenKeysetStorageFull: false
+            IncludeSymmetricAlgorithms: false
+            NoSecurityExtension: false
+            RemoveInvalidCertificateFromPersonalStore: false
+            UserInteractionRequired: false
+          Extensions:
+            ApplicationPolicies:
+              Critical: false
+              Policies:
+                - PolicyObjectIdentifier: ""
+                  PolicyType: ""
+            KeyUsage:
+              Critical: false
+              UsageFlags:
+                DataEncipherment: false
+                DigitalSignature: false
+                KeyAgreement: false
+                KeyEncipherment: false
+                NonRepudiation: false
+          GeneralFlags:
+            AutoEnrollment: false
+            MachineType: false
+          PrivateKeyAttributes:
+            Algorithm: ""
+            CryptoProviders: []
+            KeySpec: ""
+            MinimalKeyLength: 0
+            KeyUsageProperty:
+              PropertyType: ""
+              PropertyFlags:
+                Decrypt: false
+                KeyAgreement: false
+                Sign: false
+          PrivateKeyFlags:
+            ClientVersion: ""
+            ExportableKey: false
+            RequireAlternateSignatureAlgorithm: false
+            RequireSameKeyRenewal: false
+            StrongKeyProtectionRequired: false
+            UseLegacyProvider: false
+          SubjectNameFlags:
+            RequireCommonName: false
+            RequireDirectoryPath: false
+            RequireDnsAsCn: false
+            RequireEmail: false
+            SanRequireDirectoryGuid: false
+            SanRequireDns: false
+            SanRequireDomainDns: false
+            SanRequireEmail: false
+            SanRequireSpn: false
+            SanRequireUpn: false
+      Tags: {}

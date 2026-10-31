@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassv2Componentversion:
+    Type: AWS::GreengrassV2::ComponentVersion
+    Properties:
+      InlineRecipe: ""
+      LambdaFunction:
+        ComponentName: ""
+        ComponentVersion: ""
+        LambdaArn: ""
+        ComponentDependencies: {}
+        ComponentLambdaParameters:
+          ExecArgs: []
+          InputPayloadEncodingType: ""
+          MaxIdleTimeInSeconds: 0
+          MaxInstancesCount: 0
+          MaxQueueSize: 0
+          Pinned: false
+          StatusTimeoutInSeconds: 0
+          TimeoutInSeconds: 0
+          EnvironmentVariables: {}
+          EventSources:
+            - Topic: ""
+              Type: ""
+          LinuxProcessParams:
+            IsolationMode: ""
+            ContainerParams:
+              MemorySizeInKB: 0
+              MountROSysfs: false
+              Devices:
+                - AddGroupOwner: false
+                  Path: ""
+                  Permission: ""
+              Volumes:
+                - AddGroupOwner: false
+                  DestinationPath: ""
+                  Permission: ""
+                  SourcePath: ""
+        ComponentPlatforms:
+          - Name: ""
+            Attributes: {}
+      Tags: {}

@@ -1,0 +1,48 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsAnalysistemplate:
+    Type: AWS::CleanRooms::AnalysisTemplate
+    Properties:
+      Description: ""
+      Format: ""
+      MembershipIdentifier: ""
+      Name: ""
+      AnalysisParameters:
+        - DefaultValue: ""
+          Name: ""
+          Type: ""
+      ErrorMessageConfiguration:
+        Type: ""
+      Schema:
+        ReferencedTables: []
+      Source:
+        Text: ""
+        Artifacts:
+          RoleArn: ""
+          AdditionalArtifacts:
+            - Location:
+                Bucket: ""
+                Key: ""
+          EntryPoint:
+            Location:
+              Bucket: ""
+              Key: ""
+      SourceMetadata:
+        Artifacts:
+          AdditionalArtifactHashes:
+            - Sha256: ""
+          EntryPointHash:
+            Sha256: ""
+      SyntheticDataParameters:
+        MlSyntheticDataParameters:
+          Epsilon: 0
+          MaxMembershipInferenceAttackScore: 0
+          ColumnClassification:
+            ColumnMapping:
+              - ColumnName: ""
+                ColumnType: ""
+                IsPredictiveValue: false
+      Tags:
+        - Key: ""
+          Value: ""

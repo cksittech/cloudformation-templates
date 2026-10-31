@@ -1,0 +1,58 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAthenaWorkgroup:
+    Type: AWS::Athena::WorkGroup
+    Properties:
+      Description: ""
+      Name: ""
+      RecursiveDeleteOption: false
+      State: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkGroupConfiguration:
+        AdditionalConfiguration: ""
+        BytesScannedCutoffPerQuery: 0
+        EnforceWorkGroupConfiguration: false
+        ExecutionRole: ""
+        PublishCloudWatchMetricsEnabled: false
+        RequesterPaysEnabled: false
+        CustomerContentEncryptionConfiguration:
+          KmsKey: ""
+        EngineConfiguration:
+          CoordinatorDpuSize: 0
+          DefaultExecutorDpuSize: 0
+          MaxConcurrentDpus: 0
+          AdditionalConfigs: {}
+          Classifications:
+            - Name: ""
+              Properties: {}
+          SparkProperties: {}
+        EngineVersion:
+          SelectedEngineVersion: ""
+        ManagedQueryResultsConfiguration:
+          Enabled: false
+          EncryptionConfiguration:
+            KmsKey: ""
+        MonitoringConfiguration:
+          CloudWatchLoggingConfiguration:
+            Enabled: false
+            LogGroup: ""
+            LogStreamNamePrefix: ""
+            LogTypes: {}
+          ManagedLoggingConfiguration:
+            Enabled: false
+            KmsKey: ""
+          S3LoggingConfiguration:
+            Enabled: false
+            KmsKey: ""
+            LogLocation: ""
+        ResultConfiguration:
+          ExpectedBucketOwner: ""
+          OutputLocation: ""
+          AclConfiguration:
+            S3AclOption: ""
+          EncryptionConfiguration:
+            EncryptionOption: ""
+            KmsKey: ""

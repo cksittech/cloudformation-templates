@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamServercertificate:
+    Type: AWS::IAM::ServerCertificate
+    Properties:
+      CertificateBody: ""
+      CertificateChain: ""
+      Path: ""
+      PrivateKey: ""
+      ServerCertificateName: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleObservabilityadminOrganizationtelemetryrule:
+    Type: AWS::ObservabilityAdmin::OrganizationTelemetryRule
+    Properties:
+      RuleName: ""
+      Rule:
+        AllRegions: false
+        AllowFieldUpdates: false
+        Regions: []
+        ResourceType: ""
+        Scope: ""
+        SelectionCriteria: ""
+        TelemetrySourceTypes: []
+        TelemetryType: ""
+        DestinationConfiguration:
+          DestinationPattern: ""
+          DestinationType: ""
+          KmsKeyArn: ""
+          RetentionInDays: 0
+          CloudtrailParameters:
+            AdvancedEventSelectors:
+              - Name: ""
+                FieldSelectors:
+                  - EndsWith: []
+                    Equals: []
+                    Field: ""
+                    NotEndsWith: []
+                    NotEquals: []
+                    NotStartsWith: []
+                    StartsWith: []
+          ELBLoadBalancerLoggingParameters:
+            FieldDelimiter: ""
+            OutputFormat: ""
+          LogDeliveryParameters:
+            LogTypes: []
+          MskMonitoringParameters:
+            EnhancedMonitoring: ""
+          VPCFlowLogParameters:
+            LogFormat: ""
+            MaxAggregationInterval: 0
+            TrafficType: ""
+          WAFLoggingParameters:
+            LogType: ""
+            LoggingFilter:
+              DefaultBehavior: ""
+              Filters:
+                - Behavior: ""
+                  Requirement: ""
+                  Conditions:
+                    - ActionCondition:
+                        Action: ""
+                      LabelNameCondition:
+                        LabelName: ""
+            RedactedFields:
+              - Method: ""
+                QueryString: ""
+                UriPath: ""
+                SingleHeader:
+                  Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

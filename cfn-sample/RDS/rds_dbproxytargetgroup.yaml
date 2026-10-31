@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbproxytargetgroup:
+    Type: AWS::RDS::DBProxyTargetGroup
+    Properties:
+      DBClusterIdentifiers: []
+      DBInstanceIdentifiers: []
+      DBProxyName: ""
+      TargetGroupName: ""
+      ConnectionPoolConfigurationInfo:
+        ConnectionBorrowTimeout: 0
+        InitQuery: ""
+        MaxConnectionsPercent: 0
+        MaxIdleConnectionsPercent: 0
+        SessionPinningFilters: []
+      Tags:
+        - Key: ""
+          Value: ""

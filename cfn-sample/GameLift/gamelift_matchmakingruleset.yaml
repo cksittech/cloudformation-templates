@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftMatchmakingruleset:
+    Type: AWS::GameLift::MatchmakingRuleSet
+    Properties:
+      Name: ""
+      RuleSetBody: ""
+      Tags:
+        - Key: ""
+          Value: ""

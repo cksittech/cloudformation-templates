@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMemorydbMultiregioncluster:
+    Type: AWS::MemoryDB::MultiRegionCluster
+    Properties:
+      Description: ""
+      Engine: ""
+      EngineVersion: ""
+      MultiRegionClusterNameSuffix: ""
+      MultiRegionParameterGroupName: ""
+      NodeType: ""
+      NumShards: 0
+      TLSEnabled: false
+      UpdateStrategy: ""
+      Tags:
+        - Key: ""
+          Value: ""

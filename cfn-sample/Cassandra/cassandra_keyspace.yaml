@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCassandraKeyspace:
+    Type: AWS::Cassandra::Keyspace
+    Properties:
+      ClientSideTimestampsEnabled: false
+      KeyspaceName: ""
+      ReplicationSpecification:
+        RegionList: []
+        ReplicationStrategy: ""
+      Tags:
+        - Key: ""
+          Value: ""

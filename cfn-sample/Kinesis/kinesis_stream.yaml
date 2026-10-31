@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisStream:
+    Type: AWS::Kinesis::Stream
+    Properties:
+      DesiredShardLevelMetrics: []
+      MaxRecordSizeInKiB: 0
+      Name: ""
+      RecordDistributionStrategy: ""
+      RetentionPeriodHours: 0
+      ShardCount: 0
+      WarmThroughputMiBps: 0
+      StreamEncryption:
+        EncryptionType: ""
+        KeyId: ""
+      StreamModeDetails:
+        StreamMode: ""
+      Tags:
+        - Key: ""
+          Value: ""

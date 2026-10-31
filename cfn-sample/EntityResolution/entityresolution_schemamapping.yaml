@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEntityresolutionSchemamapping:
+    Type: AWS::EntityResolution::SchemaMapping
+    Properties:
+      Description: ""
+      SchemaName: ""
+      MappedInputFields:
+        - FieldName: ""
+          GroupName: ""
+          Hashed: false
+          MatchKey: ""
+          SubType: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

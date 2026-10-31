@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinterfacepermission:
+    Type: AWS::EC2::NetworkInterfacePermission
+    Properties:
+      AwsAccountId: ""
+      NetworkInterfaceId: ""
+      Permission: ""

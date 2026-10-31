@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsReplicationtask:
+    Type: AWS::DMS::ReplicationTask
+    Properties:
+      CdcStartPosition: ""
+      CdcStartTime: 0
+      CdcStopPosition: ""
+      MigrationType: ""
+      ReplicationInstanceArn: ""
+      ReplicationTaskIdentifier: ""
+      ReplicationTaskSettings: ""
+      ResourceIdentifier: ""
+      SourceEndpointArn: ""
+      TableMappings: ""
+      TargetEndpointArn: ""
+      TaskData: ""
+      Tags:
+        - Key: ""
+          Value: ""

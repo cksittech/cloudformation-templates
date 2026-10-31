@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSupportappAccountalias:
+    Type: AWS::SupportApp::AccountAlias
+    Properties:
+      AccountAlias: ""

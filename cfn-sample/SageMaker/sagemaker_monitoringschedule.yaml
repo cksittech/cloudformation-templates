@@ -1,0 +1,83 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerMonitoringschedule:
+    Type: AWS::SageMaker::MonitoringSchedule
+    Properties:
+      EndpointName: ""
+      FailureReason: ""
+      MonitoringScheduleName: ""
+      MonitoringScheduleStatus: ""
+      LastMonitoringExecutionSummary:
+        CreationTime: ""
+        EndpointName: ""
+        FailureReason: ""
+        LastModifiedTime: ""
+        MonitoringExecutionStatus: ""
+        MonitoringScheduleName: ""
+        ProcessingJobArn: ""
+        ScheduledTime: ""
+      MonitoringScheduleConfig:
+        MonitoringJobDefinitionName: ""
+        MonitoringType: ""
+        MonitoringJobDefinition:
+          RoleArn: ""
+          BaselineConfig:
+            ConstraintsResource:
+              S3Uri: ""
+            StatisticsResource:
+              S3Uri: ""
+          Environment: {}
+          MonitoringAppSpecification:
+            ContainerArguments: []
+            ContainerEntrypoint: []
+            ImageUri: ""
+            PostAnalyticsProcessorSourceUri: ""
+            RecordPreprocessorSourceUri: ""
+          MonitoringInputs:
+            - BatchTransformInput:
+                DataCapturedDestinationS3Uri: ""
+                ExcludeFeaturesAttribute: ""
+                LocalPath: ""
+                S3DataDistributionType: ""
+                S3InputMode: ""
+                DatasetFormat:
+                  Parquet: false
+                  Csv:
+                    Header: false
+                  Json:
+                    Line: false
+              EndpointInput:
+                EndpointName: ""
+                ExcludeFeaturesAttribute: ""
+                LocalPath: ""
+                S3DataDistributionType: ""
+                S3InputMode: ""
+          MonitoringOutputConfig:
+            KmsKeyId: ""
+            MonitoringOutputs:
+              - S3Output:
+                  LocalPath: ""
+                  S3UploadMode: ""
+                  S3Uri: ""
+          MonitoringResources:
+            ClusterConfig:
+              InstanceCount: 0
+              InstanceType: ""
+              VolumeKmsKeyId: ""
+              VolumeSizeInGB: 0
+          NetworkConfig:
+            EnableInterContainerTrafficEncryption: false
+            EnableNetworkIsolation: false
+            VpcConfig:
+              SecurityGroupIds: []
+              Subnets: []
+          StoppingCondition:
+            MaxRuntimeInSeconds: 0
+        ScheduleConfig:
+          DataAnalysisEndTime: ""
+          DataAnalysisStartTime: ""
+          ScheduleExpression: ""
+      Tags:
+        - Key: ""
+          Value: ""

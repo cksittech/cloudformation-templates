@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleStoragegatewayTape:
+    Type: AWS::StorageGateway::Tape
+    Properties:
+      GatewayARN: ""
+      KMSEncrypted: false
+      KMSKey: ""
+      PoolId: ""
+      TapeBarcode: ""
+      TapeSizeInBytes: 0
+      Worm: false
+      Tags:
+        - Key: ""
+          Value: ""

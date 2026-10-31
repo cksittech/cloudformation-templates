@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpccidrblock:
+    Type: AWS::EC2::VPCCidrBlock
+    Properties:
+      AmazonProvidedIpv6CidrBlock: false
+      CidrBlock: ""
+      Ipv4IpamPoolId: ""
+      Ipv4NetmaskLength: 0
+      Ipv6CidrBlock: ""
+      Ipv6CidrBlockNetworkBorderGroup: ""
+      Ipv6IpamPoolId: ""
+      Ipv6NetmaskLength: 0
+      Ipv6Pool: ""
+      VpcId: ""

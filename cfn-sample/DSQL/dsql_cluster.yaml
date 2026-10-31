@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDsqlCluster:
+    Type: AWS::DSQL::Cluster
+    Properties:
+      DeletionProtectionEnabled: false
+      KmsEncryptionKey: ""
+      PolicyDocument: ""
+      MultiRegionProperties:
+        Clusters: []
+        WitnessRegion: ""
+      Tags:
+        - Key: ""
+          Value: ""

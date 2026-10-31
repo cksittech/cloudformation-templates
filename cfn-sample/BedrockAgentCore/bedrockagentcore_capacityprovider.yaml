@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreCapacityprovider:
+    Type: AWS::BedrockAgentCore::CapacityProvider
+    Properties:
+      Description: ""
+      Name: ""
+      ComputeConfiguration:
+        Ec2Configuration:
+          LaunchTemplateSource:
+            LaunchParameters:
+              InstanceProfileArn: ""
+              Monitoring: ""
+              OperatingSystem: ""
+              SshKeyName: ""
+              CapacityReservationSpecification:
+                CapacityReservationPreference: ""
+                CapacityReservationTarget:
+                  CapacityReservationId: ""
+                  CapacityReservationResourceGroupArn: ""
+              EphemeralVolumes:
+                - DeviceName: ""
+                  VirtualName: ""
+                  Ebs:
+                    EbsCardIndex: 0
+                    Encrypted: false
+                    Iops: 0
+                    KmsKeyId: ""
+                    SnapshotId: ""
+                    Throughput: 0
+                    VolumeInitializationRate: 0
+                    VolumeSize: 0
+                    VolumeType: ""
+              InstanceRequirements:
+                AllowedInstanceTypes: []
+              LicenseSpecifications:
+                - LicenseConfigurationArn: ""
+              PropagatedTags: {}
+          LifecycleConfiguration:
+            IdleInstanceTimeout: 0
+            MaxLifetime: 0
+          RootVolume:
+            Encrypted: false
+            FreeSpaceGiB: 0
+            Iops: 0
+            KmsKeyId: ""
+            Throughput: 0
+            VolumeType: ""
+          Volumes:
+            - EbsConfiguration:
+                Encrypted: false
+                Iops: 0
+                KmsKeyId: ""
+                Name: ""
+                SizeGiB: 0
+                SnapshotId: ""
+                Throughput: 0
+                VolumeType: ""
+          VpcConfiguration:
+            SecurityGroups: []
+            Subnets: []
+      PermissionsConfiguration:
+        CapacityProviderOperatorRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

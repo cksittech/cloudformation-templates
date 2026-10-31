@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTranscribeVocabularyfilter:
+    Type: AWS::Transcribe::VocabularyFilter
+    Properties:
+      DataAccessRoleArn: ""
+      LanguageCode: ""
+      VocabularyFilterFileUri: ""
+      VocabularyFilterName: ""
+      Words: []
+      Tags:
+        - Key: ""
+          Value: ""

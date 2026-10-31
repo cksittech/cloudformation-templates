@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendraIndex:
+    Type: AWS::Kendra::Index
+    Properties:
+      Description: ""
+      Edition: ""
+      Name: ""
+      RoleArn: ""
+      UserContextPolicy: ""
+      CapacityUnits:
+        QueryCapacityUnits: 0
+        StorageCapacityUnits: 0
+      DocumentMetadataConfigurations:
+        - Name: ""
+          Type: ""
+          Relevance:
+            Duration: ""
+            Freshness: false
+            Importance: 0
+            RankOrder: ""
+            ValueImportanceItems:
+              - Key: ""
+                Value: 0
+          Search:
+            Displayable: false
+            Facetable: false
+            Searchable: false
+            Sortable: false
+      ServerSideEncryptionConfiguration:
+        KmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserTokenConfigurations:
+        - JsonTokenTypeConfiguration:
+            GroupAttributeField: ""
+            UserNameAttributeField: ""
+          JwtTokenTypeConfiguration:
+            ClaimRegex: ""
+            GroupAttributeField: ""
+            Issuer: ""
+            KeyLocation: ""
+            SecretManagerArn: ""
+            URL: ""
+            UserNameAttributeField: ""

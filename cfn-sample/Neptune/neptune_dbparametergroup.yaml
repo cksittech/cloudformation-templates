@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptuneDbparametergroup:
+    Type: AWS::Neptune::DBParameterGroup
+    Properties:
+      Description: ""
+      Family: ""
+      Name: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

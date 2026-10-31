@@ -1,0 +1,83 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshVirtualgateway:
+    Type: AWS::AppMesh::VirtualGateway
+    Properties:
+      MeshName: ""
+      MeshOwner: ""
+      VirtualGatewayName: ""
+      Spec:
+        BackendDefaults:
+          ClientPolicy:
+            TLS:
+              Enforce: false
+              Ports: []
+              Certificate:
+                File:
+                  CertificateChain: ""
+                  PrivateKey: ""
+                SDS:
+                  SecretName: ""
+              Validation:
+                SubjectAlternativeNames:
+                  Match:
+                    Exact: []
+                Trust:
+                  ACM:
+                    CertificateAuthorityArns: []
+                  File:
+                    CertificateChain: ""
+                  SDS:
+                    SecretName: ""
+        Listeners:
+          - ConnectionPool:
+              GRPC:
+                MaxRequests: 0
+              HTTP:
+                MaxConnections: 0
+                MaxPendingRequests: 0
+              HTTP2:
+                MaxRequests: 0
+            HealthCheck:
+              HealthyThreshold: 0
+              IntervalMillis: 0
+              Path: ""
+              Port: 0
+              Protocol: ""
+              TimeoutMillis: 0
+              UnhealthyThreshold: 0
+            PortMapping:
+              Port: 0
+              Protocol: ""
+            TLS:
+              Mode: ""
+              Certificate:
+                ACM:
+                  CertificateArn: ""
+                File:
+                  CertificateChain: ""
+                  PrivateKey: ""
+                SDS:
+                  SecretName: ""
+              Validation:
+                SubjectAlternativeNames:
+                  Match:
+                    Exact: []
+                Trust:
+                  File:
+                    CertificateChain: ""
+                  SDS:
+                    SecretName: ""
+        Logging:
+          AccessLog:
+            File:
+              Path: ""
+              Format:
+                Text: ""
+                Json:
+                  - Key: ""
+                    Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAutoscalingWarmpool:
+    Type: AWS::AutoScaling::WarmPool
+    Properties:
+      AutoScalingGroupName: ""
+      MaxGroupPreparedCapacity: 0
+      MinSize: 0
+      PoolState: ""
+      InstanceReusePolicy:
+        ReuseOnScaleIn: false

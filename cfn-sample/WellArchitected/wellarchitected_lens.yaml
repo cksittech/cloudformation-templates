@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWellarchitectedLens:
+    Type: AWS::WellArchitected::Lens
+    Properties:
+      JSONString: ""
+      LensVersion: ""
+      Tags:
+        - Key: ""
+          Value: ""

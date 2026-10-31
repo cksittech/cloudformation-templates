@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogCloudformationproduct:
+    Type: AWS::ServiceCatalog::CloudFormationProduct
+    Properties:
+      AcceptLanguage: ""
+      Description: ""
+      Distributor: ""
+      Name: ""
+      Owner: ""
+      ProductType: ""
+      ReplaceProvisioningArtifacts: false
+      SupportDescription: ""
+      SupportEmail: ""
+      SupportUrl: ""
+      ProvisioningArtifactParameters:
+        - Description: ""
+          DisableTemplateValidation: false
+          Name: ""
+          Type: ""
+          Info:
+            ImportFromPhysicalId: ""
+            LoadTemplateFromURL: ""
+      SourceConnection:
+        Type: ""
+        ConnectionParameters:
+          CodeStar:
+            ArtifactPath: ""
+            Branch: ""
+            ConnectionArn: ""
+            Repository: ""
+      Tags:
+        - Key: ""
+          Value: ""

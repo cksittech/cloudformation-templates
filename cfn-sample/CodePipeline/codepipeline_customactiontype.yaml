@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodepipelineCustomactiontype:
+    Type: AWS::CodePipeline::CustomActionType
+    Properties:
+      Category: ""
+      Provider: ""
+      Version: ""
+      ConfigurationProperties:
+        - Description: ""
+          Key: false
+          Name: ""
+          Queryable: false
+          Required: false
+          Secret: false
+          Type: ""
+      InputArtifactDetails:
+        MaximumCount: 0
+        MinimumCount: 0
+      OutputArtifactDetails:
+        MaximumCount: 0
+        MinimumCount: 0
+      Settings:
+        EntityUrlTemplate: ""
+        ExecutionUrlTemplate: ""
+        RevisionUrlTemplate: ""
+        ThirdPartyConfigurationUrl: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotResourcespecificlogging:
+    Type: AWS::IoT::ResourceSpecificLogging
+    Properties:
+      LogLevel: ""
+      TargetName: ""
+      TargetType: ""

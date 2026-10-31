@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeTargetgroup:
+    Type: AWS::VpcLattice::TargetGroup
+    Properties:
+      Name: ""
+      Type: ""
+      Config:
+        IpAddressType: "IPV4"
+        LambdaEventStructureVersion: ""
+        Port: 0
+        Protocol: ""
+        ProtocolVersion: "HTTP1"
+        VpcIdentifier: ""
+        HealthCheck:
+          Enabled: false
+          HealthCheckIntervalSeconds: 0
+          HealthCheckTimeoutSeconds: 0
+          HealthyThresholdCount: 0
+          Path: ""
+          Port: 0
+          Protocol: ""
+          ProtocolVersion: ""
+          UnhealthyThresholdCount: 0
+          Matcher:
+            HttpCode: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Targets:
+        - Id: ""
+          Port: 0

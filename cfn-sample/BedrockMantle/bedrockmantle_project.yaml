@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockmantleProject:
+    Type: AWS::BedrockMantle::Project
+    Properties:
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

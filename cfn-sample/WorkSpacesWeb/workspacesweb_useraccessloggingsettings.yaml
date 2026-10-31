@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebUseraccessloggingsettings:
+    Type: AWS::WorkSpacesWeb::UserAccessLoggingSettings
+    Properties:
+      KinesisStreamArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

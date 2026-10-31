@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessDeviceprofile:
+    Type: AWS::IoTWireless::DeviceProfile
+    Properties:
+      Name: ""
+      LoRaWAN:
+        ClassBTimeout: 0
+        ClassCTimeout: 0
+        FactoryPresetFreqsList: []
+        MacVersion: ""
+        MaxDutyCycle: 0
+        MaxEirp: 0
+        PingSlotDr: 0
+        PingSlotFreq: 0
+        PingSlotPeriod: 0
+        RegParamsRevision: ""
+        RfRegion: ""
+        RxDataRate2: 0
+        RxDelay1: 0
+        RxDrOffset1: 0
+        RxFreq2: 0
+        Supports32BitFCnt: false
+        SupportsClassB: false
+        SupportsClassC: false
+        SupportsJoin: false
+      Tags:
+        - Key: ""
+          Value: ""

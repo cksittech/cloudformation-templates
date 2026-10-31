@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOrganizationsResourcepolicy:
+    Type: AWS::Organizations::ResourcePolicy
+    Properties:
+      Content: {}
+      Tags:
+        - Key: ""
+          Value: ""

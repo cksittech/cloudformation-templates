@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebIdentityprovider:
+    Type: AWS::WorkSpacesWeb::IdentityProvider
+    Properties:
+      IdentityProviderName: ""
+      IdentityProviderType: ""
+      PortalArn: ""
+      IdentityProviderDetails: {}
+      Tags:
+        - Key: ""
+          Value: ""

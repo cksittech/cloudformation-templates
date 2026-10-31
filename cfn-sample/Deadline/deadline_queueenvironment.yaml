@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineQueueenvironment:
+    Type: AWS::Deadline::QueueEnvironment
+    Properties:
+      FarmId: ""
+      Priority: 0
+      QueueId: ""
+      Template: ""
+      TemplateType: ""

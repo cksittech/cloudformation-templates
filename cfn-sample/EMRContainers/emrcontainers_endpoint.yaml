@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrcontainersEndpoint:
+    Type: AWS::EMRContainers::Endpoint
+    Properties:
+      ExecutionRoleArn: ""
+      Name: ""
+      ReleaseLabel: ""
+      SessionIdleTimeoutInMinutes: 0
+      Type: ""
+      VirtualClusterId: ""
+      ConfigurationOverrides:
+        ApplicationConfiguration:
+          - Classification: ""
+            Configurations: []
+            Properties: {}
+        MonitoringConfiguration:
+          PersistentAppUI: ""
+          CloudWatchMonitoringConfiguration:
+            LogGroupName: ""
+            LogStreamNamePrefix: ""
+          ContainerLogRotationConfiguration:
+            MaxFilesToKeep: 0
+            RotationSize: ""
+          S3MonitoringConfiguration:
+            LogUri: ""
+      Tags:
+        - Key: ""
+          Value: ""

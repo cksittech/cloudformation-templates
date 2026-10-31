@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRobomakerRobot:
+    Type: AWS::RoboMaker::Robot
+    Properties:
+      Architecture: ""
+      Fleet: ""
+      GreengrassGroupId: ""
+      Name: ""
+      Tags: {}

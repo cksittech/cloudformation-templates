@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Customergateway:
+    Type: AWS::EC2::CustomerGateway
+    Properties:
+      BgpAsn: 65000
+      BgpAsnExtended: 0
+      CertificateArn: ""
+      DeviceName: ""
+      IpAddress: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

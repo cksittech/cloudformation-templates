@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneProject:
+    Type: AWS::DataZone::Project
+    Properties:
+      Description: ""
+      DomainIdentifier: ""
+      DomainUnitId: ""
+      GlossaryTerms: []
+      Name: ""
+      ProjectCategory: ""
+      ProjectExecutionRole: ""
+      ProjectProfileId: ""
+      ProjectProfileVersion: ""
+      MembershipAssignments:
+        - Designation: ""
+          Member:
+            GroupIdentifier: ""
+            UserIdentifier: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""
+      UserParameters:
+        - EnvironmentConfigurationName: ""
+          EnvironmentId: ""
+          EnvironmentParameters:
+            - Name: ""
+              Value: ""

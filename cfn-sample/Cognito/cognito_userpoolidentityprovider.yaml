@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolidentityprovider:
+    Type: AWS::Cognito::UserPoolIdentityProvider
+    Properties:
+      IdpIdentifiers: []
+      ProviderName: ""
+      ProviderType: ""
+      UserPoolId: ""
+      AttributeMapping: {}
+      ProviderDetails: {}

@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheUser:
+    Type: AWS::ElastiCache::User
+    Properties:
+      AccessString: ""
+      Engine: ""
+      NoPasswordRequired: false
+      Passwords: []
+      UserId: ""
+      UserName: ""
+      AuthenticationMode:
+        Passwords: []
+        Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

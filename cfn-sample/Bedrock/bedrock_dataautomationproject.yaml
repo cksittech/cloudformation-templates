@@ -1,0 +1,115 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockDataautomationproject:
+    Type: AWS::Bedrock::DataAutomationProject
+    Properties:
+      KmsKeyId: ""
+      ProjectDescription: ""
+      ProjectName: ""
+      ProjectType: ""
+      CustomOutputConfiguration:
+        Blueprints:
+          - BlueprintArn: ""
+            BlueprintStage: ""
+            BlueprintVersion: ""
+      KmsEncryptionContext: {}
+      OverrideConfiguration:
+        Audio:
+          LanguageConfiguration:
+            GenerativeOutputLanguage: ""
+            IdentifyMultipleLanguages: false
+            InputLanguages: []
+          ModalityProcessing:
+            State: ""
+          SensitiveDataConfiguration:
+            DetectionMode: ""
+            DetectionScope: []
+            PiiEntitiesConfiguration:
+              PiiEntityTypes: []
+              RedactionMaskMode: ""
+        Document:
+          ModalityProcessing:
+            State: ""
+          SensitiveDataConfiguration:
+            DetectionMode: ""
+            DetectionScope: []
+            PiiEntitiesConfiguration:
+              PiiEntityTypes: []
+              RedactionMaskMode: ""
+          Splitter:
+            State: ""
+        Image:
+          ModalityProcessing:
+            State: ""
+          SensitiveDataConfiguration:
+            DetectionMode: ""
+            DetectionScope: []
+            PiiEntitiesConfiguration:
+              PiiEntityTypes: []
+              RedactionMaskMode: ""
+        ModalityRouting:
+          jpeg: ""
+          mov: ""
+          mp4: ""
+          png: ""
+        Video:
+          ModalityProcessing:
+            State: ""
+          SensitiveDataConfiguration:
+            DetectionMode: ""
+            DetectionScope: []
+            PiiEntitiesConfiguration:
+              PiiEntityTypes: []
+              RedactionMaskMode: ""
+      StandardOutputConfiguration:
+        Audio:
+          Extraction:
+            Category:
+              State: ""
+              Types: []
+              TypeConfiguration:
+                Transcript:
+                  ChannelLabeling:
+                    State: ""
+                  SpeakerLabeling:
+                    State: ""
+          GenerativeField:
+            State: ""
+            Types: []
+        Document:
+          Extraction:
+            BoundingBox:
+              State: ""
+            Granularity:
+              Types: []
+          GenerativeField:
+            State: ""
+          OutputFormat:
+            AdditionalFileFormat:
+              State: ""
+            TextFormat:
+              Types: []
+        Image:
+          Extraction:
+            BoundingBox:
+              State: ""
+            Category:
+              State: ""
+              Types: []
+          GenerativeField:
+            State: ""
+            Types: []
+        Video:
+          Extraction:
+            BoundingBox:
+              State: ""
+            Category:
+              State: ""
+              Types: []
+          GenerativeField:
+            State: ""
+            Types: []
+      Tags:
+        - Key: ""
+          Value: ""

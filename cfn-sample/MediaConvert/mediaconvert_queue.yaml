@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconvertQueue:
+    Type: AWS::MediaConvert::Queue
+    Properties:
+      ConcurrentJobs: 0
+      Description: ""
+      MaximumConcurrentFeeds: 0
+      Name: ""
+      PricingPlan: ""
+      Status: ""
+      Tags: {}

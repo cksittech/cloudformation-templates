@@ -1,0 +1,76 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectWorkspace:
+    Type: AWS::Connect::Workspace
+    Properties:
+      Associations: []
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Title: ""
+      Visibility: ""
+      Media:
+        - Source: ""
+          Type: ""
+      Pages:
+        - InputData: ""
+          Page: ""
+          ResourceArn: ""
+          Slug: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Theme:
+        Dark:
+          Palette:
+            Canvas:
+              ActiveBackground: ""
+              ContainerBackground: ""
+              PageBackground: ""
+            Header:
+              Background: ""
+              InvertActionsColors: false
+              Text: ""
+              TextHover: ""
+            Navigation:
+              Background: ""
+              InvertActionsColors: false
+              Text: ""
+              TextActive: ""
+              TextBackgroundActive: ""
+              TextBackgroundHover: ""
+              TextHover: ""
+            Primary:
+              Active: ""
+              ContrastText: ""
+              Default: ""
+          Typography:
+            FontFamily:
+              Default: ""
+        Light:
+          Palette:
+            Canvas:
+              ActiveBackground: ""
+              ContainerBackground: ""
+              PageBackground: ""
+            Header:
+              Background: ""
+              InvertActionsColors: false
+              Text: ""
+              TextHover: ""
+            Navigation:
+              Background: ""
+              InvertActionsColors: false
+              Text: ""
+              TextActive: ""
+              TextBackgroundActive: ""
+              TextBackgroundHover: ""
+              TextHover: ""
+            Primary:
+              Active: ""
+              ContrastText: ""
+              Default: ""
+          Typography:
+            FontFamily:
+              Default: ""

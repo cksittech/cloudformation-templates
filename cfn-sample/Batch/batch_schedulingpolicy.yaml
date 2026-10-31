@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchSchedulingpolicy:
+    Type: AWS::Batch::SchedulingPolicy
+    Properties:
+      Name: ""
+      FairsharePolicy:
+        ComputeReservation: 0
+        ShareDecaySeconds: 0
+        ShareDistribution:
+          - ShareIdentifier: ""
+            WeightFactor: 0
+      QuotaSharePolicy:
+        IdleResourceAssignmentStrategy: ""
+      Tags: {}

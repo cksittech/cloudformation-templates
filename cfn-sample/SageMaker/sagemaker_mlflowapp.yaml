@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerMlflowapp:
+    Type: AWS::SageMaker::MlflowApp
+    Properties:
+      ArtifactStoreUri: ""
+      ModelRegistrationMode: ""
+      Name: ""
+      RoleArn: ""
+      WeeklyMaintenanceWindowStart: ""
+      Tags:
+        - Key: ""
+          Value: ""

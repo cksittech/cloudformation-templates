@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayApikey:
+    Type: AWS::ApiGateway::ApiKey
+    Properties:
+      CustomerId: ""
+      Description: ""
+      Enabled: false
+      GenerateDistinctId: false
+      Name: ""
+      Value: ""
+      StageKeys:
+        - RestApiId: ""
+          StageName: ""
+      Tags:
+        - Key: ""
+          Value: ""

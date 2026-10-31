@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayUsageplan:
+    Type: AWS::ApiGateway::UsagePlan
+    Properties:
+      Description: ""
+      UsagePlanName: ""
+      ApiStages:
+        - ApiId: ""
+          Stage: ""
+          Throttle: {}
+      Quota:
+        Limit: 0
+        Offset: 0
+        Period: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Throttle:
+        BurstLimit: 0
+        RateLimit: 0

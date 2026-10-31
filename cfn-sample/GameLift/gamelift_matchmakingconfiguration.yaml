@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftMatchmakingconfiguration:
+    Type: AWS::GameLift::MatchmakingConfiguration
+    Properties:
+      AcceptanceRequired: false
+      AcceptanceTimeoutSeconds: 0
+      AdditionalPlayerCount: 0
+      BackfillMode: ""
+      CreationTime: ""
+      CustomEventData: ""
+      Description: ""
+      FlexMatchMode: ""
+      GameSessionData: ""
+      GameSessionQueueArns: []
+      Name: ""
+      NotificationTarget: ""
+      RequestTimeoutSeconds: 0
+      RuleSetArn: ""
+      RuleSetName: ""
+      GameProperties:
+        - Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

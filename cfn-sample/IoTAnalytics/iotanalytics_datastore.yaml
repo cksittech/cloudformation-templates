@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotanalyticsDatastore:
+    Type: AWS::IoTAnalytics::Datastore
+    Properties:
+      DatastoreName: ""
+      DatastorePartitions:
+        Partitions:
+          - Partition:
+              AttributeName: ""
+            TimestampPartition:
+              AttributeName: ""
+              TimestampFormat: ""
+      DatastoreStorage:
+        CustomerManagedS3:
+          Bucket: ""
+          KeyPrefix: ""
+          RoleArn: ""
+        IotSiteWiseMultiLayerStorage:
+          CustomerManagedS3Storage:
+            Bucket: ""
+            KeyPrefix: ""
+        ServiceManagedS3: {}
+      FileFormatConfiguration:
+        JsonConfiguration: {}
+        ParquetConfiguration:
+          SchemaDefinition:
+            Columns:
+              - Name: ""
+                Type: ""
+      RetentionPeriod:
+        NumberOfDays: 0
+        Unlimited: false
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceRegistrationattachment:
+    Type: AWS::SMSVOICE::RegistrationAttachment
+    Properties:
+      AttachmentBody: ""
+      AttachmentUrl: ""
+      Tags:
+        - Key: ""
+          Value: ""

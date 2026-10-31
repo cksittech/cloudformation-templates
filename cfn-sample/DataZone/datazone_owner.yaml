@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneOwner:
+    Type: AWS::DataZone::Owner
+    Properties:
+      DomainIdentifier: ""
+      EntityIdentifier: ""
+      EntityType: ""
+      Owner:
+        Group:
+          GroupIdentifier: ""
+        User:
+          UserIdentifier: ""

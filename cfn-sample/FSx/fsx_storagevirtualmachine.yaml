@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxStoragevirtualmachine:
+    Type: AWS::FSx::StorageVirtualMachine
+    Properties:
+      FileSystemId: ""
+      Name: ""
+      RootVolumeSecurityStyle: ""
+      SvmAdminPassword: ""
+      ActiveDirectoryConfiguration:
+        NetBiosName: ""
+        SelfManagedActiveDirectoryConfiguration:
+          DnsIps: []
+          DomainJoinServiceAccountSecret: ""
+          DomainName: ""
+          FileSystemAdministratorsGroup: ""
+          OrganizationalUnitDistinguishedName: ""
+          Password: ""
+          UserName: ""
+      Tags:
+        - Key: ""
+          Value: ""

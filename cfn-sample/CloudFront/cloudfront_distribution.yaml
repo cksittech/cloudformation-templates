@@ -1,0 +1,181 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontDistribution:
+    Type: AWS::CloudFront::Distribution
+    Properties:
+      DistributionConfig:
+        Aliases: []
+        AnycastIpListId: ""
+        CNAMEs: []
+        Comment: ""
+        ConnectionMode: ""
+        ContinuousDeploymentPolicyId: ""
+        DefaultRootObject: ""
+        Enabled: false
+        HttpVersion: "http1.1"
+        IPV6Enabled: false
+        PriceClass: "PriceClass_All"
+        Staging: false
+        WebACLId: ""
+        CacheBehaviors:
+          - AllowedMethods: ["GET", "HEAD"]
+            CachePolicyId: ""
+            CachedMethods: ["GET", "HEAD"]
+            Compress: false
+            DefaultTTL: 86400
+            FieldLevelEncryptionId: ""
+            MaxTTL: 31536000
+            MinTTL: 0
+            OriginRequestPolicyId: ""
+            PathPattern: ""
+            RealtimeLogConfigArn: ""
+            ResponseHeadersPolicyId: ""
+            SmoothStreaming: false
+            TargetOriginId: ""
+            TrustedKeyGroups: []
+            TrustedSigners: []
+            ViewerProtocolPolicy: ""
+            ForwardedValues:
+              Headers: []
+              QueryString: false
+              QueryStringCacheKeys: []
+              Cookies:
+                Forward: ""
+                WhitelistedNames: []
+            FunctionAssociations:
+              - EventType: ""
+                FunctionARN: ""
+            GrpcConfig:
+              Enabled: false
+            LambdaFunctionAssociations:
+              - EventType: ""
+                IncludeBody: false
+                LambdaFunctionARN: ""
+        CacheTagConfig:
+          HeaderName: ""
+        ConnectionFunctionAssociation:
+          Id: ""
+        CustomErrorResponses:
+          - ErrorCachingMinTTL: 300
+            ErrorCode: 0
+            ResponseCode: 0
+            ResponsePagePath: ""
+        CustomOrigin:
+          DNSName: ""
+          HTTPPort: 80
+          HTTPSPort: 443
+          OriginProtocolPolicy: ""
+          OriginSSLProtocols: []
+        DefaultCacheBehavior:
+          AllowedMethods: ["GET", "HEAD"]
+          CachePolicyId: ""
+          CachedMethods: ["GET", "HEAD"]
+          Compress: false
+          DefaultTTL: 86400
+          FieldLevelEncryptionId: ""
+          MaxTTL: 31536000
+          MinTTL: 0
+          OriginRequestPolicyId: ""
+          RealtimeLogConfigArn: ""
+          ResponseHeadersPolicyId: ""
+          SmoothStreaming: false
+          TargetOriginId: ""
+          TrustedKeyGroups: []
+          TrustedSigners: []
+          ViewerProtocolPolicy: ""
+          ForwardedValues:
+            Headers: []
+            QueryString: false
+            QueryStringCacheKeys: []
+            Cookies:
+              Forward: ""
+              WhitelistedNames: []
+          FunctionAssociations:
+            - EventType: ""
+              FunctionARN: ""
+          GrpcConfig:
+            Enabled: false
+          LambdaFunctionAssociations:
+            - EventType: ""
+              IncludeBody: false
+              LambdaFunctionARN: ""
+        Logging:
+          Bucket: ""
+          IncludeCookies: false
+          Prefix: ""
+        OriginGroups:
+          Quantity: 0
+          Items:
+            - Id: ""
+              SelectionCriteria: ""
+              FailoverCriteria:
+                StatusCodes:
+                  Items: []
+                  Quantity: 0
+              Members:
+                Quantity: 0
+                Items:
+                  - OriginId: ""
+        Origins:
+          - ConnectionAttempts: 0
+            ConnectionTimeout: 0
+            DomainName: ""
+            Id: ""
+            OriginAccessControlId: ""
+            OriginPath: ""
+            ResponseCompletionTimeout: 0
+            CustomOriginConfig:
+              HTTPPort: 80
+              HTTPSPort: 443
+              IpAddressType: ""
+              OriginKeepaliveTimeout: 5
+              OriginProtocolPolicy: ""
+              OriginReadTimeout: 30
+              OriginSSLProtocols: ["TLSv1", "SSLv3"]
+              OriginMtlsConfig:
+                ClientCertificateArn: ""
+            OriginCustomHeaders:
+              - HeaderName: ""
+                HeaderValue: ""
+            OriginShield:
+              Enabled: false
+              OriginShieldRegion: ""
+            S3OriginConfig:
+              OriginAccessIdentity: ""
+              OriginReadTimeout: 30
+            VpcOriginConfig:
+              OriginKeepaliveTimeout: 5
+              OriginReadTimeout: 30
+              OwnerAccountId: ""
+              VpcOriginId: ""
+        Restrictions:
+          GeoRestriction:
+            Locations: []
+            RestrictionType: ""
+        S3Origin:
+          DNSName: ""
+          OriginAccessIdentity: ""
+        TenantConfig:
+          ParameterDefinitions:
+            - Name: ""
+              Definition:
+                StringSchema:
+                  Comment: ""
+                  DefaultValue: ""
+                  Required: false
+        ViewerCertificate:
+          AcmCertificateArn: ""
+          CloudFrontDefaultCertificate: false
+          IamCertificateId: ""
+          MinimumProtocolVersion: ""
+          SslSupportMethod: ""
+        ViewerMtlsConfig:
+          Mode: "required"
+          TrustStoreConfig:
+            AdvertiseTrustStoreCaNames: false
+            IgnoreCertificateExpiry: false
+            TrustStoreId: ""
+      Tags:
+        - Key: ""
+          Value: ""

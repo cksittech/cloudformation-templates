@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferUser:
+    Type: AWS::Transfer::User
+    Properties:
+      HomeDirectory: ""
+      HomeDirectoryType: ""
+      Policy: ""
+      Role: ""
+      ServerId: ""
+      SshPublicKeys: []
+      UserName: ""
+      HomeDirectoryMappings:
+        - Entry: ""
+          Target: ""
+          Type: ""
+      PosixProfile:
+        Gid: 0
+        SecondaryGids: []
+        Uid: 0
+      Tags:
+        - Key: ""
+          Value: ""

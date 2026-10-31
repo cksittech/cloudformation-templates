@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheParametergroup:
+    Type: AWS::ElastiCache::ParameterGroup
+    Properties:
+      CacheParameterGroupFamily: ""
+      Description: ""
+      Properties: {}
+      Tags:
+        - Key: ""
+          Value: ""

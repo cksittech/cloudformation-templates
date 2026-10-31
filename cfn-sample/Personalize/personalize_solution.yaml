@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeSolution:
+    Type: AWS::Personalize::Solution
+    Properties:
+      DatasetGroupArn: ""
+      EventType: ""
+      Name: ""
+      PerformAutoML: false
+      PerformHPO: false
+      RecipeArn: ""
+      SolutionConfig:
+        EventValueThreshold: ""
+        AlgorithmHyperParameters: {}
+        AutoMLConfig:
+          MetricName: ""
+          RecipeList: []
+        FeatureTransformationParameters: {}
+        HpoConfig:
+          AlgorithmHyperParameterRanges:
+            CategoricalHyperParameterRanges:
+              - Name: ""
+                Values: []
+            ContinuousHyperParameterRanges:
+              - MaxValue: 0
+                MinValue: 0
+                Name: ""
+            IntegerHyperParameterRanges:
+              - MaxValue: 0
+                MinValue: 0
+                Name: ""
+          HpoObjective:
+            MetricName: ""
+            MetricRegex: ""
+            Type: ""
+          HpoResourceConfig:
+            MaxNumberOfTrainingJobs: ""
+            MaxParallelTrainingJobs: ""
+      Tags:
+        - Key: ""
+          Value: ""

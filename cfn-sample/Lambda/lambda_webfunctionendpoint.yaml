@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaWebfunctionendpoint:
+    Type: AWS::Lambda::WebFunctionEndpoint
+    Properties:
+      AuthType: ""
+      Description: ""
+      EndpointName: ""
+      EndpointType: ""
+      FunctionName: ""
+      Regions: []
+      RevisionWeights:
+        - RevisionId: ""
+          Weight: 0
+      ScalingConfig:
+        MaxEnvironments: 0
+      ThrottleConfig:
+        RateLimit: 0

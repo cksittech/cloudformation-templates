@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceRegistration:
+    Type: AWS::SMSVOICE::Registration
+    Properties:
+      RegistrationType: ""
+      Tags:
+        - Key: ""
+          Value: ""

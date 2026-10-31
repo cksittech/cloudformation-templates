@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontOriginrequestpolicy:
+    Type: AWS::CloudFront::OriginRequestPolicy
+    Properties:
+      OriginRequestPolicyConfig:
+        Comment: ""
+        Name: ""
+        CookiesConfig:
+          CookieBehavior: ""
+          Cookies: []
+        HeadersConfig:
+          HeaderBehavior: ""
+          Headers: []
+        QueryStringsConfig:
+          QueryStringBehavior: ""
+          QueryStrings: []

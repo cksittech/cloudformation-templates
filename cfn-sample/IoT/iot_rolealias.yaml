@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotRolealias:
+    Type: AWS::IoT::RoleAlias
+    Properties:
+      CredentialDurationSeconds: 3600
+      RoleAlias: ""
+      RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

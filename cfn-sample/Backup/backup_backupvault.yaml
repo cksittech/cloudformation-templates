@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupBackupvault:
+    Type: AWS::Backup::BackupVault
+    Properties:
+      BackupVaultName: ""
+      EncryptionKeyArn: ""
+      AccessPolicy: {}
+      BackupVaultTags: {}
+      LockConfiguration:
+        ChangeableForDays: 0
+        MaxRetentionDays: 0
+        MinRetentionDays: 0
+      Notifications:
+        BackupVaultEvents: []
+        SNSTopicArn: ""

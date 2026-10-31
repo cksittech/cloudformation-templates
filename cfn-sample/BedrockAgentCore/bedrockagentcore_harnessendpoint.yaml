@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreHarnessendpoint:
+    Type: AWS::BedrockAgentCore::HarnessEndpoint
+    Properties:
+      Description: ""
+      EndpointName: ""
+      HarnessId: ""
+      TargetVersion: ""
+      Tags:
+        - Key: ""
+          Value: ""

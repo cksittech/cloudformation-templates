@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaCodesigningconfig:
+    Type: AWS::Lambda::CodeSigningConfig
+    Properties:
+      Description: ""
+      AllowedPublishers:
+        SigningProfileVersionArns: []
+      CodeSigningPolicies:
+        UntrustedArtifactOnDeployment: "Warn"
+      Tags:
+        - Key: ""
+          Value: ""

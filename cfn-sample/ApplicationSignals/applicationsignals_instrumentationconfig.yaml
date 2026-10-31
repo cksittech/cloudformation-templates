@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApplicationsignalsInstrumentationconfig:
+    Type: AWS::ApplicationSignals::InstrumentationConfig
+    Properties:
+      AttributeFilters: []
+      Description: ""
+      Environment: ""
+      ExpiresAt: ""
+      InstrumentationType: ""
+      Service: ""
+      SignalType: ""
+      CaptureConfiguration:
+        CodeCapture:
+          CaptureArguments: []
+          CaptureLocals: []
+          CaptureReturn: false
+          CaptureStackTrace: false
+          CaptureLimits:
+            MaxCollectionDepth: 0
+            MaxCollectionWidth: 0
+            MaxFieldsPerObject: 0
+            MaxHits: 0
+            MaxObjectDepth: 0
+            MaxStackFrames: 0
+            MaxStackTraceSize: 0
+            MaxStringLength: 0
+      Location:
+        CodeLocation:
+          ClassName: ""
+          CodeUnit: ""
+          FilePath: ""
+          Language: ""
+          LineNumber: 0
+          MethodName: ""
+      Tags:
+        - Key: ""
+          Value: ""

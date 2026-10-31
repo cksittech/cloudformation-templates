@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityagentSecurityrequirementpack:
+    Type: AWS::SecurityAgent::SecurityRequirementPack
+    Properties:
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      Status: ""
+      SecurityRequirements:
+        - Description: ""
+          Domain: ""
+          Evaluation: ""
+          Name: ""
+          Remediation: ""
+      Tags:
+        - Key: ""
+          Value: ""

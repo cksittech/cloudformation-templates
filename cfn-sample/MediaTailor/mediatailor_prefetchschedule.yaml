@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorPrefetchschedule:
+    Type: AWS::MediaTailor::PrefetchSchedule
+    Properties:
+      Name: ""
+      PlaybackConfigurationName: ""
+      ScheduleType: ""
+      StreamId: ""
+      Consumption:
+        EndTime: ""
+        StartTime: ""
+        AvailMatchingCriteria:
+          - DynamicVariable: ""
+            Operator: ""
+      RecurringPrefetchConfiguration:
+        EndTime: ""
+        StartTime: ""
+        RecurringConsumption:
+          RetrievedAdExpirationSeconds: 0
+          AvailMatchingCriteria:
+            - DynamicVariable: ""
+              Operator: ""
+        RecurringRetrieval:
+          DelayAfterAvailEndSeconds: 0
+          TrafficShapingType: ""
+          DynamicVariables: {}
+          TrafficShapingRetrievalWindow:
+            RetrievalWindowDurationSeconds: 0
+          TrafficShapingTpsConfiguration:
+            PeakConcurrentUsers: 0
+            PeakTps: 0
+      Retrieval:
+        EndTime: ""
+        StartTime: ""
+        TrafficShapingType: ""
+        DynamicVariables: {}
+        TrafficShapingRetrievalWindow:
+          RetrievalWindowDurationSeconds: 0
+        TrafficShapingTpsConfiguration:
+          PeakConcurrentUsers: 0
+          PeakTps: 0
+      Tags:
+        - Key: ""
+          Value: ""

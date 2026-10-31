@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagePackaginggroup:
+    Type: AWS::MediaPackage::PackagingGroup
+    Properties:
+      Id: ""
+      Authorization:
+        CdnIdentifierSecret: ""
+        SecretsRoleArn: ""
+      EgressAccessLogs:
+        LogGroupName: ""
+      Tags:
+        - Key: ""
+          Value: ""

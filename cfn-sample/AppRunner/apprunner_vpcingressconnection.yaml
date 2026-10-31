@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApprunnerVpcingressconnection:
+    Type: AWS::AppRunner::VpcIngressConnection
+    Properties:
+      ServiceArn: ""
+      VpcIngressConnectionName: ""
+      IngressVpcConfiguration:
+        VpcEndpointId: ""
+        VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

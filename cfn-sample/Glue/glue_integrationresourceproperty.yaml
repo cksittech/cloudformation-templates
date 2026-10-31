@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueIntegrationresourceproperty:
+    Type: AWS::Glue::IntegrationResourceProperty
+    Properties:
+      ResourceArn: ""
+      SourceProcessingProperties:
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetProcessingProperties:
+        ConnectionName: ""
+        EventBusArn: ""
+        KmsArn: ""
+        RoleArn: ""

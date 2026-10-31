@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectoryserviceMicrosoftad:
+    Type: AWS::DirectoryService::MicrosoftAD
+    Properties:
+      CreateAlias: false
+      Edition: "Enterprise"
+      EnableSso: false
+      Name: ""
+      Password: ""
+      ShortName: ""
+      VpcSettings:
+        SubnetIds: []
+        VpcId: ""

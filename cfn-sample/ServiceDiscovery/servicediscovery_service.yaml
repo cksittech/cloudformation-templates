@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicediscoveryService:
+    Type: AWS::ServiceDiscovery::Service
+    Properties:
+      Description: ""
+      Name: ""
+      NamespaceId: ""
+      Type: ""
+      DnsConfig:
+        NamespaceId: ""
+        RoutingPolicy: ""
+        DnsRecords:
+          - TTL: 0
+            Type: ""
+      HealthCheckConfig:
+        FailureThreshold: 0
+        ResourcePath: ""
+        Type: ""
+      HealthCheckCustomConfig:
+        FailureThreshold: 0
+      ServiceAttributes: {}
+      Tags:
+        - Key: ""
+          Value: ""

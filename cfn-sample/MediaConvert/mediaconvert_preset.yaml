@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconvertPreset:
+    Type: AWS::MediaConvert::Preset
+    Properties:
+      Category: ""
+      Description: ""
+      Name: ""
+      SettingsJson: {}
+      Tags: {}

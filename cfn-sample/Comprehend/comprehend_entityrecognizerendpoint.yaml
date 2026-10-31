@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleComprehendEntityrecognizerendpoint:
+    Type: AWS::Comprehend::EntityRecognizerEndpoint
+    Properties:
+      DataAccessRoleArn: ""
+      DesiredInferenceUnits: 0
+      EndpointName: ""
+      FlywheelArn: ""
+      ModelArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

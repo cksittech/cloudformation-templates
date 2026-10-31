@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagev2Channelpolicy:
+    Type: AWS::MediaPackageV2::ChannelPolicy
+    Properties:
+      ChannelGroupName: ""
+      ChannelName: ""
+      Policy: {}

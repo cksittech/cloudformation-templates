@@ -1,0 +1,158 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesSegmentdefinition:
+    Type: AWS::CustomerProfiles::SegmentDefinition
+    Properties:
+      Description: ""
+      DisplayName: ""
+      DomainName: ""
+      SegmentDefinitionName: ""
+      SegmentSqlQuery: ""
+      SegmentGroups:
+        Include: ""
+        Groups:
+          - SourceType: ""
+            Type: ""
+            Dimensions:
+              - CalculatedAttributes: {}
+                ProfileAttributes:
+                  AccountNumber:
+                    DimensionType: ""
+                    Values: []
+                  AdditionalInformation:
+                    DimensionType: ""
+                    Values: []
+                  Address:
+                    City:
+                      DimensionType: ""
+                      Values: []
+                    Country:
+                      DimensionType: ""
+                      Values: []
+                    County:
+                      DimensionType: ""
+                      Values: []
+                    PostalCode:
+                      DimensionType: ""
+                      Values: []
+                    Province:
+                      DimensionType: ""
+                      Values: []
+                    State:
+                      DimensionType: ""
+                      Values: []
+                  Attributes: {}
+                  BillingAddress:
+                    City:
+                      DimensionType: ""
+                      Values: []
+                    Country:
+                      DimensionType: ""
+                      Values: []
+                    County:
+                      DimensionType: ""
+                      Values: []
+                    PostalCode:
+                      DimensionType: ""
+                      Values: []
+                    Province:
+                      DimensionType: ""
+                      Values: []
+                    State:
+                      DimensionType: ""
+                      Values: []
+                  BirthDate:
+                    DimensionType: ""
+                    Values: []
+                  BusinessEmailAddress:
+                    DimensionType: ""
+                    Values: []
+                  BusinessName:
+                    DimensionType: ""
+                    Values: []
+                  BusinessPhoneNumber:
+                    DimensionType: ""
+                    Values: []
+                  EmailAddress:
+                    DimensionType: ""
+                    Values: []
+                  FirstName:
+                    DimensionType: ""
+                    Values: []
+                  GenderString:
+                    DimensionType: ""
+                    Values: []
+                  HomePhoneNumber:
+                    DimensionType: ""
+                    Values: []
+                  LastName:
+                    DimensionType: ""
+                    Values: []
+                  MailingAddress:
+                    City:
+                      DimensionType: ""
+                      Values: []
+                    Country:
+                      DimensionType: ""
+                      Values: []
+                    County:
+                      DimensionType: ""
+                      Values: []
+                    PostalCode:
+                      DimensionType: ""
+                      Values: []
+                    Province:
+                      DimensionType: ""
+                      Values: []
+                    State:
+                      DimensionType: ""
+                      Values: []
+                  MiddleName:
+                    DimensionType: ""
+                    Values: []
+                  MobilePhoneNumber:
+                    DimensionType: ""
+                    Values: []
+                  PartyTypeString:
+                    DimensionType: ""
+                    Values: []
+                  PersonalEmailAddress:
+                    DimensionType: ""
+                    Values: []
+                  PhoneNumber:
+                    DimensionType: ""
+                    Values: []
+                  ProfileType:
+                    DimensionType: ""
+                    Values: []
+                  ShippingAddress:
+                    City:
+                      DimensionType: ""
+                      Values: []
+                    Country:
+                      DimensionType: ""
+                      Values: []
+                    County:
+                      DimensionType: ""
+                      Values: []
+                    PostalCode:
+                      DimensionType: ""
+                      Values: []
+                    Province:
+                      DimensionType: ""
+                      Values: []
+                    State:
+                      DimensionType: ""
+                      Values: []
+            SourceSegments:
+              - SegmentDefinitionName: ""
+      SegmentSort:
+        Attributes:
+          - DataType: ""
+            Name: ""
+            Order: ""
+            Type: "PROFILE"
+      Tags:
+        - Key: ""
+          Value: ""

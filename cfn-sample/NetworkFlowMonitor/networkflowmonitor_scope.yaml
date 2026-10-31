@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkflowmonitorScope:
+    Type: AWS::NetworkFlowMonitor::Scope
+    Properties:
+      Tags:
+        - Key: ""
+          Value: ""
+      Targets:
+        - Region: ""
+          TargetIdentifier:
+            TargetType: ""
+            TargetId:
+              AccountId: ""

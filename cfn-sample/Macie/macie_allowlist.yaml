@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMacieAllowlist:
+    Type: AWS::Macie::AllowList
+    Properties:
+      Description: ""
+      Name: ""
+      Criteria:
+        Regex: ""
+        S3WordsList:
+          BucketName: ""
+          ObjectKey: ""
+      Tags:
+        - Key: ""
+          Value: ""

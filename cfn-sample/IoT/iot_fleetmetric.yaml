@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotFleetmetric:
+    Type: AWS::IoT::FleetMetric
+    Properties:
+      AggregationField: ""
+      Description: ""
+      IndexName: ""
+      MetricName: ""
+      Period: 0
+      QueryString: ""
+      QueryVersion: ""
+      Unit: ""
+      AggregationType:
+        Name: ""
+        Values: []
+      Tags:
+        - Key: ""
+          Value: ""

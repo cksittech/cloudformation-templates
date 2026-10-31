@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneEnvironmentblueprintconfiguration:
+    Type: AWS::DataZone::EnvironmentBlueprintConfiguration
+    Properties:
+      DomainIdentifier: ""
+      EnabledRegions: []
+      EnvironmentBlueprintIdentifier: ""
+      EnvironmentRolePermissionBoundary: ""
+      ManageAccessRoleArn: ""
+      ProvisioningRoleArn: ""
+      GlobalParameters: {}
+      ProvisioningConfigurations:
+        - LakeFormationConfiguration:
+            LocationRegistrationExcludeS3Locations: []
+            LocationRegistrationRole: ""
+      RegionalParameters:
+        - Region: ""
+          Parameters: {}

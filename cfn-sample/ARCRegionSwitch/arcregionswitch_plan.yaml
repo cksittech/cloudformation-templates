@@ -1,0 +1,179 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleArcregionswitchPlan:
+    Type: AWS::ARCRegionSwitch::Plan
+    Properties:
+      Description: ""
+      ExecutionRole: ""
+      Name: ""
+      PrimaryRegion: ""
+      RecoveryApproach: ""
+      RecoveryTimeObjectiveMinutes: 0
+      Regions: []
+      ServiceQuotaChecksEnabled: false
+      AssociatedAlarms: {}
+      ReportConfiguration:
+        ReportOutput:
+          - S3Configuration:
+              BucketOwner: ""
+              BucketPath: ""
+      Tags: {}
+      Triggers:
+        - Action: ""
+          Description: ""
+          MinDelayMinutesBetweenExecutions: 0
+          TargetRegion: ""
+          Conditions:
+            - AssociatedAlarmName: ""
+              Condition: ""
+      Workflows:
+        - WorkflowDescription: ""
+          WorkflowTargetAction: ""
+          WorkflowTargetRegion: ""
+          Steps:
+            - Description: ""
+              ExecutionBlockType: ""
+              Name: ""
+              ExecutionBlockConfiguration:
+                ArcRoutingControlConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  TimeoutMinutes: 60
+                  RegionAndRoutingControls: {}
+                AuroraProvisionedScalingConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  GlobalClusterIdentifier: ""
+                  TimeoutMinutes: 60
+                  InstanceArns: {}
+                  RegionDatabaseClusterArns: {}
+                AuroraServerlessScalingConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  GlobalClusterIdentifier: ""
+                  TargetPercent: 100
+                  TimeoutMinutes: 60
+                  RegionDatabaseClusterArns: {}
+                CustomActionLambdaConfig:
+                  RegionToRun: ""
+                  RetryIntervalMinutes: 0
+                  TimeoutMinutes: 60
+                  Lambdas:
+                    - Arn: ""
+                      CrossAccountRole: ""
+                      ExternalId: ""
+                      Payload: ""
+                  Ungraceful:
+                    Behavior: ""
+                DocumentDbConfig:
+                  Behavior: ""
+                  CrossAccountRole: ""
+                  DatabaseClusterArns: []
+                  ExternalId: ""
+                  GlobalClusterIdentifier: ""
+                  TimeoutMinutes: 60
+                  Ungraceful:
+                    Ungraceful: ""
+                Ec2AsgCapacityIncreaseConfig:
+                  CapacityMonitoringApproach: ""
+                  TargetPercent: 100
+                  TimeoutMinutes: 60
+                  WaitELBTargetGroupHealthy: ""
+                  Asgs:
+                    - Arn: ""
+                      CrossAccountRole: ""
+                      ExternalId: ""
+                  Ungraceful:
+                    MinimumSuccessPercentage: 0
+                EcsCapacityIncreaseConfig:
+                  CapacityMonitoringApproach: ""
+                  TargetPercent: 100
+                  TimeoutMinutes: 60
+                  WaitELBTargetGroupHealthy: ""
+                  Services:
+                    - ClusterArn: ""
+                      CrossAccountRole: ""
+                      ExternalId: ""
+                      ServiceArn: ""
+                  Ungraceful:
+                    MinimumSuccessPercentage: 0
+                EksResourceScalingConfig:
+                  CapacityMonitoringApproach: ""
+                  ScalingResources: []
+                  TargetPercent: 100
+                  TimeoutMinutes: 60
+                  EksClusters:
+                    - ClusterArn: ""
+                      CrossAccountRole: ""
+                      ExternalId: ""
+                  KubernetesResourceType:
+                    ApiVersion: ""
+                    Kind: ""
+                  Ungraceful:
+                    MinimumSuccessPercentage: 0
+                ExecutionApprovalConfig:
+                  ApprovalRole: ""
+                  TimeoutMinutes: 60
+                GlobalAuroraConfig:
+                  Behavior: ""
+                  CrossAccountRole: ""
+                  DatabaseClusterArns: []
+                  ExternalId: ""
+                  GlobalClusterIdentifier: ""
+                  TimeoutMinutes: 60
+                  Ungraceful:
+                    Ungraceful: ""
+                LambdaEventSourceMappingConfig:
+                  Action: ""
+                  TimeoutMinutes: 60
+                  RegionEventSourceMappings: {}
+                  Ungraceful:
+                    Behavior: "skip"
+                NeptuneGlobalDatabaseConfig:
+                  Behavior: ""
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  GlobalClusterIdentifier: ""
+                  TimeoutMinutes: 60
+                  RegionDatabaseClusterArns: {}
+                  Ungraceful:
+                    Ungraceful: ""
+                ParallelConfig:
+                  Steps: []
+                RdsCreateCrossRegionReadReplicaConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  TimeoutMinutes: 60
+                  DbInstanceArnMap: {}
+                RdsPromoteReadReplicaConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  TimeoutMinutes: 60
+                  DbInstanceArnMap: {}
+                RdsSwitchoverReadReplicaConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  TimeoutMinutes: 60
+                  DbInstanceArnMap: {}
+                  Ungraceful:
+                    Ungraceful: ""
+                RegionSwitchPlanConfig:
+                  Arn: ""
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                Route53HealthCheckConfig:
+                  CrossAccountRole: ""
+                  ExternalId: ""
+                  HostedZoneId: ""
+                  RecordName: ""
+                  TimeoutMinutes: 60
+                  RecordSets:
+                    - RecordSetIdentifier: ""
+                      Region: ""
+                SsmSendCommandConfig:
+                  RetryIntervalMinutes: 0
+                  TimeoutMinutes: 60
+                  RegionDocuments: {}
+                  Ungraceful:
+                    Behavior: ""

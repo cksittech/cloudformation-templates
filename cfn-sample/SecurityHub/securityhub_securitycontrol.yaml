@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubSecuritycontrol:
+    Type: AWS::SecurityHub::SecurityControl
+    Properties:
+      LastUpdateReason: ""
+      SecurityControlArn: ""
+      SecurityControlId: ""
+      Parameters: {}

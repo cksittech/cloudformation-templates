@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassConnectordefinitionversion:
+    Type: AWS::Greengrass::ConnectorDefinitionVersion
+    Properties:
+      ConnectorDefinitionId: ""
+      Connectors:
+        - ConnectorArn: ""
+          Id: ""
+          Parameters: {}

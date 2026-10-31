@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppfabricIngestiondestination:
+    Type: AWS::AppFabric::IngestionDestination
+    Properties:
+      AppBundleArn: ""
+      IngestionArn: ""
+      DestinationConfiguration:
+        AuditLog:
+          Destination:
+            FirehoseStream:
+              StreamName: ""
+            S3Bucket:
+              BucketName: ""
+              Prefix: ""
+      ProcessingConfiguration:
+        AuditLog:
+          Format: ""
+          Schema: ""
+      Tags:
+        - Key: ""
+          Value: ""

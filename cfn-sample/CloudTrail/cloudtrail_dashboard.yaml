@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudtrailDashboard:
+    Type: AWS::CloudTrail::Dashboard
+    Properties:
+      Name: ""
+      TerminationProtectionEnabled: false
+      RefreshSchedule:
+        Status: ""
+        TimeOfDay: ""
+        Frequency:
+          Unit: ""
+          Value: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      Widgets:
+        - QueryParameters: []
+          QueryStatement: ""
+          ViewProperties: {}

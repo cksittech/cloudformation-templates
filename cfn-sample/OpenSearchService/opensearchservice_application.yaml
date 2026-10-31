@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserviceApplication:
+    Type: AWS::OpenSearchService::Application
+    Properties:
+      Endpoint: ""
+      KmsKeyArn: ""
+      Name: ""
+      AppConfigs:
+        - Key: ""
+          Value: ""
+      DataSources:
+        - DataSourceArn: ""
+          DataSourceDescription: ""
+      IamIdentityCenterOptions:
+        Enabled: false
+        IamIdentityCenterInstanceArn: ""
+        IamRoleForIdentityCenterApplicationArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

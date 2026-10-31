@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsLoganomalydetector:
+    Type: AWS::Logs::LogAnomalyDetector
+    Properties:
+      AccountId: ""
+      AnomalyVisibilityTime: 0
+      DetectorName: ""
+      EvaluationFrequency: ""
+      FilterPattern: ""
+      KmsKeyId: ""
+      LogGroupArnList: []

@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3expressDirectorybucket:
+    Type: AWS::S3Express::DirectoryBucket
+    Properties:
+      BucketName: ""
+      DataRedundancy: ""
+      LocationName: ""
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - BucketKeyEnabled: false
+            ServerSideEncryptionByDefault:
+              KMSMasterKeyID: ""
+              SSEAlgorithm: ""
+      InventoryConfigurations:
+        - Enabled: false
+          Id: ""
+          IncludedObjectVersions: ""
+          OptionalFields: []
+          Prefix: ""
+          ScheduleFrequency: ""
+          Destination:
+            BucketAccountId: ""
+            BucketArn: ""
+            Format: ""
+            Prefix: ""
+      LifecycleConfiguration:
+        Rules:
+          - ExpirationInDays: 0
+            Id: ""
+            ObjectSizeGreaterThan: ""
+            ObjectSizeLessThan: ""
+            Prefix: ""
+            Status: ""
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 0
+      MetricsConfigurations:
+        - AccessPointArn: ""
+          Id: ""
+          Prefix: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDetectiveMemberinvitation:
+    Type: AWS::Detective::MemberInvitation
+    Properties:
+      DisableEmailNotification: false
+      GraphArn: ""
+      MemberEmailAddress: ""
+      MemberId: ""
+      Message: ""

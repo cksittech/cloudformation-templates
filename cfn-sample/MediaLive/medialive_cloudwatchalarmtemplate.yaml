@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveCloudwatchalarmtemplate:
+    Type: AWS::MediaLive::CloudWatchAlarmTemplate
+    Properties:
+      ComparisonOperator: ""
+      DatapointsToAlarm: 0
+      Description: ""
+      EvaluationPeriods: 0
+      GroupIdentifier: ""
+      MetricName: ""
+      Name: ""
+      Period: 0
+      Statistic: ""
+      TargetResourceType: ""
+      Threshold: 0
+      TreatMissingData: ""
+      Tags: {}

@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOdbCloudautonomousvmcluster:
+    Type: AWS::ODB::CloudAutonomousVmCluster
+    Properties:
+      AutonomousDataStorageSizeInTBs: 0
+      CloudExadataInfrastructureId: ""
+      CpuCoreCountPerNode: 0
+      DbServers: []
+      Description: ""
+      DisplayName: ""
+      IsMtlsEnabledVmCluster: false
+      LicenseModel: ""
+      MemoryPerOracleComputeUnitInGBs: 0
+      OdbNetworkId: ""
+      ScanListenerPortNonTls: 0
+      ScanListenerPortTls: 0
+      TimeZone: ""
+      TotalContainerDatabases: 0
+      IamRoles:
+        - AwsIntegration: ""
+          IamRoleArn: ""
+      MaintenanceWindow:
+        DaysOfWeek: []
+        HoursOfDay: []
+        LeadTimeInWeeks: 0
+        Months: []
+        Preference: ""
+        WeeksOfMonth: []
+      Tags:
+        - Key: ""
+          Value: ""

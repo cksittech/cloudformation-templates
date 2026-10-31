@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipamscope:
+    Type: AWS::EC2::IPAMScope
+    Properties:
+      Description: ""
+      IpamId: ""
+      ExternalAuthorityConfiguration:
+        ExternalResourceIdentifier: ""
+        IpamScopeExternalAuthorityType: ""
+      Tags:
+        - Key: ""
+          Value: ""

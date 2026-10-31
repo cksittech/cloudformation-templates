@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueSchema:
+    Type: AWS::Glue::Schema
+    Properties:
+      Compatibility: ""
+      DataFormat: ""
+      Description: ""
+      Name: ""
+      SchemaDefinition: ""
+      CheckpointVersion:
+        IsLatest: false
+        VersionNumber: 0
+      Registry:
+        Arn: ""
+        Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

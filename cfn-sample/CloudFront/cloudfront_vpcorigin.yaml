@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontVpcorigin:
+    Type: AWS::CloudFront::VpcOrigin
+    Properties:
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcOriginEndpointConfig:
+        Arn: ""
+        HTTPPort: 80
+        HTTPSPort: 443
+        IpAddressType: "ipv4"
+        Name: ""
+        OriginProtocolPolicy: "match-viewer"
+        OriginSSLProtocols: ["TLSv1", "SSLv3"]

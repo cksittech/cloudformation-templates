@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewaypolicytableentry:
+    Type: AWS::EC2::TransitGatewayPolicyTableEntry
+    Properties:
+      PolicyRuleNumber: ""
+      TargetRouteTableId: ""
+      TransitGatewayPolicyTableId: ""
+      PolicyRule:
+        DestinationCidrBlock: ""
+        DestinationPortRange: ""
+        Protocol: ""
+        SourceCidrBlock: ""
+        SourcePortRange: ""

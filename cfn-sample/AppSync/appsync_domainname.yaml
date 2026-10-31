@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncDomainname:
+    Type: AWS::AppSync::DomainName
+    Properties:
+      CertificateArn: ""
+      Description: ""
+      DomainName: ""
+      Tags:
+        - Key: ""
+          Value: ""

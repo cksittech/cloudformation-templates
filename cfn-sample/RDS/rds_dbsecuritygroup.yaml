@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbsecuritygroup:
+    Type: AWS::RDS::DBSecurityGroup
+    Properties:
+      EC2VpcId: ""
+      GroupDescription: ""
+      DBSecurityGroupIngress:
+        - CIDRIP: ""
+          EC2SecurityGroupId: ""
+          EC2SecurityGroupName: ""
+          EC2SecurityGroupOwnerId: ""
+      Tags:
+        - Key: ""
+          Value: ""

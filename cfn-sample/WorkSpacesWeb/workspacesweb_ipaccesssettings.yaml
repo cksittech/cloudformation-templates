@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebIpaccesssettings:
+    Type: AWS::WorkSpacesWeb::IpAccessSettings
+    Properties:
+      CustomerManagedKey: ""
+      Description: ""
+      DisplayName: ""
+      AdditionalEncryptionContext: {}
+      IpRules:
+        - Description: ""
+          IpRange: ""
+      Tags:
+        - Key: ""
+          Value: ""

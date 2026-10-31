@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftserverlessNamespace:
+    Type: AWS::RedshiftServerless::Namespace
+    Properties:
+      AdminPasswordSecretKmsKeyId: ""
+      AdminUserPassword: ""
+      AdminUsername: ""
+      DbName: ""
+      DefaultIamRoleArn: ""
+      FinalSnapshotName: ""
+      FinalSnapshotRetentionPeriod: 0
+      IamRoles: []
+      KmsKeyId: ""
+      LogExports: []
+      ManageAdminPassword: false
+      NamespaceName: ""
+      RedshiftIdcApplicationArn: ""
+      NamespaceResourcePolicy: {}
+      SnapshotCopyConfigurations:
+        - DestinationKmsKeyId: ""
+          DestinationRegion: ""
+          SnapshotRetentionPeriod: 0
+      Tags:
+        - Key: ""
+          Value: ""

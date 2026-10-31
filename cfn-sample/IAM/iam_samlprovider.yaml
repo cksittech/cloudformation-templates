@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamSamlprovider:
+    Type: AWS::IAM::SAMLProvider
+    Properties:
+      AddPrivateKey: ""
+      AssertionEncryptionMode: ""
+      Name: ""
+      RemovePrivateKey: ""
+      SamlMetadataDocument: ""
+      PrivateKeyList:
+        - KeyId: ""
+          Timestamp: ""
+      Tags:
+        - Key: ""
+          Value: ""

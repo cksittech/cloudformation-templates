@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksAddon:
+    Type: AWS::EKS::Addon
+    Properties:
+      AddonName: ""
+      AddonVersion: ""
+      ClusterName: ""
+      ConfigurationValues: ""
+      PreserveOnDelete: false
+      ResolveConflicts: ""
+      ServiceAccountRoleArn: ""
+      NamespaceConfig:
+        Namespace: ""
+      PodIdentityAssociations:
+        - RoleArn: ""
+          ServiceAccount: ""
+      Tags:
+        - Key: ""
+          Value: ""

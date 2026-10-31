@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Deployment:
+    Type: AWS::ApiGatewayV2::Deployment
+    Properties:
+      ApiId: ""
+      Description: ""
+      StageName: ""

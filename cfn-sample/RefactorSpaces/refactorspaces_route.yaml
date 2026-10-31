@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRefactorspacesRoute:
+    Type: AWS::RefactorSpaces::Route
+    Properties:
+      ApplicationIdentifier: ""
+      EnvironmentIdentifier: ""
+      RouteType: ""
+      ServiceIdentifier: ""
+      DefaultRoute:
+        ActivationState: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UriPathRoute:
+        ActivationState: ""
+        AppendSourcePath: false
+        IncludeChildPaths: false
+        Methods: []
+        SourcePath: ""

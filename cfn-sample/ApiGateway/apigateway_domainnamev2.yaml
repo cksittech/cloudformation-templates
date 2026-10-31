@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayDomainnamev2:
+    Type: AWS::ApiGateway::DomainNameV2
+    Properties:
+      CertificateArn: ""
+      DomainName: ""
+      EndpointAccessMode: ""
+      RoutingMode: "BASE_PATH_MAPPING_ONLY"
+      SecurityPolicy: ""
+      EndpointConfiguration:
+        IpAddressType: ""
+        Types: []
+      Policy: {}
+      Tags:
+        - Key: ""
+          Value: ""

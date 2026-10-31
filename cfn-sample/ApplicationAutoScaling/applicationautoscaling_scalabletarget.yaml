@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApplicationautoscalingScalabletarget:
+    Type: AWS::ApplicationAutoScaling::ScalableTarget
+    Properties:
+      MaxCapacity: 0
+      MinCapacity: 0
+      ResourceId: ""
+      RoleARN: ""
+      ScalableDimension: ""
+      ServiceNamespace: ""
+      ScheduledActions:
+        - EndTime: ""
+          Schedule: ""
+          ScheduledActionName: ""
+          StartTime: ""
+          Timezone: ""
+          ScalableTargetAction:
+            MaxCapacity: 0
+            MinCapacity: 0
+      SuspendedState:
+        DynamicScalingInSuspended: false
+        DynamicScalingOutSuspended: false
+        ScheduledScalingSuspended: false
+      Tags:
+        - Key: ""
+          Value: ""

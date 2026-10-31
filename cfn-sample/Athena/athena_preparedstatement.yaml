@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAthenaPreparedstatement:
+    Type: AWS::Athena::PreparedStatement
+    Properties:
+      Description: ""
+      QueryStatement: ""
+      StatementName: ""
+      WorkGroup: ""

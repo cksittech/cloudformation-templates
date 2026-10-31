@@ -1,0 +1,77 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaFunction:
+    Type: AWS::Lambda::Function
+    Properties:
+      Architectures: []
+      CodeSigningConfigArn: ""
+      Description: ""
+      FunctionName: ""
+      Handler: ""
+      KmsKeyArn: ""
+      Layers: []
+      MemorySize: 0
+      PackageType: ""
+      PublishToLatestPublished: false
+      RecursiveLoop: ""
+      ReservedConcurrentExecutions: 0
+      Role: ""
+      Runtime: ""
+      Timeout: 0
+      CapacityProviderConfig:
+        LambdaManagedInstancesCapacityProviderConfig:
+          CapacityProviderArn: ""
+          ExecutionEnvironmentMemoryGiBPerVCpu: 0
+          PerExecutionEnvironmentMaxConcurrency: 0
+      Code:
+        ImageUri: ""
+        S3Bucket: ""
+        S3Key: ""
+        S3ObjectStorageMode: ""
+        S3ObjectVersion: ""
+        SourceKMSKeyArn: ""
+        ZipFile: ""
+      DeadLetterConfig:
+        TargetArn: ""
+      DurableConfig:
+        ExecutionTimeout: 0
+        KMSKeyArn: ""
+        RetentionPeriodInDays: 14
+      Environment:
+        Variables: {}
+      EphemeralStorage:
+        Size: 0
+      FileSystemConfigs:
+        - Arn: ""
+          LocalMountPath: ""
+          S3FilesConfig:
+            DirectS3Read: ""
+      FunctionScalingConfig:
+        MaxExecutionEnvironments: 0
+        MinExecutionEnvironments: 0
+      ImageConfig:
+        Command: []
+        EntryPoint: []
+        WorkingDirectory: ""
+      LoggingConfig:
+        ApplicationLogLevel: ""
+        LogFormat: ""
+        LogGroup: ""
+        SystemLogLevel: ""
+      RuntimeManagementConfig:
+        RuntimeVersionArn: ""
+        UpdateRuntimeOn: ""
+      SnapStart:
+        ApplyOn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TenancyConfig:
+        TenantIsolationMode: ""
+      TracingConfig:
+        Mode: ""
+      VpcConfig:
+        Ipv6AllowedForDualStack: false
+        SecurityGroupIds: []
+        SubnetIds: []

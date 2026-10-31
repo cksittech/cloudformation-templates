@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVerifiedpermissionsPolicy:
+    Type: AWS::VerifiedPermissions::Policy
+    Properties:
+      Name: ""
+      PolicyStoreId: ""
+      Definition:
+        Static:
+          Description: ""
+          Statement: ""
+        TemplateLinked:
+          PolicyTemplateId: ""
+          Principal:
+            EntityId: ""
+            EntityType: ""
+          Resource:
+            EntityId: ""
+            EntityType: ""

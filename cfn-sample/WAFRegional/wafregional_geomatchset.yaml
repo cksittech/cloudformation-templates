@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafregionalGeomatchset:
+    Type: AWS::WAFRegional::GeoMatchSet
+    Properties:
+      Name: ""
+      GeoMatchConstraints:
+        - Type: ""
+          Value: ""

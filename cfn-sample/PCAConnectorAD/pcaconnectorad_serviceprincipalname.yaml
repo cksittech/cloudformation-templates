@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcaconnectoradServiceprincipalname:
+    Type: AWS::PCAConnectorAD::ServicePrincipalName
+    Properties:
+      ConnectorArn: ""
+      DirectoryRegistrationArn: ""

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshVirtualrouter:
+    Type: AWS::AppMesh::VirtualRouter
+    Properties:
+      MeshName: ""
+      MeshOwner: ""
+      VirtualRouterName: ""
+      Spec:
+        Listeners:
+          - PortMapping:
+              Port: 0
+              Protocol: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCassandraType:
+    Type: AWS::Cassandra::Type
+    Properties:
+      KeyspaceName: ""
+      TypeName: ""
+      Fields:
+        - FieldName: ""
+          FieldType: ""

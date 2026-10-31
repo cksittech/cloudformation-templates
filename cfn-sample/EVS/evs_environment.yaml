@@ -1,0 +1,62 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEvsEnvironment:
+    Type: AWS::EVS::Environment
+    Properties:
+      EnvironmentName: ""
+      KmsKeyId: ""
+      ServiceAccessSubnetId: ""
+      SiteId: ""
+      TermsAccepted: false
+      VcfVersion: ""
+      VpcId: ""
+      ConnectivityInfo:
+        PrivateRouteServerPeerings: []
+      Hosts:
+        - DedicatedHostId: ""
+          HostName: ""
+          InstanceType: ""
+          KeyName: ""
+          PlacementGroupId: ""
+      InitialVlans:
+        HcxNetworkAclId: ""
+        IsHcxPublic: false
+        EdgeVTep:
+          Cidr: ""
+        ExpansionVlan1:
+          Cidr: ""
+        ExpansionVlan2:
+          Cidr: ""
+        Hcx:
+          Cidr: ""
+        NsxUpLink:
+          Cidr: ""
+        VMotion:
+          Cidr: ""
+        VSan:
+          Cidr: ""
+        VTep:
+          Cidr: ""
+        VmManagement:
+          Cidr: ""
+        VmkManagement:
+          Cidr: ""
+      LicenseInfo:
+        SolutionKey: ""
+        VsanKey: ""
+      ServiceAccessSecurityGroups:
+        SecurityGroups: []
+      Tags:
+        - Key: ""
+          Value: ""
+      VcfHostnames:
+        CloudBuilder: ""
+        Nsx: ""
+        NsxEdge1: ""
+        NsxEdge2: ""
+        NsxManager1: ""
+        NsxManager2: ""
+        NsxManager3: ""
+        SddcManager: ""
+        VCenter: ""

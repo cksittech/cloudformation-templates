@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksIdentityproviderconfig:
+    Type: AWS::EKS::IdentityProviderConfig
+    Properties:
+      ClusterName: ""
+      IdentityProviderConfigName: ""
+      Type: ""
+      Oidc:
+        ClientId: ""
+        GroupsClaim: ""
+        GroupsPrefix: ""
+        IssuerUrl: ""
+        UsernameClaim: ""
+        UsernamePrefix: ""
+        RequiredClaims:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

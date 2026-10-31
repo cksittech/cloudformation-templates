@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationPublisher:
+    Type: AWS::CloudFormation::Publisher
+    Properties:
+      AcceptTermsAndConditions: false
+      ConnectionArn: ""

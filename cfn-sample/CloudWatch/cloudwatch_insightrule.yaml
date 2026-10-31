@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchInsightrule:
+    Type: AWS::CloudWatch::InsightRule
+    Properties:
+      ApplyOnTransformedLogs: false
+      RuleBody: ""
+      RuleName: ""
+      RuleState: ""
+      Tags:
+        - Key: ""
+          Value: ""

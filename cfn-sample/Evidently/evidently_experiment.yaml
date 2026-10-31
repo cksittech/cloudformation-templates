@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEvidentlyExperiment:
+    Type: AWS::Evidently::Experiment
+    Properties:
+      Description: ""
+      Name: ""
+      Project: ""
+      RandomizationSalt: ""
+      RemoveSegment: false
+      SamplingRate: 0
+      Segment: ""
+      MetricGoals:
+        - DesiredChange: ""
+          EntityIdKey: ""
+          EventPattern: ""
+          MetricName: ""
+          UnitLabel: ""
+          ValueKey: ""
+      OnlineAbConfig:
+        ControlTreatmentName: ""
+        TreatmentWeights:
+          - SplitWeight: 0
+            Treatment: ""
+      RunningStatus:
+        AnalysisCompleteTime: ""
+        DesiredState: ""
+        Reason: ""
+        Status: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Treatments:
+        - Description: ""
+          Feature: ""
+          TreatmentName: ""
+          Variation: ""

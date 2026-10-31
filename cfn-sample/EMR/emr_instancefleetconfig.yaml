@@ -1,0 +1,54 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrInstancefleetconfig:
+    Type: AWS::EMR::InstanceFleetConfig
+    Properties:
+      ClusterId: ""
+      InstanceFleetType: ""
+      Name: ""
+      TargetOnDemandCapacity: 0
+      TargetSpotCapacity: 0
+      InstanceTypeConfigs:
+        - BidPrice: ""
+          BidPriceAsPercentageOfOnDemandPrice: 0
+          CustomAmiId: ""
+          InstanceType: ""
+          Priority: 0
+          WeightedCapacity: 0
+          Configurations:
+            - Classification: ""
+              Configurations: []
+              ConfigurationProperties: {}
+          EbsConfiguration:
+            EbsOptimized: false
+            EbsBlockDeviceConfigs:
+              - VolumesPerInstance: 0
+                VolumeSpecification:
+                  Iops: 0
+                  SizeInGB: 0
+                  Throughput: 0
+                  VolumeType: ""
+      LaunchSpecifications:
+        OnDemandSpecification:
+          AllocationStrategy: ""
+          CapacityReservationOptions:
+            CapacityReservationPreference: ""
+            CapacityReservationResourceGroupArn: ""
+            UsageStrategy: ""
+        SpotSpecification:
+          AllocationStrategy: ""
+          BlockDurationMinutes: 0
+          TimeoutAction: ""
+          TimeoutDurationMinutes: 0
+      ResizeSpecifications:
+        OnDemandResizeSpecification:
+          AllocationStrategy: ""
+          TimeoutDurationMinutes: 0
+          CapacityReservationOptions:
+            CapacityReservationPreference: ""
+            CapacityReservationResourceGroupArn: ""
+            UsageStrategy: ""
+        SpotResizeSpecification:
+          AllocationStrategy: ""
+          TimeoutDurationMinutes: 0

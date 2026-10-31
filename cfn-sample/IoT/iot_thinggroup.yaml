@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotThinggroup:
+    Type: AWS::IoT::ThingGroup
+    Properties:
+      ParentGroupName: ""
+      QueryString: ""
+      ThingGroupName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ThingGroupProperties:
+        ThingGroupDescription: ""
+        AttributePayload:
+          Attributes: {}

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptuneEventsubscription:
+    Type: AWS::Neptune::EventSubscription
+    Properties:
+      Enabled: true
+      EventCategories: []
+      SnsTopicArn: ""
+      SourceIds: []
+      SourceType: ""
+      SubscriptionName: ""
+      Tags:
+        - Key: ""
+          Value: ""

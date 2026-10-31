@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsStorageconfiguration:
+    Type: AWS::IVS::StorageConfiguration
+    Properties:
+      Name: ""
+      S3:
+        BucketName: ""
+      Tags:
+        - Key: ""
+          Value: ""

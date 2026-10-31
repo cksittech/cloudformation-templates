@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOdbCloudvmcluster:
+    Type: AWS::ODB::CloudVmCluster
+    Properties:
+      CloudExadataInfrastructureId: ""
+      ClusterName: ""
+      CpuCoreCount: 0
+      DataStorageSizeInTBs: 0
+      DbNodeStorageSizeInGBs: 0
+      DbServers: []
+      DisplayName: ""
+      GiVersion: ""
+      Hostname: ""
+      IsLocalBackupEnabled: false
+      IsSparseDiskgroupEnabled: false
+      LicenseModel: ""
+      MemorySizeInGBs: 0
+      OdbNetworkId: ""
+      ScanListenerPortTcp: 0
+      SshPublicKeys: []
+      SystemVersion: ""
+      TimeZone: ""
+      DataCollectionOptions:
+        IsDiagnosticsEventsEnabled: false
+        IsHealthMonitoringEnabled: false
+        IsIncidentLogsEnabled: false
+      DbNodes:
+        - DbServerId: ""
+          Tags:
+            - Key: ""
+              Value: ""
+      IamRoles:
+        - AwsIntegration: ""
+          IamRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

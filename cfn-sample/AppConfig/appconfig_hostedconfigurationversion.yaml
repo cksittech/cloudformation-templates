@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigHostedconfigurationversion:
+    Type: AWS::AppConfig::HostedConfigurationVersion
+    Properties:
+      ApplicationId: ""
+      ConfigurationProfileId: ""
+      Content: ""
+      ContentType: ""
+      Description: ""
+      LatestVersionNumber: 0
+      VersionLabel: ""

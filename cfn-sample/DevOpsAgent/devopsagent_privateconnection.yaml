@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentPrivateconnection:
+    Type: AWS::DevOpsAgent::PrivateConnection
+    Properties:
+      Certificate: ""
+      Name: ""
+      ConnectionConfiguration:
+        SelfManaged:
+          ResourceConfigurationId: ""
+        ServiceManaged:
+          DnsResolution: ""
+          HostAddress: ""
+          IpAddressType: ""
+          Ipv4AddressesPerEni: 0
+          PortRanges: []
+          SecurityGroupIds: []
+          SubnetIds: []
+          VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

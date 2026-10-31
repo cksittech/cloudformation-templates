@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAccountaccessEntitlement:
+    Type: AWS::AccountAccess::Entitlement
+    Properties:
+      ApplicationArn: ""
+      Entitlement:
+        PrincipalRole:
+          RoleArn: ""
+          Principal:
+            IdentityCenter:
+              GroupId: ""
+              UserId: ""

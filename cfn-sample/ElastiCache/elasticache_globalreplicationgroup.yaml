@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheGlobalreplicationgroup:
+    Type: AWS::ElastiCache::GlobalReplicationGroup
+    Properties:
+      AutomaticFailoverEnabled: false
+      CacheNodeType: ""
+      CacheParameterGroupName: ""
+      Engine: ""
+      EngineVersion: ""
+      GlobalNodeGroupCount: 0
+      GlobalReplicationGroupDescription: ""
+      GlobalReplicationGroupIdSuffix: ""
+      Members:
+        - ReplicationGroupId: ""
+          ReplicationGroupRegion: ""
+          Role: ""
+      RegionalConfigurations:
+        - ReplicationGroupId: ""
+          ReplicationGroupRegion: ""
+          ReshardingConfigurations:
+            - NodeGroupId: ""
+              PreferredAvailabilityZones: []
+      Tags:
+        - Key: ""
+          Value: ""

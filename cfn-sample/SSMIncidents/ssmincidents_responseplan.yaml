@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmincidentsResponseplan:
+    Type: AWS::SSMIncidents::ResponsePlan
+    Properties:
+      DisplayName: ""
+      Engagements: []
+      Name: ""
+      Actions:
+        - SsmAutomation:
+            DocumentName: ""
+            DocumentVersion: ""
+            RoleArn: ""
+            TargetAccount: ""
+            DynamicParameters:
+              - Key: ""
+                Value:
+                  Variable: ""
+            Parameters:
+              - Key: ""
+                Values: []
+      ChatChannel:
+        ChatbotSns: []
+      IncidentTemplate:
+        DedupeString: ""
+        Impact: 0
+        Summary: ""
+        Title: ""
+        IncidentTags:
+          - Key: ""
+            Value: ""
+        NotificationTargets:
+          - SnsTopicArn: ""
+      Integrations:
+        - PagerDutyConfiguration:
+            Name: ""
+            SecretId: ""
+            PagerDutyIncidentConfiguration:
+              ServiceId: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityagentAgentspace:
+    Type: AWS::SecurityAgent::AgentSpace
+    Properties:
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      TargetDomainIds: []
+      AwsResources:
+        IamRoles: []
+        LambdaFunctionArns: []
+        LogGroups: []
+        S3Buckets: []
+        SecretArns: []
+        Vpcs:
+          - SecurityGroupArns: []
+            SubnetArns: []
+            VpcArn: ""
+      CodeReviewSettings:
+        ControlsScanning: false
+        GeneralPurposeScanning: false
+      IntegratedResources:
+        - Integration: ""
+          ProviderResources:
+            - AzureDevOpsCapabilities:
+                LeaveComments: false
+                RemediateCode: false
+              AzureDevOpsRepository:
+                Name: ""
+                Project: ""
+              BitbucketCapabilities:
+                LeaveComments: false
+                RemediateCode: false
+              BitbucketRepository:
+                Name: ""
+                Workspace: ""
+              ConfluenceCapabilities:
+                CreateDocument: false
+                FetchDocument: false
+                UpdateDocument: false
+              ConfluenceDocument:
+                Name: ""
+                PageId: ""
+                SpaceKey: ""
+              GitHubCapabilities:
+                LeaveComments: false
+                RemediateCode: false
+              GitHubRepository:
+                Name: ""
+                Owner: ""
+              GitLabCapabilities:
+                LeaveComments: false
+                RemediateCode: false
+              GitLabRepository:
+                Name: ""
+                Namespace: ""
+      Tags:
+        - Key: ""
+          Value: ""

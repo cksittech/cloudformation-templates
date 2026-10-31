@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3filesFilesystem:
+    Type: AWS::S3Files::FileSystem
+    Properties:
+      AcceptBucketWarning: false
+      Bucket: ""
+      ClientToken: ""
+      KmsKeyId: ""
+      Prefix: ""
+      RoleArn: ""
+      SynchronizationConfiguration:
+        ExpirationDataRules:
+          - DaysAfterLastAccess: 0
+        ImportDataRules:
+          - Prefix: ""
+            SizeLessThan: 0
+            Trigger: ""
+      Tags:
+        - Key: ""
+          Value: ""

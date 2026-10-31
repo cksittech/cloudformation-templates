@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3objectlambdaAccesspoint:
+    Type: AWS::S3ObjectLambda::AccessPoint
+    Properties:
+      Name: ""
+      ObjectLambdaConfiguration:
+        AllowedFeatures: []
+        CloudWatchMetricsEnabled: false
+        SupportingAccessPoint: ""
+        TransformationConfigurations:
+          - Actions: []
+            ContentTransformation:
+              AwsLambda:
+                FunctionArn: ""
+                FunctionPayload: ""

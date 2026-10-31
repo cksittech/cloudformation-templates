@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerNotebookinstancelifecycleconfig:
+    Type: AWS::SageMaker::NotebookInstanceLifecycleConfig
+    Properties:
+      NotebookInstanceLifecycleConfigName: ""
+      OnCreate:
+        - Content: ""
+      OnStart:
+        - Content: ""
+      Tags:
+        - Key: ""
+          Value: ""

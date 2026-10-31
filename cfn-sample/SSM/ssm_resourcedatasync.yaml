@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmResourcedatasync:
+    Type: AWS::SSM::ResourceDataSync
+    Properties:
+      BucketName: ""
+      BucketPrefix: ""
+      BucketRegion: ""
+      KMSKeyArn: ""
+      SyncFormat: ""
+      SyncName: ""
+      SyncType: ""
+      S3Destination:
+        BucketName: ""
+        BucketPrefix: ""
+        BucketRegion: ""
+        KMSKeyArn: ""
+        SyncFormat: ""
+      SyncSource:
+        IncludeFutureRegions: false
+        SourceRegions: []
+        SourceType: ""
+        AwsOrganizationsSource:
+          OrganizationSourceType: ""
+          OrganizationalUnits: []

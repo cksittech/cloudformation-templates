@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightOauthclientapplication:
+    Type: AWS::QuickSight::OAuthClientApplication
+    Properties:
+      ClientId: ""
+      ClientSecret: ""
+      DataSourceType: ""
+      Name: ""
+      OAuthAuthorizationEndpointUrl: ""
+      OAuthClientApplicationId: ""
+      OAuthClientAuthenticationType: ""
+      OAuthScopes: ""
+      OAuthTokenEndpointUrl: ""
+      IdentityProviderVpcConnectionProperties:
+        VpcConnectionArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

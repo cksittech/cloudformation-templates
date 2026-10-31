@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightRefreshschedule:
+    Type: AWS::QuickSight::RefreshSchedule
+    Properties:
+      AwsAccountId: ""
+      DataSetId: ""
+      Schedule:
+        RefreshType: ""
+        ScheduleId: ""
+        StartAfterDateTime: ""
+        ScheduleFrequency:
+          Interval: ""
+          TimeOfTheDay: ""
+          TimeZone: ""
+          RefreshOnDay:
+            DayOfMonth: ""
+            DayOfWeek: ""

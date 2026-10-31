@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationResourceversion:
+    Type: AWS::CloudFormation::ResourceVersion
+    Properties:
+      ExecutionRoleArn: ""
+      SchemaHandlerPackage: ""
+      TypeName: ""
+      LoggingConfig:
+        LogGroupName: ""
+        LogRoleArn: ""

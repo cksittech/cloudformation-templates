@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQldbStream:
+    Type: AWS::QLDB::Stream
+    Properties:
+      ExclusiveEndTime: ""
+      InclusiveStartTime: ""
+      LedgerName: ""
+      RoleArn: ""
+      StreamName: ""
+      KinesisConfiguration:
+        AggregationEnabled: false
+        StreamArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

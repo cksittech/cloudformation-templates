@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Verifiedaccessinstance:
+    Type: AWS::EC2::VerifiedAccessInstance
+    Properties:
+      CidrEndpointsCustomSubDomain: ""
+      Description: ""
+      FipsEnabled: false
+      VerifiedAccessTrustProviderIds: []
+      LoggingConfigurations:
+        IncludeTrustContext: false
+        LogVersion: ""
+        CloudWatchLogs:
+          Enabled: false
+          LogGroup: ""
+        KinesisDataFirehose:
+          DeliveryStream: ""
+          Enabled: false
+        S3:
+          BucketName: ""
+          BucketOwner: ""
+          Enabled: false
+          Prefix: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VerifiedAccessTrustProviders:
+        - Description: ""
+          DeviceTrustProviderType: ""
+          TrustProviderType: ""
+          UserTrustProviderType: ""
+          VerifiedAccessTrustProviderId: ""

@@ -1,0 +1,119 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshGatewayroute:
+    Type: AWS::AppMesh::GatewayRoute
+    Properties:
+      GatewayRouteName: ""
+      MeshName: ""
+      MeshOwner: ""
+      VirtualGatewayName: ""
+      Spec:
+        Priority: 0
+        GrpcRoute:
+          Action:
+            Rewrite:
+              Hostname:
+                DefaultTargetHostname: ""
+            Target:
+              Port: 0
+              VirtualService:
+                VirtualServiceName: ""
+          Match:
+            Port: 0
+            ServiceName: ""
+            Hostname:
+              Exact: ""
+              Suffix: ""
+            Metadata:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+        Http2Route:
+          Action:
+            Rewrite:
+              Hostname:
+                DefaultTargetHostname: ""
+              Path:
+                Exact: ""
+              Prefix:
+                DefaultPrefix: ""
+                Value: ""
+            Target:
+              Port: 0
+              VirtualService:
+                VirtualServiceName: ""
+          Match:
+            Method: ""
+            Port: 0
+            Prefix: ""
+            Headers:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+            Hostname:
+              Exact: ""
+              Suffix: ""
+            Path:
+              Exact: ""
+              Regex: ""
+            QueryParameters:
+              - Name: ""
+                Match:
+                  Exact: ""
+        HttpRoute:
+          Action:
+            Rewrite:
+              Hostname:
+                DefaultTargetHostname: ""
+              Path:
+                Exact: ""
+              Prefix:
+                DefaultPrefix: ""
+                Value: ""
+            Target:
+              Port: 0
+              VirtualService:
+                VirtualServiceName: ""
+          Match:
+            Method: ""
+            Port: 0
+            Prefix: ""
+            Headers:
+              - Invert: false
+                Name: ""
+                Match:
+                  Exact: ""
+                  Prefix: ""
+                  Regex: ""
+                  Suffix: ""
+                  Range:
+                    End: 0
+                    Start: 0
+            Hostname:
+              Exact: ""
+              Suffix: ""
+            Path:
+              Exact: ""
+              Regex: ""
+            QueryParameters:
+              - Name: ""
+                Match:
+                  Exact: ""
+      Tags:
+        - Key: ""
+          Value: ""

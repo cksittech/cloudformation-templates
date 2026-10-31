@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoTerms:
+    Type: AWS::Cognito::Terms
+    Properties:
+      ClientId: ""
+      Enforcement: ""
+      TermsName: ""
+      TermsSource: ""
+      UserPoolId: ""
+      Links: {}

@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisanalyticsApplicationoutput:
+    Type: AWS::KinesisAnalytics::ApplicationOutput
+    Properties:
+      ApplicationName: ""
+      Output:
+        Name: ""
+        DestinationSchema:
+          RecordFormatType: ""
+        KinesisFirehoseOutput:
+          ResourceARN: ""
+          RoleARN: ""
+        KinesisStreamsOutput:
+          ResourceARN: ""
+          RoleARN: ""
+        LambdaOutput:
+          ResourceARN: ""
+          RoleARN: ""

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleArczonalshiftZonalautoshiftconfiguration:
+    Type: AWS::ARCZonalShift::ZonalAutoshiftConfiguration
+    Properties:
+      ResourceIdentifier: ""
+      ZonalAutoshiftStatus: ""
+      PracticeRunConfiguration:
+        BlockedDates: []
+        BlockedWindows: []
+        BlockingAlarms:
+          - AlarmIdentifier: ""
+            Type: ""
+        OutcomeAlarms:
+          - AlarmIdentifier: ""
+            Type: ""

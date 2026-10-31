@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectContactflowmodulealias:
+    Type: AWS::Connect::ContactFlowModuleAlias
+    Properties:
+      ContactFlowModuleId: ""
+      ContactFlowModuleVersion: 0
+      Description: ""
+      Name: ""

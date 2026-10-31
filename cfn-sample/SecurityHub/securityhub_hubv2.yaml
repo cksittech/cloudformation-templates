@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubHubv2:
+    Type: AWS::SecurityHub::HubV2
+    Properties:
+      NetworkScanning:
+        Status: ""
+      Tags: {}

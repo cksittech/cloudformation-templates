@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsIngestconfiguration:
+    Type: AWS::IVS::IngestConfiguration
+    Properties:
+      IngestProtocol: "RTMPS"
+      InsecureIngest: false
+      Name: "-"
+      StageArn: ""
+      UserId: ""
+      Tags:
+        - Key: ""
+          Value: ""

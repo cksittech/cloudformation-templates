@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerConnectpeer:
+    Type: AWS::NetworkManager::ConnectPeer
+    Properties:
+      ConnectAttachmentId: ""
+      CoreNetworkAddress: ""
+      InsideCidrBlocks: []
+      PeerAddress: ""
+      SubnetArn: ""
+      BgpOptions:
+        PeerAsn: 0
+      Tags:
+        - Key: ""
+          Value: ""

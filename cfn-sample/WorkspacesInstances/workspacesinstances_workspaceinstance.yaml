@@ -1,0 +1,81 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesinstancesWorkspaceinstance:
+    Type: AWS::WorkspacesInstances::WorkspaceInstance
+    Properties:
+      ManagedInstance:
+        DisableApiStop: false
+        EbsOptimized: false
+        EnablePrimaryIpv6: false
+        ImageId: ""
+        InstanceType: ""
+        Ipv6AddressCount: 0
+        KeyName: ""
+        SubnetId: ""
+        UserData: ""
+        BlockDeviceMappings:
+          - DeviceName: ""
+            NoDevice: ""
+            VirtualName: ""
+            Ebs:
+              Encrypted: false
+              Iops: 0
+              KmsKeyId: ""
+              Throughput: 0
+              VolumeSize: 0
+              VolumeType: ""
+        CapacityReservationSpecification:
+          CapacityReservationPreference: ""
+          CapacityReservationTarget:
+            CapacityReservationId: ""
+            CapacityReservationResourceGroupArn: ""
+        CpuOptions:
+          CoreCount: 0
+          ThreadsPerCore: 0
+        CreditSpecification:
+          CpuCredits: ""
+        EnclaveOptions:
+          Enabled: false
+        HibernationOptions:
+          Configured: false
+        IamInstanceProfile:
+          Arn: ""
+          Name: ""
+        LicenseSpecifications:
+          - LicenseConfigurationArn: ""
+        MaintenanceOptions:
+          AutoRecovery: ""
+        MetadataOptions:
+          HttpEndpoint: ""
+          HttpProtocolIpv6: ""
+          HttpPutResponseHopLimit: 0
+          HttpTokens: ""
+          InstanceMetadataTags: ""
+        Monitoring:
+          Enabled: false
+        NetworkInterfaces:
+          - Description: ""
+            DeviceIndex: 0
+            Groups: []
+            SubnetId: ""
+        NetworkPerformanceOptions:
+          BandwidthWeighting: ""
+        Placement:
+          AvailabilityZone: ""
+          GroupId: ""
+          GroupName: ""
+          PartitionNumber: 0
+          Tenancy: ""
+        PrivateDnsNameOptions:
+          EnableResourceNameDnsAAAARecord: false
+          EnableResourceNameDnsARecord: false
+          HostnameType: ""
+        TagSpecifications:
+          - ResourceType: ""
+            Tags:
+              - Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

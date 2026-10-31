@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanageringresspoint:
+    Type: AWS::SES::MailManagerIngressPoint
+    Properties:
+      IngressPointName: ""
+      RuleSetId: ""
+      StatusToUpdate: ""
+      TlsPolicy: ""
+      TrafficPolicyId: ""
+      Type: ""
+      IngressPointConfiguration:
+        SecretArn: ""
+        SmtpPassword: ""
+        TlsAuthConfiguration:
+          TrustStore:
+            CAContent: ""
+            CrlContent: ""
+            KmsKeyArn: ""
+      NetworkConfiguration:
+        PrivateNetworkConfiguration:
+          VpcEndpointId: ""
+        PublicNetworkConfiguration:
+          IpType: ""
+      Tags:
+        - Key: ""
+          Value: ""

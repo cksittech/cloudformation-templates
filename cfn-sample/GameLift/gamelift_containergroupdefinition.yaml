@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftContainergroupdefinition:
+    Type: AWS::GameLift::ContainerGroupDefinition
+    Properties:
+      ContainerGroupType: ""
+      Name: ""
+      OperatingSystem: ""
+      SourceVersionNumber: 0
+      TotalMemoryLimitMebibytes: 0
+      TotalVcpuLimit: 0
+      VersionDescription: ""
+      GameServerContainerDefinition:
+        ContainerName: ""
+        ImageUri: ""
+        ResolvedImageDigest: ""
+        ServerSdkVersion: ""
+        Vcpu: 0
+        DependsOn:
+          - Condition: ""
+            ContainerName: ""
+        EnvironmentOverride:
+          - Name: ""
+            Value: ""
+        LinuxCapabilities:
+          Include: []
+        MountPoints:
+          - AccessLevel: ""
+            ContainerPath: ""
+            InstancePath: ""
+        PortConfiguration:
+          ContainerPortRanges:
+            - FromPort: 0
+              Protocol: ""
+              ToPort: 0
+      SupportContainerDefinitions:
+        - ContainerName: ""
+          Essential: false
+          ImageUri: ""
+          MemoryHardLimitMebibytes: 0
+          ResolvedImageDigest: ""
+          Vcpu: 0
+          DependsOn:
+            - Condition: ""
+              ContainerName: ""
+          EnvironmentOverride:
+            - Name: ""
+              Value: ""
+          HealthCheck:
+            Command: []
+            Interval: 0
+            Retries: 0
+            StartPeriod: 0
+            Timeout: 0
+          LinuxCapabilities:
+            Include: []
+          MountPoints:
+            - AccessLevel: ""
+              ContainerPath: ""
+              InstancePath: ""
+          PortConfiguration:
+            ContainerPortRanges:
+              - FromPort: 0
+                Protocol: ""
+                ToPort: 0
+      Tags:
+        - Key: ""
+          Value: ""

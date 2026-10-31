@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmguiconnectPreferences:
+    Type: AWS::SSMGuiConnect::Preferences
+    Properties:
+      ConnectionRecordingPreferences:
+        KMSKeyArn: ""
+        RecordingDestinations:
+          S3Buckets:
+            - BucketName: ""
+              BucketOwner: ""

@@ -1,0 +1,89 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskCluster:
+    Type: AWS::MSK::Cluster
+    Properties:
+      ClusterName: ""
+      EnhancedMonitoring: ""
+      KafkaVersion: ""
+      NumberOfBrokerNodes: 0
+      StorageMode: ""
+      BrokerNodeGroupInfo:
+        BrokerAZDistribution: ""
+        ClientSubnets: []
+        InstanceType: ""
+        SecurityGroups: []
+        ConnectivityInfo:
+          NetworkType: ""
+          PublicAccess:
+            Type: ""
+          VpcConnectivity:
+            ClientAuthentication:
+              Sasl:
+                Iam:
+                  Enabled: false
+                Scram:
+                  Enabled: false
+              Tls:
+                Enabled: false
+        StorageInfo:
+          EBSStorageInfo:
+            VolumeSize: 0
+            ProvisionedThroughput:
+              Enabled: false
+              VolumeThroughput: 0
+      ClientAuthentication:
+        Sasl:
+          Iam:
+            Enabled: false
+          Scram:
+            Enabled: false
+        Tls:
+          CertificateAuthorityArnList: []
+          Enabled: false
+        Unauthenticated:
+          Enabled: false
+      ConfigurationInfo:
+        Arn: ""
+        Revision: 0
+      EncryptionInfo:
+        EncryptionAtRest:
+          DataVolumeKMSKeyId: ""
+        EncryptionInTransit:
+          ClientBroker: ""
+          InCluster: false
+      LoggingInfo:
+        AuthorizerLogs:
+          CloudWatchLogs:
+            Enabled: false
+            LogGroup: ""
+          Firehose:
+            DeliveryStream: ""
+            Enabled: false
+          S3:
+            Bucket: ""
+            Enabled: false
+            Prefix: ""
+        BrokerLogs:
+          CloudWatchLogs:
+            Enabled: false
+            LogGroup: ""
+          Firehose:
+            DeliveryStream: ""
+            Enabled: false
+          S3:
+            Bucket: ""
+            Enabled: false
+            Prefix: ""
+      OpenMonitoring:
+        Prometheus:
+          JmxExporter:
+            EnabledInBroker: false
+          NodeExporter:
+            EnabledInBroker: false
+      Rebalancing:
+        Status: ""
+      Tags: {}
+      ZookeeperAccess:
+        Enabled: false

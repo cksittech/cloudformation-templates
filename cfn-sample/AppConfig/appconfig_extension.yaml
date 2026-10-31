@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigExtension:
+    Type: AWS::AppConfig::Extension
+    Properties:
+      Description: ""
+      LatestVersionNumber: 0
+      Name: ""
+      Actions: {}
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

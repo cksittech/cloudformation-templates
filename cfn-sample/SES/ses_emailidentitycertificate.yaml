@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesEmailidentitycertificate:
+    Type: AWS::SES::EmailIdentityCertificate
+    Properties:
+      CertificateArn: ""
+      EmailIdentity: ""
+      FromAddress: ""

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesConfigurationseteventdestination:
+    Type: AWS::SES::ConfigurationSetEventDestination
+    Properties:
+      ConfigurationSetName: ""
+      EventDestination:
+        Enabled: false
+        MatchingEventTypes: []
+        Name: ""
+        CloudWatchDestination:
+          DimensionConfigurations:
+            - DefaultDimensionValue: ""
+              DimensionName: ""
+              DimensionValueSource: ""
+        EventBridgeDestination:
+          EventBusArn: ""
+        KinesisFirehoseDestination:
+          DeliveryStreamARN: ""
+          IAMRoleARN: ""
+        SnsDestination:
+          TopicARN: ""

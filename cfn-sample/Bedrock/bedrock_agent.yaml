@@ -1,0 +1,76 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockAgent:
+    Type: AWS::Bedrock::Agent
+    Properties:
+      AgentCollaboration: ""
+      AgentName: ""
+      AgentResourceRoleArn: ""
+      AutoPrepare: false
+      CustomerEncryptionKeyArn: ""
+      Description: ""
+      FoundationModel: ""
+      IdleSessionTTLInSeconds: 0
+      Instruction: ""
+      OrchestrationType: ""
+      SkipResourceInUseCheckOnDelete: false
+      ActionGroups:
+        - ActionGroupName: ""
+          ActionGroupState: ""
+          Description: ""
+          ParentActionGroupSignature: ""
+          SkipResourceInUseCheckOnDelete: false
+          ActionGroupExecutor:
+            CustomControl: ""
+            Lambda: ""
+          ApiSchema:
+            Payload: ""
+            S3:
+              S3BucketName: ""
+              S3ObjectKey: ""
+          FunctionSchema:
+            Functions:
+              - Description: ""
+                Name: ""
+                RequireConfirmation: ""
+                Parameters: {}
+      AgentCollaborators:
+        - CollaborationInstruction: ""
+          CollaboratorName: ""
+          RelayConversationHistory: ""
+          AgentDescriptor:
+            AliasArn: ""
+      CustomOrchestration:
+        Executor:
+          Lambda: ""
+      GuardrailConfiguration:
+        GuardrailIdentifier: ""
+        GuardrailVersion: ""
+      KnowledgeBases:
+        - Description: ""
+          KnowledgeBaseId: ""
+          KnowledgeBaseState: ""
+      MemoryConfiguration:
+        EnabledMemoryTypes: []
+        StorageDays: 0
+        SessionSummaryConfiguration:
+          MaxRecentSessions: 0
+      PromptOverrideConfiguration:
+        OverrideLambda: ""
+        PromptConfigurations:
+          - BasePromptTemplate: ""
+            FoundationModel: ""
+            ParserMode: ""
+            PromptCreationMode: ""
+            PromptState: ""
+            PromptType: ""
+            AdditionalModelRequestFields: {}
+            InferenceConfiguration:
+              MaximumLength: 0
+              StopSequences: []
+              Temperature: 0
+              TopK: 0
+              TopP: 0
+      Tags: {}
+      TestAliasTags: {}

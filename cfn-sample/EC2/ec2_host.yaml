@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Host:
+    Type: AWS::EC2::Host
+    Properties:
+      AssetId: ""
+      AutoPlacement: "on"
+      AvailabilityZone: ""
+      HostMaintenance: "off"
+      HostRecovery: "off"
+      InstanceFamily: ""
+      InstanceType: ""
+      OutpostArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

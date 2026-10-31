@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksCapability:
+    Type: AWS::EKS::Capability
+    Properties:
+      CapabilityName: ""
+      ClusterName: ""
+      DeletePropagationPolicy: ""
+      RoleArn: ""
+      Type: ""
+      Configuration:
+        Ack:
+          DisabledServices: []
+          EnableCrossNamespace: false
+        ArgoCd:
+          EndpointPrefix: ""
+          Namespace: ""
+          AwsIdc:
+            IdcInstanceArn: ""
+            IdcRegion: ""
+          NetworkAccess:
+            VpceIds: []
+          RbacRoleMappings:
+            - Role: ""
+              Identities:
+                - Id: ""
+                  Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

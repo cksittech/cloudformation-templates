@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsCertificate:
+    Type: AWS::DMS::Certificate
+    Properties:
+      CertificateIdentifier: ""
+      CertificatePem: ""
+      CertificateWallet: ""

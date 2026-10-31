@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleComprehendEntityrecognizer:
+    Type: AWS::Comprehend::EntityRecognizer
+    Properties:
+      DataAccessRoleArn: ""
+      LanguageCode: ""
+      ModelKmsKeyId: ""
+      ModelPolicy: ""
+      RecognizerName: ""
+      VersionName: ""
+      VolumeKmsKeyId: ""
+      InputDataConfig:
+        DataFormat: ""
+        Annotations:
+          S3Uri: ""
+          TestS3Uri: ""
+        AugmentedManifests:
+          - AnnotationDataS3Uri: ""
+            AttributeNames: []
+            DocumentType: ""
+            S3Uri: ""
+            SourceDocumentsS3Uri: ""
+            Split: ""
+        Documents:
+          InputFormat: ""
+          S3Uri: ""
+          TestS3Uri: ""
+        EntityList:
+          S3Uri: ""
+        EntityTypes:
+          - Type: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []

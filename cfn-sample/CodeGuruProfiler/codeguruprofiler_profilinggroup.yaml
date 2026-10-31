@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodeguruprofilerProfilinggroup:
+    Type: AWS::CodeGuruProfiler::ProfilingGroup
+    Properties:
+      ComputePlatform: ""
+      ProfilingGroupName: ""
+      AgentPermissions:
+        Principals: []
+      AnomalyDetectionNotificationConfiguration:
+        - channelId: ""
+          channelUri: ""
+      Tags:
+        - Key: ""
+          Value: ""

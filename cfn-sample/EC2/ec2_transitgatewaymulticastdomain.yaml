@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewaymulticastdomain:
+    Type: AWS::EC2::TransitGatewayMulticastDomain
+    Properties:
+      TransitGatewayId: ""
+      Options:
+        AutoAcceptSharedAssociations: ""
+        Igmpv2Support: ""
+        StaticSourcesSupport: ""
+      Tags:
+        - Key: ""
+          Value: ""

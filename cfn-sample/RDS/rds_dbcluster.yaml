@@ -1,0 +1,82 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbcluster:
+    Type: AWS::RDS::DBCluster
+    Properties:
+      AllocatedStorage: 0
+      AutoMinorVersionUpgrade: false
+      AvailabilityZones: []
+      BacktrackWindow: 0
+      BackupRetentionPeriod: 1
+      ClusterScalabilityType: ""
+      CopyTagsToSnapshot: false
+      DBClusterIdentifier: ""
+      DBClusterInstanceClass: ""
+      DBClusterParameterGroupName: ""
+      DBInstanceParameterGroupName: ""
+      DBSubnetGroupName: ""
+      DBSystemId: ""
+      DatabaseInsightsMode: ""
+      DatabaseName: ""
+      DeleteAutomatedBackups: false
+      DeletionProtection: false
+      Domain: ""
+      DomainIAMRoleName: ""
+      EnableCloudwatchLogsExports: []
+      EnableGlobalWriteForwarding: false
+      EnableHttpEndpoint: false
+      EnableIAMDatabaseAuthentication: false
+      EnableLocalWriteForwarding: false
+      Engine: ""
+      EngineLifecycleSupport: ""
+      EngineMode: ""
+      EngineVersion: ""
+      GlobalClusterIdentifier: ""
+      Iops: 0
+      KmsKeyId: ""
+      ManageMasterUserPassword: false
+      MasterUserAuthenticationType: ""
+      MasterUserPassword: ""
+      MasterUsername: ""
+      MonitoringInterval: 0
+      MonitoringRoleArn: ""
+      NetworkType: ""
+      PerformanceInsightsEnabled: false
+      PerformanceInsightsKmsKeyId: ""
+      PerformanceInsightsRetentionPeriod: 0
+      Port: 0
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      ReplicationSourceIdentifier: ""
+      RestoreToTime: ""
+      RestoreType: ""
+      SnapshotIdentifier: ""
+      SourceDBClusterIdentifier: ""
+      SourceDbClusterResourceId: ""
+      SourceRegion: ""
+      StorageEncrypted: false
+      StorageType: ""
+      UseLatestRestorableTime: false
+      VpcSecurityGroupIds: []
+      WithExpressConfiguration: false
+      AssociatedRoles:
+        - FeatureName: ""
+          RoleArn: ""
+      MasterUserSecret:
+        KmsKeyId: ""
+      ScalingConfiguration:
+        AutoPause: false
+        MaxCapacity: 0
+        MinCapacity: 0
+        SecondsBeforeTimeout: 0
+        SecondsUntilAutoPause: 0
+        TimeoutAction: ""
+      ServerlessV2ScalingConfiguration:
+        MaxCapacity: 0
+        MinCapacity: 0
+        SecondsUntilAutoPause: 0
+      Tags:
+        - Key: ""
+          Value: ""

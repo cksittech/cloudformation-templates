@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectconnectConnection:
+    Type: AWS::DirectConnect::Connection
+    Properties:
+      Bandwidth: ""
+      ConnectionName: ""
+      LagId: ""
+      Location: ""
+      ProviderName: ""
+      RequestMACSec: false
+      Tags:
+        - Key: ""
+          Value: ""

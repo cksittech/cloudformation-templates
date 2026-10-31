@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsv2Eventbus:
+    Type: AWS::EventsV2::EventBus
+    Properties:
+      Description: ""
+      Name: ""
+      EncryptionConfiguration:
+        KmsKeyIdentifier: ""
+      StorageConfiguration:
+        RetentionPeriodInDays: 0
+      Tags:
+        - Key: ""
+          Value: ""

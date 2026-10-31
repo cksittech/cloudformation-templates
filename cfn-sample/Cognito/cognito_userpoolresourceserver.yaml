@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolresourceserver:
+    Type: AWS::Cognito::UserPoolResourceServer
+    Properties:
+      Identifier: ""
+      Name: ""
+      UserPoolId: ""
+      Scopes:
+        - ScopeDescription: ""
+          ScopeName: ""

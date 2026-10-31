@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneEnvironmentactions:
+    Type: AWS::DataZone::EnvironmentActions
+    Properties:
+      Description: ""
+      DomainIdentifier: ""
+      EnvironmentIdentifier: ""
+      Identifier: ""
+      Name: ""
+      Parameters:
+        Uri: ""

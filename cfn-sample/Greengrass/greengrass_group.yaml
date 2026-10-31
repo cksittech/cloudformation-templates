@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassGroup:
+    Type: AWS::Greengrass::Group
+    Properties:
+      Name: ""
+      RoleArn: ""
+      InitialVersion:
+        ConnectorDefinitionVersionArn: ""
+        CoreDefinitionVersionArn: ""
+        DeviceDefinitionVersionArn: ""
+        FunctionDefinitionVersionArn: ""
+        LoggerDefinitionVersionArn: ""
+        ResourceDefinitionVersionArn: ""
+        SubscriptionDefinitionVersionArn: ""
+      Tags: {}

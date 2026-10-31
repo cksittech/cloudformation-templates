@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxVolume:
+    Type: AWS::FSx::Volume
+    Properties:
+      BackupId: ""
+      Name: ""
+      VolumeType: ""
+      OntapConfiguration:
+        CopyTagsToBackups: ""
+        JunctionPath: ""
+        OntapVolumeType: ""
+        SecurityStyle: ""
+        SizeInBytes: ""
+        SizeInMegabytes: ""
+        SnapshotPolicy: ""
+        StorageEfficiencyEnabled: ""
+        StorageVirtualMachineId: ""
+        VolumeStyle: ""
+        AggregateConfiguration:
+          Aggregates: []
+          ConstituentsPerAggregate: 0
+        SnaplockConfiguration:
+          AuditLogVolume: ""
+          PrivilegedDelete: ""
+          SnaplockType: ""
+          VolumeAppendModeEnabled: ""
+          AutocommitPeriod:
+            Type: ""
+            Value: 0
+          RetentionPeriod:
+            DefaultRetention:
+              Type: ""
+              Value: 0
+            MaximumRetention:
+              Type: ""
+              Value: 0
+            MinimumRetention:
+              Type: ""
+              Value: 0
+        TieringPolicy:
+          CoolingPeriod: 0
+          Name: ""
+      OpenZFSConfiguration:
+        CopyTagsToSnapshots: false
+        DataCompressionType: ""
+        Options: []
+        ParentVolumeId: ""
+        ReadOnly: false
+        RecordSizeKiB: 0
+        StorageCapacityQuotaGiB: 0
+        StorageCapacityReservationGiB: 0
+        NfsExports:
+          - ClientConfigurations:
+              - Clients: ""
+                Options: []
+        OriginSnapshot:
+          CopyStrategy: ""
+          SnapshotARN: ""
+        UserAndGroupQuotas:
+          - Id: 0
+            StorageCapacityQuotaGiB: 0
+            Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipamresourcediscoveryassociation:
+    Type: AWS::EC2::IPAMResourceDiscoveryAssociation
+    Properties:
+      IpamId: ""
+      IpamResourceDiscoveryId: ""
+      Tags:
+        - Key: ""
+          Value: ""

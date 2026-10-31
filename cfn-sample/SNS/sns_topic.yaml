@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSnsTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      ContentBasedDeduplication: false
+      DisplayName: ""
+      FifoThroughputScope: ""
+      FifoTopic: false
+      KmsMasterKeyId: ""
+      MaximumMessageSize: 0
+      SignatureVersion: ""
+      TopicName: ""
+      TracingConfig: ""
+      ArchivePolicy: {}
+      DataProtectionPolicy: {}
+      DeliveryStatusLogging:
+        - FailureFeedbackRoleArn: ""
+          Protocol: ""
+          SuccessFeedbackRoleArn: ""
+          SuccessFeedbackSampleRate: ""
+      Subscription:
+        - Endpoint: ""
+          Protocol: ""
+      Tags:
+        - Key: ""
+          Value: ""

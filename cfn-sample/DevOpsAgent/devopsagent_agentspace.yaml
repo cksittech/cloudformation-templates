@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentAgentspace:
+    Type: AWS::DevOpsAgent::AgentSpace
+    Properties:
+      Description: ""
+      KmsKeyArn: ""
+      Locale: ""
+      Name: ""
+      OperatorApp:
+        Iam:
+          OperatorAppRoleArn: ""
+        Idc:
+          IdcInstanceArn: ""
+          OperatorAppRoleArn: ""
+        Idp:
+          ClientId: ""
+          ClientSecret: ""
+          IssuerUrl: ""
+          OperatorAppRoleArn: ""
+          Provider: ""
+      Preferences:
+        ElevatedActionsEnabled: false
+      Tags:
+        - Key: ""
+          Value: ""

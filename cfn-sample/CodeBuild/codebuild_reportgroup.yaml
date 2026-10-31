@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodebuildReportgroup:
+    Type: AWS::CodeBuild::ReportGroup
+    Properties:
+      DeleteReports: false
+      Name: ""
+      Type: ""
+      ExportConfig:
+        ExportConfigType: ""
+        S3Destination:
+          Bucket: ""
+          BucketOwner: ""
+          EncryptionDisabled: false
+          EncryptionKey: ""
+          Packaging: ""
+          Path: ""
+      Tags:
+        - Key: ""
+          Value: ""

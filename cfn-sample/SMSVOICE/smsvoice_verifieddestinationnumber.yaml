@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceVerifieddestinationnumber:
+    Type: AWS::SMSVOICE::VerifiedDestinationNumber
+    Properties:
+      DestinationPhoneNumber: ""
+      Tags:
+        - Key: ""
+          Value: ""

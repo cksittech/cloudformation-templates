@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderImagepipeline:
+    Type: AWS::ImageBuilder::ImagePipeline
+    Properties:
+      ContainerRecipeArn: ""
+      Description: ""
+      DistributionConfigurationArn: ""
+      EnhancedImageMetadataEnabled: false
+      ExecutionRole: ""
+      ImageRecipeArn: ""
+      InfrastructureConfigurationArn: ""
+      Name: ""
+      Status: ""
+      ImageScanningConfiguration:
+        ImageScanningEnabled: false
+        EcrConfiguration:
+          ContainerTags: []
+          RepositoryName: ""
+      ImageTags: {}
+      ImageTestsConfiguration:
+        ImageTestsEnabled: false
+        TimeoutMinutes: 0
+      LoggingConfiguration:
+        ImageLogGroupName: ""
+        PipelineLogGroupName: ""
+      Schedule:
+        PipelineExecutionStartCondition: ""
+        ScheduleExpression: ""
+        Timezone: ""
+        AutoDisablePolicy:
+          FailureCount: 0
+      Tags: {}
+      Workflows:
+        - OnFailure: ""
+          ParallelGroup: ""
+          WorkflowArn: ""
+          Parameters:
+            - Name: ""
+              Value: []

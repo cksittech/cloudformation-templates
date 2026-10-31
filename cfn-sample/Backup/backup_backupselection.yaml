@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupBackupselection:
+    Type: AWS::Backup::BackupSelection
+    Properties:
+      BackupPlanId: ""
+      BackupSelection:
+        IamRoleArn: ""
+        NotResources: []
+        Resources: []
+        SelectionName: ""
+        Conditions:
+          StringEquals:
+            - ConditionKey: ""
+              ConditionValue: ""
+          StringLike:
+            - ConditionKey: ""
+              ConditionValue: ""
+          StringNotEquals:
+            - ConditionKey: ""
+              ConditionValue: ""
+          StringNotLike:
+            - ConditionKey: ""
+              ConditionValue: ""
+        ListOfTags:
+          - ConditionKey: ""
+            ConditionType: ""
+            ConditionValue: ""

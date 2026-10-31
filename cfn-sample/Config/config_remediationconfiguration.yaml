@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigRemediationconfiguration:
+    Type: AWS::Config::RemediationConfiguration
+    Properties:
+      Automatic: false
+      ConfigRuleName: ""
+      MaximumAutomaticAttempts: 0
+      ResourceType: ""
+      RetryAttemptSeconds: 0
+      TargetId: ""
+      TargetType: ""
+      TargetVersion: ""
+      ExecutionControls:
+        SsmControls:
+          ConcurrentExecutionRatePercentage: 0
+          ErrorPercentage: 0
+      Parameters: {}

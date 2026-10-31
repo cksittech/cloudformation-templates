@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftstreamsStreamgroup:
+    Type: AWS::GameLiftStreams::StreamGroup
+    Properties:
+      Description: ""
+      StreamClass: ""
+      DefaultApplication:
+        Arn: ""
+        Id: ""
+      LocationConfigurations:
+        - AlwaysOnCapacity: 0
+          LocationName: ""
+          MaximumCapacity: 0
+          OnDemandCapacity: 0
+          TargetIdleCapacity: 0
+          VpcTransitConfiguration:
+            Ipv4CidrBlocks: []
+            VpcId: ""
+      Tags: {}

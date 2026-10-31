@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKmsKey:
+    Type: AWS::KMS::Key
+    Properties:
+      BypassPolicyLockoutSafetyCheck: false
+      Description: ""
+      EnableKeyRotation: false
+      Enabled: false
+      KeySpec: "SYMMETRIC_DEFAULT"
+      KeyUsage: "ENCRYPT_DECRYPT"
+      MultiRegion: false
+      Origin: "AWS_KMS"
+      PendingWindowInDays: 0
+      RotationPeriodInDays: 365
+      KeyPolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

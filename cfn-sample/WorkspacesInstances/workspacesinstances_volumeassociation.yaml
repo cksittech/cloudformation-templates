@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesinstancesVolumeassociation:
+    Type: AWS::WorkspacesInstances::VolumeAssociation
+    Properties:
+      Device: ""
+      DisassociateMode: ""
+      VolumeId: ""
+      WorkspaceInstanceId: ""

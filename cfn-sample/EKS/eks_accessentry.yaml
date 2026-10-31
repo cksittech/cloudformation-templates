@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksAccessentry:
+    Type: AWS::EKS::AccessEntry
+    Properties:
+      ClusterName: ""
+      KubernetesGroups: []
+      PrincipalArn: ""
+      Type: ""
+      Username: ""
+      AccessPolicies:
+        - PolicyArn: ""
+          AccessScope:
+            Namespaces: []
+            Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

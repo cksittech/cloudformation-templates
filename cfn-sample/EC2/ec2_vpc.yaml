@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpc:
+    Type: AWS::EC2::VPC
+    Properties:
+      CidrBlock: ""
+      EnableDnsHostnames: false
+      EnableDnsSupport: false
+      InstanceTenancy: ""
+      Ipv4IpamPoolId: ""
+      Ipv4NetmaskLength: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcEncryptionControl:
+        EgressOnlyInternetGatewayExclusion: ""
+        ElasticFileSystemExclusion: ""
+        InternetGatewayExclusion: ""
+        LambdaExclusion: ""
+        Mode: ""
+        NatGatewayExclusion: ""
+        VirtualPrivateGatewayExclusion: ""
+        VpcLatticeExclusion: ""
+        VpcPeeringExclusion: ""

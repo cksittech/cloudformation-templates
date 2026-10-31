@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotJobtemplate:
+    Type: AWS::IoT::JobTemplate
+    Properties:
+      Description: ""
+      DestinationPackageVersions: []
+      Document: ""
+      DocumentSource: ""
+      JobArn: ""
+      JobTemplateId: ""
+      AbortConfig:
+        CriteriaList:
+          - Action: ""
+            FailureType: ""
+            MinNumberOfExecutedThings: 0
+            ThresholdPercentage: 0
+      JobExecutionsRetryConfig:
+        RetryCriteriaList:
+          - FailureType: ""
+            NumberOfRetries: 0
+      JobExecutionsRolloutConfig:
+        MaximumPerMinute: 0
+        ExponentialRolloutRate:
+          BaseRatePerMinute: 0
+          IncrementFactor: 0
+          RateIncreaseCriteria:
+            NumberOfNotifiedThings: 0
+            NumberOfSucceededThings: 0
+      MaintenanceWindows:
+        - DurationInMinutes: 0
+          StartTime: ""
+      PresignedUrlConfig:
+        ExpiresInSec: 0
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TimeoutConfig:
+        InProgressTimeoutInMinutes: 0

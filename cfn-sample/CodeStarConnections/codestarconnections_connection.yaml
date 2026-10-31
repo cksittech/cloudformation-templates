@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodestarconnectionsConnection:
+    Type: AWS::CodeStarConnections::Connection
+    Properties:
+      ConnectionName: ""
+      HostArn: ""
+      ProviderType: ""
+      Tags:
+        - Key: ""
+          Value: ""

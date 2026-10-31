@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderDistributionconfiguration:
+    Type: AWS::ImageBuilder::DistributionConfiguration
+    Properties:
+      Description: ""
+      Name: ""
+      Distributions:
+        - LicenseConfigurationArns: []
+          Region: ""
+          AmiDistributionConfiguration:
+            Description: ""
+            KmsKeyId: ""
+            Name: ""
+            TargetAccountIds: []
+            AmiTags: {}
+            LaunchPermissionConfiguration:
+              OrganizationArns: []
+              OrganizationalUnitArns: []
+              UserGroups: []
+              UserIds: []
+          ContainerDistributionConfiguration:
+            ContainerTags: []
+            Description: ""
+            TargetRepository:
+              RepositoryName: ""
+              Service: ""
+          FastLaunchConfigurations:
+            - AccountId: ""
+              Enabled: false
+              MaxParallelLaunches: 0
+              LaunchTemplate:
+                LaunchTemplateId: ""
+                LaunchTemplateName: ""
+                LaunchTemplateVersion: ""
+              SnapshotConfiguration:
+                TargetResourceCount: 0
+          LaunchTemplateConfigurations:
+            - AccountId: ""
+              LaunchTemplateId: ""
+              SetDefaultVersion: false
+          SsmParameterConfigurations:
+            - AmiAccountId: ""
+              DataType: ""
+              ParameterName: ""
+      Tags: {}

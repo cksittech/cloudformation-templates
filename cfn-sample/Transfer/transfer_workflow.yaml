@@ -1,0 +1,82 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferWorkflow:
+    Type: AWS::Transfer::Workflow
+    Properties:
+      Description: ""
+      OnExceptionSteps:
+        - Type: ""
+          CopyStepDetails:
+            Name: ""
+            OverwriteExisting: ""
+            SourceFileLocation: ""
+            DestinationFileLocation:
+              S3FileLocation:
+                Bucket: ""
+                Key: ""
+          CustomStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+            Target: ""
+            TimeoutSeconds: 0
+          DecryptStepDetails:
+            Name: ""
+            OverwriteExisting: ""
+            SourceFileLocation: ""
+            Type: ""
+            DestinationFileLocation:
+              EfsFileLocation:
+                FileSystemId: ""
+                Path: ""
+              S3FileLocation:
+                Bucket: ""
+                Key: ""
+          DeleteStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+          TagStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+            Tags:
+              - Key: ""
+                Value: ""
+      Steps:
+        - Type: ""
+          CopyStepDetails:
+            Name: ""
+            OverwriteExisting: ""
+            SourceFileLocation: ""
+            DestinationFileLocation:
+              S3FileLocation:
+                Bucket: ""
+                Key: ""
+          CustomStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+            Target: ""
+            TimeoutSeconds: 0
+          DecryptStepDetails:
+            Name: ""
+            OverwriteExisting: ""
+            SourceFileLocation: ""
+            Type: ""
+            DestinationFileLocation:
+              EfsFileLocation:
+                FileSystemId: ""
+                Path: ""
+              S3FileLocation:
+                Bucket: ""
+                Key: ""
+          DeleteStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+          TagStepDetails:
+            Name: ""
+            SourceFileLocation: ""
+            Tags:
+              - Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskConfiguration:
+    Type: AWS::MSK::Configuration
+    Properties:
+      Description: ""
+      KafkaVersionsList: []
+      Name: ""
+      ServerProperties: ""
+      LatestRevision: {}

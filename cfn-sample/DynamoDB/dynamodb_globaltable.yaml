@@ -1,0 +1,152 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDynamodbGlobaltable:
+    Type: AWS::DynamoDB::GlobalTable
+    Properties:
+      BillingMode: ""
+      GlobalTableSourceArn: ""
+      MultiRegionConsistency: ""
+      TableName: ""
+      TableType: ""
+      AttributeDefinitions:
+        - AttributeName: ""
+          AttributeType: ""
+      GlobalSecondaryIndexes:
+        - IndexName: ""
+          KeySchema:
+            - AttributeName: ""
+              KeyType: ""
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+          ReadOnDemandThroughputSettings:
+            MaxReadRequestUnits: 0
+          ReadProvisionedThroughputSettings:
+            ReadCapacityUnits: 0
+          WarmThroughput:
+            ReadUnitsPerSecond: 0
+            WriteUnitsPerSecond: 0
+          WriteOnDemandThroughputSettings:
+            MaxWriteRequestUnits: 0
+          WriteProvisionedThroughputSettings:
+            WriteCapacityAutoScalingSettings:
+              MaxCapacity: 0
+              MinCapacity: 0
+              SeedCapacity: 0
+              TargetTrackingScalingPolicyConfiguration:
+                DisableScaleIn: false
+                ScaleInCooldown: 0
+                ScaleOutCooldown: 0
+                TargetValue: 0
+      GlobalTableWitnesses:
+        - Region: ""
+      KeySchema:
+        - AttributeName: ""
+          KeyType: ""
+      LocalSecondaryIndexes:
+        - IndexName: ""
+          KeySchema:
+            - AttributeName: ""
+              KeyType: ""
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+      ReadOnDemandThroughputSettings:
+        MaxReadRequestUnits: 0
+      ReadProvisionedThroughputSettings:
+        ReadCapacityUnits: 0
+      Replicas:
+        - DeletionProtectionEnabled: false
+          DisassociationProtectionEnabled: false
+          GlobalTableSettingsReplicationMode: ""
+          Region: ""
+          TableClass: ""
+          ContributorInsightsSpecification:
+            Enabled: false
+            Mode: ""
+          GlobalSecondaryIndexes:
+            - IndexName: ""
+              ContributorInsightsSpecification:
+                Enabled: false
+                Mode: ""
+              ReadOnDemandThroughputSettings:
+                MaxReadRequestUnits: 0
+              ReadProvisionedThroughputSettings:
+                ReadCapacityUnits: 0
+                ReadCapacityAutoScalingSettings:
+                  MaxCapacity: 0
+                  MinCapacity: 0
+                  SeedCapacity: 0
+                  TargetTrackingScalingPolicyConfiguration:
+                    DisableScaleIn: false
+                    ScaleInCooldown: 0
+                    ScaleOutCooldown: 0
+                    TargetValue: 0
+          KinesisStreamSpecification:
+            ApproximateCreationDateTimePrecision: ""
+            StreamArn: ""
+          PointInTimeRecoverySpecification:
+            PointInTimeRecoveryEnabled: false
+            RecoveryPeriodInDays: 0
+          ReadOnDemandThroughputSettings:
+            MaxReadRequestUnits: 0
+          ReadProvisionedThroughputSettings:
+            ReadCapacityUnits: 0
+            ReadCapacityAutoScalingSettings:
+              MaxCapacity: 0
+              MinCapacity: 0
+              SeedCapacity: 0
+              TargetTrackingScalingPolicyConfiguration:
+                DisableScaleIn: false
+                ScaleInCooldown: 0
+                ScaleOutCooldown: 0
+                TargetValue: 0
+          ReplicaStreamSpecification:
+            ResourcePolicy:
+              PolicyDocument: {}
+            Tags:
+              - Key: ""
+                Value: ""
+          ResourcePolicy:
+            PolicyDocument: {}
+          SSESpecification:
+            KMSMasterKeyId: ""
+          Tags:
+            - Key: ""
+              Value: ""
+      SSESpecification:
+        SSEEnabled: false
+        SSEType: ""
+      StreamSpecification:
+        StreamViewType: ""
+      TimeToLiveSpecification:
+        AttributeName: ""
+        Enabled: false
+      VectorIndexes:
+        - Dimensions: 0
+          DistanceFunction: ""
+          IndexName: ""
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+          SearchSchema:
+            - AttributeName: ""
+              SearchSchemaElementType: ""
+          VectorAttribute:
+            AttributeName: ""
+      WarmThroughput:
+        ReadUnitsPerSecond: 0
+        WriteUnitsPerSecond: 0
+      WriteOnDemandThroughputSettings:
+        MaxWriteRequestUnits: 0
+      WriteProvisionedThroughputSettings:
+        WriteCapacityAutoScalingSettings:
+          MaxCapacity: 0
+          MinCapacity: 0
+          SeedCapacity: 0
+          TargetTrackingScalingPolicyConfiguration:
+            DisableScaleIn: false
+            ScaleInCooldown: 0
+            ScaleOutCooldown: 0
+            TargetValue: 0

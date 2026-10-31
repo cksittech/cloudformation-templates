@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Trafficmirrortarget:
+    Type: AWS::EC2::TrafficMirrorTarget
+    Properties:
+      Description: ""
+      GatewayLoadBalancerEndpointId: ""
+      NetworkInterfaceId: ""
+      NetworkLoadBalancerArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

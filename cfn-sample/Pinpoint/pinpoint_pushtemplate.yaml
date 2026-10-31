@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointPushtemplate:
+    Type: AWS::Pinpoint::PushTemplate
+    Properties:
+      DefaultSubstitutions: ""
+      TemplateDescription: ""
+      TemplateName: ""
+      ADM:
+        Action: ""
+        Body: ""
+        ImageIconUrl: ""
+        ImageUrl: ""
+        SmallImageIconUrl: ""
+        Sound: ""
+        Title: ""
+        Url: ""
+      APNS:
+        Action: ""
+        Body: ""
+        MediaUrl: ""
+        Sound: ""
+        Title: ""
+        Url: ""
+      Baidu:
+        Action: ""
+        Body: ""
+        ImageIconUrl: ""
+        ImageUrl: ""
+        SmallImageIconUrl: ""
+        Sound: ""
+        Title: ""
+        Url: ""
+      Default:
+        Action: ""
+        Body: ""
+        Sound: ""
+        Title: ""
+        Url: ""
+      GCM:
+        Action: ""
+        Body: ""
+        ImageIconUrl: ""
+        ImageUrl: ""
+        SmallImageIconUrl: ""
+        Sound: ""
+        Title: ""
+        Url: ""
+      Tags: {}

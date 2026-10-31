@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafBytematchset:
+    Type: AWS::WAF::ByteMatchSet
+    Properties:
+      Name: ""
+      ByteMatchTuples:
+        - PositionalConstraint: ""
+          TargetString: ""
+          TargetStringBase64: ""
+          TextTransformation: ""
+          FieldToMatch:
+            Data: ""
+            Type: ""

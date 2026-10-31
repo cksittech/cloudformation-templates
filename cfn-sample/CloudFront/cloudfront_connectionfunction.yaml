@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontConnectionfunction:
+    Type: AWS::CloudFront::ConnectionFunction
+    Properties:
+      AutoPublish: false
+      ConnectionFunctionCode: ""
+      Name: ""
+      ConnectionFunctionConfig:
+        Comment: ""
+        Runtime: ""
+        KeyValueStoreAssociations:
+          - KeyValueStoreARN: ""
+      Tags:
+        - Key: ""
+          Value: ""

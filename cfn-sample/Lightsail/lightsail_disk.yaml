@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailDisk:
+    Type: AWS::Lightsail::Disk
+    Properties:
+      AvailabilityZone: ""
+      DiskName: ""
+      SizeInGb: 0
+      AddOns:
+        - AddOnType: ""
+          Status: ""
+          AutoSnapshotAddOnRequest:
+            SnapshotTimeOfDay: ""
+      Location: {}
+      Tags:
+        - Key: ""
+          Value: ""

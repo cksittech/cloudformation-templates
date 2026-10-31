@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmMaintenancewindow:
+    Type: AWS::SSM::MaintenanceWindow
+    Properties:
+      AllowUnassociatedTargets: false
+      Cutoff: 0
+      Description: ""
+      Duration: 0
+      EndDate: ""
+      Name: ""
+      Schedule: ""
+      ScheduleOffset: 0
+      ScheduleTimezone: ""
+      StartDate: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Accessgrant:
+    Type: AWS::S3::AccessGrant
+    Properties:
+      AccessGrantsLocationId: ""
+      ApplicationArn: ""
+      Permission: ""
+      S3PrefixType: ""
+      AccessGrantsLocationConfiguration:
+        S3SubPrefix: ""
+      Grantee:
+        GranteeIdentifier: ""
+        GranteeType: ""
+      Tags:
+        - Key: ""
+          Value: ""

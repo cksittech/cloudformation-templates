@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleChatbotCustomaction:
+    Type: AWS::Chatbot::CustomAction
+    Properties:
+      ActionName: ""
+      AliasName: ""
+      Attachments:
+        - ButtonText: ""
+          NotificationType: ""
+          Criteria:
+            - Operator: ""
+              Value: ""
+              VariableName: ""
+          Variables: {}
+      Definition:
+        CommandText: ""
+      Tags:
+        - Key: ""
+          Value: ""

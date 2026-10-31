@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsExpressgatewayservice:
+    Type: AWS::ECS::ExpressGatewayService
+    Properties:
+      Cluster: "default"
+      Cpu: "256"
+      ExecutionRoleArn: ""
+      HealthCheckPath: "HTTP:80/ping"
+      InfrastructureRoleArn: ""
+      Memory: "512"
+      ServiceName: ""
+      TaskDefinitionArn: ""
+      TaskRoleArn: ""
+      NetworkConfiguration:
+        SecurityGroups: []
+        Subnets: []
+      PrimaryContainer:
+        Command: []
+        ContainerPort: 80
+        Image: ""
+        AwsLogsConfiguration:
+          LogGroup: ""
+          LogStreamPrefix: "ecs"
+        Environment:
+          - Name: ""
+            Value: ""
+        RepositoryCredentials:
+          CredentialsParameter: ""
+        Secrets:
+          - Name: ""
+            ValueFrom: ""
+      ScalingTarget:
+        AutoScalingMetric: "AVERAGE_CPU"
+        AutoScalingTargetValue: 60
+        MaxTaskCount: 1
+        MinTaskCount: 1
+      Tags:
+        - Key: ""
+          Value: ""

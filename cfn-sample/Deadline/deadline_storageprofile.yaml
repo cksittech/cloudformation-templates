@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineStorageprofile:
+    Type: AWS::Deadline::StorageProfile
+    Properties:
+      DisplayName: ""
+      FarmId: ""
+      OsFamily: ""
+      FileSystemLocations:
+        - Name: ""
+          Path: ""
+          Type: ""

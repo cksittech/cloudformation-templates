@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoInstanceaccesscontrolattributeconfiguration:
+    Type: AWS::SSO::InstanceAccessControlAttributeConfiguration
+    Properties:
+      InstanceArn: ""
+      AccessControlAttributes:
+        - Key: ""
+          Value:
+            Source: []

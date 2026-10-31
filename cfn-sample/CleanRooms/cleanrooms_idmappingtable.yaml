@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsIdmappingtable:
+    Type: AWS::CleanRooms::IdMappingTable
+    Properties:
+      Description: ""
+      KmsKeyArn: ""
+      MembershipIdentifier: ""
+      Name: ""
+      InputReferenceConfig:
+        InputReferenceArn: ""
+        ManageResourcePolicies: false
+      Tags:
+        - Key: ""
+          Value: ""

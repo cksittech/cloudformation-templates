@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectDatatableattribute:
+    Type: AWS::Connect::DataTableAttribute
+    Properties:
+      DataTableArn: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Primary: false
+      ValueType: ""
+      Validation:
+        ExclusiveMaximum: 0
+        ExclusiveMinimum: 0
+        MaxLength: 0
+        MaxValues: 0
+        Maximum: 0
+        MinLength: 0
+        MinValues: 0
+        Minimum: 0
+        MultipleOf: 0
+        Enum:
+          Strict: false
+          Values: []

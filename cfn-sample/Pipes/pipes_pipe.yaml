@@ -1,0 +1,227 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePipesPipe:
+    Type: AWS::Pipes::Pipe
+    Properties:
+      Description: ""
+      DesiredState: ""
+      Enrichment: ""
+      KmsKeyIdentifier: ""
+      Name: ""
+      RoleArn: ""
+      Source: ""
+      Target: ""
+      EnrichmentParameters:
+        InputTemplate: ""
+        HttpParameters:
+          PathParameterValues: []
+          HeaderParameters: {}
+          QueryStringParameters: {}
+      LogConfiguration:
+        IncludeExecutionData: []
+        Level: ""
+        CloudwatchLogsLogDestination:
+          LogGroupArn: ""
+        FirehoseLogDestination:
+          DeliveryStreamArn: ""
+        S3LogDestination:
+          BucketName: ""
+          BucketOwner: ""
+          OutputFormat: ""
+          Prefix: ""
+      SourceParameters:
+        ActiveMQBrokerParameters:
+          BatchSize: 0
+          MaximumBatchingWindowInSeconds: 0
+          QueueName: ""
+          Credentials:
+            BasicAuth: ""
+        DynamoDBStreamParameters:
+          BatchSize: 0
+          MaximumBatchingWindowInSeconds: 0
+          MaximumRecordAgeInSeconds: 0
+          MaximumRetryAttempts: 0
+          OnPartialBatchItemFailure: ""
+          ParallelizationFactor: 0
+          StartingPosition: ""
+          DeadLetterConfig:
+            Arn: ""
+        FilterCriteria:
+          Filters:
+            - Pattern: ""
+        KinesisStreamParameters:
+          BatchSize: 0
+          MaximumBatchingWindowInSeconds: 0
+          MaximumRecordAgeInSeconds: 0
+          MaximumRetryAttempts: 0
+          OnPartialBatchItemFailure: ""
+          ParallelizationFactor: 0
+          StartingPosition: ""
+          StartingPositionTimestamp: ""
+          DeadLetterConfig:
+            Arn: ""
+        ManagedStreamingKafkaParameters:
+          BatchSize: 0
+          ConsumerGroupID: ""
+          MaximumBatchingWindowInSeconds: 0
+          StartingPosition: ""
+          TopicName: ""
+          Credentials:
+            ClientCertificateTlsAuth: ""
+            SaslScram512Auth: ""
+        RabbitMQBrokerParameters:
+          BatchSize: 0
+          MaximumBatchingWindowInSeconds: 0
+          QueueName: ""
+          VirtualHost: ""
+          Credentials:
+            BasicAuth: ""
+        SelfManagedKafkaParameters:
+          AdditionalBootstrapServers: []
+          BatchSize: 0
+          ConsumerGroupID: ""
+          MaximumBatchingWindowInSeconds: 0
+          ServerRootCaCertificate: ""
+          StartingPosition: ""
+          TopicName: ""
+          Credentials:
+            BasicAuth: ""
+            ClientCertificateTlsAuth: ""
+            SaslScram256Auth: ""
+            SaslScram512Auth: ""
+          Vpc:
+            SecurityGroup: []
+            Subnets: []
+        SqsQueueParameters:
+          BatchSize: 0
+          MaximumBatchingWindowInSeconds: 0
+      Tags: {}
+      TargetParameters:
+        InputTemplate: ""
+        BatchJobParameters:
+          JobDefinition: ""
+          JobName: ""
+          ArrayProperties:
+            Size: 0
+          ContainerOverrides:
+            Command: []
+            InstanceType: ""
+            Environment:
+              - Name: ""
+                Value: ""
+            ResourceRequirements:
+              - Type: ""
+                Value: ""
+          DependsOn:
+            - JobId: ""
+              Type: ""
+          Parameters: {}
+          RetryStrategy:
+            Attempts: 0
+        CloudWatchLogsParameters:
+          LogStreamName: ""
+          Timestamp: ""
+        EcsTaskParameters:
+          EnableECSManagedTags: false
+          EnableExecuteCommand: false
+          Group: ""
+          LaunchType: ""
+          PlatformVersion: ""
+          PropagateTags: ""
+          ReferenceId: ""
+          TaskCount: 0
+          TaskDefinitionArn: ""
+          CapacityProviderStrategy:
+            - Base: 0
+              CapacityProvider: ""
+              Weight: 0
+          NetworkConfiguration:
+            AwsvpcConfiguration:
+              AssignPublicIp: ""
+              SecurityGroups: []
+              Subnets: []
+          Overrides:
+            Cpu: ""
+            ExecutionRoleArn: ""
+            Memory: ""
+            TaskRoleArn: ""
+            ContainerOverrides:
+              - Command: []
+                Cpu: 0
+                Memory: 0
+                MemoryReservation: 0
+                Name: ""
+                Environment:
+                  - Name: ""
+                    Value: ""
+                EnvironmentFiles:
+                  - Type: ""
+                    Value: ""
+                ResourceRequirements:
+                  - Type: ""
+                    Value: ""
+            EphemeralStorage:
+              SizeInGiB: 0
+            InferenceAcceleratorOverrides:
+              - DeviceName: ""
+                DeviceType: ""
+          PlacementConstraints:
+            - Expression: ""
+              Type: ""
+          PlacementStrategy:
+            - Field: ""
+              Type: ""
+          Tags:
+            - Key: ""
+              Value: ""
+        EventBridgeEventBusParameters:
+          DetailType: ""
+          EndpointId: ""
+          Resources: []
+          Source: ""
+          Time: ""
+        HttpParameters:
+          PathParameterValues: []
+          HeaderParameters: {}
+          QueryStringParameters: {}
+        KinesisStreamParameters:
+          PartitionKey: ""
+        LambdaFunctionParameters:
+          InvocationType: ""
+        RedshiftDataParameters:
+          Database: ""
+          DbUser: ""
+          SecretManagerArn: ""
+          Sqls: []
+          StatementName: ""
+          WithEvent: false
+        SageMakerPipelineParameters:
+          PipelineParameterList:
+            - Name: ""
+              Value: ""
+        SqsQueueParameters:
+          MessageDeduplicationId: ""
+          MessageGroupId: ""
+        StepFunctionStateMachineParameters:
+          InvocationType: ""
+        TimestreamParameters:
+          EpochTimeUnit: ""
+          TimeFieldType: ""
+          TimeValue: ""
+          TimestampFormat: ""
+          VersionValue: ""
+          DimensionMappings:
+            - DimensionName: ""
+              DimensionValue: ""
+              DimensionValueType: ""
+          MultiMeasureMappings:
+            - MultiMeasureName: ""
+              MultiMeasureAttributeMappings:
+                - MeasureValue: ""
+                  MeasureValueType: ""
+                  MultiMeasureAttributeName: ""
+          SingleMeasureMappings:
+            - MeasureName: ""
+              MeasureValue: ""
+              MeasureValueType: ""

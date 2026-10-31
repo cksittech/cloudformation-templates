@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontRealtimelogconfig:
+    Type: AWS::CloudFront::RealtimeLogConfig
+    Properties:
+      Fields: []
+      Name: ""
+      SamplingRate: 0
+      EndPoints:
+        - StreamType: ""
+          KinesisStreamConfig:
+            RoleArn: ""
+            StreamArn: ""

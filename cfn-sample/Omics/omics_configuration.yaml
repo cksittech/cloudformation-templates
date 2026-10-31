@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOmicsConfiguration:
+    Type: AWS::Omics::Configuration
+    Properties:
+      Description: ""
+      Name: ""
+      RunConfigurations:
+        VpcConfig:
+          SecurityGroupIds: []
+          SubnetIds: []
+          VpcOwnerAccountId: ""
+      Tags: {}

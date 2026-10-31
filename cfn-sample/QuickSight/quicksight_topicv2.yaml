@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightTopicv2:
+    Type: AWS::QuickSight::TopicV2
+    Properties:
+      AwsAccountId: ""
+      Description: ""
+      FolderArns: []
+      Name: ""
+      TopicId: ""
+      CustomInstructions:
+        CustomInstructionsString: ""
+      DataSetRelations:
+        - Left:
+            ColumnNames: []
+            DataSetArn: ""
+          Right:
+            ColumnNames: []
+            DataSetArn: ""
+      DataSets:
+        - DataSetArn: ""
+          DataSetName: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+      Tags:
+        - Key: ""
+          Value: ""

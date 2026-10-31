@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationTag:
+    Type: AWS::LakeFormation::Tag
+    Properties:
+      CatalogId: ""
+      TagKey: ""
+      TagValues: []

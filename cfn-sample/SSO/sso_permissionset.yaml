@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoPermissionset:
+    Type: AWS::SSO::PermissionSet
+    Properties:
+      Description: ""
+      InstanceArn: ""
+      ManagedPolicies: []
+      Name: ""
+      RelayStateType: ""
+      SessionDuration: ""
+      CustomerManagedPolicyReferences:
+        - Name: ""
+          Path: ""
+      InlinePolicy: {}
+      PermissionsBoundary:
+        ManagedPolicyArn: ""
+        CustomerManagedPolicyReference:
+          Name: ""
+          Path: ""
+      Tags:
+        - Key: ""
+          Value: ""

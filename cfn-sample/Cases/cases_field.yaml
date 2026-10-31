@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCasesField:
+    Type: AWS::Cases::Field
+    Properties:
+      Description: ""
+      DomainId: ""
+      Name: ""
+      Type: ""
+      Attributes:
+        Text:
+          IsMultiline: false
+      Tags:
+        - Key: ""
+          Value: ""

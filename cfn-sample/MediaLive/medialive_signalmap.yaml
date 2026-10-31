@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveSignalmap:
+    Type: AWS::MediaLive::SignalMap
+    Properties:
+      CloudWatchAlarmTemplateGroupIdentifiers: []
+      Description: ""
+      DiscoveryEntryPointArn: ""
+      EventBridgeRuleTemplateGroupIdentifiers: []
+      ForceRediscovery: false
+      Name: ""
+      Tags: {}

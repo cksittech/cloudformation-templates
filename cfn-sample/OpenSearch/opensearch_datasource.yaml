@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchDatasource:
+    Type: AWS::OpenSearch::DataSource
+    Properties:
+      Description: ""
+      DomainName: ""
+      Name: ""
+      DataSourceType:
+        S3GlueDataCatalog:
+          RoleArn: ""

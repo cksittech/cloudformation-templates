@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamAccesskey:
+    Type: AWS::IAM::AccessKey
+    Properties:
+      Serial: 0
+      Status: ""
+      UserName: ""

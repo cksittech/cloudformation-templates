@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigStoredquery:
+    Type: AWS::Config::StoredQuery
+    Properties:
+      QueryDescription: ""
+      QueryExpression: ""
+      QueryName: ""
+      Tags:
+        - Key: ""
+          Value: ""

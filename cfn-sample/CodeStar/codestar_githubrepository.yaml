@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodestarGithubrepository:
+    Type: AWS::CodeStar::GitHubRepository
+    Properties:
+      ConnectionArn: ""
+      EnableIssues: false
+      IsPrivate: false
+      RepositoryAccessToken: ""
+      RepositoryDescription: ""
+      RepositoryName: ""
+      RepositoryOwner: ""
+      Code:
+        S3:
+          Bucket: ""
+          Key: ""
+          ObjectVersion: ""

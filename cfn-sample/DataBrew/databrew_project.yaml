@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatabrewProject:
+    Type: AWS::DataBrew::Project
+    Properties:
+      DatasetName: ""
+      Name: ""
+      RecipeName: ""
+      RoleArn: ""
+      Sample:
+        Size: 0
+        Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Routeserverendpoint:
+    Type: AWS::EC2::RouteServerEndpoint
+    Properties:
+      RouteServerId: ""
+      SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

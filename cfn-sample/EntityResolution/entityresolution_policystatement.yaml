@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEntityresolutionPolicystatement:
+    Type: AWS::EntityResolution::PolicyStatement
+    Properties:
+      Action: []
+      Arn: ""
+      Condition: ""
+      Effect: ""
+      Principal: []
+      StatementId: ""

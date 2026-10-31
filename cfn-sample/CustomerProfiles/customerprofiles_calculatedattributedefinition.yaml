@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesCalculatedattributedefinition:
+    Type: AWS::CustomerProfiles::CalculatedAttributeDefinition
+    Properties:
+      CalculatedAttributeName: ""
+      Description: ""
+      DisplayName: ""
+      DomainName: ""
+      Statistic: ""
+      UseHistoricalData: false
+      AttributeDetails:
+        Expression: ""
+        Attributes:
+          - Name: ""
+      Conditions:
+        ObjectCount: 0
+        Range:
+          TimestampFormat: ""
+          TimestampSource: ""
+          Unit: ""
+          Value: 0
+          ValueRange:
+            End: 0
+            Start: 0
+        Threshold:
+          Operator: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

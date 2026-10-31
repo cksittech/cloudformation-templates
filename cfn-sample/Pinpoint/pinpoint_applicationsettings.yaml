@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointApplicationsettings:
+    Type: AWS::Pinpoint::ApplicationSettings
+    Properties:
+      ApplicationId: ""
+      CloudWatchMetricsEnabled: false
+      CampaignHook:
+        LambdaFunctionName: ""
+        Mode: ""
+        WebUrl: ""
+      Limits:
+        Daily: 0
+        MaximumDuration: 0
+        MessagesPerSecond: 0
+        Total: 0
+      QuietTime:
+        End: ""
+        Start: ""

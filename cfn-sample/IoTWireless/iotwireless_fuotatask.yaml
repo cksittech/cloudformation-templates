@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessFuotatask:
+    Type: AWS::IoTWireless::FuotaTask
+    Properties:
+      AssociateMulticastGroup: ""
+      AssociateWirelessDevice: ""
+      Description: ""
+      DisassociateMulticastGroup: ""
+      DisassociateWirelessDevice: ""
+      FirmwareUpdateImage: ""
+      FirmwareUpdateRole: ""
+      Name: ""
+      LoRaWAN:
+        RfRegion: ""
+      Tags:
+        - Key: ""
+          Value: ""

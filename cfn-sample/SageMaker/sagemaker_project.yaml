@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerProject:
+    Type: AWS::SageMaker::Project
+    Properties:
+      ProjectDescription: ""
+      ProjectName: ""
+      ServiceCatalogProvisionedProductDetails:
+        ProvisionedProductId: ""
+        ProvisionedProductStatusMessage: ""
+      ServiceCatalogProvisioningDetails:
+        PathId: ""
+        ProductId: ""
+        ProvisioningArtifactId: ""
+        ProvisioningParameters:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TemplateProviderDetails:
+        - CfnTemplateProviderDetail:
+            RoleARN: ""
+            TemplateName: ""
+            TemplateURL: ""
+            Parameters:
+              - Key: ""
+                Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftstreamsApplication:
+    Type: AWS::GameLiftStreams::Application
+    Properties:
+      ApplicationLogOutputUri: ""
+      ApplicationLogPaths: []
+      ApplicationSourceUri: ""
+      Description: ""
+      ExecutablePath: ""
+      RuntimeEnvironment:
+        Type: ""
+        Version: ""
+      Tags: {}

@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApsAnomalydetector:
+    Type: AWS::APS::AnomalyDetector
+    Properties:
+      Alias: ""
+      EvaluationIntervalInSeconds: 60
+      Workspace: ""
+      Configuration:
+        RandomCutForest:
+          Query: ""
+          SampleSize: 256
+          ShingleSize: 8
+          IgnoreNearExpectedFromAbove:
+            Amount: 0
+            Ratio: 0
+          IgnoreNearExpectedFromBelow:
+            Amount: 0
+            Ratio: 0
+      Labels:
+        - Key: ""
+          Value: ""
+      MissingDataAction:
+        MarkAsAnomaly: false
+        Skip: false
+      Tags:
+        - Key: ""
+          Value: ""

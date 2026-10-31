@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationResource:
+    Type: AWS::LakeFormation::Resource
+    Properties:
+      HybridAccessEnabled: false
+      ResourceArn: ""
+      RoleArn: ""
+      UseServiceLinkedRole: false
+      WithFederation: false

@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerWorkforce:
+    Type: AWS::SageMaker::Workforce
+    Properties:
+      IpAddressType: ""
+      WorkforceName: ""
+      CognitoConfig:
+        ClientId: ""
+        UserPool: ""
+      OidcConfig:
+        AuthorizationEndpoint: ""
+        ClientId: ""
+        ClientSecret: ""
+        Issuer: ""
+        JwksUri: ""
+        LogoutEndpoint: ""
+        Scope: ""
+        TokenEndpoint: ""
+        UserInfoEndpoint: ""
+        AuthenticationRequestExtraParams: {}
+      SourceIpConfig:
+        Cidrs: []
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkforceVpcConfig:
+        SecurityGroupIds: []
+        Subnets: []
+        VpcId: ""

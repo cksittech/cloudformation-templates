@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderImagerecipe:
+    Type: AWS::ImageBuilder::ImageRecipe
+    Properties:
+      AmiWatermarks: []
+      Description: ""
+      Name: ""
+      ParentImage: ""
+      Version: ""
+      WorkingDirectory: ""
+      AdditionalInstanceConfiguration:
+        UserDataOverride: ""
+        SystemsManagerAgent:
+          UninstallAfterBuild: false
+      AmiTags: {}
+      BlockDeviceMappings:
+        - DeviceName: ""
+          NoDevice: ""
+          VirtualName: ""
+          Ebs:
+            DeleteOnTermination: false
+            Encrypted: false
+            Iops: 0
+            KmsKeyId: ""
+            SnapshotId: ""
+            Throughput: 0
+            VolumeSize: 0
+            VolumeType: ""
+      Components:
+        - ComponentArn: ""
+          Parameters:
+            - Name: ""
+              Value: []
+      Tags: {}

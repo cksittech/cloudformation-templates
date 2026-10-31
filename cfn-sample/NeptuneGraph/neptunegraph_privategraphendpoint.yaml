@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptunegraphPrivategraphendpoint:
+    Type: AWS::NeptuneGraph::PrivateGraphEndpoint
+    Properties:
+      GraphIdentifier: ""
+      SecurityGroupIds: []
+      SubnetIds: []
+      VpcId: ""

@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrcontainersJobtemplate:
+    Type: AWS::EMRContainers::JobTemplate
+    Properties:
+      Name: ""
+      JobTemplateData:
+        ExecutionRoleArn: ""
+        ReleaseLabel: ""
+        ConfigurationOverrides:
+          ApplicationConfiguration:
+            - Classification: ""
+              Configurations: []
+              Properties: {}
+          MonitoringConfiguration:
+            PersistentAppUI: ""
+            CloudWatchMonitoringConfiguration:
+              LogGroupName: ""
+              LogStreamNamePrefix: ""
+            S3MonitoringConfiguration:
+              LogUri: ""
+        JobDriver:
+          SparkSqlJobDriver:
+            EntryPoint: ""
+            SparkSqlParameters: ""
+          SparkSubmitJobDriver:
+            EntryPoint: ""
+            EntryPointArguments: []
+            SparkSubmitParameters: ""
+        JobTags: {}
+        ParameterConfiguration: {}
+      Tags:
+        - Key: ""
+          Value: ""

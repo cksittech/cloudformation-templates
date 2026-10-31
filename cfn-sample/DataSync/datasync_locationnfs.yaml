@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationnfs:
+    Type: AWS::DataSync::LocationNFS
+    Properties:
+      ServerHostname: ""
+      Subdirectory: ""
+      MountOptions:
+        Version: ""
+      OnPremConfig:
+        AgentArns: []
+      Tags:
+        - Key: ""
+          Value: ""

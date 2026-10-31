@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Trafficmirrorfilterrule:
+    Type: AWS::EC2::TrafficMirrorFilterRule
+    Properties:
+      Description: ""
+      DestinationCidrBlock: ""
+      Protocol: 0
+      RuleAction: ""
+      RuleNumber: 0
+      SourceCidrBlock: ""
+      TrafficDirection: ""
+      TrafficMirrorFilterId: ""
+      DestinationPortRange:
+        FromPort: 0
+        ToPort: 0
+      SourcePortRange:
+        FromPort: 0
+        ToPort: 0
+      Tags:
+        - Key: ""
+          Value: ""

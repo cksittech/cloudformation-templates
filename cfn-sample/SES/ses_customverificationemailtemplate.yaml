@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesCustomverificationemailtemplate:
+    Type: AWS::SES::CustomVerificationEmailTemplate
+    Properties:
+      FailureRedirectionURL: ""
+      FromEmailAddress: ""
+      SuccessRedirectionURL: ""
+      TemplateContent: ""
+      TemplateName: ""
+      TemplateSubject: ""
+      Tags:
+        - Key: ""
+          Value: ""

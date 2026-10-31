@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodepipelineWebhook:
+    Type: AWS::CodePipeline::Webhook
+    Properties:
+      Authentication: ""
+      Name: ""
+      RegisterWithThirdParty: false
+      TargetAction: ""
+      TargetPipeline: ""
+      TargetPipelineVersion: 0
+      AuthenticationConfiguration:
+        AllowedIPRange: ""
+        SecretToken: ""
+      Filters:
+        - JsonPath: ""
+          MatchEquals: ""
+      Tags:
+        - Key: ""
+          Value: ""

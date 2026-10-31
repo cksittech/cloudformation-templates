@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontDistributiontenant:
+    Type: AWS::CloudFront::DistributionTenant
+    Properties:
+      ConnectionGroupId: ""
+      DistributionId: ""
+      Domains: []
+      Enabled: false
+      Name: ""
+      Customizations:
+        Certificate:
+          Arn: ""
+        GeoRestrictions:
+          Locations: []
+          RestrictionType: ""
+        WebAcl:
+          Action: ""
+          Arn: ""
+      ManagedCertificateRequest:
+        CertificateTransparencyLoggingPreference: ""
+        PrimaryDomainName: ""
+        ValidationTokenHost: ""
+      Parameters:
+        - Name: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

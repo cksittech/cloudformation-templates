@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveCluster:
+    Type: AWS::MediaLive::Cluster
+    Properties:
+      ClusterType: ""
+      InstanceRoleArn: ""
+      Name: ""
+      NetworkSettings:
+        DefaultRoute: ""
+        InterfaceMappings:
+          - LogicalInterfaceName: ""
+            NetworkId: ""
+      Tags:
+        - Key: ""
+          Value: ""

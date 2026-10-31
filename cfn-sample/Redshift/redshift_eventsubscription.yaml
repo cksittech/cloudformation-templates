@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftEventsubscription:
+    Type: AWS::Redshift::EventSubscription
+    Properties:
+      Enabled: false
+      EventCategories: []
+      Severity: ""
+      SnsTopicArn: ""
+      SourceIds: []
+      SourceType: ""
+      SubscriptionName: ""
+      Tags:
+        - Key: ""
+          Value: ""

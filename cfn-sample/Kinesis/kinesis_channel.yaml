@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisChannel:
+    Type: AWS::Kinesis::Channel
+    Properties:
+      ChannelName: ""
+      ServiceExecutionRoleARN: ""
+      EncryptionConfiguration:
+        EncryptionType: ""
+        KeyId: ""
+      LoggingConfiguration:
+        CloudWatchLogs:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: "DestinationDelivery"
+      S3DestinationConfiguration:
+        DataFreshnessInSeconds: 300
+        DeadLetterQueueS3Configuration:
+          BucketARN: ""
+          ErrorOutputPrefix: ""
+          ExpectedBucketOwner: ""
+        StorageConfiguration:
+          BucketARN: ""
+          CompressionType: ""
+          ExpectedBucketOwner: ""
+          OutputKeyTemplate: ""
+          StorageClass: "STANDARD"
+      S3TablesDestinationConfiguration:
+        DataFreshnessInSeconds: 300
+        DeadLetterQueueS3Configuration:
+          BucketARN: ""
+          ErrorOutputPrefix: ""
+          ExpectedBucketOwner: ""
+        S3TablesConfigurationList:
+          - CompressionType: ""
+            Namespace: ""
+            TableBucketARN: ""
+            TableName: ""
+            PartitionSpec:
+              PartitionFields:
+                - SourceName: ""
+                  Transform: ""
+      StreamConfigurationList:
+        - StreamARN: ""
+          RecordConfiguration:
+            GSRSchemaARN: ""
+            RecordFormatType: ""
+      Tags:
+        - Key: ""
+          Value: ""

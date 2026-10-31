@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftGameservergroup:
+    Type: AWS::GameLift::GameServerGroup
+    Properties:
+      BalancingStrategy: ""
+      DeleteOption: ""
+      GameServerGroupName: ""
+      GameServerProtectionPolicy: ""
+      MaxSize: 0
+      MinSize: 0
+      RoleArn: ""
+      VpcSubnets: []
+      AutoScalingPolicy:
+        EstimatedInstanceWarmup: 0
+        TargetTrackingConfiguration:
+          TargetValue: 0
+      InstanceDefinitions:
+        - InstanceType: ""
+          WeightedCapacity: ""
+      LaunchTemplate:
+        LaunchTemplateId: ""
+        LaunchTemplateName: ""
+        Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

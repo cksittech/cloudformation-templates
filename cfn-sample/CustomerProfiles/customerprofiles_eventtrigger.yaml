@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesEventtrigger:
+    Type: AWS::CustomerProfiles::EventTrigger
+    Properties:
+      Description: ""
+      DomainName: ""
+      EventTriggerName: ""
+      ObjectTypeName: ""
+      SegmentFilter: ""
+      EventTriggerConditions:
+        - LogicalOperator: ""
+          EventTriggerDimensions:
+            - ObjectAttributes:
+                - ComparisonOperator: ""
+                  FieldName: ""
+                  Source: ""
+                  Values: []
+      EventTriggerLimits:
+        EventExpiration: 0
+        Periods:
+          - MaxInvocationsPerProfile: 0
+            Unit: ""
+            Unlimited: false
+            Value: 0
+      IntentFilterDefinition:
+        LogicalOperator: ""
+        Groups:
+          - LogicalOperator: ""
+            Conditions:
+              - ComparisonOperator: ""
+                Values: []
+                Intent:
+                  IntentDomain: ""
+                  Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailKeypair:
+    Type: AWS::Lightsail::KeyPair
+    Properties:
+      KeyPairName: ""
+      Tags:
+        - Key: ""
+          Value: ""

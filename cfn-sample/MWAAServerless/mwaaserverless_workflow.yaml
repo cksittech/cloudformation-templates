@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMwaaserverlessWorkflow:
+    Type: AWS::MWAAServerless::Workflow
+    Properties:
+      Description: ""
+      Name: ""
+      RoleArn: ""
+      TriggerMode: ""
+      Code:
+        S3Location:
+          Bucket: ""
+          ObjectKey: ""
+          VersionId: ""
+      DefinitionS3Location:
+        Bucket: ""
+        ObjectKey: ""
+        VersionId: ""
+      EncryptionConfiguration:
+        KmsKeyId: ""
+        Type: ""
+      LoggingConfiguration:
+        LogGroupName: ""
+      NetworkConfiguration:
+        SecurityGroupIds: []
+        SubnetIds: []
+      Tags: {}

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigConfigurationrecorder:
+    Type: AWS::Config::ConfigurationRecorder
+    Properties:
+      Name: ""
+      RoleARN: ""
+      StartedOnCreate: true
+      RecordingGroup:
+        AllSupported: false
+        IncludeGlobalResourceTypes: false
+        ResourceTypes: []
+        ExclusionByResourceTypes:
+          ResourceTypes: []
+        RecordingStrategy:
+          UseOnly: ""
+      RecordingMode:
+        RecordingFrequency: ""
+        RecordingModeOverrides:
+          - Description: ""
+            RecordingFrequency: ""
+            ResourceTypes: []

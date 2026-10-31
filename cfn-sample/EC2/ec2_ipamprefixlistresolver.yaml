@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipamprefixlistresolver:
+    Type: AWS::EC2::IPAMPrefixListResolver
+    Properties:
+      AddressFamily: ""
+      Description: ""
+      IpamId: ""
+      Rules:
+        - IpamScopeId: ""
+          ResourceType: ""
+          RuleType: ""
+          StaticCidr: ""
+          Conditions:
+            - Cidr: ""
+              IpamPoolId: ""
+              Operation: ""
+              ResourceId: ""
+              ResourceOwner: ""
+              ResourceRegion: ""
+              ResourceTag:
+                Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueIdentitycenterconfiguration:
+    Type: AWS::Glue::IdentityCenterConfiguration
+    Properties:
+      InstanceArn: ""
+      Scopes: []
+      UserBackgroundSessionsEnabled: false

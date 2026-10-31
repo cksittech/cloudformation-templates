@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlobalacceleratorEndpointgroup:
+    Type: AWS::GlobalAccelerator::EndpointGroup
+    Properties:
+      EndpointGroupRegion: ""
+      HealthCheckIntervalSeconds: 30
+      HealthCheckPath: "/"
+      HealthCheckPort: -1
+      HealthCheckProtocol: "TCP"
+      ListenerArn: ""
+      ThresholdCount: 3
+      TrafficDialPercentage: 100
+      EndpointConfigurations:
+        - AttachmentArn: ""
+          ClientIPPreservationEnabled: true
+          EndpointId: ""
+          Weight: 100
+      PortOverrides:
+        - EndpointPort: 0
+          ListenerPort: 0

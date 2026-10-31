@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorChannelpolicy:
+    Type: AWS::MediaTailor::ChannelPolicy
+    Properties:
+      ChannelName: ""
+      Policy: {}

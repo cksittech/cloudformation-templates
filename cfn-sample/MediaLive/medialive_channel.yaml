@@ -1,0 +1,1212 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveChannel:
+    Type: AWS::MediaLive::Channel
+    Properties:
+      ChannelClass: ""
+      ChannelSecurityGroups: []
+      DryRun: false
+      LogLevel: ""
+      Name: ""
+      RoleArn: ""
+      AnywhereSettings:
+        ChannelPlacementGroupId: ""
+        ClusterId: ""
+      CdiInputSpecification:
+        Resolution: ""
+      ChannelEngineVersion:
+        Version: ""
+      Destinations:
+        - Id: ""
+          LogicalInterfaceNames: []
+          MediaConnectRouterSettings:
+            - EncryptionType: ""
+              SecretArn: ""
+          MediaPackageSettings:
+            - ChannelEndpointId: ""
+              ChannelGroup: ""
+              ChannelId: ""
+              ChannelName: ""
+              MediaPackageRegionName: ""
+          MultiplexSettings:
+            MultiplexId: ""
+            ProgramName: ""
+          Settings:
+            - PasswordParam: ""
+              StreamName: ""
+              Url: ""
+              Username: ""
+              VirtualSourceAddress: ""
+          SrtSettings:
+            - ConnectionMode: ""
+              EncryptionPassphraseSecretArn: ""
+              ListenerPort: 0
+              StreamId: ""
+              Url: ""
+      EncoderSettings:
+        AudioDescriptions:
+          - AudioDashRoles: []
+            AudioSelectorName: ""
+            AudioType: ""
+            AudioTypeControl: ""
+            DvbDashAccessibility: ""
+            LanguageCode: ""
+            LanguageCodeControl: ""
+            Name: ""
+            StreamName: ""
+            AudioNormalizationSettings:
+              Algorithm: ""
+              AlgorithmControl: ""
+              PeakCalculation: ""
+              PeakLimiterThreshold: 0
+              TargetLkfs: 0
+            AudioWatermarkingSettings:
+              NielsenWatermarksSettings:
+                NielsenDistributionType: ""
+                NielsenCbetSettings:
+                  CbetCheckDigitString: ""
+                  CbetStepaside: ""
+                  Csid: ""
+                NielsenNaesIiNwSettings:
+                  CheckDigitString: ""
+                  Sid: 0
+                  Timezone: ""
+                NielsenNwOnlySettings:
+                  CheckDigitString: ""
+                  Sid: 0
+                  Timezone: ""
+            CodecSettings:
+              AacSettings:
+                Bitrate: 0
+                CodingMode: ""
+                InputType: ""
+                Profile: ""
+                RateControlMode: ""
+                RawFormat: ""
+                SampleRate: 0
+                Spec: ""
+                VbrQuality: ""
+              Ac3Settings:
+                AttenuationControl: ""
+                Bitrate: 0
+                BitstreamMode: ""
+                CodingMode: ""
+                Dialnorm: 0
+                DrcProfile: ""
+                LfeFilter: ""
+                MetadataControl: ""
+              Eac3AtmosSettings:
+                Bitrate: 0
+                CodingMode: ""
+                Dialnorm: 0
+                DrcLine: ""
+                DrcRf: ""
+                HeightTrim: 0
+                SurroundTrim: 0
+              Eac3Settings:
+                AttenuationControl: ""
+                Bitrate: 0
+                BitstreamMode: ""
+                CodingMode: ""
+                DcFilter: ""
+                Dialnorm: 0
+                DrcLine: ""
+                DrcRf: ""
+                LfeControl: ""
+                LfeFilter: ""
+                LoRoCenterMixLevel: 0
+                LoRoSurroundMixLevel: 0
+                LtRtCenterMixLevel: 0
+                LtRtSurroundMixLevel: 0
+                MetadataControl: ""
+                PassthroughControl: ""
+                PhaseControl: ""
+                StereoDownmix: ""
+                SurroundExMode: ""
+                SurroundMode: ""
+              Mp2Settings:
+                Bitrate: 0
+                CodingMode: ""
+                SampleRate: 0
+              PassThroughSettings: {}
+              WavSettings:
+                BitDepth: 0
+                CodingMode: ""
+                SampleRate: 0
+            RemixSettings:
+              ChannelsIn: 0
+              ChannelsOut: 0
+              ChannelMappings:
+                - OutputChannel: 0
+                  InputChannelLevels:
+                    - Gain: 0
+                      InputChannel: 0
+        AvailBlanking:
+          State: ""
+          AvailBlankingImage:
+            PasswordParam: ""
+            Uri: ""
+            Username: ""
+        AvailConfiguration:
+          Scte35SegmentationScope: ""
+          AvailSettings:
+            Esam:
+              AcquisitionPointId: ""
+              AdAvailOffset: 0
+              PasswordParam: ""
+              PoisEndpoint: ""
+              Username: ""
+              ZoneIdentity: ""
+            Scte35SpliceInsert:
+              AdAvailOffset: 0
+              NoRegionalBlackoutFlag: ""
+              WebDeliveryAllowedFlag: ""
+            Scte35TimeSignalApos:
+              AdAvailOffset: 0
+              NoRegionalBlackoutFlag: ""
+              WebDeliveryAllowedFlag: ""
+        BlackoutSlate:
+          NetworkEndBlackout: ""
+          NetworkId: ""
+          State: ""
+          BlackoutSlateImage:
+            PasswordParam: ""
+            Uri: ""
+            Username: ""
+          NetworkEndBlackoutImage:
+            PasswordParam: ""
+            Uri: ""
+            Username: ""
+        CaptionDescriptions:
+          - Accessibility: ""
+            CaptionDashRoles: []
+            CaptionSelectorName: ""
+            DvbDashAccessibility: ""
+            LanguageCode: ""
+            LanguageDescription: ""
+            Name: ""
+            DestinationSettings:
+              AribDestinationSettings: {}
+              BurnInDestinationSettings:
+                Alignment: ""
+                BackgroundColor: ""
+                BackgroundOpacity: 0
+                FontColor: ""
+                FontOpacity: 0
+                FontResolution: 0
+                FontSize: ""
+                OutlineColor: ""
+                OutlineSize: 0
+                ShadowColor: ""
+                ShadowOpacity: 0
+                ShadowXOffset: 0
+                ShadowYOffset: 0
+                SubtitleRows: ""
+                TeletextGridControl: ""
+                XPosition: 0
+                YPosition: 0
+                Font:
+                  PasswordParam: ""
+                  Uri: ""
+                  Username: ""
+              DvbSubDestinationSettings:
+                Alignment: ""
+                BackgroundColor: ""
+                BackgroundOpacity: 0
+                FontColor: ""
+                FontOpacity: 0
+                FontResolution: 0
+                FontSize: ""
+                OutlineColor: ""
+                OutlineSize: 0
+                ShadowColor: ""
+                ShadowOpacity: 0
+                ShadowXOffset: 0
+                ShadowYOffset: 0
+                SubtitleRows: ""
+                TeletextGridControl: ""
+                XPosition: 0
+                YPosition: 0
+                Font:
+                  PasswordParam: ""
+                  Uri: ""
+                  Username: ""
+              EbuTtDDestinationSettings:
+                CopyrightHolder: ""
+                DefaultFontSize: 0
+                DefaultLineHeight: 0
+                FillLineGap: ""
+                FontFamily: ""
+                StyleControl: ""
+              EmbeddedDestinationSettings:
+                StyleControl: ""
+                Position:
+                  YPositionLine: 0
+              EmbeddedPlusScte20DestinationSettings: {}
+              RtmpCaptionInfoDestinationSettings: {}
+              Scte20PlusEmbeddedDestinationSettings: {}
+              Scte27DestinationSettings: {}
+              SmpteTtDestinationSettings: {}
+              TeletextDestinationSettings: {}
+              TtmlDestinationSettings:
+                StyleControl: ""
+                Position:
+                  YPositionPercentage: 0
+              WebvttDestinationSettings:
+                StyleControl: ""
+                Position:
+                  YPositionPercentage: 0
+        ColorCorrectionSettings:
+          GlobalColorCorrections:
+            - InputColorSpace: ""
+              OutputColorSpace: ""
+              Uri: ""
+        FeatureActivations:
+          InputPrepareScheduleActions: ""
+          OutputStaticImageOverlayScheduleActions: ""
+        GlobalConfiguration:
+          InitialAudioGain: 0
+          InputEndAction: ""
+          OutputLockingMode: ""
+          OutputTimingSource: ""
+          SupportLowFramerateInputs: ""
+          InputLossBehavior:
+            BlackFrameMsec: 0
+            InputLossImageColor: ""
+            InputLossImageType: ""
+            RepeatFrameMsec: 0
+            InputLossImageSlate:
+              PasswordParam: ""
+              Uri: ""
+              Username: ""
+          OutputLockingSettings:
+            DisabledLockingSettings:
+              CustomEpoch: ""
+            EpochLockingSettings:
+              CustomEpoch: ""
+              JamSyncTime: ""
+            PipelineLockingSettings:
+              CustomEpoch: ""
+              PipelineLockingMethod: ""
+        MotionGraphicsConfiguration:
+          MotionGraphicsInsertion: ""
+          MotionGraphicsSettings:
+            HtmlMotionGraphicsSettings: {}
+        NielsenConfiguration:
+          DistributorId: ""
+          NielsenPcmToId3Tagging: ""
+        OutputGroups:
+          - Name: ""
+            OutputGroupSettings:
+              ArchiveGroupSettings:
+                RolloverInterval: 0
+                ArchiveCdnSettings:
+                  ArchiveS3Settings:
+                    CannedAcl: ""
+                Destination:
+                  DestinationRefId: ""
+              CmafIngestGroupSettings:
+                Id3Behavior: ""
+                Id3NameModifier: ""
+                KlvBehavior: ""
+                KlvNameModifier: ""
+                NielsenId3Behavior: ""
+                NielsenId3NameModifier: ""
+                Scte35NameModifier: ""
+                Scte35Type: ""
+                SegmentLength: 0
+                SegmentLengthUnits: ""
+                SendDelayMs: 0
+                TimedMetadataId3Frame: ""
+                TimedMetadataId3Period: 0
+                TimedMetadataPassthrough: ""
+                AdditionalDestinations:
+                  - Destination:
+                      DestinationRefId: ""
+                CaptionLanguageMappings:
+                  - CaptionChannel: 0
+                    LanguageCode: ""
+                Destination:
+                  DestinationRefId: ""
+                WatermarkingSettings:
+                  CmafIngestAbWatermarkerIrdetoSettings:
+                    License: ""
+                    OperatorId: 0
+                    PolyPeriod: 0
+                    Profile: ""
+                    WatermarkIdLength: ""
+                    AdditionalDestinationsAlternateDestinations:
+                      - DestinationRefId: ""
+                    AlternateDestination:
+                      DestinationRefId: ""
+                    CustomProfile:
+                      EmbeddingFrequency: 0
+                      SceneCut: 0
+                      TargetPsnr: 0
+              FrameCaptureGroupSettings:
+                Destination:
+                  DestinationRefId: ""
+                FrameCaptureCdnSettings:
+                  FrameCaptureS3Settings:
+                    CannedAcl: ""
+              HlsGroupSettings:
+                AdMarkers: []
+                BaseUrlContent: ""
+                BaseUrlContent1: ""
+                BaseUrlManifest: ""
+                BaseUrlManifest1: ""
+                CaptionLanguageSetting: ""
+                ClientCache: ""
+                CodecSpecification: ""
+                ConstantIv: ""
+                DirectoryStructure: ""
+                DiscontinuityTags: ""
+                EncryptionType: ""
+                HlsId3SegmentTagging: ""
+                IFrameOnlyPlaylists: ""
+                IncompleteSegmentBehavior: ""
+                IndexNSegments: 0
+                InputLossAction: ""
+                IvInManifest: ""
+                IvSource: ""
+                KeepSegments: 0
+                KeyFormat: ""
+                KeyFormatVersions: ""
+                ManifestCompression: ""
+                ManifestDurationFormat: ""
+                MinSegmentLength: 0
+                Mode: ""
+                OutputSelection: ""
+                ProgramDateTime: ""
+                ProgramDateTimeClock: ""
+                ProgramDateTimePeriod: 0
+                RedundantManifest: ""
+                SegmentLength: 0
+                SegmentationMode: ""
+                SegmentsPerSubdirectory: 0
+                StreamInfResolution: ""
+                TimedMetadataId3Frame: ""
+                TimedMetadataId3Period: 0
+                TimestampDeltaMilliseconds: 0
+                TsFileMode: ""
+                CaptionLanguageMappings:
+                  - CaptionChannel: 0
+                    LanguageCode: ""
+                    LanguageDescription: ""
+                Destination:
+                  DestinationRefId: ""
+                HlsCdnSettings:
+                  HlsAkamaiSettings:
+                    ConnectionRetryInterval: 0
+                    FilecacheDuration: 0
+                    HttpTransferMode: ""
+                    NumRetries: 0
+                    RestartDelay: 0
+                    Salt: ""
+                    Token: ""
+                  HlsBasicPutSettings:
+                    ConnectionRetryInterval: 0
+                    FilecacheDuration: 0
+                    NumRetries: 0
+                    RestartDelay: 0
+                  HlsMediaStoreSettings:
+                    ConnectionRetryInterval: 0
+                    FilecacheDuration: 0
+                    MediaStoreStorageClass: ""
+                    NumRetries: 0
+                    RestartDelay: 0
+                  HlsS3Settings:
+                    CannedAcl: ""
+                  HlsWebdavSettings:
+                    ConnectionRetryInterval: 0
+                    FilecacheDuration: 0
+                    HttpTransferMode: ""
+                    NumRetries: 0
+                    RestartDelay: 0
+                KeyProviderSettings:
+                  StaticKeySettings:
+                    StaticKeyValue: ""
+                    KeyProviderServer:
+                      PasswordParam: ""
+                      Uri: ""
+                      Username: ""
+              MediaConnectRouterGroupSettings:
+                AvailabilityZones: []
+              MediaPackageGroupSettings:
+                Destination:
+                  DestinationRefId: ""
+                MediapackageV2GroupSettings:
+                  Id3Behavior: ""
+                  KlvBehavior: ""
+                  NielsenId3Behavior: ""
+                  Scte35Type: ""
+                  SegmentLength: 0
+                  SegmentLengthUnits: ""
+                  TimedMetadataId3Frame: ""
+                  TimedMetadataId3Period: 0
+                  TimedMetadataPassthrough: ""
+                  AdditionalDestinations:
+                    - Destination:
+                        DestinationRefId: ""
+                  CaptionLanguageMappings:
+                    - CaptionChannel: 0
+                      LanguageCode: ""
+                      LanguageDescription: ""
+                  WatermarkingSettings:
+                    MediaPackageV2AbWatermarkerIrdetoSettings:
+                      License: ""
+                      OperatorId: 0
+                      PolyPeriod: 0
+                      Profile: ""
+                      WatermarkIdLength: ""
+                      AdditionalDestinationsAlternateDestinations:
+                        - DestinationRefId: ""
+                      AlternateDestination:
+                        DestinationRefId: ""
+                      CustomProfile:
+                        EmbeddingFrequency: 0
+                        SceneCut: 0
+                        TargetPsnr: 0
+              MsSmoothGroupSettings:
+                AcquisitionPointId: ""
+                AudioOnlyTimecodeControl: ""
+                CertificateMode: ""
+                ConnectionRetryInterval: 0
+                EventId: ""
+                EventIdMode: ""
+                EventStopBehavior: ""
+                FilecacheDuration: 0
+                FragmentLength: 0
+                InputLossAction: ""
+                NumRetries: 0
+                RestartDelay: 0
+                SegmentationMode: ""
+                SendDelayMs: 0
+                SparseTrackType: ""
+                StreamManifestBehavior: ""
+                TimestampOffset: ""
+                TimestampOffsetMode: ""
+                Destination:
+                  DestinationRefId: ""
+              MultiplexGroupSettings: {}
+              RtmpGroupSettings:
+                AdMarkers: []
+                AuthenticationScheme: ""
+                CacheFullBehavior: ""
+                CacheLength: 0
+                CaptionData: ""
+                IncludeFillerNalUnits: ""
+                InputLossAction: ""
+                RestartDelay: 0
+              SrtGroupSettings:
+                InputLossAction: ""
+              UdpGroupSettings:
+                InputLossAction: ""
+                TimedMetadataId3Frame: ""
+                TimedMetadataId3Period: 0
+            Outputs:
+              - AudioDescriptionNames: []
+                CaptionDescriptionNames: []
+                OutputName: ""
+                VideoDescriptionName: ""
+                OutputSettings:
+                  ArchiveOutputSettings:
+                    Extension: ""
+                    NameModifier: ""
+                    ContainerSettings:
+                      M2tsSettings:
+                        AbsentInputAudioBehavior: ""
+                        Arib: ""
+                        AribCaptionsPid: ""
+                        AribCaptionsPidControl: ""
+                        AudioBufferModel: ""
+                        AudioFramesPerPes: 0
+                        AudioPids: ""
+                        AudioStreamType: ""
+                        Bitrate: 0
+                        BufferModel: ""
+                        CcDescriptor: ""
+                        DvbSubPids: ""
+                        DvbTeletextPid: ""
+                        Ebif: ""
+                        EbpAudioInterval: ""
+                        EbpLookaheadMs: 0
+                        EbpPlacement: ""
+                        EcmPid: ""
+                        EsRateInPes: ""
+                        EtvPlatformPid: ""
+                        EtvSignalPid: ""
+                        FragmentTime: 0
+                        Klv: ""
+                        KlvDataPids: ""
+                        NielsenId3Behavior: ""
+                        NullPacketBitrate: 0
+                        PatInterval: 0
+                        PcrControl: ""
+                        PcrPeriod: 0
+                        PcrPid: ""
+                        PmtInterval: 0
+                        PmtPid: ""
+                        ProgramNum: 0
+                        RateMode: ""
+                        Scte27Pids: ""
+                        Scte35Control: ""
+                        Scte35Pid: ""
+                        Scte35PrerollPullupMilliseconds: 0
+                        SegmentationMarkers: ""
+                        SegmentationStyle: ""
+                        SegmentationTime: 0
+                        TimedMetadataBehavior: ""
+                        TimedMetadataPid: ""
+                        TransportStreamId: 0
+                        VideoPid: ""
+                        DvbNitSettings:
+                          NetworkId: 0
+                          NetworkName: ""
+                          RepInterval: 0
+                        DvbSdtSettings:
+                          OutputSdt: ""
+                          RepInterval: 0
+                          ServiceName: ""
+                          ServiceProviderName: ""
+                        DvbTdtSettings:
+                          RepInterval: 0
+                      RawSettings: {}
+                  CmafIngestOutputSettings:
+                    NameModifier: ""
+                  FrameCaptureOutputSettings:
+                    NameModifier: ""
+                  HlsOutputSettings:
+                    H265PackagingType: ""
+                    NameModifier: ""
+                    SegmentModifier: ""
+                    HlsSettings:
+                      AudioOnlyHlsSettings:
+                        AudioGroupId: ""
+                        AudioTrackType: ""
+                        SegmentType: ""
+                        AudioOnlyImage:
+                          PasswordParam: ""
+                          Uri: ""
+                          Username: ""
+                      Fmp4HlsSettings:
+                        AudioRenditionSets: ""
+                        NielsenId3Behavior: ""
+                        TimedMetadataBehavior: ""
+                      FrameCaptureHlsSettings: {}
+                      StandardHlsSettings:
+                        AudioRenditionSets: ""
+                        M3u8Settings:
+                          AudioFramesPerPes: 0
+                          AudioPids: ""
+                          EcmPid: ""
+                          KlvBehavior: ""
+                          KlvDataPids: ""
+                          NielsenId3Behavior: ""
+                          PatInterval: 0
+                          PcrControl: ""
+                          PcrPeriod: 0
+                          PcrPid: ""
+                          PmtInterval: 0
+                          PmtPid: ""
+                          ProgramNum: 0
+                          Scte35Behavior: ""
+                          Scte35Pid: ""
+                          TimedMetadataBehavior: ""
+                          TimedMetadataPid: ""
+                          TransportStreamId: 0
+                          VideoPid: ""
+                  MediaConnectRouterOutputSettings:
+                    ConnectedRouterInputs:
+                      Pipeline0: ""
+                      Pipeline1: ""
+                    ContainerSettings:
+                      M2tsSettings:
+                        AbsentInputAudioBehavior: ""
+                        Arib: ""
+                        AribCaptionsPid: ""
+                        AribCaptionsPidControl: ""
+                        AudioBufferModel: ""
+                        AudioFramesPerPes: 0
+                        AudioPids: ""
+                        AudioStreamType: ""
+                        Bitrate: 0
+                        BufferModel: ""
+                        CcDescriptor: ""
+                        DvbSubPids: ""
+                        DvbTeletextPid: ""
+                        Ebif: ""
+                        EbpAudioInterval: ""
+                        EbpLookaheadMs: 0
+                        EbpPlacement: ""
+                        EcmPid: ""
+                        EsRateInPes: ""
+                        EtvPlatformPid: ""
+                        EtvSignalPid: ""
+                        FragmentTime: 0
+                        Klv: ""
+                        KlvDataPids: ""
+                        NielsenId3Behavior: ""
+                        NullPacketBitrate: 0
+                        PatInterval: 0
+                        PcrControl: ""
+                        PcrPeriod: 0
+                        PcrPid: ""
+                        PmtInterval: 0
+                        PmtPid: ""
+                        ProgramNum: 0
+                        RateMode: ""
+                        Scte27Pids: ""
+                        Scte35Control: ""
+                        Scte35Pid: ""
+                        Scte35PrerollPullupMilliseconds: 0
+                        SegmentationMarkers: ""
+                        SegmentationStyle: ""
+                        SegmentationTime: 0
+                        TimedMetadataBehavior: ""
+                        TimedMetadataPid: ""
+                        TransportStreamId: 0
+                        VideoPid: ""
+                        DvbNitSettings:
+                          NetworkId: 0
+                          NetworkName: ""
+                          RepInterval: 0
+                        DvbSdtSettings:
+                          OutputSdt: ""
+                          RepInterval: 0
+                          ServiceName: ""
+                          ServiceProviderName: ""
+                        DvbTdtSettings:
+                          RepInterval: 0
+                    Destination:
+                      DestinationRefId: ""
+                  MediaPackageOutputSettings:
+                    MediaPackageV2DestinationSettings:
+                      AudioGroupId: ""
+                      AudioRenditionSets: ""
+                      HlsAutoSelect: ""
+                      HlsDefault: ""
+                      OutputUsage: []
+                  MsSmoothOutputSettings:
+                    H265PackagingType: ""
+                    NameModifier: ""
+                  MultiplexOutputSettings:
+                    ContainerSettings:
+                      MultiplexM2tsSettings:
+                        AbsentInputAudioBehavior: ""
+                        Arib: ""
+                        AudioBufferModel: ""
+                        AudioFramesPerPes: 0
+                        AudioStreamType: ""
+                        CcDescriptor: ""
+                        Ebif: ""
+                        EsRateInPes: ""
+                        Klv: ""
+                        NielsenId3Behavior: ""
+                        PcrControl: ""
+                        PcrPeriod: 0
+                        Scte35Control: ""
+                        Scte35PrerollPullupMilliseconds: 0
+                    Destination:
+                      DestinationRefId: ""
+                  RtmpOutputSettings:
+                    CertificateMode: ""
+                    ConnectionRetryInterval: 0
+                    NumRetries: 0
+                    Destination:
+                      DestinationRefId: ""
+                  SrtOutputSettings:
+                    BufferMsec: 0
+                    EncryptionType: ""
+                    Latency: 0
+                    ContainerSettings:
+                      M2tsSettings:
+                        AbsentInputAudioBehavior: ""
+                        Arib: ""
+                        AribCaptionsPid: ""
+                        AribCaptionsPidControl: ""
+                        AudioBufferModel: ""
+                        AudioFramesPerPes: 0
+                        AudioPids: ""
+                        AudioStreamType: ""
+                        Bitrate: 0
+                        BufferModel: ""
+                        CcDescriptor: ""
+                        DvbSubPids: ""
+                        DvbTeletextPid: ""
+                        Ebif: ""
+                        EbpAudioInterval: ""
+                        EbpLookaheadMs: 0
+                        EbpPlacement: ""
+                        EcmPid: ""
+                        EsRateInPes: ""
+                        EtvPlatformPid: ""
+                        EtvSignalPid: ""
+                        FragmentTime: 0
+                        Klv: ""
+                        KlvDataPids: ""
+                        NielsenId3Behavior: ""
+                        NullPacketBitrate: 0
+                        PatInterval: 0
+                        PcrControl: ""
+                        PcrPeriod: 0
+                        PcrPid: ""
+                        PmtInterval: 0
+                        PmtPid: ""
+                        ProgramNum: 0
+                        RateMode: ""
+                        Scte27Pids: ""
+                        Scte35Control: ""
+                        Scte35Pid: ""
+                        Scte35PrerollPullupMilliseconds: 0
+                        SegmentationMarkers: ""
+                        SegmentationStyle: ""
+                        SegmentationTime: 0
+                        TimedMetadataBehavior: ""
+                        TimedMetadataPid: ""
+                        TransportStreamId: 0
+                        VideoPid: ""
+                        DvbNitSettings:
+                          NetworkId: 0
+                          NetworkName: ""
+                          RepInterval: 0
+                        DvbSdtSettings:
+                          OutputSdt: ""
+                          RepInterval: 0
+                          ServiceName: ""
+                          ServiceProviderName: ""
+                        DvbTdtSettings:
+                          RepInterval: 0
+                    Destination:
+                      DestinationRefId: ""
+                  UdpOutputSettings:
+                    BufferMsec: 0
+                    ContainerSettings:
+                      M2tsSettings:
+                        AbsentInputAudioBehavior: ""
+                        Arib: ""
+                        AribCaptionsPid: ""
+                        AribCaptionsPidControl: ""
+                        AudioBufferModel: ""
+                        AudioFramesPerPes: 0
+                        AudioPids: ""
+                        AudioStreamType: ""
+                        Bitrate: 0
+                        BufferModel: ""
+                        CcDescriptor: ""
+                        DvbSubPids: ""
+                        DvbTeletextPid: ""
+                        Ebif: ""
+                        EbpAudioInterval: ""
+                        EbpLookaheadMs: 0
+                        EbpPlacement: ""
+                        EcmPid: ""
+                        EsRateInPes: ""
+                        EtvPlatformPid: ""
+                        EtvSignalPid: ""
+                        FragmentTime: 0
+                        Klv: ""
+                        KlvDataPids: ""
+                        NielsenId3Behavior: ""
+                        NullPacketBitrate: 0
+                        PatInterval: 0
+                        PcrControl: ""
+                        PcrPeriod: 0
+                        PcrPid: ""
+                        PmtInterval: 0
+                        PmtPid: ""
+                        ProgramNum: 0
+                        RateMode: ""
+                        Scte27Pids: ""
+                        Scte35Control: ""
+                        Scte35Pid: ""
+                        Scte35PrerollPullupMilliseconds: 0
+                        SegmentationMarkers: ""
+                        SegmentationStyle: ""
+                        SegmentationTime: 0
+                        TimedMetadataBehavior: ""
+                        TimedMetadataPid: ""
+                        TransportStreamId: 0
+                        VideoPid: ""
+                        DvbNitSettings:
+                          NetworkId: 0
+                          NetworkName: ""
+                          RepInterval: 0
+                        DvbSdtSettings:
+                          OutputSdt: ""
+                          RepInterval: 0
+                          ServiceName: ""
+                          ServiceProviderName: ""
+                        DvbTdtSettings:
+                          RepInterval: 0
+                    Destination:
+                      DestinationRefId: ""
+                    FecOutputSettings:
+                      ColumnDepth: 0
+                      IncludeFec: ""
+                      RowLength: 0
+        ThumbnailConfiguration:
+          State: ""
+        TimecodeConfig:
+          Source: ""
+          SyncThreshold: 0
+        VideoDescriptions:
+          - Border: 0
+            Height: 0
+            Name: ""
+            RespondToAfd: ""
+            ScalingBehavior: ""
+            Sharpness: 0
+            Width: 0
+            CodecSettings:
+              Av1Settings:
+                AfdSignaling: ""
+                BitDepth: ""
+                Bitrate: 0
+                BufSize: 0
+                FixedAfd: ""
+                FramerateDenominator: 0
+                FramerateNumerator: 0
+                GopSize: 0
+                GopSizeUnits: ""
+                Level: ""
+                LookAheadRateControl: ""
+                MaxBitrate: 0
+                MinBitrate: 0
+                MinIInterval: 0
+                ParDenominator: 0
+                ParNumerator: 0
+                QvbrQualityLevel: 0
+                RateControlMode: ""
+                SceneChangeDetect: ""
+                SpatialAq: ""
+                TemporalAq: ""
+                TimecodeInsertion: ""
+                ColorSpaceSettings:
+                  ColorSpacePassthroughSettings: {}
+                  Hdr10Settings:
+                    MaxCll: 0
+                    MaxFall: 0
+                  Hlg2020Settings: {}
+                  Rec601Settings: {}
+                  Rec709Settings: {}
+                TimecodeBurninSettings:
+                  FontSize: ""
+                  Position: ""
+                  Prefix: ""
+              FrameCaptureSettings:
+                CaptureInterval: 0
+                CaptureIntervalUnits: ""
+                TimecodeBurninSettings:
+                  FontSize: ""
+                  Position: ""
+                  Prefix: ""
+              H264Settings:
+                AdaptiveQuantization: ""
+                AfdSignaling: ""
+                Bitrate: 0
+                BufFillPct: 0
+                BufSize: 0
+                ColorMetadata: ""
+                EntropyEncoding: ""
+                FixedAfd: ""
+                FlickerAq: ""
+                ForceFieldPictures: ""
+                FramerateControl: ""
+                FramerateDenominator: 0
+                FramerateNumerator: 0
+                GopBReference: ""
+                GopClosedCadence: 0
+                GopNumBFrames: 0
+                GopSize: 0
+                GopSizeUnits: ""
+                Level: ""
+                LookAheadRateControl: ""
+                MaxBitrate: 0
+                MinBitrate: 0
+                MinIInterval: 0
+                MinQp: 0
+                NumRefFrames: 0
+                ParControl: ""
+                ParDenominator: 0
+                ParNumerator: 0
+                Profile: ""
+                QualityLevel: ""
+                QvbrQualityLevel: 0
+                RateControlMode: ""
+                ScanType: ""
+                SceneChangeDetect: ""
+                Slices: 0
+                Softness: 0
+                SpatialAq: ""
+                SubgopLength: ""
+                Syntax: ""
+                TemporalAq: ""
+                TimecodeInsertion: ""
+                ColorSpaceSettings:
+                  ColorSpacePassthroughSettings: {}
+                  Rec601Settings: {}
+                  Rec709Settings: {}
+                FilterSettings:
+                  BandwidthReductionFilterSettings:
+                    PostFilterSharpening: ""
+                    Strength: ""
+                  TemporalFilterSettings:
+                    PostFilterSharpening: ""
+                    Strength: ""
+                TimecodeBurninSettings:
+                  FontSize: ""
+                  Position: ""
+                  Prefix: ""
+              H265Settings:
+                AdaptiveQuantization: ""
+                AfdSignaling: ""
+                AlternativeTransferFunction: ""
+                Bitrate: 0
+                BufSize: 0
+                ColorMetadata: ""
+                Deblocking: ""
+                FixedAfd: ""
+                FlickerAq: ""
+                FramerateDenominator: 0
+                FramerateNumerator: 0
+                GopBReference: ""
+                GopClosedCadence: 0
+                GopNumBFrames: 0
+                GopSize: 0
+                GopSizeUnits: ""
+                Level: ""
+                LookAheadRateControl: ""
+                MaxBitrate: 0
+                MinBitrate: 0
+                MinIInterval: 0
+                MinQp: 0
+                MvOverPictureBoundaries: ""
+                MvTemporalPredictor: ""
+                ParDenominator: 0
+                ParNumerator: 0
+                Profile: ""
+                QvbrQualityLevel: 0
+                RateControlMode: ""
+                ScanType: ""
+                SceneChangeDetect: ""
+                Slices: 0
+                SubgopLength: ""
+                Tier: ""
+                TileHeight: 0
+                TilePadding: ""
+                TileWidth: 0
+                TimecodeInsertion: ""
+                TreeblockSize: ""
+                ColorSpaceSettings:
+                  ColorSpacePassthroughSettings: {}
+                  DolbyVision81Settings: {}
+                  Hdr10Settings:
+                    MaxCll: 0
+                    MaxFall: 0
+                  Hlg2020Settings: {}
+                  Rec601Settings: {}
+                  Rec709Settings: {}
+                FilterSettings:
+                  BandwidthReductionFilterSettings:
+                    PostFilterSharpening: ""
+                    Strength: ""
+                  TemporalFilterSettings:
+                    PostFilterSharpening: ""
+                    Strength: ""
+                TimecodeBurninSettings:
+                  FontSize: ""
+                  Position: ""
+                  Prefix: ""
+              Mpeg2Settings:
+                AdaptiveQuantization: ""
+                AfdSignaling: ""
+                ColorMetadata: ""
+                ColorSpace: ""
+                DisplayAspectRatio: ""
+                FixedAfd: ""
+                FramerateDenominator: 0
+                FramerateNumerator: 0
+                GopClosedCadence: 0
+                GopNumBFrames: 0
+                GopSize: 0
+                GopSizeUnits: ""
+                ScanType: ""
+                SubgopLength: ""
+                TimecodeInsertion: ""
+                FilterSettings:
+                  TemporalFilterSettings:
+                    PostFilterSharpening: ""
+                    Strength: ""
+                TimecodeBurninSettings:
+                  FontSize: ""
+                  Position: ""
+                  Prefix: ""
+            CropRectangle:
+              Height: 0
+              Width: 0
+              X: 0
+              Y: 0
+            OutputPositionRectangle:
+              Height: 0
+              Width: 0
+              X: 0
+              Y: 0
+      InferenceSettings:
+        EnrichmentMethods: []
+        FeedArn: ""
+        AudioFeedInputs:
+          - AudioSelectorName: ""
+            FeedInput: ""
+      InputAttachments:
+        - InputAttachmentName: ""
+          InputId: ""
+          LogicalInterfaceNames: []
+          AutomaticInputFailoverSettings:
+            ErrorClearTimeMsec: 0
+            InputPreference: ""
+            SecondaryInputId: ""
+            FailoverConditions:
+              - FailoverConditionSettings:
+                  AudioSilenceSettings:
+                    AudioSelectorName: ""
+                    AudioSilenceThresholdMsec: 0
+                  InputLossSettings:
+                    InputLossThresholdMsec: 0
+                  VideoBlackSettings:
+                    BlackDetectThreshold: 0
+                    VideoBlackThresholdMsec: 0
+          InputSettings:
+            DeblockFilter: ""
+            DenoiseFilter: ""
+            FilterStrength: 0
+            InputFilter: ""
+            Scte35Pid: 0
+            Smpte2038DataPreference: ""
+            SourceEndBehavior: ""
+            AudioSelectors:
+              - Name: ""
+                SelectorSettings:
+                  AudioHlsRenditionSelection:
+                    GroupId: ""
+                    Name: ""
+                  AudioLanguageSelection:
+                    LanguageCode: ""
+                    LanguageSelectionPolicy: ""
+                  AudioPidSelection:
+                    Pid: 0
+                    Pids:
+                      - Pid: 0
+                        DolbyEDecode:
+                          ProgramSelection: ""
+                        PremixSettings:
+                          Channels: 0
+                          GainDb: 0
+                          AudioNormalizationSettings:
+                            Algorithm: ""
+                            AlgorithmControl: ""
+                            PeakCalculation: ""
+                            PeakLimiterThreshold: 0
+                            TargetLkfs: 0
+                          RemixSettings:
+                            ChannelsIn: 0
+                            ChannelsOut: 0
+                            ChannelMappings:
+                              - OutputChannel: 0
+                                InputChannelLevels:
+                                  - Gain: 0
+                                    InputChannel: 0
+                  AudioTrackSelection:
+                    DolbyEDecode:
+                      ProgramSelection: ""
+                    Tracks:
+                      - Track: 0
+                        PremixSettings:
+                          Channels: 0
+                          GainDb: 0
+                          AudioNormalizationSettings:
+                            Algorithm: ""
+                            AlgorithmControl: ""
+                            PeakCalculation: ""
+                            PeakLimiterThreshold: 0
+                            TargetLkfs: 0
+                          RemixSettings:
+                            ChannelsIn: 0
+                            ChannelsOut: 0
+                            ChannelMappings:
+                              - OutputChannel: 0
+                                InputChannelLevels:
+                                  - Gain: 0
+                                    InputChannel: 0
+            CaptionSelectors:
+              - LanguageCode: ""
+                Name: ""
+                SelectorSettings:
+                  AncillarySourceSettings:
+                    SourceAncillaryChannelNumber: 0
+                  AribSourceSettings: {}
+                  DvbSubSourceSettings:
+                    OcrLanguage: ""
+                    Pid: 0
+                  EmbeddedSourceSettings:
+                    Convert608To708: ""
+                    Scte20Detection: ""
+                    Source608ChannelNumber: 0
+                    Source608TrackNumber: 0
+                  Scte20SourceSettings:
+                    Convert608To708: ""
+                    Source608ChannelNumber: 0
+                  Scte27SourceSettings:
+                    OcrLanguage: ""
+                    Pid: 0
+                  SmartSubtitleSourceSettings:
+                    CaptionSynchronizationMode: ""
+                    InferenceFeedOutput: ""
+                  TeletextSourceSettings:
+                    PageNumber: ""
+                    OutputRectangle:
+                      Height: 0
+                      LeftOffset: 0
+                      TopOffset: 0
+                      Width: 0
+            NetworkInputSettings:
+              ServerValidation: ""
+              HlsInputSettings:
+                Bandwidth: 0
+                BufferSegments: 0
+                Retries: 0
+                RetryInterval: 0
+                Scte35Source: ""
+              MulticastInputSettings:
+                SourceIpAddress: ""
+            VideoSelector:
+              ColorSpace: ""
+              ColorSpaceUsage: ""
+              ColorSpaceSettings:
+                Hdr10Settings:
+                  MaxCll: 0
+                  MaxFall: 0
+              SelectorSettings:
+                VideoSelectorPid:
+                  Pid: 0
+                VideoSelectorProgramId:
+                  ProgramId: 0
+      InputSpecification:
+        Codec: ""
+        MaximumBitrate: ""
+        Resolution: ""
+      LinkedChannelSettings:
+        FollowerChannelSettings:
+          LinkedChannelType: ""
+          PrimaryChannelArn: ""
+        PrimaryChannelSettings:
+          LinkedChannelType: ""
+      Maintenance:
+        MaintenanceDay: ""
+        MaintenanceStartTime: ""
+      Tags: {}
+      Vpc:
+        PublicAddressAllocationIds: []
+        SecurityGroupIds: []
+        SubnetIds: []

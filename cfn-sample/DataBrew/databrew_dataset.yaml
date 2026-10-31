@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatabrewDataset:
+    Type: AWS::DataBrew::Dataset
+    Properties:
+      Format: ""
+      Name: ""
+      Source: ""
+      FormatOptions:
+        Csv:
+          Delimiter: ""
+          HeaderRow: false
+        Excel:
+          HeaderRow: false
+          SheetIndexes: []
+          SheetNames: []
+        Json:
+          MultiLine: false
+      Input:
+        DataCatalogInputDefinition:
+          CatalogId: ""
+          DatabaseName: ""
+          TableName: ""
+          TempDirectory:
+            Bucket: ""
+            BucketOwner: ""
+            Key: ""
+        DatabaseInputDefinition:
+          DatabaseTableName: ""
+          GlueConnectionName: ""
+          QueryString: ""
+          TempDirectory:
+            Bucket: ""
+            BucketOwner: ""
+            Key: ""
+        Metadata:
+          SourceArn: ""
+        S3InputDefinition:
+          Bucket: ""
+          BucketOwner: ""
+          Key: ""
+      PathOptions:
+        FilesLimit:
+          MaxFiles: 0
+          Order: ""
+          OrderedBy: ""
+        LastModifiedDateCondition:
+          Expression: ""
+          ValuesMap:
+            - Value: ""
+              ValueReference: ""
+        Parameters:
+          - PathParameterName: ""
+            DatasetParameter:
+              CreateColumn: false
+              Name: ""
+              Type: ""
+              DatetimeOptions:
+                Format: ""
+                LocaleCode: ""
+                TimezoneOffset: ""
+              Filter:
+                Expression: ""
+                ValuesMap:
+                  - Value: ""
+                    ValueReference: ""
+      Tags:
+        - Key: ""
+          Value: ""

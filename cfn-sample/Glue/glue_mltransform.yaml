@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueMltransform:
+    Type: AWS::Glue::MLTransform
+    Properties:
+      Description: ""
+      GlueVersion: ""
+      MaxCapacity: 0
+      MaxRetries: 0
+      Name: ""
+      NumberOfWorkers: 0
+      Role: ""
+      Timeout: 0
+      WorkerType: ""
+      InputRecordTables:
+        GlueTables:
+          - CatalogId: ""
+            ConnectionName: ""
+            DatabaseName: ""
+            TableName: ""
+      Tags: {}
+      TransformEncryption:
+        TaskRunSecurityConfigurationName: ""
+        MLUserDataEncryption:
+          KmsKeyId: ""
+          MLUserDataEncryptionMode: ""
+      TransformParameters:
+        TransformType: ""
+        FindMatchesParameters:
+          AccuracyCostTradeoff: 0
+          EnforceProvidedLabels: false
+          PrecisionRecallTradeoff: 0
+          PrimaryKeyColumnName: ""

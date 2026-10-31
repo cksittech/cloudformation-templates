@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Clientvpnauthorizationrule:
+    Type: AWS::EC2::ClientVpnAuthorizationRule
+    Properties:
+      AccessGroupId: ""
+      AuthorizeAllGroups: false
+      ClientVpnEndpointId: ""
+      Description: ""
+      TargetNetworkCidr: ""

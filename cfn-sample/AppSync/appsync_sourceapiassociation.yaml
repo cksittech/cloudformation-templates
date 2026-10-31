@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncSourceapiassociation:
+    Type: AWS::AppSync::SourceApiAssociation
+    Properties:
+      Description: ""
+      MergedApiIdentifier: ""
+      SourceApiIdentifier: ""
+      SourceApiAssociationConfig:
+        MergeType: ""

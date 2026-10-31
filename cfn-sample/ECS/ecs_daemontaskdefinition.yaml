@@ -1,0 +1,94 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsDaemontaskdefinition:
+    Type: AWS::ECS::DaemonTaskDefinition
+    Properties:
+      Cpu: ""
+      ExecutionRoleArn: ""
+      Family: ""
+      IpcMode: ""
+      Memory: ""
+      PidMode: ""
+      TaskRoleArn: ""
+      ContainerDefinitions:
+        - Command: []
+          Cpu: 0
+          EntryPoint: []
+          Essential: false
+          Image: ""
+          Interactive: false
+          Memory: 0
+          MemoryReservation: 0
+          Name: ""
+          Privileged: false
+          PseudoTerminal: false
+          ReadonlyRootFilesystem: false
+          StartTimeout: 0
+          StopTimeout: 0
+          User: ""
+          WorkingDirectory: ""
+          DependsOn:
+            - Condition: ""
+              ContainerName: ""
+          Environment:
+            - Name: ""
+              Value: ""
+          EnvironmentFiles:
+            - Type: ""
+              Value: ""
+          FirelensConfiguration:
+            Type: ""
+            Options: {}
+          HealthCheck:
+            Command: []
+            Interval: 0
+            Retries: 0
+            StartPeriod: 0
+            Timeout: 0
+          LinuxParameters:
+            InitProcessEnabled: false
+            Capabilities:
+              Add: []
+              Drop: []
+            Devices:
+              - ContainerPath: ""
+                HostPath: ""
+                Permissions: []
+            Tmpfs:
+              - ContainerPath: ""
+                MountOptions: []
+                Size: 0
+          LogConfiguration:
+            LogDriver: ""
+            Options: {}
+            SecretOptions:
+              - Name: ""
+                ValueFrom: ""
+          MountPoints:
+            - ContainerPath: ""
+              ReadOnly: false
+              SourceVolume: ""
+          RepositoryCredentials:
+            CredentialsParameter: ""
+          RestartPolicy:
+            Enabled: false
+            IgnoredExitCodes: []
+            RestartAttemptPeriod: 0
+          Secrets:
+            - Name: ""
+              ValueFrom: ""
+          SystemControls:
+            - Namespace: ""
+              Value: ""
+          Ulimits:
+            - HardLimit: 0
+              Name: ""
+              SoftLimit: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      Volumes:
+        - Name: ""
+          Host:
+            SourcePath: ""

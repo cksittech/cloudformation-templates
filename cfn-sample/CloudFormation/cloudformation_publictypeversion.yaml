@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationPublictypeversion:
+    Type: AWS::CloudFormation::PublicTypeVersion
+    Properties:
+      Arn: ""
+      LogDeliveryBucket: ""
+      PublicVersionNumber: ""
+      Type: ""
+      TypeName: ""

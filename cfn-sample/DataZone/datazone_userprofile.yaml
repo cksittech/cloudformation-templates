@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneUserprofile:
+    Type: AWS::DataZone::UserProfile
+    Properties:
+      DomainIdentifier: ""
+      SessionName: ""
+      Status: ""
+      UserIdentifier: ""
+      UserType: ""

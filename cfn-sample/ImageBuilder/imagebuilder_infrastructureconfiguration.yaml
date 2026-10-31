@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderInfrastructureconfiguration:
+    Type: AWS::ImageBuilder::InfrastructureConfiguration
+    Properties:
+      Description: ""
+      InstanceProfileName: ""
+      InstanceTypes: []
+      KeyPair: ""
+      Name: ""
+      SecurityGroupIds: []
+      SnsTopicArn: ""
+      SubnetId: ""
+      TerminateInstanceOnCompletion: false
+      TerminateInstanceOnFailure: false
+      InstanceMetadataOptions:
+        HttpPutResponseHopLimit: 0
+        HttpTokens: ""
+      Logging:
+        S3Logs:
+          S3BucketName: ""
+          S3KeyPrefix: ""
+      ParentInstance:
+        AutoScalingGroup:
+          CapacityWaitTimeoutSeconds: 0
+          Name: ""
+      Placement:
+        AvailabilityZone: ""
+        HostId: ""
+        HostResourceGroupArn: ""
+        Tenancy: ""
+      ResourceTags: {}
+      Tags: {}

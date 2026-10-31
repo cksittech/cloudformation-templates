@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncAgent:
+    Type: AWS::DataSync::Agent
+    Properties:
+      ActivationKey: ""
+      AgentName: ""
+      SecurityGroupArns: []
+      SubnetArns: []
+      VpcEndpointId: ""
+      Tags:
+        - Key: ""
+          Value: ""

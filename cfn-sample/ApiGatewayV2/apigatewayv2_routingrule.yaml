@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Routingrule:
+    Type: AWS::ApiGatewayV2::RoutingRule
+    Properties:
+      DomainNameArn: ""
+      Priority: 0
+      Actions:
+        - InvokeApi:
+            ApiId: ""
+            Stage: ""
+            StripBasePath: false
+      Conditions:
+        - MatchBasePaths:
+            AnyOf: []
+          MatchHeaders:
+            AnyOf:
+              - Header: ""
+                ValueGlob: ""

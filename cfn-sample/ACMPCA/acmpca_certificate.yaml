@@ -1,0 +1,89 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAcmpcaCertificate:
+    Type: AWS::ACMPCA::Certificate
+    Properties:
+      CertificateAuthorityArn: ""
+      CertificateSigningRequest: ""
+      SigningAlgorithm: ""
+      TemplateArn: ""
+      ApiPassthrough:
+        Extensions:
+          CertificatePolicies:
+            - CertPolicyId: ""
+              PolicyQualifiers:
+                - PolicyQualifierId: ""
+                  Qualifier:
+                    CpsUri: ""
+          CustomExtensions:
+            - Critical: false
+              ObjectIdentifier: ""
+              Value: ""
+          ExtendedKeyUsage:
+            - ExtendedKeyUsageObjectIdentifier: ""
+              ExtendedKeyUsageType: ""
+          KeyUsage:
+            CRLSign: false
+            DataEncipherment: false
+            DecipherOnly: false
+            DigitalSignature: false
+            EncipherOnly: false
+            KeyAgreement: false
+            KeyCertSign: false
+            KeyEncipherment: false
+            NonRepudiation: false
+          SubjectAlternativeNames:
+            - DnsName: ""
+              IpAddress: ""
+              RegisteredId: ""
+              Rfc822Name: ""
+              UniformResourceIdentifier: ""
+              DirectoryName:
+                CommonName: ""
+                Country: ""
+                DistinguishedNameQualifier: ""
+                GenerationQualifier: ""
+                GivenName: ""
+                Initials: ""
+                Locality: ""
+                Organization: ""
+                OrganizationalUnit: ""
+                Pseudonym: ""
+                SerialNumber: ""
+                State: ""
+                Surname: ""
+                Title: ""
+                CustomAttributes:
+                  - ObjectIdentifier: ""
+                    Value: ""
+              EdiPartyName:
+                NameAssigner: ""
+                PartyName: ""
+              OtherName:
+                TypeId: ""
+                Value: ""
+        Subject:
+          CommonName: ""
+          Country: ""
+          DistinguishedNameQualifier: ""
+          GenerationQualifier: ""
+          GivenName: ""
+          Initials: ""
+          Locality: ""
+          Organization: ""
+          OrganizationalUnit: ""
+          Pseudonym: ""
+          SerialNumber: ""
+          State: ""
+          Surname: ""
+          Title: ""
+          CustomAttributes:
+            - ObjectIdentifier: ""
+              Value: ""
+      Validity:
+        Type: ""
+        Value: 0
+      ValidityNotBefore:
+        Type: ""
+        Value: 0

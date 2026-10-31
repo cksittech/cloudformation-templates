@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogCloudformationprovisionedproduct:
+    Type: AWS::ServiceCatalog::CloudFormationProvisionedProduct
+    Properties:
+      AcceptLanguage: ""
+      NotificationArns: []
+      PathId: ""
+      PathName: ""
+      ProductId: ""
+      ProductName: ""
+      ProvisionedProductName: ""
+      ProvisioningArtifactId: ""
+      ProvisioningArtifactName: ""
+      ProvisioningParameters:
+        - Key: ""
+          Value: ""
+      ProvisioningPreferences:
+        StackSetAccounts: []
+        StackSetFailureToleranceCount: 0
+        StackSetFailureTolerancePercentage: 0
+        StackSetMaxConcurrencyCount: 0
+        StackSetMaxConcurrencyPercentage: 0
+        StackSetOperationType: ""
+        StackSetRegions: []
+      Tags:
+        - Key: ""
+          Value: ""

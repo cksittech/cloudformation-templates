@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsAccountpolicy:
+    Type: AWS::Logs::AccountPolicy
+    Properties:
+      PolicyDocument: ""
+      PolicyName: ""
+      PolicyType: ""
+      Scope: ""
+      SelectionCriteria: ""

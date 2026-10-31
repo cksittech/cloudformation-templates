@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveEventbridgeruletemplate:
+    Type: AWS::MediaLive::EventBridgeRuleTemplate
+    Properties:
+      Description: ""
+      EventType: ""
+      GroupIdentifier: ""
+      Name: ""
+      EventTargets:
+        - Arn: ""
+      Tags: {}

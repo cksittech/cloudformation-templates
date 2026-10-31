@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebDataprotectionsettings:
+    Type: AWS::WorkSpacesWeb::DataProtectionSettings
+    Properties:
+      CustomerManagedKey: ""
+      Description: ""
+      DisplayName: ""
+      AdditionalEncryptionContext: {}
+      InlineRedactionConfiguration:
+        GlobalConfidenceLevel: 0
+        GlobalEnforcedUrls: []
+        GlobalExemptUrls: []
+        InlineRedactionPatterns:
+          - BuiltInPatternId: ""
+            ConfidenceLevel: 0
+            EnforcedUrls: []
+            ExemptUrls: []
+            CustomPattern:
+              KeywordRegex: ""
+              PatternDescription: ""
+              PatternName: ""
+              PatternRegex: ""
+            RedactionPlaceHolder:
+              RedactionPlaceHolderText: ""
+              RedactionPlaceHolderType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityagentIntegration:
+    Type: AWS::SecurityAgent::Integration
+    Properties:
+      DisplayName: ""
+      KmsKeyId: ""
+      PrivateConnectionName: ""
+      Provider: ""
+      ProviderInput:
+        Bitbucket:
+          Code: ""
+          InstallationId: ""
+          State: ""
+          Workspace: ""
+        Confluence:
+          Code: ""
+          InstallationId: ""
+          SiteUrl: ""
+          State: ""
+        Github:
+          Code: ""
+          InstallationId: ""
+          OrganizationName: ""
+          State: ""
+          TargetUrl: ""
+        Gitlab:
+          AccessToken: ""
+          GroupId: ""
+          TargetUrl: ""
+          TokenType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheSubnetgroup:
+    Type: AWS::ElastiCache::SubnetGroup
+    Properties:
+      CacheSubnetGroupName: ""
+      Description: ""
+      SubnetIds: []
+      Tags:
+        - Key: ""
+          Value: ""

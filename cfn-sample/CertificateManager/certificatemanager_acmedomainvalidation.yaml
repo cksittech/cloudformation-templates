@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCertificatemanagerAcmedomainvalidation:
+    Type: AWS::CertificateManager::AcmeDomainValidation
+    Properties:
+      AcmeEndpointArn: ""
+      DomainName: ""
+      PrevalidationOptions:
+        DnsPrevalidation:
+          HostedZoneId: ""
+          DomainScope:
+            ExactDomain: ""
+            Subdomains: ""
+            Wildcards: ""
+      Tags:
+        - Key: ""
+          Value: ""

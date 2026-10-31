@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlobalacceleratorCrossaccountattachment:
+    Type: AWS::GlobalAccelerator::CrossAccountAttachment
+    Properties:
+      Name: ""
+      Principals: []
+      Resources:
+        - Cidr: ""
+          EndpointId: ""
+          Region: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmazonmqConfigurationassociation:
+    Type: AWS::AmazonMQ::ConfigurationAssociation
+    Properties:
+      Broker: ""
+      Configuration:
+        Id: ""
+        Revision: 0

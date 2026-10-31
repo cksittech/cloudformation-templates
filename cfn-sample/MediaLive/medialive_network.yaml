@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveNetwork:
+    Type: AWS::MediaLive::Network
+    Properties:
+      Name: ""
+      IpPools:
+        - Cidr: ""
+      Routes:
+        - Cidr: ""
+          Gateway: ""
+      Tags:
+        - Key: ""
+          Value: ""

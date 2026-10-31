@@ -1,0 +1,219 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModelpackage:
+    Type: AWS::SageMaker::ModelPackage
+    Properties:
+      ApprovalDescription: ""
+      CertifyForMarketplace: false
+      ClientToken: ""
+      Domain: ""
+      ModelApprovalStatus: ""
+      ModelPackageDescription: ""
+      ModelPackageGroupName: ""
+      ModelPackageName: ""
+      ModelPackageVersion: 0
+      SamplePayloadUrl: ""
+      SkipModelValidation: ""
+      SourceUri: ""
+      Task: ""
+      AdditionalInferenceSpecifications:
+        - Description: ""
+          Name: ""
+          SupportedContentTypes: []
+          SupportedRealtimeInferenceInstanceTypes: []
+          SupportedResponseMIMETypes: []
+          SupportedTransformInstanceTypes: []
+          Containers:
+            - ContainerHostname: ""
+              Framework: ""
+              FrameworkVersion: ""
+              Image: ""
+              ImageDigest: ""
+              ModelDataUrl: ""
+              NearestModelName: ""
+              Environment: {}
+              ModelDataSource:
+                S3DataSource:
+                  CompressionType: ""
+                  S3DataType: ""
+                  S3Uri: ""
+                  ModelAccessConfig:
+                    AcceptEula: false
+              ModelInput:
+                DataInputConfig: ""
+      AdditionalInferenceSpecificationsToAdd:
+        - Description: ""
+          Name: ""
+          SupportedContentTypes: []
+          SupportedRealtimeInferenceInstanceTypes: []
+          SupportedResponseMIMETypes: []
+          SupportedTransformInstanceTypes: []
+          Containers:
+            - ContainerHostname: ""
+              Framework: ""
+              FrameworkVersion: ""
+              Image: ""
+              ImageDigest: ""
+              ModelDataUrl: ""
+              NearestModelName: ""
+              Environment: {}
+              ModelDataSource:
+                S3DataSource:
+                  CompressionType: ""
+                  S3DataType: ""
+                  S3Uri: ""
+                  ModelAccessConfig:
+                    AcceptEula: false
+              ModelInput:
+                DataInputConfig: ""
+      CustomerMetadataProperties: {}
+      DriftCheckBaselines:
+        Bias:
+          ConfigFile:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          PostTrainingConstraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          PreTrainingConstraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        Explainability:
+          ConfigFile:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Constraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        ModelDataQuality:
+          Constraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Statistics:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        ModelQuality:
+          Constraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Statistics:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+      InferenceSpecification:
+        SupportedContentTypes: []
+        SupportedRealtimeInferenceInstanceTypes: []
+        SupportedResponseMIMETypes: []
+        SupportedTransformInstanceTypes: []
+        Containers:
+          - ContainerHostname: ""
+            Framework: ""
+            FrameworkVersion: ""
+            Image: ""
+            ImageDigest: ""
+            ModelDataUrl: ""
+            NearestModelName: ""
+            Environment: {}
+            ModelDataSource:
+              S3DataSource:
+                CompressionType: ""
+                S3DataType: ""
+                S3Uri: ""
+                ModelAccessConfig:
+                  AcceptEula: false
+            ModelInput:
+              DataInputConfig: ""
+      MetadataProperties:
+        CommitId: ""
+        GeneratedBy: ""
+        ProjectId: ""
+        Repository: ""
+      ModelCard:
+        ModelCardContent: ""
+        ModelCardStatus: ""
+      ModelMetrics:
+        Bias:
+          PostTrainingReport:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          PreTrainingReport:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Report:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        Explainability:
+          Report:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        ModelDataQuality:
+          Constraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Statistics:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+        ModelQuality:
+          Constraints:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+          Statistics:
+            ContentDigest: ""
+            ContentType: ""
+            S3Uri: ""
+      ModelPackageStatusDetails:
+        ValidationStatuses:
+          - FailureReason: ""
+            Name: ""
+            Status: ""
+      SecurityConfig:
+        KmsKeyId: ""
+      SourceAlgorithmSpecification:
+        SourceAlgorithms:
+          - AlgorithmName: ""
+            ModelDataUrl: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ValidationSpecification:
+        ValidationRole: ""
+        ValidationProfiles:
+          - ProfileName: ""
+            TransformJobDefinition:
+              BatchStrategy: ""
+              MaxConcurrentTransforms: 0
+              MaxPayloadInMB: 0
+              Environment: {}
+              TransformInput:
+                CompressionType: ""
+                ContentType: ""
+                SplitType: ""
+                DataSource:
+                  S3DataSource:
+                    S3DataType: ""
+                    S3Uri: ""
+              TransformOutput:
+                Accept: ""
+                AssembleWith: ""
+                KmsKeyId: ""
+                S3OutputPath: ""
+              TransformResources:
+                InstanceCount: 0
+                InstanceType: ""
+                VolumeKmsKeyId: ""

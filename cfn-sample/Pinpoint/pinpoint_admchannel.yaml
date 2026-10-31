@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointAdmchannel:
+    Type: AWS::Pinpoint::ADMChannel
+    Properties:
+      ApplicationId: ""
+      ClientId: ""
+      ClientSecret: ""
+      Enabled: false

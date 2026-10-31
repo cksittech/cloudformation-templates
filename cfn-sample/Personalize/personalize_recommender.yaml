@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeRecommender:
+    Type: AWS::Personalize::Recommender
+    Properties:
+      DatasetGroupArn: ""
+      Name: ""
+      RecipeArn: ""
+      RecommenderConfig:
+        EnableMetadataWithRecommendations: false
+        MinRecommendationRequestsPerSecond: 0
+        ItemExplorationConfig: {}
+        TrainingDataConfig:
+          ExcludedDatasetColumns: {}
+      Tags:
+        - Key: ""
+          Value: ""

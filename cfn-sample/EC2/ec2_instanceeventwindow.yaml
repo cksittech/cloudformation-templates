@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Instanceeventwindow:
+    Type: AWS::EC2::InstanceEventWindow
+    Properties:
+      CronExpression: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TimeRanges:
+        - EndHour: 0
+          EndWeekDay: ""
+          StartHour: 0
+          StartWeekDay: ""

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServerlessrepoApplication:
+    Type: AWS::ServerlessRepo::Application
+    Properties:
+      Author: ""
+      Description: ""
+      HomePageUrl: ""
+      Labels: []
+      LicenseBody: ""
+      Name: ""
+      ReadmeBody: ""
+      SemanticVersion: ""
+      SourceCodeUrl: ""
+      SpdxLicenseId: ""
+      TemplateBody: ""

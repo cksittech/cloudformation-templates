@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatabrewSchedule:
+    Type: AWS::DataBrew::Schedule
+    Properties:
+      CronExpression: ""
+      JobNames: []
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

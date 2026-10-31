@@ -1,0 +1,187 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppflowConnectorprofile:
+    Type: AWS::AppFlow::ConnectorProfile
+    Properties:
+      ConnectionMode: ""
+      ConnectorLabel: ""
+      ConnectorProfileName: ""
+      ConnectorType: ""
+      KMSArn: ""
+      ConnectorProfileConfig:
+        ConnectorProfileCredentials:
+          Amplitude:
+            ApiKey: ""
+            SecretKey: ""
+          CustomConnector:
+            AuthenticationType: ""
+            ApiKey:
+              ApiKey: ""
+              ApiSecretKey: ""
+            Basic:
+              Password: ""
+              Username: ""
+            Custom:
+              CustomAuthenticationType: ""
+              CredentialsMap: {}
+            Oauth2:
+              AccessToken: ""
+              ClientId: ""
+              ClientSecret: ""
+              RefreshToken: ""
+              OAuthRequest:
+                AuthCode: ""
+                RedirectUri: ""
+          Datadog:
+            ApiKey: ""
+            ApplicationKey: ""
+          Dynatrace:
+            ApiToken: ""
+          GoogleAnalytics:
+            AccessToken: ""
+            ClientId: ""
+            ClientSecret: ""
+            RefreshToken: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+          InforNexus:
+            AccessKeyId: ""
+            Datakey: ""
+            SecretAccessKey: ""
+            UserId: ""
+          Marketo:
+            AccessToken: ""
+            ClientId: ""
+            ClientSecret: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+          Pardot:
+            AccessToken: ""
+            ClientCredentialsArn: ""
+            RefreshToken: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+          Redshift:
+            Password: ""
+            Username: ""
+          SAPOData:
+            BasicAuthCredentials:
+              Password: ""
+              Username: ""
+            OAuthCredentials:
+              AccessToken: ""
+              ClientId: ""
+              ClientSecret: ""
+              RefreshToken: ""
+              ConnectorOAuthRequest:
+                AuthCode: ""
+                RedirectUri: ""
+          Salesforce:
+            AccessToken: ""
+            ClientCredentialsArn: ""
+            JwtToken: ""
+            OAuth2GrantType: ""
+            RefreshToken: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+          ServiceNow:
+            Password: ""
+            Username: ""
+            OAuth2Credentials:
+              AccessToken: ""
+              ClientId: ""
+              ClientSecret: ""
+              RefreshToken: ""
+              OAuthRequest:
+                AuthCode: ""
+                RedirectUri: ""
+          Singular:
+            ApiKey: ""
+          Slack:
+            AccessToken: ""
+            ClientId: ""
+            ClientSecret: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+          Snowflake:
+            Password: ""
+            Username: ""
+          Trendmicro:
+            ApiSecretKey: ""
+          Veeva:
+            Password: ""
+            Username: ""
+          Zendesk:
+            AccessToken: ""
+            ClientId: ""
+            ClientSecret: ""
+            ConnectorOAuthRequest:
+              AuthCode: ""
+              RedirectUri: ""
+        ConnectorProfileProperties:
+          CustomConnector:
+            OAuth2Properties:
+              OAuth2GrantType: ""
+              TokenUrl: ""
+              TokenUrlCustomProperties: {}
+            ProfileProperties: {}
+          Datadog:
+            InstanceUrl: ""
+          Dynatrace:
+            InstanceUrl: ""
+          InforNexus:
+            InstanceUrl: ""
+          Marketo:
+            InstanceUrl: ""
+          Pardot:
+            BusinessUnitId: ""
+            InstanceUrl: ""
+            IsSandboxEnvironment: false
+          Redshift:
+            BucketName: ""
+            BucketPrefix: ""
+            ClusterIdentifier: ""
+            DataApiRoleArn: ""
+            DatabaseName: ""
+            DatabaseUrl: ""
+            IsRedshiftServerless: false
+            RoleArn: ""
+            WorkgroupName: ""
+          SAPOData:
+            ApplicationHostUrl: ""
+            ApplicationServicePath: ""
+            ClientNumber: ""
+            DisableSSO: false
+            LogonLanguage: ""
+            PortNumber: 0
+            PrivateLinkServiceName: ""
+            OAuthProperties:
+              AuthCodeUrl: ""
+              OAuthScopes: []
+              TokenUrl: ""
+          Salesforce:
+            InstanceUrl: ""
+            isSandboxEnvironment: false
+            usePrivateLinkForMetadataAndAuthorization: false
+          ServiceNow:
+            InstanceUrl: ""
+          Slack:
+            InstanceUrl: ""
+          Snowflake:
+            AccountName: ""
+            BucketName: ""
+            BucketPrefix: ""
+            PrivateLinkServiceName: ""
+            Region: ""
+            Stage: ""
+            Warehouse: ""
+          Veeva:
+            InstanceUrl: ""
+          Zendesk:
+            InstanceUrl: ""

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationResourcedefaultversion:
+    Type: AWS::CloudFormation::ResourceDefaultVersion
+    Properties:
+      TypeName: ""
+      TypeVersionArn: ""
+      VersionId: ""

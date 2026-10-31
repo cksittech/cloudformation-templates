@@ -1,0 +1,135 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApplicationsignalsServicelevelobjective:
+    Type: AWS::ApplicationSignals::ServiceLevelObjective
+    Properties:
+      Description: "No description"
+      Name: ""
+      BurnRateConfigurations:
+        - LookBackWindowMinutes: 0
+      ExclusionWindows:
+        - Reason: "No reason"
+          StartTime: ""
+          RecurrenceRule:
+            Expression: ""
+          Window:
+            Duration: 0
+            DurationUnit: ""
+      Goal:
+        AttainmentGoal: 0
+        WarningThreshold: 0
+        Interval:
+          CalendarInterval:
+            Duration: 0
+            DurationUnit: ""
+            StartTime: 0
+          RollingInterval:
+            Duration: 0
+            DurationUnit: ""
+      RequestBasedSli:
+        ComparisonOperator: ""
+        MetricThreshold: 0
+        RequestBasedSliMetric:
+          MetricName: ""
+          MetricType: ""
+          OperationName: ""
+          CompositeSliConfig:
+            CompositeSliComponents:
+              - OperationName: ""
+            SelectionConfig:
+              Pattern: ""
+              Type: ""
+          DependencyConfig:
+            DependencyOperationName: ""
+            DependencyKeyAttributes: {}
+          KeyAttributes: {}
+          MetricSource:
+            MetricSourceAttributes: {}
+            MetricSourceKeyAttributes: {}
+          MonitoredRequestCountMetric:
+            BadCountMetric:
+              - AccountId: ""
+                Expression: ""
+                Id: ""
+                ReturnData: false
+                MetricStat:
+                  Period: 0
+                  Stat: ""
+                  Unit: ""
+                  Metric:
+                    MetricName: ""
+                    Namespace: ""
+                    Dimensions:
+                      - Name: ""
+                        Value: ""
+            GoodCountMetric:
+              - AccountId: ""
+                Expression: ""
+                Id: ""
+                ReturnData: false
+                MetricStat:
+                  Period: 0
+                  Stat: ""
+                  Unit: ""
+                  Metric:
+                    MetricName: ""
+                    Namespace: ""
+                    Dimensions:
+                      - Name: ""
+                        Value: ""
+          TotalRequestCountMetric:
+            - AccountId: ""
+              Expression: ""
+              Id: ""
+              ReturnData: false
+              MetricStat:
+                Period: 0
+                Stat: ""
+                Unit: ""
+                Metric:
+                  MetricName: ""
+                  Namespace: ""
+                  Dimensions:
+                    - Name: ""
+                      Value: ""
+      Sli:
+        ComparisonOperator: ""
+        MetricThreshold: 0
+        SliMetric:
+          MetricName: ""
+          MetricType: ""
+          OperationName: ""
+          PeriodSeconds: 0
+          Statistic: ""
+          CompositeSliConfig:
+            CompositeSliComponents:
+              - OperationName: ""
+            SelectionConfig:
+              Pattern: ""
+              Type: ""
+          DependencyConfig:
+            DependencyOperationName: ""
+            DependencyKeyAttributes: {}
+          KeyAttributes: {}
+          MetricDataQueries:
+            - AccountId: ""
+              Expression: ""
+              Id: ""
+              ReturnData: false
+              MetricStat:
+                Period: 0
+                Stat: ""
+                Unit: ""
+                Metric:
+                  MetricName: ""
+                  Namespace: ""
+                  Dimensions:
+                    - Name: ""
+                      Value: ""
+          MetricSource:
+            MetricSourceAttributes: {}
+            MetricSourceKeyAttributes: {}
+      Tags:
+        - Key: ""
+          Value: ""

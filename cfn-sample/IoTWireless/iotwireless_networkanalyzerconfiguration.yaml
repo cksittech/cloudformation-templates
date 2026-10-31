@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessNetworkanalyzerconfiguration:
+    Type: AWS::IoTWireless::NetworkAnalyzerConfiguration
+    Properties:
+      Description: ""
+      Name: ""
+      WirelessDevices: []
+      WirelessGateways: []
+      Tags:
+        - Key: ""
+          Value: ""
+      TraceContent:
+        LogLevel: ""
+        WirelessDeviceFrameInfo: ""

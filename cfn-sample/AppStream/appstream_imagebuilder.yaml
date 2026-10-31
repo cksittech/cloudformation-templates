@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamImagebuilder:
+    Type: AWS::AppStream::ImageBuilder
+    Properties:
+      AppstreamAgentVersion: ""
+      Description: ""
+      DisableIMDSV1: false
+      DisplayName: ""
+      EnableDefaultInternetAccess: false
+      IamRoleArn: ""
+      ImageArn: ""
+      ImageName: ""
+      InstanceType: ""
+      Name: ""
+      SoftwaresToInstall: []
+      SoftwaresToUninstall: []
+      AccessEndpoints:
+        - EndpointType: ""
+          VpceId: ""
+      DomainJoinInfo:
+        DirectoryName: ""
+        OrganizationalUnitDistinguishedName: ""
+      RootVolumeConfig:
+        VolumeSizeInGb: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        SubnetIds: []

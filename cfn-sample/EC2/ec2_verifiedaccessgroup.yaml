@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Verifiedaccessgroup:
+    Type: AWS::EC2::VerifiedAccessGroup
+    Properties:
+      Description: ""
+      PolicyDocument: ""
+      PolicyEnabled: false
+      VerifiedAccessInstanceId: ""
+      SseSpecification:
+        CustomerManagedKeyEnabled: false
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

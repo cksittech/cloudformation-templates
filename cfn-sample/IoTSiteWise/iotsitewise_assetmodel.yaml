@@ -1,0 +1,110 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewiseAssetmodel:
+    Type: AWS::IoTSiteWise::AssetModel
+    Properties:
+      AssetModelDescription: ""
+      AssetModelExternalId: ""
+      AssetModelName: ""
+      AssetModelType: ""
+      AssetModelCompositeModels:
+        - ComposedAssetModelId: ""
+          Description: ""
+          ExternalId: ""
+          Name: ""
+          ParentAssetModelCompositeModelExternalId: ""
+          Path: []
+          Type: ""
+          CompositeModelProperties:
+            - DataType: ""
+              DataTypeSpec: ""
+              ExternalId: ""
+              LogicalId: ""
+              Name: ""
+              Unit: ""
+              Type:
+                TypeName: ""
+                Attribute:
+                  DefaultValue: ""
+                Metric:
+                  Expression: ""
+                  Variables:
+                    - Name: ""
+                      Value:
+                        HierarchyExternalId: ""
+                        HierarchyId: ""
+                        HierarchyLogicalId: ""
+                        PropertyExternalId: ""
+                        PropertyLogicalId: ""
+                        PropertyPath:
+                          - Name: ""
+                  Window:
+                    Tumbling:
+                      Interval: ""
+                      Offset: ""
+                Transform:
+                  Expression: ""
+                  Variables:
+                    - Name: ""
+                      Value:
+                        HierarchyExternalId: ""
+                        HierarchyId: ""
+                        HierarchyLogicalId: ""
+                        PropertyExternalId: ""
+                        PropertyLogicalId: ""
+                        PropertyPath:
+                          - Name: ""
+      AssetModelHierarchies:
+        - ChildAssetModelId: ""
+          ExternalId: ""
+          LogicalId: ""
+          Name: ""
+      AssetModelProperties:
+        - DataType: ""
+          DataTypeSpec: ""
+          ExternalId: ""
+          LogicalId: ""
+          Name: ""
+          Unit: ""
+          Type:
+            TypeName: ""
+            Attribute:
+              DefaultValue: ""
+            Metric:
+              Expression: ""
+              Variables:
+                - Name: ""
+                  Value:
+                    HierarchyExternalId: ""
+                    HierarchyId: ""
+                    HierarchyLogicalId: ""
+                    PropertyExternalId: ""
+                    PropertyLogicalId: ""
+                    PropertyPath:
+                      - Name: ""
+              Window:
+                Tumbling:
+                  Interval: ""
+                  Offset: ""
+            Transform:
+              Expression: ""
+              Variables:
+                - Name: ""
+                  Value:
+                    HierarchyExternalId: ""
+                    HierarchyId: ""
+                    HierarchyLogicalId: ""
+                    PropertyExternalId: ""
+                    PropertyLogicalId: ""
+                    PropertyPath:
+                      - Name: ""
+      EnforcedAssetModelInterfaceRelationships:
+        - InterfaceAssetModelId: ""
+          PropertyMappings:
+            - AssetModelPropertyExternalId: ""
+              AssetModelPropertyLogicalId: ""
+              InterfaceAssetModelPropertyExternalId: ""
+      Tags:
+        - Key: ""
+          Value: ""

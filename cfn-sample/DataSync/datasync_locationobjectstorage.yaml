@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationobjectstorage:
+    Type: AWS::DataSync::LocationObjectStorage
+    Properties:
+      AccessKey: ""
+      AgentArns: []
+      BucketName: ""
+      SecretKey: ""
+      ServerCertificate: ""
+      ServerHostname: ""
+      ServerPort: 0
+      ServerProtocol: ""
+      Subdirectory: ""
+      CmkSecretConfig:
+        KmsKeyArn: ""
+      CustomSecretConfig:
+        SecretAccessRoleArn: ""
+        SecretArn: ""
+      FederatedIdentity:
+        AwsIamRole: ""
+        ExternalIdentity:
+          GoogleOidc:
+            IdentityPoolName: ""
+            IdentityProviderName: ""
+            ProjectName: ""
+            ProjectNumber: ""
+      Tags:
+        - Key: ""
+          Value: ""

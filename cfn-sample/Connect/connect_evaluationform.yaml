@@ -1,0 +1,145 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectEvaluationform:
+    Type: AWS::Connect::EvaluationForm
+    Properties:
+      AIVersion: ""
+      Description: ""
+      InstanceArn: ""
+      Status: "DRAFT"
+      Title: ""
+      AutoEvaluationConfiguration:
+        Enabled: false
+      Items:
+        - Section:
+            Instructions: ""
+            IsExcludedFromScoring: false
+            RefId: ""
+            Title: ""
+            Weight: 0
+            Items:
+              - Question:
+                  Instructions: ""
+                  NotApplicableEnabled: false
+                  QuestionType: ""
+                  RefId: ""
+                  Title: ""
+                  Weight: 0
+                  Enablement:
+                    Action: ""
+                    DefaultAction: ""
+                    Condition:
+                      Operator: ""
+                      Operands:
+                        - Expression:
+                            Comparator: ""
+                            Source:
+                              RefId: ""
+                              Type: ""
+                            Values:
+                              - RefId: ""
+                                Type: ""
+                  MetricConfiguration:
+                    MetricName: ""
+                    MetricType: ""
+                  QuestionTypeProperties:
+                    MultiSelect:
+                      DisplayAs: ""
+                      Automation:
+                        DefaultOptionRefIds: []
+                        AnswerSource:
+                          SourceType: ""
+                        Options:
+                          - RuleCategory:
+                              Category: ""
+                              Condition: ""
+                              OptionRefIds: []
+                      Options:
+                        - AutomaticFail: false
+                          RefId: ""
+                          Score: 0
+                          Text: ""
+                          AutomaticFailConfiguration:
+                            TargetSection: ""
+                          PointsConfiguration:
+                            IsBonus: false
+                            PointValue: 0
+                    Numeric:
+                      MaxValue: 0
+                      MinValue: 0
+                      Automation:
+                        AnswerSource:
+                          SourceType: ""
+                        PropertyValue:
+                          Label: ""
+                      Options:
+                        - AutomaticFail: false
+                          MaxValue: 0
+                          MinValue: 0
+                          Score: 0
+                          AutomaticFailConfiguration:
+                            TargetSection: ""
+                          PointsConfiguration:
+                            IsBonus: false
+                            PointValue: 0
+                    SingleSelect:
+                      DisplayAs: ""
+                      Automation:
+                        DefaultOptionRefId: ""
+                        AnswerSource:
+                          SourceType: ""
+                        Options:
+                          - RuleCategory:
+                              Category: ""
+                              Condition: ""
+                              OptionRefId: ""
+                      Options:
+                        - AutomaticFail: false
+                          RefId: ""
+                          Score: 0
+                          Text: ""
+                          AutomaticFailConfiguration:
+                            TargetSection: ""
+                          PointsConfiguration:
+                            IsBonus: false
+                            PointValue: 0
+                    Text:
+                      Automation:
+                        AnswerSource:
+                          SourceType: ""
+                  ScoringConfiguration:
+                    IsExcludedFromScoring: false
+                    PointsConfiguration:
+                      IsBonus: false
+                      MaxPointValue: 0
+                      MinPointValue: 0
+                    ScoreThresholds:
+                      - MaxScorePercentage: 0
+                        MinScorePercentage: 0
+                        PerformanceCategory: ""
+                Section: {}
+            ScoreThresholds:
+              - MaxScorePercentage: 0
+                MinScorePercentage: 0
+                PerformanceCategory: ""
+      LanguageConfiguration:
+        FormLanguage: ""
+      ReviewConfiguration:
+        EligibilityDays: 0
+        ReviewNotificationRecipients:
+          - Type: ""
+            Value:
+              UserId: ""
+      ScoringStrategy:
+        Mode: ""
+        Status: ""
+        ScoreThresholds:
+          - MaxScorePercentage: 0
+            MinScorePercentage: 0
+            PerformanceCategory: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetConfiguration:
+        ContactInteractionType: ""

@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Route:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      ApiId: ""
+      ApiKeyRequired: false
+      AuthorizationScopes: []
+      AuthorizationType: ""
+      AuthorizerId: ""
+      ModelSelectionExpression: ""
+      OperationName: ""
+      RouteKey: ""
+      RouteResponseSelectionExpression: ""
+      Target: ""
+      RequestModels: {}
+      RequestParameters: {}

@@ -1,0 +1,74 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModelqualityjobdefinition:
+    Type: AWS::SageMaker::ModelQualityJobDefinition
+    Properties:
+      EndpointName: ""
+      JobDefinitionName: ""
+      RoleArn: ""
+      JobResources:
+        ClusterConfig:
+          InstanceCount: 0
+          InstanceType: ""
+          VolumeKmsKeyId: ""
+          VolumeSizeInGB: 0
+      ModelQualityAppSpecification:
+        ContainerArguments: []
+        ContainerEntrypoint: []
+        ImageUri: ""
+        PostAnalyticsProcessorSourceUri: ""
+        ProblemType: ""
+        RecordPreprocessorSourceUri: ""
+        Environment: {}
+      ModelQualityBaselineConfig:
+        BaseliningJobName: ""
+        ConstraintsResource:
+          S3Uri: ""
+      ModelQualityJobInput:
+        BatchTransformInput:
+          DataCapturedDestinationS3Uri: ""
+          EndTimeOffset: ""
+          InferenceAttribute: ""
+          LocalPath: ""
+          ProbabilityAttribute: ""
+          ProbabilityThresholdAttribute: 0
+          S3DataDistributionType: ""
+          S3InputMode: ""
+          StartTimeOffset: ""
+          DatasetFormat:
+            Parquet: false
+            Csv:
+              Header: false
+            Json:
+              Line: false
+        EndpointInput:
+          EndTimeOffset: ""
+          EndpointName: ""
+          InferenceAttribute: ""
+          LocalPath: ""
+          ProbabilityAttribute: ""
+          ProbabilityThresholdAttribute: 0
+          S3DataDistributionType: ""
+          S3InputMode: ""
+          StartTimeOffset: ""
+        GroundTruthS3Input:
+          S3Uri: ""
+      ModelQualityJobOutputConfig:
+        KmsKeyId: ""
+        MonitoringOutputs:
+          - S3Output:
+              LocalPath: ""
+              S3UploadMode: ""
+              S3Uri: ""
+      NetworkConfig:
+        EnableInterContainerTrafficEncryption: false
+        EnableNetworkIsolation: false
+        VpcConfig:
+          SecurityGroupIds: []
+          Subnets: []
+      StoppingCondition:
+        MaxRuntimeInSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""

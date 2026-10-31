@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpcpeeringconnection:
+    Type: AWS::EC2::VPCPeeringConnection
+    Properties:
+      AssumeRoleRegion: ""
+      PeerOwnerId: ""
+      PeerRegion: ""
+      PeerRoleArn: ""
+      PeerVpcId: ""
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

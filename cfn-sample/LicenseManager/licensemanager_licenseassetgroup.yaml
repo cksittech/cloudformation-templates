@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLicensemanagerLicenseassetgroup:
+    Type: AWS::LicenseManager::LicenseAssetGroup
+    Properties:
+      AssociatedLicenseAssetRulesetARNs: []
+      Description: ""
+      Name: ""
+      LicenseAssetGroupConfigurations:
+        - UsageDimension: ""
+      Properties:
+        - Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

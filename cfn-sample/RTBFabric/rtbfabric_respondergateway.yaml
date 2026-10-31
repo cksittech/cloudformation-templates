@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRtbfabricRespondergateway:
+    Type: AWS::RTBFabric::ResponderGateway
+    Properties:
+      AcmCertificateArn: ""
+      Description: ""
+      DomainName: ""
+      GatewayType: ""
+      Port: 0
+      Protocol: ""
+      SecurityGroupIds: []
+      SubnetIds: []
+      VpcId: ""
+      ListenerConfig:
+        Protocols: []
+      ManagedEndpointConfiguration:
+        AutoScalingGroupsConfiguration:
+          AutoScalingGroupNameList: []
+          RoleArn: ""
+          HealthCheckConfig:
+            HealthyThresholdCount: 0
+            IntervalSeconds: 0
+            Path: ""
+            Port: 0
+            Protocol: ""
+            StatusCodeMatcher: ""
+            TimeoutMs: 0
+            UnhealthyThresholdCount: 0
+        EksEndpointsConfiguration:
+          ClusterApiServerCaCertificateChain: ""
+          ClusterApiServerEndpointUri: ""
+          ClusterName: ""
+          EndpointsResourceName: ""
+          EndpointsResourceNamespace: ""
+          RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TrustStoreConfiguration:
+        CertificateAuthorityCertificates: []

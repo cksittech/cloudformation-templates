@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsCollaboration:
+    Type: AWS::CleanRooms::Collaboration
+    Properties:
+      AllowedResultRegions: []
+      AnalyticsEngine: ""
+      AutoApprovedChangeTypes: []
+      CreatorDisplayName: ""
+      CreatorMemberAbilities: []
+      Description: ""
+      IsMetricsEnabled: false
+      JobLogStatus: ""
+      Name: ""
+      QueryLogStatus: ""
+      CreatorMLMemberAbilities:
+        CustomMLMemberAbilities: []
+      CreatorPaymentConfiguration:
+        JobCompute:
+          IsResponsible: false
+        MachineLearning:
+          ModelInference:
+            IsResponsible: false
+          ModelTraining:
+            IsResponsible: false
+          SyntheticDataGeneration:
+            IsResponsible: false
+        QueryCompute:
+          IsResponsible: false
+      DataEncryptionMetadata:
+        AllowCleartext: false
+        AllowDuplicates: false
+        AllowJoinsOnColumnsWithDifferentNames: false
+        PreserveNulls: false
+      Members:
+        - AccountId: ""
+          DisplayName: ""
+          MemberAbilities: []
+          MLMemberAbilities:
+            CustomMLMemberAbilities: []
+          PaymentConfiguration:
+            JobCompute:
+              IsResponsible: false
+            MachineLearning:
+              ModelInference:
+                IsResponsible: false
+              ModelTraining:
+                IsResponsible: false
+              SyntheticDataGeneration:
+                IsResponsible: false
+            QueryCompute:
+              IsResponsible: false
+      Tags:
+        - Key: ""
+          Value: ""

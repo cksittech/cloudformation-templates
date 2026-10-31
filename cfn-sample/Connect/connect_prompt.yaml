@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectPrompt:
+    Type: AWS::Connect::Prompt
+    Properties:
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      S3Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""

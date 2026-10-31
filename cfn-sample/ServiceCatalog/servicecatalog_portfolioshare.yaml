@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogPortfolioshare:
+    Type: AWS::ServiceCatalog::PortfolioShare
+    Properties:
+      AcceptLanguage: ""
+      AccountId: ""
+      PortfolioId: ""
+      ShareTagOptions: false

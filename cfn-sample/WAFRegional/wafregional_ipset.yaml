@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafregionalIpset:
+    Type: AWS::WAFRegional::IPSet
+    Properties:
+      Name: ""
+      IPSetDescriptors:
+        - Type: ""
+          Value: ""

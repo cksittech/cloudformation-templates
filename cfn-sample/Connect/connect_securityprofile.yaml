@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectSecurityprofile:
+    Type: AWS::Connect::SecurityProfile
+    Properties:
+      AllowedAccessControlHierarchyGroupId: ""
+      Description: ""
+      HierarchyRestrictedResources: []
+      InstanceArn: ""
+      Permissions: []
+      SecurityProfileName: ""
+      TagRestrictedResources: []
+      AllowedAccessControlTags:
+        - Key: ""
+          Value: ""
+      AllowedFlowModules:
+        - FlowModuleId: ""
+          Type: ""
+      Applications:
+        - ApplicationPermissions: []
+          Namespace: ""
+          Type: ""
+      GranularAccessControlConfiguration:
+        DataTableAccessControlConfiguration:
+          PrimaryAttributeAccessControlConfiguration:
+            PrimaryAttributeValues:
+              - AccessType: ""
+                AttributeName: ""
+                Values: []
+      Tags:
+        - Key: ""
+          Value: ""

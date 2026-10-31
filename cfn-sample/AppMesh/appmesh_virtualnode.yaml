@@ -1,0 +1,156 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshVirtualnode:
+    Type: AWS::AppMesh::VirtualNode
+    Properties:
+      MeshName: ""
+      MeshOwner: ""
+      VirtualNodeName: ""
+      Spec:
+        BackendDefaults:
+          ClientPolicy:
+            TLS:
+              Enforce: false
+              Ports: []
+              Certificate:
+                File:
+                  CertificateChain: ""
+                  PrivateKey: ""
+                SDS:
+                  SecretName: ""
+              Validation:
+                SubjectAlternativeNames:
+                  Match:
+                    Exact: []
+                Trust:
+                  ACM:
+                    CertificateAuthorityArns: []
+                  File:
+                    CertificateChain: ""
+                  SDS:
+                    SecretName: ""
+        Backends:
+          - VirtualService:
+              VirtualServiceName: ""
+              ClientPolicy:
+                TLS:
+                  Enforce: false
+                  Ports: []
+                  Certificate:
+                    File:
+                      CertificateChain: ""
+                      PrivateKey: ""
+                    SDS:
+                      SecretName: ""
+                  Validation:
+                    SubjectAlternativeNames:
+                      Match:
+                        Exact: []
+                    Trust:
+                      ACM:
+                        CertificateAuthorityArns: []
+                      File:
+                        CertificateChain: ""
+                      SDS:
+                        SecretName: ""
+        Listeners:
+          - ConnectionPool:
+              GRPC:
+                MaxRequests: 0
+              HTTP:
+                MaxConnections: 0
+                MaxPendingRequests: 0
+              HTTP2:
+                MaxRequests: 0
+              TCP:
+                MaxConnections: 0
+            HealthCheck:
+              HealthyThreshold: 0
+              IntervalMillis: 0
+              Path: ""
+              Port: 0
+              Protocol: ""
+              TimeoutMillis: 0
+              UnhealthyThreshold: 0
+            OutlierDetection:
+              MaxEjectionPercent: 0
+              MaxServerErrors: 0
+              BaseEjectionDuration:
+                Unit: ""
+                Value: 0
+              Interval:
+                Unit: ""
+                Value: 0
+            PortMapping:
+              Port: 0
+              Protocol: ""
+            TLS:
+              Mode: ""
+              Certificate:
+                ACM:
+                  CertificateArn: ""
+                File:
+                  CertificateChain: ""
+                  PrivateKey: ""
+                SDS:
+                  SecretName: ""
+              Validation:
+                SubjectAlternativeNames:
+                  Match:
+                    Exact: []
+                Trust:
+                  File:
+                    CertificateChain: ""
+                  SDS:
+                    SecretName: ""
+            Timeout:
+              GRPC:
+                Idle:
+                  Unit: ""
+                  Value: 0
+                PerRequest:
+                  Unit: ""
+                  Value: 0
+              HTTP:
+                Idle:
+                  Unit: ""
+                  Value: 0
+                PerRequest:
+                  Unit: ""
+                  Value: 0
+              HTTP2:
+                Idle:
+                  Unit: ""
+                  Value: 0
+                PerRequest:
+                  Unit: ""
+                  Value: 0
+              TCP:
+                Idle:
+                  Unit: ""
+                  Value: 0
+        Logging:
+          AccessLog:
+            File:
+              Path: ""
+              Format:
+                Text: ""
+                Json:
+                  - Key: ""
+                    Value: ""
+        ServiceDiscovery:
+          AWSCloudMap:
+            IpPreference: ""
+            NamespaceName: ""
+            ServiceName: ""
+            Attributes:
+              - Key: ""
+                Value: ""
+          DNS:
+            Hostname: ""
+            IpPreference: ""
+            ResponseType: ""
+      Tags:
+        - Key: ""
+          Value: ""

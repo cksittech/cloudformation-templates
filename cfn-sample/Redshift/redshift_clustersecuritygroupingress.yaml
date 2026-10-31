@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftClustersecuritygroupingress:
+    Type: AWS::Redshift::ClusterSecurityGroupIngress
+    Properties:
+      CIDRIP: ""
+      ClusterSecurityGroupName: ""
+      EC2SecurityGroupName: ""
+      EC2SecurityGroupOwnerId: ""

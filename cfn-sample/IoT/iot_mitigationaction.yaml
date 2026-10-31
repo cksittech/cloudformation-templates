@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotMitigationaction:
+    Type: AWS::IoT::MitigationAction
+    Properties:
+      ActionName: ""
+      RoleArn: ""
+      ActionParams:
+        AddThingsToThingGroupParams:
+          OverrideDynamicGroups: false
+          ThingGroupNames: []
+        EnableIoTLoggingParams:
+          LogLevel: ""
+          RoleArnForLogging: ""
+        PublishFindingToSnsParams:
+          TopicArn: ""
+        ReplaceDefaultPolicyVersionParams:
+          TemplateName: ""
+        UpdateCACertificateParams:
+          Action: ""
+        UpdateDeviceCertificateParams:
+          Action: ""
+      Tags:
+        - Key: ""
+          Value: ""

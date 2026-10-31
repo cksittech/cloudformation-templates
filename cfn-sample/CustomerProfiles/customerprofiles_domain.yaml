@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesDomain:
+    Type: AWS::CustomerProfiles::Domain
+    Properties:
+      DeadLetterQueueUrl: ""
+      DefaultEncryptionKey: ""
+      DefaultExpirationDays: 0
+      DomainName: ""
+      DataStore:
+        Enabled: false
+      Matching:
+        Enabled: false
+        AutoMerging:
+          Enabled: false
+          MinAllowedConfidenceScoreForMerging: 0
+          ConflictResolution:
+            ConflictResolvingModel: ""
+            SourceName: ""
+          Consolidation:
+            MatchingAttributesList: []
+        ExportingConfig:
+          S3Exporting:
+            S3BucketName: ""
+            S3KeyName: ""
+        JobSchedule:
+          DayOfTheWeek: ""
+          Time: ""
+      RuleBasedMatching:
+        Enabled: false
+        MaxAllowedRuleLevelForMatching: 0
+        MaxAllowedRuleLevelForMerging: 0
+        AttributeTypesSelector:
+          Address: []
+          AttributeMatchingModel: ""
+          EmailAddress: []
+          PhoneNumber: []
+        ConflictResolution:
+          ConflictResolvingModel: ""
+          SourceName: ""
+        ExportingConfig:
+          S3Exporting:
+            S3BucketName: ""
+            S3KeyName: ""
+        MatchingRules:
+          - Rule: []
+      Tags:
+        - Key: ""
+          Value: ""

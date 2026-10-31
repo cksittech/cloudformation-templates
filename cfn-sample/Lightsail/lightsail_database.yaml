@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailDatabase:
+    Type: AWS::Lightsail::Database
+    Properties:
+      AvailabilityZone: ""
+      BackupRetention: false
+      CaCertificateIdentifier: ""
+      MasterDatabaseName: ""
+      MasterUserPassword: ""
+      MasterUsername: ""
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      RelationalDatabaseBlueprintId: ""
+      RelationalDatabaseBundleId: ""
+      RelationalDatabaseName: ""
+      RotateMasterUserPassword: false
+      RelationalDatabaseParameters:
+        - AllowedValues: ""
+          ApplyMethod: ""
+          ApplyType: ""
+          DataType: ""
+          Description: ""
+          IsModifiable: false
+          ParameterName: ""
+          ParameterValue: ""
+      Tags:
+        - Key: ""
+          Value: ""

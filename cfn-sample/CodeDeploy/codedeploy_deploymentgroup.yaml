@@ -1,0 +1,91 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodedeployDeploymentgroup:
+    Type: AWS::CodeDeploy::DeploymentGroup
+    Properties:
+      ApplicationName: ""
+      AutoScalingGroups: []
+      DeploymentConfigName: ""
+      DeploymentGroupName: ""
+      OutdatedInstancesStrategy: ""
+      ServiceRoleArn: ""
+      TerminationHookEnabled: false
+      AlarmConfiguration:
+        Enabled: false
+        IgnorePollAlarmFailure: false
+        Alarms:
+          - Name: ""
+      AutoRollbackConfiguration:
+        Enabled: false
+        Events: []
+      BlueGreenDeploymentConfiguration:
+        DeploymentReadyOption:
+          ActionOnTimeout: ""
+          WaitTimeInMinutes: 0
+        GreenFleetProvisioningOption:
+          Action: ""
+        TerminateBlueInstancesOnDeploymentSuccess:
+          Action: ""
+          TerminationWaitTimeInMinutes: 0
+      Deployment:
+        Description: ""
+        IgnoreApplicationStopFailures: false
+        Revision:
+          RevisionType: ""
+          GitHubLocation:
+            CommitId: ""
+            Repository: ""
+          S3Location:
+            Bucket: ""
+            BundleType: ""
+            ETag: ""
+            Key: ""
+            Version: ""
+      DeploymentStyle:
+        DeploymentOption: ""
+        DeploymentType: ""
+      ECSServices:
+        - ClusterName: ""
+          ServiceName: ""
+      Ec2DeploymentOptions:
+        AutoScalingGroupProcessesToSuspend: []
+      Ec2TagFilters:
+        - Key: ""
+          Type: ""
+          Value: ""
+      Ec2TagSet:
+        Ec2TagSetList:
+          - Ec2TagGroup:
+              - Key: ""
+                Type: ""
+                Value: ""
+      LoadBalancerInfo:
+        ElbInfoList:
+          - Name: ""
+        TargetGroupInfoList:
+          - Name: ""
+        TargetGroupPairInfoList:
+          - ProdTrafficRoute:
+              ListenerArns: []
+            TargetGroups:
+              - Name: ""
+            TestTrafficRoute:
+              ListenerArns: []
+      OnPremisesInstanceTagFilters:
+        - Key: ""
+          Type: ""
+          Value: ""
+      OnPremisesTagSet:
+        OnPremisesTagSetList:
+          - OnPremisesTagGroup:
+              - Key: ""
+                Type: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TriggerConfigurations:
+        - TriggerEvents: []
+          TriggerName: ""
+          TriggerTargetArn: ""

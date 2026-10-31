@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpooluser:
+    Type: AWS::Cognito::UserPoolUser
+    Properties:
+      DesiredDeliveryMediums: []
+      ForceAliasCreation: false
+      MessageAction: ""
+      UserPoolId: ""
+      Username: ""
+      ClientMetadata: {}
+      UserAttributes:
+        - Name: ""
+          Value: ""
+      ValidationData:
+        - Name: ""
+          Value: ""

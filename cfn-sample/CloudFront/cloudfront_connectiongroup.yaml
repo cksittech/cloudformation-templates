@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontConnectiongroup:
+    Type: AWS::CloudFront::ConnectionGroup
+    Properties:
+      AnycastIpListId: ""
+      Enabled: false
+      Ipv6Enabled: false
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

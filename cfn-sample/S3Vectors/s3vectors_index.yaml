@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3vectorsIndex:
+    Type: AWS::S3Vectors::Index
+    Properties:
+      DataType: ""
+      Dimension: 0
+      DistanceMetric: ""
+      IndexName: ""
+      VectorBucketArn: ""
+      VectorBucketName: ""
+      EncryptionConfiguration:
+        KmsKeyArn: ""
+        SseType: ""
+      MetadataConfiguration:
+        NonFilterableMetadataKeys: []
+      Tags:
+        - Key: ""
+          Value: ""

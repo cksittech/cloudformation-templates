@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewaypolicytable:
+    Type: AWS::EC2::TransitGatewayPolicyTable
+    Properties:
+      TransitGatewayId: ""
+      Tags:
+        - Key: ""
+          Value: ""

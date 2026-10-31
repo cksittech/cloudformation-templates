@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamUser:
+    Type: AWS::IAM::User
+    Properties:
+      Groups: []
+      ManagedPolicyArns: []
+      Path: ""
+      PermissionsBoundary: ""
+      UserName: ""
+      LoginProfile:
+        Password: ""
+        PasswordResetRequired: false
+      Policies:
+        - PolicyName: ""
+          PolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

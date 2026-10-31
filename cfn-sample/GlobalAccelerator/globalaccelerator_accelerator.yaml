@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlobalacceleratorAccelerator:
+    Type: AWS::GlobalAccelerator::Accelerator
+    Properties:
+      Enabled: true
+      FlowLogsEnabled: false
+      FlowLogsS3Bucket: ""
+      FlowLogsS3Prefix: ""
+      IpAddressType: "IPV4"
+      IpAddresses: []
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

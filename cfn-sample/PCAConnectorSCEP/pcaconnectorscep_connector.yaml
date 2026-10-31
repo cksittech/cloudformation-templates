@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcaconnectorscepConnector:
+    Type: AWS::PCAConnectorSCEP::Connector
+    Properties:
+      CertificateAuthorityArn: ""
+      VpcEndpointId: ""
+      MobileDeviceManagement:
+        Intune:
+          AzureApplicationId: ""
+          Domain: ""
+      Tags: {}

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEfsAccesspoint:
+    Type: AWS::EFS::AccessPoint
+    Properties:
+      ClientToken: ""
+      FileSystemId: ""
+      AccessPointTags:
+        - Key: ""
+          Value: ""
+      PosixUser:
+        Gid: ""
+        SecondaryGids: []
+        Uid: ""
+      RootDirectory:
+        Path: ""
+        CreationInfo:
+          OwnerGid: ""
+          OwnerUid: ""
+          Permissions: ""

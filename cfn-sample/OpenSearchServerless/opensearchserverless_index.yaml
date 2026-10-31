@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessIndex:
+    Type: AWS::OpenSearchServerless::Index
+    Properties:
+      CollectionEndpoint: ""
+      IndexName: ""
+      Mappings:
+        Properties: {}
+      Settings:
+        Analysis:
+          Analyzer: {}
+        Index:
+          Knn: false
+          KnnAlgoParamEfSearch: 0
+          RefreshInterval: ""

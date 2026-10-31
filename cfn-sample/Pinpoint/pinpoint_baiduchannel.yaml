@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointBaiduchannel:
+    Type: AWS::Pinpoint::BaiduChannel
+    Properties:
+      ApiKey: ""
+      ApplicationId: ""
+      Enabled: false
+      SecretKey: ""

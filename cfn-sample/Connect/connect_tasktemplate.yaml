@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectTasktemplate:
+    Type: AWS::Connect::TaskTemplate
+    Properties:
+      ClientToken: ""
+      ContactFlowArn: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      SelfAssignContactFlowArn: ""
+      Status: ""
+      Constraints:
+        InvisibleFields:
+          - Id:
+              Name: ""
+        ReadOnlyFields:
+          - Id:
+              Name: ""
+        RequiredFields:
+          - Id:
+              Name: ""
+      Defaults:
+        - DefaultValue: ""
+          Id:
+            Name: ""
+      Fields:
+        - Description: ""
+          SingleSelectOptions: []
+          Type: ""
+          Id:
+            Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

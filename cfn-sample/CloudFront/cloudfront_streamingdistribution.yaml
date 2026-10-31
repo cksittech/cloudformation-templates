@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontStreamingdistribution:
+    Type: AWS::CloudFront::StreamingDistribution
+    Properties:
+      StreamingDistributionConfig:
+        Aliases: []
+        Comment: ""
+        Enabled: false
+        PriceClass: ""
+        Logging:
+          Bucket: ""
+          Enabled: false
+          Prefix: ""
+        S3Origin:
+          DomainName: ""
+          OriginAccessIdentity: ""
+        TrustedSigners:
+          AwsAccountNumbers: []
+          Enabled: false
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCasesTemplate:
+    Type: AWS::Cases::Template
+    Properties:
+      Description: ""
+      DomainId: ""
+      Name: ""
+      Status: ""
+      LayoutConfiguration:
+        DefaultLayout: ""
+      RequiredFields:
+        - FieldId: ""
+      Rules:
+        - CaseRuleId: ""
+          FieldId: ""
+      Tags:
+        - Key: ""
+          Value: ""

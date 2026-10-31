@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Clientvpntargetnetworkassociation:
+    Type: AWS::EC2::ClientVpnTargetNetworkAssociation
+    Properties:
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      ClientVpnEndpointId: ""
+      SubnetId: ""

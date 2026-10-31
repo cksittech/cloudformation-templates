@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksPodidentityassociation:
+    Type: AWS::EKS::PodIdentityAssociation
+    Properties:
+      ClusterName: ""
+      DisableSessionTags: false
+      Namespace: ""
+      Policy: ""
+      RoleArn: ""
+      ServiceAccount: ""
+      TargetRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

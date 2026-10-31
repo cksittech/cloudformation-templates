@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectTestcase:
+    Type: AWS::Connect::TestCase
+    Properties:
+      Content: ""
+      Description: ""
+      InitializationData: ""
+      InstanceArn: ""
+      Name: ""
+      Status: ""
+      EntryPoint:
+        Type: ""
+        ChatEntryPointParameters:
+          FlowId: ""
+        VoiceCallEntryPointParameters:
+          DestinationPhoneNumber: ""
+          FlowId: ""
+          SourcePhoneNumber: ""
+      Tags:
+        - Key: ""
+          Value: ""

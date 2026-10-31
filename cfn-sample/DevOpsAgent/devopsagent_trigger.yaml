@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentTrigger:
+    Type: AWS::DevOpsAgent::Trigger
+    Properties:
+      AgentSpaceId: ""
+      Status: "Active"
+      Type: ""
+      Action: {}
+      Condition:
+        Schedule:
+          Expression: ""

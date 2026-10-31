@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotCommand:
+    Type: AWS::IoT::Command
+    Properties:
+      CommandId: ""
+      CreatedAt: ""
+      Deprecated: false
+      Description: ""
+      DisplayName: ""
+      LastUpdatedAt: ""
+      Namespace: ""
+      PayloadTemplate: ""
+      PendingDeletion: false
+      RoleArn: ""
+      MandatoryParameters:
+        - Description: ""
+          Name: ""
+          Type: ""
+          DefaultValue:
+            B: false
+            BIN: ""
+            D: 0
+            I: 0
+            L: ""
+            S: ""
+            UL: ""
+          Value:
+            B: false
+            BIN: ""
+            D: 0
+            I: 0
+            L: ""
+            S: ""
+            UL: ""
+          ValueConditions:
+            - ComparisonOperator: ""
+              Operand:
+                Number: ""
+                Numbers: []
+                String: ""
+                Strings: []
+                NumberRange:
+                  Max: ""
+                  Min: ""
+      Payload:
+        Content: ""
+        ContentType: ""
+      Preprocessor:
+        AwsJsonSubstitution:
+          OutputFormat: ""
+      Tags:
+        - Key: ""
+          Value: ""

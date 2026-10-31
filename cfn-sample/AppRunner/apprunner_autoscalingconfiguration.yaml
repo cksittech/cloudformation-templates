@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApprunnerAutoscalingconfiguration:
+    Type: AWS::AppRunner::AutoScalingConfiguration
+    Properties:
+      AutoScalingConfigurationName: ""
+      MaxConcurrency: 0
+      MaxSize: 0
+      MinSize: 0
+      Tags:
+        - Key: ""
+          Value: ""

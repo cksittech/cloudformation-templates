@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubConnectorv2:
+    Type: AWS::SecurityHub::ConnectorV2
+    Properties:
+      Description: ""
+      KmsKeyArn: ""
+      Name: ""
+      Provider:
+        Azure:
+          AWSConfigConnectorArn: ""
+          AzureRegions: []
+          ScopeConfiguration:
+            ScopeType: ""
+            ScopeValues: []
+        JiraCloud:
+          ProjectKey: ""
+        ServiceNow:
+          InstanceName: ""
+          SecretArn: ""
+      Tags: {}

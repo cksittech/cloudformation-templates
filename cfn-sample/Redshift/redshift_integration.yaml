@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftIntegration:
+    Type: AWS::Redshift::Integration
+    Properties:
+      IntegrationName: ""
+      KMSKeyId: ""
+      SourceArn: ""
+      TargetArn: ""
+      AdditionalEncryptionContext: {}
+      Tags:
+        - Key: ""
+          Value: ""

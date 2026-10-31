@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleStoragegatewayTapepool:
+    Type: AWS::StorageGateway::TapePool
+    Properties:
+      PoolName: ""
+      RetentionLockTimeInDays: 0
+      RetentionLockType: ""
+      StorageClass: ""
+      Tags:
+        - Key: ""
+          Value: ""

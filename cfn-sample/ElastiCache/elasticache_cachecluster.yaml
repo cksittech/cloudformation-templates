@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheCachecluster:
+    Type: AWS::ElastiCache::CacheCluster
+    Properties:
+      AZMode: ""
+      AutoMinorVersionUpgrade: false
+      CacheNodeType: ""
+      CacheParameterGroupName: ""
+      CacheSubnetGroupName: ""
+      ClusterName: ""
+      Engine: ""
+      EngineVersion: ""
+      IpDiscovery: ""
+      NetworkType: ""
+      NotificationTopicArn: ""
+      NumCacheNodes: 0
+      Port: 0
+      PreferredAvailabilityZone: ""
+      PreferredAvailabilityZones: []
+      PreferredMaintenanceWindow: ""
+      SnapshotArns: []
+      SnapshotName: ""
+      SnapshotRetentionLimit: 0
+      SnapshotWindow: ""
+      TransitEncryptionEnabled: false
+      VpcSecurityGroupIds: []
+      LogDeliveryConfigurations:
+        - DestinationType: ""
+          LogFormat: ""
+          LogType: ""
+          DestinationDetails:
+            CloudWatchLogsDetails:
+              LogGroup: ""
+            KinesisFirehoseDetails:
+              DeliveryStream: ""
+      Tags:
+        - Key: ""
+          Value: ""

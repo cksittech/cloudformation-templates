@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayGatewayresponse:
+    Type: AWS::ApiGateway::GatewayResponse
+    Properties:
+      ResponseType: ""
+      RestApiId: ""
+      StatusCode: ""
+      ResponseParameters: {}
+      ResponseTemplates: {}

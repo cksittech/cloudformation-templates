@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Accesspoint:
+    Type: AWS::S3::AccessPoint
+    Properties:
+      Bucket: ""
+      BucketAccountId: ""
+      Name: ""
+      Policy: {}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfiguration:
+        VpcId: ""

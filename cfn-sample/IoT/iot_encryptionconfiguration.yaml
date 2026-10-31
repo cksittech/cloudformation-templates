@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotEncryptionconfiguration:
+    Type: AWS::IoT::EncryptionConfiguration
+    Properties:
+      EncryptionType: ""
+      KmsAccessRoleArn: ""
+      KmsKeyArn: ""

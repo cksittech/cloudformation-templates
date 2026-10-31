@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrStudio:
+    Type: AWS::EMR::Studio
+    Properties:
+      AuthMode: ""
+      DefaultS3Location: ""
+      Description: ""
+      EncryptionKeyArn: ""
+      EngineSecurityGroupId: ""
+      IdcInstanceArn: ""
+      IdcUserAssignment: ""
+      IdpAuthUrl: ""
+      IdpRelayStateParameterName: ""
+      Name: ""
+      ServiceRole: ""
+      SubnetIds: []
+      TrustedIdentityPropagationEnabled: false
+      UserRole: ""
+      VpcId: ""
+      WorkspaceSecurityGroupId: ""
+      Tags:
+        - Key: ""
+          Value: ""

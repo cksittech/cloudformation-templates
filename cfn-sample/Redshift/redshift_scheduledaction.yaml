@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftScheduledaction:
+    Type: AWS::Redshift::ScheduledAction
+    Properties:
+      Enable: false
+      EndTime: ""
+      IamRole: ""
+      Schedule: ""
+      ScheduledActionDescription: ""
+      ScheduledActionName: ""
+      StartTime: ""
+      TargetAction:
+        PauseCluster:
+          ClusterIdentifier: ""
+        ResizeCluster:
+          Classic: false
+          ClusterIdentifier: ""
+          ClusterType: ""
+          NodeType: ""
+          NumberOfNodes: 0
+        ResumeCluster:
+          ClusterIdentifier: ""

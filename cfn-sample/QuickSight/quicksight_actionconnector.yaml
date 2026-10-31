@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightActionconnector:
+    Type: AWS::QuickSight::ActionConnector
+    Properties:
+      ActionConnectorId: ""
+      AwsAccountId: ""
+      Description: ""
+      Name: ""
+      Type: ""
+      VpcConnectionArn: ""
+      AuthenticationConfig:
+        AuthenticationType: ""
+        AuthenticationMetadata:
+          ApiKeyConnectionMetadata:
+            ApiKey: ""
+            BaseEndpoint: ""
+            Email: ""
+          AuthorizationCodeGrantMetadata:
+            AuthorizationCodeGrantCredentialsSource: ""
+            BaseEndpoint: ""
+            RedirectUrl: ""
+            AuthorizationCodeGrantCredentialsDetails:
+              AuthorizationCodeGrantDetails:
+                AuthorizationEndpoint: ""
+                ClientId: ""
+                ClientSecret: ""
+                TokenEndpoint: ""
+          BasicAuthConnectionMetadata:
+            BaseEndpoint: ""
+            Password: ""
+            Username: ""
+          ClientCredentialsGrantMetadata:
+            BaseEndpoint: ""
+            ClientCredentialsSource: ""
+            ClientCredentialsDetails:
+              ClientCredentialsGrantDetails:
+                ClientId: ""
+                ClientSecret: ""
+                TokenEndpoint: ""
+          IamConnectionMetadata:
+            RoleArn: ""
+          NoneConnectionMetadata:
+            BaseEndpoint: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineQueue:
+    Type: AWS::Deadline::Queue
+    Properties:
+      AllowedStorageProfileIds: []
+      DefaultBudgetAction: "NONE"
+      Description: ""
+      DisplayName: ""
+      FarmId: ""
+      RequiredFileSystemLocationNames: []
+      RoleArn: ""
+      JobAttachmentSettings:
+        RootPrefix: ""
+        S3BucketName: ""
+      JobRunAsUser:
+        RunAs: ""
+        Posix:
+          Group: ""
+          User: ""
+        Windows:
+          PasswordArn: ""
+          User: ""
+      SchedulingConfiguration:
+        PriorityBalanced:
+          RenderingTaskBuffer: 1
+        PriorityFifo: {}
+        WeightedBalanced:
+          ErrorWeight: -10.0
+          PriorityWeight: 100.0
+          RenderingTaskBuffer: 1
+          RenderingTaskWeight: -100.0
+          SubmissionTimeWeight: 3.0
+          MaxPriorityOverride:
+            AlwaysScheduleFirst: {}
+          MinPriorityOverride:
+            AlwaysScheduleLast: {}
+      Tags:
+        - Key: ""
+          Value: ""

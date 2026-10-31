@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheServerlesscache:
+    Type: AWS::ElastiCache::ServerlessCache
+    Properties:
+      ConnectionType: ""
+      DailySnapshotTime: ""
+      Description: ""
+      Engine: ""
+      FinalSnapshotName: ""
+      KmsKeyId: ""
+      MajorEngineVersion: ""
+      NetworkType: ""
+      SecurityGroupIds: []
+      ServerlessCacheName: ""
+      SnapshotArnsToRestore: []
+      SnapshotRetentionLimit: 0
+      SubnetIds: []
+      UserGroupId: ""
+      CacheUsageLimits:
+        DataStorage:
+          Maximum: 0
+          Minimum: 0
+          Unit: ""
+        ECPUPerSecond:
+          Maximum: 0
+          Minimum: 0
+      Endpoint: {}
+      ReaderEndpoint: {}
+      Tags:
+        - Key: ""
+          Value: ""

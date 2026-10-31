@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmquicksetupLifecycleautomation:
+    Type: AWS::SSMQuickSetup::LifecycleAutomation
+    Properties:
+      AutomationDocument: ""
+      ResourceKey: ""
+      AutomationParameters: {}
+      Tags: {}

@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectBridge:
+    Type: AWS::MediaConnect::Bridge
+    Properties:
+      Name: ""
+      PlacementArn: ""
+      EgressGatewayBridge:
+        MaxBitrate: 0
+      IngressGatewayBridge:
+        MaxBitrate: 0
+        MaxOutputs: 0
+      Outputs:
+        - NetworkOutput:
+            IpAddress: ""
+            Name: ""
+            NetworkName: ""
+            Port: 0
+            Protocol: ""
+            Ttl: 0
+      SourceFailoverConfig:
+        FailoverMode: ""
+        State: ""
+        SourcePriority:
+          PrimarySource: ""
+      Sources:
+        - FlowSource:
+            FlowArn: ""
+            Name: ""
+            FlowVpcInterfaceAttachment:
+              VpcInterfaceName: ""
+          NetworkSource:
+            MulticastIp: ""
+            Name: ""
+            NetworkName: ""
+            Port: 0
+            Protocol: ""
+            MulticastSourceSettings:
+              MulticastSourceIp: ""

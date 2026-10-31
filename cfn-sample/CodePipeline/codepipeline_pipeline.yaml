@@ -1,0 +1,137 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodepipelinePipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      ExecutionMode: "SUPERSEDED"
+      Name: ""
+      PipelineType: ""
+      RestartExecutionOnUpdate: false
+      RoleArn: ""
+      ArtifactStore:
+        Location: ""
+        Type: ""
+        EncryptionKey:
+          Id: ""
+          Type: ""
+      ArtifactStores:
+        - Region: ""
+          ArtifactStore:
+            Location: ""
+            Type: ""
+            EncryptionKey:
+              Id: ""
+              Type: ""
+      DisableInboundStageTransitions:
+        - Reason: ""
+          StageName: ""
+      Stages:
+        - Name: ""
+          Actions:
+            - Commands: []
+              Name: ""
+              Namespace: ""
+              OutputVariables: []
+              Region: ""
+              RoleArn: ""
+              RunOrder: 0
+              TimeoutInMinutes: 0
+              ActionTypeId:
+                Category: ""
+                Owner: ""
+                Provider: ""
+                Version: ""
+              Configuration: {}
+              EnvironmentVariables:
+                - Name: ""
+                  Type: ""
+                  Value: ""
+              InputArtifacts:
+                - Name: ""
+              OutputArtifacts:
+                - Files: []
+                  Name: ""
+          BeforeEntry:
+            Conditions:
+              - Result: ""
+                Rules:
+                  - Commands: []
+                    Name: ""
+                    Region: ""
+                    RoleArn: ""
+                    Configuration: {}
+                    InputArtifacts:
+                      - Name: ""
+                    RuleTypeId:
+                      Category: ""
+                      Owner: ""
+                      Provider: ""
+                      Version: ""
+          Blockers:
+            - Name: ""
+              Type: ""
+          OnFailure:
+            Result: ""
+            Conditions:
+              - Result: ""
+                Rules:
+                  - Commands: []
+                    Name: ""
+                    Region: ""
+                    RoleArn: ""
+                    Configuration: {}
+                    InputArtifacts:
+                      - Name: ""
+                    RuleTypeId:
+                      Category: ""
+                      Owner: ""
+                      Provider: ""
+                      Version: ""
+            RetryConfiguration:
+              RetryMode: ""
+          OnSuccess:
+            Conditions:
+              - Result: ""
+                Rules:
+                  - Commands: []
+                    Name: ""
+                    Region: ""
+                    RoleArn: ""
+                    Configuration: {}
+                    InputArtifacts:
+                      - Name: ""
+                    RuleTypeId:
+                      Category: ""
+                      Owner: ""
+                      Provider: ""
+                      Version: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Triggers:
+        - ProviderType: ""
+          GitConfiguration:
+            SourceActionName: ""
+            PullRequest:
+              - Events: []
+                Branches:
+                  Excludes: []
+                  Includes: []
+                FilePaths:
+                  Excludes: []
+                  Includes: []
+            Push:
+              - Branches:
+                  Excludes: []
+                  Includes: []
+                FilePaths:
+                  Excludes: []
+                  Includes: []
+                Tags:
+                  Excludes: []
+                  Includes: []
+      Variables:
+        - DefaultValue: ""
+          Description: ""
+          Name: ""

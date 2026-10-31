@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3filesAccesspoint:
+    Type: AWS::S3Files::AccessPoint
+    Properties:
+      ClientToken: ""
+      FileSystemId: ""
+      PosixUser:
+        Gid: ""
+        SecondaryGids: []
+        Uid: ""
+      RootDirectory:
+        Path: ""
+        CreationPermissions:
+          OwnerGid: ""
+          OwnerUid: ""
+          Permissions: ""
+      Tags:
+        - Key: ""
+          Value: ""

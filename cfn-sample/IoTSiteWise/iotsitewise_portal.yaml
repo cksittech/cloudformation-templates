@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewisePortal:
+    Type: AWS::IoTSiteWise::Portal
+    Properties:
+      NotificationSenderEmail: ""
+      PortalAuthMode: ""
+      PortalContactEmail: ""
+      PortalDescription: ""
+      PortalName: ""
+      PortalType: ""
+      RoleArn: ""
+      Alarms:
+        AlarmRoleArn: ""
+        NotificationLambdaArn: ""
+      PortalTypeConfiguration: {}
+      Tags:
+        - Key: ""
+          Value: ""

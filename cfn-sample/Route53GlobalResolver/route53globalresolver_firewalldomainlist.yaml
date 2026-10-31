@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverFirewalldomainlist:
+    Type: AWS::Route53GlobalResolver::FirewallDomainList
+    Properties:
+      ClientToken: ""
+      Description: ""
+      DomainFileUrl: ""
+      Domains: []
+      GlobalResolverId: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

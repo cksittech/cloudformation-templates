@@ -1,0 +1,121 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectFlow:
+    Type: AWS::MediaConnect::Flow
+    Properties:
+      AvailabilityZone: ""
+      FlowSize: ""
+      Name: ""
+      EncodingConfig:
+        EncodingProfile: ""
+        VideoMaxBitrate: 0
+      Maintenance:
+        MaintenanceDay: ""
+        MaintenanceStartHour: ""
+      MediaStreams:
+        - ClockRate: 0
+          Description: ""
+          Fmt: 0
+          MediaStreamId: 0
+          MediaStreamName: ""
+          MediaStreamType: ""
+          VideoFormat: ""
+          Attributes:
+            Lang: ""
+            Fmtp:
+              ChannelOrder: ""
+              Colorimetry: ""
+              ExactFramerate: ""
+              Par: ""
+              Range: ""
+              ScanMode: ""
+              Tcs: ""
+          Tags:
+            - Key: ""
+              Value: ""
+      NdiConfig:
+        MachineName: ""
+        NdiState: ""
+        NdiDiscoveryServers:
+          - DiscoveryServerAddress: ""
+            DiscoveryServerPort: 0
+            VpcInterfaceAdapter: ""
+      Source:
+        Description: ""
+        EntitlementArn: ""
+        IngestPort: 0
+        MaxBitrate: 0
+        MaxLatency: 0
+        MaxSyncBuffer: 0
+        MinLatency: 0
+        Name: ""
+        Protocol: ""
+        RouterIntegrationState: ""
+        SourceListenerAddress: ""
+        SourceListenerPort: 0
+        StreamId: ""
+        VpcInterfaceName: ""
+        WhitelistCidr: ""
+        Decryption:
+          Algorithm: ""
+          KeyType: "static-key"
+          RoleArn: ""
+          SecretArn: ""
+        GatewayBridgeSource:
+          BridgeArn: ""
+          VpcInterfaceAttachment:
+            VpcInterfaceName: ""
+        MediaStreamSourceConfigurations:
+          - EncodingName: ""
+            MediaStreamName: ""
+            InputConfigurations:
+              - InputPort: 0
+                Interface:
+                  Name: ""
+        NdiSourceSettings:
+          AudioReferenceLevel: 0
+          SourceName: ""
+        RouterIntegrationTransitDecryption:
+          EncryptionKeyType: ""
+          EncryptionKeyConfiguration:
+            Automatic: {}
+            SecretsManager:
+              RoleArn: ""
+              SecretArn: ""
+        Tags:
+          - Key: ""
+            Value: ""
+      SourceFailoverConfig:
+        FailoverMode: ""
+        RecoveryWindow: 0
+        State: ""
+        SourcePriority:
+          PrimarySource: ""
+      SourceMonitoringConfig:
+        ContentQualityAnalysisState: ""
+        ThumbnailState: ""
+        AudioMonitoringSettings:
+          - SilentAudio:
+              State: ""
+              ThresholdSeconds: 0
+        VideoMonitoringSettings:
+          - BlackFrames:
+              State: ""
+              ThresholdSeconds: 0
+            FrozenFrames:
+              State: ""
+              ThresholdSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcInterfaces:
+        - Name: ""
+          NetworkInterfaceIds: []
+          NetworkInterfaceType: ""
+          RoleArn: ""
+          SecurityGroupIds: []
+          SubnetId: ""
+          Tags:
+            - Key: ""
+              Value: ""

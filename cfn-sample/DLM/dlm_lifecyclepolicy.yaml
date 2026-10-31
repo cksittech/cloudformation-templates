@@ -1,0 +1,126 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDlmLifecyclepolicy:
+    Type: AWS::DLM::LifecyclePolicy
+    Properties:
+      CopyTags: false
+      CreateInterval: 0
+      DefaultPolicy: ""
+      Description: ""
+      ExecutionRoleArn: ""
+      ExtendDeletion: false
+      RetainInterval: 0
+      State: ""
+      CrossRegionCopyTargets:
+        - TargetRegion: ""
+      Exclusions:
+        ExcludeBootVolumes: false
+        ExcludeVolumeTypes: []
+        ExcludeTags:
+          - Key: ""
+            Value: ""
+      PolicyDetails:
+        CopyTags: false
+        CreateInterval: 0
+        ExtendDeletion: false
+        PolicyLanguage: ""
+        PolicyType: ""
+        ResourceLocations: []
+        ResourceType: ""
+        ResourceTypes: []
+        RetainInterval: 0
+        Actions:
+          - Name: ""
+            CrossRegionCopy:
+              - Target: ""
+                EncryptionConfiguration:
+                  CmkArn: ""
+                  Encrypted: false
+                RetainRule:
+                  Interval: 0
+                  IntervalUnit: ""
+        CrossRegionCopyTargets:
+          - TargetRegion: ""
+        EventSource:
+          Type: ""
+          Parameters:
+            DescriptionRegex: ""
+            EventType: ""
+            SnapshotOwner: []
+        Exclusions:
+          ExcludeBootVolumes: false
+          ExcludeVolumeTypes: []
+          ExcludeTags:
+            - Key: ""
+              Value: ""
+        Parameters:
+          ExcludeBootVolume: false
+          NoReboot: false
+          ExcludeDataVolumeTags:
+            - Key: ""
+              Value: ""
+        Schedules:
+          - CopyTags: false
+            Name: ""
+            ArchiveRule:
+              RetainRule:
+                RetentionArchiveTier:
+                  Count: 0
+                  Interval: 0
+                  IntervalUnit: ""
+            CreateRule:
+              CronExpression: ""
+              Interval: 0
+              IntervalUnit: ""
+              Location: ""
+              Times: []
+              Scripts:
+                - ExecuteOperationOnScriptFailure: false
+                  ExecutionHandler: ""
+                  ExecutionHandlerService: ""
+                  ExecutionTimeout: 0
+                  MaximumRetryCount: 0
+                  Stages: []
+            CrossRegionCopyRules:
+              - CmkArn: ""
+                CopyTags: false
+                Encrypted: false
+                Target: ""
+                TargetRegion: ""
+                DeprecateRule:
+                  Interval: 0
+                  IntervalUnit: ""
+                RetainRule:
+                  Interval: 0
+                  IntervalUnit: ""
+            DeprecateRule:
+              Count: 0
+              Interval: 0
+              IntervalUnit: ""
+            FastRestoreRule:
+              AvailabilityZoneIds: []
+              AvailabilityZones: []
+              Count: 0
+              Interval: 0
+              IntervalUnit: ""
+            RetainRule:
+              Count: 0
+              Interval: 0
+              IntervalUnit: ""
+            ShareRules:
+              - TargetAccounts: []
+                UnshareInterval: 0
+                UnshareIntervalUnit: ""
+            TagsToAdd:
+              - Key: ""
+                Value: ""
+            VariableTags:
+              - Key: ""
+                Value: ""
+        TargetTags:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIottwinmakerScene:
+    Type: AWS::IoTTwinMaker::Scene
+    Properties:
+      Capabilities: []
+      ContentLocation: ""
+      Description: ""
+      SceneId: ""
+      WorkspaceId: ""
+      SceneMetadata: {}
+      Tags: {}

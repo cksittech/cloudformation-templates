@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupBackupplan:
+    Type: AWS::Backup::BackupPlan
+    Properties:
+      BackupPlan:
+        BackupPlanName: ""
+        AdvancedBackupSettings:
+          - ResourceType: ""
+            BackupOptions: {}
+        BackupPlanRule:
+          - CompletionWindowMinutes: 0
+            EnableContinuousBackup: false
+            RuleName: ""
+            ScheduleExpression: ""
+            ScheduleExpressionTimezone: ""
+            StartWindowMinutes: 0
+            TargetBackupVault: ""
+            TargetLogicallyAirGappedBackupVaultArn: ""
+            CopyActions:
+              - DestinationBackupVaultArn: ""
+                Lifecycle:
+                  DeleteAfterDays: 0
+                  MoveToColdStorageAfterDays: 0
+                  OptInToArchiveForSupportedResources: false
+            IndexActions:
+              - ResourceTypes: []
+            Lifecycle:
+              DeleteAfterDays: 0
+              MoveToColdStorageAfterDays: 0
+              OptInToArchiveForSupportedResources: false
+            RecoveryPointTags: {}
+            ScanActions:
+              - MalwareScanner: ""
+                ScanMode: ""
+        ScanSettings:
+          - MalwareScanner: ""
+            ResourceTypes: []
+            ScannerRoleArn: ""
+      BackupPlanTags: {}

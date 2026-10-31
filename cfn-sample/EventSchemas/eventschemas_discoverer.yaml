@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventschemasDiscoverer:
+    Type: AWS::EventSchemas::Discoverer
+    Properties:
+      CrossAccount: true
+      Description: ""
+      SourceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

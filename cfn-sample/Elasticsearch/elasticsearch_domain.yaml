@@ -1,0 +1,62 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticsearchDomain:
+    Type: AWS::Elasticsearch::Domain
+    Properties:
+      DomainName: ""
+      ElasticsearchVersion: ""
+      AccessPolicies: {}
+      AdvancedOptions: {}
+      AdvancedSecurityOptions:
+        AnonymousAuthEnabled: false
+        Enabled: false
+        InternalUserDatabaseEnabled: false
+        MasterUserOptions:
+          MasterUserARN: ""
+          MasterUserName: ""
+          MasterUserPassword: ""
+      CognitoOptions:
+        Enabled: false
+        IdentityPoolId: ""
+        RoleArn: ""
+        UserPoolId: ""
+      DomainEndpointOptions:
+        CustomEndpoint: ""
+        CustomEndpointCertificateArn: ""
+        CustomEndpointEnabled: false
+        EnforceHTTPS: false
+        TLSSecurityPolicy: ""
+      EBSOptions:
+        EBSEnabled: false
+        Iops: 0
+        VolumeSize: 0
+        VolumeType: ""
+      ElasticsearchClusterConfig:
+        DedicatedMasterCount: 0
+        DedicatedMasterEnabled: false
+        DedicatedMasterType: ""
+        InstanceCount: 0
+        InstanceType: ""
+        WarmCount: 0
+        WarmEnabled: false
+        WarmType: ""
+        ZoneAwarenessEnabled: false
+        ColdStorageOptions:
+          Enabled: false
+        ZoneAwarenessConfig:
+          AvailabilityZoneCount: 0
+      EncryptionAtRestOptions:
+        Enabled: false
+        KmsKeyId: ""
+      LogPublishingOptions: {}
+      NodeToNodeEncryptionOptions:
+        Enabled: false
+      SnapshotOptions:
+        AutomatedSnapshotStartHour: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VPCOptions:
+        SecurityGroupIds: []
+        SubnetIds: []

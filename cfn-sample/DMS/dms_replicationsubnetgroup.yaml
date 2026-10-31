@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsReplicationsubnetgroup:
+    Type: AWS::DMS::ReplicationSubnetGroup
+    Properties:
+      ReplicationSubnetGroupDescription: ""
+      ReplicationSubnetGroupIdentifier: ""
+      SubnetIds: []
+      Tags:
+        - Key: ""
+          Value: ""

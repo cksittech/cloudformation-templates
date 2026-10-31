@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleForecastDataset:
+    Type: AWS::Forecast::Dataset
+    Properties:
+      DataFrequency: ""
+      DatasetName: ""
+      DatasetType: ""
+      Domain: ""
+      EncryptionConfig:
+        KmsKeyArn: ""
+        RoleArn: ""
+      Schema:
+        Attributes:
+          - AttributeName: ""
+            AttributeType: ""
+      Tags:
+        - Key: ""
+          Value: ""

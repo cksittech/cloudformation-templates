@@ -1,0 +1,107 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      AdditionalInfo: ""
+      Affinity: ""
+      AvailabilityZone: ""
+      DisableApiTermination: false
+      EbsOptimized: false
+      HostId: ""
+      HostResourceGroupArn: ""
+      IamInstanceProfile: ""
+      ImageId: ""
+      InstanceInitiatedShutdownBehavior: ""
+      InstanceType: ""
+      Ipv6AddressCount: 0
+      KernelId: ""
+      KeyName: ""
+      Monitoring: false
+      PlacementGroupName: ""
+      PrivateIpAddress: ""
+      PropagateTagsToVolumeOnCreation: false
+      RamdiskId: ""
+      SecurityGroupIds: []
+      SecurityGroups: []
+      SourceDestCheck: false
+      SubnetId: ""
+      Tenancy: ""
+      UserData: ""
+      BlockDeviceMappings:
+        - DeviceName: ""
+          VirtualName: ""
+          Ebs:
+            DeleteOnTermination: false
+            Encrypted: false
+            Iops: 0
+            KmsKeyId: ""
+            SnapshotId: ""
+            VolumeSize: 0
+            VolumeType: ""
+          NoDevice: {}
+      CpuOptions:
+        CoreCount: 0
+        ThreadsPerCore: 0
+      CreditSpecification:
+        CPUCredits: ""
+      ElasticGpuSpecifications:
+        - Type: ""
+      ElasticInferenceAccelerators:
+        - Count: 0
+          Type: ""
+      EnclaveOptions:
+        Enabled: false
+      HibernationOptions:
+        Configured: false
+      Ipv6Addresses:
+        - Ipv6Address: ""
+      LaunchTemplate:
+        LaunchTemplateId: ""
+        LaunchTemplateName: ""
+        Version: ""
+      LicenseSpecifications:
+        - LicenseConfigurationArn: ""
+      MetadataOptions:
+        HttpEndpoint: ""
+        HttpProtocolIpv6: ""
+        HttpPutResponseHopLimit: 1
+        HttpTokens: ""
+        InstanceMetadataTags: ""
+      NetworkInterfaces:
+        - AssociateCarrierIpAddress: false
+          AssociatePublicIpAddress: false
+          DeleteOnTermination: false
+          Description: ""
+          DeviceIndex: ""
+          GroupSet: []
+          Ipv6AddressCount: 0
+          NetworkInterfaceId: ""
+          PrivateIpAddress: ""
+          SecondaryPrivateIpAddressCount: 0
+          SubnetId: ""
+          EnaSrdSpecification:
+            EnaSrdEnabled: false
+            EnaSrdUdpSpecification:
+              EnaSrdUdpEnabled: false
+          Ipv6Addresses:
+            - Ipv6Address: ""
+          PrivateIpAddresses:
+            - Primary: false
+              PrivateIpAddress: ""
+      PrivateDnsNameOptions:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: ""
+      SsmAssociations:
+        - DocumentName: ""
+          AssociationParameters:
+            - Key: ""
+              Value: []
+      Tags:
+        - Key: ""
+          Value: ""
+      Volumes:
+        - Device: ""
+          VolumeId: ""

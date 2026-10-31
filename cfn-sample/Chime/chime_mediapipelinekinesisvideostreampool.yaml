@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleChimeMediapipelinekinesisvideostreampool:
+    Type: AWS::Chime::MediaPipelineKinesisVideoStreamPool
+    Properties:
+      PoolName: ""
+      StreamConfiguration:
+        DataRetentionInHours: 0
+        Region: ""
+      Tags:
+        - Key: ""
+          Value: ""

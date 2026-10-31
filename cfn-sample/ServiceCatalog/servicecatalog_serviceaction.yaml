@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogServiceaction:
+    Type: AWS::ServiceCatalog::ServiceAction
+    Properties:
+      AcceptLanguage: ""
+      DefinitionType: ""
+      Description: ""
+      Name: ""
+      Definition:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicediscoveryPublicdnsnamespace:
+    Type: AWS::ServiceDiscovery::PublicDnsNamespace
+    Properties:
+      Description: ""
+      Name: ""
+      Properties:
+        DnsProperties:
+          SOA:
+            TTL: 0
+      Tags:
+        - Key: ""
+          Value: ""

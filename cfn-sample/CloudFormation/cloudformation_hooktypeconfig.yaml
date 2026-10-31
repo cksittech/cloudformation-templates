@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationHooktypeconfig:
+    Type: AWS::CloudFormation::HookTypeConfig
+    Properties:
+      Configuration: ""
+      ConfigurationAlias: "default"
+      TypeArn: ""
+      TypeName: ""

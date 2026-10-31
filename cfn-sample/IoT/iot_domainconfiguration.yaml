@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotDomainconfiguration:
+    Type: AWS::IoT::DomainConfiguration
+    Properties:
+      ApplicationProtocol: ""
+      AuthenticationType: ""
+      DomainConfigurationName: ""
+      DomainConfigurationStatus: ""
+      DomainName: ""
+      ServerCertificateArns: []
+      ServiceType: ""
+      ValidationCertificateArn: ""
+      AuthorizerConfig:
+        AllowAuthorizerOverride: false
+        DefaultAuthorizerName: ""
+      ClientCertificateConfig:
+        ClientCertificateCallbackArn: ""
+      ServerCertificateConfig:
+        EnableOCSPCheck: false
+        OcspAuthorizedResponderArn: ""
+        OcspLambdaArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TlsConfig:
+        SecurityPolicy: ""

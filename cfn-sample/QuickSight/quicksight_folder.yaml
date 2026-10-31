@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightFolder:
+    Type: AWS::QuickSight::Folder
+    Properties:
+      AwsAccountId: ""
+      FolderId: ""
+      FolderType: ""
+      Name: ""
+      ParentFolderArn: ""
+      SharingModel: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+      Tags:
+        - Key: ""
+          Value: ""

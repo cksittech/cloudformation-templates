@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Localgatewayvirtualinterface:
+    Type: AWS::EC2::LocalGatewayVirtualInterface
+    Properties:
+      LocalAddress: ""
+      LocalGatewayVirtualInterfaceGroupId: ""
+      OutpostLagId: ""
+      PeerAddress: ""
+      PeerBgpAsn: 0
+      PeerBgpAsnExtended: 0
+      Vlan: 0
+      Tags:
+        - Key: ""
+          Value: ""

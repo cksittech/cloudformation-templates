@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerClusterschedulerconfig:
+    Type: AWS::SageMaker::ClusterSchedulerConfig
+    Properties:
+      ClusterArn: ""
+      Description: ""
+      Name: ""
+      SchedulerConfig:
+        FairShare: ""
+        IdleResourceSharing: ""
+        PriorityClasses:
+          - Name: ""
+            Weight: 0
+      Tags:
+        - Key: ""
+          Value: ""

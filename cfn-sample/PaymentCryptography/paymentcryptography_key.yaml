@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePaymentcryptographyKey:
+    Type: AWS::PaymentCryptography::Key
+    Properties:
+      DeriveKeyUsage: ""
+      Enabled: false
+      Exportable: false
+      KeyCheckValueAlgorithm: ""
+      Policy: ""
+      ReplicationRegions: []
+      KeyAttributes:
+        KeyAlgorithm: ""
+        KeyClass: ""
+        KeyUsage: ""
+        KeyModesOfUse:
+          Decrypt: false
+          DeriveKey: false
+          Encrypt: false
+          Generate: false
+          NoRestrictions: false
+          Sign: false
+          Unwrap: false
+          Verify: false
+          Wrap: false
+      Tags:
+        - Key: ""
+          Value: ""

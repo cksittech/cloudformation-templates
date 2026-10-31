@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesWorkspacespool:
+    Type: AWS::WorkSpaces::WorkspacesPool
+    Properties:
+      BundleId: ""
+      Description: ""
+      DirectoryId: ""
+      PoolName: ""
+      RunningMode: ""
+      ApplicationSettings:
+        SettingsGroup: ""
+        Status: ""
+      Capacity:
+        DesiredUserSessions: 0
+      TimeoutSettings:
+        DisconnectTimeoutInSeconds: 0
+        IdleDisconnectTimeoutInSeconds: 0
+        MaxUserDurationInSeconds: 0

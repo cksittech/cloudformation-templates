@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53Hostedzone:
+    Type: AWS::Route53::HostedZone
+    Properties:
+      DelegationSetId: ""
+      Name: ""
+      HostedZoneConfig:
+        Comment: ""
+      HostedZoneFeatures:
+        EnableAcceleratedRecovery: false
+      HostedZoneTags:
+        - Key: ""
+          Value: ""
+      QueryLoggingConfig:
+        CloudWatchLogsLogGroupArn: ""
+      VPCs:
+        - VPCId: ""
+          VPCRegion: ""

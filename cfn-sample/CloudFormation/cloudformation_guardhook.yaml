@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationGuardhook:
+    Type: AWS::CloudFormation::GuardHook
+    Properties:
+      Alias: ""
+      ExecutionRole: ""
+      FailureMode: "WARN"
+      HookStatus: "DISABLED"
+      LogBucket: ""
+      TargetOperations: []
+      Options:
+        InputParams:
+          Uri: ""
+          VersionId: ""
+      RuleLocation:
+        Uri: ""
+        VersionId: ""
+      StackFilters:
+        FilteringCriteria: "ALL"
+        StackNames:
+          Exclude: []
+          Include: []
+        StackRoles:
+          Exclude: []
+          Include: []
+      TargetFilters:
+        Actions: []
+        InvocationPoints: []
+        TargetNames: []
+        Targets:
+          - Action: ""
+            InvocationPoint: ""
+            TargetName: ""

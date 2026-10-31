@@ -1,0 +1,183 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Launchtemplate:
+    Type: AWS::EC2::LaunchTemplate
+    Properties:
+      LaunchTemplateName: ""
+      VersionDescription: ""
+      LaunchTemplateData:
+        DisableApiStop: false
+        DisableApiTermination: false
+        EbsOptimized: false
+        ImageId: ""
+        InstanceInitiatedShutdownBehavior: ""
+        InstanceType: ""
+        KernelId: ""
+        KeyName: ""
+        RamDiskId: ""
+        SecurityGroupIds: []
+        SecurityGroups: []
+        UserData: ""
+        BlockDeviceMappings:
+          - DeviceName: ""
+            NoDevice: ""
+            VirtualName: ""
+            Ebs:
+              DeleteOnTermination: false
+              EbsCardIndex: 0
+              Encrypted: false
+              Iops: 0
+              KmsKeyId: ""
+              SnapshotId: ""
+              Throughput: 0
+              VolumeInitializationRate: 0
+              VolumeSize: 0
+              VolumeType: ""
+        CapacityReservationSpecification:
+          CapacityReservationPreference: ""
+          CapacityReservationTarget:
+            CapacityReservationId: ""
+            CapacityReservationResourceGroupArn: ""
+        CpuOptions:
+          AmdSevSnp: ""
+          CoreCount: 0
+          NestedVirtualization: ""
+          ThreadsPerCore: 0
+        CreditSpecification:
+          CpuCredits: ""
+        EnclaveOptions:
+          Enabled: false
+        HibernationOptions:
+          Configured: false
+        IamInstanceProfile:
+          Arn: ""
+          Name: ""
+        InstanceMarketOptions:
+          MarketType: ""
+          SpotOptions:
+            BlockDurationMinutes: 0
+            InstanceInterruptionBehavior: ""
+            MaxPrice: ""
+            SpotInstanceType: ""
+            ValidUntil: ""
+        InstanceRequirements:
+          AcceleratorManufacturers: []
+          AcceleratorNames: []
+          AcceleratorTypes: []
+          AllowedInstanceTypes: []
+          BareMetal: ""
+          BurstablePerformance: ""
+          CpuManufacturers: []
+          ExcludedInstanceTypes: []
+          InstanceGenerations: []
+          LocalStorage: ""
+          LocalStorageTypes: []
+          MaxSpotPriceAsPercentageOfOptimalOnDemandPrice: 0
+          OnDemandMaxPricePercentageOverLowestPrice: 0
+          RequireHibernateSupport: false
+          SpotMaxPricePercentageOverLowestPrice: 0
+          AcceleratorCount:
+            Max: 0
+            Min: 0
+          AcceleratorTotalMemoryMiB:
+            Max: 0
+            Min: 0
+          BaselineEbsBandwidthMbps:
+            Max: 0
+            Min: 0
+          BaselinePerformanceFactors:
+            Cpu:
+              References:
+                - InstanceFamily: ""
+          MemoryGiBPerVCpu:
+            Max: 0
+            Min: 0
+          MemoryMiB:
+            Max: 0
+            Min: 0
+          NetworkBandwidthGbps:
+            Max: 0
+            Min: 0
+          NetworkInterfaceCount:
+            Max: 0
+            Min: 0
+          TotalLocalStorageGB:
+            Max: 0
+            Min: 0
+          VCpuCount:
+            Max: 0
+            Min: 0
+        LicenseSpecifications:
+          - LicenseConfigurationArn: ""
+        MaintenanceOptions:
+          AutoRecovery: ""
+        MetadataOptions:
+          HttpEndpoint: ""
+          HttpProtocolIpv6: ""
+          HttpPutResponseHopLimit: 0
+          HttpTokens: ""
+          InstanceMetadataTags: ""
+        Monitoring:
+          Enabled: false
+        NetworkInterfaces:
+          - AssociateCarrierIpAddress: false
+            AssociatePublicIpAddress: false
+            DeleteOnTermination: false
+            Description: ""
+            DeviceIndex: 0
+            EnaQueueCount: 0
+            Groups: []
+            InterfaceType: ""
+            Ipv4PrefixCount: 0
+            Ipv6AddressCount: 0
+            Ipv6PrefixCount: 0
+            NetworkCardIndex: 0
+            NetworkInterfaceId: ""
+            PrimaryIpv6: false
+            PrivateIpAddress: ""
+            SecondaryPrivateIpAddressCount: 0
+            SubnetId: ""
+            ConnectionTrackingSpecification:
+              TcpEstablishedTimeout: 0
+              UdpStreamTimeout: 0
+              UdpTimeout: 0
+            EnaSrdSpecification:
+              EnaSrdEnabled: false
+              EnaSrdUdpSpecification:
+                EnaSrdUdpEnabled: false
+            Ipv4Prefixes:
+              - Ipv4Prefix: ""
+            Ipv6Addresses:
+              - Ipv6Address: ""
+            Ipv6Prefixes:
+              - Ipv6Prefix: ""
+            PrivateIpAddresses:
+              - Primary: false
+                PrivateIpAddress: ""
+        NetworkPerformanceOptions:
+          BandwidthWeighting: ""
+        Placement:
+          Affinity: ""
+          AvailabilityZone: ""
+          GroupId: ""
+          GroupName: ""
+          HostId: ""
+          HostResourceGroupArn: ""
+          PartitionNumber: 0
+          SpreadDomain: ""
+          Tenancy: ""
+        PrivateDnsNameOptions:
+          EnableResourceNameDnsAAAARecord: false
+          EnableResourceNameDnsARecord: false
+          HostnameType: ""
+        TagSpecifications:
+          - ResourceType: ""
+            Tags:
+              - Key: ""
+                Value: ""
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""

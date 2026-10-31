@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectPhonenumber:
+    Type: AWS::Connect::PhoneNumber
+    Properties:
+      CountryCode: ""
+      Description: ""
+      Prefix: ""
+      SourcePhoneNumberArn: ""
+      TargetArn: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

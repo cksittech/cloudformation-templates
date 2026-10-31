@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallFirewall:
+    Type: AWS::NetworkFirewall::Firewall
+    Properties:
+      AvailabilityZoneChangeProtection: false
+      DeleteProtection: false
+      Description: ""
+      EnabledAnalysisTypes: []
+      FirewallName: ""
+      FirewallPolicyArn: ""
+      FirewallPolicyChangeProtection: false
+      NoSourcePreservation: false
+      SubnetChangeProtection: false
+      TransitGatewayId: ""
+      VpcId: ""
+      AvailabilityZoneMappings:
+        - AvailabilityZone: ""
+      NatGatewayMappings:
+        - NatGatewayId: ""
+      ProxySettings:
+        ListenerProperties:
+          - Port: 0
+            Type: ""
+      SubnetMappings:
+        - IPAddressType: ""
+          SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcEndpoint:
+        VpcId: ""
+        SubnetMappings:
+          - IPAddressType: ""
+            SubnetId: ""

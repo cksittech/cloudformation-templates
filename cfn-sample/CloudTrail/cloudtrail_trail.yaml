@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudtrailTrail:
+    Type: AWS::CloudTrail::Trail
+    Properties:
+      CloudWatchLogsLogGroupArn: ""
+      CloudWatchLogsRoleArn: ""
+      EnableLogFileValidation: false
+      IncludeGlobalServiceEvents: false
+      IsLogging: false
+      IsMultiRegionTrail: false
+      IsOrganizationTrail: false
+      KMSKeyId: ""
+      S3BucketName: ""
+      S3KeyPrefix: ""
+      SnsTopicName: ""
+      TrailName: ""
+      AdvancedEventSelectors:
+        - Name: ""
+          FieldSelectors:
+            - EndsWith: []
+              Equals: []
+              Field: ""
+              NotEndsWith: []
+              NotEquals: []
+              NotStartsWith: []
+              StartsWith: []
+      AggregationConfigurations:
+        - EventCategory: ""
+          Templates: []
+      EventSelectors:
+        - ExcludeManagementEventSources: []
+          IncludeManagementEvents: false
+          ReadWriteType: ""
+          DataResources:
+            - Type: ""
+              Values: []
+      InsightSelectors:
+        - EventCategories: []
+          InsightType: ""
+      Tags:
+        - Key: ""
+          Value: ""

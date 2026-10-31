@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferConnector:
+    Type: AWS::Transfer::Connector
+    Properties:
+      AccessRole: ""
+      EgressType: ""
+      IpAddressType: ""
+      LoggingRole: ""
+      SecurityPolicyName: ""
+      Url: ""
+      As2Config:
+        BasicAuthSecretId: ""
+        Compression: ""
+        EncryptionAlgorithm: ""
+        LocalProfileId: ""
+        MdnResponse: ""
+        MdnSigningAlgorithm: ""
+        MessageSubject: ""
+        PartnerProfileId: ""
+        PreserveContentType: ""
+        SigningAlgorithm: ""
+        AsyncMdnConfig:
+          ServerIds: []
+          Url: ""
+      EgressConfig:
+        VpcLattice:
+          PortNumber: 0
+          ResourceConfigurationArn: ""
+      SftpConfig:
+        MaxConcurrentConnections: 1
+        OrderedUserSecretVersionStages: []
+        TrustedHostKeys: []
+        UserSecretId: ""
+      Tags:
+        - Key: ""
+          Value: ""

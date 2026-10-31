@@ -1,0 +1,58 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLicensemanagerLicenseassetruleset:
+    Type: AWS::LicenseManager::LicenseAssetRuleSet
+    Properties:
+      Description: ""
+      Name: ""
+      Rules:
+        - RuleStatement:
+            InstanceRuleStatement:
+              AndRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+              MatchingRuleStatement:
+                Constraint: ""
+                KeyToMatch: ""
+                ValueToMatch: []
+              OrRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+            LicenseConfigurationRuleStatement:
+              AndRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+              MatchingRuleStatement:
+                Constraint: ""
+                KeyToMatch: ""
+                ValueToMatch: []
+              OrRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+            LicenseRuleStatement:
+              AndRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+              MatchingRuleStatement:
+                Constraint: ""
+                KeyToMatch: ""
+                ValueToMatch: []
+              OrRuleStatement:
+                MatchingRuleStatements:
+                  - Constraint: ""
+                    KeyToMatch: ""
+                    ValueToMatch: []
+      Tags:
+        - Key: ""
+          Value: ""

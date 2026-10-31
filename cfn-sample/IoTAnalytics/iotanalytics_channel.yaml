@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotanalyticsChannel:
+    Type: AWS::IoTAnalytics::Channel
+    Properties:
+      ChannelName: ""
+      ChannelStorage:
+        CustomerManagedS3:
+          Bucket: ""
+          KeyPrefix: ""
+          RoleArn: ""
+        ServiceManagedS3: {}
+      RetentionPeriod:
+        NumberOfDays: 0
+        Unlimited: false
+      Tags:
+        - Key: ""
+          Value: ""

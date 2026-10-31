@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigDeliverychannel:
+    Type: AWS::Config::DeliveryChannel
+    Properties:
+      Name: ""
+      S3BucketName: ""
+      S3KeyPrefix: ""
+      S3KmsKeyArn: ""
+      SnsTopicARN: ""
+      ConfigSnapshotDeliveryProperties:
+        DeliveryFrequency: ""

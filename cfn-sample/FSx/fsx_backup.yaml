@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxBackup:
+    Type: AWS::FSx::Backup
+    Properties:
+      FileSystemId: ""
+      Tags:
+        - Key: ""
+          Value: ""

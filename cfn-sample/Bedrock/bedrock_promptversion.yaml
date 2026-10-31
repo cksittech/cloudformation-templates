@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockPromptversion:
+    Type: AWS::Bedrock::PromptVersion
+    Properties:
+      Description: ""
+      PromptArn: ""
+      Tags: {}

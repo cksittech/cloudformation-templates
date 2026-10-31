@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectconnectDirectconnectgateway:
+    Type: AWS::DirectConnect::DirectConnectGateway
+    Properties:
+      AmazonSideAsn: ""
+      DirectConnectGatewayName: ""
+      Tags:
+        - Key: ""
+          Value: ""

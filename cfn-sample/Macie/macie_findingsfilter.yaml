@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMacieFindingsfilter:
+    Type: AWS::Macie::FindingsFilter
+    Properties:
+      Action: ""
+      Description: ""
+      Name: ""
+      Position: 0
+      FindingCriteria:
+        Criterion: {}
+      Tags:
+        - Key: ""
+          Value: ""

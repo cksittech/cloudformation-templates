@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagev2Channel:
+    Type: AWS::MediaPackageV2::Channel
+    Properties:
+      ChannelGroupName: ""
+      ChannelName: ""
+      Description: ""
+      InputType: ""
+      OutputLockingMode: ""
+      InputSwitchConfiguration:
+        MQCSInputSwitching: false
+        PreferredInput: 0
+      MultiviewConfiguration:
+        AvailableLayouts: []
+        AvailableSources: []
+      OutputHeaderConfiguration:
+        PublishMQCS: false
+      Tags:
+        - Key: ""
+          Value: ""

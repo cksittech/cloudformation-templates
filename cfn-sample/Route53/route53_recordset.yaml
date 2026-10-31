@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53Recordset:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      Comment: ""
+      Failover: ""
+      HealthCheckId: ""
+      HostedZoneId: ""
+      HostedZoneName: ""
+      MultiValueAnswer: false
+      Name: ""
+      Region: ""
+      ResourceRecords: []
+      SetIdentifier: ""
+      TTL: ""
+      Type: ""
+      Weight: 0
+      AliasTarget:
+        DNSName: ""
+        EvaluateTargetHealth: false
+        HostedZoneId: ""
+      CidrRoutingConfig:
+        CollectionId: ""
+        LocationName: ""
+      GeoLocation:
+        ContinentCode: ""
+        CountryCode: ""
+        SubdivisionCode: ""

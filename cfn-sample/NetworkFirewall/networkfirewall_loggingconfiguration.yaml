@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallLoggingconfiguration:
+    Type: AWS::NetworkFirewall::LoggingConfiguration
+    Properties:
+      EnableMonitoringDashboard: false
+      FirewallArn: ""
+      FirewallName: ""
+      LoggingConfiguration:
+        LogDestinationConfigs:
+          - LogDestinationType: ""
+            LogType: ""
+            LogDestination: {}

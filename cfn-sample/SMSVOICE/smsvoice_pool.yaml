@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoicePool:
+    Type: AWS::SMSVOICE::Pool
+    Properties:
+      DeletionProtectionEnabled: false
+      OptOutListName: ""
+      OriginationIdentities: []
+      SelfManagedOptOutsEnabled: false
+      SharedRoutesEnabled: false
+      MandatoryKeywords:
+        HELP:
+          Message: ""
+        STOP:
+          Message: ""
+      OptionalKeywords:
+        - Action: ""
+          Keyword: ""
+          Message: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TwoWay:
+        ChannelArn: ""
+        ChannelRole: ""
+        Enabled: false

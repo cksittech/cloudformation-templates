@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAutoscalingplansScalingplan:
+    Type: AWS::AutoScalingPlans::ScalingPlan
+    Properties:
+      ApplicationSource:
+        CloudFormationStackARN: ""
+        TagFilters:
+          - Key: ""
+            Values: []
+      ScalingInstructions:
+        - DisableDynamicScaling: false
+          MaxCapacity: 0
+          MinCapacity: 0
+          PredictiveScalingMaxCapacityBehavior: ""
+          PredictiveScalingMaxCapacityBuffer: 0
+          PredictiveScalingMode: ""
+          ResourceId: ""
+          ScalableDimension: ""
+          ScalingPolicyUpdateBehavior: ""
+          ScheduledActionBufferTime: 0
+          ServiceNamespace: ""
+          CustomizedLoadMetricSpecification:
+            MetricName: ""
+            Namespace: ""
+            Statistic: ""
+            Unit: ""
+            Dimensions:
+              - Name: ""
+                Value: ""
+          PredefinedLoadMetricSpecification:
+            PredefinedLoadMetricType: ""
+            ResourceLabel: ""
+          TargetTrackingConfigurations:
+            - DisableScaleIn: false
+              EstimatedInstanceWarmup: 0
+              ScaleInCooldown: 0
+              ScaleOutCooldown: 0
+              TargetValue: 0
+              CustomizedScalingMetricSpecification:
+                MetricName: ""
+                Namespace: ""
+                Statistic: ""
+                Unit: ""
+                Dimensions:
+                  - Name: ""
+                    Value: ""
+              PredefinedScalingMetricSpecification:
+                PredefinedScalingMetricType: ""
+                ResourceLabel: ""

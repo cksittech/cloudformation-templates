@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRobomakerSimulationapplication:
+    Type: AWS::RoboMaker::SimulationApplication
+    Properties:
+      CurrentRevisionId: ""
+      Environment: ""
+      Name: ""
+      RenderingEngine:
+        Name: ""
+        Version: ""
+      RobotSoftwareSuite:
+        Name: ""
+        Version: ""
+      SimulationSoftwareSuite:
+        Name: ""
+        Version: ""
+      Sources:
+        - Architecture: ""
+          S3Bucket: ""
+          S3Key: ""
+      Tags: {}

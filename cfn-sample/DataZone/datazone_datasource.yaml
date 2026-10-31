@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneDatasource:
+    Type: AWS::DataZone::DataSource
+    Properties:
+      ConnectionIdentifier: ""
+      Description: ""
+      DomainIdentifier: ""
+      EnableSetting: ""
+      EnvironmentIdentifier: ""
+      Name: ""
+      ProjectIdentifier: ""
+      PublishOnImport: false
+      Type: ""
+      AssetFormsInput:
+        - Content: ""
+          FormName: ""
+          TypeIdentifier: ""
+          TypeRevision: ""
+      Configuration:
+        GlueRunConfiguration:
+          AutoImportDataQualityResult: false
+          CatalogName: ""
+          DataAccessRole: ""
+          RelationalFilterConfigurations:
+            - DatabaseName: ""
+              SchemaName: ""
+              FilterExpressions:
+                - Expression: ""
+                  Type: ""
+        RedshiftRunConfiguration:
+          DataAccessRole: ""
+          RedshiftCredentialConfiguration:
+            SecretManagerArn: ""
+          RedshiftStorage:
+            RedshiftClusterSource:
+              ClusterName: ""
+            RedshiftServerlessSource:
+              WorkgroupName: ""
+          RelationalFilterConfigurations:
+            - DatabaseName: ""
+              SchemaName: ""
+              FilterExpressions:
+                - Expression: ""
+                  Type: ""
+        SageMakerRunConfiguration:
+          TrackingAssets: {}
+      Recommendation:
+        EnableBusinessNameGeneration: false
+      Schedule:
+        Schedule: ""
+        Timezone: ""

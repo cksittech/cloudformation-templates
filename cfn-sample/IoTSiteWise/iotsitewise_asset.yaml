@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewiseAsset:
+    Type: AWS::IoTSiteWise::Asset
+    Properties:
+      AssetDescription: ""
+      AssetExternalId: ""
+      AssetModelId: ""
+      AssetName: ""
+      AssetHierarchies:
+        - ChildAssetId: ""
+          ExternalId: ""
+          LogicalId: ""
+      AssetProperties:
+        - Alias: ""
+          ExternalId: ""
+          LogicalId: ""
+          NotificationState: ""
+          Unit: ""
+      Tags:
+        - Key: ""
+          Value: ""

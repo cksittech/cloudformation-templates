@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendrarankingExecutionplan:
+    Type: AWS::KendraRanking::ExecutionPlan
+    Properties:
+      Description: ""
+      Name: ""
+      CapacityUnits:
+        RescoreCapacityUnits: 0
+      Tags:
+        - Key: ""
+          Value: ""

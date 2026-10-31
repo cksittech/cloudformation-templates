@@ -1,0 +1,79 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskReplicator:
+    Type: AWS::MSK::Replicator
+    Properties:
+      Description: ""
+      ReplicatorName: ""
+      ServiceExecutionRoleArn: ""
+      KafkaClusters:
+        - AmazonMskCluster:
+            MskClusterArn: ""
+          ApacheKafkaCluster:
+            ApacheKafkaClusterId: ""
+            BootstrapBrokerString: ""
+          ClientAuthentication:
+            MTLS:
+              SecretArn: ""
+            SaslOAuthBearer:
+              Scope: ""
+              TokenEndpointAuthenticationMethod: ""
+              TokenEndpointTlsCertificateArn: ""
+              TokenEndpointUrl: ""
+              ClientCredentials:
+                TokenRequestSecretArn: ""
+              ClientCredentialsAssertion:
+                Audience: ""
+                SigningAlgorithm: ""
+                TokenRequestSecretArn: ""
+              IamJwtBearer:
+                Audience: ""
+                SigningAlgorithm: ""
+                TokenRequestSecretArn: ""
+            SaslScram:
+              Mechanism: ""
+              SecretArn: ""
+          EncryptionInTransit:
+            EncryptionType: ""
+            RootCaCertificate: ""
+          VpcConfig:
+            SecurityGroupIds: []
+            SubnetIds: []
+      LogDelivery:
+        ReplicatorLogDelivery:
+          CloudWatchLogs:
+            Enabled: false
+            LogGroup: ""
+          Firehose:
+            DeliveryStream: ""
+            Enabled: false
+          S3:
+            Bucket: ""
+            Enabled: false
+            Prefix: ""
+      ReplicationInfoList:
+        - SourceKafkaClusterArn: ""
+          SourceKafkaClusterId: ""
+          TargetCompressionType: ""
+          TargetKafkaClusterArn: ""
+          TargetKafkaClusterId: ""
+          ConsumerGroupReplication:
+            ConsumerGroupOffsetSyncMode: ""
+            ConsumerGroupsToExclude: []
+            ConsumerGroupsToReplicate: []
+            DetectAndCopyNewConsumerGroups: false
+            SynchroniseConsumerGroupOffsets: false
+          TopicReplication:
+            CopyAccessControlListsForTopics: false
+            CopyTopicConfigurations: false
+            DetectAndCopyNewTopics: false
+            TopicsToExclude: []
+            TopicsToReplicate: []
+            StartingPosition:
+              Type: ""
+            TopicNameConfiguration:
+              Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

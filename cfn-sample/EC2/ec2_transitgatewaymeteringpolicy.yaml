@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewaymeteringpolicy:
+    Type: AWS::EC2::TransitGatewayMeteringPolicy
+    Properties:
+      MiddleboxAttachmentIds: []
+      TransitGatewayId: ""
+      Tags:
+        - Key: ""
+          Value: ""

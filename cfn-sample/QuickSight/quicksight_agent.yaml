@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightAgent:
+    Type: AWS::QuickSight::Agent
+    Properties:
+      ActionConnectors: []
+      AgentId: ""
+      AgentLifecycle: ""
+      AwsAccountId: ""
+      Description: ""
+      IconId: ""
+      Name: ""
+      Spaces: []
+      StarterPrompts: []
+      WelcomeMessage: ""
+      CustomPromptInput:
+        ExistingPrompt:
+          ModelProfileId: ""
+          QbsAwsAccountId: ""
+          SubscriptionId: ""
+        NewPrompt:
+          CustomInstructions: ""
+          Identity: ""
+          OutputStyle: ""
+          ResponseLength: ""
+          Tone: ""
+      Tags:
+        - Key: ""
+          Value: ""

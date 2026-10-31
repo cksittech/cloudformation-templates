@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsecuretunnelingTunnel:
+    Type: AWS::IoTSecureTunneling::Tunnel
+    Properties:
+      Description: ""
+      DestinationConfig:
+        Services: []
+        ThingName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TimeoutConfig:
+        MaxLifetimeTimeoutMinutes: 0

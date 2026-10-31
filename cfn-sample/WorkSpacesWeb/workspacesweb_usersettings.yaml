@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebUsersettings:
+    Type: AWS::WorkSpacesWeb::UserSettings
+    Properties:
+      CopyAllowed: ""
+      CustomerManagedKey: ""
+      DeepLinkAllowed: ""
+      DisconnectTimeoutInMinutes: 0
+      DownloadAllowed: ""
+      IdleDisconnectTimeoutInMinutes: 0
+      PasteAllowed: ""
+      PrintAllowed: ""
+      UploadAllowed: ""
+      WebAuthnAllowed: ""
+      AdditionalEncryptionContext: {}
+      BrandingConfiguration:
+        ColorTheme: ""
+        Favicon: ""
+        Logo: ""
+        TermsOfService: ""
+        Wallpaper: ""
+        LocalizedStrings: {}
+      CookieSynchronizationConfiguration:
+        Allowlist:
+          - Domain: ""
+            Name: ""
+            Path: ""
+        Blocklist:
+          - Domain: ""
+            Name: ""
+            Path: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ToolbarConfiguration:
+        HiddenToolbarItems: []
+        MaxDisplayResolution: ""
+        ToolbarType: ""
+        VisualMode: ""

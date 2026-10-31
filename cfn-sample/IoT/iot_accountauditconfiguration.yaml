@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotAccountauditconfiguration:
+    Type: AWS::IoT::AccountAuditConfiguration
+    Properties:
+      AccountId: ""
+      RoleArn: ""
+      AuditCheckConfigurations:
+        AuthenticatedCognitoRoleOverlyPermissiveCheck:
+          Enabled: false
+        CaCertificateExpiringCheck:
+          Enabled: false
+        CaCertificateKeyQualityCheck:
+          Enabled: false
+        ConflictingClientIdsCheck:
+          Enabled: false
+        DeviceCertificateAgeCheck:
+          Enabled: false
+          Configuration:
+            CertAgeThresholdInDays: ""
+        DeviceCertificateExpiringCheck:
+          Enabled: false
+          Configuration:
+            CertExpirationThresholdInDays: ""
+        DeviceCertificateKeyQualityCheck:
+          Enabled: false
+        DeviceCertificateSharedCheck:
+          Enabled: false
+        IntermediateCaRevokedForActiveDeviceCertificatesCheck:
+          Enabled: false
+        IoTPolicyPotentialMisConfigurationCheck:
+          Enabled: false
+        IotPolicyOverlyPermissiveCheck:
+          Enabled: false
+        IotRoleAliasAllowsAccessToUnusedServicesCheck:
+          Enabled: false
+        IotRoleAliasOverlyPermissiveCheck:
+          Enabled: false
+        LoggingDisabledCheck:
+          Enabled: false
+        RevokedCaCertificateStillActiveCheck:
+          Enabled: false
+        RevokedDeviceCertificateStillActiveCheck:
+          Enabled: false
+        UnauthenticatedCognitoRoleOverlyPermissiveCheck:
+          Enabled: false
+      AuditNotificationTargetConfigurations:
+        Sns:
+          Enabled: false
+          RoleArn: ""
+          TargetArn: ""

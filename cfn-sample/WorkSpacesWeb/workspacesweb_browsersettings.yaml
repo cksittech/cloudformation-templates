@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebBrowsersettings:
+    Type: AWS::WorkSpacesWeb::BrowserSettings
+    Properties:
+      BrowserPolicy: ""
+      CustomerManagedKey: ""
+      AdditionalEncryptionContext: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      WebContentFilteringPolicy:
+        AllowedUrls: []
+        BlockedCategories: []
+        BlockedUrls: []

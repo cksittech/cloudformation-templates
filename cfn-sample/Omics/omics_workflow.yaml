@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOmicsWorkflow:
+    Type: AWS::Omics::Workflow
+    Properties:
+      Accelerators: ""
+      ContainerRegistryMapUri: ""
+      DefinitionUri: ""
+      Description: ""
+      Engine: ""
+      Main: ""
+      Name: ""
+      ParameterTemplatePath: ""
+      StorageCapacity: 0
+      StorageType: ""
+      WorkflowBucketOwnerId: ""
+      readmeMarkdown: ""
+      readmePath: ""
+      readmeUri: ""
+      ContainerRegistryMap:
+        ImageMappings:
+          - DestinationImage: ""
+            SourceImage: ""
+        RegistryMappings:
+          - EcrAccountId: ""
+            EcrRepositoryPrefix: ""
+            UpstreamRegistryUrl: ""
+            UpstreamRepositoryPrefix: ""
+      DefinitionRepository:
+        connectionArn: ""
+        excludeFilePatterns: []
+        fullRepositoryId: ""
+        sourceReference:
+          type: ""
+          value: ""
+      ParameterTemplate: {}
+      Tags: {}

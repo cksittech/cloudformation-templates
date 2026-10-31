@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbproxyendpoint:
+    Type: AWS::RDS::DBProxyEndpoint
+    Properties:
+      DBProxyEndpointName: ""
+      DBProxyName: ""
+      EndpointNetworkType: ""
+      TargetRole: ""
+      VpcSecurityGroupIds: []
+      VpcSubnetIds: []
+      Tags:
+        - Key: ""
+          Value: ""

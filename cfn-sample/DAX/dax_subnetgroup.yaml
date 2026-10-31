@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDaxSubnetgroup:
+    Type: AWS::DAX::SubnetGroup
+    Properties:
+      Description: ""
+      SubnetGroupName: ""
+      SubnetIds: []

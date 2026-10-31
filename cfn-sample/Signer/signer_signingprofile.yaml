@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSignerSigningprofile:
+    Type: AWS::Signer::SigningProfile
+    Properties:
+      PlatformId: ""
+      SignatureValidityPeriod:
+        Type: ""
+        Value: 0
+      Tags:
+        - Key: ""
+          Value: ""

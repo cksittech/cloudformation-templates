@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerImageversion:
+    Type: AWS::SageMaker::ImageVersion
+    Properties:
+      Alias: ""
+      Aliases: []
+      BaseImage: ""
+      Horovod: false
+      ImageName: ""
+      JobType: ""
+      MLFramework: ""
+      Processor: ""
+      ProgrammingLang: ""
+      ReleaseNotes: ""
+      VendorGuidance: ""

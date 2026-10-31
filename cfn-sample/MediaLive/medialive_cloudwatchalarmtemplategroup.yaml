@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveCloudwatchalarmtemplategroup:
+    Type: AWS::MediaLive::CloudWatchAlarmTemplateGroup
+    Properties:
+      Description: ""
+      Name: ""
+      Tags: {}

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamRolepolicy:
+    Type: AWS::IAM::RolePolicy
+    Properties:
+      PolicyName: ""
+      RoleName: ""
+      PolicyDocument: {}

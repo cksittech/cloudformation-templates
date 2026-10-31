@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailInstance:
+    Type: AWS::Lightsail::Instance
+    Properties:
+      AvailabilityZone: ""
+      BlueprintId: ""
+      BundleId: ""
+      InstanceName: ""
+      IpAddressType: ""
+      KeyPairName: ""
+      UserData: ""
+      AddOns:
+        - AddOnType: ""
+          Status: ""
+          AutoSnapshotAddOnRequest:
+            SnapshotTimeOfDay: ""
+      Hardware:
+        Disks:
+          - AttachedTo: ""
+            AttachmentState: ""
+            DiskName: ""
+            IOPS: 0
+            IsSystemDisk: false
+            Path: ""
+            SizeInGb: ""
+      Location: {}
+      Networking:
+        MonthlyTransfer: {}
+        Ports:
+          - AccessDirection: ""
+            AccessFrom: ""
+            AccessType: ""
+            CidrListAliases: []
+            Cidrs: []
+            CommonName: ""
+            FromPort: 0
+            Ipv6Cidrs: []
+            Protocol: ""
+            ToPort: 0
+      State: {}
+      Tags:
+        - Key: ""
+          Value: ""

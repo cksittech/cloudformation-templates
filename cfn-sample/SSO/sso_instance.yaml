@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoInstance:
+    Type: AWS::SSO::Instance
+    Properties:
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

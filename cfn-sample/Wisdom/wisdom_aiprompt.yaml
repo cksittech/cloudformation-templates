@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAiprompt:
+    Type: AWS::Wisdom::AIPrompt
+    Properties:
+      ApiFormat: ""
+      AssistantId: ""
+      Description: ""
+      ModelId: ""
+      Name: ""
+      TemplateType: ""
+      Type: ""
+      Tags: {}
+      TemplateConfiguration:
+        TextFullAIPromptEditTemplateConfiguration:
+          Text: ""

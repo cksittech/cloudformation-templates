@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudtrailChannel:
+    Type: AWS::CloudTrail::Channel
+    Properties:
+      Name: ""
+      Source: ""
+      Destinations:
+        - Location: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

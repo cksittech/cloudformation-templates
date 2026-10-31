@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrcontainersSecurityconfiguration:
+    Type: AWS::EMRContainers::SecurityConfiguration
+    Properties:
+      Name: ""
+      ContainerProvider:
+        Id: ""
+        Type: ""
+        Info:
+          EksInfo:
+            Namespace: ""
+      SecurityConfigurationData:
+        AuthenticationConfiguration:
+          IAMConfiguration:
+            SystemRole: ""
+          IdentityCenterConfiguration:
+            EnableIdentityCenter: false
+            IdentityCenterApplicationAssignmentRequired: false
+            IdentityCenterInstanceARN: ""
+        AuthorizationConfiguration:
+          LakeFormationConfiguration:
+            AuthorizedSessionTagValue: ""
+            QueryAccessControlEnabled: false
+            QueryEngineRoleArn: ""
+            SecureNamespaceInfo:
+              ClusterId: ""
+              Namespace: ""
+        EncryptionConfiguration:
+          AtRestEncryptionConfiguration:
+            LocalDiskEncryptionConfiguration:
+              AwsKmsKeyId: ""
+              EncryptionKeyProviderType: ""
+            S3EncryptionConfiguration:
+              EncryptionOption: ""
+              KMSKeyId: ""
+          InTransitEncryptionConfiguration:
+            TLSCertificateConfiguration:
+              CertificateProviderType: ""
+              PrivateKeySecretArn: ""
+              PublicKeySecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

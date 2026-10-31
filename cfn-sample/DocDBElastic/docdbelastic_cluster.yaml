@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDocdbelasticCluster:
+    Type: AWS::DocDBElastic::Cluster
+    Properties:
+      AdminUserName: ""
+      AdminUserPassword: ""
+      AuthType: ""
+      BackupRetentionPeriod: 0
+      ClusterName: ""
+      KmsKeyId: ""
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      ShardCapacity: 0
+      ShardCount: 0
+      ShardInstanceCount: 0
+      SubnetIds: []
+      VpcSecurityGroupIds: []
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupReportplan:
+    Type: AWS::Backup::ReportPlan
+    Properties:
+      ReportPlanDescription: ""
+      ReportPlanName: ""
+      ReportDeliveryChannel:
+        Formats: []
+        S3BucketName: ""
+        S3KeyPrefix: ""
+      ReportPlanTags:
+        - Key: ""
+          Value: ""
+      ReportSetting:
+        Accounts: []
+        FrameworkArns: []
+        OrganizationUnits: []
+        Regions: []
+        ReportTemplate: ""

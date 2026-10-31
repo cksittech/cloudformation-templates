@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRefactorspacesService:
+    Type: AWS::RefactorSpaces::Service
+    Properties:
+      ApplicationIdentifier: ""
+      Description: ""
+      EndpointType: ""
+      EnvironmentIdentifier: ""
+      Name: ""
+      VpcId: ""
+      LambdaEndpoint:
+        Arn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UrlEndpoint:
+        HealthUrl: ""
+        Url: ""

@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconvertJobtemplate:
+    Type: AWS::MediaConvert::JobTemplate
+    Properties:
+      Category: ""
+      Description: ""
+      Name: ""
+      Priority: 0
+      Queue: ""
+      StatusUpdateInterval: ""
+      AccelerationSettings:
+        Mode: ""
+      HopDestinations:
+        - Priority: 0
+          Queue: ""
+          WaitMinutes: 0
+      SettingsJson: {}
+      Tags: {}

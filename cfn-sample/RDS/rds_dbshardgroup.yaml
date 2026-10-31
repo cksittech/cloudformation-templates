@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbshardgroup:
+    Type: AWS::RDS::DBShardGroup
+    Properties:
+      ComputeRedundancy: 0
+      DBClusterIdentifier: ""
+      DBShardGroupIdentifier: ""
+      MaxACU: 0
+      MinACU: 0
+      PubliclyAccessible: false
+      Tags:
+        - Key: ""
+          Value: ""

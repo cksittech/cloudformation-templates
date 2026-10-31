@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsReplicationinstance:
+    Type: AWS::DMS::ReplicationInstance
+    Properties:
+      AllocatedStorage: 0
+      AllowMajorVersionUpgrade: false
+      AutoMinorVersionUpgrade: false
+      AvailabilityZone: ""
+      DnsNameServers: ""
+      EngineVersion: ""
+      KmsKeyId: ""
+      MultiAZ: false
+      NetworkType: ""
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      ReplicationInstanceClass: ""
+      ReplicationInstanceIdentifier: ""
+      ReplicationSubnetGroupIdentifier: ""
+      ResourceIdentifier: ""
+      VpcSecurityGroupIds: []
+      Tags:
+        - Key: ""
+          Value: ""

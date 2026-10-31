@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Volumeattachment:
+    Type: AWS::EC2::VolumeAttachment
+    Properties:
+      Device: ""
+      EbsCardIndex: 0
+      InstanceId: ""
+      VolumeId: ""

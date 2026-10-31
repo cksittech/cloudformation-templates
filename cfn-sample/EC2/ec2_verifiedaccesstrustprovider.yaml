@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Verifiedaccesstrustprovider:
+    Type: AWS::EC2::VerifiedAccessTrustProvider
+    Properties:
+      Description: ""
+      DeviceTrustProviderType: ""
+      PolicyReferenceName: ""
+      TrustProviderType: ""
+      UserTrustProviderType: ""
+      DeviceOptions:
+        PublicSigningKeyUrl: ""
+        TenantId: ""
+      NativeApplicationOidcOptions:
+        AuthorizationEndpoint: ""
+        ClientId: ""
+        ClientSecret: ""
+        Issuer: ""
+        PublicSigningKeyEndpoint: ""
+        Scope: ""
+        TokenEndpoint: ""
+        UserInfoEndpoint: ""
+      OidcOptions:
+        AuthorizationEndpoint: ""
+        ClientId: ""
+        ClientSecret: ""
+        Issuer: ""
+        Scope: ""
+        TokenEndpoint: ""
+        UserInfoEndpoint: ""
+      SseSpecification:
+        CustomerManagedKeyEnabled: false
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInspectorv2Codesecurityscanconfiguration:
+    Type: AWS::InspectorV2::CodeSecurityScanConfiguration
+    Properties:
+      Level: ""
+      Name: ""
+      Configuration:
+        ruleSetCategories: []
+        continuousIntegrationScanConfiguration:
+          supportedEvents: []
+        periodicScanConfiguration:
+          frequency: ""
+          frequencyExpression: ""
+      ScopeSettings:
+        projectSelectionScope: ""
+      Tags: {}

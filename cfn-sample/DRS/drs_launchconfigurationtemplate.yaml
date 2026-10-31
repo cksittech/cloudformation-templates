@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDrsLaunchconfigurationtemplate:
+    Type: AWS::DRS::LaunchConfigurationTemplate
+    Properties:
+      CopyPrivateIp: false
+      CopyTags: false
+      ExportBucketArn: ""
+      LaunchDisposition: ""
+      LaunchIntoSourceInstance: false
+      PostLaunchEnabled: false
+      TargetInstanceTypeRightSizingMethod: ""
+      Licensing:
+        OsByol: false
+      Tags:
+        - Key: ""
+          Value: ""

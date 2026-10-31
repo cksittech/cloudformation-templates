@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpcblockpublicaccessexclusion:
+    Type: AWS::EC2::VPCBlockPublicAccessExclusion
+    Properties:
+      InternetGatewayExclusionMode: ""
+      SubnetId: ""
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

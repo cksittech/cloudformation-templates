@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsDeliverydestination:
+    Type: AWS::Logs::DeliveryDestination
+    Properties:
+      DeliveryDestinationType: ""
+      DestinationResourceArn: ""
+      Name: ""
+      OutputFormat: ""
+      DeliveryDestinationPolicy:
+        DeliveryDestinationName: ""
+        DeliveryDestinationPolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

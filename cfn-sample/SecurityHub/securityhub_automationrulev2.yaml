@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubAutomationrulev2:
+    Type: AWS::SecurityHub::AutomationRuleV2
+    Properties:
+      Description: ""
+      RuleName: ""
+      RuleOrder: 0
+      RuleStatus: ""
+      Actions:
+        - Type: ""
+          ExternalIntegrationConfiguration:
+            ConnectorArn: ""
+          FindingFieldsUpdate:
+            Comment: ""
+            SeverityId: 0
+            StatusId: 0
+      Criteria:
+        OcsfFindingCriteria:
+          CompositeOperator: ""
+          CompositeFilters:
+            - Operator: ""
+              BooleanFilters:
+                - FieldName: ""
+                  Filter:
+                    Value: false
+              DateFilters:
+                - FieldName: ""
+                  Filter:
+                    End: ""
+                    Start: ""
+                    DateRange:
+                      Unit: ""
+                      Value: 0
+              MapFilters:
+                - FieldName: ""
+                  Filter:
+                    Comparison: ""
+                    Key: ""
+                    Value: ""
+              NumberFilters:
+                - FieldName: ""
+                  Filter:
+                    Eq: 0
+                    Gte: 0
+                    Lte: 0
+              StringFilters:
+                - FieldName: ""
+                  Filter:
+                    Comparison: ""
+                    Value: ""
+      Tags: {}

@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeResourceconfiguration:
+    Type: AWS::VpcLattice::ResourceConfiguration
+    Properties:
+      AllowAssociationToSharableServiceNetwork: false
+      CustomDomainName: ""
+      DomainVerificationId: ""
+      GroupDomain: ""
+      Name: ""
+      PortRanges: []
+      ProtocolType: ""
+      ResourceConfigurationAuthType: ""
+      ResourceConfigurationGroupId: ""
+      ResourceConfigurationType: ""
+      ResourceGatewayId: ""
+      ResourceConfigurationDefinition:
+        ArnResource: ""
+        IpResource: ""
+        CidrResource:
+          CidrRanges: []
+        DnsResource:
+          DomainName: ""
+          IpAddressType: ""
+      Tags:
+        - Key: ""
+          Value: ""

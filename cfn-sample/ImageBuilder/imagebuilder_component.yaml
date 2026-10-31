@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderComponent:
+    Type: AWS::ImageBuilder::Component
+    Properties:
+      ChangeDescription: ""
+      Data: ""
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      Platform: ""
+      SupportedOsVersions: []
+      Uri: ""
+      Version: ""
+      Tags: {}

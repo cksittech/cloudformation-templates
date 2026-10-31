@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerDevice:
+    Type: AWS::NetworkManager::Device
+    Properties:
+      Description: ""
+      GlobalNetworkId: ""
+      Model: ""
+      SerialNumber: ""
+      SiteId: ""
+      Type: ""
+      Vendor: ""
+      AWSLocation:
+        SubnetArn: ""
+        Zone: ""
+      Location:
+        Address: ""
+        Latitude: ""
+        Longitude: ""
+      Tags:
+        - Key: ""
+          Value: ""
