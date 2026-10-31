@@ -20,7 +20,7 @@ OUTPUT_DIR = Path("./output")
 
 INDENT_LEVEL = 2
 TEMPLATE_FORMAT_VERSION = "2010-09-09"
-LOGICAL_ID_PREFIX = "Sample"
+LOGICAL_ID_PREFIX = "CfnSample"
 ALTERNATIVE_KEYS = ["oneOf", "anyOf", "allOf"]
 
 def node_type(node: dict) -> str | None:
