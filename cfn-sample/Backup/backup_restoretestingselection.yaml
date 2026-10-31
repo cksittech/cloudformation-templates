@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupRestoretestingselection:
+    Type: AWS::Backup::RestoreTestingSelection
+    Properties:
+      IamRoleArn: ""
+      ProtectedResourceArns: []
+      ProtectedResourceType: ""
+      RestoreTestingPlanName: ""
+      RestoreTestingSelectionName: ""
+      ValidationWindowHours: 0
+      ProtectedResourceConditions:
+        StringEquals:
+          - Key: ""
+            Value: ""
+        StringNotEquals:
+          - Key: ""
+            Value: ""
+      RestoreMetadataOverrides: {}

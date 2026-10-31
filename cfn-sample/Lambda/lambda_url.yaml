@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaUrl:
+    Type: AWS::Lambda::Url
+    Properties:
+      AuthType: ""
+      InvokeMode: ""
+      Qualifier: ""
+      TargetFunctionArn: ""
+      Cors:
+        AllowCredentials: false
+        AllowHeaders: []
+        AllowMethods: []
+        AllowOrigins: []
+        ExposeHeaders: []
+        MaxAge: 0

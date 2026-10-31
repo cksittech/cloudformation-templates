@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverFirewallrule:
+    Type: AWS::Route53GlobalResolver::FirewallRule
+    Properties:
+      Action: ""
+      BlockOverrideDnsType: ""
+      BlockOverrideDomain: ""
+      BlockOverrideTtl: 0
+      BlockResponse: ""
+      ClientToken: ""
+      ConfidenceThreshold: ""
+      Description: ""
+      DnsAdvancedProtection: ""
+      DnsViewId: ""
+      FirewallDomainListId: ""
+      Name: ""
+      Priority: 0
+      QType: ""

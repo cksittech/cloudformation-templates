@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyuibuilderForm:
+    Type: AWS::AmplifyUIBuilder::Form
+    Properties:
+      AppId: ""
+      EnvironmentName: ""
+      FormActionType: ""
+      LabelDecorator: ""
+      Name: ""
+      SchemaVersion: ""
+      Cta:
+        Position: ""
+        Cancel:
+          Children: ""
+          Excluded: false
+          Position:
+            Below: ""
+            Fixed: ""
+            RightOf: ""
+        Clear:
+          Children: ""
+          Excluded: false
+          Position:
+            Below: ""
+            Fixed: ""
+            RightOf: ""
+        Submit:
+          Children: ""
+          Excluded: false
+          Position:
+            Below: ""
+            Fixed: ""
+            RightOf: ""
+      DataType:
+        DataSourceType: ""
+        DataTypeName: ""
+      Fields: {}
+      SectionalElements: {}
+      Style:
+        HorizontalGap:
+          TokenReference: ""
+          Value: ""
+        OuterPadding:
+          TokenReference: ""
+          Value: ""
+        VerticalGap:
+          TokenReference: ""
+          Value: ""
+      Tags: {}

@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInvoicingProcurementportalpreference:
+    Type: AWS::Invoicing::ProcurementPortalPreference
+    Properties:
+      BuyerDomain: ""
+      BuyerIdentifier: ""
+      EinvoiceDeliveryEnabled: false
+      ProcurementPortalInstanceEndpoint: ""
+      ProcurementPortalName: ""
+      ProcurementPortalSharedSecret: ""
+      PurchaseOrderRetrievalEnabled: false
+      SupplierDomain: ""
+      SupplierIdentifier: ""
+      Contacts:
+        - Email: ""
+          Name: ""
+      EinvoiceDeliveryPreference:
+        ConnectionTestingMethod: ""
+        EinvoiceDeliveryActivationDate: ""
+        EinvoiceDeliveryAttachmentTypes: []
+        EinvoiceDeliveryDocumentTypes: []
+        Protocol: ""
+        PurchaseOrderDataSources:
+          - EinvoiceDeliveryDocumentType: ""
+            PurchaseOrderDataSourceType: ""
+      Selector:
+        InvoiceUnitArns: []
+      Tags:
+        - Key: ""
+          Value: ""
+      TestEnvPreference:
+        BuyerDomain: ""
+        BuyerIdentifier: ""
+        ProcurementPortalInstanceEndpoint: ""
+        ProcurementPortalSharedSecret: ""
+        SupplierDomain: ""
+        SupplierIdentifier: ""

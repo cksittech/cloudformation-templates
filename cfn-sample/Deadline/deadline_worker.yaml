@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineWorker:
+    Type: AWS::Deadline::Worker
+    Properties:
+      FarmId: ""
+      FleetId: ""
+      HostProperties:
+        HostName: ""
+        IpAddresses:
+          IpV4Addresses: []
+          IpV6Addresses: []
+      Tags:
+        - Key: ""
+          Value: ""

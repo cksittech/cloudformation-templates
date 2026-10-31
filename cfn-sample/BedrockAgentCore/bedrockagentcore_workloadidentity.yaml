@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreWorkloadidentity:
+    Type: AWS::BedrockAgentCore::WorkloadIdentity
+    Properties:
+      AllowedResourceOauth2ReturnUrls: []
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

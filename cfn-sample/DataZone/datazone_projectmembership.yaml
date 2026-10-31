@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneProjectmembership:
+    Type: AWS::DataZone::ProjectMembership
+    Properties:
+      Designation: ""
+      DomainIdentifier: ""
+      ProjectIdentifier: ""
+      Member:
+        GroupIdentifier: ""
+        UserIdentifier: ""

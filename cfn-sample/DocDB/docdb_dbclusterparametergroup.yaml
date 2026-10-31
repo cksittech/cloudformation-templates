@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDocdbDbclusterparametergroup:
+    Type: AWS::DocDB::DBClusterParameterGroup
+    Properties:
+      Description: ""
+      Family: ""
+      Name: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

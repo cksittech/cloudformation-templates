@@ -1,0 +1,117 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentService:
+    Type: AWS::DevOpsAgent::Service
+    Properties:
+      ExchangeUrlPrivateConnectionName: ""
+      KmsKeyArn: ""
+      Name: ""
+      PrivateConnectionName: ""
+      ServiceType: ""
+      TargetUrlPrivateConnectionName: ""
+      ServiceDetails:
+        AzureIdentity:
+          ClientId: ""
+          TenantId: ""
+          WebIdentityRoleArn: ""
+          WebIdentityTokenAudiences: []
+        Dynatrace:
+          AccountUrn: ""
+          AuthorizationConfig:
+            OAuthClientCredentials:
+              ClientId: ""
+              ClientName: ""
+              ClientSecret: ""
+              ExchangeParameters: {}
+        GitHub:
+          AppVerification:
+            AppVariant: ""
+            OrganizationName: ""
+            TargetUrl: ""
+            TokenValue: ""
+          DirectAccess:
+            OrganizationName: ""
+            TargetUrl: ""
+            TokenValue: ""
+        GitLab:
+          GroupId: ""
+          TargetUrl: ""
+          TokenType: ""
+          TokenValue: ""
+        MCPServer:
+          Description: ""
+          Endpoint: ""
+          Name: ""
+          AuthorizationConfig:
+            ApiKey:
+              ApiKeyHeader: ""
+              ApiKeyName: ""
+              ApiKeyValue: ""
+            BearerToken:
+              AuthorizationHeader: "Authorization"
+              TokenName: ""
+              TokenValue: ""
+            OAuthClientCredentials:
+              ClientId: ""
+              ClientName: ""
+              ClientSecret: ""
+              ExchangeUrl: ""
+              Scopes: []
+              ExchangeParameters: {}
+        MCPServerGrafana:
+          Description: ""
+          Endpoint: ""
+          Name: ""
+          AuthorizationConfig:
+            BearerToken:
+              AuthorizationHeader: "Authorization"
+              TokenName: ""
+              TokenValue: ""
+        MCPServerNewRelic:
+          AuthorizationConfig:
+            ApiKey:
+              AccountId: ""
+              AlertPolicyIds: []
+              ApiKey: ""
+              ApplicationIds: []
+              EntityGuids: []
+              Region: ""
+        MCPServerSigV4:
+          Description: ""
+          Endpoint: ""
+          Name: ""
+          AuthorizationConfig:
+            McpRoleArn: ""
+            Region: ""
+            RoleArn: ""
+            Service: ""
+            CustomHeaders: {}
+        MCPServerSplunk:
+          Description: ""
+          Endpoint: ""
+          Name: ""
+          AuthorizationConfig:
+            BearerToken:
+              AuthorizationHeader: "Authorization"
+              TokenName: ""
+              TokenValue: ""
+        PagerDuty:
+          Scopes: []
+          AuthorizationConfig:
+            OAuthClientCredentials:
+              ClientId: ""
+              ClientName: ""
+              ClientSecret: ""
+              ExchangeParameters: {}
+        ServiceNow:
+          InstanceUrl: ""
+          AuthorizationConfig:
+            OAuthClientCredentials:
+              ClientId: ""
+              ClientName: ""
+              ClientSecret: ""
+              ExchangeParameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

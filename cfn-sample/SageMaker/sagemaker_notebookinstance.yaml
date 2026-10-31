@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerNotebookinstance:
+    Type: AWS::SageMaker::NotebookInstance
+    Properties:
+      AdditionalCodeRepositories: []
+      DefaultCodeRepository: ""
+      DirectInternetAccess: ""
+      InstanceType: ""
+      KmsKeyId: ""
+      LifecycleConfigName: ""
+      NotebookInstanceName: ""
+      PlatformIdentifier: ""
+      RoleArn: ""
+      RootAccess: ""
+      SecurityGroupIds: []
+      SubnetId: ""
+      VolumeSizeInGB: 0
+      InstanceMetadataServiceConfiguration:
+        MinimumInstanceMetadataServiceVersion: ""
+      Tags:
+        - Key: ""
+          Value: ""

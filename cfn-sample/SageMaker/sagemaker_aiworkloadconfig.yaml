@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerAiworkloadconfig:
+    Type: AWS::SageMaker::AIWorkloadConfig
+    Properties:
+      AIWorkloadConfigName: ""
+      AIWorkloadConfigs:
+        WorkloadSpec:
+          Inline: ""
+      DatasetConfig:
+        InputDataConfig:
+          - ChannelName: ""
+            DataSource:
+              S3DataSource:
+                S3Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""

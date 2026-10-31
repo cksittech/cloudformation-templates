@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaCapacityprovider:
+    Type: AWS::Lambda::CapacityProvider
+    Properties:
+      CapacityProviderName: ""
+      KmsKeyArn: ""
+      CapacityProviderScalingConfig:
+        MaxVCpuCount: 0
+        ScalingMode: ""
+        ScalingPolicies:
+          - PredefinedMetricType: ""
+            TargetValue: 0
+      InstanceRequirements:
+        AllowedInstanceTypes: []
+        Architectures: []
+        ExcludedInstanceTypes: []
+      PermissionsConfig:
+        CapacityProviderOperatorRoleArn: ""
+      PropagateTags:
+        Mode: ""
+        ExplicitTags:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TelemetryConfig:
+        LoggingConfig:
+          LogGroup: ""
+          SystemLogLevel: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        SubnetIds: []

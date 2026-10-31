@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptuneDbcluster:
+    Type: AWS::Neptune::DBCluster
+    Properties:
+      AvailabilityZones: []
+      BackupRetentionPeriod: 1
+      CopyTagsToSnapshot: false
+      DBClusterIdentifier: ""
+      DBClusterParameterGroupName: ""
+      DBInstanceParameterGroupName: ""
+      DBPort: 0
+      DBSubnetGroupName: ""
+      DeletionProtection: false
+      EnableCloudwatchLogsExports: []
+      EngineVersion: ""
+      GlobalClusterIdentifier: ""
+      IamAuthEnabled: false
+      KmsKeyId: ""
+      NetworkType: ""
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      RestoreToTime: ""
+      RestoreType: "full-copy"
+      SnapshotIdentifier: ""
+      SourceDBClusterIdentifier: ""
+      StorageEncrypted: false
+      UseLatestRestorableTime: false
+      VpcSecurityGroupIds: []
+      AssociatedRoles:
+        - FeatureName: ""
+          RoleArn: ""
+      ServerlessScalingConfiguration:
+        MaxCapacity: 0
+        MinCapacity: 0
+      Tags:
+        - Key: ""
+          Value: ""

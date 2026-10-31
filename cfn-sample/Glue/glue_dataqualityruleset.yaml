@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueDataqualityruleset:
+    Type: AWS::Glue::DataQualityRuleset
+    Properties:
+      ClientToken: ""
+      Description: ""
+      Name: ""
+      Ruleset: ""
+      Tags: {}
+      TargetTable:
+        DatabaseName: ""
+        TableName: ""

@@ -1,0 +1,169 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsTaskdefinition:
+    Type: AWS::ECS::TaskDefinition
+    Properties:
+      Cpu: ""
+      EnableFaultInjection: false
+      ExecutionRoleArn: ""
+      Family: ""
+      IpcMode: ""
+      Memory: ""
+      NetworkMode: ""
+      PidMode: ""
+      RequiresCompatibilities: []
+      TaskRoleArn: ""
+      ContainerDefinitions:
+        - Command: []
+          Cpu: 0
+          CredentialSpecs: []
+          DisableNetworking: false
+          DnsSearchDomains: []
+          DnsServers: []
+          DockerSecurityOptions: []
+          EntryPoint: []
+          Essential: false
+          Hostname: ""
+          Image: ""
+          Interactive: false
+          Links: []
+          Memory: 0
+          MemoryReservation: 0
+          Name: ""
+          Privileged: false
+          PseudoTerminal: false
+          ReadonlyRootFilesystem: false
+          StartTimeout: 0
+          StopTimeout: 0
+          User: ""
+          VersionConsistency: "enabled"
+          WorkingDirectory: ""
+          DependsOn:
+            - Condition: ""
+              ContainerName: ""
+          DockerLabels: {}
+          Environment:
+            - Name: ""
+              Value: ""
+          EnvironmentFiles:
+            - Type: ""
+              Value: ""
+          ExtraHosts:
+            - Hostname: ""
+              IpAddress: ""
+          FirelensConfiguration:
+            Type: ""
+            Options: {}
+          HealthCheck:
+            Command: []
+            Interval: 0
+            Retries: 0
+            StartPeriod: 0
+            Timeout: 0
+          LinuxParameters:
+            InitProcessEnabled: false
+            MaxSwap: 0
+            SharedMemorySize: 0
+            Swappiness: 0
+            Capabilities:
+              Add: []
+              Drop: []
+            Devices:
+              - ContainerPath: ""
+                HostPath: ""
+                Permissions: []
+            Tmpfs:
+              - ContainerPath: ""
+                MountOptions: []
+                Size: 0
+          LogConfiguration:
+            LogDriver: ""
+            Options: {}
+            SecretOptions:
+              - Name: ""
+                ValueFrom: ""
+          MountPoints:
+            - ContainerPath: ""
+              ReadOnly: false
+              SourceVolume: ""
+          PortMappings:
+            - AppProtocol: ""
+              ContainerPort: 0
+              ContainerPortRange: ""
+              HostPort: 0
+              Name: ""
+              Protocol: ""
+          RepositoryCredentials:
+            CredentialsParameter: ""
+          ResourceRequirements:
+            - Type: ""
+              Value: ""
+              SharingStrategy:
+                NvidiaMps:
+                  MaxComputePercent: 0
+                  Memory: 0
+          RestartPolicy:
+            Enabled: false
+            IgnoredExitCodes: []
+            RestartAttemptPeriod: 0
+          Secrets:
+            - Name: ""
+              ValueFrom: ""
+          SystemControls:
+            - Namespace: ""
+              Value: ""
+          Ulimits:
+            - HardLimit: 0
+              Name: ""
+              SoftLimit: 0
+          VolumesFrom:
+            - ReadOnly: false
+              SourceContainer: ""
+      EphemeralStorage:
+        SizeInGiB: 0
+      PlacementConstraints:
+        - Expression: ""
+          Type: ""
+      ProxyConfiguration:
+        ContainerName: ""
+        Type: ""
+        ProxyConfigurationProperties:
+          - Name: ""
+            Value: ""
+      RuntimePlatform:
+        CpuArchitecture: ""
+        OperatingSystemFamily: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Volumes:
+        - ConfiguredAtLaunch: false
+          Name: ""
+          DockerVolumeConfiguration:
+            Autoprovision: false
+            Driver: ""
+            Scope: ""
+            DriverOpts: {}
+            Labels: {}
+          EFSVolumeConfiguration:
+            FilesystemId: ""
+            RootDirectory: ""
+            TransitEncryption: ""
+            TransitEncryptionPort: 0
+            AuthorizationConfig:
+              AccessPointId: ""
+              IAM: ""
+          FSxWindowsFileServerVolumeConfiguration:
+            FileSystemId: ""
+            RootDirectory: ""
+            AuthorizationConfig:
+              CredentialsParameter: ""
+              Domain: ""
+          Host:
+            SourcePath: ""
+          S3FilesVolumeConfiguration:
+            AccessPointArn: ""
+            FileSystemArn: ""
+            RootDirectory: ""
+            TransitEncryptionPort: 0

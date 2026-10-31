@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerAction:
+    Type: AWS::SageMaker::Action
+    Properties:
+      ActionName: ""
+      ActionType: ""
+      Description: ""
+      Status: ""
+      MetadataProperties:
+        CommitId: ""
+        GeneratedBy: ""
+        ProjectId: ""
+        Repository: ""
+      Properties: {}
+      Source:
+        SourceId: ""
+        SourceType: ""
+        SourceUri: ""
+      Tags:
+        - Key: ""
+          Value: ""

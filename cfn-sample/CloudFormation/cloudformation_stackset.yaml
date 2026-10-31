@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationStackset:
+    Type: AWS::CloudFormation::StackSet
+    Properties:
+      AdministrationRoleARN: ""
+      CallAs: ""
+      Capabilities: []
+      Description: ""
+      ExecutionRoleName: ""
+      PermissionModel: ""
+      StackSetName: ""
+      TemplateBody: ""
+      TemplateURL: ""
+      AutoDeployment:
+        DependsOn: []
+        Enabled: false
+        RetainStacksOnAccountRemoval: false
+      ManagedExecution:
+        Active: false
+      OperationPreferences:
+        ConcurrencyMode: ""
+        FailureToleranceCount: 0
+        FailureTolerancePercentage: 0
+        MaxConcurrentCount: 0
+        MaxConcurrentPercentage: 0
+        RegionConcurrencyType: ""
+        RegionOrder: []
+      Parameters:
+        - ParameterKey: ""
+          ParameterValue: ""
+      StackInstancesGroup:
+        - Regions: []
+          DeploymentTargets:
+            AccountFilterType: ""
+            Accounts: []
+            AccountsUrl: ""
+            OrganizationalUnitIds: []
+          ParameterOverrides:
+            - ParameterKey: ""
+              ParameterValue: ""
+      Tags:
+        - Key: ""
+          Value: ""

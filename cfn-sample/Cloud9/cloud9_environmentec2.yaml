@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloud9Environmentec2:
+    Type: AWS::Cloud9::EnvironmentEC2
+    Properties:
+      AutomaticStopTimeMinutes: 0
+      ConnectionType: ""
+      Description: ""
+      ImageId: ""
+      InstanceType: ""
+      Name: ""
+      OwnerArn: ""
+      SubnetId: ""
+      Repositories:
+        - PathComponent: ""
+          RepositoryUrl: ""
+      Tags:
+        - Key: ""
+          Value: ""

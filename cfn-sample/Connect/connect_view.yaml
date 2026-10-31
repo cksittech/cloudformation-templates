@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectView:
+    Type: AWS::Connect::View
+    Properties:
+      Actions: []
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Template: {}

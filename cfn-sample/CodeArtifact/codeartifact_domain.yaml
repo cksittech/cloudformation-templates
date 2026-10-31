@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodeartifactDomain:
+    Type: AWS::CodeArtifact::Domain
+    Properties:
+      DomainName: ""
+      PermissionsPolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

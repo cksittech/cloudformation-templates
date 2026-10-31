@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewiseProject:
+    Type: AWS::IoTSiteWise::Project
+    Properties:
+      AssetIds: []
+      PortalId: ""
+      ProjectDescription: ""
+      ProjectName: ""
+      Tags:
+        - Key: ""
+          Value: ""

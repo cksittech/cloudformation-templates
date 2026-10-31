@@ -1,0 +1,66 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockPrompt:
+    Type: AWS::Bedrock::Prompt
+    Properties:
+      CustomerEncryptionKeyArn: ""
+      DefaultVariant: ""
+      Description: ""
+      Name: ""
+      Tags: {}
+      Variants:
+        - ModelId: ""
+          Name: ""
+          TemplateType: ""
+          AdditionalModelRequestFields: {}
+          GenAiResource:
+            Agent:
+              AgentIdentifier: ""
+          InferenceConfiguration:
+            Text:
+              MaxTokens: 0
+              StopSequences: []
+              Temperature: 0
+              TopP: 0
+          Metadata:
+            - Key: ""
+              Value: ""
+          TemplateConfiguration:
+            Chat:
+              InputVariables:
+                - Name: ""
+              Messages:
+                - Role: ""
+                  Content:
+                    - Text: ""
+                      CachePoint:
+                        Type: ""
+              System:
+                - Text: ""
+                  CachePoint:
+                    Type: ""
+              ToolConfiguration:
+                ToolChoice:
+                  Any: {}
+                  Auto: {}
+                  Tool:
+                    Name: ""
+                Tools:
+                  - CachePoint:
+                      Type: ""
+                    ToolSpec:
+                      Description: ""
+                      Name: ""
+                      InputSchema:
+                        Json: {}
+            Text:
+              Text: ""
+              CachePoint:
+                Type: ""
+              InputVariables:
+                - Name: ""
+              TextS3Location:
+                Bucket: ""
+                Key: ""
+                Version: ""

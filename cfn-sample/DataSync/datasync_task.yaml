@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncTask:
+    Type: AWS::DataSync::Task
+    Properties:
+      CloudWatchLogGroupArn: ""
+      DestinationLocationArn: ""
+      Name: ""
+      SourceLocationArn: ""
+      TaskMode: ""
+      Excludes:
+        - FilterType: ""
+          Value: ""
+      Includes:
+        - FilterType: ""
+          Value: ""
+      ManifestConfig:
+        Action: ""
+        Format: ""
+        Source:
+          S3:
+            BucketAccessRoleArn: ""
+            ManifestObjectPath: ""
+            ManifestObjectVersionId: ""
+            S3BucketArn: ""
+      Options:
+        Atime: ""
+        BytesPerSecond: 0
+        Gid: ""
+        LogLevel: ""
+        Mtime: ""
+        ObjectMetadata: ""
+        ObjectTags: ""
+        OverwriteMode: ""
+        PosixPermissions: ""
+        PreserveDeletedFiles: ""
+        PreserveDevices: ""
+        SecurityDescriptorCopyFlags: ""
+        TaskQueueing: ""
+        TransferMode: ""
+        Uid: ""
+        VerifyMode: ""
+      Schedule:
+        ScheduleExpression: ""
+        Status: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TaskReportConfig:
+        ObjectVersionIds: ""
+        OutputType: ""
+        ReportLevel: ""
+        Destination:
+          S3:
+            BucketAccessRoleArn: ""
+            S3BucketArn: ""
+            Subdirectory: ""
+        Overrides:
+          Deleted:
+            ReportLevel: ""
+          Skipped:
+            ReportLevel: ""
+          Transferred:
+            ReportLevel: ""
+          Verified:
+            ReportLevel: ""

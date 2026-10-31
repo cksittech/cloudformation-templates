@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeServicenetworkresourceassociation:
+    Type: AWS::VpcLattice::ServiceNetworkResourceAssociation
+    Properties:
+      PrivateDnsEnabled: false
+      ResourceConfigurationId: ""
+      ServiceNetworkId: ""
+      Tags:
+        - Key: ""
+          Value: ""

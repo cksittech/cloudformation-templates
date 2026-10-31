@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubv2Userjourney:
+    Type: AWS::ResilienceHubV2::UserJourney
+    Properties:
+      Description: ""
+      Name: ""
+      PolicyArn: ""
+      SystemIdentifier: ""

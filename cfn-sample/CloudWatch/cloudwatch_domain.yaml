@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchDomain:
+    Type: AWS::CloudWatch::Domain
+    Properties:
+      IdentityProviders: []
+      Name: ""
+      IdentityProviderConfiguration:
+        IdentityCenterConfiguration:
+          IdentityCenterInstanceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

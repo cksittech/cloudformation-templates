@@ -1,0 +1,105 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModelcard:
+    Type: AWS::SageMaker::ModelCard
+    Properties:
+      ModelCardName: ""
+      ModelCardStatus: ""
+      Content:
+        AdditionalInformation:
+          CaveatsAndRecommendations: ""
+          EthicalConsiderations: ""
+          CustomDetails: {}
+        BusinessDetails:
+          BusinessProblem: ""
+          BusinessStakeholders: ""
+          LineOfBusiness: ""
+        EvaluationDetails:
+          - Datasets: []
+            EvaluationJobArn: ""
+            EvaluationObservation: ""
+            Name: ""
+            Metadata: {}
+            MetricGroups:
+              - Name: ""
+                MetricData:
+                  - Name: ""
+                    Notes: ""
+                    Type: ""
+                    Value: 0
+                    XAxisName: ""
+                    YAxisName: ""
+        IntendedUses:
+          ExplanationsForRiskRating: ""
+          FactorsAffectingModelEfficiency: ""
+          IntendedUses: ""
+          PurposeOfModel: ""
+          RiskRating: ""
+        ModelOverview:
+          AlgorithmType: ""
+          ModelArtifact: []
+          ModelCreator: ""
+          ModelDescription: ""
+          ModelId: ""
+          ModelName: ""
+          ModelOwner: ""
+          ModelVersion: 0
+          ProblemType: ""
+          InferenceEnvironment:
+            ContainerImage: []
+        ModelPackageDetails:
+          ApprovalDescription: ""
+          Domain: ""
+          ModelApprovalStatus: ""
+          ModelPackageArn: ""
+          ModelPackageDescription: ""
+          ModelPackageGroupName: ""
+          ModelPackageName: ""
+          ModelPackageStatus: ""
+          ModelPackageVersion: 0
+          Task: ""
+          CreatedBy:
+            UserProfileName: ""
+          InferenceSpecification:
+            Containers:
+              - Image: ""
+                ModelDataUrl: ""
+                NearestModelName: ""
+          SourceAlgorithms:
+            - AlgorithmName: ""
+              ModelDataUrl: ""
+        TrainingDetails:
+          TrainingObservations: ""
+          ObjectiveFunction:
+            Notes: ""
+            Function:
+              Condition: ""
+              Facet: ""
+              Function: ""
+          TrainingJobDetails:
+            TrainingArn: ""
+            TrainingDatasets: []
+            HyperParameters:
+              - Name: ""
+                Value: ""
+            TrainingEnvironment:
+              ContainerImage: []
+            TrainingMetrics:
+              - Name: ""
+                Notes: ""
+                Value: 0
+            UserProvidedHyperParameters:
+              - Name: ""
+                Value: ""
+            UserProvidedTrainingMetrics:
+              - Name: ""
+                Notes: ""
+                Value: 0
+      CreatedBy: {}
+      LastModifiedBy: {}
+      SecurityConfig:
+        KmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""

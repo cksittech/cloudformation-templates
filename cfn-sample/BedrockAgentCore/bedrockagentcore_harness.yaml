@@ -1,0 +1,212 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreHarness:
+    Type: AWS::BedrockAgentCore::Harness
+    Properties:
+      AllowedTools: []
+      ExecutionRoleArn: ""
+      HarnessName: ""
+      MaxIterations: 0
+      MaxTokens: 0
+      TimeoutSeconds: 0
+      AuthorizerConfiguration:
+        CustomJWTAuthorizer:
+          AllowedAudience: []
+          AllowedClients: []
+          AllowedScopes: []
+          DiscoveryUrl: ""
+          AdvertisedScopeMapping: {}
+          CustomClaims:
+            - InboundTokenClaimName: ""
+              InboundTokenClaimValueType: ""
+              AuthorizingClaimMatchValue:
+                ClaimMatchOperator: ""
+                ClaimMatchValue:
+                  MatchValueString: ""
+                  MatchValueStringList: []
+          PrivateEndpoint:
+            ManagedVpcResource:
+              EndpointIpAddressType: ""
+              RoutingDomain: ""
+              SecurityGroupIds: []
+              SubnetIds: []
+              VpcIdentifier: ""
+              Tags: {}
+            SelfManagedLatticeResource:
+              ResourceConfigurationIdentifier: ""
+          PrivateEndpointOverrides:
+            - Domain: ""
+              PrivateEndpoint:
+                ManagedVpcResource:
+                  EndpointIpAddressType: ""
+                  RoutingDomain: ""
+                  SecurityGroupIds: []
+                  SubnetIds: []
+                  VpcIdentifier: ""
+                  Tags: {}
+                SelfManagedLatticeResource:
+                  ResourceConfigurationIdentifier: ""
+      Environment:
+        AgentCoreRuntimeEnvironment:
+          FilesystemConfigurations:
+            - EfsAccessPoint:
+                AccessPointArn: ""
+                MountPath: ""
+              S3FilesAccessPoint:
+                AccessPointArn: ""
+                MountPath: ""
+              SessionStorage:
+                MountPath: ""
+          LifecycleConfiguration:
+            IdleRuntimeSessionTimeout: 0
+            MaxLifetime: 0
+          NetworkConfiguration:
+            NetworkMode: ""
+            NetworkModeConfig:
+              SecurityGroups: []
+              Subnets: []
+      EnvironmentArtifact:
+        ContainerConfiguration:
+          ContainerUri: ""
+      EnvironmentVariables: {}
+      Hooks:
+        - AfterInvocation:
+            Name: ""
+            Target:
+              EventBridge:
+                Arn: ""
+              Lambda:
+                Arn: ""
+                FailureMode: ""
+                TimeoutSeconds: 0
+              Sns:
+                Arn: ""
+          AfterToolCall:
+            Name: ""
+            Target:
+              EventBridge:
+                Arn: ""
+              Lambda:
+                Arn: ""
+                FailureMode: ""
+                TimeoutSeconds: 0
+              Sns:
+                Arn: ""
+          BeforeInvocation:
+            Name: ""
+            Target:
+              EventBridge:
+                Arn: ""
+              Lambda:
+                Arn: ""
+                FailureMode: ""
+                TimeoutSeconds: 0
+              Sns:
+                Arn: ""
+          BeforeToolCall:
+            Name: ""
+            Target:
+              EventBridge:
+                Arn: ""
+              Lambda:
+                Arn: ""
+                FailureMode: ""
+                TimeoutSeconds: 0
+              Sns:
+                Arn: ""
+      Memory:
+        AgentCoreMemoryConfiguration:
+          ActorId: ""
+          Arn: ""
+          MessagesCount: 0
+          RetrievalConfig: {}
+        Disabled: {}
+        ManagedMemoryConfiguration:
+          EncryptionKeyArn: ""
+          EventExpiryDuration: 0
+          Strategies: []
+      Model:
+        BedrockModelConfig:
+          ApiFormat: ""
+          MaxTokens: 0
+          ModelId: ""
+          Temperature: 0
+          TopP: 0
+          AdditionalParams: {}
+        GeminiModelConfig:
+          ApiKeyArn: ""
+          MaxTokens: 0
+          ModelId: ""
+          Temperature: 0
+          TopK: 0
+          TopP: 0
+          AdditionalParams: {}
+        LiteLlmModelConfig:
+          ApiBase: ""
+          ApiKeyArn: ""
+          MaxTokens: 0
+          ModelId: ""
+          Temperature: 0
+          TopP: 0
+          AdditionalParams: {}
+        OpenAiModelConfig:
+          ApiBase: ""
+          ApiFormat: ""
+          ApiKeyArn: ""
+          MaxTokens: 0
+          ModelId: ""
+          Temperature: 0
+          TopP: 0
+          AdditionalParams: {}
+      Skills:
+        - Path: ""
+          AwsSkills:
+            Paths: []
+          Git:
+            Path: ""
+            Url: ""
+            Auth:
+              CredentialArn: ""
+              Username: ""
+          S3:
+            Uri: ""
+      SystemPrompt:
+        - Text: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Tools:
+        - Name: ""
+          Type: ""
+          Config:
+            AgentCoreBrowser:
+              BrowserArn: ""
+            AgentCoreCodeInterpreter:
+              CodeInterpreterArn: ""
+            AgentCoreGateway:
+              GatewayArn: ""
+              OutboundAuth:
+                AwsIam: {}
+                None: {}
+                Oauth:
+                  DefaultReturnUrl: ""
+                  GrantType: ""
+                  ProviderArn: ""
+                  Scopes: []
+                  CustomParameters: {}
+            InlineFunction:
+              Description: ""
+              InputSchema: {}
+            RemoteMcp:
+              Url: ""
+              Headers: {}
+      Truncation:
+        Strategy: ""
+        Config:
+          SlidingWindow:
+            MessagesCount: 0
+          Summarization:
+            PreserveRecentMessages: 0
+            SummarizationSystemPrompt: ""
+            SummaryRatio: 0

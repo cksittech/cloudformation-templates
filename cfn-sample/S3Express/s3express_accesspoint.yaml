@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3expressAccesspoint:
+    Type: AWS::S3Express::AccessPoint
+    Properties:
+      Bucket: ""
+      BucketAccountId: ""
+      Name: ""
+      Policy: {}
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: false
+        BlockPublicPolicy: false
+        IgnorePublicAcls: false
+        RestrictPublicBuckets: false
+      Scope:
+        Permissions: []
+        Prefixes: []
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfiguration:
+        VpcId: ""

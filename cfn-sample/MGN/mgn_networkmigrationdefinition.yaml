@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMgnNetworkmigrationdefinition:
+    Type: AWS::MGN::NetworkMigrationDefinition
+    Properties:
+      Description: ""
+      Name: ""
+      TargetDeployment: ""
+      ScopeTags: {}
+      SourceConfigurations:
+        - SourceEnvironment: ""
+          SourceS3Configuration:
+            S3Bucket: ""
+            S3BucketOwner: ""
+            S3Key: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetNetwork:
+        InboundCidr: ""
+        InspectionCidr: ""
+        OutboundCidr: ""
+        Topology: ""
+      TargetS3Configuration:
+        S3Bucket: ""
+        S3BucketOwner: ""

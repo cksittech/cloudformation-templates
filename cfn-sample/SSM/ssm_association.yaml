@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmAssociation:
+    Type: AWS::SSM::Association
+    Properties:
+      ApplyOnlyAtCronInterval: false
+      AssociationDispatchAssumeRole: ""
+      AssociationName: ""
+      AutomationTargetParameterName: ""
+      CalendarNames: []
+      ComplianceSeverity: ""
+      DocumentVersion: ""
+      InstanceId: ""
+      MaxConcurrency: ""
+      MaxErrors: ""
+      Name: ""
+      ScheduleExpression: ""
+      ScheduleOffset: 0
+      SyncCompliance: ""
+      WaitForSuccessTimeoutSeconds: 0
+      OutputLocation:
+        S3Location:
+          OutputS3BucketName: ""
+          OutputS3KeyPrefix: ""
+          OutputS3Region: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      Targets:
+        - Key: ""
+          Values: []

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamInstanceprofile:
+    Type: AWS::IAM::InstanceProfile
+    Properties:
+      InstanceProfileName: ""
+      Path: ""
+      Roles: []

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeMetricattribution:
+    Type: AWS::Personalize::MetricAttribution
+    Properties:
+      DatasetGroupArn: ""
+      Name: ""
+      Metrics:
+        - EventType: ""
+          Expression: ""
+          MetricName: ""
+      MetricsOutputConfig:
+        RoleArn: ""
+        S3DataDestination:
+          KmsKeyArn: ""
+          Path: ""

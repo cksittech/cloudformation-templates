@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecuritylakeDatalake:
+    Type: AWS::SecurityLake::DataLake
+    Properties:
+      MetaStoreManagerRoleArn: ""
+      EncryptionConfiguration:
+        KmsKeyId: ""
+      LifecycleConfiguration:
+        Expiration:
+          Days: 0
+        Transitions:
+          - Days: 0
+            StorageClass: ""
+      ReplicationConfiguration:
+        Regions: []
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

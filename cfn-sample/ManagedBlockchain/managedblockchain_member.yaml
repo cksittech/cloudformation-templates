@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleManagedblockchainMember:
+    Type: AWS::ManagedBlockchain::Member
+    Properties:
+      InvitationId: ""
+      NetworkId: ""
+      MemberConfiguration:
+        Description: ""
+        Name: ""
+        MemberFrameworkConfiguration:
+          MemberFabricConfiguration:
+            AdminPassword: ""
+            AdminUsername: ""
+      NetworkConfiguration:
+        Description: ""
+        Framework: ""
+        FrameworkVersion: ""
+        Name: ""
+        NetworkFrameworkConfiguration:
+          NetworkFabricConfiguration:
+            Edition: ""
+        VotingPolicy:
+          ApprovalThresholdPolicy:
+            ProposalDurationInHours: 0
+            ThresholdComparator: ""
+            ThresholdPercentage: 0

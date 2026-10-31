@@ -1,0 +1,333 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotTopicrule:
+    Type: AWS::IoT::TopicRule
+    Properties:
+      RuleName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TopicRulePayload:
+        AwsIotSqlVersion: ""
+        Description: ""
+        RuleDisabled: false
+        Sql: ""
+        Actions:
+          - CloudwatchAlarm:
+              AlarmName: ""
+              RoleArn: ""
+              StateReason: ""
+              StateValue: ""
+            CloudwatchLogs:
+              BatchMode: false
+              LogGroupName: ""
+              RoleArn: ""
+            CloudwatchMetric:
+              MetricName: ""
+              MetricNamespace: ""
+              MetricTimestamp: ""
+              MetricUnit: ""
+              MetricValue: ""
+              RoleArn: ""
+            DynamoDB:
+              HashKeyField: ""
+              HashKeyType: ""
+              HashKeyValue: ""
+              PayloadField: ""
+              RangeKeyField: ""
+              RangeKeyType: ""
+              RangeKeyValue: ""
+              RoleArn: ""
+              TableName: ""
+            DynamoDBv2:
+              RoleArn: ""
+              PutItem:
+                TableName: ""
+            Elasticsearch:
+              Endpoint: ""
+              Id: ""
+              Index: ""
+              RoleArn: ""
+              Type: ""
+            Firehose:
+              BatchMode: false
+              DeliveryStreamName: ""
+              RoleArn: ""
+              Separator: ""
+            Http:
+              ConfirmationUrl: ""
+              EnableBatching: false
+              Url: ""
+              Auth:
+                Sigv4:
+                  RoleArn: ""
+                  ServiceName: ""
+                  SigningRegion: ""
+              BatchConfig:
+                BatchAcrossTopics: false
+                MaxBatchOpenMs: 0
+                MaxBatchSize: 0
+                MaxBatchSizeBytes: 0
+              Headers:
+                - Key: ""
+                  Value: ""
+            InfluxDB:
+              DatabaseName: ""
+              DestinationArn: ""
+              Organization: ""
+              RoleArn: ""
+              TableName: ""
+              TimestampUnit: ""
+              BatchConfig:
+                BatchAcrossTopics: false
+                MaxBatchOpenMs: 0
+                MaxBatchSize: 0
+                MaxBatchSizeBytes: 0
+              Tags: {}
+            IotSiteWise:
+              RoleArn: ""
+              PutAssetPropertyValueEntries:
+                - AssetId: ""
+                  EntryId: ""
+                  PropertyAlias: ""
+                  PropertyId: ""
+                  PropertyValues:
+                    - Quality: ""
+                      Timestamp:
+                        OffsetInNanos: ""
+                        TimeInSeconds: ""
+                      Value:
+                        BooleanValue: ""
+                        DoubleValue: ""
+                        IntegerValue: ""
+                        StringValue: ""
+            Kafka:
+              DestinationArn: ""
+              Key: ""
+              Partition: ""
+              Topic: ""
+              ClientProperties: {}
+              Headers:
+                - Key: ""
+                  Value: ""
+            Kinesis:
+              PartitionKey: ""
+              RoleArn: ""
+              StreamName: ""
+            Lambda:
+              FunctionArn: ""
+            Location:
+              DeviceId: ""
+              Latitude: ""
+              Longitude: ""
+              RoleArn: ""
+              TrackerName: ""
+              Timestamp:
+                Unit: ""
+                Value: ""
+            OpenSearch:
+              Endpoint: ""
+              Id: ""
+              Index: ""
+              RoleArn: ""
+              Type: ""
+            Republish:
+              Qos: 0
+              RoleArn: ""
+              Topic: ""
+              Headers:
+                ContentType: ""
+                CorrelationData: ""
+                MessageExpiry: ""
+                PayloadFormatIndicator: ""
+                ResponseTopic: ""
+                UserProperties:
+                  - Key: ""
+                    Value: ""
+            S3:
+              BucketName: ""
+              CannedAcl: ""
+              Key: ""
+              RoleArn: ""
+            Sns:
+              MessageFormat: ""
+              RoleArn: ""
+              TargetArn: ""
+            Sqs:
+              QueueUrl: ""
+              RoleArn: ""
+              UseBase64: false
+            StepFunctions:
+              ExecutionNamePrefix: ""
+              RoleArn: ""
+              StateMachineName: ""
+            Timestream:
+              DatabaseName: ""
+              RoleArn: ""
+              TableName: ""
+              Dimensions:
+                - Name: ""
+                  Value: ""
+              Timestamp:
+                Unit: ""
+                Value: ""
+        ErrorAction:
+          CloudwatchAlarm:
+            AlarmName: ""
+            RoleArn: ""
+            StateReason: ""
+            StateValue: ""
+          CloudwatchLogs:
+            BatchMode: false
+            LogGroupName: ""
+            RoleArn: ""
+          CloudwatchMetric:
+            MetricName: ""
+            MetricNamespace: ""
+            MetricTimestamp: ""
+            MetricUnit: ""
+            MetricValue: ""
+            RoleArn: ""
+          DynamoDB:
+            HashKeyField: ""
+            HashKeyType: ""
+            HashKeyValue: ""
+            PayloadField: ""
+            RangeKeyField: ""
+            RangeKeyType: ""
+            RangeKeyValue: ""
+            RoleArn: ""
+            TableName: ""
+          DynamoDBv2:
+            RoleArn: ""
+            PutItem:
+              TableName: ""
+          Elasticsearch:
+            Endpoint: ""
+            Id: ""
+            Index: ""
+            RoleArn: ""
+            Type: ""
+          Firehose:
+            BatchMode: false
+            DeliveryStreamName: ""
+            RoleArn: ""
+            Separator: ""
+          Http:
+            ConfirmationUrl: ""
+            EnableBatching: false
+            Url: ""
+            Auth:
+              Sigv4:
+                RoleArn: ""
+                ServiceName: ""
+                SigningRegion: ""
+            BatchConfig:
+              BatchAcrossTopics: false
+              MaxBatchOpenMs: 0
+              MaxBatchSize: 0
+              MaxBatchSizeBytes: 0
+            Headers:
+              - Key: ""
+                Value: ""
+          InfluxDB:
+            DatabaseName: ""
+            DestinationArn: ""
+            Organization: ""
+            RoleArn: ""
+            TableName: ""
+            TimestampUnit: ""
+            BatchConfig:
+              BatchAcrossTopics: false
+              MaxBatchOpenMs: 0
+              MaxBatchSize: 0
+              MaxBatchSizeBytes: 0
+            Tags: {}
+          IotSiteWise:
+            RoleArn: ""
+            PutAssetPropertyValueEntries:
+              - AssetId: ""
+                EntryId: ""
+                PropertyAlias: ""
+                PropertyId: ""
+                PropertyValues:
+                  - Quality: ""
+                    Timestamp:
+                      OffsetInNanos: ""
+                      TimeInSeconds: ""
+                    Value:
+                      BooleanValue: ""
+                      DoubleValue: ""
+                      IntegerValue: ""
+                      StringValue: ""
+          Kafka:
+            DestinationArn: ""
+            Key: ""
+            Partition: ""
+            Topic: ""
+            ClientProperties: {}
+            Headers:
+              - Key: ""
+                Value: ""
+          Kinesis:
+            PartitionKey: ""
+            RoleArn: ""
+            StreamName: ""
+          Lambda:
+            FunctionArn: ""
+          Location:
+            DeviceId: ""
+            Latitude: ""
+            Longitude: ""
+            RoleArn: ""
+            TrackerName: ""
+            Timestamp:
+              Unit: ""
+              Value: ""
+          OpenSearch:
+            Endpoint: ""
+            Id: ""
+            Index: ""
+            RoleArn: ""
+            Type: ""
+          Republish:
+            Qos: 0
+            RoleArn: ""
+            Topic: ""
+            Headers:
+              ContentType: ""
+              CorrelationData: ""
+              MessageExpiry: ""
+              PayloadFormatIndicator: ""
+              ResponseTopic: ""
+              UserProperties:
+                - Key: ""
+                  Value: ""
+          S3:
+            BucketName: ""
+            CannedAcl: ""
+            Key: ""
+            RoleArn: ""
+          Sns:
+            MessageFormat: ""
+            RoleArn: ""
+            TargetArn: ""
+          Sqs:
+            QueueUrl: ""
+            RoleArn: ""
+            UseBase64: false
+          StepFunctions:
+            ExecutionNamePrefix: ""
+            RoleArn: ""
+            StateMachineName: ""
+          Timestream:
+            DatabaseName: ""
+            RoleArn: ""
+            TableName: ""
+            Dimensions:
+              - Name: ""
+                Value: ""
+            Timestamp:
+              Unit: ""
+              Value: ""

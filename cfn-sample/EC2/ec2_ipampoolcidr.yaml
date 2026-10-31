@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipampoolcidr:
+    Type: AWS::EC2::IPAMPoolCidr
+    Properties:
+      Cidr: ""
+      IpamPoolId: ""
+      NetmaskLength: 0

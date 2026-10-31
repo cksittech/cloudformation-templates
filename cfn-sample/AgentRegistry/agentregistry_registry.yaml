@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAgentregistryRegistry:
+    Type: AWS::AgentRegistry::Registry
+    Properties:
+      AuthorizerType: ""
+      AutoDetectionEnabled: false
+      AutoDetectionScope: ""
+      Description: ""
+      Name: ""
+      ApprovalConfiguration:
+        AutoApprovalRules: []
+      CustomMetadataSchemaConfiguration:
+        DefaultSchema: ""
+        RecordTypeSchemaOverrides:
+          - RecordType: ""
+            Schema: ""
+      DiscoveryConfiguration:
+        AuthorizerConfiguration:
+          CustomJWTAuthorizer:
+            AllowedAudience: []
+            AllowedClients: []
+            AllowedScopes: []
+            DiscoveryUrl: ""
+            CustomClaims:
+              - InboundTokenClaimName: ""
+                InboundTokenClaimValueType: ""
+                AuthorizingClaimMatchValue:
+                  ClaimMatchOperator: ""
+                  ClaimMatchValue:
+                    MatchValueString: ""
+                    MatchValueStringList: []
+      EncryptionConfiguration:
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

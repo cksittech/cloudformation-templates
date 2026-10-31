@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudtrailResourcepolicy:
+    Type: AWS::CloudTrail::ResourcePolicy
+    Properties:
+      ResourceArn: ""
+      ResourcePolicy: {}

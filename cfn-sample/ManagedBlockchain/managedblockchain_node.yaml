@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleManagedblockchainNode:
+    Type: AWS::ManagedBlockchain::Node
+    Properties:
+      MemberId: ""
+      NetworkId: ""
+      NodeConfiguration:
+        AvailabilityZone: ""
+        InstanceType: ""

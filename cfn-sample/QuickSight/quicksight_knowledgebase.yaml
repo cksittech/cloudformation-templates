@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightKnowledgebase:
+    Type: AWS::QuickSight::KnowledgeBase
+    Properties:
+      AwsAccountId: ""
+      DataSourceArn: ""
+      Description: ""
+      IsEmailNotificationOptedForIngestionFailures: false
+      KnowledgeBaseId: ""
+      Name: ""
+      PrimaryOwnerArn: ""
+      AccessControlConfiguration:
+        IsACLEnabled: false
+      KnowledgeBaseConfiguration:
+        TemplateConfiguration:
+          Template: {}
+      MediaExtractionConfiguration:
+        AudioExtractionConfiguration:
+          AudioExtractionStatus: ""
+        ImageExtractionConfiguration:
+          ImageExtractionStatus: ""
+        VideoExtractionConfiguration:
+          VideoExtractionStatus: ""
+          VideoExtractionType: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+          Resource: ""
+      Tags:
+        - Key: ""
+          Value: ""

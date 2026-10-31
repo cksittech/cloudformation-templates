@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderWorkflow:
+    Type: AWS::ImageBuilder::Workflow
+    Properties:
+      ChangeDescription: ""
+      Data: ""
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      Type: ""
+      Uri: ""
+      Version: ""
+      Tags: {}

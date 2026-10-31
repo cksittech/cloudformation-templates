@@ -1,0 +1,79 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerProcessingjob:
+    Type: AWS::SageMaker::ProcessingJob
+    Properties:
+      ProcessingJobName: ""
+      RoleArn: ""
+      AppSpecification:
+        ContainerArguments: []
+        ContainerEntrypoint: []
+        ImageUri: ""
+      Environment: {}
+      ExperimentConfig:
+        ExperimentName: ""
+        RunName: ""
+        TrialComponentDisplayName: ""
+        TrialName: ""
+      NetworkConfig:
+        EnableInterContainerTrafficEncryption: false
+        EnableNetworkIsolation: false
+        VpcConfig:
+          SecurityGroupIds: []
+          Subnets: []
+      ProcessingInputs:
+        - AppManaged: false
+          InputName: ""
+          DatasetDefinition:
+            DataDistributionType: ""
+            InputMode: ""
+            LocalPath: ""
+            AthenaDatasetDefinition:
+              Catalog: ""
+              Database: ""
+              KmsKeyId: ""
+              OutputCompression: ""
+              OutputFormat: ""
+              OutputS3Uri: ""
+              QueryString: ""
+              WorkGroup: ""
+            RedshiftDatasetDefinition:
+              ClusterId: ""
+              ClusterRoleArn: ""
+              Database: ""
+              DbUser: ""
+              KmsKeyId: ""
+              OutputCompression: ""
+              OutputFormat: ""
+              OutputS3Uri: ""
+              QueryString: ""
+          S3Input:
+            LocalPath: ""
+            S3CompressionType: ""
+            S3DataDistributionType: ""
+            S3DataType: ""
+            S3InputMode: ""
+            S3Uri: ""
+      ProcessingOutputConfig:
+        KmsKeyId: ""
+        Outputs:
+          - AppManaged: false
+            OutputName: ""
+            FeatureStoreOutput:
+              FeatureGroupName: ""
+            S3Output:
+              LocalPath: ""
+              S3UploadMode: ""
+              S3Uri: ""
+      ProcessingResources:
+        ClusterConfig:
+          InstanceCount: 0
+          InstanceType: ""
+          VolumeKmsKeyId: ""
+          VolumeSizeInGB: 0
+      StoppingCondition:
+        MaxRuntimeInSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""

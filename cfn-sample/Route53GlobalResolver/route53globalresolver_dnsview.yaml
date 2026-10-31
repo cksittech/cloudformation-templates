@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverDnsview:
+    Type: AWS::Route53GlobalResolver::DnsView
+    Properties:
+      ClientToken: ""
+      Description: ""
+      DnssecValidation: ""
+      EdnsClientSubnet: ""
+      FirewallRulesFailOpen: ""
+      GlobalResolverId: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

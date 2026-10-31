@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAuditmanagerAssessment:
+    Type: AWS::AuditManager::Assessment
+    Properties:
+      Description: ""
+      FrameworkId: ""
+      Name: ""
+      Status: ""
+      AssessmentReportsDestination:
+        Destination: ""
+        DestinationType: ""
+      AwsAccount:
+        EmailAddress: ""
+        Id: ""
+        Name: ""
+      Delegations:
+        - AssessmentId: ""
+          AssessmentName: ""
+          Comment: ""
+          ControlSetId: ""
+          CreatedBy: ""
+          CreationTime: 0
+          Id: ""
+          LastUpdated: 0
+          RoleArn: ""
+          RoleType: ""
+          Status: ""
+      Roles:
+        - RoleArn: ""
+          RoleType: ""
+      Scope:
+        AwsAccounts:
+          - EmailAddress: ""
+            Id: ""
+            Name: ""
+        AwsServices:
+          - ServiceName: ""
+      Tags:
+        - Key: ""
+          Value: ""

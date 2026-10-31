@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecuritylakeSubscriber:
+    Type: AWS::SecurityLake::Subscriber
+    Properties:
+      AccessTypes: []
+      DataLakeArn: ""
+      SubscriberDescription: ""
+      SubscriberName: ""
+      Sources:
+        - AwsLogSource:
+            SourceName: ""
+            SourceVersion: ""
+          CustomLogSource:
+            SourceName: ""
+            SourceVersion: ""
+      SubscriberIdentity:
+        ExternalId: ""
+        Principal: ""
+      Tags:
+        - Key: ""
+          Value: ""

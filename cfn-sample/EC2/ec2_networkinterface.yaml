@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinterface:
+    Type: AWS::EC2::NetworkInterface
+    Properties:
+      Description: ""
+      EnablePrimaryIpv6: false
+      GroupSet: []
+      InterfaceType: ""
+      Ipv4PrefixCount: 0
+      Ipv6AddressCount: 0
+      Ipv6PrefixCount: 0
+      PrivateIpAddress: ""
+      PublicIpDnsHostnameTypeSpecification: ""
+      SecondaryPrivateIpAddressCount: 0
+      SourceDestCheck: false
+      SubnetId: ""
+      ConnectionTrackingSpecification:
+        TcpEstablishedTimeout: 0
+        UdpStreamTimeout: 0
+        UdpTimeout: 0
+      Ipv4Prefixes:
+        - Ipv4Prefix: ""
+      Ipv6Addresses:
+        - Ipv6Address: ""
+      Ipv6Prefixes:
+        - Ipv6Prefix: ""
+      PrivateIpAddresses:
+        - Primary: false
+          PrivateIpAddress: ""
+      Tags:
+        - Key: ""
+          Value: ""

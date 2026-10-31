@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVoiceidDomain:
+    Type: AWS::VoiceID::Domain
+    Properties:
+      Description: ""
+      Name: ""
+      ServerSideEncryptionConfiguration:
+        KmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""

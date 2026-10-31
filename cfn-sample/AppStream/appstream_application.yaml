@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamApplication:
+    Type: AWS::AppStream::Application
+    Properties:
+      AppBlockArn: ""
+      AttributesToDelete: []
+      Description: ""
+      DisplayName: ""
+      InstanceFamilies: []
+      LaunchParameters: ""
+      LaunchPath: ""
+      Name: ""
+      Platforms: []
+      WorkingDirectory: ""
+      IconS3Location:
+        S3Bucket: ""
+        S3Key: ""
+      Tags:
+        - Key: ""
+          TagKey: ""
+          TagValue: ""
+          Value: ""

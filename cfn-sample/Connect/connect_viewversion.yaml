@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectViewversion:
+    Type: AWS::Connect::ViewVersion
+    Properties:
+      VersionDescription: ""
+      ViewArn: ""
+      ViewContentSha256: ""

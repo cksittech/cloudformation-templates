@@ -1,0 +1,158 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubAutomationrule:
+    Type: AWS::SecurityHub::AutomationRule
+    Properties:
+      Description: ""
+      IsTerminal: false
+      RuleName: ""
+      RuleOrder: 0
+      RuleStatus: ""
+      Actions:
+        - Type: ""
+          FindingFieldsUpdate:
+            Confidence: 0
+            Criticality: 0
+            Types: []
+            VerificationState: ""
+            Note:
+              Text: ""
+              UpdatedBy: ""
+            RelatedFindings:
+              - Id: ""
+                ProductArn: ""
+            Severity:
+              Label: ""
+              Normalized: 0
+              Product: 0
+            UserDefinedFields: {}
+            Workflow:
+              Status: ""
+      Criteria:
+        AwsAccountId:
+          - Comparison: ""
+            Value: ""
+        CompanyName:
+          - Comparison: ""
+            Value: ""
+        ComplianceAssociatedStandardsId:
+          - Comparison: ""
+            Value: ""
+        ComplianceSecurityControlId:
+          - Comparison: ""
+            Value: ""
+        ComplianceStatus:
+          - Comparison: ""
+            Value: ""
+        Confidence:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        CreatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        Criticality:
+          - Eq: 0
+            Gte: 0
+            Lte: 0
+        Description:
+          - Comparison: ""
+            Value: ""
+        FirstObservedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        GeneratorId:
+          - Comparison: ""
+            Value: ""
+        Id:
+          - Comparison: ""
+            Value: ""
+        LastObservedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        NoteText:
+          - Comparison: ""
+            Value: ""
+        NoteUpdatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        NoteUpdatedBy:
+          - Comparison: ""
+            Value: ""
+        ProductArn:
+          - Comparison: ""
+            Value: ""
+        ProductName:
+          - Comparison: ""
+            Value: ""
+        RecordState:
+          - Comparison: ""
+            Value: ""
+        RelatedFindingsId:
+          - Comparison: ""
+            Value: ""
+        RelatedFindingsProductArn:
+          - Comparison: ""
+            Value: ""
+        ResourceDetailsOther:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ResourceId:
+          - Comparison: ""
+            Value: ""
+        ResourcePartition:
+          - Comparison: ""
+            Value: ""
+        ResourceRegion:
+          - Comparison: ""
+            Value: ""
+        ResourceTags:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ResourceType:
+          - Comparison: ""
+            Value: ""
+        SeverityLabel:
+          - Comparison: ""
+            Value: ""
+        SourceUrl:
+          - Comparison: ""
+            Value: ""
+        Title:
+          - Comparison: ""
+            Value: ""
+        Type:
+          - Comparison: ""
+            Value: ""
+        UpdatedAt:
+          - End: ""
+            Start: ""
+            DateRange:
+              Unit: ""
+              Value: 0
+        UserDefinedFields:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        VerificationState:
+          - Comparison: ""
+            Value: ""
+        WorkflowStatus:
+          - Comparison: ""
+            Value: ""
+      Tags: {}

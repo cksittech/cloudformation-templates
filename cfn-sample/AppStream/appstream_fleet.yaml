@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamFleet:
+    Type: AWS::AppStream::Fleet
+    Properties:
+      AttributesToDelete: []
+      Description: ""
+      DisableIMDSV1: false
+      DisconnectTimeoutInSeconds: 0
+      DisplayName: ""
+      EnableDefaultInternetAccess: false
+      FleetType: ""
+      IamRoleArn: ""
+      IdleDisconnectTimeoutInSeconds: 0
+      ImageArn: ""
+      ImageName: ""
+      InstanceType: ""
+      MaxConcurrentSessions: 0
+      MaxSessionsPerInstance: 0
+      MaxUserDurationInSeconds: 0
+      Name: ""
+      Platform: ""
+      StreamView: ""
+      UsbDeviceFilterStrings: []
+      ComputeCapacity:
+        DesiredInstances: 0
+        DesiredSessions: 0
+      DomainJoinInfo:
+        DirectoryName: ""
+        OrganizationalUnitDistinguishedName: ""
+      RootVolumeConfig:
+        VolumeSizeInGb: 0
+      SessionScriptS3Location:
+        S3Bucket: ""
+        S3Key: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        SubnetIds: []

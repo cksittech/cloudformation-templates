@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrserverlessApplication:
+    Type: AWS::EMRServerless::Application
+    Properties:
+      Architecture: ""
+      Name: ""
+      ReleaseLabel: ""
+      Type: ""
+      AutoStartConfiguration:
+        Enabled: true
+      AutoStopConfiguration:
+        Enabled: true
+        IdleTimeoutMinutes: 0
+      IdentityCenterConfiguration:
+        IdentityCenterInstanceArn: ""
+      ImageConfiguration:
+        ImageUri: ""
+      InitialCapacity:
+        - Key: ""
+          Value:
+            WorkerCount: 0
+            WorkerConfiguration:
+              Cpu: ""
+              Disk: ""
+              DiskType: ""
+              Memory: ""
+      InteractiveConfiguration:
+        LivyEndpointEnabled: false
+        SessionEnabled: false
+        StudioEnabled: false
+      MaximumCapacity:
+        Cpu: ""
+        Disk: ""
+        Memory: ""
+      MonitoringConfiguration:
+        CloudWatchLoggingConfiguration:
+          Enabled: false
+          EncryptionKeyArn: ""
+          LogGroupName: ""
+          LogStreamNamePrefix: ""
+          LogTypeMap:
+            - Key: ""
+              Value: []
+        ManagedPersistenceMonitoringConfiguration:
+          Enabled: true
+          EncryptionKeyArn: ""
+        PrometheusMonitoringConfiguration:
+          RemoteWriteUrl: ""
+        S3MonitoringConfiguration:
+          EncryptionKeyArn: ""
+          LogUri: ""
+      NetworkConfiguration:
+        SecurityGroupIds: []
+        SubnetIds: []
+      RuntimeConfiguration:
+        - Classification: ""
+          Configurations: []
+          Properties: {}
+      SchedulerConfiguration:
+        MaxConcurrentRuns: 0
+        QueueTimeoutMinutes: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkerTypeSpecifications: {}

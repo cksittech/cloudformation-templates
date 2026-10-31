@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotSecurityprofile:
+    Type: AWS::IoT::SecurityProfile
+    Properties:
+      SecurityProfileDescription: ""
+      SecurityProfileName: ""
+      TargetArns: []
+      AdditionalMetricsToRetainV2:
+        - ExportMetric: false
+          Metric: ""
+          MetricDimension:
+            DimensionName: ""
+            Operator: ""
+      AlertTargets: {}
+      Behaviors:
+        - ExportMetric: false
+          Metric: ""
+          Name: ""
+          SuppressAlerts: false
+          Criteria:
+            ComparisonOperator: ""
+            ConsecutiveDatapointsToAlarm: 0
+            ConsecutiveDatapointsToClear: 0
+            DurationSeconds: 0
+            MlDetectionConfig:
+              ConfidenceLevel: ""
+            StatisticalThreshold:
+              Statistic: ""
+            Value:
+              Cidrs: []
+              Count: ""
+              Number: 0
+              Numbers: []
+              Ports: []
+              Strings: []
+          MetricDimension:
+            DimensionName: ""
+            Operator: ""
+      MetricsExportConfig:
+        MqttTopic: ""
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

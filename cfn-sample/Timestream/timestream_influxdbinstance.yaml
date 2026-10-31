@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTimestreamInfluxdbinstance:
+    Type: AWS::Timestream::InfluxDBInstance
+    Properties:
+      AllocatedStorage: 0
+      Bucket: ""
+      DbInstanceType: ""
+      DbParameterGroupIdentifier: ""
+      DbStorageType: ""
+      DeploymentType: ""
+      Name: ""
+      NetworkType: ""
+      Organization: ""
+      Password: ""
+      Port: 0
+      PubliclyAccessible: false
+      Username: ""
+      VpcSecurityGroupIds: []
+      VpcSubnetIds: []
+      LogDeliveryConfiguration:
+        S3Configuration:
+          BucketName: ""
+          Enabled: false
+      MaintenanceSchedule:
+        PreferredMaintenanceWindow: ""
+        Timezone: ""
+      Tags:
+        - Key: ""
+          Value: ""

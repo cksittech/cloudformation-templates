@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubHub:
+    Type: AWS::SecurityHub::Hub
+    Properties:
+      AutoEnableControls: false
+      ControlFindingGenerator: ""
+      EnableDefaultStandards: false
+      Tags: {}

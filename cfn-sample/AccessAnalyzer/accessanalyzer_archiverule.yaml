@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAccessanalyzerArchiverule:
+    Type: AWS::AccessAnalyzer::ArchiveRule
+    Properties:
+      AnalyzerName: ""
+      RuleName: ""
+      Filter: {}

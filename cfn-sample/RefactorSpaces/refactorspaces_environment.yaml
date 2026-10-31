@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRefactorspacesEnvironment:
+    Type: AWS::RefactorSpaces::Environment
+    Properties:
+      Description: ""
+      Name: ""
+      NetworkFabricType: ""
+      Tags:
+        - Key: ""
+          Value: ""

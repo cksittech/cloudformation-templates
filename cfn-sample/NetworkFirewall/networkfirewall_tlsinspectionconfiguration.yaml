@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallTlsinspectionconfiguration:
+    Type: AWS::NetworkFirewall::TLSInspectionConfiguration
+    Properties:
+      Description: ""
+      TLSInspectionConfigurationName: ""
+      TLSInspectionConfiguration:
+        ServerCertificateConfigurations:
+          - CertificateAuthorityArn: ""
+            CheckCertificateRevocationStatus:
+              RevokedStatusAction: ""
+              UnknownStatusAction: ""
+            Scopes:
+              - Protocols: []
+                DestinationPorts:
+                  - FromPort: 0
+                    ToPort: 0
+                Destinations:
+                  - AddressDefinition: ""
+                SourcePorts:
+                  - FromPort: 0
+                    ToPort: 0
+                Sources:
+                  - AddressDefinition: ""
+            ServerCertificates:
+              - ResourceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

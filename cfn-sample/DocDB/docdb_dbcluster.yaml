@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDocdbDbcluster:
+    Type: AWS::DocDB::DBCluster
+    Properties:
+      AvailabilityZones: []
+      BackupRetentionPeriod: 0
+      CopyTagsToSnapshot: false
+      DBClusterIdentifier: ""
+      DBClusterParameterGroupName: ""
+      DBSubnetGroupName: ""
+      DeletionProtection: false
+      EnableCloudwatchLogsExports: []
+      EngineVersion: ""
+      GlobalClusterIdentifier: ""
+      KmsKeyId: ""
+      ManageMasterUserPassword: false
+      MasterUserPassword: ""
+      MasterUserSecretKmsKeyId: ""
+      MasterUsername: ""
+      NetworkType: ""
+      Port: 0
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      RestoreToTime: ""
+      RestoreType: ""
+      RotateMasterUserPassword: false
+      SnapshotIdentifier: ""
+      SourceDBClusterIdentifier: ""
+      StorageEncrypted: false
+      StorageType: ""
+      UseLatestRestorableTime: false
+      VpcSecurityGroupIds: []
+      ServerlessV2ScalingConfiguration:
+        MaxCapacity: 0
+        MinCapacity: 0
+      Tags:
+        - Key: ""
+          Value: ""

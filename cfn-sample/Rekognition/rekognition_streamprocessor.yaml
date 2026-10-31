@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRekognitionStreamprocessor:
+    Type: AWS::Rekognition::StreamProcessor
+    Properties:
+      KmsKeyId: ""
+      Name: ""
+      PolygonRegionsOfInterest: []
+      RoleArn: ""
+      BoundingBoxRegionsOfInterest:
+        - Height: 0
+          Left: 0
+          Top: 0
+          Width: 0
+      ConnectedHomeSettings:
+        Labels: []
+        MinConfidence: 0
+      DataSharingPreference:
+        OptIn: false
+      FaceSearchSettings:
+        CollectionId: ""
+        FaceMatchThreshold: 0
+      KinesisDataStream:
+        Arn: ""
+      KinesisVideoStream:
+        Arn: ""
+      NotificationChannel:
+        Arn: ""
+      S3Destination:
+        BucketName: ""
+        ObjectKeyPrefix: ""
+      Tags:
+        - Key: ""
+          Value: ""

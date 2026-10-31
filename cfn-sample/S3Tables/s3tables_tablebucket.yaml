@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3tablesTablebucket:
+    Type: AWS::S3Tables::TableBucket
+    Properties:
+      TableBucketName: ""
+      EncryptionConfiguration:
+        KMSKeyArn: ""
+        SSEAlgorithm: ""
+      MetricsConfiguration:
+        Status: "Disabled"
+      ReplicationConfiguration:
+        Role: ""
+        Rules:
+          - Destinations:
+              - DestinationTableBucketARN: ""
+      StorageClassConfiguration:
+        StorageClass: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UnreferencedFileRemoval:
+        NoncurrentDays: 0
+        Status: ""
+        UnreferencedDays: 0

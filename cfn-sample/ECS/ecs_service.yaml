@@ -1,0 +1,172 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsService:
+    Type: AWS::ECS::Service
+    Properties:
+      AvailabilityZoneRebalancing: "ENABLED"
+      Cluster: ""
+      DesiredCount: 0
+      EnableECSManagedTags: false
+      EnableExecuteCommand: false
+      HealthCheckGracePeriodSeconds: 0
+      LaunchType: ""
+      PlatformVersion: "LATEST"
+      PropagateTags: ""
+      Role: ""
+      SchedulingStrategy: ""
+      ServiceName: ""
+      TaskDefinition: ""
+      CapacityProviderStrategy:
+        - Base: 0
+          CapacityProvider: ""
+          Weight: 0
+      DeploymentConfiguration:
+        BakeTimeInMinutes: 0
+        MaximumPercent: 0
+        MinimumHealthyPercent: 0
+        Strategy: ""
+        Alarms:
+          AlarmNames: []
+          Enable: false
+          Rollback: false
+        CanaryConfiguration:
+          CanaryBakeTimeInMinutes: 0
+          CanaryPercent: 0
+        DeploymentCircuitBreaker:
+          Enable: false
+          ResetOnHealthyTask: false
+          Rollback: false
+          ThresholdConfiguration:
+            Type: ""
+            Value: 0
+        EarlySuccessCriteria:
+          Enable: false
+          HealthyPercent: 0
+          SourceServiceRevisionCleanup: ""
+        LifecycleHooks:
+          - HookDetails: ""
+            HookTargetArn: ""
+            LifecycleStages: []
+            RoleArn: ""
+            TargetType: ""
+            TimeoutConfiguration:
+              Action: ""
+              TimeoutInMinutes: 0
+        LinearConfiguration:
+          StepBakeTimeInMinutes: 0
+          StepPercent: 0
+      DeploymentController:
+        Type: ""
+      ForceNewDeployment:
+        EnableForceNewDeployment: false
+        ForceNewDeploymentNonce: ""
+      GatewayConnectors:
+        - PortName: ""
+          Filters:
+            AccessTypes: []
+          HealthCheck:
+            HealthCheckIntervalSeconds: 0
+            HealthCheckPath: ""
+            HealthCheckPort: 0
+            HealthCheckProtocol: ""
+            HealthCheckTimeoutSeconds: 0
+            HealthyThresholdCount: 0
+            UnhealthyThresholdCount: 0
+            Matcher:
+              GrpcCode: ""
+              HttpCode: ""
+      LoadBalancers:
+        - ContainerName: ""
+          ContainerPort: 0
+          LoadBalancerName: ""
+          TargetGroupArn: ""
+          AdvancedConfiguration:
+            AlternateTargetGroupArn: ""
+            ProductionListenerRule: ""
+            RoleArn: ""
+            TestListenerRule: ""
+      Monitoring:
+        MetricConfigurations:
+          - MetricNames: []
+            ResolutionSeconds: 0
+      NetworkConfiguration:
+        AwsvpcConfiguration:
+          AssignPublicIp: ""
+          SecurityGroups: []
+          Subnets: []
+      PlacementConstraints:
+        - Expression: ""
+          Type: ""
+      PlacementStrategies:
+        - Field: ""
+          Type: ""
+      ServiceConnectConfiguration:
+        Enabled: false
+        Namespace: ""
+        AccessLogConfiguration:
+          Format: ""
+          IncludeQueryParameters: ""
+        ContainerConfigurations:
+          - LogLevel: ""
+        LogConfiguration:
+          LogDriver: ""
+          Options: {}
+          SecretOptions:
+            - Name: ""
+              ValueFrom: ""
+        Services:
+          - DiscoveryName: ""
+            IngressPortOverride: 0
+            PortName: ""
+            ClientAliases:
+              - DnsName: ""
+                Port: 0
+                TestTrafficRules:
+                  Header:
+                    Name: ""
+                    Value:
+                      Exact: ""
+            Timeout:
+              IdleTimeoutSeconds: 0
+              PerRequestTimeoutSeconds: 0
+            Tls:
+              KmsKey: ""
+              RoleArn: ""
+              IssuerCertificateAuthority:
+                AwsPcaAuthorityArn: ""
+      ServiceRegistries:
+        - ContainerName: ""
+          ContainerPort: 0
+          Port: 0
+          RegistryArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VolumeConfigurations:
+        - Name: ""
+          ManagedEBSVolume:
+            Encrypted: false
+            FilesystemType: ""
+            Iops: 0
+            KmsKeyId: ""
+            RoleArn: ""
+            SizeInGiB: 0
+            SnapshotId: ""
+            Throughput: 0
+            VolumeInitializationRate: 0
+            VolumeType: ""
+            TagSpecifications:
+              - PropagateTags: ""
+                ResourceType: ""
+                Tags:
+                  - Key: ""
+                    Value: ""
+      VpcLatticeConfigurations:
+        - PortName: ""
+          RoleArn: ""
+          TargetGroupArn: ""
+          AdvancedConfiguration:
+            AlternateTargetGroupArn: ""
+            ProductionListenerRule: ""
+            TestListenerRule: ""

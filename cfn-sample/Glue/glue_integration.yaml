@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueIntegration:
+    Type: AWS::Glue::Integration
+    Properties:
+      DataFilter: ""
+      Description: ""
+      IntegrationName: ""
+      KmsKeyId: ""
+      SourceArn: ""
+      TargetArn: ""
+      AdditionalEncryptionContext: {}
+      IntegrationConfig:
+        ContinuousSync: false
+        RefreshInterval: ""
+        SourceProperties: {}
+      Tags:
+        - Key: ""
+          Value: ""

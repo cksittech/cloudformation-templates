@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53Healthcheck:
+    Type: AWS::Route53::HealthCheck
+    Properties:
+      HealthCheckConfig:
+        ChildHealthChecks: []
+        EnableSNI: false
+        FailureThreshold: 0
+        FullyQualifiedDomainName: ""
+        HealthThreshold: 0
+        IPAddress: ""
+        InsufficientDataHealthStatus: ""
+        Inverted: false
+        MeasureLatency: false
+        Port: 0
+        Regions: []
+        RequestInterval: 0
+        ResourcePath: ""
+        RoutingControlArn: ""
+        SearchString: ""
+        Type: ""
+        AlarmIdentifier:
+          Name: ""
+          Region: ""
+      HealthCheckTags:
+        - Key: ""
+          Value: ""

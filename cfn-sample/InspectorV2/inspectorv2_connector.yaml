@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInspectorv2Connector:
+    Type: AWS::InspectorV2::Connector
+    Properties:
+      Description: ""
+      Name: ""
+      Provider: ""
+      ProviderConfiguration:
+        Azure:
+          AutoInstallVMScanner: true
+          AwsConfigConnectorArn: ""
+          AzureRegions: []
+          ScopeConfiguration:
+            ContainerImageScanning:
+              ScopeType: ""
+              ScopeValues: []
+            ServerlessScanning:
+              ScopeType: ""
+              ScopeValues: []
+            VmScanning:
+              ScopeType: ""
+              ScopeValues: []
+      Tags:
+        - Key: ""
+          Value: ""

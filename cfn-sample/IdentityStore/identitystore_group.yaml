@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIdentitystoreGroup:
+    Type: AWS::IdentityStore::Group
+    Properties:
+      Description: ""
+      DisplayName: ""
+      IdentityStoreId: ""

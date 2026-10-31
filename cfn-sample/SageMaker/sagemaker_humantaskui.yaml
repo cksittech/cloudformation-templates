@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerHumantaskui:
+    Type: AWS::SageMaker::HumanTaskUi
+    Properties:
+      HumanTaskUiName: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UiTemplate:
+        Content: ""

@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectAgentstatus:
+    Type: AWS::Connect::AgentStatus
+    Properties:
+      Description: ""
+      DisplayOrder: 0
+      InstanceArn: ""
+      Name: ""
+      ResetOrderNumber: false
+      State: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

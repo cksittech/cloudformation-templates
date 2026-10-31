@@ -1,0 +1,7 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Snapshotblockpublicaccess:
+    Type: AWS::EC2::SnapshotBlockPublicAccess
+    Properties:
+      State: ""

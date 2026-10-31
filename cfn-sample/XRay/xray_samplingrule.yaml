@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleXraySamplingrule:
+    Type: AWS::XRay::SamplingRule
+    Properties:
+      SamplingRule:
+        FixedRate: 0
+        HTTPMethod: ""
+        Host: ""
+        Priority: 0
+        ReservoirSize: 0
+        ResourceARN: ""
+        RuleARN: ""
+        RuleName: ""
+        ServiceName: ""
+        ServiceType: ""
+        URLPath: ""
+        Version: 0
+        Attributes: {}
+        SamplingRateBoost:
+          CooldownWindowMinutes: 0
+          MaxRate: 0
+      Tags:
+        - Key: ""
+          Value: ""

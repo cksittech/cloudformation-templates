@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerHub:
+    Type: AWS::SageMaker::Hub
+    Properties:
+      HubDescription: ""
+      HubDisplayName: ""
+      HubName: ""
+      HubSearchKeywords: []
+      S3StorageConfig:
+        S3OutputPath: ""
+      Tags:
+        - Key: ""
+          Value: ""

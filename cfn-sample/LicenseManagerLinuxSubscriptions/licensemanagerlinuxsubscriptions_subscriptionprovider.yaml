@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLicensemanagerlinuxsubscriptionsSubscriptionprovider:
+    Type: AWS::LicenseManagerLinuxSubscriptions::SubscriptionProvider
+    Properties:
+      SecretArn: ""
+      SubscriptionProviderSource: ""
+      Tags:
+        - Key: ""
+          Value: ""

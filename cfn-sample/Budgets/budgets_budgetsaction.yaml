@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBudgetsBudgetsaction:
+    Type: AWS::Budgets::BudgetsAction
+    Properties:
+      ActionType: ""
+      ApprovalModel: ""
+      BudgetName: ""
+      ExecutionRoleArn: ""
+      NotificationType: ""
+      ActionThreshold:
+        Type: ""
+        Value: 0
+      Definition:
+        IamActionDefinition:
+          Groups: []
+          PolicyArn: ""
+          Roles: []
+          Users: []
+        ScpActionDefinition:
+          PolicyId: ""
+          TargetIds: []
+        SsmActionDefinition:
+          InstanceIds: []
+          Region: ""
+          Subtype: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""
+      Subscribers:
+        - Address: ""
+          Type: ""

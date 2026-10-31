@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLocationApikey:
+    Type: AWS::Location::APIKey
+    Properties:
+      Description: ""
+      ExpireTime: ""
+      ForceDelete: false
+      ForceUpdate: false
+      KeyName: ""
+      NoExpiry: false
+      Restrictions:
+        AllowActions: []
+        AllowReferers: []
+        AllowResources: []
+        AllowAndroidApps:
+          - CertificateFingerprint: ""
+            Package: ""
+        AllowAppleApps:
+          - BundleId: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreOnlineevaluationconfig:
+    Type: AWS::BedrockAgentCore::OnlineEvaluationConfig
+    Properties:
+      Description: ""
+      EvaluationExecutionRoleArn: ""
+      ExecutionStatus: ""
+      OnlineEvaluationConfigName: ""
+      ClusteringConfig:
+        Frequencies: []
+      DataSourceConfig:
+        CloudWatchLogs:
+          LogGroupNamePrefixes: []
+          LogGroupNames: []
+          ServiceNames: []
+      Evaluators:
+        - EvaluatorId: ""
+      Insights:
+        - InsightId: ""
+      OutputConfig:
+        CloudWatchConfig:
+          LogGroupName: ""
+          MetricsNamespace: ""
+          ResultDestination: ""
+      Rule:
+        Filters:
+          - Key: ""
+            Operator: ""
+            Value:
+              BooleanValue: false
+              DoubleValue: 0
+              StringValue: ""
+        SamplingConfig:
+          SamplingPercentage: 0
+        SessionConfig:
+          SessionTimeoutMinutes: 0
+      Tags:
+        - Key: ""
+          Value: ""

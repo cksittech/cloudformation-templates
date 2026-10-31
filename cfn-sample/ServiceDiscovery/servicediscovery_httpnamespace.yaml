@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicediscoveryHttpnamespace:
+    Type: AWS::ServiceDiscovery::HttpNamespace
+    Properties:
+      Description: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

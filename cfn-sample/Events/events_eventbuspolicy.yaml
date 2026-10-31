@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsEventbuspolicy:
+    Type: AWS::Events::EventBusPolicy
+    Properties:
+      EventBusName: ""
+      StatementId: ""
+      Statement: {}

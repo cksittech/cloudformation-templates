@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLexBotversion:
+    Type: AWS::Lex::BotVersion
+    Properties:
+      BotId: ""
+      Description: ""
+      BotVersionLocaleSpecification:
+        - LocaleId: ""
+          BotVersionLocaleDetails:
+            SourceBotVersion: ""

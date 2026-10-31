@@ -1,0 +1,104 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDynamodbTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      BillingMode: ""
+      DeletionProtectionEnabled: false
+      TableClass: ""
+      TableName: ""
+      AttributeDefinitions:
+        - AttributeName: ""
+          AttributeType: ""
+      ContributorInsightsSpecification:
+        Enabled: false
+        Mode: ""
+      GlobalSecondaryIndexes:
+        - IndexName: ""
+          ContributorInsightsSpecification:
+            Enabled: false
+            Mode: ""
+          KeySchema:
+            - AttributeName: ""
+              KeyType: ""
+          OnDemandThroughput:
+            MaxReadRequestUnits: 0
+            MaxWriteRequestUnits: 0
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+          ProvisionedThroughput:
+            ReadCapacityUnits: 0
+            WriteCapacityUnits: 0
+          WarmThroughput:
+            ReadUnitsPerSecond: 0
+            WriteUnitsPerSecond: 0
+      ImportSourceSpecification:
+        InputCompressionType: ""
+        InputFormat: ""
+        InputFormatOptions:
+          Csv:
+            Delimiter: ""
+            HeaderList: []
+        S3BucketSource:
+          S3Bucket: ""
+          S3BucketOwner: ""
+          S3KeyPrefix: ""
+      KeySchema:
+        - AttributeName: ""
+          KeyType: ""
+      KinesisStreamSpecification:
+        ApproximateCreationDateTimePrecision: ""
+        StreamArn: ""
+      LocalSecondaryIndexes:
+        - IndexName: ""
+          KeySchema:
+            - AttributeName: ""
+              KeyType: ""
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+      OnDemandThroughput:
+        MaxReadRequestUnits: 0
+        MaxWriteRequestUnits: 0
+      PointInTimeRecoverySpecification:
+        PointInTimeRecoveryEnabled: false
+        RecoveryPeriodInDays: 0
+      ProvisionedThroughput:
+        ReadCapacityUnits: 0
+        WriteCapacityUnits: 0
+      ResourcePolicy:
+        PolicyDocument: {}
+      SSESpecification:
+        KMSMasterKeyId: ""
+        SSEEnabled: false
+        SSEType: ""
+      StreamSpecification:
+        StreamViewType: ""
+        ResourcePolicy:
+          PolicyDocument: {}
+        Tags:
+          - Key: ""
+            Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TimeToLiveSpecification:
+        AttributeName: ""
+        Enabled: false
+      VectorIndexes:
+        - Dimensions: 0
+          DistanceFunction: ""
+          IndexName: ""
+          Projection:
+            NonKeyAttributes: []
+            ProjectionType: ""
+          SearchSchema:
+            - AttributeName: ""
+              SearchSchemaElementType: ""
+          VectorAttribute:
+            AttributeName: ""
+      WarmThroughput:
+        ReadUnitsPerSecond: 0
+        WriteUnitsPerSecond: 0

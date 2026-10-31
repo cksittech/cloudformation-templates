@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleM2Deployment:
+    Type: AWS::M2::Deployment
+    Properties:
+      ApplicationId: ""
+      ApplicationVersion: 0
+      EnvironmentId: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockSession:
+    Type: AWS::Bedrock::Session
+    Properties:
+      EncryptionKeyArn: ""
+      SessionMetadata: {}
+      Tags:
+        - Key: ""
+          Value: ""

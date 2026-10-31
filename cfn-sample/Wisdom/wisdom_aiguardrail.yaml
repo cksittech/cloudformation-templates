@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAiguardrail:
+    Type: AWS::Wisdom::AIGuardrail
+    Properties:
+      AssistantId: ""
+      BlockedInputMessaging: ""
+      BlockedOutputsMessaging: ""
+      Description: ""
+      Name: ""
+      ContentPolicyConfig:
+        FiltersConfig:
+          - InputStrength: ""
+            OutputStrength: ""
+            Type: ""
+      ContextualGroundingPolicyConfig:
+        FiltersConfig:
+          - Threshold: 0
+            Type: ""
+      SensitiveInformationPolicyConfig:
+        PiiEntitiesConfig:
+          - Action: ""
+            Type: ""
+        RegexesConfig:
+          - Action: ""
+            Description: ""
+            Name: ""
+            Pattern: ""
+      Tags: {}
+      TopicPolicyConfig:
+        TopicsConfig:
+          - Definition: ""
+            Examples: []
+            Name: ""
+            Type: ""
+      WordPolicyConfig:
+        ManagedWordListsConfig:
+          - Type: ""
+        WordsConfig:
+          - Text: ""

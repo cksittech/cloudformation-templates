@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueCatalog:
+    Type: AWS::Glue::Catalog
+    Properties:
+      AllowFullTableExternalDataAccess: ""
+      CreateDatabaseDefaultPermissions: []
+      CreateTableDefaultPermissions: []
+      Description: ""
+      Name: ""
+      OverwriteChildResourcePermissionsWithDefault: ""
+      CatalogProperties:
+        DataLakeAccessProperties:
+          AllowFullTableExternalDataAccess: ""
+          CatalogType: ""
+          DataLakeAccess: false
+          DataTransferRole: ""
+          KmsKey: ""
+      FederatedCatalog:
+        ConnectionName: ""
+        Identifier: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetRedshiftCatalog:
+        CatalogArn: ""

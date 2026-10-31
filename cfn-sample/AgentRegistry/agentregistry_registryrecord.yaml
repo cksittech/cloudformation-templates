@@ -1,0 +1,77 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAgentregistryRegistryrecord:
+    Type: AWS::AgentRegistry::RegistryRecord
+    Properties:
+      Description: ""
+      DisplayName: ""
+      Name: ""
+      RecordType: ""
+      RecordVersion: ""
+      RegistryId: ""
+      CustomMetadata: {}
+      Descriptors:
+        A2aAgentCard:
+          Data: ""
+          DataSchemaVersion: ""
+          Source:
+            FromUrl:
+              Url: ""
+              CredentialProviderConfigurations:
+                - CredentialProviderType: ""
+                  CredentialProvider:
+                    IamCredentialProvider:
+                      Region: ""
+                      RoleArn: ""
+                      Service: ""
+                    OauthCredentialProvider:
+                      GrantType: ""
+                      ProviderArn: ""
+                      Scopes: []
+                      CustomParameters: {}
+        AgentSkillsDefinition:
+          Data: ""
+          DataSchemaVersion: ""
+          AdditionalData:
+            SkillMd:
+              Data: ""
+              DataSchemaVersion: ""
+              Source:
+                FromUrl:
+                  Url: ""
+        Agui:
+          Source:
+            FromUrl:
+              Url: ""
+        Custom:
+          Data: ""
+        Http:
+          Source:
+            FromUrl:
+              Url: ""
+        McpServer:
+          Data: ""
+          DataSchemaVersion: ""
+          AdditionalData:
+            Tools:
+              Data: ""
+              DataSchemaVersion: ""
+          Source:
+            FromUrl:
+              Url: ""
+              CredentialProviderConfigurations:
+                - CredentialProviderType: ""
+                  CredentialProvider:
+                    IamCredentialProvider:
+                      Region: ""
+                      RoleArn: ""
+                      Service: ""
+                    OauthCredentialProvider:
+                      GrantType: ""
+                      ProviderArn: ""
+                      Scopes: []
+                      CustomParameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

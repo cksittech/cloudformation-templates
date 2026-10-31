@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEntityresolutionIdmappingworkflow:
+    Type: AWS::EntityResolution::IdMappingWorkflow
+    Properties:
+      Description: ""
+      RoleArn: ""
+      WorkflowName: ""
+      IdMappingIncrementalRunConfig:
+        IncrementalRunType: ""
+      IdMappingTechniques:
+        IdMappingType: ""
+        NormalizationVersion: ""
+        ProviderProperties:
+          ProviderServiceArn: ""
+          IntermediateSourceConfiguration:
+            IntermediateS3Path: ""
+          ProviderConfiguration: {}
+        RuleBasedProperties:
+          AttributeMatchingModel: ""
+          RecordMatchingModel: ""
+          RuleDefinitionType: ""
+          Rules:
+            - MatchingKeys: []
+              RuleName: ""
+      InputSourceConfig:
+        - InputSourceARN: ""
+          SchemaArn: ""
+          Type: ""
+      OutputSourceConfig:
+        - KMSArn: ""
+          OutputS3Path: ""
+      Tags:
+        - Key: ""
+          Value: ""

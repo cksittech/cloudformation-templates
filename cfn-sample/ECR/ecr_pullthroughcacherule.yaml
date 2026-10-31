@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcrPullthroughcacherule:
+    Type: AWS::ECR::PullThroughCacheRule
+    Properties:
+      CredentialArn: ""
+      CustomRoleArn: ""
+      EcrRepositoryPrefix: ""
+      UpstreamRegistry: ""
+      UpstreamRegistryUrl: ""
+      UpstreamRepositoryPrefix: ""

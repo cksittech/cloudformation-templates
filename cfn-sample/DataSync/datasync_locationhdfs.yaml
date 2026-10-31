@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationhdfs:
+    Type: AWS::DataSync::LocationHDFS
+    Properties:
+      AgentArns: []
+      AuthenticationType: ""
+      BlockSize: 0
+      KerberosKeytab: ""
+      KerberosKrb5Conf: ""
+      KerberosPrincipal: ""
+      KmsKeyProviderUri: ""
+      ReplicationFactor: 3
+      SimpleUser: ""
+      Subdirectory: ""
+      CmkSecretConfig:
+        KmsKeyArn: ""
+      CustomSecretConfig:
+        SecretAccessRoleArn: ""
+        SecretArn: ""
+      NameNodes:
+        - Hostname: ""
+          Port: 0
+      QopConfiguration:
+        DataTransferProtection: "PRIVACY"
+        RpcProtection: "PRIVACY"
+      Tags:
+        - Key: ""
+          Value: ""

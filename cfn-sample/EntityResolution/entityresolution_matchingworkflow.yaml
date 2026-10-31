@@ -1,0 +1,48 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEntityresolutionMatchingworkflow:
+    Type: AWS::EntityResolution::MatchingWorkflow
+    Properties:
+      Description: ""
+      RoleArn: ""
+      WorkflowName: ""
+      IncrementalRunConfig:
+        IncrementalRunType: ""
+      InputSourceConfig:
+        - ApplyNormalization: false
+          InputSourceARN: ""
+          SchemaArn: ""
+      OutputSourceConfig:
+        - ApplyNormalization: false
+          KMSArn: ""
+          OutputS3Path: ""
+          CustomerProfilesIntegrationConfig:
+            DomainArn: ""
+            ObjectTypeArn: ""
+          Output:
+            - Hashed: false
+              Name: ""
+      ResolutionTechniques:
+        EnableRealTimeMatching: false
+        ResolutionType: ""
+        ProviderProperties:
+          ProviderServiceArn: ""
+          IntermediateSourceConfiguration:
+            IntermediateS3Path: ""
+          ProviderConfiguration: {}
+        RuleBasedProperties:
+          AttributeMatchingModel: ""
+          MatchPurpose: ""
+          Rules:
+            - MatchingKeys: []
+              RuleName: ""
+        RuleConditionProperties:
+          MatchingConfig:
+            EnableTransitiveMatching: false
+          Rules:
+            - Condition: ""
+              RuleName: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaPermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      Action: ""
+      EventSourceToken: ""
+      FunctionName: ""
+      FunctionUrlAuthType: ""
+      InvokedViaFunctionUrl: false
+      Principal: ""
+      PrincipalOrgID: ""
+      SourceAccount: ""
+      SourceArn: ""

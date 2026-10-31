@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreRuntimeendpoint:
+    Type: AWS::BedrockAgentCore::RuntimeEndpoint
+    Properties:
+      AgentRuntimeId: ""
+      AgentRuntimeVersion: ""
+      Description: ""
+      Name: ""
+      Tags: {}

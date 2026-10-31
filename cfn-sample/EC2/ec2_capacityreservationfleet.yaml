@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Capacityreservationfleet:
+    Type: AWS::EC2::CapacityReservationFleet
+    Properties:
+      AllocationStrategy: ""
+      EndDate: ""
+      InstanceMatchCriteria: ""
+      NoRemoveEndDate: false
+      RemoveEndDate: false
+      Tenancy: ""
+      TotalTargetCapacity: 0
+      InstanceTypeSpecifications:
+        - AvailabilityZone: ""
+          AvailabilityZoneId: ""
+          EbsOptimized: false
+          InstancePlatform: ""
+          InstanceType: ""
+          Priority: 0
+          Weight: 0
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""

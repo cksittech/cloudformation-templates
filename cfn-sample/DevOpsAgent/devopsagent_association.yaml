@@ -1,0 +1,96 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDevopsagentAssociation:
+    Type: AWS::DevOpsAgent::Association
+    Properties:
+      AgentSpaceId: ""
+      LinkedAssociationIds: []
+      ServiceId: ""
+      Configuration:
+        Aws:
+          AccountId: ""
+          AccountType: ""
+          AgentElevatedRoleArn: ""
+          AssumableRoleArn: ""
+          Resources:
+            - ResourceArn: ""
+              ResourceType: ""
+              ResourceMetadata: {}
+          Tags:
+            - Key: ""
+              Value: ""
+        Azure:
+          SubscriptionId: ""
+        Dynatrace:
+          EnableWebhookUpdates: false
+          EnvId: ""
+          Resources: []
+        EventChannel:
+          EnableWebhookUpdates: false
+        GitHub:
+          Owner: ""
+          OwnerType: ""
+          RepoId: ""
+          RepoName: ""
+        GitLab:
+          EnableWebhookUpdates: false
+          InstanceIdentifier: ""
+          ProjectId: ""
+          ProjectPath: ""
+        MCPServer:
+          Description: ""
+          EnableWebhookUpdates: false
+          Endpoint: ""
+          Name: ""
+          Tools: []
+        MCPServerDatadog:
+          Description: ""
+          EnableWebhookUpdates: false
+          EnabledElevatedTools: []
+          Endpoint: ""
+          Name: ""
+        MCPServerGrafana:
+          EnableWebhookUpdates: false
+          EnabledElevatedTools: []
+          Endpoint: ""
+          Tools: []
+        MCPServerNewRelic:
+          AccountId: ""
+          Endpoint: ""
+        MCPServerSigV4:
+          Tools: []
+        MCPServerSplunk:
+          Description: ""
+          EnableWebhookUpdates: false
+          Endpoint: ""
+          Name: ""
+        PagerDuty:
+          CustomerEmail: ""
+          EnableWebhookUpdates: false
+          Services: []
+        ServiceNow:
+          EnableWebhookUpdates: false
+          InstanceId: ""
+        Slack:
+          WorkspaceId: ""
+          WorkspaceName: ""
+          Bidirectional:
+            Enabled: false
+            RoleArn: ""
+          TransmissionTarget:
+            IncidentResponseTarget:
+              ChannelId: ""
+              ChannelName: ""
+        SourceAws:
+          AccountId: ""
+          AccountType: ""
+          AgentElevatedRoleArn: ""
+          AssumableRoleArn: ""
+          Resources:
+            - ResourceArn: ""
+              ResourceType: ""
+              ResourceMetadata: {}
+          Tags:
+            - Key: ""
+              Value: ""

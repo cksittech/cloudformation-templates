@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmPatchbaseline:
+    Type: AWS::SSM::PatchBaseline
+    Properties:
+      ApprovedPatches: []
+      ApprovedPatchesComplianceLevel: "UNSPECIFIED"
+      ApprovedPatchesEnableNonSecurity: false
+      AvailableSecurityUpdatesComplianceStatus: ""
+      DefaultBaseline: false
+      Description: ""
+      Name: ""
+      OperatingSystem: "WINDOWS"
+      PatchGroups: []
+      RejectedPatches: []
+      RejectedPatchesAction: "ALLOW_AS_DEPENDENCY"
+      ApprovalRules:
+        PatchRules:
+          - ApproveAfterDays: 0
+            ApproveUntilDate: ""
+            ComplianceLevel: ""
+            EnableNonSecurity: false
+            PatchFilterGroup:
+              PatchFilters:
+                - Key: ""
+                  Values: []
+      GlobalFilters:
+        PatchFilters:
+          - Key: ""
+            Values: []
+      Sources:
+        - Configuration: ""
+          Name: ""
+          Products: []
+      Tags:
+        - Key: ""
+          Value: ""

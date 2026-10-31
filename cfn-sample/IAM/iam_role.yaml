@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamRole:
+    Type: AWS::IAM::Role
+    Properties:
+      Description: ""
+      ManagedPolicyArns: []
+      MaxSessionDuration: 0
+      Path: "/"
+      PermissionsBoundary: ""
+      RoleName: ""
+      AssumeRolePolicyDocument: {}
+      Policies:
+        - PolicyDocument: ""
+          PolicyName: ""
+      Tags:
+        - Key: ""
+          Value: ""

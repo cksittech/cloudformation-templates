@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResourcegroupsGroup:
+    Type: AWS::ResourceGroups::Group
+    Properties:
+      Description: ""
+      Name: ""
+      Resources: []
+      Configuration:
+        - Type: ""
+          Parameters:
+            - Name: ""
+              Values: []
+      ResourceQuery:
+        Type: ""
+        Query:
+          ResourceTypeFilters: []
+          StackIdentifier: ""
+          TagFilters:
+            - Key: ""
+              Values: []
+      Tags:
+        - Key: ""
+          Value: ""

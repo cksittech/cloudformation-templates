@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayRestapi:
+    Type: AWS::ApiGateway::RestApi
+    Properties:
+      ApiKeySourceType: ""
+      BinaryMediaTypes: []
+      CloneFrom: ""
+      Description: ""
+      DisableExecuteApiEndpoint: false
+      EndpointAccessMode: ""
+      FailOnWarnings: false
+      MinimumCompressionSize: 0
+      Mode: ""
+      Name: ""
+      SecurityPolicy: ""
+      Version: ""
+      Body: {}
+      BodyS3Location:
+        Bucket: ""
+        ETag: ""
+        Key: ""
+        Version: ""
+      EndpointConfiguration:
+        IpAddressType: ""
+        Types: []
+        VpcEndpointIds: []
+      Parameters: {}
+      Policy: {}
+      Tags:
+        - Key: ""
+          Value: ""

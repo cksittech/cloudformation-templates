@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailContainer:
+    Type: AWS::Lightsail::Container
+    Properties:
+      IsDisabled: false
+      Power: ""
+      Scale: 0
+      ServiceName: ""
+      ContainerServiceDeployment:
+        Containers:
+          - Command: []
+            ContainerName: ""
+            Image: ""
+            Environment:
+              - Value: ""
+                Variable: ""
+            Ports:
+              - Port: ""
+                Protocol: ""
+        PublicEndpoint:
+          ContainerName: ""
+          ContainerPort: 0
+          HealthCheckConfig:
+            HealthyThreshold: 0
+            IntervalSeconds: 0
+            Path: ""
+            SuccessCodes: ""
+            TimeoutSeconds: 0
+            UnhealthyThreshold: 0
+      PrivateRegistryAccess:
+        EcrImagePullerRole:
+          IsActive: false
+      PublicDomainNames:
+        - CertificateName: ""
+          DomainNames: []
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsStreamkey:
+    Type: AWS::IVS::StreamKey
+    Properties:
+      ChannelArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

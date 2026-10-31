@@ -1,0 +1,121 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserviceDomain:
+    Type: AWS::OpenSearchService::Domain
+    Properties:
+      AcceptedWarnings: []
+      DomainName: ""
+      EngineMode: ""
+      EngineVersion: ""
+      IPAddressType: ""
+      SkipShardMigrationWait: false
+      UseCase: ""
+      AIMLOptions:
+        S3VectorsEngine:
+          Enabled: false
+        ServerlessVectorAcceleration:
+          Enabled: false
+      AccessPolicies: {}
+      AdvancedOptions: {}
+      AdvancedSecurityOptions:
+        AnonymousAuthEnabled: false
+        Enabled: false
+        InternalUserDatabaseEnabled: false
+        IAMFederationOptions:
+          Enabled: false
+          RolesKey: ""
+          SubjectKey: ""
+        JWTOptions:
+          Enabled: false
+          PublicKey: ""
+          RolesKey: ""
+          SubjectKey: ""
+        MasterUserOptions:
+          MasterUserARN: ""
+          MasterUserName: ""
+          MasterUserPassword: ""
+        SAMLOptions:
+          Enabled: false
+          MasterBackendRole: ""
+          MasterUserName: ""
+          RolesKey: ""
+          SessionTimeoutMinutes: 0
+          SubjectKey: ""
+          Idp:
+            EntityId: ""
+            MetadataContent: ""
+      AutomatedSnapshotPauseOptions:
+        Enabled: false
+        EndTime: ""
+        StartTime: ""
+      ClusterConfig:
+        DedicatedMasterCount: 0
+        DedicatedMasterEnabled: false
+        DedicatedMasterType: ""
+        InstanceCount: 0
+        InstanceType: ""
+        MultiAZWithStandbyEnabled: false
+        WarmCount: 0
+        WarmEnabled: false
+        WarmType: ""
+        ZoneAwarenessEnabled: false
+        ColdStorageOptions:
+          Enabled: false
+        NodeOptions:
+          - NodeType: ""
+            NodeConfig:
+              Count: 0
+              Enabled: false
+              Type: ""
+        ZoneAwarenessConfig:
+          AvailabilityZoneCount: 0
+      CognitoOptions:
+        Enabled: false
+        IdentityPoolId: ""
+        RoleArn: ""
+        UserPoolId: ""
+      DeploymentStrategyOptions:
+        DeploymentStrategy: ""
+      DomainEndpointOptions:
+        CustomEndpoint: ""
+        CustomEndpointCertificateArn: ""
+        CustomEndpointEnabled: false
+        EnforceHTTPS: false
+        TLSSecurityPolicy: ""
+      EBSOptions:
+        EBSEnabled: false
+        Iops: 0
+        Throughput: 0
+        VolumeSize: 0
+        VolumeType: ""
+      EncryptionAtRestOptions:
+        Enabled: false
+        EncryptionMode: ""
+        KmsKeyId: ""
+      IdentityCenterOptions:
+        EnabledAPIAccess: false
+        IdentityCenterInstanceARN: ""
+        RolesKey: ""
+        SubjectKey: ""
+      LogPublishingOptions: {}
+      NodeToNodeEncryptionOptions:
+        Enabled: false
+      OffPeakWindowOptions:
+        Enabled: false
+        OffPeakWindow:
+          WindowStartTime:
+            Hours: 0
+            Minutes: 0
+      SnapshotOptions:
+        AutomatedSnapshotStartHour: 0
+      SoftwareUpdateOptions:
+        AutoSoftwareUpdateEnabled: false
+        UseLatestServiceSoftwareForBlueGreen: false
+      Tags:
+        - Key: ""
+          Value: ""
+      VPCOptions:
+        EgressEnabled: false
+        SecurityGroupIds: []
+        SubnetIds: []

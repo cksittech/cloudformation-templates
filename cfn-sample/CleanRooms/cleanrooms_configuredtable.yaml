@@ -1,0 +1,86 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsConfiguredtable:
+    Type: AWS::CleanRooms::ConfiguredTable
+    Properties:
+      AllowedColumns: []
+      AnalysisMethod: ""
+      Description: ""
+      Name: ""
+      SelectedAnalysisMethods: []
+      AnalysisRules:
+        - Type: ""
+          Policy:
+            V1:
+              Aggregation:
+                AdditionalAnalyses: ""
+                AllowedJoinOperators: []
+                DimensionColumns: []
+                JoinColumns: []
+                JoinRequired: ""
+                ScalarFunctions: []
+                AggregateColumns:
+                  - ColumnNames: []
+                    Function: ""
+                OutputConstraints:
+                  - ColumnName: ""
+                    Minimum: 0
+                    Type: ""
+              Custom:
+                AdditionalAnalyses: ""
+                AllowedAnalyses: []
+                AllowedAnalysisProviders: []
+                DisallowedOutputColumns: []
+                AggregationThresholds:
+                  - AllowedAggregateExpressionType: ""
+                    IdentityColumns: []
+                    MinimumIdentityCount: 0
+                    Type: ""
+                    OutputColumnThresholds:
+                      - MinimumIdentityCount: 0
+                        OutputColumnName: ""
+                ComparisonControls:
+                  AllowedColumnComparisonColumns: []
+                  AllowedLiteralComparisonColumns: []
+                DifferentialPrivacy:
+                  Columns:
+                    - Name: ""
+              List:
+                AdditionalAnalyses: ""
+                AllowedJoinOperators: []
+                JoinColumns: []
+                ListColumns: []
+      TableReference:
+        Athena:
+          CatalogName: ""
+          DatabaseName: ""
+          OutputLocation: ""
+          Region: ""
+          TableName: ""
+          WorkGroup: ""
+        Databricks:
+          SchemaName: ""
+          TableName: ""
+          WorkspaceUrl: ""
+          ConnectionType:
+            DeltaSharing:
+              DeltaShareEndpoint: ""
+              ShareName: ""
+        Glue:
+          DatabaseName: ""
+          Region: ""
+          TableName: ""
+        Snowflake:
+          AccountIdentifier: ""
+          DatabaseName: ""
+          SchemaName: ""
+          SecretArn: ""
+          TableName: ""
+          TableSchema:
+            V1:
+              - ColumnName: ""
+                ColumnType: ""
+      Tags:
+        - Key: ""
+          Value: ""

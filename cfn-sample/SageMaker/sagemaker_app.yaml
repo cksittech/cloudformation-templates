@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerApp:
+    Type: AWS::SageMaker::App
+    Properties:
+      AppName: ""
+      AppType: ""
+      DomainId: ""
+      RecoveryMode: false
+      UserProfileName: ""
+      ResourceSpec:
+        InstanceType: ""
+        LifecycleConfigArn: ""
+        SageMakerImageArn: ""
+        SageMakerImageVersionArn: ""
+        TrainingPlanArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMacieSession:
+    Type: AWS::Macie::Session
+    Properties:
+      FindingPublishingFrequency: "SIX_HOURS"
+      Status: "ENABLED"

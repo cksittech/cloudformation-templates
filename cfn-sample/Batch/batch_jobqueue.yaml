@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchJobqueue:
+    Type: AWS::Batch::JobQueue
+    Properties:
+      JobQueueName: ""
+      JobQueueType: ""
+      Priority: 0
+      SchedulingPolicyArn: ""
+      State: ""
+      ComputeEnvironmentOrder:
+        - ComputeEnvironment: ""
+          Order: 0
+      JobStateTimeLimitActions:
+        - Action: ""
+          MaxTimeSeconds: 0
+          Reason: ""
+          State: ""
+      ServiceEnvironmentOrder:
+        - Order: 0
+          ServiceEnvironment: ""
+      Tags: {}

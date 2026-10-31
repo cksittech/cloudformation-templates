@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupTieringconfiguration:
+    Type: AWS::Backup::TieringConfiguration
+    Properties:
+      BackupVaultName: ""
+      TieringConfigurationName: ""
+      ResourceSelection:
+        - ResourceType: ""
+          Resources: []
+          TieringDownSettingsInDays: 0
+      TieringConfigurationTags: {}

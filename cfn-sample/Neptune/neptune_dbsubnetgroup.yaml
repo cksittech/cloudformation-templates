@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptuneDbsubnetgroup:
+    Type: AWS::Neptune::DBSubnetGroup
+    Properties:
+      DBSubnetGroupDescription: ""
+      DBSubnetGroupName: ""
+      SubnetIds: []
+      Tags:
+        - Key: ""
+          Value: ""

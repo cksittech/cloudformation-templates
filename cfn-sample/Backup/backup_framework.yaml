@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupFramework:
+    Type: AWS::Backup::Framework
+    Properties:
+      FrameworkDescription: ""
+      FrameworkName: ""
+      FrameworkControls:
+        - ControlName: ""
+          ControlInputParameters:
+            - ParameterName: ""
+              ParameterValue: ""
+          ControlScope:
+            ComplianceResourceIds: []
+            ComplianceResourceTypes: []
+            Tags:
+              - Key: ""
+                Value: ""
+      FrameworkTags:
+        - Key: ""
+          Value: ""

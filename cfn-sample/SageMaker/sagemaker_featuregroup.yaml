@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerFeaturegroup:
+    Type: AWS::SageMaker::FeatureGroup
+    Properties:
+      Description: ""
+      EventTimeFeatureName: ""
+      FeatureGroupName: ""
+      RecordIdentifierFeatureName: ""
+      RoleArn: ""
+      FeatureDefinitions:
+        - FeatureName: ""
+          FeatureType: ""
+      OfflineStoreConfig:
+        DisableGlueTableCreation: false
+        TableFormat: ""
+        DataCatalogConfig:
+          Catalog: ""
+          Database: ""
+          TableName: ""
+        S3StorageConfig:
+          KmsKeyId: ""
+          S3Uri: ""
+      OnlineStoreConfig:
+        EnableOnlineStore: false
+        StorageType: ""
+        SecurityConfig:
+          KmsKeyId: ""
+        TtlDuration:
+          Unit: ""
+          Value: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      ThroughputConfig:
+        ProvisionedReadCapacityUnits: 0
+        ProvisionedWriteCapacityUnits: 0
+        ThroughputMode: ""

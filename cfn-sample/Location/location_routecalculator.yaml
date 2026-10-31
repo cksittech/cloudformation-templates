@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLocationRoutecalculator:
+    Type: AWS::Location::RouteCalculator
+    Properties:
+      CalculatorName: ""
+      DataSource: ""
+      Description: ""
+      PricingPlan: ""
+      Tags:
+        - Key: ""
+          Value: ""

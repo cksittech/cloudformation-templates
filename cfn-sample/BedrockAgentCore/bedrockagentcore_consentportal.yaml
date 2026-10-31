@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreConsentportal:
+    Type: AWS::BedrockAgentCore::ConsentPortal
+    Properties:
+      Description: ""
+      ExecutionRoleArn: ""
+      Name: ""
+      IdpConfig:
+        Audience: ""
+        CredentialProviderArn: ""
+        Scopes: []
+      Sources:
+        - Identifier: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

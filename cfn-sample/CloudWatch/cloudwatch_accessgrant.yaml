@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchAccessgrant:
+    Type: AWS::CloudWatch::AccessGrant
+    Properties:
+      DomainId: ""
+      Name: ""
+      Permission: ""
+      SpaceId: ""
+      Principal:
+        PrincipalId: ""
+        PrincipalType: ""
+        PrincipalAttributes:
+          - Key: ""
+            Value: ""
+      ScopedActions:
+        - Actions: []
+          ContextConditions: {}
+          Resources:
+            - ResourceArns: []
+              ResourceType: ""
+              RowScopeGroups: []
+              SignalTypes: []
+              Tags: {}
+      Tags:
+        - Key: ""
+          Value: ""

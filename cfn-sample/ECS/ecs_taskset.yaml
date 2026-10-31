@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsTaskset:
+    Type: AWS::ECS::TaskSet
+    Properties:
+      Cluster: ""
+      ExternalId: ""
+      LaunchType: ""
+      PlatformVersion: ""
+      Service: ""
+      TaskDefinition: ""
+      CapacityProviderStrategy:
+        - Base: 0
+          CapacityProvider: ""
+          Weight: 0
+      LoadBalancers:
+        - ContainerName: ""
+          ContainerPort: 0
+          TargetGroupArn: ""
+      NetworkConfiguration:
+        AwsVpcConfiguration:
+          AssignPublicIp: ""
+          SecurityGroups: []
+          Subnets: []
+      Scale:
+        Unit: ""
+        Value: 0
+      ServiceRegistries:
+        - ContainerName: ""
+          ContainerPort: 0
+          Port: 0
+          RegistryArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

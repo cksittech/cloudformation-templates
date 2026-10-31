@@ -1,0 +1,199 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAiagent:
+    Type: AWS::Wisdom::AIAgent
+    Properties:
+      AssistantId: ""
+      Description: ""
+      Name: ""
+      Type: ""
+      Configuration:
+        AnswerRecommendationAIAgentConfiguration:
+          AnswerGenerationAIGuardrailId: ""
+          AnswerGenerationAIPromptId: ""
+          IntentLabelingGenerationAIPromptId: ""
+          Locale: ""
+          QueryReformulationAIPromptId: ""
+          AssociationConfigurations:
+            - AssociationId: ""
+              AssociationType: ""
+              AssociationConfigurationData:
+                KnowledgeBaseAssociationConfigurationData:
+                  MaxResults: 0
+                  OverrideKnowledgeBaseSearchType: ""
+                  ContentTagFilter:
+                    AndConditions:
+                      - Key: ""
+                        Value: ""
+                    OrConditions:
+                      - AndConditions:
+                          - Key: ""
+                            Value: ""
+                        TagCondition:
+                          Key: ""
+                          Value: ""
+                    TagCondition:
+                      Key: ""
+                      Value: ""
+        CaseSummarizationAIAgentConfiguration:
+          CaseSummarizationAIGuardrailId: ""
+          CaseSummarizationAIPromptId: ""
+          Locale: ""
+        EmailGenerativeAnswerAIAgentConfiguration:
+          EmailGenerativeAnswerAIPromptId: ""
+          EmailQueryReformulationAIPromptId: ""
+          Locale: ""
+          AssociationConfigurations:
+            - AssociationId: ""
+              AssociationType: ""
+              AssociationConfigurationData:
+                KnowledgeBaseAssociationConfigurationData:
+                  MaxResults: 0
+                  OverrideKnowledgeBaseSearchType: ""
+                  ContentTagFilter:
+                    AndConditions:
+                      - Key: ""
+                        Value: ""
+                    OrConditions:
+                      - AndConditions:
+                          - Key: ""
+                            Value: ""
+                        TagCondition:
+                          Key: ""
+                          Value: ""
+                    TagCondition:
+                      Key: ""
+                      Value: ""
+        EmailOverviewAIAgentConfiguration:
+          EmailOverviewAIPromptId: ""
+          Locale: ""
+        EmailResponseAIAgentConfiguration:
+          EmailQueryReformulationAIPromptId: ""
+          EmailResponseAIPromptId: ""
+          Locale: ""
+          AssociationConfigurations:
+            - AssociationId: ""
+              AssociationType: ""
+              AssociationConfigurationData:
+                KnowledgeBaseAssociationConfigurationData:
+                  MaxResults: 0
+                  OverrideKnowledgeBaseSearchType: ""
+                  ContentTagFilter:
+                    AndConditions:
+                      - Key: ""
+                        Value: ""
+                    OrConditions:
+                      - AndConditions:
+                          - Key: ""
+                            Value: ""
+                        TagCondition:
+                          Key: ""
+                          Value: ""
+                    TagCondition:
+                      Key: ""
+                      Value: ""
+        ManualSearchAIAgentConfiguration:
+          AnswerGenerationAIGuardrailId: ""
+          AnswerGenerationAIPromptId: ""
+          Locale: ""
+          AssociationConfigurations:
+            - AssociationId: ""
+              AssociationType: ""
+              AssociationConfigurationData:
+                KnowledgeBaseAssociationConfigurationData:
+                  MaxResults: 0
+                  OverrideKnowledgeBaseSearchType: ""
+                  ContentTagFilter:
+                    AndConditions:
+                      - Key: ""
+                        Value: ""
+                    OrConditions:
+                      - AndConditions:
+                          - Key: ""
+                            Value: ""
+                        TagCondition:
+                          Key: ""
+                          Value: ""
+                    TagCondition:
+                      Key: ""
+                      Value: ""
+        NoteTakingAIAgentConfiguration:
+          Locale: ""
+          NoteTakingAIGuardrailId: ""
+          NoteTakingAIPromptId: ""
+        OrchestrationAIAgentConfiguration:
+          ConnectInstanceArn: ""
+          InputSchemas: []
+          Locale: ""
+          OrchestrationAIGuardrailId: ""
+          OrchestrationAIPromptId: ""
+          OutputSchemas: []
+          MultiAgentConfigurations:
+            - DelegateAgentConfiguration:
+                AgentTarget:
+                  AIAgentId: ""
+                  ApplicationId: ""
+                Instruction:
+                  Examples: []
+                  Instruction: ""
+              HandoffAgentConfiguration:
+                AudioStreamingEnabled: false
+                ImmediateHandoff: false
+                AgentTarget:
+                  AIAgentId: ""
+                  ApplicationId: ""
+                Instruction:
+                  Examples: []
+                  Instruction: ""
+          ToolConfigurations:
+            - Description: ""
+              Title: ""
+              ToolId: ""
+              ToolName: ""
+              ToolType: ""
+              Annotations: {}
+              InputSchema: {}
+              Instruction:
+                Examples: []
+                Instruction: ""
+              OutputFilters:
+                - JsonPath: ""
+                  OutputConfiguration:
+                    OutputVariableNameOverride: ""
+                    SessionDataNamespace: ""
+              OutputSchema: {}
+              OverrideInputValues:
+                - JsonPath: ""
+                  Value:
+                    Constant:
+                      Type: ""
+                      Value: ""
+              UserInteractionConfiguration:
+                IsUserConfirmationRequired: false
+        SelfServiceAIAgentConfiguration:
+          SelfServiceAIGuardrailId: ""
+          SelfServiceAnswerGenerationAIPromptId: ""
+          SelfServicePreProcessingAIPromptId: ""
+          AssociationConfigurations:
+            - AssociationId: ""
+              AssociationType: ""
+              AssociationConfigurationData:
+                KnowledgeBaseAssociationConfigurationData:
+                  MaxResults: 0
+                  OverrideKnowledgeBaseSearchType: ""
+                  ContentTagFilter:
+                    AndConditions:
+                      - Key: ""
+                        Value: ""
+                    OrConditions:
+                      - AndConditions:
+                          - Key: ""
+                            Value: ""
+                        TagCondition:
+                          Key: ""
+                          Value: ""
+                    TagCondition:
+                      Key: ""
+                      Value: ""
+      Tags: {}

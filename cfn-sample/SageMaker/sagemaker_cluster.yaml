@@ -1,0 +1,138 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerCluster:
+    Type: AWS::SageMaker::Cluster
+    Properties:
+      ClusterName: ""
+      ClusterRole: ""
+      NodeProvisioningMode: ""
+      NodeRecovery: ""
+      AutoScaling:
+        AutoScalerType: "Karpenter"
+        Mode: ""
+      InstanceGroups:
+        - ExecutionRole: ""
+          ImageId: ""
+          ImageReleaseVersion: ""
+          InstanceCount: 0
+          InstanceGroupName: ""
+          InstanceType: ""
+          MinInstanceCount: 0
+          OnStartDeepHealthChecks: []
+          ThreadsPerCore: 0
+          TrainingPlanArn: ""
+          AutoPatchConfig:
+            PatchingStrategy: ""
+            DeploymentConfig:
+              WaitIntervalInSeconds: 0
+              AutoRollbackConfiguration:
+                - AlarmName: ""
+              RollingUpdatePolicy:
+                MaximumBatchSize:
+                  Type: ""
+                  Value: 0
+                RollbackMaximumBatchSize:
+                  Type: ""
+                  Value: 0
+            PatchSchedule: {}
+          CapacityRequirements:
+            OnDemand: {}
+            Spot: {}
+          InstanceRequirements:
+            InstanceTypes: []
+          InstanceStorageConfigs:
+            - EbsVolumeConfig:
+                RootVolume: false
+                VolumeKmsKeyId: ""
+                VolumeSizeInGB: 0
+              FsxLustreConfig:
+                DnsName: ""
+                MountName: ""
+                MountPath: ""
+              FsxOpenZfsConfig:
+                DnsName: ""
+                MountPath: ""
+          KubernetesConfig:
+            Labels: {}
+            Taints:
+              - Effect: ""
+                Key: ""
+                Value: ""
+          LifeCycleConfig:
+            OnCreate: ""
+            OnInitComplete: ""
+            SourceS3Uri: ""
+          NetworkInterface:
+            InterfaceType: ""
+          OverrideVpcConfig:
+            SecurityGroupIds: []
+            Subnets: []
+          ScheduledUpdateConfig:
+            ScheduleExpression: ""
+            DeploymentConfig:
+              WaitIntervalInSeconds: 0
+              AutoRollbackConfiguration:
+                - AlarmName: ""
+              RollingUpdatePolicy:
+                MaximumBatchSize:
+                  Type: ""
+                  Value: 0
+                RollbackMaximumBatchSize:
+                  Type: ""
+                  Value: 0
+          SlurmConfig:
+            NodeType: ""
+            PartitionNames: []
+      Orchestrator:
+        Eks:
+          ClusterArn: ""
+        Slurm:
+          SlurmConfigStrategy: ""
+          AccountingDatabase:
+            Endpoint: ""
+            Name: "slurm_acct_db"
+            Port: 3306
+            SecretArn: ""
+      RestrictedInstanceGroups:
+        - ExecutionRole: ""
+          InstanceCount: 0
+          InstanceGroupName: ""
+          InstanceType: ""
+          OnStartDeepHealthChecks: []
+          ThreadsPerCore: 0
+          TrainingPlanArn: ""
+          EnvironmentConfig:
+            FSxLustreConfig:
+              PerUnitStorageThroughput: 0
+              SizeInGiB: 0
+          InstanceStorageConfigs:
+            - EbsVolumeConfig:
+                RootVolume: false
+                VolumeKmsKeyId: ""
+                VolumeSizeInGB: 0
+              FsxLustreConfig:
+                DnsName: ""
+                MountName: ""
+                MountPath: ""
+              FsxOpenZfsConfig:
+                DnsName: ""
+                MountPath: ""
+          OverrideVpcConfig:
+            SecurityGroupIds: []
+            Subnets: []
+      RestrictedInstanceGroupsConfig:
+        SharedEnvironmentConfig:
+          FSxLustreDeletionPolicy: ""
+          FSxLustreConfig:
+            PerUnitStorageThroughput: 0
+            SizeInGiB: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      TieredStorageConfig:
+        InstanceMemoryAllocationPercentage: 0
+        Mode: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []

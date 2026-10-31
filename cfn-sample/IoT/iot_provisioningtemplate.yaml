@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotProvisioningtemplate:
+    Type: AWS::IoT::ProvisioningTemplate
+    Properties:
+      Description: ""
+      Enabled: false
+      ProvisioningRoleArn: ""
+      TemplateBody: ""
+      TemplateName: ""
+      TemplateType: ""
+      PreProvisioningHook:
+        PayloadVersion: ""
+        TargetArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

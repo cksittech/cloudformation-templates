@@ -1,0 +1,138 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockFlow:
+    Type: AWS::Bedrock::Flow
+    Properties:
+      CustomerEncryptionKeyArn: ""
+      DefinitionString: ""
+      Description: ""
+      ExecutionRoleArn: ""
+      Name: ""
+      Definition:
+        Connections:
+          - Name: ""
+            Source: ""
+            Target: ""
+            Type: ""
+            Configuration:
+              Conditional:
+                Condition: ""
+              Data:
+                SourceOutput: ""
+                TargetInput: ""
+        Nodes:
+          - Name: ""
+            Type: ""
+            Configuration:
+              Agent:
+                AgentAliasArn: ""
+              Collector: {}
+              Condition:
+                Conditions:
+                  - Expression: ""
+                    Name: ""
+              InlineCode:
+                Code: ""
+                Language: ""
+              Input: {}
+              Iterator: {}
+              KnowledgeBase:
+                KnowledgeBaseId: ""
+                ModelId: ""
+                NumberOfResults: 0
+                GuardrailConfiguration:
+                  GuardrailIdentifier: ""
+                  GuardrailVersion: ""
+                InferenceConfiguration:
+                  Text:
+                    MaxTokens: 0
+                    StopSequences: []
+                    Temperature: 0
+                    TopP: 0
+                OrchestrationConfiguration:
+                  AdditionalModelRequestFields: {}
+                  InferenceConfig:
+                    Text:
+                      MaxTokens: 0
+                      StopSequences: []
+                      Temperature: 0
+                      TopP: 0
+                  PerformanceConfig:
+                    Latency: ""
+                  PromptTemplate:
+                    TextPromptTemplate: ""
+                PromptTemplate:
+                  TextPromptTemplate: ""
+                RerankingConfiguration:
+                  Type: ""
+                  BedrockRerankingConfiguration:
+                    NumberOfRerankedResults: 0
+                    MetadataConfiguration:
+                      SelectionMode: ""
+                      SelectiveModeConfiguration:
+                        FieldsToExclude:
+                          - FieldName: ""
+                        FieldsToInclude:
+                          - FieldName: ""
+                    ModelConfiguration:
+                      ModelArn: ""
+                      AdditionalModelRequestFields: {}
+              LambdaFunction:
+                LambdaArn: ""
+              Lex:
+                BotAliasArn: ""
+                LocaleId: ""
+              Loop:
+                Definition: {}
+              LoopController:
+                MaxIterations: 10
+                ContinueCondition:
+                  Expression: ""
+                  Name: ""
+              LoopInput: {}
+              Output: {}
+              Prompt:
+                GuardrailConfiguration:
+                  GuardrailIdentifier: ""
+                  GuardrailVersion: ""
+                SourceConfiguration:
+                  Inline:
+                    ModelId: ""
+                    TemplateType: ""
+                    InferenceConfiguration:
+                      Text:
+                        MaxTokens: 0
+                        StopSequences: []
+                        Temperature: 0
+                        TopP: 0
+                    TemplateConfiguration:
+                      Text:
+                        Text: ""
+                        InputVariables:
+                          - Name: ""
+                  Resource:
+                    PromptArn: ""
+              Retrieval:
+                ServiceConfiguration:
+                  S3:
+                    BucketName: ""
+              Storage:
+                ServiceConfiguration:
+                  S3:
+                    BucketName: ""
+            Inputs:
+              - Category: ""
+                Expression: ""
+                Name: ""
+                Type: ""
+            Outputs:
+              - Name: ""
+                Type: ""
+      DefinitionS3Location:
+        Bucket: ""
+        Key: ""
+        Version: ""
+      DefinitionSubstitutions: {}
+      Tags: {}
+      TestAliasTags: {}

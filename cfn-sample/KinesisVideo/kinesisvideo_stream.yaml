@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisvideoStream:
+    Type: AWS::KinesisVideo::Stream
+    Properties:
+      DataRetentionInHours: 0
+      DeviceName: ""
+      KmsKeyId: ""
+      MediaType: ""
+      Name: ""
+      StreamStorageConfiguration:
+        DefaultStorageTier: "HOT"
+      Tags:
+        - Key: ""
+          Value: ""

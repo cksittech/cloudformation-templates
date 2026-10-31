@@ -1,0 +1,95 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingv2Listenerrule:
+    Type: AWS::ElasticLoadBalancingV2::ListenerRule
+    Properties:
+      ListenerArn: ""
+      Priority: 0
+      Actions:
+        - Order: 0
+          TargetGroupArn: ""
+          Type: ""
+          AuthenticateCognitoConfig:
+            OnUnauthenticatedRequest: ""
+            Scope: ""
+            SessionCookieName: ""
+            SessionTimeout: 0
+            UserPoolArn: ""
+            UserPoolClientId: ""
+            UserPoolDomain: ""
+            AuthenticationRequestExtraParams: {}
+          AuthenticateOidcConfig:
+            AuthorizationEndpoint: ""
+            ClientId: ""
+            ClientSecret: ""
+            Issuer: ""
+            OnUnauthenticatedRequest: ""
+            Scope: ""
+            SessionCookieName: ""
+            SessionTimeout: 0
+            TokenEndpoint: ""
+            UseExistingClientSecret: false
+            UserInfoEndpoint: ""
+            AuthenticationRequestExtraParams: {}
+          FixedResponseConfig:
+            ContentType: ""
+            MessageBody: ""
+            StatusCode: ""
+          ForwardConfig:
+            TargetGroupStickinessConfig:
+              DurationSeconds: 0
+              Enabled: false
+            TargetGroups:
+              - TargetGroupArn: ""
+                Weight: 0
+          JwtValidationConfig:
+            Issuer: ""
+            JwksEndpoint: ""
+            AdditionalClaims:
+              - Format: ""
+                Name: ""
+                Values: []
+          RedirectConfig:
+            Host: ""
+            Path: ""
+            Port: ""
+            Protocol: ""
+            Query: ""
+            StatusCode: ""
+      Conditions:
+        - Field: ""
+          RegexValues: []
+          Values: []
+          HostHeaderConfig:
+            RegexValues: []
+            Values: []
+          HttpHeaderConfig:
+            HttpHeaderName: ""
+            RegexValues: []
+            Values: []
+          HttpRequestMethodConfig:
+            Values: []
+          PathPatternConfig:
+            RegexValues: []
+            Values: []
+          QueryStringConfig:
+            Values:
+              - Key: ""
+                Value: ""
+          SourceIpConfig:
+            IpAddressType: ""
+            Values: []
+      Tags:
+        - Key: ""
+          Value: ""
+      Transforms:
+        - Type: ""
+          HostHeaderRewriteConfig:
+            Rewrites:
+              - Regex: ""
+                Replace: ""
+          UrlRewriteConfig:
+            Rewrites:
+              - Regex: ""
+                Replace: ""

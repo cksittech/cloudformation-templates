@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSyntheticsGroup:
+    Type: AWS::Synthetics::Group
+    Properties:
+      Name: ""
+      ResourceArns: []
+      Tags:
+        - Key: ""
+          Value: ""

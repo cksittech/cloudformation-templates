@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSystemsmanagersapApplication:
+    Type: AWS::SystemsManagerSAP::Application
+    Properties:
+      ApplicationId: ""
+      ApplicationType: ""
+      DatabaseArn: ""
+      Instances: []
+      SapInstanceNumber: ""
+      Sid: ""
+      ComponentsInfo:
+        - ComponentType: ""
+          Ec2InstanceId: ""
+          Sid: ""
+      Credentials:
+        - CredentialType: ""
+          DatabaseName: ""
+          SecretId: ""
+      Tags:
+        - Key: ""
+          Value: ""

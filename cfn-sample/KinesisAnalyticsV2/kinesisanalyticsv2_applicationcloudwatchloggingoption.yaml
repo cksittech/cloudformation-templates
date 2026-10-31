@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisanalyticsv2Applicationcloudwatchloggingoption:
+    Type: AWS::KinesisAnalyticsV2::ApplicationCloudWatchLoggingOption
+    Properties:
+      ApplicationName: ""
+      CloudWatchLoggingOption:
+        LogStreamARN: ""

@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsConfiguredtableassociation:
+    Type: AWS::CleanRooms::ConfiguredTableAssociation
+    Properties:
+      ConfiguredTableIdentifier: ""
+      Description: ""
+      MembershipIdentifier: ""
+      Name: ""
+      RoleArn: ""
+      ConfiguredTableAssociationAnalysisRules:
+        - Type: ""
+          Policy:
+            V1:
+              Aggregation:
+                AllowedAdditionalAnalyses: []
+                AllowedResultReceivers: []
+              Custom:
+                AllowedAdditionalAnalyses: []
+                AllowedResultReceivers: []
+              List:
+                AllowedAdditionalAnalyses: []
+                AllowedResultReceivers: []
+      Tags:
+        - Key: ""
+          Value: ""

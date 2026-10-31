@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverAccesssource:
+    Type: AWS::Route53GlobalResolver::AccessSource
+    Properties:
+      Cidr: ""
+      ClientToken: ""
+      DnsViewId: ""
+      IpAddressType: ""
+      Name: ""
+      Protocol: ""
+      Tags:
+        - Key: ""
+          Value: ""

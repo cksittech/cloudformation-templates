@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayDocumentationpart:
+    Type: AWS::ApiGateway::DocumentationPart
+    Properties:
+      Properties: ""
+      RestApiId: ""
+      Location:
+        Method: ""
+        Name: ""
+        Path: ""
+        StatusCode: ""
+        Type: ""

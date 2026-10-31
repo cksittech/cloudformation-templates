@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotsitewiseDashboard:
+    Type: AWS::IoTSiteWise::Dashboard
+    Properties:
+      DashboardDefinition: ""
+      DashboardDescription: ""
+      DashboardName: ""
+      ProjectId: ""
+      Tags:
+        - Key: ""
+          Value: ""

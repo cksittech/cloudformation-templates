@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaNetworkconnector:
+    Type: AWS::Lambda::NetworkConnector
+    Properties:
+      Name: ""
+      OperatorRole: ""
+      Configuration:
+        VpcEgressConfiguration:
+          AssociatedComputeResourceTypes: []
+          NetworkProtocol: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+          ElasticIpConfiguration: {}
+      Tags:
+        - Key: ""
+          Value: ""

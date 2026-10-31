@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmcontactsRotation:
+    Type: AWS::SSMContacts::Rotation
+    Properties:
+      ContactIds: []
+      Name: ""
+      StartTime: ""
+      TimeZoneId: ""
+      Recurrence:
+        DailySettings: []
+        NumberOfOnCalls: 0
+        RecurrenceMultiplier: 0
+        MonthlySettings:
+          - DayOfMonth: 0
+            HandOffTime: ""
+        ShiftCoverages:
+          - DayOfWeek: ""
+            CoverageTimes:
+              - EndTime: ""
+                StartTime: ""
+        WeeklySettings:
+          - DayOfWeek: ""
+            HandOffTime: ""
+      Tags:
+        - Key: ""
+          Value: ""

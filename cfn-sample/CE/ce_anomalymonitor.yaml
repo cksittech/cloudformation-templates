@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCeAnomalymonitor:
+    Type: AWS::CE::AnomalyMonitor
+    Properties:
+      MonitorDimension: ""
+      MonitorName: ""
+      MonitorSpecification: ""
+      MonitorType: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""

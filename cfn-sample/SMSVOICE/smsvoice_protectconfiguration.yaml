@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceProtectconfiguration:
+    Type: AWS::SMSVOICE::ProtectConfiguration
+    Properties:
+      DeletionProtectionEnabled: false
+      CountryRuleSet:
+        MMS:
+          - CountryCode: ""
+            ProtectStatus: ""
+        SMS:
+          - CountryCode: ""
+            ProtectStatus: ""
+        VOICE:
+          - CountryCode: ""
+            ProtectStatus: ""
+      Tags:
+        - Key: ""
+          Value: ""

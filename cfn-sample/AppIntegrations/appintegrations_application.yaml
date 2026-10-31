@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppintegrationsApplication:
+    Type: AWS::AppIntegrations::Application
+    Properties:
+      Description: ""
+      InitializationTimeout: 0
+      IsService: false
+      Name: ""
+      Namespace: ""
+      Permissions: []
+      ApplicationConfig:
+        ContactHandling:
+          Scope: ""
+      ApplicationSourceConfig:
+        ExternalUrlConfig:
+          AccessUrl: ""
+          ApprovedOrigins: []
+      IframeConfig:
+        Allow: []
+        Sandbox: []
+      Tags:
+        - Key: ""
+          Value: ""

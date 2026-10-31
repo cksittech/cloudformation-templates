@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpnconcentrator:
+    Type: AWS::EC2::VPNConcentrator
+    Properties:
+      TransitGatewayId: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockApplicationinferenceprofile:
+    Type: AWS::Bedrock::ApplicationInferenceProfile
+    Properties:
+      Description: ""
+      InferenceProfileName: ""
+      ModelSource:
+        CopyFrom: ""
+      Tags:
+        - Key: ""
+          Value: ""

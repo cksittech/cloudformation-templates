@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAutoscalingLaunchconfiguration:
+    Type: AWS::AutoScaling::LaunchConfiguration
+    Properties:
+      AssociatePublicIpAddress: false
+      ClassicLinkVPCId: ""
+      ClassicLinkVPCSecurityGroups: []
+      EbsOptimized: false
+      IamInstanceProfile: ""
+      ImageId: ""
+      InstanceId: ""
+      InstanceMonitoring: false
+      InstanceType: ""
+      KernelId: ""
+      KeyName: ""
+      LaunchConfigurationName: ""
+      PlacementTenancy: ""
+      RamDiskId: ""
+      SecurityGroups: []
+      SpotPrice: ""
+      UserData: ""
+      BlockDeviceMappings:
+        - DeviceName: ""
+          NoDevice: false
+          VirtualName: ""
+          Ebs:
+            DeleteOnTermination: false
+            Encrypted: false
+            Iops: 0
+            SnapshotId: ""
+            Throughput: 0
+            VolumeSize: 0
+            VolumeType: ""
+      MetadataOptions:
+        HttpEndpoint: ""
+        HttpPutResponseHopLimit: 0
+        HttpTokens: ""

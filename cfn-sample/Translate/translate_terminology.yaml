@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTranslateTerminology:
+    Type: AWS::Translate::Terminology
+    Properties:
+      Description: ""
+      MergeStrategy: ""
+      Name: ""
+      EncryptionKey:
+        Id: ""
+        Type: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TerminologyData:
+        Directionality: ""
+        File: ""
+        Format: ""

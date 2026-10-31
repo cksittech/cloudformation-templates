@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoicePhonenumber:
+    Type: AWS::SMSVOICE::PhoneNumber
+    Properties:
+      DeletionProtectionEnabled: false
+      IsoCountryCode: ""
+      NumberCapabilities: []
+      NumberType: ""
+      OptOutListName: ""
+      SelfManagedOptOutsEnabled: false
+      MandatoryKeywords:
+        HELP:
+          Message: ""
+        STOP:
+          Message: ""
+      OptionalKeywords:
+        - Action: ""
+          Keyword: ""
+          Message: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TwoWay:
+        ChannelArn: ""
+        ChannelRole: ""
+        Enabled: false

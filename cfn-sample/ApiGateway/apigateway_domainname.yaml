@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayDomainname:
+    Type: AWS::ApiGateway::DomainName
+    Properties:
+      CertificateArn: ""
+      DomainName: ""
+      EndpointAccessMode: ""
+      OwnershipVerificationCertificateArn: ""
+      RegionalCertificateArn: ""
+      RoutingMode: "BASE_PATH_MAPPING_ONLY"
+      SecurityPolicy: ""
+      EndpointConfiguration:
+        IpAddressType: ""
+        Types: []
+      MutualTlsAuthentication:
+        TruststoreUri: ""
+        TruststoreVersion: ""
+      Tags:
+        - Key: ""
+          Value: ""

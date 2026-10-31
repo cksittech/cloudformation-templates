@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayMethod:
+    Type: AWS::ApiGateway::Method
+    Properties:
+      ApiKeyRequired: false
+      AuthorizationScopes: []
+      AuthorizationType: ""
+      AuthorizerId: ""
+      HttpMethod: ""
+      OperationName: ""
+      RequestValidatorId: ""
+      ResourceId: ""
+      RestApiId: ""
+      Integration:
+        CacheKeyParameters: []
+        CacheNamespace: ""
+        ConnectionId: ""
+        ConnectionType: ""
+        ContentHandling: ""
+        Credentials: ""
+        IntegrationHttpMethod: ""
+        IntegrationTarget: ""
+        PassthroughBehavior: ""
+        ResponseTransferMode: "BUFFERED"
+        TimeoutInMillis: 0
+        Type: ""
+        Uri: ""
+        IntegrationResponses:
+          - ContentHandling: ""
+            SelectionPattern: ""
+            StatusCode: ""
+            ResponseParameters: {}
+            ResponseTemplates: {}
+        RequestParameters: {}
+        RequestTemplates: {}
+      MethodResponses:
+        - StatusCode: ""
+          ResponseModels: {}
+          ResponseParameters: {}
+      RequestModels: {}
+      RequestParameters: {}

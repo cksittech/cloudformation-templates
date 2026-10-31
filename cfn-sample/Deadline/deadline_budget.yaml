@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineBudget:
+    Type: AWS::Deadline::Budget
+    Properties:
+      ApproximateDollarLimit: 0
+      Description: ""
+      DisplayName: ""
+      FarmId: ""
+      Actions:
+        - Description: ""
+          ThresholdPercentage: 0
+          Type: ""
+      Schedule:
+        Fixed:
+          EndTime: ""
+          StartTime: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UsageTrackingResource:
+        QueueId: ""

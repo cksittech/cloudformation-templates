@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLicensemanagerLicense:
+    Type: AWS::LicenseManager::License
+    Properties:
+      Beneficiary: ""
+      HomeRegion: ""
+      LicenseName: ""
+      ProductName: ""
+      ProductSKU: ""
+      Status: ""
+      ConsumptionConfiguration:
+        RenewType: ""
+        BorrowConfiguration:
+          AllowEarlyCheckIn: false
+          MaxTimeToLiveInMinutes: 0
+        ProvisionalConfiguration:
+          MaxTimeToLiveInMinutes: 0
+      Entitlements:
+        - AllowCheckIn: false
+          MaxCount: 0
+          Name: ""
+          Overage: false
+          Unit: ""
+          Value: ""
+      Issuer:
+        Name: ""
+        SignKey: ""
+      LicenseMetadata:
+        - Name: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Validity:
+        Begin: ""
+        End: ""

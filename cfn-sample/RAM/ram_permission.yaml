@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRamPermission:
+    Type: AWS::RAM::Permission
+    Properties:
+      Name: ""
+      ResourceType: ""
+      PolicyTemplate: {}
+      Tags:
+        - Key: ""
+          Value: ""

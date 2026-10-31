@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectUserhierarchygroup:
+    Type: AWS::Connect::UserHierarchyGroup
+    Properties:
+      InstanceArn: ""
+      Name: ""
+      ParentGroupArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

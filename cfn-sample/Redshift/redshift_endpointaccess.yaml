@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftEndpointaccess:
+    Type: AWS::Redshift::EndpointAccess
+    Properties:
+      ClusterIdentifier: ""
+      EndpointName: ""
+      ResourceOwner: ""
+      SubnetGroupName: ""
+      VpcSecurityGroupIds: []

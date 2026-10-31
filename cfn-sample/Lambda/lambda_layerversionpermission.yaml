@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaLayerversionpermission:
+    Type: AWS::Lambda::LayerVersionPermission
+    Properties:
+      Action: ""
+      LayerVersionArn: ""
+      OrganizationId: ""
+      Principal: ""

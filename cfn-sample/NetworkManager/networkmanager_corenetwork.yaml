@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerCorenetwork:
+    Type: AWS::NetworkManager::CoreNetwork
+    Properties:
+      Description: ""
+      GlobalNetworkId: ""
+      PolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

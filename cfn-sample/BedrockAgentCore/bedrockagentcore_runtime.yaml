@@ -1,0 +1,88 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreRuntime:
+    Type: AWS::BedrockAgentCore::Runtime
+    Properties:
+      AgentRuntimeName: ""
+      Description: ""
+      PlatformVersion: ""
+      ProtocolConfiguration: ""
+      RoleArn: ""
+      AgentRuntimeArtifact:
+        CodeConfiguration:
+          EntryPoint: []
+          Runtime: ""
+          Code:
+            S3:
+              Bucket: ""
+              Prefix: ""
+              VersionId: ""
+        ContainerConfiguration:
+          ContainerUri: ""
+      AuthorizerConfiguration:
+        CustomJWTAuthorizer:
+          AllowedAudience: []
+          AllowedClients: []
+          AllowedScopes: []
+          DiscoveryUrl: ""
+          AllowedWorkloadConfiguration:
+            WorkloadIdentities: []
+            HostingEnvironments:
+              - Arn: ""
+          CustomClaims:
+            - InboundTokenClaimName: ""
+              InboundTokenClaimValueType: ""
+              AuthorizingClaimMatchValue:
+                ClaimMatchOperator: ""
+                ClaimMatchValue:
+                  MatchValueString: ""
+                  MatchValueStringList: []
+          PrivateEndpoint:
+            ManagedVpcResource:
+              EndpointIpAddressType: ""
+              RoutingDomain: ""
+              SecurityGroupIds: []
+              SubnetIds: []
+              VpcIdentifier: ""
+              Tags: {}
+            SelfManagedLatticeResource:
+              ResourceConfigurationIdentifier: ""
+          PrivateEndpointOverrides:
+            - Domain: ""
+              PrivateEndpoint:
+                ManagedVpcResource:
+                  EndpointIpAddressType: ""
+                  RoutingDomain: ""
+                  SecurityGroupIds: []
+                  SubnetIds: []
+                  VpcIdentifier: ""
+                  Tags: {}
+                SelfManagedLatticeResource:
+                  ResourceConfigurationIdentifier: ""
+      CapacityProviderConfiguration:
+        CapacityProviderArn: ""
+      EnvironmentVariables: {}
+      FilesystemConfigurations:
+        - CapacityProviderVolume:
+            MountPath: ""
+            VolumeName: ""
+          EfsAccessPoint:
+            AccessPointArn: ""
+            MountPath: ""
+          S3FilesAccessPoint:
+            AccessPointArn: ""
+            MountPath: ""
+          SessionStorage:
+            MountPath: ""
+      LifecycleConfiguration:
+        IdleRuntimeSessionTimeout: 0
+        MaxLifetime: 0
+      NetworkConfiguration:
+        NetworkMode: ""
+        NetworkModeConfig:
+          SecurityGroups: []
+          Subnets: []
+      RequestHeaderConfiguration:
+        RequestHeaderAllowlist: []
+      Tags: {}

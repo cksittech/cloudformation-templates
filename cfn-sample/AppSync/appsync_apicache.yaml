@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncApicache:
+    Type: AWS::AppSync::ApiCache
+    Properties:
+      ApiCachingBehavior: ""
+      ApiId: ""
+      AtRestEncryptionEnabled: false
+      HealthMetricsConfig: ""
+      TransitEncryptionEnabled: false
+      Ttl: 0
+      Type: ""

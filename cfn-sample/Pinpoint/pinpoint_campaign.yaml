@@ -1,0 +1,353 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointCampaign:
+    Type: AWS::Pinpoint::Campaign
+    Properties:
+      ApplicationId: ""
+      Description: ""
+      HoldoutPercent: 0
+      IsPaused: false
+      Name: ""
+      Priority: 0
+      SegmentId: ""
+      SegmentVersion: 0
+      TreatmentDescription: ""
+      TreatmentName: ""
+      AdditionalTreatments:
+        - SizePercent: 0
+          TreatmentDescription: ""
+          TreatmentName: ""
+          CustomDeliveryConfiguration:
+            DeliveryUri: ""
+            EndpointTypes: []
+          MessageConfiguration:
+            ADMMessage:
+              Action: ""
+              Body: ""
+              ImageIconUrl: ""
+              ImageSmallIconUrl: ""
+              ImageUrl: ""
+              JsonBody: ""
+              MediaUrl: ""
+              RawContent: ""
+              SilentPush: false
+              TimeToLive: 0
+              Title: ""
+              Url: ""
+            APNSMessage:
+              Action: ""
+              Body: ""
+              ImageIconUrl: ""
+              ImageSmallIconUrl: ""
+              ImageUrl: ""
+              JsonBody: ""
+              MediaUrl: ""
+              RawContent: ""
+              SilentPush: false
+              TimeToLive: 0
+              Title: ""
+              Url: ""
+            BaiduMessage:
+              Action: ""
+              Body: ""
+              ImageIconUrl: ""
+              ImageSmallIconUrl: ""
+              ImageUrl: ""
+              JsonBody: ""
+              MediaUrl: ""
+              RawContent: ""
+              SilentPush: false
+              TimeToLive: 0
+              Title: ""
+              Url: ""
+            CustomMessage:
+              Data: ""
+            DefaultMessage:
+              Action: ""
+              Body: ""
+              ImageIconUrl: ""
+              ImageSmallIconUrl: ""
+              ImageUrl: ""
+              JsonBody: ""
+              MediaUrl: ""
+              RawContent: ""
+              SilentPush: false
+              TimeToLive: 0
+              Title: ""
+              Url: ""
+            EmailMessage:
+              Body: ""
+              FromAddress: ""
+              HtmlBody: ""
+              Title: ""
+            GCMMessage:
+              Action: ""
+              Body: ""
+              ImageIconUrl: ""
+              ImageSmallIconUrl: ""
+              ImageUrl: ""
+              JsonBody: ""
+              MediaUrl: ""
+              RawContent: ""
+              SilentPush: false
+              TimeToLive: 0
+              Title: ""
+              Url: ""
+            InAppMessage:
+              Layout: ""
+              Content:
+                - BackgroundColor: ""
+                  ImageUrl: ""
+                  BodyConfig:
+                    Alignment: ""
+                    Body: ""
+                    TextColor: ""
+                  HeaderConfig:
+                    Alignment: ""
+                    Header: ""
+                    TextColor: ""
+                  PrimaryBtn:
+                    Android:
+                      ButtonAction: ""
+                      Link: ""
+                    DefaultConfig:
+                      BackgroundColor: ""
+                      BorderRadius: 0
+                      ButtonAction: ""
+                      Link: ""
+                      Text: ""
+                      TextColor: ""
+                    IOS:
+                      ButtonAction: ""
+                      Link: ""
+                    Web:
+                      ButtonAction: ""
+                      Link: ""
+                  SecondaryBtn:
+                    Android:
+                      ButtonAction: ""
+                      Link: ""
+                    DefaultConfig:
+                      BackgroundColor: ""
+                      BorderRadius: 0
+                      ButtonAction: ""
+                      Link: ""
+                      Text: ""
+                      TextColor: ""
+                    IOS:
+                      ButtonAction: ""
+                      Link: ""
+                    Web:
+                      ButtonAction: ""
+                      Link: ""
+              CustomConfig: {}
+            SMSMessage:
+              Body: ""
+              EntityId: ""
+              MessageType: ""
+              OriginationNumber: ""
+              SenderId: ""
+              TemplateId: ""
+          Schedule:
+            EndTime: ""
+            Frequency: ""
+            IsLocalTime: false
+            StartTime: ""
+            TimeZone: ""
+            EventFilter:
+              FilterType: ""
+              Dimensions:
+                Attributes: {}
+                EventType:
+                  DimensionType: ""
+                  Values: []
+                Metrics: {}
+            QuietTime:
+              End: ""
+              Start: ""
+          TemplateConfiguration:
+            EmailTemplate:
+              Name: ""
+              Version: ""
+            PushTemplate:
+              Name: ""
+              Version: ""
+            SMSTemplate:
+              Name: ""
+              Version: ""
+            VoiceTemplate:
+              Name: ""
+              Version: ""
+      CampaignHook:
+        LambdaFunctionName: ""
+        Mode: ""
+        WebUrl: ""
+      CustomDeliveryConfiguration:
+        DeliveryUri: ""
+        EndpointTypes: []
+      Limits:
+        Daily: 0
+        MaximumDuration: 0
+        MessagesPerSecond: 0
+        Session: 0
+        Total: 0
+      MessageConfiguration:
+        ADMMessage:
+          Action: ""
+          Body: ""
+          ImageIconUrl: ""
+          ImageSmallIconUrl: ""
+          ImageUrl: ""
+          JsonBody: ""
+          MediaUrl: ""
+          RawContent: ""
+          SilentPush: false
+          TimeToLive: 0
+          Title: ""
+          Url: ""
+        APNSMessage:
+          Action: ""
+          Body: ""
+          ImageIconUrl: ""
+          ImageSmallIconUrl: ""
+          ImageUrl: ""
+          JsonBody: ""
+          MediaUrl: ""
+          RawContent: ""
+          SilentPush: false
+          TimeToLive: 0
+          Title: ""
+          Url: ""
+        BaiduMessage:
+          Action: ""
+          Body: ""
+          ImageIconUrl: ""
+          ImageSmallIconUrl: ""
+          ImageUrl: ""
+          JsonBody: ""
+          MediaUrl: ""
+          RawContent: ""
+          SilentPush: false
+          TimeToLive: 0
+          Title: ""
+          Url: ""
+        CustomMessage:
+          Data: ""
+        DefaultMessage:
+          Action: ""
+          Body: ""
+          ImageIconUrl: ""
+          ImageSmallIconUrl: ""
+          ImageUrl: ""
+          JsonBody: ""
+          MediaUrl: ""
+          RawContent: ""
+          SilentPush: false
+          TimeToLive: 0
+          Title: ""
+          Url: ""
+        EmailMessage:
+          Body: ""
+          FromAddress: ""
+          HtmlBody: ""
+          Title: ""
+        GCMMessage:
+          Action: ""
+          Body: ""
+          ImageIconUrl: ""
+          ImageSmallIconUrl: ""
+          ImageUrl: ""
+          JsonBody: ""
+          MediaUrl: ""
+          RawContent: ""
+          SilentPush: false
+          TimeToLive: 0
+          Title: ""
+          Url: ""
+        InAppMessage:
+          Layout: ""
+          Content:
+            - BackgroundColor: ""
+              ImageUrl: ""
+              BodyConfig:
+                Alignment: ""
+                Body: ""
+                TextColor: ""
+              HeaderConfig:
+                Alignment: ""
+                Header: ""
+                TextColor: ""
+              PrimaryBtn:
+                Android:
+                  ButtonAction: ""
+                  Link: ""
+                DefaultConfig:
+                  BackgroundColor: ""
+                  BorderRadius: 0
+                  ButtonAction: ""
+                  Link: ""
+                  Text: ""
+                  TextColor: ""
+                IOS:
+                  ButtonAction: ""
+                  Link: ""
+                Web:
+                  ButtonAction: ""
+                  Link: ""
+              SecondaryBtn:
+                Android:
+                  ButtonAction: ""
+                  Link: ""
+                DefaultConfig:
+                  BackgroundColor: ""
+                  BorderRadius: 0
+                  ButtonAction: ""
+                  Link: ""
+                  Text: ""
+                  TextColor: ""
+                IOS:
+                  ButtonAction: ""
+                  Link: ""
+                Web:
+                  ButtonAction: ""
+                  Link: ""
+          CustomConfig: {}
+        SMSMessage:
+          Body: ""
+          EntityId: ""
+          MessageType: ""
+          OriginationNumber: ""
+          SenderId: ""
+          TemplateId: ""
+      Schedule:
+        EndTime: ""
+        Frequency: ""
+        IsLocalTime: false
+        StartTime: ""
+        TimeZone: ""
+        EventFilter:
+          FilterType: ""
+          Dimensions:
+            Attributes: {}
+            EventType:
+              DimensionType: ""
+              Values: []
+            Metrics: {}
+        QuietTime:
+          End: ""
+          Start: ""
+      Tags: {}
+      TemplateConfiguration:
+        EmailTemplate:
+          Name: ""
+          Version: ""
+        PushTemplate:
+          Name: ""
+          Version: ""
+        SMSTemplate:
+          Name: ""
+          Version: ""
+        VoiceTemplate:
+          Name: ""
+          Version: ""

@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEvidentlyLaunch:
+    Type: AWS::Evidently::Launch
+    Properties:
+      Description: ""
+      Name: ""
+      Project: ""
+      RandomizationSalt: ""
+      ExecutionStatus:
+        DesiredState: ""
+        Reason: ""
+        Status: ""
+      Groups:
+        - Description: ""
+          Feature: ""
+          GroupName: ""
+          Variation: ""
+      MetricMonitors:
+        - EntityIdKey: ""
+          EventPattern: ""
+          MetricName: ""
+          UnitLabel: ""
+          ValueKey: ""
+      ScheduledSplitsConfig:
+        - StartTime: ""
+          GroupWeights:
+            - GroupName: ""
+              SplitWeight: 0
+          SegmentOverrides:
+            - EvaluationOrder: 0
+              Segment: ""
+              Weights:
+                - GroupName: ""
+                  SplitWeight: 0
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchDomainfororganization:
+    Type: AWS::CloudWatch::DomainForOrganization
+    Properties:
+      DomainAccessRoleArn: ""
+      IdentityProviders: []
+      Name: ""
+      IdentityProviderConfiguration:
+        IdentityCenterConfiguration:
+          IdentityCenterInstanceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

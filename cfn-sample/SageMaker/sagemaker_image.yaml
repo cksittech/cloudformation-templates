@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerImage:
+    Type: AWS::SageMaker::Image
+    Properties:
+      ImageDescription: ""
+      ImageDisplayName: ""
+      ImageName: ""
+      ImageRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

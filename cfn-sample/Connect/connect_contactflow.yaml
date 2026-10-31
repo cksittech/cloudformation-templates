@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectContactflow:
+    Type: AWS::Connect::ContactFlow
+    Properties:
+      Content: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      State: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

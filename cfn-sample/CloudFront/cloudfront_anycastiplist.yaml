@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontAnycastiplist:
+    Type: AWS::CloudFront::AnycastIpList
+    Properties:
+      IpAddressType: ""
+      IpCount: 0
+      Name: ""
+      IpamCidrConfigs:
+        - Cidr: ""
+          IpamPoolArn: ""
+      Tags:
+        Items:
+          - Key: ""
+            Value: ""

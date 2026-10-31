@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationGeneratedtemplate:
+    Type: AWS::CloudFormation::GeneratedTemplate
+    Properties:
+      GeneratedTemplateName: ""
+      TemplateConfiguration:
+        DeletionPolicy: ""
+        UpdateReplacePolicy: ""

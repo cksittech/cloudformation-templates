@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsDatamigration:
+    Type: AWS::DMS::DataMigration
+    Properties:
+      DataMigrationName: ""
+      DataMigrationType: ""
+      MigrationProjectIdentifier: ""
+      ServiceAccessRoleArn: ""
+      DataMigrationSettings:
+        CloudwatchLogsEnabled: false
+        NumberOfJobs: 0
+        SelectionRules: ""
+      SourceDataSettings:
+        - CDCStartPosition: ""
+          CDCStartTime: ""
+          CDCStopTime: ""
+          SlotName: ""
+      Tags:
+        - Key: ""
+          Value: ""

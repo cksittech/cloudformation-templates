@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchOmnidashboard:
+    Type: AWS::CloudWatch::OmniDashboard
+    Properties:
+      Body: ""
+      Description: ""
+      Name: ""
+      SpaceId: ""
+      Tags:
+        - Key: ""
+          Value: ""

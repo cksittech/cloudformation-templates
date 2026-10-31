@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogappregistryApplication:
+    Type: AWS::ServiceCatalogAppRegistry::Application
+    Properties:
+      Description: ""
+      Name: ""
+      Tags: {}

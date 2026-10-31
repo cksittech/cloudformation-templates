@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Authorizer:
+    Type: AWS::ApiGatewayV2::Authorizer
+    Properties:
+      ApiId: ""
+      AuthorizerCredentialsArn: ""
+      AuthorizerPayloadFormatVersion: ""
+      AuthorizerResultTtlInSeconds: 0
+      AuthorizerType: ""
+      AuthorizerUri: ""
+      EnableSimpleResponses: false
+      IdentitySource: []
+      IdentityValidationExpression: ""
+      Name: ""
+      JwtConfiguration:
+        Audience: []
+        Issuer: ""

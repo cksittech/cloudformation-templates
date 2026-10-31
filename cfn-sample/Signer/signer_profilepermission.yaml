@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSignerProfilepermission:
+    Type: AWS::Signer::ProfilePermission
+    Properties:
+      Action: ""
+      Principal: ""
+      ProfileName: ""
+      ProfileVersion: ""
+      StatementId: ""

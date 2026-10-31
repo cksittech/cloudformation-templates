@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeServicenetwork:
+    Type: AWS::VpcLattice::ServiceNetwork
+    Properties:
+      AuthType: "NONE"
+      Name: ""
+      SharingConfig:
+        enabled: false
+      Tags:
+        - Key: ""
+          Value: ""

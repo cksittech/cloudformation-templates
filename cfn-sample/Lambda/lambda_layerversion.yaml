@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaLayerversion:
+    Type: AWS::Lambda::LayerVersion
+    Properties:
+      CompatibleArchitectures: []
+      CompatibleRuntimes: []
+      Description: ""
+      LayerName: ""
+      LicenseInfo: ""
+      Content:
+        S3Bucket: ""
+        S3Key: ""
+        S3ObjectStorageMode: ""
+        S3ObjectVersion: ""

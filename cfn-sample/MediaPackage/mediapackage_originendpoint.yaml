@@ -1,0 +1,122 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackageOriginendpoint:
+    Type: AWS::MediaPackage::OriginEndpoint
+    Properties:
+      ChannelId: ""
+      Description: ""
+      Id: ""
+      ManifestName: ""
+      Origination: ""
+      StartoverWindowSeconds: 0
+      TimeDelaySeconds: 0
+      Whitelist: []
+      Authorization:
+        CdnIdentifierSecret: ""
+        SecretsRoleArn: ""
+      CmafPackage:
+        SegmentDurationSeconds: 0
+        SegmentPrefix: ""
+        Encryption:
+          ConstantInitializationVector: ""
+          EncryptionMethod: ""
+          KeyRotationIntervalSeconds: 0
+          SpekeKeyProvider:
+            CertificateArn: ""
+            ResourceId: ""
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration:
+              PresetSpeke20Audio: ""
+              PresetSpeke20Video: ""
+        HlsManifests:
+          - AdMarkers: ""
+            AdTriggers: []
+            AdsOnDeliveryRestrictions: ""
+            Id: ""
+            IncludeIframeOnlyStream: false
+            ManifestName: ""
+            PlaylistType: ""
+            PlaylistWindowSeconds: 0
+            ProgramDateTimeIntervalSeconds: 0
+        StreamSelection:
+          MaxVideoBitsPerSecond: 0
+          MinVideoBitsPerSecond: 0
+          StreamOrder: ""
+      DashPackage:
+        AdTriggers: []
+        AdsOnDeliveryRestrictions: ""
+        IncludeIframeOnlyStream: false
+        ManifestLayout: ""
+        ManifestWindowSeconds: 0
+        MinBufferTimeSeconds: 0
+        MinUpdatePeriodSeconds: 0
+        PeriodTriggers: []
+        Profile: ""
+        SegmentDurationSeconds: 0
+        SegmentTemplateFormat: ""
+        SuggestedPresentationDelaySeconds: 0
+        UtcTiming: ""
+        UtcTimingUri: ""
+        Encryption:
+          KeyRotationIntervalSeconds: 0
+          SpekeKeyProvider:
+            CertificateArn: ""
+            ResourceId: ""
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration:
+              PresetSpeke20Audio: ""
+              PresetSpeke20Video: ""
+        StreamSelection:
+          MaxVideoBitsPerSecond: 0
+          MinVideoBitsPerSecond: 0
+          StreamOrder: ""
+      HlsPackage:
+        AdMarkers: ""
+        AdTriggers: []
+        AdsOnDeliveryRestrictions: ""
+        IncludeDvbSubtitles: false
+        IncludeIframeOnlyStream: false
+        PlaylistType: ""
+        PlaylistWindowSeconds: 0
+        ProgramDateTimeIntervalSeconds: 0
+        SegmentDurationSeconds: 0
+        UseAudioRenditionGroup: false
+        Encryption:
+          ConstantInitializationVector: ""
+          EncryptionMethod: ""
+          KeyRotationIntervalSeconds: 0
+          RepeatExtXKey: false
+          SpekeKeyProvider:
+            CertificateArn: ""
+            ResourceId: ""
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration: {}
+        StreamSelection:
+          MaxVideoBitsPerSecond: 0
+          MinVideoBitsPerSecond: 0
+          StreamOrder: ""
+      MssPackage:
+        ManifestWindowSeconds: 0
+        SegmentDurationSeconds: 0
+        Encryption:
+          SpekeKeyProvider:
+            CertificateArn: ""
+            ResourceId: ""
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration: {}
+        StreamSelection:
+          MaxVideoBitsPerSecond: 0
+          MinVideoBitsPerSecond: 0
+          StreamOrder: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRolesanywhereProfile:
+    Type: AWS::RolesAnywhere::Profile
+    Properties:
+      AcceptRoleSessionName: false
+      DurationSeconds: 0
+      Enabled: false
+      ManagedPolicyArns: []
+      Name: ""
+      RequireInstanceProperties: false
+      RoleArns: []
+      SessionPolicy: ""
+      AttributeMappings:
+        - CertificateField: ""
+          MappingRules:
+            - Specifier: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsCustomdbengineversion:
+    Type: AWS::RDS::CustomDBEngineVersion
+    Properties:
+      DatabaseInstallationFiles: []
+      DatabaseInstallationFilesS3BucketName: ""
+      DatabaseInstallationFilesS3Prefix: ""
+      Description: ""
+      Engine: ""
+      EngineVersion: ""
+      ImageId: ""
+      KMSKeyId: ""
+      Manifest: ""
+      SourceCustomDbEngineVersionIdentifier: ""
+      Status: "available"
+      UseAwsProvidedLatestImage: false
+      Tags:
+        - Key: ""
+          Value: ""

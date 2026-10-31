@@ -1,0 +1,88 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectRouteroutput:
+    Type: AWS::MediaConnect::RouterOutput
+    Properties:
+      AvailabilityZone: ""
+      MaximumBitrate: 0
+      Name: ""
+      RegionName: ""
+      RoutingScope: ""
+      Tier: ""
+      Configuration:
+        MediaConnectFlow:
+          FlowArn: ""
+          FlowSourceArn: ""
+          DestinationTransitEncryption:
+            EncryptionKeyType: ""
+            EncryptionKeyConfiguration:
+              Automatic: {}
+              SecretsManager:
+                RoleArn: ""
+                SecretArn: ""
+        MediaLiveInput:
+          MediaLiveInputArn: ""
+          MediaLivePipelineId: ""
+          DestinationTransitEncryption:
+            EncryptionKeyType: ""
+            EncryptionKeyConfiguration:
+              Automatic: {}
+              SecretsManager:
+                RoleArn: ""
+                SecretArn: ""
+        SourceEndpoint:
+          DestinationTransitEncryptionType: ""
+          EndpointLifecycleManagement: ""
+          DestinationTransitEncryption:
+            Automatic: {}
+            SecretsManager:
+              EncryptionSecretType: ""
+              EncryptionSecret:
+                SecretArn: ""
+        Standard:
+          NetworkInterfaceArn: ""
+          Protocol: ""
+          ProtocolConfiguration:
+            Rist:
+              DestinationAddress: ""
+              DestinationPort: 0
+            RtmpPush:
+              ApplicationName: ""
+              DestinationAddress: ""
+              DestinationPort: 0
+              StreamName: ""
+              TlsEncryption:
+                EncryptionType: ""
+                EncryptionConfiguration:
+                  Public: {}
+            Rtp:
+              DestinationAddress: ""
+              DestinationPort: 0
+              ForwardErrorCorrection: ""
+            SrtCaller:
+              DestinationAddress: ""
+              DestinationPort: 0
+              MinimumLatencyMilliseconds: 0
+              StreamId: ""
+              EncryptionConfiguration:
+                EncryptionKey:
+                  RoleArn: ""
+                  SecretArn: ""
+            SrtListener:
+              MinimumLatencyMilliseconds: 0
+              Port: 0
+              EncryptionConfiguration:
+                EncryptionKey:
+                  RoleArn: ""
+                  SecretArn: ""
+      FabricConfiguration:
+        RecoveryLatencyMode: ""
+      MaintenanceConfiguration:
+        Default: {}
+        PreferredDayTime:
+          Day: ""
+          Time: ""
+      Tags:
+        - Key: ""
+          Value: ""

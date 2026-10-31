@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessCollection:
+    Type: AWS::OpenSearchServerless::Collection
+    Properties:
+      CollectionGroupName: ""
+      DeletionProtection: ""
+      Description: ""
+      Name: ""
+      StandbyReplicas: ""
+      Type: ""
+      EncryptionConfig:
+        AWSOwnedKey: false
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VectorOptions:
+        ServerlessVectorAcceleration: ""

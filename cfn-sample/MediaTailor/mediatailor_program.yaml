@@ -1,0 +1,80 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorProgram:
+    Type: AWS::MediaTailor::Program
+    Properties:
+      ChannelName: ""
+      LiveSourceName: ""
+      ProgramName: ""
+      SourceLocationName: ""
+      VodSourceName: ""
+      AdBreaks:
+        - MessageType: ""
+          OffsetMillis: 0
+          AdBreakMetadata:
+            - Key: ""
+              Value: ""
+          Slate:
+            SourceLocationName: ""
+            VodSourceName: ""
+          SpliceInsertMessage:
+            AvailNum: 0
+            AvailsExpected: 0
+            SpliceEventId: 0
+            UniqueProgramId: 0
+          TimeSignalMessage:
+            SegmentationDescriptors:
+              - SegmentNum: 0
+                SegmentationEventId: 0
+                SegmentationTypeId: 0
+                SegmentationUpid: ""
+                SegmentationUpidType: 0
+                SegmentsExpected: 0
+                SubSegmentNum: 0
+                SubSegmentsExpected: 0
+      AudienceMedia:
+        - Audience: ""
+          AlternateMedia:
+            - DurationMillis: 0
+              LiveSourceName: ""
+              ScheduledStartTimeMillis: 0
+              SourceLocationName: ""
+              VodSourceName: ""
+              AdBreaks:
+                - MessageType: ""
+                  OffsetMillis: 0
+                  AdBreakMetadata:
+                    - Key: ""
+                      Value: ""
+                  Slate:
+                    SourceLocationName: ""
+                    VodSourceName: ""
+                  SpliceInsertMessage:
+                    AvailNum: 0
+                    AvailsExpected: 0
+                    SpliceEventId: 0
+                    UniqueProgramId: 0
+                  TimeSignalMessage:
+                    SegmentationDescriptors:
+                      - SegmentNum: 0
+                        SegmentationEventId: 0
+                        SegmentationTypeId: 0
+                        SegmentationUpid: ""
+                        SegmentationUpidType: 0
+                        SegmentsExpected: 0
+                        SubSegmentNum: 0
+                        SubSegmentsExpected: 0
+              ClipRange:
+                EndOffsetMillis: 0
+                StartOffsetMillis: 0
+      ScheduleConfiguration:
+        ClipRange:
+          EndOffsetMillis: 0
+          StartOffsetMillis: 0
+        Transition:
+          DurationMillis: 0
+          RelativePosition: ""
+          RelativeProgram: ""
+          ScheduledStartTimeMillis: 0
+          Type: ""

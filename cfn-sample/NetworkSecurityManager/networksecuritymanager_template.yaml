@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworksecuritymanagerTemplate:
+    Type: AWS::NetworkSecurityManager::Template
+    Properties:
+      FirewallType: ""
+      TemplateDescription: ""
+      TemplateName: ""
+      AssociatedRuleList:
+        - RuleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

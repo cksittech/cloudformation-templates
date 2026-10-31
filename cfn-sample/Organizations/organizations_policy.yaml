@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOrganizationsPolicy:
+    Type: AWS::Organizations::Policy
+    Properties:
+      Description: ""
+      Name: ""
+      TargetIds: []
+      Type: ""
+      Content: {}
+      Tags:
+        - Key: ""
+          Value: ""

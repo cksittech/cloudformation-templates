@@ -1,0 +1,44 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessWirelessdevice:
+    Type: AWS::IoTWireless::WirelessDevice
+    Properties:
+      Description: ""
+      DestinationName: ""
+      LastUplinkReceivedAt: ""
+      Name: ""
+      Positioning: ""
+      ThingArn: ""
+      Type: ""
+      LoRaWAN:
+        DevEui: ""
+        DeviceProfileId: ""
+        ServiceProfileId: ""
+        AbpV10x:
+          DevAddr: ""
+          SessionKeys:
+            AppSKey: ""
+            NwkSKey: ""
+        AbpV11:
+          DevAddr: ""
+          SessionKeys:
+            AppSKey: ""
+            FNwkSIntKey: ""
+            NwkSEncKey: ""
+            SNwkSIntKey: ""
+        FPorts:
+          Applications:
+            - DestinationName: ""
+              FPort: 0
+              Type: ""
+        OtaaV10x:
+          AppEui: ""
+          AppKey: ""
+        OtaaV11:
+          AppKey: ""
+          JoinEui: ""
+          NwkKey: ""
+      Tags:
+        - Key: ""
+          Value: ""

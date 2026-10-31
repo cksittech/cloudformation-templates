@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRtbfabricLink:
+    Type: AWS::RTBFabric::Link
+    Properties:
+      GatewayId: ""
+      HttpResponderAllowed: false
+      PeerGatewayId: ""
+      LinkAttributes:
+        CustomerProvidedId: ""
+        ResponderErrorMasking:
+          - Action: ""
+            HttpCode: ""
+            LoggingTypes: []
+            ResponseLoggingPercentage: 0
+      LinkLogSettings:
+        ApplicationLogs:
+          LinkApplicationLogSampling:
+            ErrorLog: 0
+            FilterLog: 0
+      ModuleConfigurationList:
+        - DependsOn: []
+          Name: ""
+          Version: ""
+          ModuleParameters:
+            NoBid:
+              PassThroughPercentage: 0
+              Reason: ""
+              ReasonCode: 0
+            OpenRtbAttribute:
+              FilterType: ""
+              HoldbackPercentage: 0
+              Action:
+                HeaderTag:
+                  Name: ""
+                  Value: ""
+                NoBid:
+                  NoBidReasonCode: 0
+              FilterConfiguration:
+                - Criteria:
+                    - Path: ""
+                      Values: []
+      Tags:
+        - Key: ""
+          Value: ""

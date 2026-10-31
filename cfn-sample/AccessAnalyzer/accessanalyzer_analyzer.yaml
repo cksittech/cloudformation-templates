@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAccessanalyzerAnalyzer:
+    Type: AWS::AccessAnalyzer::Analyzer
+    Properties:
+      AnalyzerName: ""
+      Type: ""
+      AnalyzerConfiguration:
+        InternalAccessConfiguration:
+          InternalAccessAnalysisRule:
+            Inclusions:
+              - AccountIds: []
+                ResourceArns: []
+                ResourceTypes: []
+        UnusedAccessConfiguration:
+          UnusedAccessAge: 0
+          AnalysisRule:
+            Exclusions:
+              - AccountIds: []
+                ResourceTags: []
+      ArchiveRules:
+        - RuleName: ""
+          Filter:
+            - Contains: []
+              Eq: []
+              Exists: false
+              Neq: []
+              Property: ""
+      Tags:
+        - Key: ""
+          Value: ""

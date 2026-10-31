@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Accessgrantsinstance:
+    Type: AWS::S3::AccessGrantsInstance
+    Properties:
+      IdentityCenterArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

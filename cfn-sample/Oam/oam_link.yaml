@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOamLink:
+    Type: AWS::Oam::Link
+    Properties:
+      LabelTemplate: ""
+      ResourceTypes: []
+      SinkIdentifier: ""
+      LinkConfiguration:
+        LogGroupConfiguration:
+          Filter: ""
+        MetricConfiguration:
+          Filter: ""
+      Tags: {}

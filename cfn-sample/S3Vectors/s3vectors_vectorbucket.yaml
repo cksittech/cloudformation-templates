@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3vectorsVectorbucket:
+    Type: AWS::S3Vectors::VectorBucket
+    Properties:
+      VectorBucketName: ""
+      EncryptionConfiguration:
+        KmsKeyArn: ""
+        SseType: "AES256"
+      Tags:
+        - Key: ""
+          Value: ""

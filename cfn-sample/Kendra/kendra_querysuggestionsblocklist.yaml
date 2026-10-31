@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendraQuerysuggestionsblocklist:
+    Type: AWS::Kendra::QuerySuggestionsBlockList
+    Properties:
+      Description: ""
+      IndexId: ""
+      Name: ""
+      RoleArn: ""
+      SourceS3Path:
+        Bucket: ""
+        Key: ""
+      Tags:
+        - Key: ""
+          Value: ""

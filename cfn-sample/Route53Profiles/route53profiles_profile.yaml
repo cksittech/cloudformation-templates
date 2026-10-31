@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53profilesProfile:
+    Type: AWS::Route53Profiles::Profile
+    Properties:
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

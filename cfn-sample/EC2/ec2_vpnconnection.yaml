@@ -1,0 +1,60 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpnconnection:
+    Type: AWS::EC2::VPNConnection
+    Properties:
+      CustomerGatewayId: ""
+      EnableAcceleration: false
+      LocalIpv4NetworkCidr: ""
+      LocalIpv6NetworkCidr: ""
+      OutsideIpAddressType: ""
+      PreSharedKeyStorage: ""
+      RemoteIpv4NetworkCidr: ""
+      RemoteIpv6NetworkCidr: ""
+      StaticRoutesOnly: false
+      TransitGatewayId: ""
+      TransportTransitGatewayAttachmentId: ""
+      TunnelBandwidth: "standard"
+      TunnelInsideIpVersion: ""
+      Type: ""
+      VpnConcentratorId: ""
+      VpnGatewayId: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpnTunnelOptionsSpecifications:
+        - DPDTimeoutAction: ""
+          DPDTimeoutSeconds: 0
+          EnableTunnelLifecycleControl: false
+          Phase1LifetimeSeconds: 0
+          Phase2LifetimeSeconds: 0
+          PreSharedKey: ""
+          RekeyFuzzPercentage: 0
+          RekeyMarginTimeSeconds: 0
+          ReplayWindowSize: 0
+          StartupAction: ""
+          TunnelInsideCidr: ""
+          TunnelInsideIpv6Cidr: ""
+          IKEVersions:
+            - Value: ""
+          LogOptions:
+            CloudwatchLogOptions:
+              BgpLogEnabled: false
+              BgpLogGroupArn: ""
+              BgpLogOutputFormat: ""
+              LogEnabled: false
+              LogGroupArn: ""
+              LogOutputFormat: ""
+          Phase1DHGroupNumbers:
+            - Value: 0
+          Phase1EncryptionAlgorithms:
+            - Value: ""
+          Phase1IntegrityAlgorithms:
+            - Value: ""
+          Phase2DHGroupNumbers:
+            - Value: 0
+          Phase2EncryptionAlgorithms:
+            - Value: ""
+          Phase2IntegrityAlgorithms:
+            - Value: ""

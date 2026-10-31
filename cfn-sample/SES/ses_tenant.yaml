@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesTenant:
+    Type: AWS::SES::Tenant
+    Properties:
+      TenantName: ""
+      ReputationEntity:
+        Policy:
+          ReputationEntityPolicy: ""
+      ResourceAssociations:
+        - ResourceArn: ""
+      SuppressionAttributes:
+        SuppressedReasons: []
+        SuppressionScope: ""
+      Tags:
+        - Key: ""
+          Value: ""

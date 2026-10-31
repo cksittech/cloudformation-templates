@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRefactorspacesApplication:
+    Type: AWS::RefactorSpaces::Application
+    Properties:
+      EnvironmentIdentifier: ""
+      Name: ""
+      ProxyType: ""
+      VpcId: ""
+      ApiGatewayProxy:
+        EndpointType: ""
+        StageName: ""
+      Tags:
+        - Key: ""
+          Value: ""

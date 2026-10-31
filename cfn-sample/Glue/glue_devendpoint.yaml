@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueDevendpoint:
+    Type: AWS::Glue::DevEndpoint
+    Properties:
+      EndpointName: ""
+      ExtraJarsS3Path: ""
+      ExtraPythonLibsS3Path: ""
+      GlueVersion: ""
+      NumberOfNodes: 0
+      NumberOfWorkers: 0
+      PublicKey: ""
+      PublicKeys: []
+      RoleArn: ""
+      SecurityConfiguration: ""
+      SecurityGroupIds: []
+      SubnetId: ""
+      WorkerType: ""
+      Arguments: {}
+      Tags: {}

@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsIntermediatetable:
+    Type: AWS::CleanRooms::IntermediateTable
+    Properties:
+      Description: ""
+      KmsKeyArn: ""
+      MembershipIdentifier: ""
+      Name: ""
+      AnalysisRules:
+        - Type: ""
+          Policy:
+            V1:
+              Custom:
+                AdditionalAnalyses: ""
+                AllowedAnalyses: []
+                AllowedAnalysisProviders: []
+                AllowedResultReceivers: []
+                DisallowedOutputColumns: []
+                AggregationThresholds:
+                  - AllowedAggregateExpressionType: ""
+                    IdentityColumns: []
+                    MinimumIdentityCount: 0
+                    Type: ""
+                    OutputColumnThresholds:
+                      - MinimumIdentityCount: 0
+                        OutputColumnName: ""
+                ComparisonControls:
+                  AllowedColumnComparisonColumns: []
+                  AllowedLiteralComparisonColumns: []
+                DifferentialPrivacy:
+                  Columns:
+                    - Name: ""
+      PopulationAnalysisConfiguration:
+        SqlParameters:
+          AnalysisTemplateArn: ""
+          QueryString: ""
+      Tags:
+        - Key: ""
+          Value: ""

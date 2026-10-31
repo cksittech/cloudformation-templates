@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Apigatewaymanagedoverrides:
+    Type: AWS::ApiGatewayV2::ApiGatewayManagedOverrides
+    Properties:
+      ApiId: ""
+      Integration:
+        Description: ""
+        IntegrationMethod: ""
+        PayloadFormatVersion: ""
+        TimeoutInMillis: 0
+      Route:
+        AuthorizationScopes: []
+        AuthorizationType: ""
+        AuthorizerId: ""
+        OperationName: ""
+        Target: ""
+      Stage:
+        AutoDeploy: false
+        Description: ""
+        AccessLogSettings:
+          DestinationArn: ""
+          Format: ""
+        DefaultRouteSettings:
+          DetailedMetricsEnabled: false
+          ThrottlingBurstLimit: 0
+          ThrottlingRateLimit: 0
+        RouteSettings: {}
+        StageVariables: {}

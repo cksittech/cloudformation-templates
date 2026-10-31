@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockIntelligentpromptrouter:
+    Type: AWS::Bedrock::IntelligentPromptRouter
+    Properties:
+      Description: ""
+      PromptRouterName: ""
+      FallbackModel:
+        ModelArn: ""
+      Models:
+        - ModelArn: ""
+      RoutingCriteria:
+        ResponseQualityDifference: 0
+      Tags:
+        - Key: ""
+          Value: ""

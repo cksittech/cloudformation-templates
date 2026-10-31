@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubv2Service:
+    Type: AWS::ResilienceHubV2::Service
+    Properties:
+      DependencyDiscovery: ""
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      PolicyArn: ""
+      Regions: []
+      Assertions:
+        - Text: ""
+      AssociatedSystems:
+        - SystemArn: ""
+          UserJourneyIds: []
+      DevOpsAgentConfiguration:
+        AgentSpaceArn: ""
+      InputSources:
+        - ResourceConfiguration:
+            CfnStackArn: ""
+            DesignFileS3Url: ""
+            TfStateFileUrl: ""
+            Eks:
+              ClusterArn: ""
+              Namespaces: []
+              LabelSelector:
+                MatchExpressions:
+                  - Key: ""
+                    Operator: ""
+                    Values: []
+                MatchLabels: {}
+            ResourceTags:
+              - Key: ""
+                Values: []
+      PermissionModel:
+        InvokerRoleName: ""
+        CrossAccountRoleArns:
+          - CrossAccountRoleArn: ""
+            ExternalId: ""
+      ReportConfiguration:
+        ReportOutput:
+          - S3:
+              BucketOwner: ""
+              BucketPath: ""
+      Tags:
+        - Key: ""
+          Value: ""

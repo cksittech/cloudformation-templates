@@ -1,0 +1,90 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsDataprovider:
+    Type: AWS::DMS::DataProvider
+    Properties:
+      DataProviderName: ""
+      Description: ""
+      Engine: ""
+      ExactSettings: false
+      Virtual: false
+      Settings:
+        DocDbSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        IbmDb2LuwSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          EncryptionAlgorithm: 0
+          Port: 0
+          SecurityMechanism: 0
+          ServerName: ""
+          SslMode: ""
+        IbmDb2zOsSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        MariaDbSettings:
+          CertificateArn: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        MicrosoftSqlServerSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          S3AccessRoleArn: ""
+          S3Path: ""
+          ServerName: ""
+          SslMode: ""
+        MongoDbSettings:
+          AuthMechanism: ""
+          AuthSource: ""
+          AuthType: ""
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        MySqlSettings:
+          CertificateArn: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        OracleSettings:
+          AsmServer: ""
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          SecretsManagerOracleAsmAccessRoleArn: ""
+          SecretsManagerOracleAsmSecretId: ""
+          SecretsManagerSecurityDbEncryptionAccessRoleArn: ""
+          SecretsManagerSecurityDbEncryptionSecretId: ""
+          ServerName: ""
+          SslMode: ""
+        PostgreSqlSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+        RedshiftSettings:
+          DatabaseName: ""
+          Port: 0
+          ServerName: ""
+        SybaseAseSettings:
+          CertificateArn: ""
+          DatabaseName: ""
+          EncryptPassword: false
+          Port: 0
+          ServerName: ""
+          SslMode: ""
+      Tags:
+        - Key: ""
+          Value: ""

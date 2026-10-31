@@ -1,0 +1,140 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodebuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      AutoRetryLimit: 0
+      BadgeEnabled: false
+      ConcurrentBuildLimit: 0
+      Description: ""
+      EncryptionKey: ""
+      Name: ""
+      QueuedTimeoutInMinutes: 0
+      ResourceAccessRole: ""
+      ServiceRole: ""
+      SourceVersion: ""
+      TimeoutInMinutes: 0
+      Visibility: ""
+      Artifacts:
+        ArtifactIdentifier: ""
+        EncryptionDisabled: false
+        Location: ""
+        Name: ""
+        NamespaceType: ""
+        OverrideArtifactName: false
+        Packaging: ""
+        Path: ""
+        Type: ""
+      BuildBatchConfig:
+        BatchReportMode: ""
+        CombineArtifacts: false
+        ServiceRole: ""
+        TimeoutInMins: 0
+        Restrictions:
+          ComputeTypesAllowed: []
+          FleetsAllowed: []
+          MaximumBuildsAllowed: 0
+      Cache:
+        CacheNamespace: ""
+        Location: ""
+        Modes: []
+        Type: ""
+      Environment:
+        Certificate: ""
+        ComputeType: ""
+        HostKernel: ""
+        Image: ""
+        ImagePullCredentialsType: ""
+        PrivilegedMode: false
+        Type: ""
+        DockerServer:
+          ComputeType: ""
+          SecurityGroupIds: []
+        EnvironmentVariables:
+          - Name: ""
+            Type: ""
+            Value: ""
+        Fleet:
+          FleetArn: ""
+        RegistryCredential:
+          Credential: ""
+          CredentialProvider: ""
+      FileSystemLocations:
+        - Identifier: ""
+          Location: ""
+          MountOptions: ""
+          MountPoint: ""
+          Type: ""
+      LogsConfig:
+        CloudWatchLogs:
+          GroupName: ""
+          Status: ""
+          StreamName: ""
+        S3Logs:
+          EncryptionDisabled: false
+          Location: ""
+          Status: ""
+      SecondaryArtifacts:
+        - ArtifactIdentifier: ""
+          EncryptionDisabled: false
+          Location: ""
+          Name: ""
+          NamespaceType: ""
+          OverrideArtifactName: false
+          Packaging: ""
+          Path: ""
+          Type: ""
+      SecondarySourceVersions:
+        - SourceIdentifier: ""
+          SourceVersion: ""
+      SecondarySources:
+        - BuildSpec: ""
+          GitCloneDepth: 0
+          InsecureSsl: false
+          Location: ""
+          ReportBuildStatus: false
+          SourceIdentifier: ""
+          Type: ""
+          Auth:
+            Resource: ""
+            Type: ""
+          BuildStatusConfig:
+            Context: ""
+            TargetUrl: ""
+          GitSubmodulesConfig:
+            FetchSubmodules: false
+      Source:
+        BuildSpec: ""
+        GitCloneDepth: 0
+        InsecureSsl: false
+        Location: ""
+        ReportBuildStatus: false
+        SourceIdentifier: ""
+        Type: ""
+        Auth:
+          Resource: ""
+          Type: ""
+        BuildStatusConfig:
+          Context: ""
+          TargetUrl: ""
+        GitSubmodulesConfig:
+          FetchSubmodules: false
+      Tags:
+        - Key: ""
+          Value: ""
+      Triggers:
+        BuildType: ""
+        FilterGroups: []
+        Webhook: false
+        PullRequestBuildPolicy:
+          ApproverRoles: []
+          RequiresCommentApproval: ""
+        ScopeConfiguration:
+          Domain: ""
+          Name: ""
+          Scope: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []
+        VpcId: ""

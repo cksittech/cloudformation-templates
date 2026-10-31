@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3tablesTable:
+    Type: AWS::S3Tables::Table
+    Properties:
+      Namespace: ""
+      OpenTableFormat: ""
+      TableBucketARN: ""
+      TableName: ""
+      WithoutMetadata: ""
+      Compaction:
+        Status: ""
+        TargetFileSizeMB: 0
+      IcebergMetadata:
+        IcebergPartitionSpec:
+          SpecId: 0
+          Fields:
+            - FieldId: 0
+              Name: ""
+              SourceId: 0
+              Transform: ""
+        IcebergSchema:
+          SchemaFieldList:
+            - Id: 0
+              Name: ""
+              Required: false
+              Type: ""
+        IcebergSchemaV2:
+          IdentifierFieldIds: []
+          SchemaId: 0
+          SchemaV2FieldType: ""
+          SchemaV2FieldList:
+            - Doc: ""
+              Id: 0
+              Name: ""
+              Required: false
+              Type: ""
+        IcebergSortOrder:
+          OrderId: 0
+          Fields:
+            - Direction: ""
+              NullOrder: ""
+              SourceId: 0
+              Transform: ""
+        TableProperties: {}
+      SnapshotManagement:
+        MaxSnapshotAgeHours: 0
+        MinSnapshotsToKeep: 0
+        Status: ""
+      StorageClassConfiguration:
+        StorageClass: ""
+      Tags:
+        - Key: ""
+          Value: ""

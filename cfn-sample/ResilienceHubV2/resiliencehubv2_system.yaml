@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubv2System:
+    Type: AWS::ResilienceHubV2::System
+    Properties:
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      SharingEnabled: false
+      Tags:
+        - Key: ""
+          Value: ""

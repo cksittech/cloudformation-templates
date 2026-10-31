@@ -1,0 +1,176 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightTopic:
+    Type: AWS::QuickSight::Topic
+    Properties:
+      AwsAccountId: ""
+      Description: ""
+      FolderArns: []
+      Name: ""
+      TopicId: ""
+      UserExperienceVersion: ""
+      ConfigOptions:
+        QBusinessInsightsEnabled: false
+      CustomInstructions:
+        CustomInstructionsString: ""
+      DataSets:
+        - DatasetArn: ""
+          DatasetDescription: ""
+          DatasetName: ""
+          CalculatedFields:
+            - Aggregation: ""
+              AllowedAggregations: []
+              CalculatedFieldDescription: ""
+              CalculatedFieldName: ""
+              CalculatedFieldSynonyms: []
+              ColumnDataRole: ""
+              DisableIndexing: false
+              Expression: ""
+              IsIncludedInTopic: false
+              NeverAggregateInFilter: false
+              NonAdditive: false
+              NotAllowedAggregations: []
+              TimeGranularity: ""
+              CellValueSynonyms:
+                - CellValue: ""
+                  Synonyms: []
+              ComparativeOrder:
+                SpecifedOrder: []
+                TreatUndefinedSpecifiedValues: ""
+                UseOrdering: ""
+              DefaultFormatting:
+                DisplayFormat: ""
+                DisplayFormatOptions:
+                  BlankCellFormat: ""
+                  CurrencySymbol: ""
+                  DateFormat: ""
+                  DecimalSeparator: ""
+                  FractionDigits: 0
+                  GroupingSeparator: ""
+                  Prefix: ""
+                  Suffix: ""
+                  UnitScaler: ""
+                  UseBlankCellFormat: false
+                  UseGrouping: false
+                  NegativeFormat:
+                    Prefix: ""
+                    Suffix: ""
+              SemanticType:
+                FalseyCellValue: ""
+                FalseyCellValueSynonyms: []
+                SubTypeName: ""
+                TruthyCellValue: ""
+                TruthyCellValueSynonyms: []
+                TypeName: ""
+                TypeParameters: {}
+          Columns:
+            - Aggregation: ""
+              AllowedAggregations: []
+              ColumnDataRole: ""
+              ColumnDescription: ""
+              ColumnFriendlyName: ""
+              ColumnName: ""
+              ColumnSynonyms: []
+              DisableIndexing: false
+              IsIncludedInTopic: false
+              NeverAggregateInFilter: false
+              NonAdditive: false
+              NotAllowedAggregations: []
+              TimeGranularity: ""
+              CellValueSynonyms:
+                - CellValue: ""
+                  Synonyms: []
+              ComparativeOrder:
+                SpecifedOrder: []
+                TreatUndefinedSpecifiedValues: ""
+                UseOrdering: ""
+              DefaultFormatting:
+                DisplayFormat: ""
+                DisplayFormatOptions:
+                  BlankCellFormat: ""
+                  CurrencySymbol: ""
+                  DateFormat: ""
+                  DecimalSeparator: ""
+                  FractionDigits: 0
+                  GroupingSeparator: ""
+                  Prefix: ""
+                  Suffix: ""
+                  UnitScaler: ""
+                  UseBlankCellFormat: false
+                  UseGrouping: false
+                  NegativeFormat:
+                    Prefix: ""
+                    Suffix: ""
+              SemanticType:
+                FalseyCellValue: ""
+                FalseyCellValueSynonyms: []
+                SubTypeName: ""
+                TruthyCellValue: ""
+                TruthyCellValueSynonyms: []
+                TypeName: ""
+                TypeParameters: {}
+          DataAggregation:
+            DatasetRowDateGranularity: ""
+            DefaultDateColumnName: ""
+          Filters:
+            - FilterClass: ""
+              FilterDescription: ""
+              FilterName: ""
+              FilterSynonyms: []
+              FilterType: ""
+              OperandFieldName: ""
+              CategoryFilter:
+                CategoryFilterFunction: ""
+                CategoryFilterType: ""
+                Inverse: false
+                Constant:
+                  ConstantType: ""
+                  SingularConstant: ""
+                  CollectiveConstant:
+                    ValueList: []
+              DateRangeFilter:
+                Inclusive: false
+                Constant:
+                  ConstantType: ""
+                  RangeConstant:
+                    Maximum: ""
+                    Minimum: ""
+              NumericEqualityFilter:
+                Aggregation: ""
+                Constant:
+                  ConstantType: ""
+                  SingularConstant: ""
+              NumericRangeFilter:
+                Aggregation: ""
+                Inclusive: false
+                Constant:
+                  ConstantType: ""
+                  RangeConstant:
+                    Maximum: ""
+                    Minimum: ""
+              RelativeDateFilter:
+                RelativeDateFilterFunction: ""
+                TimeGranularity: ""
+                Constant:
+                  ConstantType: ""
+                  SingularConstant: ""
+          NamedEntities:
+            - EntityDescription: ""
+              EntityName: ""
+              EntitySynonyms: []
+              Definition:
+                - FieldName: ""
+                  PropertyName: ""
+                  PropertyRole: ""
+                  PropertyUsage: ""
+                  Metric:
+                    Aggregation: ""
+                    AggregationFunctionParameters: {}
+              SemanticEntityType:
+                SubTypeName: ""
+                TypeName: ""
+                TypeParameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

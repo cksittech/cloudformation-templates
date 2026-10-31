@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppintegrationsEventintegration:
+    Type: AWS::AppIntegrations::EventIntegration
+    Properties:
+      Description: ""
+      EventBridgeBus: ""
+      Name: ""
+      EventFilter:
+        Source: ""
+      Tags:
+        - Key: ""
+          Value: ""

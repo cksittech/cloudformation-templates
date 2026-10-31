@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallRulegroup:
+    Type: AWS::NetworkFirewall::RuleGroup
+    Properties:
+      Capacity: 0
+      Description: ""
+      RuleGroupName: ""
+      Type: ""
+      RuleGroup:
+        ReferenceSets:
+          IPSetReferences: {}
+        RuleVariables:
+          IPSets: {}
+          PortSets: {}
+        RulesSource:
+          RulesString: ""
+          RulesSourceList:
+            GeneratedRulesType: ""
+            TargetTypes: []
+            Targets: []
+          StatefulRules:
+            - Action: ""
+              Header:
+                Destination: ""
+                DestinationPort: ""
+                Direction: ""
+                Protocol: ""
+                Source: ""
+                SourcePort: ""
+              RuleOptions:
+                - Keyword: ""
+                  Settings: []
+          StatelessRulesAndCustomActions:
+            CustomActions:
+              - ActionName: ""
+                ActionDefinition:
+                  PublishMetricAction:
+                    Dimensions:
+                      - Value: ""
+            StatelessRules:
+              - Priority: 0
+                RuleDefinition:
+                  Actions: []
+                  MatchAttributes:
+                    Protocols: []
+                    DestinationPorts:
+                      - FromPort: 0
+                        ToPort: 0
+                    Destinations:
+                      - AddressDefinition: ""
+                    SourcePorts:
+                      - FromPort: 0
+                        ToPort: 0
+                    Sources:
+                      - AddressDefinition: ""
+                    TCPFlags:
+                      - Flags: []
+                        Masks: []
+        StatefulRuleOptions:
+          RuleOrder: ""
+      SummaryConfiguration:
+        RuleOptions: []
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayRequestvalidator:
+    Type: AWS::ApiGateway::RequestValidator
+    Properties:
+      Name: ""
+      RestApiId: ""
+      ValidateRequestBody: false
+      ValidateRequestParameters: false

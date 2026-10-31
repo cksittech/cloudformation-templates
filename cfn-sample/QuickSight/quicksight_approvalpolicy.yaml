@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightApprovalpolicy:
+    Type: AWS::QuickSight::ApprovalPolicy
+    Properties:
+      Actions: []
+      ApprovalGroups: []
+      AssetTypes: []
+      Description: ""
+      Name: ""
+      PolicyId: ""
+      ApplicableTo:
+        GroupArns: []
+        Type: ""

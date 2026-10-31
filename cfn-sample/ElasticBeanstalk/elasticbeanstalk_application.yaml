@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticbeanstalkApplication:
+    Type: AWS::ElasticBeanstalk::Application
+    Properties:
+      ApplicationName: ""
+      Description: ""
+      ResourceLifecycleConfig:
+        ServiceRole: ""
+        VersionLifecycleConfig:
+          MaxAgeRule:
+            DeleteSourceFromS3: false
+            Enabled: false
+            MaxAgeInDays: 0
+          MaxCountRule:
+            DeleteSourceFromS3: false
+            Enabled: false
+            MaxCount: 0

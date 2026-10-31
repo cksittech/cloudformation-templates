@@ -1,0 +1,63 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerModel:
+    Type: AWS::SageMaker::Model
+    Properties:
+      EnableNetworkIsolation: false
+      ExecutionRoleArn: ""
+      ModelName: ""
+      Containers:
+        - ContainerHostname: ""
+          Image: ""
+          InferenceSpecificationName: ""
+          Mode: ""
+          ModelDataUrl: ""
+          ModelPackageName: ""
+          Environment: {}
+          ImageConfig:
+            RepositoryAccessMode: ""
+            RepositoryAuthConfig:
+              RepositoryCredentialsProviderArn: ""
+          ModelDataSource:
+            S3DataSource:
+              CompressionType: ""
+              S3DataType: ""
+              S3Uri: ""
+              HubAccessConfig:
+                HubContentArn: ""
+              ModelAccessConfig:
+                AcceptEula: false
+          MultiModelConfig:
+            ModelCacheSetting: ""
+      InferenceExecutionConfig:
+        Mode: ""
+      PrimaryContainer:
+        ContainerHostname: ""
+        Image: ""
+        InferenceSpecificationName: ""
+        Mode: ""
+        ModelDataUrl: ""
+        ModelPackageName: ""
+        Environment: {}
+        ImageConfig:
+          RepositoryAccessMode: ""
+          RepositoryAuthConfig:
+            RepositoryCredentialsProviderArn: ""
+        ModelDataSource:
+          S3DataSource:
+            CompressionType: ""
+            S3DataType: ""
+            S3Uri: ""
+            HubAccessConfig:
+              HubContentArn: ""
+            ModelAccessConfig:
+              AcceptEula: false
+        MultiModelConfig:
+          ModelCacheSetting: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueWorkflow:
+    Type: AWS::Glue::Workflow
+    Properties:
+      Description: ""
+      MaxConcurrentRuns: 0
+      Name: ""
+      DefaultRunProperties: {}
+      Tags: {}

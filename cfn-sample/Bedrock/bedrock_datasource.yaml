@@ -1,0 +1,132 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockDatasource:
+    Type: AWS::Bedrock::DataSource
+    Properties:
+      DataDeletionPolicy: ""
+      Description: ""
+      KnowledgeBaseId: ""
+      Name: ""
+      DataSourceConfiguration:
+        Type: ""
+        ConfluenceConfiguration:
+          CrawlerConfiguration:
+            FilterConfiguration:
+              Type: ""
+              PatternObjectFilter:
+                Filters:
+                  - ExclusionFilters: []
+                    InclusionFilters: []
+                    ObjectType: ""
+          SourceConfiguration:
+            AuthType: ""
+            CredentialsSecretArn: ""
+            HostType: ""
+            HostUrl: ""
+        ManagedKnowledgeBaseConnectorConfiguration:
+          ConnectorParameters: {}
+          DeletionProtectionConfiguration:
+            DeletionProtectionStatus: ""
+            DeletionProtectionThreshold: 15
+          MediaExtractionConfiguration:
+            AudioExtractionConfiguration:
+              AudioExtractionStatus: ""
+            ImageExtractionConfiguration:
+              ImageExtractionStatus: ""
+            VideoExtractionConfiguration:
+              VideoExtractionStatus: ""
+          SyncSchedule:
+            Daily: {}
+            Monthly:
+              DayOfMonth:
+                DayNumber: 0
+                LastDayOfMonth: {}
+            Weekly:
+              DayOfWeek: ""
+        S3Configuration:
+          BucketArn: ""
+          BucketOwnerAccountId: ""
+          InclusionPrefixes: []
+        SalesforceConfiguration:
+          CrawlerConfiguration:
+            FilterConfiguration:
+              Type: ""
+              PatternObjectFilter:
+                Filters:
+                  - ExclusionFilters: []
+                    InclusionFilters: []
+                    ObjectType: ""
+          SourceConfiguration:
+            AuthType: ""
+            CredentialsSecretArn: ""
+            HostUrl: ""
+        SharePointConfiguration:
+          CrawlerConfiguration:
+            FilterConfiguration:
+              Type: ""
+              PatternObjectFilter:
+                Filters:
+                  - ExclusionFilters: []
+                    InclusionFilters: []
+                    ObjectType: ""
+          SourceConfiguration:
+            AuthType: ""
+            CredentialsSecretArn: ""
+            Domain: ""
+            HostType: ""
+            SiteUrls: []
+            TenantId: ""
+        WebConfiguration:
+          CrawlerConfiguration:
+            ExclusionFilters: []
+            InclusionFilters: []
+            Scope: ""
+            UserAgent: ""
+            CrawlerLimits:
+              MaxPages: 0
+              RateLimit: 0
+          SourceConfiguration:
+            UrlConfiguration:
+              SeedUrls:
+                - Url: ""
+      ServerSideEncryptionConfiguration:
+        KmsKeyArn: ""
+      VectorIngestionConfiguration:
+        ChunkingConfiguration:
+          ChunkingStrategy: ""
+          FixedSizeChunkingConfiguration:
+            MaxTokens: 0
+            OverlapPercentage: 0
+          HierarchicalChunkingConfiguration:
+            OverlapTokens: 0
+            LevelConfigurations:
+              - MaxTokens: 0
+          SemanticChunkingConfiguration:
+            BreakpointPercentileThreshold: 0
+            BufferSize: 0
+            MaxTokens: 0
+        ContextEnrichmentConfiguration:
+          Type: ""
+          BedrockFoundationModelConfiguration:
+            ModelArn: ""
+            EnrichmentStrategyConfiguration:
+              Method: ""
+        CustomTransformationConfiguration:
+          IntermediateStorage:
+            S3Location:
+              URI: ""
+          Transformations:
+            - StepToApply: ""
+              TransformationFunction:
+                TransformationLambdaConfiguration:
+                  LambdaArn: ""
+        ParsingConfiguration:
+          ParsingStrategy: ""
+          BedrockDataAutomationConfiguration:
+            ParsingModality: ""
+          BedrockFoundationModelConfiguration:
+            ModelArn: ""
+            ParsingModality: ""
+            ParsingPrompt:
+              ParsingPromptText: ""

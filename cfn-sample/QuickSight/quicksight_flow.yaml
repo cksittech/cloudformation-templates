@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightFlow:
+    Type: AWS::QuickSight::Flow
+    Properties:
+      AwsAccountId: ""
+      Description: ""
+      Name: ""
+      FlowDefinition: {}
+      Permissions:
+        - Actions: []
+          Principal: ""

@@ -1,0 +1,68 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftFleet:
+    Type: AWS::GameLift::Fleet
+    Properties:
+      ApplyCapacity: ""
+      BuildId: ""
+      ComputeType: ""
+      Description: ""
+      EC2InstanceType: ""
+      FleetType: ""
+      InstanceRoleARN: ""
+      InstanceRoleCredentialsProvider: ""
+      MetricGroups: []
+      Name: ""
+      NewGameSessionProtectionPolicy: ""
+      PeerVpcAwsAccountId: ""
+      PeerVpcId: ""
+      PlayerGatewayMode: ""
+      ScriptId: ""
+      AnywhereConfiguration:
+        Cost: ""
+      CertificateConfiguration:
+        CertificateType: ""
+      EC2InboundPermissions:
+        - FromPort: 0
+          IpRange: ""
+          Protocol: ""
+          ToPort: 0
+      Locations:
+        - Location: ""
+          LocationCapacity:
+            DesiredEC2Instances: 0
+            MaxSize: 0
+            MinSize: 0
+            ManagedCapacityConfiguration:
+              ScaleInAfterInactivityMinutes: 0
+              ZeroCapacityStrategy: ""
+      PlayerGatewayConfiguration:
+        GameServerIpProtocolSupported: ""
+      ResourceCreationLimitPolicy:
+        NewGameSessionsPerCreator: 0
+        PolicyPeriodInMinutes: 0
+      RuntimeConfiguration:
+        GameSessionActivationTimeoutSeconds: 0
+        MaxConcurrentGameSessionActivations: 0
+        ServerProcesses:
+          - ConcurrentExecutions: 0
+            LaunchPath: ""
+            Parameters: ""
+      ScalingPolicies:
+        - ComparisonOperator: ""
+          EvaluationPeriods: 0
+          Location: ""
+          MetricName: ""
+          Name: ""
+          PolicyType: ""
+          ScalingAdjustment: 0
+          ScalingAdjustmentType: ""
+          Status: ""
+          Threshold: 0
+          UpdateStatus: ""
+          TargetConfiguration:
+            TargetValue: 0
+      Tags:
+        - Key: ""
+          Value: ""

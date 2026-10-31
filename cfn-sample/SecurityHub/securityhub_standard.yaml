@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubStandard:
+    Type: AWS::SecurityHub::Standard
+    Properties:
+      StandardsArn: ""
+      DisabledStandardsControls:
+        - Reason: ""
+          StandardsControlArn: ""

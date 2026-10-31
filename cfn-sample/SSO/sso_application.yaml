@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoApplication:
+    Type: AWS::SSO::Application
+    Properties:
+      ApplicationProviderArn: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Status: ""
+      PortalOptions:
+        Visibility: ""
+        SignInOptions:
+          ApplicationUrl: ""
+          Origin: ""
+      Tags:
+        - Key: ""
+          Value: ""

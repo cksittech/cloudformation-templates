@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorLivesource:
+    Type: AWS::MediaTailor::LiveSource
+    Properties:
+      LiveSourceName: ""
+      SourceLocationName: ""
+      HttpPackageConfigurations:
+        - Path: ""
+          SourceGroup: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

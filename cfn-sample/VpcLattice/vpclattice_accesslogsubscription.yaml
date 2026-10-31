@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeAccesslogsubscription:
+    Type: AWS::VpcLattice::AccessLogSubscription
+    Properties:
+      DestinationArn: ""
+      ResourceIdentifier: ""
+      ServiceNetworkLogType: ""
+      Tags:
+        - Key: ""
+          Value: ""

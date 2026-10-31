@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleControltowerEnabledbaseline:
+    Type: AWS::ControlTower::EnabledBaseline
+    Properties:
+      BaselineIdentifier: ""
+      BaselineVersion: ""
+      TargetIdentifier: ""
+      Parameters:
+        - Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

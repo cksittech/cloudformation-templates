@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectContactflowmodule:
+    Type: AWS::Connect::ContactFlowModule
+    Properties:
+      Content: ""
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Settings: ""
+      State: ""
+      ExternalInvocationConfiguration:
+        Enabled: false
+      Tags:
+        - Key: ""
+          Value: ""

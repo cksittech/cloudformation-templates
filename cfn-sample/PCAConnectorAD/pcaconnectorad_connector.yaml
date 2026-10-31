@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcaconnectoradConnector:
+    Type: AWS::PCAConnectorAD::Connector
+    Properties:
+      CertificateAuthorityArn: ""
+      DirectoryId: ""
+      Tags: {}
+      VpcInformation:
+        IpAddressType: ""
+        SecurityGroupIds: []

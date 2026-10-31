@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEfsMounttarget:
+    Type: AWS::EFS::MountTarget
+    Properties:
+      FileSystemId: ""
+      IpAddress: ""
+      IpAddressType: ""
+      Ipv6Address: ""
+      SecurityGroups: []
+      SubnetId: ""

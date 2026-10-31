@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassSubscriptiondefinitionversion:
+    Type: AWS::Greengrass::SubscriptionDefinitionVersion
+    Properties:
+      SubscriptionDefinitionId: ""
+      Subscriptions:
+        - Id: ""
+          Source: ""
+          Subject: ""
+          Target: ""

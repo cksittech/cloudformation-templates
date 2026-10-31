@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcorePolicy:
+    Type: AWS::BedrockAgentCore::Policy
+    Properties:
+      Description: ""
+      EnforcementMode: "ACTIVE"
+      Name: ""
+      PolicyEngineId: ""
+      ValidationMode: ""
+      Definition:
+        Cedar:
+          Statement: ""
+        Policy:
+          Statement: ""

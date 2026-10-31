@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Route:
+    Type: AWS::EC2::Route
+    Properties:
+      CarrierGatewayId: ""
+      CoreNetworkArn: ""
+      DestinationCidrBlock: ""
+      DestinationIpv6CidrBlock: ""
+      DestinationPrefixListId: ""
+      EgressOnlyInternetGatewayId: ""
+      GatewayId: ""
+      InstanceId: ""
+      LocalGatewayId: ""
+      NatGatewayId: ""
+      NetworkInterfaceId: ""
+      OdbNetworkArn: ""
+      RouteTableId: ""
+      TransitGatewayId: ""
+      VpcEndpointId: ""
+      VpcPeeringConnectionId: ""

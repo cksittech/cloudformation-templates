@@ -1,0 +1,80 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockGuardrail:
+    Type: AWS::Bedrock::Guardrail
+    Properties:
+      BlockedInputMessaging: ""
+      BlockedOutputsMessaging: ""
+      Description: ""
+      KmsKeyArn: ""
+      Name: ""
+      AutomatedReasoningPolicyConfig:
+        ConfidenceThreshold: 0
+        Policies: []
+      ContentPolicyConfig:
+        ContentFiltersTierConfig:
+          TierName: ""
+        FiltersConfig:
+          - InputAction: ""
+            InputEnabled: false
+            InputModalities: []
+            InputStrength: ""
+            OutputAction: ""
+            OutputEnabled: false
+            OutputModalities: []
+            OutputStrength: ""
+            Type: ""
+      ContextualGroundingPolicyConfig:
+        FiltersConfig:
+          - Action: ""
+            Enabled: false
+            Threshold: 0
+            Type: ""
+      CrossRegionConfig:
+        GuardrailProfileArn: ""
+      SensitiveInformationPolicyConfig:
+        PiiEntitiesConfig:
+          - Action: ""
+            InputAction: ""
+            InputEnabled: false
+            OutputAction: ""
+            OutputEnabled: false
+            Type: ""
+        RegexesConfig:
+          - Action: ""
+            Description: ""
+            InputAction: ""
+            InputEnabled: false
+            Name: ""
+            OutputAction: ""
+            OutputEnabled: false
+            Pattern: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TopicPolicyConfig:
+        TopicsConfig:
+          - Definition: ""
+            Examples: []
+            InputAction: ""
+            InputEnabled: false
+            Name: ""
+            OutputAction: ""
+            OutputEnabled: false
+            Type: ""
+        TopicsTierConfig:
+          TierName: ""
+      WordPolicyConfig:
+        ManagedWordListsConfig:
+          - InputAction: ""
+            InputEnabled: false
+            OutputAction: ""
+            OutputEnabled: false
+            Type: ""
+        WordsConfig:
+          - InputAction: ""
+            InputEnabled: false
+            OutputAction: ""
+            OutputEnabled: false
+            Text: ""

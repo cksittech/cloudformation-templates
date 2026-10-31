@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsApidestination:
+    Type: AWS::Events::ApiDestination
+    Properties:
+      ConnectionArn: ""
+      Description: ""
+      HttpMethod: ""
+      InvocationEndpoint: ""
+      InvocationRateLimitPerSecond: 0
+      Name: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcsQueue:
+    Type: AWS::PCS::Queue
+    Properties:
+      ClusterId: ""
+      Name: ""
+      ComputeNodeGroupConfigurations:
+        - ComputeNodeGroupId: ""
+      SlurmConfiguration:
+        SlurmCustomSettings:
+          - ParameterName: ""
+            ParameterValue: ""
+      Tags: {}

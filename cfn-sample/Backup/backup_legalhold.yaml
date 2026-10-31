@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupLegalhold:
+    Type: AWS::Backup::LegalHold
+    Properties:
+      Description: ""
+      Title: ""
+      RecoveryPointSelection:
+        ResourceIdentifiers: []
+        VaultNames: []
+        DateRange:
+          FromDate: ""
+          ToDate: ""
+      Tags:
+        - Key: ""
+          Value: ""

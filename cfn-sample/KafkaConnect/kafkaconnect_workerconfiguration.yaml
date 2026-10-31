@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKafkaconnectWorkerconfiguration:
+    Type: AWS::KafkaConnect::WorkerConfiguration
+    Properties:
+      Description: ""
+      Name: ""
+      PropertiesFileContent: ""
+      Tags:
+        - Key: ""
+          Value: ""

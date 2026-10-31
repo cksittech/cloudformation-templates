@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRekognitionDataset:
+    Type: AWS::Rekognition::Dataset
+    Properties:
+      DatasetType: ""
+      ProjectArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

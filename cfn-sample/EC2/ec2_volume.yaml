@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Volume:
+    Type: AWS::EC2::Volume
+    Properties:
+      AutoEnableIO: false
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      Encrypted: false
+      Iops: 0
+      KmsKeyId: ""
+      MultiAttachEnabled: false
+      OutpostArn: ""
+      Size: 0
+      SnapshotId: ""
+      SourceVolumeId: ""
+      Throughput: 0
+      VolumeInitializationRate: 0
+      VolumeType: ""
+      Tags:
+        - Key: ""
+          Value: ""

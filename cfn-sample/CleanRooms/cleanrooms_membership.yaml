@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsMembership:
+    Type: AWS::CleanRooms::Membership
+    Properties:
+      CollaborationIdentifier: ""
+      IsMetricsEnabled: false
+      JobLogStatus: ""
+      QueryLogStatus: ""
+      DefaultJobResultConfiguration:
+        RoleArn: ""
+        OutputConfiguration:
+          S3:
+            Bucket: ""
+            KeyPrefix: ""
+      DefaultResultConfiguration:
+        RoleArn: ""
+        OutputConfiguration:
+          S3:
+            Bucket: ""
+            KeyPrefix: ""
+            ResultFormat: ""
+            SingleFileOutput: false
+      PaymentConfiguration:
+        JobCompute:
+          IsResponsible: false
+        MachineLearning:
+          ModelInference:
+            IsResponsible: false
+          ModelTraining:
+            IsResponsible: false
+          SyntheticDataGeneration:
+            IsResponsible: false
+        QueryCompute:
+          IsResponsible: false
+      Tags:
+        - Key: ""
+          Value: ""

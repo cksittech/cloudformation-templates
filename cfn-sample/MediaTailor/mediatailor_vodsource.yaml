@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorVodsource:
+    Type: AWS::MediaTailor::VodSource
+    Properties:
+      SourceLocationName: ""
+      VodSourceName: ""
+      HttpPackageConfigurations:
+        - Path: ""
+          SourceGroup: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

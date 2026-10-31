@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOmicsRungroup:
+    Type: AWS::Omics::RunGroup
+    Properties:
+      MaxCpus: 0
+      MaxDuration: 0
+      MaxGpus: 0
+      MaxRuns: 0
+      Name: ""
+      Tags: {}

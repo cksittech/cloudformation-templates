@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueCustomentitytype:
+    Type: AWS::Glue::CustomEntityType
+    Properties:
+      ContextWords: []
+      Name: ""
+      RegexString: ""
+      Tags: {}

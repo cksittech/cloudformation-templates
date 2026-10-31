@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesWorkspace:
+    Type: AWS::WorkSpaces::Workspace
+    Properties:
+      BundleId: ""
+      DirectoryId: ""
+      RootVolumeEncryptionEnabled: false
+      UserName: ""
+      UserVolumeEncryptionEnabled: false
+      VolumeEncryptionKey: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkspaceProperties:
+        ComputeTypeName: ""
+        RootVolumeSizeGib: 0
+        RunningMode: ""
+        RunningModeAutoStopTimeoutInMinutes: 0
+        UserVolumeSizeGib: 0

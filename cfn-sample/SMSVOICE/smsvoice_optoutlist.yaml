@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceOptoutlist:
+    Type: AWS::SMSVOICE::OptOutList
+    Properties:
+      OptOutListName: ""
+      Tags:
+        - Key: ""
+          Value: ""

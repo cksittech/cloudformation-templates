@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationDatalakesettings:
+    Type: AWS::LakeFormation::DataLakeSettings
+    Properties:
+      AllowExternalDataFiltering: false
+      AllowFullTableExternalDataAccess: false
+      AuthorizedSessionTagValueList: []
+      MutationType: ""
+      TrustedResourceOwners: []
+      Admins:
+        - DataLakePrincipalIdentifier: ""
+      CreateDatabaseDefaultPermissions:
+        - Permissions: []
+          Principal:
+            DataLakePrincipalIdentifier: ""
+      CreateTableDefaultPermissions:
+        - Permissions: []
+          Principal:
+            DataLakePrincipalIdentifier: ""
+      ExternalDataFilteringAllowList:
+        - DataLakePrincipalIdentifier: ""
+      Parameters: {}
+      ReadOnlyAdmins:
+        - DataLakePrincipalIdentifier: ""

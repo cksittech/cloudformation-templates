@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleComprehendDocumentclassifier:
+    Type: AWS::Comprehend::DocumentClassifier
+    Properties:
+      DataAccessRoleArn: ""
+      DocumentClassifierName: ""
+      LanguageCode: ""
+      Mode: ""
+      ModelKmsKeyId: ""
+      ModelPolicy: ""
+      VersionName: ""
+      VolumeKmsKeyId: ""
+      InputDataConfig:
+        DataFormat: ""
+        DocumentType: ""
+        LabelDelimiter: ""
+        S3Uri: ""
+        TestS3Uri: ""
+        AugmentedManifests:
+          - AttributeNames: []
+            S3Uri: ""
+            Split: ""
+        DocumentReaderConfig:
+          DocumentReadAction: ""
+          DocumentReadMode: ""
+          FeatureTypes: []
+        Documents:
+          S3Uri: ""
+          TestS3Uri: ""
+      OutputDataConfig:
+        KmsKeyId: ""
+        S3Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfig:
+        SecurityGroupIds: []
+        Subnets: []

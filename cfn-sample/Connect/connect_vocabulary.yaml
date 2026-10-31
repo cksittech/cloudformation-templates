@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectVocabulary:
+    Type: AWS::Connect::Vocabulary
+    Properties:
+      Content: ""
+      InstanceId: ""
+      LanguageCode: ""
+      VocabularyName: ""
+      Tags:
+        - Key: ""
+          Value: ""

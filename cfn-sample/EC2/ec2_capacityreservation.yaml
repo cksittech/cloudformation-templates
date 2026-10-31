@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Capacityreservation:
+    Type: AWS::EC2::CapacityReservation
+    Properties:
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      EbsOptimized: false
+      EndDate: ""
+      EndDateType: ""
+      EphemeralStorage: false
+      InstanceCount: 0
+      InstanceMatchCriteria: ""
+      InstancePlatform: ""
+      InstanceType: ""
+      OutPostArn: ""
+      PlacementGroupArn: ""
+      Tenancy: ""
+      UnusedReservationBillingOwnerId: ""
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""

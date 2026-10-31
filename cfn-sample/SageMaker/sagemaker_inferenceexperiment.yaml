@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerInferenceexperiment:
+    Type: AWS::SageMaker::InferenceExperiment
+    Properties:
+      Description: ""
+      DesiredState: ""
+      EndpointName: ""
+      KmsKey: ""
+      Name: ""
+      RoleArn: ""
+      StatusReason: ""
+      Type: ""
+      DataStorageConfig:
+        Destination: ""
+        KmsKey: ""
+        ContentType:
+          CsvContentTypes: []
+          JsonContentTypes: []
+      ModelVariants:
+        - ModelName: ""
+          VariantName: ""
+          InfrastructureConfig:
+            InfrastructureType: ""
+            RealTimeInferenceConfig:
+              InstanceCount: 0
+              InstanceType: ""
+      Schedule:
+        EndTime: ""
+        StartTime: ""
+      ShadowModeConfig:
+        SourceModelVariantName: ""
+        ShadowModelVariants:
+          - SamplingPercentage: 0
+            ShadowModelVariantName: ""
+      Tags:
+        - Key: ""
+          Value: ""

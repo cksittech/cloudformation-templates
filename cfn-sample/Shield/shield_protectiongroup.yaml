@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleShieldProtectiongroup:
+    Type: AWS::Shield::ProtectionGroup
+    Properties:
+      Aggregation: ""
+      Members: []
+      Pattern: ""
+      ProtectionGroupId: ""
+      ResourceType: ""
+      Tags:
+        - Key: ""
+          Value: ""

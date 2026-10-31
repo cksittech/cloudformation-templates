@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53profilesProfileresourceassociation:
+    Type: AWS::Route53Profiles::ProfileResourceAssociation
+    Properties:
+      Name: ""
+      ProfileId: ""
+      ResourceArn: ""
+      ResourceProperties: ""

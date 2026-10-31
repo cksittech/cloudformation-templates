@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAssistant:
+    Type: AWS::Wisdom::Assistant
+    Properties:
+      Description: ""
+      Name: ""
+      Type: ""
+      ServerSideEncryptionConfiguration:
+        KmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""

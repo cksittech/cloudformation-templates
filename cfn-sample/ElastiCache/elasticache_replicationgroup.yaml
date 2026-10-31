@@ -1,0 +1,60 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheReplicationgroup:
+    Type: AWS::ElastiCache::ReplicationGroup
+    Properties:
+      AtRestEncryptionEnabled: false
+      AuthToken: ""
+      AutoMinorVersionUpgrade: false
+      AutomaticFailoverEnabled: false
+      CacheNodeType: ""
+      CacheParameterGroupName: ""
+      CacheSubnetGroupName: ""
+      ClusterMode: ""
+      DataTieringEnabled: false
+      Durability: ""
+      Engine: ""
+      EngineVersion: ""
+      GlobalReplicationGroupId: ""
+      IpDiscovery: ""
+      KmsKeyId: ""
+      MultiAZEnabled: false
+      NetworkType: ""
+      NotificationTopicArn: ""
+      NumCacheClusters: 0
+      NumNodeGroups: 1
+      Port: 0
+      PreferredCacheClusterAZs: []
+      PreferredMaintenanceWindow: ""
+      PrimaryClusterId: ""
+      ReplicasPerNodeGroup: 0
+      ReplicationGroupDescription: ""
+      ReplicationGroupId: ""
+      SecurityGroupIds: []
+      SnapshotArns: []
+      SnapshotName: ""
+      SnapshotRetentionLimit: 0
+      SnapshotWindow: ""
+      SnapshottingClusterId: ""
+      TransitEncryptionEnabled: false
+      TransitEncryptionMode: ""
+      UserGroupIds: []
+      LogDeliveryConfigurations:
+        - DestinationType: ""
+          LogFormat: ""
+          LogType: ""
+          DestinationDetails:
+            CloudWatchLogsDetails:
+              LogGroup: ""
+            KinesisFirehoseDetails:
+              DeliveryStream: ""
+      NodeGroupConfiguration:
+        - NodeGroupId: ""
+          PrimaryAvailabilityZone: ""
+          ReplicaAvailabilityZones: []
+          ReplicaCount: 0
+          Slots: ""
+      Tags:
+        - Key: ""
+          Value: ""

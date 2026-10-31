@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerDevicefleet:
+    Type: AWS::SageMaker::DeviceFleet
+    Properties:
+      Description: ""
+      DeviceFleetName: ""
+      RoleArn: ""
+      OutputConfig:
+        KmsKeyId: ""
+        S3OutputLocation: ""
+      Tags:
+        - Key: ""
+          Value: ""

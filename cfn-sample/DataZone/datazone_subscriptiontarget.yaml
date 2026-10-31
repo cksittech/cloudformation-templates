@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneSubscriptiontarget:
+    Type: AWS::DataZone::SubscriptionTarget
+    Properties:
+      ApplicableAssetTypes: []
+      AuthorizedPrincipals: []
+      DomainIdentifier: ""
+      EnvironmentIdentifier: ""
+      ManageAccessRole: ""
+      Name: ""
+      Provider: ""
+      Type: ""
+      SubscriptionTargetConfig:
+        - Content: ""
+          FormName: ""

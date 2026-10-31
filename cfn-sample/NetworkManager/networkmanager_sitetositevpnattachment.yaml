@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerSitetositevpnattachment:
+    Type: AWS::NetworkManager::SiteToSiteVpnAttachment
+    Properties:
+      CoreNetworkId: ""
+      NetworkFunctionGroupName: ""
+      RoutingPolicyLabel: ""
+      VpnConnectionArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

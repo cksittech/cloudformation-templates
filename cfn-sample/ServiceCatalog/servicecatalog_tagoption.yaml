@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogTagoption:
+    Type: AWS::ServiceCatalog::TagOption
+    Properties:
+      Active: false
+      Key: ""
+      Value: ""

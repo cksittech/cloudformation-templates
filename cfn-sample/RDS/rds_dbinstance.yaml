@@ -1,0 +1,100 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbinstance:
+    Type: AWS::RDS::DBInstance
+    Properties:
+      AllocatedStorage: ""
+      AllowMajorVersionUpgrade: false
+      ApplyImmediately: false
+      AutoMinorVersionUpgrade: false
+      AutomaticBackupReplicationKmsKeyId: ""
+      AutomaticBackupReplicationRegion: ""
+      AutomaticBackupReplicationRetentionPeriod: 0
+      AvailabilityZone: ""
+      BackupRetentionPeriod: 0
+      BackupTarget: ""
+      CACertificateIdentifier: ""
+      CertificateRotationRestart: false
+      CharacterSetName: ""
+      CopyTagsToSnapshot: false
+      CustomIAMInstanceProfile: ""
+      DBClusterIdentifier: ""
+      DBClusterSnapshotIdentifier: ""
+      DBInstanceClass: ""
+      DBInstanceIdentifier: ""
+      DBName: ""
+      DBParameterGroupName: ""
+      DBSecurityGroups: []
+      DBSnapshotIdentifier: ""
+      DBSubnetGroupName: ""
+      DBSystemId: ""
+      DatabaseInsightsMode: ""
+      DedicatedLogVolume: false
+      DeleteAutomatedBackups: false
+      DeletionProtection: false
+      Domain: ""
+      DomainAuthSecretArn: ""
+      DomainDnsIps: []
+      DomainFqdn: ""
+      DomainIAMRoleName: ""
+      DomainOu: ""
+      EnableCloudwatchLogsExports: []
+      EnableIAMDatabaseAuthentication: false
+      EnablePerformanceInsights: false
+      Engine: ""
+      EngineLifecycleSupport: ""
+      EngineVersion: ""
+      Iops: 0
+      KmsKeyId: ""
+      LicenseModel: ""
+      ManageMasterUserPassword: false
+      MasterUserAuthenticationType: ""
+      MasterUserPassword: ""
+      MasterUsername: ""
+      MaxAllocatedStorage: 0
+      MonitoringInterval: 0
+      MonitoringRoleArn: ""
+      MultiAZ: false
+      NcharCharacterSetName: ""
+      NetworkType: ""
+      OptionGroupName: ""
+      PerformanceInsightsKMSKeyId: ""
+      PerformanceInsightsRetentionPeriod: 0
+      Port: ""
+      PreferredBackupWindow: ""
+      PreferredMaintenanceWindow: ""
+      PromotionTier: 0
+      PubliclyAccessible: false
+      ReplicaMode: ""
+      RestoreTime: ""
+      SourceDBClusterIdentifier: ""
+      SourceDBInstanceAutomatedBackupsArn: ""
+      SourceDBInstanceIdentifier: ""
+      SourceDbiResourceId: ""
+      SourceRegion: ""
+      StorageEncrypted: false
+      StorageThroughput: 0
+      StorageType: ""
+      Timezone: ""
+      UseDefaultProcessorFeatures: false
+      UseLatestRestorableTime: false
+      VPCSecurityGroups: []
+      AdditionalStorageVolumes:
+        - AllocatedStorage: ""
+          Iops: 0
+          MaxAllocatedStorage: 0
+          StorageThroughput: 0
+          StorageType: ""
+          VolumeName: ""
+      AssociatedRoles:
+        - FeatureName: ""
+          RoleArn: ""
+      MasterUserSecret:
+        KmsKeyId: ""
+      ProcessorFeatures:
+        - Name: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

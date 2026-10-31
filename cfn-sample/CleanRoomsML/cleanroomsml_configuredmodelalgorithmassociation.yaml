@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsmlConfiguredmodelalgorithmassociation:
+    Type: AWS::CleanRoomsML::ConfiguredModelAlgorithmAssociation
+    Properties:
+      ConfiguredModelAlgorithmArn: ""
+      Description: ""
+      MembershipIdentifier: ""
+      Name: ""
+      PrivacyConfiguration:
+        Policies:
+          TrainedModelExports:
+            FilesToExport: []
+            MaxSize:
+              Unit: ""
+              Value: 0
+          TrainedModelInferenceJobs:
+            ContainerLogs:
+              - AllowedAccountIds: []
+                FilterPattern: ""
+                LogType: ""
+                LogRedactionConfiguration:
+                  EntitiesToRedact: []
+                  CustomEntityConfig:
+                    CustomDataIdentifiers: []
+            MaxOutputSize:
+              Unit: ""
+              Value: 0
+          TrainedModels:
+            ContainerLogs:
+              - AllowedAccountIds: []
+                FilterPattern: ""
+                LogType: ""
+                LogRedactionConfiguration:
+                  EntitiesToRedact: []
+                  CustomEntityConfig:
+                    CustomDataIdentifiers: []
+            ContainerMetrics:
+              NoiseLevel: ""
+            MaxArtifactSize:
+              Unit: ""
+              Value: 0
+      Tags:
+        - Key: ""
+          Value: ""

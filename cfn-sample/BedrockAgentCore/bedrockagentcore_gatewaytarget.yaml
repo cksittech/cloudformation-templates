@@ -1,0 +1,153 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreGatewaytarget:
+    Type: AWS::BedrockAgentCore::GatewayTarget
+    Properties:
+      Description: ""
+      GatewayIdentifier: ""
+      Name: ""
+      CertificateConfigurations:
+        - S3:
+            BucketOwnerAccountId: ""
+            Uri: ""
+          SecretsManager:
+            SecretArn: ""
+      CredentialProviderConfigurations:
+        - CredentialProviderType: ""
+          CredentialProvider:
+            ApiKeyCredentialProvider:
+              CredentialLocation: ""
+              CredentialParameterName: ""
+              CredentialPrefix: ""
+              ProviderArn: ""
+            IamCredentialProvider:
+              Region: ""
+              Service: ""
+            OauthCredentialProvider:
+              DefaultReturnUrl: ""
+              GrantType: ""
+              ProviderArn: ""
+              Scopes: []
+              CustomParameters: {}
+      MetadataConfiguration:
+        AllowedQueryParameters: []
+        AllowedRequestHeaders: []
+        AllowedResponseHeaders: []
+      PrivateEndpoint:
+        ManagedVpcResource:
+          EndpointIpAddressType: ""
+          RoutingDomain: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+          VpcIdentifier: ""
+          Tags: {}
+        SelfManagedLatticeResource:
+          ResourceConfigurationIdentifier: ""
+      TargetConfiguration:
+        Http:
+          AgentcoreRuntime:
+            Arn: ""
+            Qualifier: ""
+            Schema:
+              Source:
+                InlinePayload: ""
+                S3:
+                  BucketOwnerAccountId: ""
+                  Uri: ""
+          Connector:
+            Parameters: {}
+            Source:
+              ConnectorId: ""
+          Passthrough:
+            Endpoint: ""
+            ProtocolType: ""
+            Schema:
+              Source:
+                InlinePayload: ""
+                S3:
+                  BucketOwnerAccountId: ""
+                  Uri: ""
+            StickinessConfiguration:
+              Identifier: ""
+              Timeout: 0
+        Inference:
+          Connector:
+            Source:
+              ConnectorId: ""
+          Provider:
+            Endpoint: ""
+            ModelMapping:
+              ProviderPrefix:
+                Separator: "."
+                Strip: false
+            Operations:
+              - Path: ""
+                ProviderPath: ""
+                Models:
+                  - Model: ""
+        Mcp:
+          ApiGateway:
+            RestApiId: ""
+            Stage: ""
+            ApiGatewayToolConfiguration:
+              ToolFilters:
+                - FilterPath: ""
+                  Methods: []
+              ToolOverrides:
+                - Description: ""
+                  Method: ""
+                  Name: ""
+                  Path: ""
+          Connector:
+            Enabled: []
+            Configurations:
+              - Description: ""
+                Name: ""
+                ParameterOverrides:
+                  - Description: ""
+                    Path: ""
+                    Visible: false
+                ParameterValues: {}
+            Source:
+              ConnectorId: ""
+          Lambda:
+            LambdaArn: ""
+            ToolSchema:
+              InlinePayload:
+                - Description: ""
+                  Name: ""
+                  InputSchema:
+                    Description: ""
+                    Required: []
+                    Type: ""
+                    Items: {}
+                    Properties: {}
+                  OutputSchema:
+                    Description: ""
+                    Required: []
+                    Type: ""
+                    Items: {}
+                    Properties: {}
+              S3:
+                BucketOwnerAccountId: ""
+                Uri: ""
+          McpServer:
+            Endpoint: ""
+            ListingMode: ""
+            ResourcePriority: 0
+            McpToolSchema:
+              InlinePayload: ""
+              S3:
+                BucketOwnerAccountId: ""
+                Uri: ""
+          OpenApiSchema:
+            InlinePayload: ""
+            S3:
+              BucketOwnerAccountId: ""
+              Uri: ""
+          SmithyModel:
+            InlinePayload: ""
+            S3:
+              BucketOwnerAccountId: ""
+              Uri: ""

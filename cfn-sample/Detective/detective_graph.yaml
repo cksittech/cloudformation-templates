@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDetectiveGraph:
+    Type: AWS::Detective::Graph
+    Properties:
+      AutoEnableMembers: false
+      Tags:
+        - Key: ""
+          Value: ""

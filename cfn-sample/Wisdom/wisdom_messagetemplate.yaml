@@ -1,0 +1,105 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomMessagetemplate:
+    Type: AWS::Wisdom::MessageTemplate
+    Properties:
+      ChannelSubtype: ""
+      Description: ""
+      KnowledgeBaseArn: ""
+      Language: ""
+      Name: ""
+      Content:
+        EmailMessageTemplateContent:
+          Subject: ""
+          Body:
+            Html:
+              Content: ""
+            PlainText:
+              Content: ""
+          Headers:
+            - Name: ""
+              Value: ""
+        SmsMessageTemplateContent:
+          Body:
+            PlainText:
+              Content: ""
+      DefaultAttributes:
+        AgentAttributes:
+          FirstName: ""
+          LastName: ""
+        CustomAttributes: {}
+        CustomerProfileAttributes:
+          AccountNumber: ""
+          AdditionalInformation: ""
+          Address1: ""
+          Address2: ""
+          Address3: ""
+          Address4: ""
+          BillingAddress1: ""
+          BillingAddress2: ""
+          BillingAddress3: ""
+          BillingAddress4: ""
+          BillingCity: ""
+          BillingCountry: ""
+          BillingCounty: ""
+          BillingPostalCode: ""
+          BillingProvince: ""
+          BillingState: ""
+          BirthDate: ""
+          BusinessEmailAddress: ""
+          BusinessName: ""
+          BusinessPhoneNumber: ""
+          City: ""
+          Country: ""
+          County: ""
+          EmailAddress: ""
+          FirstName: ""
+          Gender: ""
+          HomePhoneNumber: ""
+          LastName: ""
+          MailingAddress1: ""
+          MailingAddress2: ""
+          MailingAddress3: ""
+          MailingAddress4: ""
+          MailingCity: ""
+          MailingCountry: ""
+          MailingCounty: ""
+          MailingPostalCode: ""
+          MailingProvince: ""
+          MailingState: ""
+          MiddleName: ""
+          MobilePhoneNumber: ""
+          PartyType: ""
+          PhoneNumber: ""
+          PostalCode: ""
+          ProfileARN: ""
+          ProfileId: ""
+          Province: ""
+          ShippingAddress1: ""
+          ShippingAddress2: ""
+          ShippingAddress3: ""
+          ShippingAddress4: ""
+          ShippingCity: ""
+          ShippingCountry: ""
+          ShippingCounty: ""
+          ShippingPostalCode: ""
+          ShippingProvince: ""
+          ShippingState: ""
+          State: ""
+          Custom: {}
+        SystemAttributes:
+          Name: ""
+          CustomerEndpoint:
+            Address: ""
+          SystemEndpoint:
+            Address: ""
+      GroupingConfiguration:
+        Criteria: ""
+        Values: []
+      MessageTemplateAttachments:
+        - AttachmentName: ""
+          S3PresignedUrl: ""
+      Tags:
+        - Key: ""
+          Value: ""

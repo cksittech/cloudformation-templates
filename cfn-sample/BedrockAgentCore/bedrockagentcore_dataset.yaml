@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreDataset:
+    Type: AWS::BedrockAgentCore::Dataset
+    Properties:
+      DatasetName: ""
+      Description: ""
+      KmsKeyArn: ""
+      SchemaType: ""
+      Source:
+        InlineExamples:
+          Examples: []
+        S3Source:
+          S3Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDbproxy:
+    Type: AWS::RDS::DBProxy
+    Properties:
+      DBProxyName: ""
+      DebugLogging: false
+      DefaultAuthScheme: ""
+      EndpointNetworkType: ""
+      EngineFamily: ""
+      IdleClientTimeout: 0
+      RequireTLS: false
+      RoleArn: ""
+      TargetConnectionNetworkType: ""
+      VpcSecurityGroupIds: []
+      VpcSubnetIds: []
+      Auth:
+        - AuthScheme: ""
+          ClientPasswordAuthType: ""
+          Description: ""
+          IAMAuth: ""
+          SecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

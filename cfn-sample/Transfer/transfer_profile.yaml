@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferProfile:
+    Type: AWS::Transfer::Profile
+    Properties:
+      As2Id: ""
+      CertificateIds: []
+      ProfileType: ""
+      Tags:
+        - Key: ""
+          Value: ""

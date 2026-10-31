@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyDomain:
+    Type: AWS::Amplify::Domain
+    Properties:
+      AppId: ""
+      AutoSubDomainCreationPatterns: []
+      AutoSubDomainIAMRole: ""
+      DomainName: ""
+      EnableAutoSubDomain: false
+      CertificateSettings:
+        CertificateType: ""
+        CustomCertificateArn: ""
+      SubDomainSettings:
+        - BranchName: ""
+          Prefix: ""

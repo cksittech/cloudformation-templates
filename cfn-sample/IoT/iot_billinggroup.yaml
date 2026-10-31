@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotBillinggroup:
+    Type: AWS::IoT::BillingGroup
+    Properties:
+      BillingGroupName: ""
+      BillingGroupProperties:
+        BillingGroupDescription: ""
+      Tags:
+        - Key: ""
+          Value: ""

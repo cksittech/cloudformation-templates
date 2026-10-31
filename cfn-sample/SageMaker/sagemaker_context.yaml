@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerContext:
+    Type: AWS::SageMaker::Context
+    Properties:
+      ContextName: ""
+      ContextType: ""
+      Description: ""
+      Properties: {}
+      Source:
+        SourceId: ""
+        SourceType: ""
+        SourceUri: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInternetmonitorMonitor:
+    Type: AWS::InternetMonitor::Monitor
+    Properties:
+      IncludeLinkedAccounts: false
+      LinkedAccountId: ""
+      MaxCityNetworksToMonitor: 0
+      MonitorName: ""
+      Resources: []
+      ResourcesToAdd: []
+      ResourcesToRemove: []
+      Status: ""
+      TrafficPercentageToMonitor: 0
+      HealthEventsConfig:
+        AvailabilityScoreThreshold: 0
+        PerformanceScoreThreshold: 0
+        AvailabilityLocalHealthEventsConfig:
+          HealthScoreThreshold: 0
+          MinTrafficImpact: 0
+          Status: ""
+        PerformanceLocalHealthEventsConfig:
+          HealthScoreThreshold: 0
+          MinTrafficImpact: 0
+          Status: ""
+      InternetMeasurementsLogDelivery:
+        S3Config:
+          BucketName: ""
+          BucketPrefix: ""
+          LogDeliveryStatus: ""
+      Tags:
+        - Key: ""
+          Value: ""

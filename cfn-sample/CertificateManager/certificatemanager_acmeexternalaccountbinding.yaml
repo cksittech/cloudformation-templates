@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCertificatemanagerAcmeexternalaccountbinding:
+    Type: AWS::CertificateManager::AcmeExternalAccountBinding
+    Properties:
+      AcmeEndpointArn: ""
+      RoleArn: ""
+      Expiration:
+        Type: ""
+        Value: 0
+      Tags:
+        - Key: ""
+          Value: ""

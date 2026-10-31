@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeSchema:
+    Type: AWS::Personalize::Schema
+    Properties:
+      Domain: ""
+      Name: ""
+      Schema: ""
+      Tags:
+        - Key: ""
+          Value: ""

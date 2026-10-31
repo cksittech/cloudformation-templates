@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockRetrievalinstruction:
+    Type: AWS::Bedrock::RetrievalInstruction
+    Properties:
+      CustomerEncryptionKeyArn: ""
+      Description: ""
+      Name: ""
+      Instruction:
+        AnswerFormat: ""
+        AnswerPolicy: ""
+        Persona: ""
+        RetrievalGuidance: ""
+      Tags:
+        - Key: ""
+          Value: ""

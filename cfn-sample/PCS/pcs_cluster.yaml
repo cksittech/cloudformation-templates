@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcsCluster:
+    Type: AWS::PCS::Cluster
+    Properties:
+      Name: ""
+      Size: ""
+      Networking:
+        NetworkType: ""
+        SecurityGroupIds: []
+        SubnetIds: []
+      Scheduler:
+        Type: ""
+        Version: ""
+      SlurmConfiguration:
+        ScaleDownIdleTimeInSeconds: 0
+        Accounting:
+          DefaultPurgeTimeInDays: -1
+          Mode: "NONE"
+        AuthKey:
+          SecretArn: ""
+          SecretVersion: ""
+        CgroupCustomSettings:
+          - ParameterName: ""
+            ParameterValue: ""
+        JwtAuth:
+          JwtKey:
+            SecretArn: ""
+            SecretVersion: ""
+        SlurmCustomSettings:
+          - ParameterName: ""
+            ParameterValue: ""
+        SlurmRest:
+          Mode: "NONE"
+        SlurmdbdCustomSettings:
+          - ParameterName: ""
+            ParameterValue: ""
+      Tags: {}

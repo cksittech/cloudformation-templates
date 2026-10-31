@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsPrimarytaskset:
+    Type: AWS::ECS::PrimaryTaskSet
+    Properties:
+      Cluster: ""
+      Service: ""
+      TaskSetId: ""

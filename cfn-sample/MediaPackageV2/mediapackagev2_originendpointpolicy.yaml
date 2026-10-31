@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagev2Originendpointpolicy:
+    Type: AWS::MediaPackageV2::OriginEndpointPolicy
+    Properties:
+      ChannelGroupName: ""
+      ChannelName: ""
+      OriginEndpointName: ""
+      CdnAuthConfiguration:
+        CdnIdentifierSecretArns: []
+        SecretsRoleArn: ""
+      Policy: {}

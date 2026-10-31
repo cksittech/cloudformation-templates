@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGluePartition:
+    Type: AWS::Glue::Partition
+    Properties:
+      CatalogId: ""
+      DatabaseName: ""
+      TableName: ""
+      PartitionInput:
+        Values: []
+        Parameters: {}
+        StorageDescriptor:
+          BucketColumns: []
+          Compressed: false
+          InputFormat: ""
+          Location: ""
+          NumberOfBuckets: 0
+          OutputFormat: ""
+          StoredAsSubDirectories: false
+          Columns:
+            - Comment: ""
+              Name: ""
+              Type: ""
+          Parameters: {}
+          SchemaReference:
+            SchemaVersionId: ""
+            SchemaVersionNumber: 0
+            SchemaId:
+              RegistryName: ""
+              SchemaArn: ""
+              SchemaName: ""
+          SerdeInfo:
+            Name: ""
+            SerializationLibrary: ""
+            Parameters: {}
+          SkewedInfo:
+            SkewedColumnNames: []
+            SkewedColumnValues: []
+            SkewedColumnValueLocationMaps: {}
+          SortColumns:
+            - Column: ""
+              SortOrder: 0

@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticbeanstalkApplicationversion:
+    Type: AWS::ElasticBeanstalk::ApplicationVersion
+    Properties:
+      ApplicationName: ""
+      Description: ""
+      Process: false
+      BuildConfiguration:
+        ArtifactName: ""
+        CodeBuildServiceRole: ""
+        ComputeType: ""
+        Image: ""
+        TimeoutInMinutes: 0
+      ImageConfiguration:
+        Build:
+          Architecture: ""
+          Buildpack: ""
+          CodeBuildServiceRole: ""
+          ComputeType: ""
+          DockerfileLocation: ""
+          TimeoutInMinutes: 0
+          Type: ""
+        Source:
+          Uri: ""
+      SourceBundle:
+        S3Bucket: ""
+        S3Key: ""

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsDaemon:
+    Type: AWS::ECS::Daemon
+    Properties:
+      CapacityProviderArns: []
+      ClusterArn: ""
+      Critical: false
+      DaemonName: ""
+      DaemonTaskDefinitionArn: ""
+      EnableECSManagedTags: false
+      EnableExecuteCommand: false
+      PropagateTags: ""
+      DeploymentConfiguration:
+        BakeTimeInMinutes: 0
+        DrainPercent: 0
+        Alarms:
+          AlarmNames: []
+          Enable: false
+      Tags:
+        - Key: ""
+          Value: ""

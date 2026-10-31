@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDmsMigrationproject:
+    Type: AWS::DMS::MigrationProject
+    Properties:
+      Description: ""
+      InstanceProfileIdentifier: ""
+      MigrationProjectName: ""
+      TransformationRules: ""
+      SchemaConversionApplicationAttributes:
+        S3BucketPath: ""
+        S3BucketRoleArn: ""
+      SourceDataProviderDescriptors:
+        - DataProviderIdentifier: ""
+          SecretsManagerAccessRoleArn: ""
+          SecretsManagerSecretId: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetDataProviderDescriptors:
+        - DataProviderIdentifier: ""
+          SecretsManagerAccessRoleArn: ""
+          SecretsManagerSecretId: ""

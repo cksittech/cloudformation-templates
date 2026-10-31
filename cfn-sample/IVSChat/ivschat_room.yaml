@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvschatRoom:
+    Type: AWS::IVSChat::Room
+    Properties:
+      LoggingConfigurationIdentifiers: []
+      MaximumMessageLength: 500
+      MaximumMessageRatePerSecond: 10
+      Name: ""
+      MessageReviewHandler:
+        FallbackResult: "ALLOW"
+        Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""

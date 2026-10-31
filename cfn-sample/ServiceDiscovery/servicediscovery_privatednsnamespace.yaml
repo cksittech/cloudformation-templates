@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicediscoveryPrivatednsnamespace:
+    Type: AWS::ServiceDiscovery::PrivateDnsNamespace
+    Properties:
+      Description: ""
+      Name: ""
+      Vpc: ""
+      Properties:
+        DnsProperties:
+          SOA:
+            TTL: 0
+      Tags:
+        - Key: ""
+          Value: ""

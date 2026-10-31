@@ -1,0 +1,43 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncDatasource:
+    Type: AWS::AppSync::DataSource
+    Properties:
+      ApiId: ""
+      Description: ""
+      MetricsConfig: ""
+      Name: ""
+      ServiceRoleArn: ""
+      Type: ""
+      DynamoDBConfig:
+        AwsRegion: ""
+        TableName: ""
+        UseCallerCredentials: false
+        Versioned: false
+        DeltaSyncConfig:
+          BaseTableTTL: ""
+          DeltaSyncTableName: ""
+          DeltaSyncTableTTL: ""
+      EventBridgeConfig:
+        EventBusArn: ""
+      HttpConfig:
+        Endpoint: ""
+        AuthorizationConfig:
+          AuthorizationType: ""
+          AwsIamConfig:
+            SigningRegion: ""
+            SigningServiceName: ""
+      LambdaConfig:
+        LambdaFunctionArn: ""
+      OpenSearchServiceConfig:
+        AwsRegion: ""
+        Endpoint: ""
+      RelationalDatabaseConfig:
+        RelationalDatabaseSourceType: ""
+        RdsHttpEndpointConfig:
+          AwsRegion: ""
+          AwsSecretStoreArn: ""
+          DatabaseName: ""
+          DbClusterIdentifier: ""
+          Schema: ""

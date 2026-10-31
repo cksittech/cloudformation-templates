@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectInstance:
+    Type: AWS::Connect::Instance
+    Properties:
+      DirectoryId: ""
+      IdentityManagementType: ""
+      InstanceAlias: ""
+      Attributes:
+        AutoMuteAgentOnHold: false
+        AutoResolveBestVoices: false
+        ContactLens: false
+        ContactflowLogs: false
+        EarlyMedia: false
+        EnhancedChatMonitoring: false
+        EnhancedContactMonitoring: false
+        HighVolumeOutBound: false
+        InboundCalls: false
+        MessageStreaming: false
+        MultiPartyChatConference: false
+        MultiPartyConference: false
+        OutboundCalls: false
+        UseCustomTTSVoices: false
+      Tags:
+        - Key: ""
+          Value: ""

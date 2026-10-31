@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Eip:
+    Type: AWS::EC2::EIP
+    Properties:
+      Address: ""
+      Domain: ""
+      InstanceId: ""
+      IpamPoolId: ""
+      NetworkBorderGroup: ""
+      PublicIpv4Pool: ""
+      TransferAddress: ""
+      Tags:
+        - Key: ""
+          Value: ""

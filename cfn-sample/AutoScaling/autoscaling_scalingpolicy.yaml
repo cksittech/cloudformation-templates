@@ -1,0 +1,110 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAutoscalingScalingpolicy:
+    Type: AWS::AutoScaling::ScalingPolicy
+    Properties:
+      AdjustmentType: ""
+      AutoScalingGroupName: ""
+      Cooldown: ""
+      EstimatedInstanceWarmup: 0
+      MetricAggregationType: ""
+      MinAdjustmentMagnitude: 0
+      PolicyType: ""
+      ScalingAdjustment: 0
+      PredictiveScalingConfiguration:
+        MaxCapacityBreachBehavior: ""
+        MaxCapacityBuffer: 0
+        Mode: ""
+        SchedulingBufferTime: 0
+        MetricSpecifications:
+          - TargetValue: 0
+            CustomizedCapacityMetricSpecification:
+              MetricDataQueries:
+                - Expression: ""
+                  Id: ""
+                  Label: ""
+                  ReturnData: false
+                  MetricStat:
+                    Stat: ""
+                    Unit: ""
+                    Metric:
+                      MetricName: ""
+                      Namespace: ""
+                      Dimensions:
+                        - Name: ""
+                          Value: ""
+            CustomizedLoadMetricSpecification:
+              MetricDataQueries:
+                - Expression: ""
+                  Id: ""
+                  Label: ""
+                  ReturnData: false
+                  MetricStat:
+                    Stat: ""
+                    Unit: ""
+                    Metric:
+                      MetricName: ""
+                      Namespace: ""
+                      Dimensions:
+                        - Name: ""
+                          Value: ""
+            CustomizedScalingMetricSpecification:
+              MetricDataQueries:
+                - Expression: ""
+                  Id: ""
+                  Label: ""
+                  ReturnData: false
+                  MetricStat:
+                    Stat: ""
+                    Unit: ""
+                    Metric:
+                      MetricName: ""
+                      Namespace: ""
+                      Dimensions:
+                        - Name: ""
+                          Value: ""
+            PredefinedLoadMetricSpecification:
+              PredefinedMetricType: ""
+              ResourceLabel: ""
+            PredefinedMetricPairSpecification:
+              PredefinedMetricType: ""
+              ResourceLabel: ""
+            PredefinedScalingMetricSpecification:
+              PredefinedMetricType: ""
+              ResourceLabel: ""
+      StepAdjustments:
+        - MetricIntervalLowerBound: 0
+          MetricIntervalUpperBound: 0
+          ScalingAdjustment: 0
+      TargetTrackingConfiguration:
+        DisableScaleIn: false
+        TargetValue: 0
+        CustomizedMetricSpecification:
+          MetricName: ""
+          Namespace: ""
+          Period: 0
+          Statistic: ""
+          Unit: ""
+          Dimensions:
+            - Name: ""
+              Value: ""
+          Metrics:
+            - Expression: ""
+              Id: ""
+              Label: ""
+              Period: 0
+              ReturnData: false
+              MetricStat:
+                Period: 0
+                Stat: ""
+                Unit: ""
+                Metric:
+                  MetricName: ""
+                  Namespace: ""
+                  Dimensions:
+                    - Name: ""
+                      Value: ""
+        PredefinedMetricSpecification:
+          PredefinedMetricType: ""
+          ResourceLabel: ""

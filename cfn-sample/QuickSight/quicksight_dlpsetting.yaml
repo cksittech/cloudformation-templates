@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightDlpsetting:
+    Type: AWS::QuickSight::DLPSetting
+    Properties:
+      AwsAccountId: ""
+      DlpSettingId: ""
+      Enabled: false
+      Name: ""
+      ProviderOutageAction: ""
+      ProviderType: ""
+      ProviderConfig:
+        MicrosoftPurview:
+          UnmappedAction: ""
+          Credentials:
+            SecretArn: ""
+          LabelActionMappings:
+            - Action: ""
+              LabelId: ""
+              LabelName: ""
+      Tags:
+        - Key: ""
+          Value: ""

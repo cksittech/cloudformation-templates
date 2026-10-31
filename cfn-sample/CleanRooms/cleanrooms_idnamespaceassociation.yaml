@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsIdnamespaceassociation:
+    Type: AWS::CleanRooms::IdNamespaceAssociation
+    Properties:
+      Description: ""
+      MembershipIdentifier: ""
+      Name: ""
+      IdMappingConfig:
+        AllowUseAsDimensionColumn: false
+      InputReferenceConfig:
+        InputReferenceArn: ""
+        ManageResourcePolicies: false
+      Tags:
+        - Key: ""
+          Value: ""

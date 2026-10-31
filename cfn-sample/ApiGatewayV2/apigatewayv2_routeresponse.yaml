@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Routeresponse:
+    Type: AWS::ApiGatewayV2::RouteResponse
+    Properties:
+      ApiId: ""
+      ModelSelectionExpression: ""
+      RouteId: ""
+      RouteResponseKey: ""
+      ResponseModels: {}
+      ResponseParameters: {}

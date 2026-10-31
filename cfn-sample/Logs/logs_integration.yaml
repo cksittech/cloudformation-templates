@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsIntegration:
+    Type: AWS::Logs::Integration
+    Properties:
+      IntegrationName: ""
+      IntegrationType: ""
+      ResourceConfig:
+        OpenSearchResourceConfig:
+          ApplicationARN: ""
+          DashboardViewerPrincipals: []
+          DataSourceRoleArn: ""
+          KmsKeyArn: ""
+          RetentionDays: 0

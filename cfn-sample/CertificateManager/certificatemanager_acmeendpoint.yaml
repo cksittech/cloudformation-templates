@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCertificatemanagerAcmeendpoint:
+    Type: AWS::CertificateManager::AcmeEndpoint
+    Properties:
+      AuthorizationBehavior: ""
+      Contact: ""
+      CertificateAuthority:
+        PublicCertificateAuthority:
+          AllowedKeyAlgorithms: []
+      CertificateTags:
+        - Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

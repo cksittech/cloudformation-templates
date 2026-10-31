@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationPermissions:
+    Type: AWS::LakeFormation::Permissions
+    Properties:
+      Permissions: []
+      PermissionsWithGrantOption: []
+      DataLakePrincipal:
+        DataLakePrincipalIdentifier: ""
+      Resource:
+        DataLocationResource:
+          CatalogId: ""
+          S3Resource: ""
+        DatabaseResource:
+          CatalogId: ""
+          Name: ""
+        TableResource:
+          CatalogId: ""
+          DatabaseName: ""
+          Name: ""
+          TableWildcard: {}
+        TableWithColumnsResource:
+          CatalogId: ""
+          ColumnNames: []
+          DatabaseName: ""
+          Name: ""
+          ColumnWildcard:
+            ExcludedColumnNames: []

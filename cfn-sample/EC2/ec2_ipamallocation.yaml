@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipamallocation:
+    Type: AWS::EC2::IPAMAllocation
+    Properties:
+      Cidr: ""
+      Description: ""
+      IpamPoolId: ""
+      NetmaskLength: 0

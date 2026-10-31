@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebNetworksettings:
+    Type: AWS::WorkSpacesWeb::NetworkSettings
+    Properties:
+      SecurityGroupIds: []
+      SubnetIds: []
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

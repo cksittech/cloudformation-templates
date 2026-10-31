@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolregionalconfigurationattachment:
+    Type: AWS::Cognito::UserPoolRegionalConfigurationAttachment
+    Properties:
+      Status: ""
+      UserPoolId: ""
+      EmailConfiguration:
+        ConfigurationSet: ""
+        EmailSendingAccount: ""
+        From: ""
+        ReplyToEmailAddress: ""
+        SourceArn: ""
+      LambdaConfig:
+        CreateAuthChallenge: ""
+        CustomMessage: ""
+        DefineAuthChallenge: ""
+        KMSKeyID: ""
+        PostAuthentication: ""
+        PostConfirmation: ""
+        PreAuthentication: ""
+        PreSignUp: ""
+        PreTokenGeneration: ""
+        UserMigration: ""
+        VerifyAuthChallengeResponse: ""
+        CustomEmailSender:
+          LambdaArn: ""
+          LambdaVersion: ""
+        CustomSMSSender:
+          LambdaArn: ""
+          LambdaVersion: ""
+        InboundFederation:
+          LambdaArn: ""
+          LambdaVersion: ""
+        PreTokenGenerationConfig:
+          LambdaArn: ""
+          LambdaVersion: ""
+      SmsConfiguration:
+        ExternalId: ""
+        SnsCallerArn: ""
+        SnsRegion: ""
+        EumsSms:
+          CallerArn: ""
+          ConfigurationSetName: ""
+          ExternalId: ""
+          InEntityId: ""
+          InTemplateId: ""
+          OriginationIdentity: ""
+          Region: ""
+      UserPoolTags: {}

@@ -1,0 +1,49 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectHoursofoperation:
+    Type: AWS::Connect::HoursOfOperation
+    Properties:
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      TimeZone: ""
+      ChildHoursOfOperations:
+        - Id: ""
+          Name: ""
+      Config:
+        - Day: ""
+          EndTime:
+            Hours: 0
+            Minutes: 0
+          StartTime:
+            Hours: 0
+            Minutes: 0
+      HoursOfOperationOverrides:
+        - EffectiveFrom: ""
+          EffectiveTill: ""
+          HoursOfOperationOverrideId: ""
+          OverrideDescription: ""
+          OverrideName: ""
+          OverrideType: ""
+          OverrideConfig:
+            - Day: ""
+              EndTime:
+                Hours: 0
+                Minutes: 0
+              StartTime:
+                Hours: 0
+                Minutes: 0
+          RecurrenceConfig:
+            RecurrencePattern:
+              ByMonth: []
+              ByMonthDay: []
+              ByWeekdayOccurrence: []
+              Frequency: ""
+              Interval: 0
+      ParentHoursOfOperations:
+        - Id: ""
+          Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

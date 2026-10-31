@@ -1,0 +1,251 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueConnectiontype:
+    Type: AWS::Glue::ConnectionType
+    Properties:
+      ConnectionType: ""
+      Description: ""
+      IntegrationType: ""
+      ConnectionProperties:
+        AdditionalRequestParameters:
+          - AllowedValues: []
+            DefaultValue: ""
+            KeyOverride: ""
+            Name: ""
+            PropertyLocation: ""
+            PropertyType: ""
+            Required: false
+        Url:
+          AllowedValues: []
+          DefaultValue: ""
+          KeyOverride: ""
+          Name: ""
+          PropertyLocation: ""
+          PropertyType: ""
+          Required: false
+      ConnectorAuthenticationConfiguration:
+        AuthenticationTypes: []
+        BasicAuthenticationProperties:
+          Password:
+            KeyOverride: ""
+            Name: ""
+            PropertyLocation: ""
+            PropertyType: ""
+            Required: false
+          Username:
+            KeyOverride: ""
+            Name: ""
+            PropertyLocation: ""
+            PropertyType: ""
+            Required: false
+        CustomAuthenticationProperties:
+          AuthenticationParameters:
+            - KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+        OAuth2Properties:
+          OAuth2GrantType: ""
+          AuthorizationCodeProperties:
+            ContentType: ""
+            RequestMethod: ""
+            AuthorizationCode:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            AuthorizationCodeUrl:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            ClientId:
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            ClientSecret:
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            Prompt:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            RedirectUri:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            Scope:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrl:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrlParameters:
+              - AllowedValues: []
+                DefaultValue: ""
+                KeyOverride: ""
+                Name: ""
+                PropertyLocation: ""
+                PropertyType: ""
+                Required: false
+          ClientCredentialsProperties:
+            ContentType: ""
+            RequestMethod: ""
+            ClientId:
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            ClientSecret:
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            Scope:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrl:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrlParameters:
+              - AllowedValues: []
+                DefaultValue: ""
+                KeyOverride: ""
+                Name: ""
+                PropertyLocation: ""
+                PropertyType: ""
+                Required: false
+          JWTBearerProperties:
+            ContentType: ""
+            RequestMethod: ""
+            JwtToken:
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrl:
+              AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+            TokenUrlParameters:
+              - AllowedValues: []
+                DefaultValue: ""
+                KeyOverride: ""
+                Name: ""
+                PropertyLocation: ""
+                PropertyType: ""
+                Required: false
+      RestConfiguration:
+        EntityConfigurations: {}
+        GlobalSourceConfiguration:
+          RequestMethod: ""
+          RequestPath: ""
+          FilterConfiguration:
+            DateTimeFormat: ""
+            FilterMode: ""
+            StripQuotes: false
+            BetweenConfiguration:
+              HighBoundKey: ""
+              LowBoundKey: ""
+              Template: ""
+            FilterStringConfiguration:
+              QueryParameterName: ""
+              QuoteCharacter: ""
+              QuoteStringValues: false
+            OperatorMappings: {}
+          PaginationConfiguration:
+            CursorConfiguration:
+              LimitParameter:
+                DefaultValue: ""
+                Key: ""
+                PropertyLocation: ""
+                Value:
+                  ContentPath: ""
+                  HeaderKey: ""
+              NextPage:
+                DefaultValue: ""
+                Key: ""
+                PropertyLocation: ""
+                Value:
+                  ContentPath: ""
+                  HeaderKey: ""
+            OffsetConfiguration:
+              LimitParameter:
+                DefaultValue: ""
+                Key: ""
+                PropertyLocation: ""
+                Value:
+                  ContentPath: ""
+                  HeaderKey: ""
+              OffsetParameter:
+                DefaultValue: ""
+                Key: ""
+                PropertyLocation: ""
+                Value:
+                  ContentPath: ""
+                  HeaderKey: ""
+          RequestParameters:
+            - AllowedValues: []
+              DefaultValue: ""
+              KeyOverride: ""
+              Name: ""
+              PropertyLocation: ""
+              PropertyType: ""
+              Required: false
+          ResponseConfiguration:
+            ErrorPath: ""
+            ResultPath: ""
+        ValidationEndpointConfiguration:
+          RequestMethod: ""
+          RequestPath: ""
+      Tags:
+        - Key: ""
+          Value: ""

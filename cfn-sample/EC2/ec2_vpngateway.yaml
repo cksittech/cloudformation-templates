@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpngateway:
+    Type: AWS::EC2::VPNGateway
+    Properties:
+      AmazonSideAsn: 0
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

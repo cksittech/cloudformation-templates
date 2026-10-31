@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessTaskdefinition:
+    Type: AWS::IoTWireless::TaskDefinition
+    Properties:
+      AutoCreateTasks: false
+      Name: ""
+      TaskDefinitionType: ""
+      LoRaWANUpdateGatewayTaskEntry:
+        CurrentVersion:
+          Model: ""
+          PackageVersion: ""
+          Station: ""
+        UpdateVersion:
+          Model: ""
+          PackageVersion: ""
+          Station: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Update:
+        UpdateDataRole: ""
+        UpdateDataSource: ""
+        LoRaWAN:
+          SigKeyCrc: 0
+          UpdateSignature: ""
+          CurrentVersion:
+            Model: ""
+            PackageVersion: ""
+            Station: ""
+          UpdateVersion:
+            Model: ""
+            PackageVersion: ""
+            Station: ""

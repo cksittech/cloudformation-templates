@@ -1,0 +1,89 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointSegment:
+    Type: AWS::Pinpoint::Segment
+    Properties:
+      ApplicationId: ""
+      Name: ""
+      Dimensions:
+        Attributes: {}
+        Behavior:
+          Recency:
+            Duration: ""
+            RecencyType: ""
+        Demographic:
+          AppVersion:
+            DimensionType: ""
+            Values: []
+          Channel:
+            DimensionType: ""
+            Values: []
+          DeviceType:
+            DimensionType: ""
+            Values: []
+          Make:
+            DimensionType: ""
+            Values: []
+          Model:
+            DimensionType: ""
+            Values: []
+          Platform:
+            DimensionType: ""
+            Values: []
+        Location:
+          Country:
+            DimensionType: ""
+            Values: []
+          GPSPoint:
+            RangeInKilometers: 0
+            Coordinates:
+              Latitude: 0
+              Longitude: 0
+        Metrics: {}
+        UserAttributes: {}
+      SegmentGroups:
+        Include: ""
+        Groups:
+          - SourceType: ""
+            Type: ""
+            Dimensions:
+              - Attributes: {}
+                Behavior:
+                  Recency:
+                    Duration: ""
+                    RecencyType: ""
+                Demographic:
+                  AppVersion:
+                    DimensionType: ""
+                    Values: []
+                  Channel:
+                    DimensionType: ""
+                    Values: []
+                  DeviceType:
+                    DimensionType: ""
+                    Values: []
+                  Make:
+                    DimensionType: ""
+                    Values: []
+                  Model:
+                    DimensionType: ""
+                    Values: []
+                  Platform:
+                    DimensionType: ""
+                    Values: []
+                Location:
+                  Country:
+                    DimensionType: ""
+                    Values: []
+                  GPSPoint:
+                    RangeInKilometers: 0
+                    Coordinates:
+                      Latitude: 0
+                      Longitude: 0
+                Metrics: {}
+                UserAttributes: {}
+            SourceSegments:
+              - Id: ""
+                Version: 0
+      Tags: {}

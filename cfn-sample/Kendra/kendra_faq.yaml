@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendraFaq:
+    Type: AWS::Kendra::Faq
+    Properties:
+      Description: ""
+      FileFormat: ""
+      IndexId: ""
+      LanguageCode: ""
+      Name: ""
+      RoleArn: ""
+      S3Path:
+        Bucket: ""
+        Key: ""
+      Tags:
+        - Key: ""
+          Value: ""

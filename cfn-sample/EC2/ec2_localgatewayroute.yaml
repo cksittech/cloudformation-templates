@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Localgatewayroute:
+    Type: AWS::EC2::LocalGatewayRoute
+    Properties:
+      DestinationCidrBlock: ""
+      LocalGatewayRouteTableId: ""
+      LocalGatewayVirtualInterfaceGroupId: ""
+      NetworkInterfaceId: ""

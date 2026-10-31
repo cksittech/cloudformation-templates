@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectUserhierarchystructure:
+    Type: AWS::Connect::UserHierarchyStructure
+    Properties:
+      InstanceArn: ""
+      UserHierarchyStructure:
+        LevelFive:
+          HierarchyLevelArn: ""
+          HierarchyLevelId: ""
+          Name: ""
+        LevelFour:
+          HierarchyLevelArn: ""
+          HierarchyLevelId: ""
+          Name: ""
+        LevelOne:
+          HierarchyLevelArn: ""
+          HierarchyLevelId: ""
+          Name: ""
+        LevelThree:
+          HierarchyLevelArn: ""
+          HierarchyLevelId: ""
+          Name: ""
+        LevelTwo:
+          HierarchyLevelArn: ""
+          HierarchyLevelId: ""
+          Name: ""

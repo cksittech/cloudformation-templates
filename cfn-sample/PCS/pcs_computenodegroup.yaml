@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePcsComputenodegroup:
+    Type: AWS::PCS::ComputeNodeGroup
+    Properties:
+      AmiId: ""
+      ClusterId: ""
+      IamInstanceProfileArn: ""
+      Name: ""
+      PurchaseOption: ""
+      SubnetIds: []
+      CustomLaunchTemplate:
+        TemplateId: ""
+        Version: ""
+      InstanceConfigs:
+        - InstanceType: ""
+      NodeLifecycleActions:
+        ScriptCachingPolicy: ""
+        Stages:
+          NodeBootstrapped:
+            - Arguments: []
+              ExecutionPolicy: ""
+              Name: ""
+              OnError: ""
+              ScriptSource:
+                Checksum: ""
+                S3VersionId: ""
+                ScriptLocation: ""
+          NodeReady:
+            - Arguments: []
+              ExecutionPolicy: ""
+              Name: ""
+              OnError: ""
+              ScriptSource:
+                Checksum: ""
+                S3VersionId: ""
+                ScriptLocation: ""
+      ScalingConfiguration:
+        MaxInstanceCount: 0
+        MinInstanceCount: 0
+      SlurmConfiguration:
+        GresCustomSettings: []
+        ScaleDownIdleTimeInSeconds: 0
+        SlurmCustomSettings:
+          - ParameterName: ""
+            ParameterValue: ""
+      SpotOptions:
+        AllocationStrategy: ""
+      Tags: {}

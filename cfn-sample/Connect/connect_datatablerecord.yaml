@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectDatatablerecord:
+    Type: AWS::Connect::DataTableRecord
+    Properties:
+      DataTableArn: ""
+      InstanceArn: ""
+      DataTableRecord:
+        PrimaryValues:
+          - AttributeId: ""
+            AttributeValue: ""
+        Values:
+          - AttributeId: ""
+            AttributeValue: ""

@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53resolverFirewallrulegroup:
+    Type: AWS::Route53Resolver::FirewallRuleGroup
+    Properties:
+      Name: ""
+      FirewallRules:
+        - Action: ""
+          BlockOverrideDnsType: ""
+          BlockOverrideDomain: ""
+          BlockOverrideTtl: 0
+          BlockResponse: ""
+          ConfidenceThreshold: ""
+          DnsThreatProtection: ""
+          FirewallDomainListId: ""
+          FirewallDomainRedirectionAction: ""
+          Priority: 0
+          Qtype: ""
+          FirewallRuleType:
+            FirewallAdvancedContentCategory:
+              Category: ""
+            FirewallAdvancedThreatCategory:
+              Category: ""
+            PartnerThreatProtection:
+              Partner: ""
+      Tags:
+        - Key: ""
+          Value: ""

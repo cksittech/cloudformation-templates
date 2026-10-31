@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsClustercapacityproviderassociations:
+    Type: AWS::ECS::ClusterCapacityProviderAssociations
+    Properties:
+      CapacityProviders: []
+      Cluster: ""
+      DefaultCapacityProviderStrategy:
+        - Base: 0
+          CapacityProvider: ""
+          Weight: 0

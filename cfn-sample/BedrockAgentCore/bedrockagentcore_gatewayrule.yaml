@@ -1,0 +1,75 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreGatewayrule:
+    Type: AWS::BedrockAgentCore::GatewayRule
+    Properties:
+      Description: ""
+      GatewayIdentifier: ""
+      Priority: 0
+      Actions:
+        - ConfigurationBundle:
+            StaticOverride:
+              BundleArn: ""
+              BundleVersion: ""
+            WeightedOverride:
+              TrafficSplit:
+                - Description: ""
+                  Name: ""
+                  Weight: 0
+                  ConfigurationBundle:
+                    BundleArn: ""
+                    BundleVersion: ""
+                  Metadata: {}
+          RouteToTarget:
+            StaticRoute:
+              Model: ""
+              TargetName: ""
+              Fallback:
+                FirstByteTimeoutMilliseconds: 0
+                CircuitBreaker:
+                  Mode: ""
+                TargetFallback:
+                  - FirstByteTimeoutMilliseconds: 0
+                    Model: ""
+                    TargetName: ""
+                    TriggerOn:
+                      Errors: []
+                      StatusCodes: []
+                TriggerOn:
+                  Errors: []
+                  StatusCodes: []
+            WeightedRoute:
+              TrafficSplit:
+                - Description: ""
+                  Model: ""
+                  Name: ""
+                  TargetName: ""
+                  Weight: 0
+                  Fallback:
+                    FirstByteTimeoutMilliseconds: 0
+                    CircuitBreaker:
+                      Mode: ""
+                    TargetFallback:
+                      - FirstByteTimeoutMilliseconds: 0
+                        Model: ""
+                        TargetName: ""
+                        TriggerOn:
+                          Errors: []
+                          StatusCodes: []
+                    TriggerOn:
+                      Errors: []
+                      StatusCodes: []
+                  Metadata: {}
+      Conditions:
+        - MatchModels:
+            AnyOf:
+              - Operator: ""
+                Value: ""
+          MatchPaths:
+            AnyOf: []
+          MatchPrincipals:
+            AnyOf:
+              - IamPrincipal:
+                  Arn: ""
+                  Operator: ""

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppintegrationsDataintegration:
+    Type: AWS::AppIntegrations::DataIntegration
+    Properties:
+      Description: ""
+      KmsKey: ""
+      Name: ""
+      SourceURI: ""
+      FileConfiguration:
+        Folders: []
+        Filters: {}
+      ObjectConfiguration: {}
+      ScheduleConfig:
+        FirstExecutionFrom: ""
+        Object: ""
+        ScheduleExpression: ""
+      Tags:
+        - Key: ""
+          Value: ""

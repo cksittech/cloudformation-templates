@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleControltowerEnabledcontrol:
+    Type: AWS::ControlTower::EnabledControl
+    Properties:
+      ControlIdentifier: ""
+      TargetIdentifier: ""
+      Parameters:
+        - Key: ""
+          Value: []
+      Tags:
+        - Key: ""
+          Value: ""

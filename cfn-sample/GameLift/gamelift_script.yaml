@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftScript:
+    Type: AWS::GameLift::Script
+    Properties:
+      Name: ""
+      NodeJsVersion: ""
+      Version: ""
+      StorageLocation:
+        Bucket: ""
+        Key: ""
+        ObjectVersion: ""
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

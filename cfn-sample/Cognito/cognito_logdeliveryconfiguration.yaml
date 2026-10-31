@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoLogdeliveryconfiguration:
+    Type: AWS::Cognito::LogDeliveryConfiguration
+    Properties:
+      UserPoolId: ""
+      LogConfigurations:
+        - EventSource: ""
+          LogLevel: ""
+          CloudWatchLogsConfiguration:
+            LogGroupArn: ""
+          FirehoseConfiguration:
+            StreamArn: ""
+          S3Configuration:
+            BucketArn: ""

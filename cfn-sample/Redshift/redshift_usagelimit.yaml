@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftUsagelimit:
+    Type: AWS::Redshift::UsageLimit
+    Properties:
+      Amount: 0
+      BreachAction: ""
+      ClusterIdentifier: ""
+      FeatureType: ""
+      LimitType: ""
+      Period: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,70 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorFunction:
+    Type: AWS::MediaTailor::Function
+    Properties:
+      Description: ""
+      FunctionId: ""
+      FunctionType: ""
+      AwsServiceRequestConfiguration:
+        Body: ""
+        MethodType: ""
+        RequestTimeoutMilliseconds: 0
+        Runtime: ""
+        TargetRegion: ""
+        TargetService: ""
+        Url: ""
+        Cache:
+          Key: ""
+          TtlMaximumSeconds: 0
+          TtlMinimumSeconds: 0
+        Headers: {}
+        Output: {}
+      ConcurrentExecutorConfiguration:
+        MaxConcurrency: 0
+        Runtime: ""
+        TimeoutMilliseconds: 0
+        FunctionList:
+          - Alias: ""
+            FunctionId: ""
+            RunCondition: ""
+        Output: {}
+      CustomOutputConfiguration:
+        Runtime: ""
+        Output: {}
+      HttpRequestConfiguration:
+        Body: ""
+        MethodType: ""
+        RequestTimeoutMilliseconds: 0
+        Runtime: ""
+        Url: ""
+        Cache:
+          Key: ""
+          TtlMaximumSeconds: 0
+          TtlMinimumSeconds: 0
+        Headers: {}
+        Output: {}
+      SequentialExecutorConfiguration:
+        Runtime: ""
+        TimeoutMilliseconds: 0
+        FunctionList:
+          - Alias: ""
+            FunctionId: ""
+            RunCondition: ""
+        Output: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      VastRequestConfiguration:
+        Body: ""
+        MethodType: ""
+        RequestTimeoutMilliseconds: 0
+        Runtime: ""
+        Url: ""
+        Cache:
+          Key: ""
+          TtlMaximumSeconds: 0
+          TtlMinimumSeconds: 0
+        Headers: {}
+        Output: {}

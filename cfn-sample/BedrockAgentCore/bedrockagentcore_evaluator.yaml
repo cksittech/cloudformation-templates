@@ -1,0 +1,73 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreEvaluator:
+    Type: AWS::BedrockAgentCore::Evaluator
+    Properties:
+      Description: ""
+      EvaluatorName: ""
+      KmsKeyArn: ""
+      Level: ""
+      EvaluatorConfig:
+        CodeBased:
+          LambdaConfig:
+            LambdaArn: ""
+            LambdaTimeoutInSeconds: 0
+        Derived:
+          BaseEvaluatorId: ""
+          ModelConfig:
+            BedrockEvaluatorModelConfig:
+              ModelId: ""
+              AdditionalModelRequestFields: {}
+              InferenceConfig:
+                MaxTokens: 0
+                StopSequences: []
+                Temperature: 0
+                TopP: 0
+            ResponsesEvaluatorModelConfig:
+              MaxOutputTokens: 0
+              ModelId: ""
+              Temperature: 0
+              TopP: 0
+              Reasoning:
+                Effort: ""
+        LlmAsAJudge:
+          Instructions: ""
+          ModelConfig:
+            BedrockEvaluatorModelConfig:
+              ModelId: ""
+              AdditionalModelRequestFields: {}
+              InferenceConfig:
+                MaxTokens: 0
+                StopSequences: []
+                Temperature: 0
+                TopP: 0
+            ResponsesEvaluatorModelConfig:
+              MaxOutputTokens: 0
+              ModelId: ""
+              Temperature: 0
+              TopP: 0
+              Reasoning:
+                Effort: ""
+          RatingScale:
+            Categorical:
+              - Definition: ""
+                Label: ""
+            MultiDimensional:
+              - DimensionInstruction: ""
+                DimensionName: ""
+                DimensionRatingScale:
+                  Categorical:
+                    - Definition: ""
+                      Label: ""
+                  Numerical:
+                    - Definition: ""
+                      Label: ""
+                      Value: 0
+            Numerical:
+              - Definition: ""
+                Label: ""
+                Value: 0
+      Tags:
+        - Key: ""
+          Value: ""

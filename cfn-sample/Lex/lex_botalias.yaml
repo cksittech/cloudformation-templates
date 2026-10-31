@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLexBotalias:
+    Type: AWS::Lex::BotAlias
+    Properties:
+      BotAliasName: ""
+      BotId: ""
+      BotVersion: ""
+      Description: ""
+      BotAliasLocaleSettings:
+        - LocaleId: ""
+          BotAliasLocaleSetting:
+            Enabled: false
+            CodeHookSpecification:
+              LambdaCodeHook:
+                CodeHookInterfaceVersion: ""
+                LambdaArn: ""
+      BotAliasTags:
+        - Key: ""
+          Value: ""
+      ConversationLogSettings:
+        AudioLogSettings:
+          - Enabled: false
+            Destination:
+              S3Bucket:
+                KmsKeyArn: ""
+                LogPrefix: ""
+                S3BucketArn: ""
+        TextLogSettings:
+          - Enabled: false
+            Destination:
+              CloudWatch:
+                CloudWatchLogGroupArn: ""
+                LogPrefix: ""
+      SentimentAnalysisSettings:
+        DetectSentiment: false

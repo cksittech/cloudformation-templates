@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkacl:
+    Type: AWS::EC2::NetworkAcl
+    Properties:
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

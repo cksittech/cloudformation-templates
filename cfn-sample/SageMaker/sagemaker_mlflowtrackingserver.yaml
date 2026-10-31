@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerMlflowtrackingserver:
+    Type: AWS::SageMaker::MlflowTrackingServer
+    Properties:
+      ArtifactStoreUri: ""
+      AutomaticModelRegistration: false
+      MlflowVersion: ""
+      RoleArn: ""
+      TrackingServerName: ""
+      TrackingServerSize: ""
+      WeeklyMaintenanceWindowStart: ""
+      Tags:
+        - Key: ""
+          Value: ""

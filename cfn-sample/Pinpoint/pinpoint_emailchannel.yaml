@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointEmailchannel:
+    Type: AWS::Pinpoint::EmailChannel
+    Properties:
+      ApplicationId: ""
+      ConfigurationSet: ""
+      Enabled: false
+      FromAddress: ""
+      Identity: ""
+      OrchestrationSendingRoleArn: ""
+      RoleArn: ""

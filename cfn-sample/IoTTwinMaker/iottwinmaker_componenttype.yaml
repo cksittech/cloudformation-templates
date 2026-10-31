@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIottwinmakerComponenttype:
+    Type: AWS::IoTTwinMaker::ComponentType
+    Properties:
+      ComponentTypeId: ""
+      Description: ""
+      ExtendsFrom: []
+      IsSingleton: false
+      WorkspaceId: ""
+      CompositeComponentTypes: {}
+      Functions: {}
+      PropertyDefinitions: {}
+      PropertyGroups: {}
+      Tags: {}

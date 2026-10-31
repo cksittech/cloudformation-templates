@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeDomainverification:
+    Type: AWS::VpcLattice::DomainVerification
+    Properties:
+      DomainName: ""
+      Tags:
+        - Key: ""
+          Value: ""

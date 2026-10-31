@@ -1,0 +1,92 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagePackagingconfiguration:
+    Type: AWS::MediaPackage::PackagingConfiguration
+    Properties:
+      Id: ""
+      PackagingGroupId: ""
+      CmafPackage:
+        IncludeEncoderConfigurationInSegments: false
+        SegmentDurationSeconds: 0
+        Encryption:
+          SpekeKeyProvider:
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration:
+              PresetSpeke20Audio: ""
+              PresetSpeke20Video: ""
+        HlsManifests:
+          - AdMarkers: ""
+            IncludeIframeOnlyStream: false
+            ManifestName: ""
+            ProgramDateTimeIntervalSeconds: 0
+            RepeatExtXKey: false
+            StreamSelection:
+              MaxVideoBitsPerSecond: 0
+              MinVideoBitsPerSecond: 0
+              StreamOrder: ""
+      DashPackage:
+        IncludeEncoderConfigurationInSegments: false
+        IncludeIframeOnlyStream: false
+        PeriodTriggers: []
+        SegmentDurationSeconds: 0
+        SegmentTemplateFormat: ""
+        DashManifests:
+          - ManifestLayout: ""
+            ManifestName: ""
+            MinBufferTimeSeconds: 0
+            Profile: ""
+            ScteMarkersSource: ""
+            StreamSelection:
+              MaxVideoBitsPerSecond: 0
+              MinVideoBitsPerSecond: 0
+              StreamOrder: ""
+        Encryption:
+          SpekeKeyProvider:
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration:
+              PresetSpeke20Audio: ""
+              PresetSpeke20Video: ""
+      HlsPackage:
+        IncludeDvbSubtitles: false
+        SegmentDurationSeconds: 0
+        UseAudioRenditionGroup: false
+        Encryption:
+          ConstantInitializationVector: ""
+          EncryptionMethod: ""
+          SpekeKeyProvider:
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration: {}
+        HlsManifests:
+          - AdMarkers: ""
+            IncludeIframeOnlyStream: false
+            ManifestName: ""
+            ProgramDateTimeIntervalSeconds: 0
+            RepeatExtXKey: false
+            StreamSelection:
+              MaxVideoBitsPerSecond: 0
+              MinVideoBitsPerSecond: 0
+              StreamOrder: ""
+      MssPackage:
+        SegmentDurationSeconds: 0
+        Encryption:
+          SpekeKeyProvider:
+            RoleArn: ""
+            SystemIds: []
+            Url: ""
+            EncryptionContractConfiguration: {}
+        MssManifests:
+          - ManifestName: ""
+            StreamSelection:
+              MaxVideoBitsPerSecond: 0
+              MinVideoBitsPerSecond: 0
+              StreamOrder: ""
+      Tags:
+        - Key: ""
+          Value: ""

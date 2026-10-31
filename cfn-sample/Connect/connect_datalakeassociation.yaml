@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectDatalakeassociation:
+    Type: AWS::Connect::DataLakeAssociation
+    Properties:
+      DataSetId: ""
+      InstanceId: ""
+      TargetAccountId: ""

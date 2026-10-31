@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmazonmqBroker:
+    Type: AWS::AmazonMQ::Broker
+    Properties:
+      AuthenticationStrategy: ""
+      AutoMinorVersionUpgrade: false
+      BrokerName: ""
+      DataReplicationMode: ""
+      DataReplicationPrimaryBrokerArn: ""
+      DeploymentMode: ""
+      EngineType: ""
+      EngineVersion: ""
+      HostInstanceType: ""
+      PubliclyAccessible: false
+      ResourceShareArns: []
+      SecurityGroups: []
+      StorageSize: 0
+      StorageType: ""
+      SubnetIds: []
+      Configuration:
+        Id: ""
+        Revision: 0
+      EncryptionOptions:
+        KmsKeyId: ""
+        UseAwsOwnedKey: false
+      LdapServerMetadata:
+        Hosts: []
+        RoleBase: ""
+        RoleName: ""
+        RoleSearchMatching: ""
+        RoleSearchSubtree: false
+        ServiceAccountPassword: ""
+        ServiceAccountUsername: ""
+        UserBase: ""
+        UserRoleName: ""
+        UserSearchMatching: ""
+        UserSearchSubtree: false
+      Logs:
+        Audit: false
+        General: false
+      MaintenanceWindowStartTime:
+        DayOfWeek: ""
+        TimeOfDay: ""
+        TimeZone: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Users:
+        - ConsoleAccess: false
+          Groups: []
+          Password: ""
+          ReplicationUser: false
+          Username: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectTrafficdistributiongroup:
+    Type: AWS::Connect::TrafficDistributionGroup
+    Properties:
+      Description: ""
+      InstanceArn: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

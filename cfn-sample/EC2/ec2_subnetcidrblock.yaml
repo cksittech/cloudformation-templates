@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Subnetcidrblock:
+    Type: AWS::EC2::SubnetCidrBlock
+    Properties:
+      Ipv6CidrBlock: ""
+      Ipv6IpamPoolId: ""
+      Ipv6NetmaskLength: 0
+      SubnetId: ""

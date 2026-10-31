@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOrganizationsAccount:
+    Type: AWS::Organizations::Account
+    Properties:
+      AccountName: ""
+      Email: ""
+      ParentIds: []
+      RoleName: "OrganizationAccountAccessRole"
+      Tags:
+        - Key: ""
+          Value: ""

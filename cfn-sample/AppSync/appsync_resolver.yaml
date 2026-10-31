@@ -1,0 +1,32 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncResolver:
+    Type: AWS::AppSync::Resolver
+    Properties:
+      ApiId: ""
+      Code: ""
+      CodeS3Location: ""
+      DataSourceName: ""
+      FieldName: ""
+      Kind: ""
+      MaxBatchSize: 0
+      MetricsConfig: ""
+      RequestMappingTemplate: ""
+      RequestMappingTemplateS3Location: ""
+      ResponseMappingTemplate: ""
+      ResponseMappingTemplateS3Location: ""
+      TypeName: ""
+      CachingConfig:
+        CachingKeys: []
+        Ttl: 0
+      PipelineConfig:
+        Functions: []
+      Runtime:
+        Name: ""
+        RuntimeVersion: ""
+      SyncConfig:
+        ConflictDetection: ""
+        ConflictHandler: ""
+        LambdaConflictHandlerConfig:
+          LambdaConflictHandlerArn: ""

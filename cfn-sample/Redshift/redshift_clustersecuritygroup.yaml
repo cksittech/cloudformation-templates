@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftClustersecuritygroup:
+    Type: AWS::Redshift::ClusterSecurityGroup
+    Properties:
+      Description: ""
+      Tags:
+        - Key: ""
+          Value: ""

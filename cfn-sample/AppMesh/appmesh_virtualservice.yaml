@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppmeshVirtualservice:
+    Type: AWS::AppMesh::VirtualService
+    Properties:
+      MeshName: ""
+      MeshOwner: ""
+      VirtualServiceName: ""
+      Spec:
+        Provider:
+          VirtualNode:
+            VirtualNodeName: ""
+          VirtualRouter:
+            VirtualRouterName: ""
+      Tags:
+        - Key: ""
+          Value: ""

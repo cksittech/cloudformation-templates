@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsDelivery:
+    Type: AWS::Logs::Delivery
+    Properties:
+      DeliveryDestinationArn: ""
+      DeliverySourceName: ""
+      FieldDelimiter: ""
+      RecordFields: []
+      S3EnableHiveCompatiblePath: false
+      S3SuffixPath: ""
+      Tags:
+        - Key: ""
+          Value: ""

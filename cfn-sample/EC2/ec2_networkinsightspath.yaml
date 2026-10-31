@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinsightspath:
+    Type: AWS::EC2::NetworkInsightsPath
+    Properties:
+      Destination: ""
+      DestinationIp: ""
+      DestinationPort: 0
+      Protocol: ""
+      Source: ""
+      SourceIp: ""
+      FilterAtDestination:
+        DestinationAddress: ""
+        SourceAddress: ""
+        DestinationPortRange:
+          FromPort: 0
+          ToPort: 0
+        SourcePortRange:
+          FromPort: 0
+          ToPort: 0
+      FilterAtSource:
+        DestinationAddress: ""
+        SourceAddress: ""
+        DestinationPortRange:
+          FromPort: 0
+          ToPort: 0
+        SourcePortRange:
+          FromPort: 0
+          ToPort: 0
+      Tags:
+        - Key: ""
+          Value: ""

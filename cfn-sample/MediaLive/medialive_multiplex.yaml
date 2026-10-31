@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveMultiplex:
+    Type: AWS::MediaLive::Multiplex
+    Properties:
+      AvailabilityZones: []
+      Name: ""
+      Destinations:
+        - MultiplexMediaConnectOutputDestinationSettings:
+            EntitlementArn: ""
+      MultiplexSettings:
+        MaximumVideoBufferDelayMilliseconds: 0
+        TransportStreamBitrate: 0
+        TransportStreamId: 0
+        TransportStreamReservedBitrate: 0
+      Tags:
+        - Key: ""
+          Value: ""

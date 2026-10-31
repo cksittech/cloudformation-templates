@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Trafficmirrorsession:
+    Type: AWS::EC2::TrafficMirrorSession
+    Properties:
+      Description: ""
+      NetworkInterfaceId: ""
+      OwnerId: ""
+      PacketLength: 0
+      SessionNumber: 0
+      TrafficMirrorFilterId: ""
+      TrafficMirrorTargetId: ""
+      VirtualNetworkId: 0
+      Tags:
+        - Key: ""
+          Value: ""

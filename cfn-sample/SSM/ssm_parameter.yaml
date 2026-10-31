@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmParameter:
+    Type: AWS::SSM::Parameter
+    Properties:
+      AllowedPattern: ""
+      DataType: ""
+      Description: ""
+      Name: ""
+      Policies: ""
+      Tier: ""
+      Type: ""
+      Value: ""
+      Tags: {}

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVerifiedpermissionsPolicytemplate:
+    Type: AWS::VerifiedPermissions::PolicyTemplate
+    Properties:
+      Description: ""
+      Name: ""
+      PolicyStoreId: ""
+      Statement: ""

@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApsWorkspace:
+    Type: AWS::APS::Workspace
+    Properties:
+      AlertManagerDefinition: ""
+      Alias: ""
+      KmsKeyArn: ""
+      LoggingConfiguration:
+        LogGroupArn: ""
+      QueryLoggingConfiguration:
+        Destinations:
+          - CloudWatchLogs:
+              LogGroupArn: ""
+            Filters:
+              QspThreshold: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      WorkspaceConfiguration:
+        OutOfOrderTimeWindowInSeconds: 0
+        RetentionPeriodInDays: 0
+        RuleQueryOffsetInSeconds: 0
+        LimitsPerLabelSets:
+          - LabelSet:
+              - Name: ""
+                Value: ""
+            Limits:
+              MaxSeries: 0

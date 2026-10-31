@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolclient:
+    Type: AWS::Cognito::UserPoolClient
+    Properties:
+      AccessTokenValidity: 0
+      AllowedOAuthFlows: []
+      AllowedOAuthFlowsUserPoolClient: false
+      AllowedOAuthScopes: []
+      AuthSessionValidity: 0
+      CallbackURLs: []
+      ClientName: ""
+      DefaultRedirectURI: ""
+      EnablePropagateAdditionalUserContextData: false
+      EnableTokenRevocation: false
+      ExplicitAuthFlows: []
+      GenerateSecret: false
+      IdTokenValidity: 0
+      LogoutURLs: []
+      PreventUserExistenceErrors: ""
+      ReadAttributes: []
+      RefreshTokenValidity: 0
+      SupportedIdentityProviders: []
+      UserPoolId: ""
+      WriteAttributes: []
+      AnalyticsConfiguration:
+        ApplicationArn: ""
+        ApplicationId: ""
+        ExternalId: ""
+        RoleArn: ""
+        UserDataShared: false
+      RefreshTokenRotation:
+        Feature: ""
+        RetryGracePeriodSeconds: 0
+      TokenValidityUnits:
+        AccessToken: ""
+        IdToken: ""
+        RefreshToken: ""

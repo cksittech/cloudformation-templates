@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineLimit:
+    Type: AWS::Deadline::Limit
+    Properties:
+      AmountRequirementName: ""
+      Description: ""
+      DisplayName: ""
+      FarmId: ""
+      MaxCount: 0

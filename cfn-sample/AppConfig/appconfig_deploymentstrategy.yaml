@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigDeploymentstrategy:
+    Type: AWS::AppConfig::DeploymentStrategy
+    Properties:
+      DeploymentDurationInMinutes: 0
+      Description: ""
+      FinalBakeTimeInMinutes: 0
+      GrowthFactor: 0
+      GrowthType: ""
+      Name: ""
+      ReplicateTo: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreConfigurationbundle:
+    Type: AWS::BedrockAgentCore::ConfigurationBundle
+    Properties:
+      BranchName: ""
+      BundleName: ""
+      CommitMessage: ""
+      Description: ""
+      KmsKeyArn: ""
+      Components: {}
+      CreatedBy:
+        Arn: ""
+        Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

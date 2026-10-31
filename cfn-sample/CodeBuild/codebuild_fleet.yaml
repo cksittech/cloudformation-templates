@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodebuildFleet:
+    Type: AWS::CodeBuild::Fleet
+    Properties:
+      BaseCapacity: 0
+      ComputeType: ""
+      EnvironmentType: ""
+      FleetServiceRole: ""
+      ImageId: ""
+      Name: ""
+      OverflowBehavior: ""
+      ComputeConfiguration:
+        disk: 0
+        instanceType: ""
+        machineType: ""
+        memory: 0
+        vCpu: 0
+      FleetProxyConfiguration:
+        DefaultBehavior: ""
+        OrderedProxyRules:
+          - Effect: ""
+            Entities: []
+            Type: ""
+      FleetVpcConfig:
+        SecurityGroupIds: []
+        Subnets: []
+        VpcId: ""
+      ScalingConfiguration:
+        MaxCapacity: 0
+        ScalingType: ""
+        TargetTrackingScalingConfigs:
+          - MetricType: ""
+            TargetValue: 0
+      Tags:
+        - Key: ""
+          Value: ""

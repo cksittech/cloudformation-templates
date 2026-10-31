@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodeartifactPackagegroup:
+    Type: AWS::CodeArtifact::PackageGroup
+    Properties:
+      ContactInfo: ""
+      Description: ""
+      DomainName: ""
+      DomainOwner: ""
+      Pattern: ""
+      OriginConfiguration:
+        Restrictions:
+          ExternalUpstream:
+            Repositories: []
+            RestrictionMode: ""
+          InternalUpstream:
+            Repositories: []
+            RestrictionMode: ""
+          Publish:
+            Repositories: []
+            RestrictionMode: ""
+      Tags:
+        - Key: ""
+          Value: ""

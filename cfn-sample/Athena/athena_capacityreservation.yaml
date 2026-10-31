@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAthenaCapacityreservation:
+    Type: AWS::Athena::CapacityReservation
+    Properties:
+      Name: ""
+      TargetDpus: 0
+      CapacityAssignmentConfiguration:
+        CapacityAssignments:
+          - WorkgroupNames: []
+      Tags:
+        - Key: ""
+          Value: ""

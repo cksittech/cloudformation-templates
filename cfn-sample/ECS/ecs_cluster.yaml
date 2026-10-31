@@ -1,0 +1,33 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsCluster:
+    Type: AWS::ECS::Cluster
+    Properties:
+      CapacityProviders: []
+      ClusterName: ""
+      ClusterSettings:
+        - Name: ""
+          Value: ""
+      Configuration:
+        ExecuteCommandConfiguration:
+          KmsKeyId: ""
+          Logging: ""
+          LogConfiguration:
+            CloudWatchEncryptionEnabled: false
+            CloudWatchLogGroupName: ""
+            S3BucketName: ""
+            S3EncryptionEnabled: false
+            S3KeyPrefix: ""
+        ManagedStorageConfiguration:
+          FargateEphemeralStorageKmsKeyId: ""
+          KmsKeyId: ""
+      DefaultCapacityProviderStrategy:
+        - Base: 0
+          CapacityProvider: ""
+          Weight: 0
+      ServiceConnectDefaults:
+        Namespace: ""
+      Tags:
+        - Key: ""
+          Value: ""

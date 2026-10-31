@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkflowmonitorMonitor:
+    Type: AWS::NetworkFlowMonitor::Monitor
+    Properties:
+      MonitorName: ""
+      ScopeArn: ""
+      LocalResources:
+        - Identifier: ""
+          Type: ""
+      RemoteResources:
+        - Identifier: ""
+          Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

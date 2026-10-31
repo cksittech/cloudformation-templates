@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderLifecyclepolicy:
+    Type: AWS::ImageBuilder::LifecyclePolicy
+    Properties:
+      Description: ""
+      ExecutionRole: ""
+      Name: ""
+      ResourceType: ""
+      Status: ""
+      PolicyDetails:
+        - Action:
+            Type: ""
+            IncludeResources:
+              Amis: false
+              Containers: false
+              Snapshots: false
+          ExclusionRules:
+            Amis:
+              IsPublic: false
+              Regions: []
+              SharedAccounts: []
+              LastLaunched:
+                Unit: ""
+                Value: 0
+              TagMap: {}
+            TagMap: {}
+          Filter:
+            RetainAtLeast: 0
+            Type: ""
+            Unit: ""
+            Value: 0
+      ResourceSelection:
+        Recipes:
+          - Name: ""
+            SemanticVersion: ""
+        TagMap: {}
+      Tags: {}

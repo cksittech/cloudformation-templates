@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKendraDatasource:
+    Type: AWS::Kendra::DataSource
+    Properties:
+      Description: ""
+      IndexId: ""
+      LanguageCode: ""
+      Name: ""
+      RoleArn: ""
+      Schedule: ""
+      Type: ""
+      CustomDocumentEnrichmentConfiguration:
+        RoleArn: ""
+        InlineConfigurations:
+          - DocumentContentDeletion: false
+            Condition:
+              ConditionDocumentAttributeKey: ""
+              Operator: ""
+              ConditionOnValue:
+                DateValue: ""
+                LongValue: 0
+                StringListValue: []
+                StringValue: ""
+            Target:
+              TargetDocumentAttributeKey: ""
+              TargetDocumentAttributeValueDeletion: false
+              TargetDocumentAttributeValue:
+                DateValue: ""
+                LongValue: 0
+                StringListValue: []
+                StringValue: ""
+        PostExtractionHookConfiguration:
+          LambdaArn: ""
+          S3Bucket: ""
+          InvocationCondition:
+            ConditionDocumentAttributeKey: ""
+            Operator: ""
+            ConditionOnValue:
+              DateValue: ""
+              LongValue: 0
+              StringListValue: []
+              StringValue: ""
+        PreExtractionHookConfiguration:
+          LambdaArn: ""
+          S3Bucket: ""
+          InvocationCondition:
+            ConditionDocumentAttributeKey: ""
+            Operator: ""
+            ConditionOnValue:
+              DateValue: ""
+              LongValue: 0
+              StringListValue: []
+              StringValue: ""
+      DataSourceConfiguration:
+        TemplateConfiguration:
+          Template: {}
+      Tags:
+        - Key: ""
+          Value: ""

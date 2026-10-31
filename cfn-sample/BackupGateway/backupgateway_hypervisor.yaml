@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBackupgatewayHypervisor:
+    Type: AWS::BackupGateway::Hypervisor
+    Properties:
+      Host: ""
+      KmsKeyArn: ""
+      LogGroupArn: ""
+      Name: ""
+      Password: ""
+      Username: ""
+      Tags:
+        - Key: ""
+          Value: ""

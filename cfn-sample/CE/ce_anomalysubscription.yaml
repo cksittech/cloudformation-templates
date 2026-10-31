@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCeAnomalysubscription:
+    Type: AWS::CE::AnomalySubscription
+    Properties:
+      Frequency: ""
+      MonitorArnList: []
+      SubscriptionName: ""
+      Threshold: 0
+      ThresholdExpression: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""
+      Subscribers:
+        - Address: ""
+          Type: ""

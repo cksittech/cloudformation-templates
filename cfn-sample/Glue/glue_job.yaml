@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueJob:
+    Type: AWS::Glue::Job
+    Properties:
+      AllocatedCapacity: 0
+      Description: ""
+      ExecutionClass: ""
+      GlueVersion: ""
+      JobMode: ""
+      JobRunQueuingEnabled: false
+      LogUri: ""
+      MaintenanceWindow: ""
+      MaxCapacity: 0
+      MaxRetries: 0
+      Name: ""
+      NumberOfWorkers: 0
+      Role: ""
+      SecurityConfiguration: ""
+      Timeout: 0
+      WorkerType: ""
+      Command:
+        Name: ""
+        PythonVersion: ""
+        Runtime: ""
+        ScriptLocation: ""
+      Connections:
+        Connections: []
+      DefaultArguments: {}
+      ExecutionProperty:
+        MaxConcurrentRuns: 0
+      NonOverridableArguments: {}
+      NotificationProperty:
+        NotifyDelayAfter: 0
+      Tags: {}

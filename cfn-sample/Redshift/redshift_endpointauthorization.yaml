@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftEndpointauthorization:
+    Type: AWS::Redshift::EndpointAuthorization
+    Properties:
+      Account: ""
+      ClusterIdentifier: ""
+      Force: false
+      VpcIds: []

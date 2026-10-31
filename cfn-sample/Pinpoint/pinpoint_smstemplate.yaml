@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointSmstemplate:
+    Type: AWS::Pinpoint::SmsTemplate
+    Properties:
+      Body: ""
+      DefaultSubstitutions: ""
+      TemplateDescription: ""
+      TemplateName: ""
+      Tags: {}

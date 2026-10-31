@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointGcmchannel:
+    Type: AWS::Pinpoint::GCMChannel
+    Properties:
+      ApiKey: ""
+      ApplicationId: ""
+      DefaultAuthenticationMethod: ""
+      Enabled: false
+      ServiceJson: ""

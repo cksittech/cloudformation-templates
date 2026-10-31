@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleProtonEnvironmentaccountconnection:
+    Type: AWS::Proton::EnvironmentAccountConnection
+    Properties:
+      CodebuildRoleArn: ""
+      ComponentRoleArn: ""
+      EnvironmentAccountId: ""
+      EnvironmentName: ""
+      ManagementAccountId: ""
+      RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

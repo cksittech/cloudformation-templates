@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerTransitgatewaypeering:
+    Type: AWS::NetworkManager::TransitGatewayPeering
+    Properties:
+      CoreNetworkId: ""
+      TransitGatewayArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

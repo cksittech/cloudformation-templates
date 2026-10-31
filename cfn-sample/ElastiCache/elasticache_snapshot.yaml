@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheSnapshot:
+    Type: AWS::ElastiCache::Snapshot
+    Properties:
+      CacheClusterId: ""
+      KmsKeyId: ""
+      ReplicationGroupId: ""
+      SnapshotName: ""
+      Tags:
+        - Key: ""
+          Value: ""

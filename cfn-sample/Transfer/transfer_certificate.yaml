@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTransferCertificate:
+    Type: AWS::Transfer::Certificate
+    Properties:
+      ActiveDate: ""
+      Certificate: ""
+      CertificateChain: ""
+      Description: ""
+      InactiveDate: ""
+      PrivateKey: ""
+      Usage: ""
+      Tags:
+        - Key: ""
+          Value: ""

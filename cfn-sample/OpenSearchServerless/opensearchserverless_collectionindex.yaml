@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessCollectionindex:
+    Type: AWS::OpenSearchServerless::CollectionIndex
+    Properties:
+      Id: ""
+      IndexName: ""
+      IndexSchema: ""

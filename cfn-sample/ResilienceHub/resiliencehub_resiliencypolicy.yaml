@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubResiliencypolicy:
+    Type: AWS::ResilienceHub::ResiliencyPolicy
+    Properties:
+      DataLocationConstraint: ""
+      PolicyDescription: ""
+      PolicyName: ""
+      Tier: ""
+      Policy:
+        AZ:
+          RpoInSecs: 0
+          RtoInSecs: 0
+        Hardware:
+          RpoInSecs: 0
+          RtoInSecs: 0
+        Region:
+          RpoInSecs: 0
+          RtoInSecs: 0
+        Software:
+          RpoInSecs: 0
+          RtoInSecs: 0
+      Tags: {}

@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcrRepository:
+    Type: AWS::ECR::Repository
+    Properties:
+      EmptyOnDelete: false
+      ImageTagMutability: ""
+      RepositoryName: ""
+      EncryptionConfiguration:
+        EncryptionType: ""
+        KmsKey: ""
+      ImageScanningConfiguration:
+        ScanOnPush: false
+      ImageTagMutabilityExclusionFilters:
+        - ImageTagMutabilityExclusionFilterType: ""
+          ImageTagMutabilityExclusionFilterValue: ""
+      LifecyclePolicy:
+        LifecyclePolicyText: ""
+        RegistryId: ""
+      RepositoryPolicyText: {}
+      Tags:
+        - Key: ""
+          Value: ""

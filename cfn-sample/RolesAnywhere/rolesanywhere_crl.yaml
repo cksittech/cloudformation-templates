@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRolesanywhereCrl:
+    Type: AWS::RolesAnywhere::CRL
+    Properties:
+      CrlData: ""
+      Enabled: false
+      Name: ""
+      TrustAnchorArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

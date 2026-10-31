@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolriskconfigurationattachment:
+    Type: AWS::Cognito::UserPoolRiskConfigurationAttachment
+    Properties:
+      ClientId: ""
+      UserPoolId: ""
+      AccountTakeoverRiskConfiguration:
+        Actions:
+          HighAction:
+            EventAction: ""
+            Notify: false
+          LowAction:
+            EventAction: ""
+            Notify: false
+          MediumAction:
+            EventAction: ""
+            Notify: false
+        NotifyConfiguration:
+          From: ""
+          ReplyTo: ""
+          SourceArn: ""
+          BlockEmail:
+            HtmlBody: ""
+            Subject: ""
+            TextBody: ""
+          MfaEmail:
+            HtmlBody: ""
+            Subject: ""
+            TextBody: ""
+          NoActionEmail:
+            HtmlBody: ""
+            Subject: ""
+            TextBody: ""
+      CompromisedCredentialsRiskConfiguration:
+        EventFilter: []
+        Actions:
+          EventAction: ""
+      RiskExceptionConfiguration:
+        BlockedIPRangeList: []
+        SkippedIPRangeList: []

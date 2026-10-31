@@ -1,0 +1,26 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectFlowmediastream:
+    Type: AWS::MediaConnect::FlowMediaStream
+    Properties:
+      ClockRate: 0
+      Description: ""
+      FlowArn: ""
+      MediaStreamId: 0
+      MediaStreamName: ""
+      MediaStreamType: ""
+      VideoFormat: ""
+      Attributes:
+        Lang: ""
+        Fmtp:
+          ChannelOrder: ""
+          Colorimetry: ""
+          ExactFramerate: ""
+          Par: ""
+          Range: ""
+          ScanMode: ""
+          Tcs: ""
+      Tags:
+        - Key: ""
+          Value: ""

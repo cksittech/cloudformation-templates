@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsDeployment:
+    Type: AWS::RDS::Deployment
+    Properties:
+      BlueGreenDeploymentName: ""
+      Source: ""
+      TargetAllocatedStorage: 0
+      TargetDBClusterParameterGroupName: ""
+      TargetDBInstanceClass: ""
+      TargetDBParameterGroupName: ""
+      TargetEngineVersion: ""
+      TargetIops: 0
+      TargetStorageThroughput: 0
+      TargetStorageType: ""
+      UpgradeTargetStorageConfig: false
+      Tags:
+        - Key: ""
+          Value: ""

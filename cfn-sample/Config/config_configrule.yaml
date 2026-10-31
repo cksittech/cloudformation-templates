@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigConfigrule:
+    Type: AWS::Config::ConfigRule
+    Properties:
+      ConfigRuleName: ""
+      Description: ""
+      InputParameters: ""
+      MaximumExecutionFrequency: ""
+      Compliance: {}
+      EvaluationModes:
+        - Mode: ""
+      Scope:
+        ComplianceResourceId: ""
+        ComplianceResourceTypes: []
+        TagKey: ""
+        TagValue: ""
+      Source:
+        Owner: ""
+        SourceIdentifier: ""
+        CustomPolicyDetails:
+          EnableDebugLogDelivery: false
+          PolicyRuntime: ""
+          PolicyText: ""
+        SourceDetails:
+          - EventSource: ""
+            MaximumExecutionFrequency: ""
+            MessageType: ""

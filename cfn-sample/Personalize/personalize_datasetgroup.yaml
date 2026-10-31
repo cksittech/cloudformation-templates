@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeDatasetgroup:
+    Type: AWS::Personalize::DatasetGroup
+    Properties:
+      Domain: ""
+      KmsKeyArn: ""
+      Name: ""
+      RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyWebhook:
+    Type: AWS::Amplify::Webhook
+    Properties:
+      AppId: ""
+      BranchName: ""
+      Description: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePiPerfreports:
+    Type: AWS::PI::PerfReports
+    Properties:
+      EndTime: ""
+      Identifier: ""
+      ServiceType: ""
+      StartTime: ""
+      Tags:
+        - Key: ""
+          Value: ""

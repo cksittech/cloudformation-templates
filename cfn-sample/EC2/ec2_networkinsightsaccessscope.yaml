@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinsightsaccessscope:
+    Type: AWS::EC2::NetworkInsightsAccessScope
+    Properties:
+      ExcludePaths:
+        - Destination:
+            PacketHeaderStatement:
+              DestinationAddresses: []
+              DestinationPorts: []
+              DestinationPrefixLists: []
+              Protocols: []
+              SourceAddresses: []
+              SourcePorts: []
+              SourcePrefixLists: []
+            ResourceStatement:
+              ResourceTypes: []
+              Resources: []
+          Source:
+            PacketHeaderStatement:
+              DestinationAddresses: []
+              DestinationPorts: []
+              DestinationPrefixLists: []
+              Protocols: []
+              SourceAddresses: []
+              SourcePorts: []
+              SourcePrefixLists: []
+            ResourceStatement:
+              ResourceTypes: []
+              Resources: []
+          ThroughResources:
+            - ResourceStatement:
+                ResourceTypes: []
+                Resources: []
+      MatchPaths:
+        - Destination:
+            PacketHeaderStatement:
+              DestinationAddresses: []
+              DestinationPorts: []
+              DestinationPrefixLists: []
+              Protocols: []
+              SourceAddresses: []
+              SourcePorts: []
+              SourcePrefixLists: []
+            ResourceStatement:
+              ResourceTypes: []
+              Resources: []
+          Source:
+            PacketHeaderStatement:
+              DestinationAddresses: []
+              DestinationPorts: []
+              DestinationPrefixLists: []
+              Protocols: []
+              SourceAddresses: []
+              SourcePorts: []
+              SourcePrefixLists: []
+            ResourceStatement:
+              ResourceTypes: []
+              Resources: []
+          ThroughResources:
+            - ResourceStatement:
+                ResourceTypes: []
+                Resources: []
+      Tags:
+        - Key: ""
+          Value: ""

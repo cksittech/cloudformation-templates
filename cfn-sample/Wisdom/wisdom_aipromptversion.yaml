@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAipromptversion:
+    Type: AWS::Wisdom::AIPromptVersion
+    Properties:
+      AIPromptId: ""
+      AssistantId: ""
+      ModifiedTimeSeconds: 0

@@ -1,0 +1,123 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpool:
+    Type: AWS::Cognito::UserPool
+    Properties:
+      AliasAttributes: []
+      AutoVerifiedAttributes: []
+      DeletionProtection: ""
+      EmailAuthenticationMessage: ""
+      EmailAuthenticationSubject: ""
+      EmailVerificationMessage: ""
+      EmailVerificationSubject: ""
+      EnabledMfas: []
+      MfaConfiguration: ""
+      SmsAuthenticationMessage: ""
+      SmsVerificationMessage: ""
+      UserPoolName: ""
+      UserPoolTier: ""
+      UsernameAttributes: []
+      WebAuthnFactorConfiguration: ""
+      WebAuthnRelyingPartyID: ""
+      WebAuthnUserVerification: ""
+      AccountRecoverySetting:
+        RecoveryMechanisms:
+          - Name: ""
+            Priority: 0
+      AdminCreateUserConfig:
+        AllowAdminCreateUserOnly: false
+        UnusedAccountValidityDays: 0
+        InviteMessageTemplate:
+          EmailMessage: ""
+          EmailSubject: ""
+          SMSMessage: ""
+      DeviceConfiguration:
+        ChallengeRequiredOnNewDevice: false
+        DeviceOnlyRememberedOnUserPrompt: false
+      EmailConfiguration:
+        ConfigurationSet: ""
+        EmailSendingAccount: ""
+        From: ""
+        ReplyToEmailAddress: ""
+        SourceArn: ""
+      IssuerConfiguration:
+        Type: ""
+      KeyConfiguration:
+        KeyType: ""
+        KmsKeyArn: ""
+      LambdaConfig:
+        CreateAuthChallenge: ""
+        CustomMessage: ""
+        DefineAuthChallenge: ""
+        KMSKeyID: ""
+        PostAuthentication: ""
+        PostConfirmation: ""
+        PreAuthentication: ""
+        PreSignUp: ""
+        PreTokenGeneration: ""
+        UserMigration: ""
+        VerifyAuthChallengeResponse: ""
+        CustomEmailSender:
+          LambdaArn: ""
+          LambdaVersion: ""
+        CustomSMSSender:
+          LambdaArn: ""
+          LambdaVersion: ""
+        InboundFederation:
+          LambdaArn: ""
+          LambdaVersion: ""
+        PreTokenGenerationConfig:
+          LambdaArn: ""
+          LambdaVersion: ""
+      Policies:
+        PasswordPolicy:
+          MinimumLength: 0
+          PasswordHistorySize: 0
+          RequireLowercase: false
+          RequireNumbers: false
+          RequireSymbols: false
+          RequireUppercase: false
+          TemporaryPasswordValidityDays: 0
+        SignInPolicy:
+          AllowedFirstAuthFactors: []
+      Schema:
+        - AttributeDataType: ""
+          DeveloperOnlyAttribute: false
+          Mutable: false
+          Name: ""
+          Required: false
+          NumberAttributeConstraints:
+            MaxValue: ""
+            MinValue: ""
+          StringAttributeConstraints:
+            MaxLength: ""
+            MinLength: ""
+      SmsConfiguration:
+        ExternalId: ""
+        SnsCallerArn: ""
+        SnsRegion: ""
+        EumsSms:
+          CallerArn: ""
+          ConfigurationSetName: ""
+          ExternalId: ""
+          InEntityId: ""
+          InTemplateId: ""
+          OriginationIdentity: ""
+          Region: ""
+      UserAttributeUpdateSettings:
+        AttributesRequireVerificationBeforeUpdate: []
+      UserPoolAddOns:
+        AdvancedSecurityMode: ""
+        AdvancedSecurityAdditionalFlows:
+          CustomAuthMode: ""
+      UserPoolTags: {}
+      UsernameConfiguration:
+        CaseSensitive: false
+      VerificationMessageTemplate:
+        DefaultEmailOption: ""
+        EmailMessage: ""
+        EmailMessageByLink: ""
+        EmailSubject: ""
+        EmailSubjectByLink: ""
+        SmsMessage: ""

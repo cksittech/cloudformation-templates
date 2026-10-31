@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogPortfolio:
+    Type: AWS::ServiceCatalog::Portfolio
+    Properties:
+      AcceptLanguage: ""
+      Description: ""
+      DisplayName: ""
+      ProviderName: ""
+      Tags:
+        - Key: ""
+          Value: ""

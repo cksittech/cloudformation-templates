@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcrRepositorycreationtemplate:
+    Type: AWS::ECR::RepositoryCreationTemplate
+    Properties:
+      AppliedFor: []
+      CustomRoleArn: ""
+      Description: ""
+      ImageTagMutability: ""
+      LifecyclePolicy: ""
+      Prefix: ""
+      RepositoryPolicy: ""
+      EncryptionConfiguration:
+        EncryptionType: ""
+        KmsKey: ""
+      ImageTagMutabilityExclusionFilters:
+        - ImageTagMutabilityExclusionFilterType: ""
+          ImageTagMutabilityExclusionFilterValue: ""
+      ResourceTags:
+        - Key: ""
+          Value: ""

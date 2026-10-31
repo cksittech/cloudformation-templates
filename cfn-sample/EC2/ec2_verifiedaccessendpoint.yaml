@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Verifiedaccessendpoint:
+    Type: AWS::EC2::VerifiedAccessEndpoint
+    Properties:
+      ApplicationDomain: ""
+      AttachmentType: ""
+      Description: ""
+      DomainCertificateArn: ""
+      EndpointDomainPrefix: ""
+      EndpointType: ""
+      PolicyDocument: ""
+      PolicyEnabled: false
+      SecurityGroupIds: []
+      VerifiedAccessGroupId: ""
+      CidrOptions:
+        Cidr: ""
+        Protocol: ""
+        SubnetIds: []
+        PortRanges:
+          - FromPort: 0
+            ToPort: 0
+      LoadBalancerOptions:
+        LoadBalancerArn: ""
+        Port: 0
+        Protocol: ""
+        SubnetIds: []
+        PortRanges:
+          - FromPort: 0
+            ToPort: 0
+      NetworkInterfaceOptions:
+        NetworkInterfaceId: ""
+        Port: 0
+        Protocol: ""
+        PortRanges:
+          - FromPort: 0
+            ToPort: 0
+      RdsOptions:
+        Port: 0
+        Protocol: ""
+        RdsDbClusterArn: ""
+        RdsDbInstanceArn: ""
+        RdsDbProxyArn: ""
+        RdsEndpoint: ""
+        SubnetIds: []
+      SseSpecification:
+        CustomerManagedKeyEnabled: false
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

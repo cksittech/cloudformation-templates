@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAiopsInvestigationgroup:
+    Type: AWS::AIOps::InvestigationGroup
+    Properties:
+      InvestigationGroupPolicy: ""
+      IsCloudTrailEventHistoryEnabled: false
+      Name: ""
+      RetentionInDays: 0
+      RoleArn: ""
+      TagKeyBoundaries: []
+      ChatbotNotificationChannels:
+        - ChatConfigurationArns: []
+          SNSTopicArn: ""
+      CrossAccountConfigurations:
+        - SourceRoleArn: ""
+      EncryptionConfig:
+        EncryptionConfigurationType: ""
+        KmsKeyId: ""
+      Tags:
+        - Key: ""
+          Value: ""

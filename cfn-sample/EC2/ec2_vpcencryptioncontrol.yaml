@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Vpcencryptioncontrol:
+    Type: AWS::EC2::VPCEncryptionControl
+    Properties:
+      EgressOnlyInternetGatewayExclusionInput: ""
+      ElasticFileSystemExclusionInput: ""
+      InternetGatewayExclusionInput: ""
+      LambdaExclusionInput: ""
+      Mode: ""
+      NatGatewayExclusionInput: ""
+      VirtualPrivateGatewayExclusionInput: ""
+      VpcId: ""
+      VpcLatticeExclusionInput: ""
+      VpcPeeringExclusionInput: ""
+      Tags:
+        - Key: ""
+          Value: ""

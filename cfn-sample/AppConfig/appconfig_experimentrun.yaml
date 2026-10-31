@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigExperimentrun:
+    Type: AWS::AppConfig::ExperimentRun
+    Properties:
+      ApplicationIdentifier: ""
+      Description: ""
+      ExperimentDefinitionIdentifier: ""
+      ExposurePercentage: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      TreatmentOverrides:
+        Inline: {}

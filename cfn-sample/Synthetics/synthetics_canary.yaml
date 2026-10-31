@@ -1,0 +1,69 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSyntheticsCanary:
+    Type: AWS::Synthetics::Canary
+    Properties:
+      ArtifactS3Location: ""
+      DryRunAndUpdate: false
+      ExecutionRoleArn: ""
+      FailureRetentionPeriod: 0
+      KmsKeyArn: ""
+      Name: ""
+      ProvisionedResourceCleanup: ""
+      ResourcesToReplicateTags: []
+      RuntimeVersion: ""
+      StartCanaryAfterCreation: false
+      SuccessRetentionPeriod: 0
+      ArtifactConfig:
+        S3Encryption:
+          EncryptionMode: ""
+          KmsKeyArn: ""
+      BrowserConfigs:
+        - BrowserType: ""
+      Code:
+        BlueprintTypes: []
+        Handler: ""
+        S3Bucket: ""
+        S3Key: ""
+        S3ObjectVersion: ""
+        Script: ""
+        Dependencies:
+          - Reference: ""
+            Type: ""
+      Replicas:
+        - KmsKeyArn: ""
+          Location: ""
+          ResourcesToReplicateTags: []
+          Tags:
+            - Key: ""
+              Value: ""
+          VpcConfig:
+            Ipv6AllowedForDualStack: false
+            SecurityGroupIds: []
+            SubnetIds: []
+      RunConfig:
+        ActiveTracing: false
+        EphemeralStorage: 0
+        MemoryInMB: 0
+        TimeoutInSeconds: 0
+        EnvironmentVariables: {}
+      Schedule:
+        DurationInSeconds: ""
+        Expression: ""
+        RetryConfig:
+          MaxRetries: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      VPCConfig:
+        Ipv6AllowedForDualStack: false
+        SecurityGroupIds: []
+        SubnetIds: []
+        VpcId: ""
+      VisualReferences:
+        - BaseCanaryRunId: ""
+          BrowserType: ""
+          BaseScreenshots:
+            - IgnoreCoordinates: []
+              ScreenshotName: ""

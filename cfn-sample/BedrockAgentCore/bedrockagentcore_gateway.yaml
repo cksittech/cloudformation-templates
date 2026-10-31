@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreGateway:
+    Type: AWS::BedrockAgentCore::Gateway
+    Properties:
+      AuthorizerType: ""
+      Description: ""
+      ExceptionLevel: ""
+      KmsKeyArn: ""
+      Name: ""
+      ProtocolType: ""
+      RoleArn: ""
+      AuthorizerConfiguration:
+        CustomJWTAuthorizer:
+          AllowedAudience: []
+          AllowedClients: []
+          AllowedScopes: []
+          DiscoveryUrl: ""
+          AdvertisedScopeMapping: {}
+          CustomClaims:
+            - InboundTokenClaimName: ""
+              InboundTokenClaimValueType: ""
+              AuthorizingClaimMatchValue:
+                ClaimMatchOperator: ""
+                ClaimMatchValue:
+                  MatchValueString: ""
+                  MatchValueStringList: []
+          PrivateEndpoint:
+            ManagedVpcResource:
+              EndpointIpAddressType: ""
+              RoutingDomain: ""
+              SecurityGroupIds: []
+              SubnetIds: []
+              VpcIdentifier: ""
+              Tags: {}
+            SelfManagedLatticeResource:
+              ResourceConfigurationIdentifier: ""
+      InterceptorConfigurations:
+        - InterceptionPoints: []
+          InputConfiguration:
+            PassRequestHeaders: false
+            PayloadFilter:
+              Exclude:
+                - Field: ""
+          Interceptor:
+            Lambda:
+              Arn: ""
+      PolicyEngineConfiguration:
+        Arn: ""
+        Mode: ""
+      ProtocolConfiguration:
+        Mcp:
+          DisableMcpListToolsPagination: false
+          Instructions: ""
+          SearchType: ""
+          SupportedVersions: []
+          SessionConfiguration:
+            SessionTimeoutInSeconds: 0
+          StreamingConfiguration:
+            EnableResponseStreaming: false
+      Tags: {}
+      WafConfiguration:
+        FailureMode: ""

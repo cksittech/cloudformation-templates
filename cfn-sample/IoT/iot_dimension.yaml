@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotDimension:
+    Type: AWS::IoT::Dimension
+    Properties:
+      Name: ""
+      StringValues: []
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

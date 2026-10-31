@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigConnector:
+    Type: AWS::Config::Connector
+    Properties:
+      ConnectorConfiguration:
+        Azure:
+          ClientIdentifier: ""
+          TenantIdentifier: ""
+      Tags:
+        - Key: ""
+          Value: ""

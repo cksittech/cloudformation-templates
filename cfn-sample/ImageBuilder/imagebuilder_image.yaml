@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderImage:
+    Type: AWS::ImageBuilder::Image
+    Properties:
+      ContainerRecipeArn: ""
+      DistributionConfigurationArn: ""
+      EnhancedImageMetadataEnabled: false
+      ExecutionRole: ""
+      ImageRecipeArn: ""
+      InfrastructureConfigurationArn: ""
+      DeletionSettings:
+        ExecutionRole: ""
+      ImagePipelineExecutionSettings:
+        DeploymentId: ""
+        OnUpdate: false
+      ImageScanningConfiguration:
+        ImageScanningEnabled: false
+        EcrConfiguration:
+          ContainerTags: []
+          RepositoryName: ""
+      ImageTestsConfiguration:
+        ImageTestsEnabled: false
+        TimeoutMinutes: 0
+      LoggingConfiguration:
+        LogGroupName: ""
+      Tags: {}
+      Workflows:
+        - OnFailure: ""
+          ParallelGroup: ""
+          WorkflowArn: ""
+          Parameters:
+            - Name: ""
+              Value: []

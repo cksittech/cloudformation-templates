@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectconnectPublicvirtualinterface:
+    Type: AWS::DirectConnect::PublicVirtualInterface
+    Properties:
+      AllocatePublicVirtualInterfaceRoleArn: ""
+      ConnectionId: ""
+      RateLimit: ""
+      RouteFilterPrefixes: []
+      VirtualInterfaceName: ""
+      Vlan: 0
+      BgpPeers:
+        - AddressFamily: ""
+          AmazonAddress: ""
+          Asn: ""
+          AuthKey: ""
+          CustomerAddress: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmMaintenancewindowtask:
+    Type: AWS::SSM::MaintenanceWindowTask
+    Properties:
+      CutoffBehavior: ""
+      Description: ""
+      MaxConcurrency: ""
+      MaxErrors: ""
+      Name: ""
+      Priority: 0
+      ServiceRoleArn: ""
+      TaskArn: ""
+      TaskType: ""
+      WindowId: ""
+      LoggingInfo:
+        Region: ""
+        S3Bucket: ""
+        S3Prefix: ""
+      Targets:
+        - Key: ""
+          Values: []
+      TaskInvocationParameters:
+        MaintenanceWindowAutomationParameters:
+          DocumentVersion: ""
+          Parameters: {}
+        MaintenanceWindowLambdaParameters:
+          ClientContext: ""
+          Payload: ""
+          Qualifier: ""
+        MaintenanceWindowRunCommandParameters:
+          Comment: ""
+          DocumentHash: ""
+          DocumentHashType: ""
+          DocumentVersion: ""
+          OutputS3BucketName: ""
+          OutputS3KeyPrefix: ""
+          ServiceRoleArn: ""
+          TimeoutSeconds: 0
+          CloudWatchOutputConfig:
+            CloudWatchLogGroupName: ""
+            CloudWatchOutputEnabled: false
+          NotificationConfig:
+            NotificationArn: ""
+            NotificationEvents: []
+            NotificationType: ""
+          Parameters: {}
+        MaintenanceWindowStepFunctionsParameters:
+          Input: ""
+          Name: ""
+      TaskParameters: {}

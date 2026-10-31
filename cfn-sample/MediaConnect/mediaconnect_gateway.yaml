@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectGateway:
+    Type: AWS::MediaConnect::Gateway
+    Properties:
+      EgressCidrBlocks: []
+      Name: ""
+      Networks:
+        - CidrBlock: ""
+          Name: ""

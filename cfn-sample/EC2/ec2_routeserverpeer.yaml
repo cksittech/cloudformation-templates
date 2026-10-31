@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Routeserverpeer:
+    Type: AWS::EC2::RouteServerPeer
+    Properties:
+      PeerAddress: ""
+      RouteServerEndpointId: ""
+      BgpOptions:
+        PeerAsn: 0
+        PeerLivenessDetection: ""
+      Tags:
+        - Key: ""
+          Value: ""

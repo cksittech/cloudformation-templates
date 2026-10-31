@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMemorydbParametergroup:
+    Type: AWS::MemoryDB::ParameterGroup
+    Properties:
+      Description: ""
+      Family: ""
+      ParameterGroupName: ""
+      Parameters: {}
+      Tags:
+        - Key: ""
+          Value: ""

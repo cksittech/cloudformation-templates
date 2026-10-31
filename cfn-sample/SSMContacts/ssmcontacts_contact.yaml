@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmcontactsContact:
+    Type: AWS::SSMContacts::Contact
+    Properties:
+      Alias: ""
+      DisplayName: ""
+      Type: ""
+      Plan:
+        - DurationInMinutes: 0
+          RotationIds: []
+          Targets:
+            - ChannelTargetInfo:
+                ChannelId: ""
+                RetryIntervalInMinutes: 0
+              ContactTargetInfo:
+                ContactId: ""
+                IsEssential: false
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,496 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchJobdefinition:
+    Type: AWS::Batch::JobDefinition
+    Properties:
+      JobDefinitionName: ""
+      PlatformCapabilities: []
+      PropagateTags: false
+      SchedulingPriority: 0
+      Type: ""
+      ConsumableResourceProperties:
+        ConsumableResourceList:
+          - ConsumableResource: ""
+            Quantity: 0
+      ContainerProperties:
+        Command: []
+        EnableExecuteCommand: false
+        ExecutionRoleArn: ""
+        Image: ""
+        JobRoleArn: ""
+        Memory: 0
+        Privileged: false
+        ReadonlyRootFilesystem: false
+        User: ""
+        Vcpus: 0
+        Environment:
+          - Name: ""
+            Value: ""
+        EphemeralStorage:
+          SizeInGiB: 0
+        FargatePlatformConfiguration:
+          PlatformVersion: ""
+        LinuxParameters:
+          InitProcessEnabled: false
+          MaxSwap: 0
+          SharedMemorySize: 0
+          Swappiness: 0
+          Devices:
+            - ContainerPath: ""
+              HostPath: ""
+              Permissions: []
+          Tmpfs:
+            - ContainerPath: ""
+              MountOptions: []
+              Size: 0
+        LogConfiguration:
+          LogDriver: ""
+          Options: {}
+          SecretOptions:
+            - Name: ""
+              ValueFrom: ""
+        MountPoints:
+          - ContainerPath: ""
+            ReadOnly: false
+            SourceVolume: ""
+        NetworkConfiguration:
+          AssignPublicIp: ""
+        RepositoryCredentials:
+          CredentialsParameter: ""
+        ResourceRequirements:
+          - Type: ""
+            Value: ""
+        RuntimePlatform:
+          CpuArchitecture: ""
+          OperatingSystemFamily: ""
+        Secrets:
+          - Name: ""
+            ValueFrom: ""
+        Ulimits:
+          - HardLimit: 0
+            Name: ""
+            SoftLimit: 0
+        Volumes:
+          - Name: ""
+            EfsVolumeConfiguration:
+              FileSystemId: ""
+              RootDirectory: ""
+              TransitEncryption: ""
+              TransitEncryptionPort: 0
+              AuthorizationConfig:
+                AccessPointId: ""
+                Iam: ""
+            Host:
+              SourcePath: ""
+            S3FilesVolumeConfiguration:
+              AccessPointArn: ""
+              FileSystemArn: ""
+              RootDirectory: ""
+              TransitEncryptionPort: 0
+      EcsProperties:
+        TaskProperties:
+          - EnableExecuteCommand: false
+            ExecutionRoleArn: ""
+            IpcMode: ""
+            NetworkMode: ""
+            PidMode: ""
+            PlatformVersion: ""
+            TaskRoleArn: ""
+            Containers:
+              - Command: []
+                Essential: false
+                Image: ""
+                Name: ""
+                Privileged: false
+                ReadonlyRootFilesystem: false
+                StartTimeout: 0
+                StopTimeout: 0
+                User: ""
+                DependsOn:
+                  - Condition: ""
+                    ContainerName: ""
+                Environment:
+                  - Name: ""
+                    Value: ""
+                FirelensConfiguration:
+                  Type: ""
+                  Options: {}
+                LinuxParameters:
+                  InitProcessEnabled: false
+                  MaxSwap: 0
+                  SharedMemorySize: 0
+                  Swappiness: 0
+                  Devices:
+                    - ContainerPath: ""
+                      HostPath: ""
+                      Permissions: []
+                  Tmpfs:
+                    - ContainerPath: ""
+                      MountOptions: []
+                      Size: 0
+                LogConfiguration:
+                  LogDriver: ""
+                  Options: {}
+                  SecretOptions:
+                    - Name: ""
+                      ValueFrom: ""
+                MountPoints:
+                  - ContainerPath: ""
+                    ReadOnly: false
+                    SourceVolume: ""
+                RepositoryCredentials:
+                  CredentialsParameter: ""
+                ResourceRequirements:
+                  - Type: ""
+                    Value: ""
+                Secrets:
+                  - Name: ""
+                    ValueFrom: ""
+                Ulimits:
+                  - HardLimit: 0
+                    Name: ""
+                    SoftLimit: 0
+            EphemeralStorage:
+              SizeInGiB: 0
+            NetworkConfiguration:
+              AssignPublicIp: ""
+            RuntimePlatform:
+              CpuArchitecture: ""
+              OperatingSystemFamily: ""
+            Volumes:
+              - Name: ""
+                EfsVolumeConfiguration:
+                  FileSystemId: ""
+                  RootDirectory: ""
+                  TransitEncryption: ""
+                  TransitEncryptionPort: 0
+                  AuthorizationConfig:
+                    AccessPointId: ""
+                    Iam: ""
+                Host:
+                  SourcePath: ""
+                S3FilesVolumeConfiguration:
+                  AccessPointArn: ""
+                  FileSystemArn: ""
+                  RootDirectory: ""
+                  TransitEncryptionPort: 0
+      EksProperties:
+        PodProperties:
+          DnsPolicy: ""
+          HostNetwork: false
+          ServiceAccountName: ""
+          ShareProcessNamespace: false
+          Containers:
+            - Args: []
+              Command: []
+              Image: ""
+              ImagePullPolicy: ""
+              Name: ""
+              Env:
+                - Name: ""
+                  Value: ""
+              Resources:
+                Limits: {}
+                Requests: {}
+              SecurityContext:
+                AllowPrivilegeEscalation: false
+                Privileged: false
+                ReadOnlyRootFilesystem: false
+                RunAsGroup: 0
+                RunAsNonRoot: false
+                RunAsUser: 0
+              VolumeMounts:
+                - MountPath: ""
+                  Name: ""
+                  ReadOnly: false
+                  SubPath: ""
+          ImagePullSecrets:
+            - Name: ""
+          InitContainers:
+            - Args: []
+              Command: []
+              Image: ""
+              ImagePullPolicy: ""
+              Name: ""
+              Env:
+                - Name: ""
+                  Value: ""
+              Resources:
+                Limits: {}
+                Requests: {}
+              SecurityContext:
+                AllowPrivilegeEscalation: false
+                Privileged: false
+                ReadOnlyRootFilesystem: false
+                RunAsGroup: 0
+                RunAsNonRoot: false
+                RunAsUser: 0
+              VolumeMounts:
+                - MountPath: ""
+                  Name: ""
+                  ReadOnly: false
+                  SubPath: ""
+          Metadata:
+            Namespace: ""
+            Annotations: {}
+            Labels: {}
+          Volumes:
+            - Name: ""
+              EmptyDir:
+                Medium: ""
+                SizeLimit: ""
+              HostPath:
+                Path: ""
+              PersistentVolumeClaim:
+                ClaimName: ""
+                ReadOnly: false
+              Secret:
+                Optional: false
+                SecretName: ""
+      NodeProperties:
+        MainNode: 0
+        NumNodes: 0
+        NodeRangeProperties:
+          - InstanceTypes: []
+            TargetNodes: ""
+            ConsumableResourceProperties:
+              ConsumableResourceList:
+                - ConsumableResource: ""
+                  Quantity: 0
+            Container:
+              Command: []
+              EnableExecuteCommand: false
+              ExecutionRoleArn: ""
+              Image: ""
+              InstanceType: ""
+              JobRoleArn: ""
+              Memory: 0
+              Privileged: false
+              ReadonlyRootFilesystem: false
+              User: ""
+              Vcpus: 0
+              Environment:
+                - Name: ""
+                  Value: ""
+              EphemeralStorage:
+                SizeInGiB: 0
+              LinuxParameters:
+                InitProcessEnabled: false
+                MaxSwap: 0
+                SharedMemorySize: 0
+                Swappiness: 0
+                Devices:
+                  - ContainerPath: ""
+                    HostPath: ""
+                    Permissions: []
+                Tmpfs:
+                  - ContainerPath: ""
+                    MountOptions: []
+                    Size: 0
+              LogConfiguration:
+                LogDriver: ""
+                Options: {}
+                SecretOptions:
+                  - Name: ""
+                    ValueFrom: ""
+              MountPoints:
+                - ContainerPath: ""
+                  ReadOnly: false
+                  SourceVolume: ""
+              RepositoryCredentials:
+                CredentialsParameter: ""
+              ResourceRequirements:
+                - Type: ""
+                  Value: ""
+              RuntimePlatform:
+                CpuArchitecture: ""
+                OperatingSystemFamily: ""
+              Secrets:
+                - Name: ""
+                  ValueFrom: ""
+              Ulimits:
+                - HardLimit: 0
+                  Name: ""
+                  SoftLimit: 0
+              Volumes:
+                - Name: ""
+                  EfsVolumeConfiguration:
+                    FileSystemId: ""
+                    RootDirectory: ""
+                    TransitEncryption: ""
+                    TransitEncryptionPort: 0
+                    AuthorizationConfig:
+                      AccessPointId: ""
+                      Iam: ""
+                  Host:
+                    SourcePath: ""
+                  S3FilesVolumeConfiguration:
+                    AccessPointArn: ""
+                    FileSystemArn: ""
+                    RootDirectory: ""
+                    TransitEncryptionPort: 0
+            EcsProperties:
+              TaskProperties:
+                - EnableExecuteCommand: false
+                  ExecutionRoleArn: ""
+                  IpcMode: ""
+                  PidMode: ""
+                  TaskRoleArn: ""
+                  Containers:
+                    - Command: []
+                      Essential: false
+                      Image: ""
+                      Name: ""
+                      Privileged: false
+                      ReadonlyRootFilesystem: false
+                      StartTimeout: 0
+                      StopTimeout: 0
+                      User: ""
+                      DependsOn:
+                        - Condition: ""
+                          ContainerName: ""
+                      Environment:
+                        - Name: ""
+                          Value: ""
+                      FirelensConfiguration:
+                        Type: ""
+                        Options: {}
+                      LinuxParameters:
+                        InitProcessEnabled: false
+                        MaxSwap: 0
+                        SharedMemorySize: 0
+                        Swappiness: 0
+                        Devices:
+                          - ContainerPath: ""
+                            HostPath: ""
+                            Permissions: []
+                        Tmpfs:
+                          - ContainerPath: ""
+                            MountOptions: []
+                            Size: 0
+                      LogConfiguration:
+                        LogDriver: ""
+                        Options: {}
+                        SecretOptions:
+                          - Name: ""
+                            ValueFrom: ""
+                      MountPoints:
+                        - ContainerPath: ""
+                          ReadOnly: false
+                          SourceVolume: ""
+                      RepositoryCredentials:
+                        CredentialsParameter: ""
+                      ResourceRequirements:
+                        - Type: ""
+                          Value: ""
+                      Secrets:
+                        - Name: ""
+                          ValueFrom: ""
+                      Ulimits:
+                        - HardLimit: 0
+                          Name: ""
+                          SoftLimit: 0
+                  Volumes:
+                    - Name: ""
+                      EfsVolumeConfiguration:
+                        FileSystemId: ""
+                        RootDirectory: ""
+                        TransitEncryption: ""
+                        TransitEncryptionPort: 0
+                        AuthorizationConfig:
+                          AccessPointId: ""
+                          Iam: ""
+                      Host:
+                        SourcePath: ""
+                      S3FilesVolumeConfiguration:
+                        AccessPointArn: ""
+                        FileSystemArn: ""
+                        RootDirectory: ""
+                        TransitEncryptionPort: 0
+            EksProperties:
+              PodProperties:
+                DnsPolicy: ""
+                HostNetwork: false
+                ServiceAccountName: ""
+                ShareProcessNamespace: false
+                Containers:
+                  - Args: []
+                    Command: []
+                    Image: ""
+                    ImagePullPolicy: ""
+                    Name: ""
+                    Env:
+                      - Name: ""
+                        Value: ""
+                    Resources:
+                      Limits: {}
+                      Requests: {}
+                    SecurityContext:
+                      AllowPrivilegeEscalation: false
+                      Privileged: false
+                      ReadOnlyRootFilesystem: false
+                      RunAsGroup: 0
+                      RunAsNonRoot: false
+                      RunAsUser: 0
+                    VolumeMounts:
+                      - MountPath: ""
+                        Name: ""
+                        ReadOnly: false
+                        SubPath: ""
+                ImagePullSecrets:
+                  - Name: ""
+                InitContainers:
+                  - Args: []
+                    Command: []
+                    Image: ""
+                    ImagePullPolicy: ""
+                    Name: ""
+                    Env:
+                      - Name: ""
+                        Value: ""
+                    Resources:
+                      Limits: {}
+                      Requests: {}
+                    SecurityContext:
+                      AllowPrivilegeEscalation: false
+                      Privileged: false
+                      ReadOnlyRootFilesystem: false
+                      RunAsGroup: 0
+                      RunAsNonRoot: false
+                      RunAsUser: 0
+                    VolumeMounts:
+                      - MountPath: ""
+                        Name: ""
+                        ReadOnly: false
+                        SubPath: ""
+                Metadata:
+                  Namespace: ""
+                  Annotations: {}
+                  Labels: {}
+                Volumes:
+                  - Name: ""
+                    EmptyDir:
+                      Medium: ""
+                      SizeLimit: ""
+                    HostPath:
+                      Path: ""
+                    PersistentVolumeClaim:
+                      ClaimName: ""
+                      ReadOnly: false
+                    Secret:
+                      Optional: false
+                      SecretName: ""
+      Parameters: {}
+      ResourceRetentionPolicy:
+        SkipDeregisterOnUpdate: false
+      RetryStrategy:
+        Attempts: 0
+        EvaluateOnExit:
+          - Action: ""
+            OnExitCode: ""
+            OnReason: ""
+            OnStatusReason: ""
+      Tags: {}
+      Timeout:
+        AttemptDurationSeconds: 0

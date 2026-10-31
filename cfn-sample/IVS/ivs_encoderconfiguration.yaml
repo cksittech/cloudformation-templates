@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsEncoderconfiguration:
+    Type: AWS::IVS::EncoderConfiguration
+    Properties:
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Video:
+        Bitrate: 2500000
+        Framerate: 30
+        Height: 720
+        Width: 1280

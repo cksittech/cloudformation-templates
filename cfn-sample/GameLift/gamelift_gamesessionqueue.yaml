@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftGamesessionqueue:
+    Type: AWS::GameLift::GameSessionQueue
+    Properties:
+      CustomEventData: ""
+      Name: ""
+      NotificationTarget: ""
+      TimeoutInSeconds: 0
+      Destinations:
+        - DestinationArn: ""
+      FilterConfiguration:
+        AllowedLocations: []
+      PlayerLatencyPolicies:
+        - MaximumIndividualPlayerLatencyMilliseconds: 0
+          PolicyDurationSeconds: 0
+      PriorityConfiguration:
+        LocationOrder: []
+        PriorityOrder: []
+      Tags:
+        - Key: ""
+          Value: ""

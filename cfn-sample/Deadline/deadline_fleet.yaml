@@ -1,0 +1,97 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineFleet:
+    Type: AWS::Deadline::Fleet
+    Properties:
+      Description: ""
+      DisplayName: ""
+      FarmId: ""
+      MaxWorkerCount: 0
+      MinWorkerCount: 0
+      RoleArn: ""
+      Configuration:
+        CustomerManaged:
+          Mode: ""
+          StorageProfileId: ""
+          TagPropagationMode: ""
+          AutoScalingConfiguration:
+            ScaleOutWorkersPerMinute: 0
+            StandbyWorkerCount: 0
+            WorkerIdleDurationSeconds: 0
+          WorkerCapabilities:
+            AcceleratorTypes: []
+            CpuArchitectureType: ""
+            OsFamily: ""
+            AcceleratorCount:
+              Max: 0
+              Min: 0
+            AcceleratorTotalMemoryMiB:
+              Max: 0
+              Min: 0
+            CustomAmounts:
+              - Max: 0
+                Min: 0
+                Name: ""
+            CustomAttributes:
+              - Name: ""
+                Values: []
+            MemoryMiB:
+              Max: 0
+              Min: 0
+            VCpuCount:
+              Max: 0
+              Min: 0
+        ServiceManagedEc2:
+          StorageProfileId: ""
+          AutoScalingConfiguration:
+            ScaleOutWorkersPerMinute: 0
+            StandbyWorkerCount: 0
+            WorkerIdleDurationSeconds: 0
+          InstanceCapabilities:
+            AllowedInstanceTypes: []
+            CpuArchitectureType: ""
+            ExcludedInstanceTypes: []
+            OsFamily: ""
+            AcceleratorCapabilities:
+              Count:
+                Max: 0
+                Min: 0
+              Selections:
+                - Name: ""
+                  Runtime: ""
+            CustomAmounts:
+              - Max: 0
+                Min: 0
+                Name: ""
+            CustomAttributes:
+              - Name: ""
+                Values: []
+            MemoryMiB:
+              Max: 0
+              Min: 0
+            RootEbsVolume:
+              Iops: 3000
+              SizeGiB: 250
+              ThroughputMiB: 125
+            SoftwareAddOns:
+              - Name: ""
+            VCpuCount:
+              Max: 0
+              Min: 0
+          InstanceMarketOptions:
+            Type: ""
+          PersistentVolumeConfiguration:
+            Iops: 3000
+            LastUsedTtlHours: 168
+            MountPath: ""
+            SizeGiB: 250
+            ThroughputMiB: 125
+          VpcConfiguration:
+            ResourceConfigurationArns: []
+      HostConfiguration:
+        ScriptBody: ""
+        ScriptTimeoutSeconds: 300
+      Tags:
+        - Key: ""
+          Value: ""

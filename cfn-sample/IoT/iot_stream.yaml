@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotStream:
+    Type: AWS::IoT::Stream
+    Properties:
+      Description: ""
+      RoleArn: ""
+      StreamId: ""
+      Files:
+        - FileId: 0
+          S3Location:
+            Bucket: ""
+            Key: ""
+            Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

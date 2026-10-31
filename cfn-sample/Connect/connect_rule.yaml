@@ -1,0 +1,85 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectRule:
+    Type: AWS::Connect::Rule
+    Properties:
+      Function: ""
+      InstanceArn: ""
+      Name: ""
+      PublishStatus: ""
+      Actions:
+        AssignContactCategoryActions: []
+        EndAssociatedTasksActions: []
+        AssignSlaActions:
+          - SlaAssignmentType: ""
+            CaseSlaConfiguration:
+              FieldId: ""
+              Name: ""
+              TargetSlaMinutes: 0
+              Type: ""
+              TargetFieldValues:
+                - StringValue: ""
+        CreateCaseActions:
+          - TemplateId: ""
+            Fields:
+              - Id: ""
+                Value:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+        EventBridgeActions:
+          - Name: ""
+        SendInAppNotificationActions:
+          - Priority: ""
+            Content:
+              DeDE: ""
+              EnUS: ""
+              EsES: ""
+              FrFR: ""
+              IdID: ""
+              ItIT: ""
+              JaJP: ""
+              KoKR: ""
+              PtBR: ""
+              ZhCN: ""
+              ZhTW: ""
+            Exclusion:
+              UserArns: []
+              UserTags: {}
+            Recipient:
+              UserArns: []
+              UserTags: {}
+        SendNotificationActions:
+          - Content: ""
+            ContentType: ""
+            DeliveryMethod: ""
+            Subject: ""
+            Exclusion:
+              UserArns: []
+              UserTags: {}
+            Recipient:
+              UserArns: []
+              UserTags: {}
+        SubmitAutoEvaluationActions:
+          - EvaluationFormArn: ""
+        TaskActions:
+          - ContactFlowArn: ""
+            Description: ""
+            Name: ""
+            References: {}
+        UpdateCaseActions:
+          - Fields:
+              - Id: ""
+                Value:
+                  BooleanValue: false
+                  DoubleValue: 0
+                  StringValue: ""
+                  EmptyValue: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      TriggerEventSource:
+        EventSourceName: ""
+        IntegrationAssociationArn: ""

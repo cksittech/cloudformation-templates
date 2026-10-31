@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLocationPlaceindex:
+    Type: AWS::Location::PlaceIndex
+    Properties:
+      DataSource: ""
+      Description: ""
+      IndexName: ""
+      PricingPlan: ""
+      DataSourceConfiguration:
+        IntendedUse: ""
+      Tags:
+        - Key: ""
+          Value: ""

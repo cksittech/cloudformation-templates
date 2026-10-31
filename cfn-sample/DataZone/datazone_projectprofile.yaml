@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneProjectprofile:
+    Type: AWS::DataZone::ProjectProfile
+    Properties:
+      AllowCustomProjectResourceTags: false
+      Description: ""
+      DomainIdentifier: ""
+      DomainUnitIdentifier: ""
+      Name: ""
+      ProjectResourceTagsDescription: ""
+      Status: ""
+      UseDefaultConfigurations: false
+      EnvironmentConfigurations:
+        - DeploymentMode: ""
+          DeploymentOrder: 0
+          Description: ""
+          EnvironmentBlueprintId: ""
+          Name: ""
+          AwsAccount:
+            AwsAccountId: ""
+          AwsRegion:
+            RegionName: ""
+          ConfigurationParameters:
+            SsmPath: ""
+            ParameterOverrides:
+              - IsEditable: false
+                Name: ""
+                Value: ""
+      ProjectResourceTags:
+        - IsValueEditable: false
+          Key: ""
+          Value: ""

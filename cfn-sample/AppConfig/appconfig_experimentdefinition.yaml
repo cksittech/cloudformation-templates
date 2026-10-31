@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigExperimentdefinition:
+    Type: AWS::AppConfig::ExperimentDefinition
+    Properties:
+      ApplicationIdentifier: ""
+      AudienceDescription: ""
+      AudienceRule: ""
+      ConfigurationProfileIdentifier: ""
+      EnvironmentIdentifier: ""
+      FlagKey: ""
+      Hypothesis: ""
+      LaunchCriteria: ""
+      Name: ""
+      Control:
+        Description: ""
+        Enabled: false
+        Weight: 0
+        AttributeValues: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      Treatments:
+        - Description: ""
+          Enabled: false
+          Weight: 0
+          AttributeValues: {}

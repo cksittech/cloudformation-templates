@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockFlowalias:
+    Type: AWS::Bedrock::FlowAlias
+    Properties:
+      Description: ""
+      FlowArn: ""
+      Name: ""
+      ConcurrencyConfiguration:
+        MaxConcurrency: 0
+        Type: ""
+      RoutingConfiguration:
+        - FlowVersion: ""
+      Tags: {}

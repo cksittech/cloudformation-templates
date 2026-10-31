@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesObjecttype:
+    Type: AWS::CustomerProfiles::ObjectType
+    Properties:
+      AllowProfileCreation: false
+      Description: ""
+      DomainName: ""
+      EncryptionKey: ""
+      ExpirationDays: 0
+      MaxProfileObjectCount: 0
+      ObjectTypeName: ""
+      SourceLastUpdatedTimestampFormat: ""
+      SourcePriority: 0
+      TemplateId: ""
+      Fields:
+        - Name: ""
+          ObjectTypeField:
+            ContentType: ""
+            Source: ""
+            Target: ""
+      Keys:
+        - Name: ""
+          ObjectTypeKeyList:
+            - FieldNames: []
+              StandardIdentifiers: []
+      Tags:
+        - Key: ""
+          Value: ""

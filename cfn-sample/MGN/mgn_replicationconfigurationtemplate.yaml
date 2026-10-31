@@ -1,0 +1,24 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMgnReplicationconfigurationtemplate:
+    Type: AWS::MGN::ReplicationConfigurationTemplate
+    Properties:
+      AssociateDefaultSecurityGroup: false
+      BandwidthThrottling: 0
+      CreatePublicIP: false
+      DataPlaneRouting: ""
+      DefaultLargeStagingDiskType: ""
+      EbsEncryption: ""
+      EbsEncryptionKeyArn: ""
+      InternetProtocol: ""
+      ReplicationServerInstanceType: ""
+      ReplicationServersSecurityGroupsIDs: []
+      StagingAreaSubnetId: ""
+      StoreSnapshotOnLocalZone: false
+      UseDedicatedReplicationServer: false
+      UseFipsEndpoint: false
+      StagingAreaTags: {}
+      Tags:
+        - Key: ""
+          Value: ""

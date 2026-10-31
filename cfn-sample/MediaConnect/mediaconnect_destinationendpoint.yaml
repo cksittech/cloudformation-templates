@@ -1,0 +1,45 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectDestinationendpoint:
+    Type: AWS::MediaConnect::DestinationEndpoint
+    Properties:
+      Description: ""
+      RegionName: ""
+      Configuration:
+        RouterInput:
+          RouterInputArn: ""
+        Standard:
+          DestinationNetworkingType: ""
+          Name: ""
+          Protocol: ""
+          DestinationNetworkingConfiguration:
+            Public:
+              DestinationAllowRules:
+                - Cidr: ""
+            Vpc:
+              SecurityGroupIds: []
+              SubnetId: ""
+          ProtocolConfiguration:
+            Rist:
+              DestinationAddress: ""
+              DestinationIngestPort: 0
+            Rtp:
+              DestinationAddress: ""
+              DestinationIngestPort: 0
+              ForwardErrorCorrectionState: ""
+            SrtCaller:
+              MinimumLatencyMilliseconds: 0
+              SourceListenerPort: 0
+              EncryptionPassphrase:
+                SecretArn: ""
+            SrtListener:
+              DestinationAddress: ""
+              DestinationIngestPort: 0
+              MinimumLatencyMilliseconds: 0
+              StreamId: ""
+              EncryptionPassphrase:
+                SecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

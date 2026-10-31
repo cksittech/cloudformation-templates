@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectFlowsource:
+    Type: AWS::MediaConnect::FlowSource
+    Properties:
+      Description: ""
+      FlowArn: ""
+      IngestPort: 0
+      MaxBitrate: 0
+      MaxLatency: 0
+      MinLatency: 0
+      Name: ""
+      Protocol: ""
+      SourceListenerAddress: ""
+      SourceListenerPort: 0
+      StreamId: ""
+      VpcInterfaceName: ""
+      WhitelistCidr: ""
+      Decryption:
+        Algorithm: ""
+        KeyType: "static-key"
+        RoleArn: ""
+        SecretArn: ""
+      GatewayBridgeSource:
+        BridgeArn: ""
+        VpcInterfaceAttachment:
+          VpcInterfaceName: ""
+      Tags:
+        - Key: ""
+          Value: ""

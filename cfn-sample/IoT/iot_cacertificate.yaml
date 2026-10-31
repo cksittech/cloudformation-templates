@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotCacertificate:
+    Type: AWS::IoT::CACertificate
+    Properties:
+      AutoRegistrationStatus: ""
+      CACertificatePem: ""
+      CertificateMode: ""
+      RemoveAutoRegistration: false
+      Status: ""
+      VerificationCertificatePem: ""
+      RegistrationConfig:
+        RoleArn: ""
+        TemplateBody: ""
+        TemplateName: ""
+      Tags:
+        - Key: ""
+          Value: ""

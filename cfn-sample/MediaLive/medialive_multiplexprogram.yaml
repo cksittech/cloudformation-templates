@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveMultiplexprogram:
+    Type: AWS::MediaLive::Multiplexprogram
+    Properties:
+      MultiplexId: ""
+      PreferredChannelPipeline: ""
+      ProgramName: ""
+      MultiplexProgramSettings:
+        PreferredChannelPipeline: ""
+        ProgramNumber: 0
+        ServiceDescriptor:
+          ProviderName: ""
+          ServiceName: ""
+        VideoSettings:
+          ConstantBitrate: 0
+          StatmuxSettings:
+            MaximumBitrate: 0
+            MinimumBitrate: 0
+            Priority: 0
+      PacketIdentifiersMap:
+        AudioPids: []
+        DvbSubPids: []
+        DvbTeletextPid: 0
+        EtvPlatformPid: 0
+        EtvSignalPid: 0
+        KlvDataPids: []
+        PcrPid: 0
+        PmtPid: 0
+        PrivateMetadataPid: 0
+        Scte27Pids: []
+        Scte35Pid: 0
+        TimedMetadataPid: 0
+        VideoPid: 0
+      PipelineDetails:
+        - ActiveChannelPipeline: ""
+          PipelineId: ""

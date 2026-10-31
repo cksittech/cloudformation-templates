@@ -1,0 +1,41 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleImagebuilderContainerrecipe:
+    Type: AWS::ImageBuilder::ContainerRecipe
+    Properties:
+      ContainerType: ""
+      Description: ""
+      DockerfileTemplateData: ""
+      DockerfileTemplateUri: ""
+      ImageOsVersionOverride: ""
+      KmsKeyId: ""
+      Name: ""
+      ParentImage: ""
+      PlatformOverride: ""
+      Version: ""
+      WorkingDirectory: ""
+      Components:
+        - ComponentArn: ""
+          Parameters:
+            - Name: ""
+              Value: []
+      InstanceConfiguration:
+        Image: ""
+        BlockDeviceMappings:
+          - DeviceName: ""
+            NoDevice: ""
+            VirtualName: ""
+            Ebs:
+              DeleteOnTermination: false
+              Encrypted: false
+              Iops: 0
+              KmsKeyId: ""
+              SnapshotId: ""
+              Throughput: 0
+              VolumeSize: 0
+              VolumeType: ""
+      Tags: {}
+      TargetRepository:
+        RepositoryName: ""
+        Service: ""

@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsEndpoint:
+    Type: AWS::Events::Endpoint
+    Properties:
+      Description: ""
+      Name: ""
+      RoleArn: ""
+      EventBuses:
+        - EventBusArn: ""
+      ReplicationConfig:
+        State: ""
+      RoutingConfig:
+        FailoverConfig:
+          Primary:
+            HealthCheck: ""
+          Secondary:
+            Route: ""

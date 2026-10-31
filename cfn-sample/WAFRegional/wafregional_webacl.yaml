@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafregionalWebacl:
+    Type: AWS::WAFRegional::WebACL
+    Properties:
+      MetricName: ""
+      Name: ""
+      DefaultAction:
+        Type: ""
+      Rules:
+        - Priority: 0
+          RuleId: ""
+          Action:
+            Type: ""

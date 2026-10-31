@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationTypeactivation:
+    Type: AWS::CloudFormation::TypeActivation
+    Properties:
+      AutoUpdate: false
+      ExecutionRoleArn: ""
+      MajorVersion: ""
+      PublicTypeArn: ""
+      PublisherId: ""
+      Type: ""
+      TypeName: ""
+      TypeNameAlias: ""
+      VersionBump: ""
+      LoggingConfig:
+        LogGroupName: ""
+        LogRoleArn: ""

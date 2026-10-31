@@ -1,0 +1,61 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Clientvpnendpoint:
+    Type: AWS::EC2::ClientVpnEndpoint
+    Properties:
+      ClientCidrBlock: ""
+      Description: ""
+      DisconnectOnSessionTimeout: false
+      DnsServers: []
+      EndpointIpAddressType: ""
+      SecurityGroupIds: []
+      SelfServicePortal: ""
+      ServerCertificateArn: ""
+      SessionTimeoutHours: 0
+      SplitTunnel: false
+      TrafficIpAddressType: ""
+      TransportProtocol: ""
+      VpcId: ""
+      VpnPort: 0
+      AuthenticationOptions:
+        - Type: ""
+          ActiveDirectory:
+            DirectoryId: ""
+          FederatedAuthentication:
+            SAMLProviderArn: ""
+            SelfServiceSAMLProviderArn: ""
+          MutualAuthentication:
+            ClientRootCertificateChainArn: ""
+      AuthorizationPolicy:
+        Description: ""
+        PolicyDocument: ""
+        ShadowMode: ""
+      ClientConnectOptions:
+        Enabled: false
+        LambdaFunctionArn: ""
+      ClientLoginBannerOptions:
+        BannerText: ""
+        Enabled: false
+      ClientRouteEnforcementOptions:
+        Enforced: false
+      ConnectionLogOptions:
+        CloudwatchLogGroup: ""
+        CloudwatchLogStream: ""
+        Enabled: false
+        IncludeAuthorizationPolicyContext: false
+      DevicePostureOptions:
+        Enabled: false
+        TrustProviders:
+          - PublicSigningKeyUrl: ""
+            TenantId: ""
+            TrustProviderType: ""
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""
+      TransitGatewayConfiguration:
+        AvailabilityZoneIds: []
+        AvailabilityZones: []
+        TransitGatewayId: ""

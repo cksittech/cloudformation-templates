@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWisdomAssistantassociation:
+    Type: AWS::Wisdom::AssistantAssociation
+    Properties:
+      AssistantId: ""
+      AssociationType: ""
+      Association:
+        KnowledgeBaseId: ""
+        ExternalBedrockKnowledgeBaseConfig:
+          AccessRoleArn: ""
+          BedrockKnowledgeBaseArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

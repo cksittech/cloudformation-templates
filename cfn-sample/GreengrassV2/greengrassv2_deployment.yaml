@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassv2Deployment:
+    Type: AWS::GreengrassV2::Deployment
+    Properties:
+      DeploymentName: ""
+      ParentTargetArn: ""
+      TargetArn: ""
+      Components: {}
+      DeploymentPolicies:
+        FailureHandlingPolicy: ""
+        ComponentUpdatePolicy:
+          Action: ""
+          TimeoutInSeconds: 0
+        ConfigurationValidationPolicy:
+          TimeoutInSeconds: 0
+      IotJobConfiguration:
+        AbortConfig:
+          CriteriaList:
+            - Action: ""
+              FailureType: ""
+              MinNumberOfExecutedThings: 0
+              ThresholdPercentage: 0
+        JobExecutionsRolloutConfig:
+          MaximumPerMinute: 0
+          ExponentialRate:
+            BaseRatePerMinute: 0
+            IncrementFactor: 0
+            RateIncreaseCriteria:
+              NumberOfNotifiedThings: 0
+              NumberOfSucceededThings: 0
+        TimeoutConfig:
+          InProgressTimeoutInMinutes: 0
+      Tags: {}

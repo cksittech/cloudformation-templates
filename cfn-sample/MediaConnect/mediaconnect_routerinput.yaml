@@ -1,0 +1,132 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectRouterinput:
+    Type: AWS::MediaConnect::RouterInput
+    Properties:
+      AvailabilityZone: ""
+      MaximumBitrate: 0
+      Name: ""
+      RegionName: ""
+      RoutingScope: ""
+      Tier: ""
+      Configuration:
+        DestinationEndpoint:
+          EndpointLifecycleManagement: ""
+          SourceTransitDecryptionType: ""
+          SourceTransitDecryption:
+            Automatic: {}
+            SecretsManager:
+              EncryptionSecretType: ""
+              EncryptionSecret:
+                SecretArn: ""
+        Failover:
+          NetworkInterfaceArn: ""
+          PrimarySourceIndex: 0
+          SourcePriorityMode: ""
+          ProtocolConfigurations:
+            - Rist:
+                Port: 0
+                RecoveryLatencyMilliseconds: 0
+              Rtp:
+                ForwardErrorCorrection: ""
+                Port: 0
+              SrtCaller:
+                MinimumLatencyMilliseconds: 0
+                SourceAddress: ""
+                SourcePort: 0
+                StreamId: ""
+                DecryptionConfiguration:
+                  EncryptionKey:
+                    RoleArn: ""
+                    SecretArn: ""
+              SrtListener:
+                MinimumLatencyMilliseconds: 0
+                Port: 0
+                DecryptionConfiguration:
+                  EncryptionKey:
+                    RoleArn: ""
+                    SecretArn: ""
+        MediaConnectFlow:
+          FlowArn: ""
+          FlowOutputArn: ""
+          SourceTransitDecryption:
+            EncryptionKeyType: ""
+            EncryptionKeyConfiguration:
+              Automatic: {}
+              SecretsManager:
+                RoleArn: ""
+                SecretArn: ""
+        MediaLiveChannel:
+          MediaLiveChannelArn: ""
+          MediaLiveChannelOutputName: ""
+          MediaLivePipelineId: ""
+          SourceTransitDecryption:
+            EncryptionKeyType: ""
+            EncryptionKeyConfiguration:
+              Automatic: {}
+              SecretsManager:
+                RoleArn: ""
+                SecretArn: ""
+        Merge:
+          MergeRecoveryWindowMilliseconds: 0
+          NetworkInterfaceArn: ""
+          ProtocolConfigurations:
+            - Rist:
+                Port: 0
+                RecoveryLatencyMilliseconds: 0
+              Rtp:
+                ForwardErrorCorrection: ""
+                Port: 0
+        Standard:
+          NetworkInterfaceArn: ""
+          Protocol: ""
+          ProtocolConfiguration:
+            Rist:
+              Port: 0
+              RecoveryLatencyMilliseconds: 0
+            Rtp:
+              ForwardErrorCorrection: ""
+              Port: 0
+            SrtCaller:
+              MinimumLatencyMilliseconds: 0
+              SourceAddress: ""
+              SourcePort: 0
+              StreamId: ""
+              DecryptionConfiguration:
+                EncryptionKey:
+                  RoleArn: ""
+                  SecretArn: ""
+            SrtListener:
+              MinimumLatencyMilliseconds: 0
+              Port: 0
+              DecryptionConfiguration:
+                EncryptionKey:
+                  RoleArn: ""
+                  SecretArn: ""
+      ContentQualityAnalysisConfiguration:
+        ContentLevel:
+          BlackFrames:
+            State: ""
+            ThresholdSeconds: 0
+          FrozenFrames:
+            State: ""
+            ThresholdSeconds: 0
+          SilentAudio:
+            State: ""
+            ThresholdSeconds: 0
+      MaintenanceConfiguration:
+        Default: {}
+        PreferredDayTime:
+          Day: ""
+          Time: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TransitEncryption:
+        EncryptionKeyType: ""
+        EncryptionKeyConfiguration:
+          Automatic: {}
+          SecretsManager:
+            RoleArn: ""
+            SecretArn: ""

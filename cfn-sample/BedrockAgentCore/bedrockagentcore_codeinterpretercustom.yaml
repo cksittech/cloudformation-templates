@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreCodeinterpretercustom:
+    Type: AWS::BedrockAgentCore::CodeInterpreterCustom
+    Properties:
+      Description: ""
+      ExecutionRoleArn: ""
+      Name: ""
+      Certificates:
+        - CertificateLocation:
+            SecretArn: ""
+      NetworkConfiguration:
+        NetworkMode: "SANDBOX"
+        VpcConfig:
+          SecurityGroups: []
+          Subnets: []
+      Tags: {}

@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamStack:
+    Type: AWS::AppStream::Stack
+    Properties:
+      AttributesToDelete: []
+      DeleteStorageConnectors: false
+      Description: ""
+      DisplayName: ""
+      EmbedHostDomains: []
+      FeedbackURL: ""
+      Name: ""
+      RedirectURL: ""
+      StorageConnectorAuthentication: ""
+      AccessEndpoints:
+        - EndpointType: ""
+          VpceId: ""
+      AgentAccessConfig:
+        S3BucketArn: ""
+        ScreenImageFormat: ""
+        ScreenResolution: ""
+        ScreenshotsUploadEnabled: false
+        UserControlMode: ""
+        Settings:
+          - AgentAction: ""
+            Permission: ""
+      ApplicationSettings:
+        Enabled: false
+        SettingsGroup: ""
+      ContentRedirection:
+        HostToClient:
+          AllowedUrls: []
+          DeniedUrls: []
+          Enabled: false
+      StorageConnectors:
+        - ConnectorType: ""
+          Domains: []
+      StreamingExperienceSettings:
+        PreferredProtocol: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserSettings:
+        - Action: ""
+          MaximumLength: 0
+          Permission: ""

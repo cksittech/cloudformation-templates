@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigDeployment:
+    Type: AWS::AppConfig::Deployment
+    Properties:
+      ApplicationId: ""
+      ConfigurationProfileId: ""
+      ConfigurationVersion: ""
+      DeploymentStrategyId: ""
+      Description: ""
+      EnvironmentId: ""
+      KmsKeyIdentifier: ""
+      DynamicExtensionParameters:
+        - ExtensionReference: ""
+          ParameterName: ""
+          ParameterValue: ""
+      Tags:
+        - Key: ""
+          Value: ""

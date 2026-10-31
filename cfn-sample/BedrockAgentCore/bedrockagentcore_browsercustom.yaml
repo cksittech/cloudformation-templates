@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreBrowsercustom:
+    Type: AWS::BedrockAgentCore::BrowserCustom
+    Properties:
+      Description: ""
+      ExecutionRoleArn: ""
+      Name: ""
+      BrowserSigning:
+        Enabled: false
+      Certificates:
+        - CertificateLocation:
+            SecretArn: ""
+      EnterprisePolicies:
+        - Type: ""
+          Location:
+            Bucket: ""
+            Prefix: ""
+      NetworkConfiguration:
+        NetworkMode: "PUBLIC"
+        VpcConfig:
+          SecurityGroups: []
+          Subnets: []
+      RecordingConfig:
+        Enabled: false
+        S3Location:
+          Bucket: ""
+          Prefix: ""
+      Tags: {}

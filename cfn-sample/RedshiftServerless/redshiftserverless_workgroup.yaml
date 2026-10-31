@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftserverlessWorkgroup:
+    Type: AWS::RedshiftServerless::Workgroup
+    Properties:
+      BaseCapacity: 0
+      EnhancedVpcRouting: false
+      MaxCapacity: 0
+      NamespaceName: ""
+      Port: 0
+      PubliclyAccessible: false
+      RecoveryPointId: ""
+      SecurityGroupIds: []
+      SnapshotArn: ""
+      SnapshotName: ""
+      SnapshotOwnerAccount: ""
+      SubnetIds: []
+      TrackName: ""
+      WorkgroupName: ""
+      ConfigParameters:
+        - ParameterKey: ""
+          ParameterValue: ""
+      PricePerformanceTarget:
+        Level: 0
+        Status: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Workgroup:
+        Endpoint:
+          VpcEndpoints:
+            - NetworkInterfaces: []
+        PricePerformanceTarget:
+          Level: 0
+          Status: ""

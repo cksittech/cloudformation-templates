@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassFunctiondefinition:
+    Type: AWS::Greengrass::FunctionDefinition
+    Properties:
+      Name: ""
+      InitialVersion:
+        DefaultConfig:
+          Execution:
+            IsolationMode: ""
+            RunAs:
+              Gid: 0
+              Uid: 0
+        Functions:
+          - FunctionArn: ""
+            Id: ""
+            FunctionConfiguration:
+              EncodingType: ""
+              ExecArgs: ""
+              Executable: ""
+              MemorySize: 0
+              Pinned: false
+              Timeout: 0
+              Environment:
+                AccessSysfs: false
+                Execution:
+                  IsolationMode: ""
+                  RunAs:
+                    Gid: 0
+                    Uid: 0
+                ResourceAccessPolicies:
+                  - Permission: ""
+                    ResourceId: ""
+                Variables: {}
+      Tags: {}

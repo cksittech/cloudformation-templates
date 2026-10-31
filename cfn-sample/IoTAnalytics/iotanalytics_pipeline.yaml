@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotanalyticsPipeline:
+    Type: AWS::IoTAnalytics::Pipeline
+    Properties:
+      PipelineName: ""
+      PipelineActivities:
+        - AddAttributes:
+            Name: ""
+            Next: ""
+            Attributes: {}
+          Channel:
+            ChannelName: ""
+            Name: ""
+            Next: ""
+          Datastore:
+            DatastoreName: ""
+            Name: ""
+          DeviceRegistryEnrich:
+            Attribute: ""
+            Name: ""
+            Next: ""
+            RoleArn: ""
+            ThingName: ""
+          DeviceShadowEnrich:
+            Attribute: ""
+            Name: ""
+            Next: ""
+            RoleArn: ""
+            ThingName: ""
+          Filter:
+            Filter: ""
+            Name: ""
+            Next: ""
+          Lambda:
+            BatchSize: 0
+            LambdaName: ""
+            Name: ""
+            Next: ""
+          Math:
+            Attribute: ""
+            Math: ""
+            Name: ""
+            Next: ""
+          RemoveAttributes:
+            Attributes: []
+            Name: ""
+            Next: ""
+          SelectAttributes:
+            Attributes: []
+            Name: ""
+            Next: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodegurureviewerRepositoryassociation:
+    Type: AWS::CodeGuruReviewer::RepositoryAssociation
+    Properties:
+      BucketName: ""
+      ConnectionArn: ""
+      Name: ""
+      Owner: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

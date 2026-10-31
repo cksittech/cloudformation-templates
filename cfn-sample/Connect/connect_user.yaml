@@ -1,0 +1,54 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectUser:
+    Type: AWS::Connect::User
+    Properties:
+      DirectoryUserId: ""
+      HierarchyGroupArn: ""
+      InstanceArn: ""
+      Password: ""
+      RoutingProfileArn: ""
+      SecurityProfileArns: []
+      Username: ""
+      AfterContactWorkConfigs:
+        - Channel: ""
+          AfterContactWorkConfig:
+            AfterContactWorkMode: ""
+            AfterContactWorkTimeLimit: 0
+          AgentFirstCallbackAfterContactWorkConfig:
+            AfterContactWorkMode: ""
+            AfterContactWorkTimeLimit: 0
+      AutoAcceptConfigs:
+        - AgentFirstCallbackAutoAccept: false
+          AutoAccept: false
+          Channel: ""
+      IdentityInfo:
+        Email: ""
+        FirstName: ""
+        LastName: ""
+        Mobile: ""
+        SecondaryEmail: ""
+      PersistentConnectionConfigs:
+        - Channel: ""
+          PersistentConnection: false
+      PhoneConfig:
+        AfterContactWorkTimeLimit: 0
+        AutoAccept: false
+        DeskPhoneNumber: ""
+        PersistentConnection: false
+        PhoneType: ""
+      PhoneNumberConfigs:
+        - Channel: ""
+          PhoneNumber: ""
+          PhoneType: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      UserProficiencies:
+        - AttributeName: ""
+          AttributeValue: ""
+          Level: 0
+      VoiceEnhancementConfigs:
+        - Channel: ""
+          VoiceEnhancementMode: ""

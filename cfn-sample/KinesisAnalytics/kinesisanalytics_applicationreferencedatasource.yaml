@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisanalyticsApplicationreferencedatasource:
+    Type: AWS::KinesisAnalytics::ApplicationReferenceDataSource
+    Properties:
+      ApplicationName: ""
+      ReferenceDataSource:
+        TableName: ""
+        ReferenceSchema:
+          RecordEncoding: ""
+          RecordColumns:
+            - Mapping: ""
+              Name: ""
+              SqlType: ""
+          RecordFormat:
+            RecordFormatType: ""
+            MappingParameters:
+              CSVMappingParameters:
+                RecordColumnDelimiter: ""
+                RecordRowDelimiter: ""
+              JSONMappingParameters:
+                RecordRowPath: ""
+        S3ReferenceDataSource:
+          BucketARN: ""
+          FileKey: ""
+          ReferenceRoleARN: ""

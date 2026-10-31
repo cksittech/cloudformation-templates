@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMemorydbAcl:
+    Type: AWS::MemoryDB::ACL
+    Properties:
+      ACLName: ""
+      UserNames: []
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleChatbotMicrosoftteamschannelconfiguration:
+    Type: AWS::Chatbot::MicrosoftTeamsChannelConfiguration
+    Properties:
+      ConfigurationName: ""
+      CustomizationResourceArns: []
+      GuardrailPolicies: []
+      IamRoleArn: ""
+      LoggingLevel: "NONE"
+      SnsTopicArns: []
+      TeamId: ""
+      TeamsChannelId: ""
+      TeamsChannelName: ""
+      TeamsTenantId: ""
+      UserRoleRequired: false
+      Tags:
+        - Key: ""
+          Value: ""

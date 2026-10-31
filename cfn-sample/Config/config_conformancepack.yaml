@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigConformancepack:
+    Type: AWS::Config::ConformancePack
+    Properties:
+      ConformancePackName: ""
+      DeliveryS3Bucket: ""
+      DeliveryS3KeyPrefix: ""
+      TemplateBody: ""
+      TemplateS3Uri: ""
+      ConformancePackInputParameters:
+        - ParameterName: ""
+          ParameterValue: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TemplateSSMDocumentDetails:
+        DocumentName: ""
+        DocumentVersion: ""

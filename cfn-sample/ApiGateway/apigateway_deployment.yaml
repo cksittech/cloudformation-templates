@@ -1,0 +1,50 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayDeployment:
+    Type: AWS::ApiGateway::Deployment
+    Properties:
+      Description: ""
+      RestApiId: ""
+      StageName: ""
+      DeploymentCanarySettings:
+        PercentTraffic: 0
+        UseStageCache: false
+        StageVariableOverrides: {}
+      StageDescription:
+        CacheClusterEnabled: false
+        CacheClusterSize: ""
+        CacheDataEncrypted: false
+        CacheTtlInSeconds: 0
+        CachingEnabled: false
+        ClientCertificateId: ""
+        DataTraceEnabled: false
+        Description: ""
+        DocumentationVersion: ""
+        LoggingLevel: ""
+        MetricsEnabled: false
+        ThrottlingBurstLimit: 0
+        ThrottlingRateLimit: 0
+        TracingEnabled: false
+        AccessLogSetting:
+          DestinationArn: ""
+          Format: ""
+        CanarySetting:
+          PercentTraffic: 0
+          UseStageCache: false
+          StageVariableOverrides: {}
+        MethodSettings:
+          - CacheDataEncrypted: false
+            CacheTtlInSeconds: 0
+            CachingEnabled: false
+            DataTraceEnabled: false
+            HttpMethod: ""
+            LoggingLevel: ""
+            MetricsEnabled: false
+            ResourcePath: ""
+            ThrottlingBurstLimit: 0
+            ThrottlingRateLimit: 0
+        Tags:
+          - Key: ""
+            Value: ""
+        Variables: {}

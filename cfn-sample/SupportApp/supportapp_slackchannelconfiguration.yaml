@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSupportappSlackchannelconfiguration:
+    Type: AWS::SupportApp::SlackChannelConfiguration
+    Properties:
+      ChannelId: ""
+      ChannelName: ""
+      ChannelRoleArn: ""
+      NotifyOnAddCorrespondenceToCase: false
+      NotifyOnCaseSeverity: ""
+      NotifyOnCreateOrReopenCase: false
+      NotifyOnResolveCase: false
+      TeamId: ""

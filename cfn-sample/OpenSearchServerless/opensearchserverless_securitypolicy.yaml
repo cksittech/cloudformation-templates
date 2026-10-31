@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessSecuritypolicy:
+    Type: AWS::OpenSearchServerless::SecurityPolicy
+    Properties:
+      Description: ""
+      Name: ""
+      Policy: ""
+      Type: ""

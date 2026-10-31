@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationazureblob:
+    Type: AWS::DataSync::LocationAzureBlob
+    Properties:
+      AgentArns: []
+      AzureAccessTier: "HOT"
+      AzureBlobAuthenticationType: "SAS"
+      AzureBlobContainerUrl: ""
+      AzureBlobType: "BLOCK"
+      Subdirectory: ""
+      AzureBlobSasConfiguration:
+        AzureBlobSasToken: ""
+      CmkSecretConfig:
+        KmsKeyArn: ""
+      CustomSecretConfig:
+        SecretAccessRoleArn: ""
+        SecretArn: ""
+      FederatedIdentity:
+        AwsIamRole: ""
+        AzureOidc:
+          ClientId: ""
+          TenantId: ""
+      Tags:
+        - Key: ""
+          Value: ""

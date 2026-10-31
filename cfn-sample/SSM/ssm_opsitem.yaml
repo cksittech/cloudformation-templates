@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmOpsitem:
+    Type: AWS::SSM::OpsItem
+    Properties:
+      Category: ""
+      Description: ""
+      Priority: 0
+      Severity: ""
+      Source: ""
+      Title: ""
+      Tags:
+        - Key: ""
+          Value: ""

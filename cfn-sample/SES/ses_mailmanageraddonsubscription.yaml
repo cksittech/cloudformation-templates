@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanageraddonsubscription:
+    Type: AWS::SES::MailManagerAddonSubscription
+    Properties:
+      AddonName: ""
+      Tags:
+        - Key: ""
+          Value: ""

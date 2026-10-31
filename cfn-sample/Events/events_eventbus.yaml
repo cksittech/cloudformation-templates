@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsEventbus:
+    Type: AWS::Events::EventBus
+    Properties:
+      Description: ""
+      EventSourceName: ""
+      KmsKeyIdentifier: ""
+      Name: ""
+      DeadLetterConfig:
+        Arn: ""
+      LogConfig:
+        IncludeDetail: ""
+        Level: ""
+      Policy: {}
+      Tags:
+        - Key: ""
+          Value: ""

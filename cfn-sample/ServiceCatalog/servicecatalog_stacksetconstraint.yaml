@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogStacksetconstraint:
+    Type: AWS::ServiceCatalog::StackSetConstraint
+    Properties:
+      AcceptLanguage: ""
+      AccountList: []
+      AdminRole: ""
+      Description: ""
+      ExecutionRole: ""
+      PortfolioId: ""
+      ProductId: ""
+      RegionList: []
+      StackInstanceControl: ""

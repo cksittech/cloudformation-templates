@@ -1,0 +1,46 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOutpostsSite:
+    Type: AWS::Outposts::Site
+    Properties:
+      Description: ""
+      Name: ""
+      Notes: ""
+      OperatingAddress:
+        AddressLine1: ""
+        AddressLine2: ""
+        AddressLine3: ""
+        City: ""
+        ContactName: ""
+        ContactPhoneNumber: ""
+        CountryCode: ""
+        DistrictOrCounty: ""
+        Municipality: ""
+        PostalCode: ""
+        StateOrRegion: ""
+      RackPhysicalProperties:
+        FiberOpticCableType: ""
+        MaximumSupportedWeightLbs: ""
+        OpticalStandard: ""
+        PowerConnector: ""
+        PowerDrawKva: ""
+        PowerFeedDrop: ""
+        PowerPhase: ""
+        UplinkCount: ""
+        UplinkGbps: ""
+      ShippingAddress:
+        AddressLine1: ""
+        AddressLine2: ""
+        AddressLine3: ""
+        City: ""
+        ContactName: ""
+        ContactPhoneNumber: ""
+        CountryCode: ""
+        DistrictOrCounty: ""
+        Municipality: ""
+        PostalCode: ""
+        StateOrRegion: ""
+      Tags:
+        - Key: ""
+          Value: ""

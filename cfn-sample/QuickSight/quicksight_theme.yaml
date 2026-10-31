@@ -1,0 +1,128 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleQuicksightTheme:
+    Type: AWS::QuickSight::Theme
+    Properties:
+      AwsAccountId: ""
+      BaseThemeId: ""
+      Name: ""
+      ThemeId: ""
+      VersionDescription: ""
+      Configuration:
+        DataColorPalette:
+          Colors: []
+          EmptyFillColor: ""
+          MinMaxGradient: []
+        Sheet:
+          Background:
+            Color: ""
+            Gradient: ""
+          Tile:
+            BackgroundColor: ""
+            BorderRadius: ""
+            Padding: ""
+            Border:
+              Color: ""
+              Show: false
+              Width: ""
+          TileLayout:
+            Gutter:
+              Show: false
+            Margin:
+              Show: false
+        Typography:
+          AxisLabelFontConfiguration:
+            FontColor: ""
+            FontDecoration: ""
+            FontFamily: ""
+            FontStyle: ""
+            FontSize:
+              Absolute: ""
+            FontWeight:
+              Name: ""
+          AxisTitleFontConfiguration:
+            FontColor: ""
+            FontDecoration: ""
+            FontFamily: ""
+            FontStyle: ""
+            FontSize:
+              Absolute: ""
+            FontWeight:
+              Name: ""
+          DataLabelFontConfiguration:
+            FontColor: ""
+            FontDecoration: ""
+            FontFamily: ""
+            FontStyle: ""
+            FontSize:
+              Absolute: ""
+            FontWeight:
+              Name: ""
+          FontFamilies:
+            - FontFamily: ""
+          LegendTitleFontConfiguration:
+            FontColor: ""
+            FontDecoration: ""
+            FontFamily: ""
+            FontStyle: ""
+            FontSize:
+              Absolute: ""
+            FontWeight:
+              Name: ""
+          LegendValueFontConfiguration:
+            FontColor: ""
+            FontDecoration: ""
+            FontFamily: ""
+            FontStyle: ""
+            FontSize:
+              Absolute: ""
+            FontWeight:
+              Name: ""
+          VisualSubtitleFontConfiguration:
+            TextAlignment: ""
+            TextTransform: ""
+            FontConfiguration:
+              FontColor: ""
+              FontDecoration: ""
+              FontFamily: ""
+              FontStyle: ""
+              FontSize:
+                Absolute: ""
+              FontWeight:
+                Name: ""
+          VisualTitleFontConfiguration:
+            TextAlignment: ""
+            TextTransform: ""
+            FontConfiguration:
+              FontColor: ""
+              FontDecoration: ""
+              FontFamily: ""
+              FontStyle: ""
+              FontSize:
+                Absolute: ""
+              FontWeight:
+                Name: ""
+        UIColorPalette:
+          Accent: ""
+          AccentForeground: ""
+          Danger: ""
+          DangerForeground: ""
+          Dimension: ""
+          DimensionForeground: ""
+          Measure: ""
+          MeasureForeground: ""
+          PrimaryBackground: ""
+          PrimaryForeground: ""
+          SecondaryBackground: ""
+          SecondaryForeground: ""
+          Success: ""
+          SuccessForeground: ""
+          Warning: ""
+          WarningForeground: ""
+      Permissions:
+        - Actions: []
+          Principal: ""
+      Tags:
+        - Key: ""
+          Value: ""

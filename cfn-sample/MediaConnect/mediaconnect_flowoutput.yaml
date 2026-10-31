@@ -1,0 +1,52 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectFlowoutput:
+    Type: AWS::MediaConnect::FlowOutput
+    Properties:
+      CidrAllowList: []
+      Description: ""
+      Destination: ""
+      FlowArn: ""
+      MaxLatency: 0
+      MinLatency: 0
+      Name: ""
+      NdiAudioReferenceLevel: 0
+      NdiOutputTimecodeSource: ""
+      NdiProgramName: ""
+      NdiSpeedHqQuality: 0
+      OutputStatus: ""
+      Port: 0
+      Protocol: ""
+      RemoteId: ""
+      RouterIntegrationState: ""
+      SmoothingLatency: 0
+      StreamId: ""
+      Encryption:
+        Algorithm: ""
+        KeyType: "static-key"
+        RoleArn: ""
+        SecretArn: ""
+      MediaStreamOutputConfigurations:
+        - EncodingName: ""
+          MediaStreamName: ""
+          DestinationConfigurations:
+            - DestinationIp: ""
+              DestinationPort: 0
+              Interface:
+                Name: ""
+          EncodingParameters:
+            CompressionFactor: 0
+            EncoderProfile: ""
+      RouterIntegrationTransitEncryption:
+        EncryptionKeyType: ""
+        EncryptionKeyConfiguration:
+          Automatic: {}
+          SecretsManager:
+            RoleArn: ""
+            SecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcInterfaceAttachment:
+        VpcInterfaceName: ""

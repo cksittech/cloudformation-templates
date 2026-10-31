@@ -1,0 +1,3367 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLexBot:
+    Type: AWS::Lex::Bot
+    Properties:
+      AutoBuildBotLocales: false
+      BotType: "Bot"
+      Description: ""
+      IdleSessionTTLInSeconds: 0
+      Name: ""
+      RoleArn: ""
+      BotFileS3Location:
+        S3Bucket: ""
+        S3ObjectKey: ""
+        S3ObjectVersion: ""
+      BotLocales:
+        - Description: ""
+          LocaleId: ""
+          NluConfidenceThreshold: 0
+          SpeechDetectionSensitivity: ""
+          AudioFillerSettings:
+            AudioType: ""
+            Enabled: false
+            MinimumPlayDurationInMilliseconds: 0
+            ResponseDeliveryDelayInMilliseconds: 0
+            StartDelayInMilliseconds: 0
+          CustomVocabulary:
+            CustomVocabularyItems:
+              - DisplayAs: ""
+                Phrase: ""
+                Weight: 0
+          GenerativeAISettings:
+            BuildtimeSettings:
+              DescriptiveBotBuilderSpecification:
+                Enabled: false
+                BedrockModelSpecification:
+                  BedrockModelCustomPrompt: ""
+                  BedrockTraceStatus: ""
+                  ModelArn: ""
+                  BedrockGuardrailConfiguration:
+                    BedrockGuardrailIdentifier: ""
+                    BedrockGuardrailVersion: ""
+              SampleUtteranceGenerationSpecification:
+                Enabled: false
+                BedrockModelSpecification:
+                  BedrockModelCustomPrompt: ""
+                  BedrockTraceStatus: ""
+                  ModelArn: ""
+                  BedrockGuardrailConfiguration:
+                    BedrockGuardrailIdentifier: ""
+                    BedrockGuardrailVersion: ""
+            RuntimeSettings:
+              NluImprovementSpecification:
+                AssistedNluMode: ""
+                Enabled: false
+                IntentDisambiguationSettings:
+                  CustomDisambiguationMessage: ""
+                  Enabled: false
+                  MaxDisambiguationIntents: 0
+              SlotResolutionImprovementSpecification:
+                Enabled: false
+                BedrockModelSpecification:
+                  BedrockModelCustomPrompt: ""
+                  BedrockTraceStatus: ""
+                  ModelArn: ""
+                  BedrockGuardrailConfiguration:
+                    BedrockGuardrailIdentifier: ""
+                    BedrockGuardrailVersion: ""
+          Intents:
+            - Description: ""
+              DisplayName: ""
+              Name: ""
+              ParentIntentSignature: ""
+              BedrockAgentIntentConfiguration:
+                BedrockAgentConfiguration:
+                  BedrockAgentAliasId: ""
+                  BedrockAgentId: ""
+                BedrockAgentIntentKnowledgeBaseConfiguration:
+                  BedrockKnowledgeBaseArn: ""
+                  BedrockModelConfiguration:
+                    BedrockModelCustomPrompt: ""
+                    BedrockTraceStatus: ""
+                    ModelArn: ""
+                    BedrockGuardrailConfiguration:
+                      BedrockGuardrailIdentifier: ""
+                      BedrockGuardrailVersion: ""
+              DialogCodeHook:
+                Enabled: false
+              FulfillmentCodeHook:
+                Enabled: false
+                IsActive: false
+                FulfillmentUpdatesSpecification:
+                  Active: false
+                  TimeoutInSeconds: 0
+                  StartResponse:
+                    AllowInterrupt: false
+                    DelayInSeconds: 0
+                    MessageGroups:
+                      - Message:
+                          CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                        Variations:
+                          - CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                  UpdateResponse:
+                    AllowInterrupt: false
+                    FrequencyInSeconds: 0
+                    MessageGroups:
+                      - Message:
+                          CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                        Variations:
+                          - CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                PostFulfillmentStatusSpecification:
+                  FailureConditional:
+                    IsActive: false
+                    ConditionalBranches:
+                      - Name: ""
+                        Condition:
+                          ExpressionString: ""
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    DefaultBranch:
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  FailureNextStep:
+                    DialogAction:
+                      SlotToElicit: ""
+                      SuppressNextMessage: false
+                      Type: ""
+                    Intent:
+                      Name: ""
+                      Slots:
+                        - SlotName: ""
+                          SlotValueOverride:
+                            Shape: ""
+                            Values: []
+                            Value:
+                              InterpretedValue: ""
+                    SessionAttributes:
+                      - Key: ""
+                        Value: ""
+                  FailureResponse:
+                    AllowInterrupt: false
+                    MessageGroupsList:
+                      - Message:
+                          CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                        Variations:
+                          - CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                  SuccessConditional:
+                    IsActive: false
+                    ConditionalBranches:
+                      - Name: ""
+                        Condition:
+                          ExpressionString: ""
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    DefaultBranch:
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  SuccessNextStep:
+                    DialogAction:
+                      SlotToElicit: ""
+                      SuppressNextMessage: false
+                      Type: ""
+                    Intent:
+                      Name: ""
+                      Slots:
+                        - SlotName: ""
+                          SlotValueOverride:
+                            Shape: ""
+                            Values: []
+                            Value:
+                              InterpretedValue: ""
+                    SessionAttributes:
+                      - Key: ""
+                        Value: ""
+                  SuccessResponse:
+                    AllowInterrupt: false
+                    MessageGroupsList:
+                      - Message:
+                          CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                        Variations:
+                          - CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                  TimeoutConditional:
+                    IsActive: false
+                    ConditionalBranches:
+                      - Name: ""
+                        Condition:
+                          ExpressionString: ""
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    DefaultBranch:
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  TimeoutNextStep:
+                    DialogAction:
+                      SlotToElicit: ""
+                      SuppressNextMessage: false
+                      Type: ""
+                    Intent:
+                      Name: ""
+                      Slots:
+                        - SlotName: ""
+                          SlotValueOverride:
+                            Shape: ""
+                            Values: []
+                            Value:
+                              InterpretedValue: ""
+                    SessionAttributes:
+                      - Key: ""
+                        Value: ""
+                  TimeoutResponse:
+                    AllowInterrupt: false
+                    MessageGroupsList:
+                      - Message:
+                          CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                        Variations:
+                          - CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+              InitialResponseSetting:
+                CodeHook:
+                  EnableCodeHookInvocation: false
+                  InvocationLabel: ""
+                  IsActive: false
+                  PostCodeHookSpecification:
+                    FailureConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    FailureNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    FailureResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                    SuccessConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    SuccessNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    SuccessResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                    TimeoutConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    TimeoutNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    TimeoutResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                Conditional:
+                  IsActive: false
+                  ConditionalBranches:
+                    - Name: ""
+                      Condition:
+                        ExpressionString: ""
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  DefaultBranch:
+                    NextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    Response:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                InitialResponse:
+                  AllowInterrupt: false
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                NextStep:
+                  DialogAction:
+                    SlotToElicit: ""
+                    SuppressNextMessage: false
+                    Type: ""
+                  Intent:
+                    Name: ""
+                    Slots:
+                      - SlotName: ""
+                        SlotValueOverride:
+                          Shape: ""
+                          Values: []
+                          Value:
+                            InterpretedValue: ""
+                  SessionAttributes:
+                    - Key: ""
+                      Value: ""
+              InputContexts:
+                - Name: ""
+              IntentClosingSetting:
+                IsActive: false
+                ClosingResponse:
+                  AllowInterrupt: false
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                Conditional:
+                  IsActive: false
+                  ConditionalBranches:
+                    - Name: ""
+                      Condition:
+                        ExpressionString: ""
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  DefaultBranch:
+                    NextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    Response:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                NextStep:
+                  DialogAction:
+                    SlotToElicit: ""
+                    SuppressNextMessage: false
+                    Type: ""
+                  Intent:
+                    Name: ""
+                    Slots:
+                      - SlotName: ""
+                        SlotValueOverride:
+                          Shape: ""
+                          Values: []
+                          Value:
+                            InterpretedValue: ""
+                  SessionAttributes:
+                    - Key: ""
+                      Value: ""
+              IntentConfirmationSetting:
+                IsActive: false
+                CodeHook:
+                  EnableCodeHookInvocation: false
+                  InvocationLabel: ""
+                  IsActive: false
+                  PostCodeHookSpecification:
+                    FailureConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    FailureNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    FailureResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                    SuccessConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    SuccessNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    SuccessResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                    TimeoutConditional:
+                      IsActive: false
+                      ConditionalBranches:
+                        - Name: ""
+                          Condition:
+                            ExpressionString: ""
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      DefaultBranch:
+                        NextStep:
+                          DialogAction:
+                            SlotToElicit: ""
+                            SuppressNextMessage: false
+                            Type: ""
+                          Intent:
+                            Name: ""
+                            Slots:
+                              - SlotName: ""
+                                SlotValueOverride:
+                                  Shape: ""
+                                  Values: []
+                                  Value:
+                                    InterpretedValue: ""
+                          SessionAttributes:
+                            - Key: ""
+                              Value: ""
+                        Response:
+                          AllowInterrupt: false
+                          MessageGroupsList:
+                            - Message:
+                                CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                              Variations:
+                                - CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                    TimeoutNextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    TimeoutResponse:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                ConfirmationConditional:
+                  IsActive: false
+                  ConditionalBranches:
+                    - Name: ""
+                      Condition:
+                        ExpressionString: ""
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  DefaultBranch:
+                    NextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    Response:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                ConfirmationNextStep:
+                  DialogAction:
+                    SlotToElicit: ""
+                    SuppressNextMessage: false
+                    Type: ""
+                  Intent:
+                    Name: ""
+                    Slots:
+                      - SlotName: ""
+                        SlotValueOverride:
+                          Shape: ""
+                          Values: []
+                          Value:
+                            InterpretedValue: ""
+                  SessionAttributes:
+                    - Key: ""
+                      Value: ""
+                ConfirmationResponse:
+                  AllowInterrupt: false
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                DeclinationConditional:
+                  IsActive: false
+                  ConditionalBranches:
+                    - Name: ""
+                      Condition:
+                        ExpressionString: ""
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  DefaultBranch:
+                    NextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    Response:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                DeclinationNextStep:
+                  DialogAction:
+                    SlotToElicit: ""
+                    SuppressNextMessage: false
+                    Type: ""
+                  Intent:
+                    Name: ""
+                    Slots:
+                      - SlotName: ""
+                        SlotValueOverride:
+                          Shape: ""
+                          Values: []
+                          Value:
+                            InterpretedValue: ""
+                  SessionAttributes:
+                    - Key: ""
+                      Value: ""
+                DeclinationResponse:
+                  AllowInterrupt: false
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                ElicitationCodeHook:
+                  EnableCodeHookInvocation: false
+                  InvocationLabel: ""
+                FailureConditional:
+                  IsActive: false
+                  ConditionalBranches:
+                    - Name: ""
+                      Condition:
+                        ExpressionString: ""
+                      NextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      Response:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                  DefaultBranch:
+                    NextStep:
+                      DialogAction:
+                        SlotToElicit: ""
+                        SuppressNextMessage: false
+                        Type: ""
+                      Intent:
+                        Name: ""
+                        Slots:
+                          - SlotName: ""
+                            SlotValueOverride:
+                              Shape: ""
+                              Values: []
+                              Value:
+                                InterpretedValue: ""
+                      SessionAttributes:
+                        - Key: ""
+                          Value: ""
+                    Response:
+                      AllowInterrupt: false
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                FailureNextStep:
+                  DialogAction:
+                    SlotToElicit: ""
+                    SuppressNextMessage: false
+                    Type: ""
+                  Intent:
+                    Name: ""
+                    Slots:
+                      - SlotName: ""
+                        SlotValueOverride:
+                          Shape: ""
+                          Values: []
+                          Value:
+                            InterpretedValue: ""
+                  SessionAttributes:
+                    - Key: ""
+                      Value: ""
+                FailureResponse:
+                  AllowInterrupt: false
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                PromptSpecification:
+                  AllowInterrupt: false
+                  MaxRetries: 0
+                  MessageSelectionStrategy: ""
+                  MessageGroupsList:
+                    - Message:
+                        CustomPayload:
+                          Value: ""
+                        ImageResponseCard:
+                          ImageUrl: ""
+                          Subtitle: ""
+                          Title: ""
+                          Buttons:
+                            - Text: ""
+                              Value: ""
+                        PlainTextMessage:
+                          Value: ""
+                        SSMLMessage:
+                          Value: ""
+                      Variations:
+                        - CustomPayload:
+                            Value: ""
+                          ImageResponseCard:
+                            ImageUrl: ""
+                            Subtitle: ""
+                            Title: ""
+                            Buttons:
+                              - Text: ""
+                                Value: ""
+                          PlainTextMessage:
+                            Value: ""
+                          SSMLMessage:
+                            Value: ""
+                  PromptAttemptsSpecification: {}
+              KendraConfiguration:
+                KendraIndex: ""
+                QueryFilterString: ""
+                QueryFilterStringEnabled: false
+              OutputContexts:
+                - Name: ""
+                  TimeToLiveInSeconds: 0
+                  TurnsToLive: 0
+              QInConnectIntentConfiguration:
+                QInConnectAssistantConfiguration:
+                  AssistantArn: ""
+              QnAIntentConfiguration:
+                BedrockModelConfiguration:
+                  BedrockModelCustomPrompt: ""
+                  BedrockTraceStatus: ""
+                  ModelArn: ""
+                  BedrockGuardrailConfiguration:
+                    BedrockGuardrailIdentifier: ""
+                    BedrockGuardrailVersion: ""
+                DataSourceConfiguration:
+                  BedrockKnowledgeStoreConfiguration:
+                    BedrockKnowledgeBaseArn: ""
+                    ExactResponse: false
+                    BKBExactResponseFields:
+                      AnswerField: ""
+                  KendraConfiguration:
+                    ExactResponse: false
+                    KendraIndex: ""
+                    QueryFilterString: ""
+                    QueryFilterStringEnabled: false
+                  OpensearchConfiguration:
+                    DomainEndpoint: ""
+                    ExactResponse: false
+                    IncludeFields: []
+                    IndexName: ""
+                    ExactResponseFields:
+                      AnswerField: ""
+                      QuestionField: ""
+              SampleUtterances:
+                - Utterance: ""
+              SlotPriorities:
+                - Priority: 0
+                  SlotName: ""
+              Slots:
+                - Description: ""
+                  Name: ""
+                  SlotTypeName: ""
+                  MultipleValuesSetting:
+                    AllowMultipleValues: false
+                  ObfuscationSetting:
+                    ObfuscationSettingType: ""
+                  SubSlotSetting:
+                    Expression: ""
+                    SlotSpecifications: {}
+                  ValueElicitationSetting:
+                    SlotConstraint: ""
+                    DefaultValueSpecification:
+                      DefaultValueList:
+                        - DefaultValue: ""
+                    PromptSpecification:
+                      AllowInterrupt: false
+                      MaxRetries: 0
+                      MessageSelectionStrategy: ""
+                      MessageGroupsList:
+                        - Message:
+                            CustomPayload:
+                              Value: ""
+                            ImageResponseCard:
+                              ImageUrl: ""
+                              Subtitle: ""
+                              Title: ""
+                              Buttons:
+                                - Text: ""
+                                  Value: ""
+                            PlainTextMessage:
+                              Value: ""
+                            SSMLMessage:
+                              Value: ""
+                          Variations:
+                            - CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                      PromptAttemptsSpecification: {}
+                    SampleUtterances:
+                      - Utterance: ""
+                    SlotCaptureSetting:
+                      CaptureConditional:
+                        IsActive: false
+                        ConditionalBranches:
+                          - Name: ""
+                            Condition:
+                              ExpressionString: ""
+                            NextStep:
+                              DialogAction:
+                                SlotToElicit: ""
+                                SuppressNextMessage: false
+                                Type: ""
+                              Intent:
+                                Name: ""
+                                Slots:
+                                  - SlotName: ""
+                                    SlotValueOverride:
+                                      Shape: ""
+                                      Values: []
+                                      Value:
+                                        InterpretedValue: ""
+                              SessionAttributes:
+                                - Key: ""
+                                  Value: ""
+                            Response:
+                              AllowInterrupt: false
+                              MessageGroupsList:
+                                - Message:
+                                    CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                                  Variations:
+                                    - CustomPayload:
+                                        Value: ""
+                                      ImageResponseCard:
+                                        ImageUrl: ""
+                                        Subtitle: ""
+                                        Title: ""
+                                        Buttons:
+                                          - Text: ""
+                                            Value: ""
+                                      PlainTextMessage:
+                                        Value: ""
+                                      SSMLMessage:
+                                        Value: ""
+                        DefaultBranch:
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      CaptureNextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      CaptureResponse:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                      CodeHook:
+                        EnableCodeHookInvocation: false
+                        InvocationLabel: ""
+                        IsActive: false
+                        PostCodeHookSpecification:
+                          FailureConditional:
+                            IsActive: false
+                            ConditionalBranches:
+                              - Name: ""
+                                Condition:
+                                  ExpressionString: ""
+                                NextStep:
+                                  DialogAction:
+                                    SlotToElicit: ""
+                                    SuppressNextMessage: false
+                                    Type: ""
+                                  Intent:
+                                    Name: ""
+                                    Slots:
+                                      - SlotName: ""
+                                        SlotValueOverride:
+                                          Shape: ""
+                                          Values: []
+                                          Value:
+                                            InterpretedValue: ""
+                                  SessionAttributes:
+                                    - Key: ""
+                                      Value: ""
+                                Response:
+                                  AllowInterrupt: false
+                                  MessageGroupsList:
+                                    - Message:
+                                        CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                                      Variations:
+                                        - CustomPayload:
+                                            Value: ""
+                                          ImageResponseCard:
+                                            ImageUrl: ""
+                                            Subtitle: ""
+                                            Title: ""
+                                            Buttons:
+                                              - Text: ""
+                                                Value: ""
+                                          PlainTextMessage:
+                                            Value: ""
+                                          SSMLMessage:
+                                            Value: ""
+                            DefaultBranch:
+                              NextStep:
+                                DialogAction:
+                                  SlotToElicit: ""
+                                  SuppressNextMessage: false
+                                  Type: ""
+                                Intent:
+                                  Name: ""
+                                  Slots:
+                                    - SlotName: ""
+                                      SlotValueOverride:
+                                        Shape: ""
+                                        Values: []
+                                        Value:
+                                          InterpretedValue: ""
+                                SessionAttributes:
+                                  - Key: ""
+                                    Value: ""
+                              Response:
+                                AllowInterrupt: false
+                                MessageGroupsList:
+                                  - Message:
+                                      CustomPayload:
+                                        Value: ""
+                                      ImageResponseCard:
+                                        ImageUrl: ""
+                                        Subtitle: ""
+                                        Title: ""
+                                        Buttons:
+                                          - Text: ""
+                                            Value: ""
+                                      PlainTextMessage:
+                                        Value: ""
+                                      SSMLMessage:
+                                        Value: ""
+                                    Variations:
+                                      - CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                          FailureNextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          FailureResponse:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                          SuccessConditional:
+                            IsActive: false
+                            ConditionalBranches:
+                              - Name: ""
+                                Condition:
+                                  ExpressionString: ""
+                                NextStep:
+                                  DialogAction:
+                                    SlotToElicit: ""
+                                    SuppressNextMessage: false
+                                    Type: ""
+                                  Intent:
+                                    Name: ""
+                                    Slots:
+                                      - SlotName: ""
+                                        SlotValueOverride:
+                                          Shape: ""
+                                          Values: []
+                                          Value:
+                                            InterpretedValue: ""
+                                  SessionAttributes:
+                                    - Key: ""
+                                      Value: ""
+                                Response:
+                                  AllowInterrupt: false
+                                  MessageGroupsList:
+                                    - Message:
+                                        CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                                      Variations:
+                                        - CustomPayload:
+                                            Value: ""
+                                          ImageResponseCard:
+                                            ImageUrl: ""
+                                            Subtitle: ""
+                                            Title: ""
+                                            Buttons:
+                                              - Text: ""
+                                                Value: ""
+                                          PlainTextMessage:
+                                            Value: ""
+                                          SSMLMessage:
+                                            Value: ""
+                            DefaultBranch:
+                              NextStep:
+                                DialogAction:
+                                  SlotToElicit: ""
+                                  SuppressNextMessage: false
+                                  Type: ""
+                                Intent:
+                                  Name: ""
+                                  Slots:
+                                    - SlotName: ""
+                                      SlotValueOverride:
+                                        Shape: ""
+                                        Values: []
+                                        Value:
+                                          InterpretedValue: ""
+                                SessionAttributes:
+                                  - Key: ""
+                                    Value: ""
+                              Response:
+                                AllowInterrupt: false
+                                MessageGroupsList:
+                                  - Message:
+                                      CustomPayload:
+                                        Value: ""
+                                      ImageResponseCard:
+                                        ImageUrl: ""
+                                        Subtitle: ""
+                                        Title: ""
+                                        Buttons:
+                                          - Text: ""
+                                            Value: ""
+                                      PlainTextMessage:
+                                        Value: ""
+                                      SSMLMessage:
+                                        Value: ""
+                                    Variations:
+                                      - CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                          SuccessNextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          SuccessResponse:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                          TimeoutConditional:
+                            IsActive: false
+                            ConditionalBranches:
+                              - Name: ""
+                                Condition:
+                                  ExpressionString: ""
+                                NextStep:
+                                  DialogAction:
+                                    SlotToElicit: ""
+                                    SuppressNextMessage: false
+                                    Type: ""
+                                  Intent:
+                                    Name: ""
+                                    Slots:
+                                      - SlotName: ""
+                                        SlotValueOverride:
+                                          Shape: ""
+                                          Values: []
+                                          Value:
+                                            InterpretedValue: ""
+                                  SessionAttributes:
+                                    - Key: ""
+                                      Value: ""
+                                Response:
+                                  AllowInterrupt: false
+                                  MessageGroupsList:
+                                    - Message:
+                                        CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                                      Variations:
+                                        - CustomPayload:
+                                            Value: ""
+                                          ImageResponseCard:
+                                            ImageUrl: ""
+                                            Subtitle: ""
+                                            Title: ""
+                                            Buttons:
+                                              - Text: ""
+                                                Value: ""
+                                          PlainTextMessage:
+                                            Value: ""
+                                          SSMLMessage:
+                                            Value: ""
+                            DefaultBranch:
+                              NextStep:
+                                DialogAction:
+                                  SlotToElicit: ""
+                                  SuppressNextMessage: false
+                                  Type: ""
+                                Intent:
+                                  Name: ""
+                                  Slots:
+                                    - SlotName: ""
+                                      SlotValueOverride:
+                                        Shape: ""
+                                        Values: []
+                                        Value:
+                                          InterpretedValue: ""
+                                SessionAttributes:
+                                  - Key: ""
+                                    Value: ""
+                              Response:
+                                AllowInterrupt: false
+                                MessageGroupsList:
+                                  - Message:
+                                      CustomPayload:
+                                        Value: ""
+                                      ImageResponseCard:
+                                        ImageUrl: ""
+                                        Subtitle: ""
+                                        Title: ""
+                                        Buttons:
+                                          - Text: ""
+                                            Value: ""
+                                      PlainTextMessage:
+                                        Value: ""
+                                      SSMLMessage:
+                                        Value: ""
+                                    Variations:
+                                      - CustomPayload:
+                                          Value: ""
+                                        ImageResponseCard:
+                                          ImageUrl: ""
+                                          Subtitle: ""
+                                          Title: ""
+                                          Buttons:
+                                            - Text: ""
+                                              Value: ""
+                                        PlainTextMessage:
+                                          Value: ""
+                                        SSMLMessage:
+                                          Value: ""
+                          TimeoutNextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          TimeoutResponse:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      ElicitationCodeHook:
+                        EnableCodeHookInvocation: false
+                        InvocationLabel: ""
+                      FailureConditional:
+                        IsActive: false
+                        ConditionalBranches:
+                          - Name: ""
+                            Condition:
+                              ExpressionString: ""
+                            NextStep:
+                              DialogAction:
+                                SlotToElicit: ""
+                                SuppressNextMessage: false
+                                Type: ""
+                              Intent:
+                                Name: ""
+                                Slots:
+                                  - SlotName: ""
+                                    SlotValueOverride:
+                                      Shape: ""
+                                      Values: []
+                                      Value:
+                                        InterpretedValue: ""
+                              SessionAttributes:
+                                - Key: ""
+                                  Value: ""
+                            Response:
+                              AllowInterrupt: false
+                              MessageGroupsList:
+                                - Message:
+                                    CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                                  Variations:
+                                    - CustomPayload:
+                                        Value: ""
+                                      ImageResponseCard:
+                                        ImageUrl: ""
+                                        Subtitle: ""
+                                        Title: ""
+                                        Buttons:
+                                          - Text: ""
+                                            Value: ""
+                                      PlainTextMessage:
+                                        Value: ""
+                                      SSMLMessage:
+                                        Value: ""
+                        DefaultBranch:
+                          NextStep:
+                            DialogAction:
+                              SlotToElicit: ""
+                              SuppressNextMessage: false
+                              Type: ""
+                            Intent:
+                              Name: ""
+                              Slots:
+                                - SlotName: ""
+                                  SlotValueOverride:
+                                    Shape: ""
+                                    Values: []
+                                    Value:
+                                      InterpretedValue: ""
+                            SessionAttributes:
+                              - Key: ""
+                                Value: ""
+                          Response:
+                            AllowInterrupt: false
+                            MessageGroupsList:
+                              - Message:
+                                  CustomPayload:
+                                    Value: ""
+                                  ImageResponseCard:
+                                    ImageUrl: ""
+                                    Subtitle: ""
+                                    Title: ""
+                                    Buttons:
+                                      - Text: ""
+                                        Value: ""
+                                  PlainTextMessage:
+                                    Value: ""
+                                  SSMLMessage:
+                                    Value: ""
+                                Variations:
+                                  - CustomPayload:
+                                      Value: ""
+                                    ImageResponseCard:
+                                      ImageUrl: ""
+                                      Subtitle: ""
+                                      Title: ""
+                                      Buttons:
+                                        - Text: ""
+                                          Value: ""
+                                    PlainTextMessage:
+                                      Value: ""
+                                    SSMLMessage:
+                                      Value: ""
+                      FailureNextStep:
+                        DialogAction:
+                          SlotToElicit: ""
+                          SuppressNextMessage: false
+                          Type: ""
+                        Intent:
+                          Name: ""
+                          Slots:
+                            - SlotName: ""
+                              SlotValueOverride:
+                                Shape: ""
+                                Values: []
+                                Value:
+                                  InterpretedValue: ""
+                        SessionAttributes:
+                          - Key: ""
+                            Value: ""
+                      FailureResponse:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                    WaitAndContinueSpecification:
+                      IsActive: false
+                      ContinueResponse:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                      StillWaitingResponse:
+                        AllowInterrupt: false
+                        FrequencyInSeconds: 0
+                        TimeoutInSeconds: 0
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+                      WaitingResponse:
+                        AllowInterrupt: false
+                        MessageGroupsList:
+                          - Message:
+                              CustomPayload:
+                                Value: ""
+                              ImageResponseCard:
+                                ImageUrl: ""
+                                Subtitle: ""
+                                Title: ""
+                                Buttons:
+                                  - Text: ""
+                                    Value: ""
+                              PlainTextMessage:
+                                Value: ""
+                              SSMLMessage:
+                                Value: ""
+                            Variations:
+                              - CustomPayload:
+                                  Value: ""
+                                ImageResponseCard:
+                                  ImageUrl: ""
+                                  Subtitle: ""
+                                  Title: ""
+                                  Buttons:
+                                    - Text: ""
+                                      Value: ""
+                                PlainTextMessage:
+                                  Value: ""
+                                SSMLMessage:
+                                  Value: ""
+          SlotTypes:
+            - Description: ""
+              Name: ""
+              ParentSlotTypeSignature: ""
+              CompositeSlotTypeSetting:
+                SubSlots:
+                  - Name: ""
+                    SlotTypeId: ""
+                    SlotTypeName: ""
+              ExternalSourceSetting:
+                GrammarSlotTypeSetting:
+                  Source:
+                    KmsKeyArn: ""
+                    S3BucketName: ""
+                    S3ObjectKey: ""
+              SlotTypeValues:
+                - SampleValue:
+                    Value: ""
+                  Synonyms:
+                    - Value: ""
+              ValueSelectionSetting:
+                ResolutionStrategy: ""
+                AdvancedRecognitionSetting:
+                  AudioRecognitionStrategy: ""
+                RegexFilter:
+                  Pattern: ""
+          SpeechRecognitionSettings:
+            SpeechModelPreference: ""
+            SpeechModelConfig:
+              DeepgramConfig:
+                ApiTokenSecretArn: ""
+                ModelId: ""
+          UnifiedSpeechSettings:
+            SpeechFoundationModel:
+              ModelArn: ""
+              VoiceId: ""
+          VoiceSettings:
+            Engine: ""
+            VoiceId: ""
+      BotMembers:
+        - BotMemberAliasId: ""
+          BotMemberAliasName: ""
+          BotMemberId: ""
+          BotMemberName: ""
+          BotMemberVersion: ""
+      BotTags:
+        - Key: ""
+          Value: ""
+      DataPrivacy:
+        ChildDirected: false
+      ErrorLogSettings:
+        Enabled: false
+      Replication:
+        ReplicaRegions: []
+      TestBotAliasSettings:
+        Description: ""
+        BotAliasLocaleSettings:
+          - LocaleId: ""
+            BotAliasLocaleSetting:
+              Enabled: false
+              CodeHookSpecification:
+                LambdaCodeHook:
+                  CodeHookInterfaceVersion: ""
+                  LambdaArn: ""
+        ConversationLogSettings:
+          AudioLogSettings:
+            - Enabled: false
+              Destination:
+                S3Bucket:
+                  KmsKeyArn: ""
+                  LogPrefix: ""
+                  S3BucketArn: ""
+          TextLogSettings:
+            - Enabled: false
+              Destination:
+                CloudWatch:
+                  CloudWatchLogGroupArn: ""
+                  LogPrefix: ""
+        SentimentAnalysisSettings:
+          DetectSentiment: false
+      TestBotAliasTags:
+        - Key: ""
+          Value: ""

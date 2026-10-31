@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanageraddresslist:
+    Type: AWS::SES::MailManagerAddressList
+    Properties:
+      AddressListName: ""
+      Tags:
+        - Key: ""
+          Value: ""

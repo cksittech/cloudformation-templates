@@ -1,0 +1,549 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKinesisfirehoseDeliverystream:
+    Type: AWS::KinesisFirehose::DeliveryStream
+    Properties:
+      DeliveryStreamName: ""
+      DeliveryStreamType: ""
+      AmazonOpenSearchServerlessDestinationConfiguration:
+        CollectionEndpoint: ""
+        IndexName: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        VpcConfiguration:
+          RoleARN: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+      AmazonopensearchserviceDestinationConfiguration:
+        ClusterEndpoint: ""
+        DomainARN: ""
+        IndexName: ""
+        IndexRotationPeriod: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        TypeName: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        DocumentIdOptions:
+          DefaultDocumentIdFormat: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        VpcConfiguration:
+          RoleARN: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+      DatabaseSourceConfiguration:
+        Digest: ""
+        Endpoint: ""
+        Port: 0
+        PublicCertificate: ""
+        SSLMode: ""
+        SnapshotWatermarkTable: ""
+        SurrogateKeys: []
+        Type: ""
+        Columns:
+          Exclude: []
+          Include: []
+        DatabaseSourceAuthenticationConfiguration:
+          SecretsManagerConfiguration:
+            Enabled: false
+            RoleARN: ""
+            SecretARN: ""
+        DatabaseSourceVPCConfiguration:
+          VpcEndpointServiceName: ""
+        Databases:
+          Exclude: []
+          Include: []
+        Tables:
+          Exclude: []
+          Include: []
+      DeliveryStreamEncryptionConfigurationInput:
+        KeyARN: ""
+        KeyType: ""
+      DirectPutSourceConfiguration:
+        ThroughputHintInMBs: 0
+      ElasticsearchDestinationConfiguration:
+        ClusterEndpoint: ""
+        DomainARN: ""
+        IndexName: ""
+        IndexRotationPeriod: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        TypeName: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        DocumentIdOptions:
+          DefaultDocumentIdFormat: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        VpcConfiguration:
+          RoleARN: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+      ExtendedS3DestinationConfiguration:
+        BucketARN: ""
+        CompressionFormat: ""
+        CustomTimeZone: ""
+        ErrorOutputPrefix: ""
+        FileExtension: ""
+        Prefix: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        DataFormatConversionConfiguration:
+          Enabled: false
+          InputFormatConfiguration:
+            Deserializer:
+              HiveJsonSerDe:
+                TimestampFormats: []
+              OpenXJsonSerDe:
+                CaseInsensitive: false
+                ConvertDotsInJsonKeysToUnderscores: false
+                ColumnToJsonKeyMappings: {}
+          OutputFormatConfiguration:
+            Serializer:
+              OrcSerDe:
+                BlockSizeBytes: 0
+                BloomFilterColumns: []
+                BloomFilterFalsePositiveProbability: 0
+                Compression: ""
+                DictionaryKeyThreshold: 0
+                EnablePadding: false
+                FormatVersion: ""
+                PaddingTolerance: 0
+                RowIndexStride: 0
+                StripeSizeBytes: 0
+              ParquetSerDe:
+                BlockSizeBytes: 0
+                Compression: ""
+                EnableDictionaryCompression: false
+                MaxPaddingBytes: 0
+                PageSizeBytes: 0
+                WriterVersion: ""
+          SchemaConfiguration:
+            CatalogId: ""
+            DatabaseName: ""
+            Region: ""
+            RoleARN: ""
+            TableName: ""
+            VersionId: ""
+        DynamicPartitioningConfiguration:
+          Enabled: false
+          RetryOptions:
+            DurationInSeconds: 0
+        EncryptionConfiguration:
+          NoEncryptionConfig: ""
+          KMSEncryptionConfig:
+            AWSKMSKeyARN: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        S3BackupConfiguration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+      HttpEndpointDestinationConfiguration:
+        RoleARN: ""
+        S3BackupMode: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        EndpointConfiguration:
+          AccessKey: ""
+          Name: ""
+          Url: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RequestConfiguration:
+          ContentEncoding: ""
+          CommonAttributes:
+            - AttributeName: ""
+              AttributeValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        SecretsManagerConfiguration:
+          Enabled: false
+          RoleARN: ""
+          SecretARN: ""
+      IcebergDestinationConfiguration:
+        AppendOnly: false
+        RoleARN: ""
+        s3BackupMode: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CatalogConfiguration:
+          CatalogArn: ""
+          WarehouseLocation: ""
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        DestinationTableConfigurationList:
+          - DestinationDatabaseName: ""
+            DestinationTableName: ""
+            S3ErrorOutputPrefix: ""
+            UniqueKeys: []
+            PartitionSpec:
+              Identity:
+                - SourceName: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        SchemaEvolutionConfiguration:
+          Enabled: false
+        TableCreationConfiguration:
+          Enabled: false
+      KinesisStreamSourceConfiguration:
+        KinesisStreamARN: ""
+        RoleARN: ""
+      MSKSourceConfiguration:
+        MSKClusterARN: ""
+        ReadFromTimestamp: ""
+        TopicName: ""
+        AuthenticationConfiguration:
+          Connectivity: ""
+          RoleARN: ""
+      RedshiftDestinationConfiguration:
+        ClusterJDBCURL: ""
+        Password: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        Username: ""
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        CopyCommand:
+          CopyOptions: ""
+          DataTableColumns: ""
+          DataTableName: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3BackupConfiguration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        SecretsManagerConfiguration:
+          Enabled: false
+          RoleARN: ""
+          SecretARN: ""
+      S3DestinationConfiguration:
+        BucketARN: ""
+        CompressionFormat: ""
+        ErrorOutputPrefix: ""
+        Prefix: ""
+        RoleARN: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        EncryptionConfiguration:
+          NoEncryptionConfig: ""
+          KMSEncryptionConfig:
+            AWSKMSKeyARN: ""
+      SnowflakeDestinationConfiguration:
+        AccountUrl: ""
+        ContentColumnName: ""
+        DataLoadingOption: ""
+        Database: ""
+        KeyPassphrase: ""
+        MetaDataColumnName: ""
+        PrivateKey: ""
+        RoleARN: ""
+        S3BackupMode: ""
+        Schema: ""
+        Table: ""
+        User: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        SecretsManagerConfiguration:
+          Enabled: false
+          RoleARN: ""
+          SecretARN: ""
+        SnowflakeRoleConfiguration:
+          Enabled: false
+          SnowflakeRole: ""
+        SnowflakeVpcConfiguration:
+          PrivateLinkVpceId: ""
+      SplunkDestinationConfiguration:
+        HECAcknowledgmentTimeoutInSeconds: 0
+        HECEndpoint: ""
+        HECEndpointType: ""
+        HECToken: ""
+        S3BackupMode: ""
+        BufferingHints:
+          IntervalInSeconds: 0
+          SizeInMBs: 0
+        CloudWatchLoggingOptions:
+          Enabled: false
+          LogGroupName: ""
+          LogStreamName: ""
+        ProcessingConfiguration:
+          Enabled: false
+          Processors:
+            - Type: ""
+              Parameters:
+                - ParameterName: ""
+                  ParameterValue: ""
+        RetryOptions:
+          DurationInSeconds: 0
+        S3Configuration:
+          BucketARN: ""
+          CompressionFormat: ""
+          ErrorOutputPrefix: ""
+          Prefix: ""
+          RoleARN: ""
+          BufferingHints:
+            IntervalInSeconds: 0
+            SizeInMBs: 0
+          CloudWatchLoggingOptions:
+            Enabled: false
+            LogGroupName: ""
+            LogStreamName: ""
+          EncryptionConfiguration:
+            NoEncryptionConfig: ""
+            KMSEncryptionConfig:
+              AWSKMSKeyARN: ""
+        SecretsManagerConfiguration:
+          Enabled: false
+          RoleARN: ""
+          SecretARN: ""
+      Tags:
+        - Key: ""
+          Value: ""

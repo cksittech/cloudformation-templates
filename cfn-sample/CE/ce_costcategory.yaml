@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCeCostcategory:
+    Type: AWS::CE::CostCategory
+    Properties:
+      DefaultValue: ""
+      Name: ""
+      RuleVersion: ""
+      Rules: ""
+      SplitChargeRules: ""
+      Tags:
+        - Key: ""
+          Value: ""

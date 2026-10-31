@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWellarchitectedReviewtemplate:
+    Type: AWS::WellArchitected::ReviewTemplate
+    Properties:
+      Description: ""
+      Lenses: []
+      Notes: ""
+      TemplateName: ""
+      Tags:
+        - Key: ""
+          Value: ""

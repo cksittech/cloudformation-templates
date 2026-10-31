@@ -1,0 +1,210 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppflowFlow:
+    Type: AWS::AppFlow::Flow
+    Properties:
+      Description: ""
+      FlowName: ""
+      FlowStatus: ""
+      KMSArn: ""
+      DestinationFlowConfigList:
+        - ApiVersion: ""
+          ConnectorProfileName: ""
+          ConnectorType: ""
+          DestinationConnectorProperties:
+            CustomConnector:
+              EntityName: ""
+              IdFieldNames: []
+              WriteOperationType: ""
+              CustomProperties: {}
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            EventBridge:
+              Object: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            LookoutMetrics:
+              Object: ""
+            Marketo:
+              Object: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            Redshift:
+              BucketPrefix: ""
+              IntermediateBucketName: ""
+              Object: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            S3:
+              BucketName: ""
+              BucketPrefix: ""
+              S3OutputFormatConfig:
+                FileType: ""
+                PreserveSourceDataTyping: false
+                AggregationConfig:
+                  AggregationType: ""
+                  TargetFileSize: 0
+                PrefixConfig:
+                  PathPrefixHierarchy: []
+                  PrefixFormat: ""
+                  PrefixType: ""
+            SAPOData:
+              IdFieldNames: []
+              ObjectPath: ""
+              WriteOperationType: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+              SuccessResponseHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+            Salesforce:
+              DataTransferApi: ""
+              IdFieldNames: []
+              Object: ""
+              WriteOperationType: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            Snowflake:
+              BucketPrefix: ""
+              IntermediateBucketName: ""
+              Object: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+            Upsolver:
+              BucketName: ""
+              BucketPrefix: ""
+              S3OutputFormatConfig:
+                FileType: ""
+                AggregationConfig:
+                  AggregationType: ""
+                  TargetFileSize: 0
+                PrefixConfig:
+                  PathPrefixHierarchy: []
+                  PrefixFormat: ""
+                  PrefixType: ""
+            Zendesk:
+              IdFieldNames: []
+              Object: ""
+              WriteOperationType: ""
+              ErrorHandlingConfig:
+                BucketName: ""
+                BucketPrefix: ""
+                FailOnFirstError: false
+      MetadataCatalogConfig:
+        GlueDataCatalog:
+          DatabaseName: ""
+          RoleArn: ""
+          TablePrefix: ""
+      SourceFlowConfig:
+        ApiVersion: ""
+        ConnectorProfileName: ""
+        ConnectorType: ""
+        IncrementalPullConfig:
+          DatetimeTypeFieldName: ""
+        SourceConnectorProperties:
+          Amplitude:
+            Object: ""
+          CustomConnector:
+            EntityName: ""
+            CustomProperties: {}
+            DataTransferApi:
+              Name: ""
+              Type: ""
+          Datadog:
+            Object: ""
+          Dynatrace:
+            Object: ""
+          GoogleAnalytics:
+            Object: ""
+          InforNexus:
+            Object: ""
+          Marketo:
+            Object: ""
+          Pardot:
+            Object: ""
+          S3:
+            BucketName: ""
+            BucketPrefix: ""
+            S3InputFormatConfig:
+              S3InputFileType: ""
+          SAPOData:
+            ObjectPath: ""
+            paginationConfig:
+              maxPageSize: 0
+            parallelismConfig:
+              maxParallelism: 0
+          Salesforce:
+            DataTransferApi: ""
+            EnableDynamicFieldUpdate: false
+            IncludeDeletedRecords: false
+            Object: ""
+          ServiceNow:
+            Object: ""
+          Singular:
+            Object: ""
+          Slack:
+            Object: ""
+          Trendmicro:
+            Object: ""
+          Veeva:
+            DocumentType: ""
+            IncludeAllVersions: false
+            IncludeRenditions: false
+            IncludeSourceFiles: false
+            Object: ""
+          Zendesk:
+            Object: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Tasks:
+        - DestinationField: ""
+          SourceFields: []
+          TaskType: ""
+          ConnectorOperator:
+            Amplitude: ""
+            CustomConnector: ""
+            Datadog: ""
+            Dynatrace: ""
+            GoogleAnalytics: ""
+            InforNexus: ""
+            Marketo: ""
+            Pardot: ""
+            S3: ""
+            SAPOData: ""
+            Salesforce: ""
+            ServiceNow: ""
+            Singular: ""
+            Slack: ""
+            Trendmicro: ""
+            Veeva: ""
+            Zendesk: ""
+          TaskProperties:
+            - Key: ""
+              Value: ""
+      TriggerConfig:
+        TriggerType: ""
+        TriggerProperties:
+          DataPullMode: ""
+          FirstExecutionFrom: 0
+          FlowErrorDeactivationThreshold: 0
+          ScheduleEndTime: 0
+          ScheduleExpression: ""
+          ScheduleOffset: 0
+          ScheduleStartTime: 0
+          TimeZone: ""

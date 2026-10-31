@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoUserpoolgroup:
+    Type: AWS::Cognito::UserPoolGroup
+    Properties:
+      Description: ""
+      GroupName: ""
+      Precedence: 0
+      RoleArn: ""
+      UserPoolId: ""

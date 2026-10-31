@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipampool:
+    Type: AWS::EC2::IPAMPool
+    Properties:
+      AddressFamily: ""
+      AllocationDefaultNetmaskLength: 0
+      AllocationMaxNetmaskLength: 0
+      AllocationMinNetmaskLength: 0
+      AutoImport: false
+      AwsService: ""
+      Description: ""
+      IpamScopeId: ""
+      Locale: ""
+      PublicIpSource: ""
+      PubliclyAdvertisable: false
+      SourceIpamPoolId: ""
+      AllocationResourceTags:
+        - Key: ""
+          Value: ""
+      ProvisionedCidrs:
+        - Cidr: ""
+      SourceResource:
+        ResourceId: ""
+        ResourceOwner: ""
+        ResourceRegion: ""
+        ResourceType: ""
+      Tags:
+        - Key: ""
+          Value: ""

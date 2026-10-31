@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaEventinvokeconfig:
+    Type: AWS::Lambda::EventInvokeConfig
+    Properties:
+      FunctionName: ""
+      MaximumEventAgeInSeconds: 0
+      MaximumRetryAttempts: 0
+      Qualifier: ""
+      DestinationConfig:
+        OnFailure:
+          Destination: ""
+        OnSuccess:
+          Destination: ""

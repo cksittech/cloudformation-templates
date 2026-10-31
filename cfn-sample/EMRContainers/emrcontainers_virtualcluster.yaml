@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrcontainersVirtualcluster:
+    Type: AWS::EMRContainers::VirtualCluster
+    Properties:
+      Name: ""
+      SecurityConfigurationId: ""
+      SessionEnabled: false
+      ContainerProvider:
+        Id: ""
+        Type: ""
+        Info:
+          EksInfo:
+            Namespace: ""
+      Tags:
+        - Key: ""
+          Value: ""

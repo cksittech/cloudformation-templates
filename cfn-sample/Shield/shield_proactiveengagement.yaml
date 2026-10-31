@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleShieldProactiveengagement:
+    Type: AWS::Shield::ProactiveEngagement
+    Properties:
+      ProactiveEngagementStatus: ""
+      EmergencyContactList:
+        - ContactNotes: ""
+          EmailAddress: ""
+          PhoneNumber: ""

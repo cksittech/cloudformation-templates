@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationfsxontap:
+    Type: AWS::DataSync::LocationFSxONTAP
+    Properties:
+      SecurityGroupArns: []
+      StorageVirtualMachineArn: ""
+      Subdirectory: ""
+      Protocol:
+        NFS:
+          MountOptions:
+            Version: ""
+        SMB:
+          Domain: ""
+          Password: ""
+          User: ""
+          CmkSecretConfig:
+            KmsKeyArn: ""
+          CustomSecretConfig:
+            SecretAccessRoleArn: ""
+            SecretArn: ""
+          MountOptions:
+            Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

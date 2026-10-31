@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSchedulerSchedule:
+    Type: AWS::Scheduler::Schedule
+    Properties:
+      Description: ""
+      EndDate: ""
+      GroupName: ""
+      KmsKeyArn: ""
+      Name: ""
+      ScheduleExpression: ""
+      ScheduleExpressionTimezone: ""
+      StartDate: ""
+      State: ""
+      FlexibleTimeWindow:
+        MaximumWindowInMinutes: 0
+        Mode: ""
+      Target:
+        Arn: ""
+        Input: ""
+        RoleArn: ""
+        DeadLetterConfig:
+          Arn: ""
+        EcsParameters:
+          EnableECSManagedTags: false
+          EnableExecuteCommand: false
+          Group: ""
+          LaunchType: ""
+          PlatformVersion: ""
+          PropagateTags: ""
+          ReferenceId: ""
+          Tags: []
+          TaskCount: 0
+          TaskDefinitionArn: ""
+          CapacityProviderStrategy:
+            - Base: 0
+              CapacityProvider: ""
+              Weight: 0
+          NetworkConfiguration:
+            AwsvpcConfiguration:
+              AssignPublicIp: ""
+              SecurityGroups: []
+              Subnets: []
+          PlacementConstraints:
+            - Expression: ""
+              Type: ""
+          PlacementStrategy:
+            - Field: ""
+              Type: ""
+        EventBridgeParameters:
+          DetailType: ""
+          Source: ""
+        KinesisParameters:
+          PartitionKey: ""
+        RetryPolicy:
+          MaximumEventAgeInSeconds: 0
+          MaximumRetryAttempts: 0
+        SageMakerPipelineParameters:
+          PipelineParameterList:
+            - Name: ""
+              Value: ""
+        SqsParameters:
+          MessageGroupId: ""

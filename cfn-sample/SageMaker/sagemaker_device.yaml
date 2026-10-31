@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerDevice:
+    Type: AWS::SageMaker::Device
+    Properties:
+      DeviceFleetName: ""
+      Device:
+        Description: ""
+        DeviceName: ""
+        IotThingName: ""
+      Tags:
+        - Key: ""
+          Value: ""

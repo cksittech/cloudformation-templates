@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyMember:
+    Type: AWS::GuardDuty::Member
+    Properties:
+      DetectorId: ""
+      DisableEmailNotification: false
+      Email: ""
+      MemberId: ""
+      Message: ""
+      Status: ""

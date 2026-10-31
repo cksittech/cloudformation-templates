@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeResourcegateway:
+    Type: AWS::VpcLattice::ResourceGateway
+    Properties:
+      IpAddressType: ""
+      Ipv4AddressesPerEni: 0
+      Name: ""
+      ResourceConfigDnsResolution: ""
+      SecurityGroupIds: []
+      SubnetIds: []
+      VpcIdentifier: ""
+      Tags:
+        - Key: ""
+          Value: ""

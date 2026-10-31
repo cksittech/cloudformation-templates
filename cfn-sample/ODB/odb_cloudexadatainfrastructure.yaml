@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOdbCloudexadatainfrastructure:
+    Type: AWS::ODB::CloudExadataInfrastructure
+    Properties:
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      ComputeCount: 0
+      DatabaseServerType: ""
+      DisplayName: ""
+      Shape: ""
+      StorageCount: 0
+      StorageServerType: ""
+      CustomerContactsToSendToOCI:
+        - Email: ""
+      MaintenanceWindow:
+        CustomActionTimeoutInMins: 0
+        DaysOfWeek: []
+        HoursOfDay: []
+        IsCustomActionTimeoutEnabled: false
+        LeadTimeInWeeks: 0
+        Months: []
+        PatchingMode: ""
+        Preference: ""
+        WeeksOfMonth: []
+      Tags:
+        - Key: ""
+          Value: ""

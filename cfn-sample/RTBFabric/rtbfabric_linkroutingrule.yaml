@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRtbfabricLinkroutingrule:
+    Type: AWS::RTBFabric::LinkRoutingRule
+    Properties:
+      GatewayId: ""
+      LinkId: ""
+      Priority: 0
+      Conditions:
+        HostHeader: ""
+        HostHeaderWildcard: ""
+        PathExact: ""
+        PathPrefix: ""
+        QueryStringExists: ""
+        QueryStringEquals:
+          Key: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

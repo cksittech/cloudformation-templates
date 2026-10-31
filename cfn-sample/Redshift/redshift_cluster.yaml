@@ -1,0 +1,64 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRedshiftCluster:
+    Type: AWS::Redshift::Cluster
+    Properties:
+      AllowVersionUpgrade: false
+      AquaConfigurationStatus: ""
+      AutomatedSnapshotRetentionPeriod: 0
+      AvailabilityZone: ""
+      AvailabilityZoneRelocation: false
+      AvailabilityZoneRelocationStatus: ""
+      Classic: false
+      ClusterIdentifier: ""
+      ClusterParameterGroupName: ""
+      ClusterSecurityGroups: []
+      ClusterSubnetGroupName: ""
+      ClusterType: ""
+      ClusterVersion: ""
+      DBName: ""
+      DeferMaintenance: false
+      DeferMaintenanceDuration: 0
+      DeferMaintenanceEndTime: ""
+      DeferMaintenanceStartTime: ""
+      DestinationRegion: ""
+      ElasticIp: ""
+      Encrypted: false
+      EnhancedVpcRouting: false
+      HsmClientCertificateIdentifier: ""
+      HsmConfigurationIdentifier: ""
+      IamRoles: []
+      KmsKeyId: ""
+      MaintenanceTrackName: ""
+      ManageMasterPassword: false
+      ManualSnapshotRetentionPeriod: 0
+      MasterPasswordSecretKmsKeyId: ""
+      MasterUserPassword: ""
+      MasterUsername: ""
+      MultiAZ: false
+      NodeType: ""
+      NumberOfNodes: 0
+      OwnerAccount: ""
+      Port: 0
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      ResourceAction: ""
+      RevisionTarget: ""
+      RotateEncryptionKey: false
+      SnapshotClusterIdentifier: ""
+      SnapshotCopyGrantName: ""
+      SnapshotCopyManual: false
+      SnapshotCopyRetentionPeriod: 0
+      SnapshotIdentifier: ""
+      VpcSecurityGroupIds: []
+      Endpoint: {}
+      LoggingProperties:
+        BucketName: ""
+        LogDestinationType: ""
+        LogExports: []
+        S3KeyPrefix: ""
+      NamespaceResourcePolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

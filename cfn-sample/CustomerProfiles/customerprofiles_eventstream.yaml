@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesEventstream:
+    Type: AWS::CustomerProfiles::EventStream
+    Properties:
+      DomainName: ""
+      EventStreamName: ""
+      Uri: ""
+      Tags:
+        - Key: ""
+          Value: ""

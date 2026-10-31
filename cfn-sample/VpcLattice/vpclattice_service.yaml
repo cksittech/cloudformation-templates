@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeService:
+    Type: AWS::VpcLattice::Service
+    Properties:
+      AuthType: "NONE"
+      CertificateArn: ""
+      CustomDomainName: ""
+      IdleTimeoutSeconds: 0
+      Name: ""
+      DnsEntry: {}
+      Tags:
+        - Key: ""
+          Value: ""

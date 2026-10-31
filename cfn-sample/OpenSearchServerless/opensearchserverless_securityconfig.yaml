@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessSecurityconfig:
+    Type: AWS::OpenSearchServerless::SecurityConfig
+    Properties:
+      Description: ""
+      Name: ""
+      Type: ""
+      IamFederationOptions:
+        GroupAttribute: ""
+        UserAttribute: ""
+      IamIdentityCenterOptions:
+        GroupAttribute: ""
+        InstanceArn: ""
+        UserAttribute: ""
+      SamlOptions:
+        GroupAttribute: ""
+        Metadata: ""
+        OpenSearchServerlessEntityId: ""
+        SessionTimeout: 0
+        UserAttribute: ""

@@ -1,0 +1,153 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApplicationinsightsApplication:
+    Type: AWS::ApplicationInsights::Application
+    Properties:
+      AttachMissingPermission: false
+      AutoConfigurationEnabled: false
+      CWEMonitorEnabled: false
+      GroupingType: ""
+      OpsCenterEnabled: false
+      OpsItemSNSTopicArn: ""
+      ResourceGroupName: ""
+      SNSNotificationArn: ""
+      ComponentMonitoringSettings:
+        - ComponentARN: ""
+          ComponentConfigurationMode: ""
+          ComponentName: ""
+          Tier: ""
+          CustomComponentConfiguration:
+            ConfigurationDetails:
+              AlarmMetrics:
+                - AlarmMetricName: ""
+              Alarms:
+                - AlarmName: ""
+                  Severity: ""
+              HAClusterPrometheusExporter:
+                PrometheusPort: ""
+              HANAPrometheusExporter:
+                AgreeToInstallHANADBClient: false
+                HANAPort: ""
+                HANASID: ""
+                HANASecretName: ""
+                PrometheusPort: ""
+              JMXPrometheusExporter:
+                HostPort: ""
+                JMXURL: ""
+                PrometheusPort: ""
+              Logs:
+                - Encoding: ""
+                  LogGroupName: ""
+                  LogPath: ""
+                  LogType: ""
+                  PatternSet: ""
+              NetWeaverPrometheusExporter:
+                InstanceNumbers: []
+                PrometheusPort: ""
+                SAPSID: ""
+              Processes:
+                - ProcessName: ""
+                  AlarmMetrics:
+                    - AlarmMetricName: ""
+              SQLServerPrometheusExporter:
+                PrometheusPort: ""
+                SQLSecretName: ""
+              WindowsEvents:
+                - EventLevels: []
+                  EventName: ""
+                  LogGroupName: ""
+                  PatternSet: ""
+            SubComponentTypeConfigurations:
+              - SubComponentType: ""
+                SubComponentConfigurationDetails:
+                  AlarmMetrics:
+                    - AlarmMetricName: ""
+                  Logs:
+                    - Encoding: ""
+                      LogGroupName: ""
+                      LogPath: ""
+                      LogType: ""
+                      PatternSet: ""
+                  Processes:
+                    - ProcessName: ""
+                      AlarmMetrics:
+                        - AlarmMetricName: ""
+                  WindowsEvents:
+                    - EventLevels: []
+                      EventName: ""
+                      LogGroupName: ""
+                      PatternSet: ""
+          DefaultOverwriteComponentConfiguration:
+            ConfigurationDetails:
+              AlarmMetrics:
+                - AlarmMetricName: ""
+              Alarms:
+                - AlarmName: ""
+                  Severity: ""
+              HAClusterPrometheusExporter:
+                PrometheusPort: ""
+              HANAPrometheusExporter:
+                AgreeToInstallHANADBClient: false
+                HANAPort: ""
+                HANASID: ""
+                HANASecretName: ""
+                PrometheusPort: ""
+              JMXPrometheusExporter:
+                HostPort: ""
+                JMXURL: ""
+                PrometheusPort: ""
+              Logs:
+                - Encoding: ""
+                  LogGroupName: ""
+                  LogPath: ""
+                  LogType: ""
+                  PatternSet: ""
+              NetWeaverPrometheusExporter:
+                InstanceNumbers: []
+                PrometheusPort: ""
+                SAPSID: ""
+              Processes:
+                - ProcessName: ""
+                  AlarmMetrics:
+                    - AlarmMetricName: ""
+              SQLServerPrometheusExporter:
+                PrometheusPort: ""
+                SQLSecretName: ""
+              WindowsEvents:
+                - EventLevels: []
+                  EventName: ""
+                  LogGroupName: ""
+                  PatternSet: ""
+            SubComponentTypeConfigurations:
+              - SubComponentType: ""
+                SubComponentConfigurationDetails:
+                  AlarmMetrics:
+                    - AlarmMetricName: ""
+                  Logs:
+                    - Encoding: ""
+                      LogGroupName: ""
+                      LogPath: ""
+                      LogType: ""
+                      PatternSet: ""
+                  Processes:
+                    - ProcessName: ""
+                      AlarmMetrics:
+                        - AlarmMetricName: ""
+                  WindowsEvents:
+                    - EventLevels: []
+                      EventName: ""
+                      LogGroupName: ""
+                      PatternSet: ""
+      CustomComponents:
+        - ComponentName: ""
+          ResourceList: []
+      LogPatternSets:
+        - PatternSetName: ""
+          LogPatterns:
+            - Pattern: ""
+              PatternName: ""
+              Rank: 0
+      Tags:
+        - Key: ""
+          Value: ""

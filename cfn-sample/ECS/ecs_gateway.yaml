@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcsGateway:
+    Type: AWS::ECS::Gateway
+    Properties:
+      DeletionProtection: true
+      GatewayName: ""
+      InfrastructureRoleArn: ""
+      PropagateTags: ""
+      Configuration:
+        HostSharedAlb:
+          HttpDesync: ""
+          MaxAlbCount: 0
+          Port: 0
+          Protocol: ""
+          Scheme: ""
+          WebACLArn: ""
+          AccessLogs:
+            Destination:
+              S3:
+                Bucket: ""
+                Prefix: ""
+          NetworkConfiguration:
+            InboundSecurityGroup: ""
+            IpAddressType: ""
+            Subnets: []
+          TestTrafficRules:
+            Header:
+              Name: ""
+              Values: []
+      Tags:
+        - Key: ""
+          Value: ""

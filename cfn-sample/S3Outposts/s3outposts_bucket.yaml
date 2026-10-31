@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3outpostsBucket:
+    Type: AWS::S3Outposts::Bucket
+    Properties:
+      BucketName: ""
+      OutpostId: ""
+      LifecycleConfiguration:
+        Rules:
+          - ExpirationDate: ""
+            ExpirationInDays: 0
+            Id: ""
+            Status: ""
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 0
+            Filter:
+              Prefix: ""
+              AndOperator:
+                Prefix: ""
+                Tags:
+                  - Key: ""
+                    Value: ""
+              Tag:
+                Key: ""
+                Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

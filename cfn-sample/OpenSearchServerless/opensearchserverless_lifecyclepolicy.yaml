@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessLifecyclepolicy:
+    Type: AWS::OpenSearchServerless::LifecyclePolicy
+    Properties:
+      Description: ""
+      Name: ""
+      Policy: ""
+      Type: ""

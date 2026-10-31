@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3objectlambdaAccesspointpolicy:
+    Type: AWS::S3ObjectLambda::AccessPointPolicy
+    Properties:
+      ObjectLambdaAccessPoint: ""
+      PolicyDocument: {}

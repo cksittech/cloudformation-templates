@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceConfigurationset:
+    Type: AWS::SMSVOICE::ConfigurationSet
+    Properties:
+      ConfigurationSetName: ""
+      DefaultSenderId: ""
+      MessageFeedbackEnabled: false
+      ProtectConfigurationId: ""
+      EventDestinations:
+        - Enabled: false
+          EventDestinationName: ""
+          MatchingEventTypes: []
+          CloudWatchLogsDestination:
+            IamRoleArn: ""
+            LogGroupArn: ""
+          KinesisFirehoseDestination:
+            DeliveryStreamArn: ""
+            IamRoleArn: ""
+          SnsDestination:
+            TopicArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

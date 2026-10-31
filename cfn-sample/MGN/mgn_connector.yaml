@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMgnConnector:
+    Type: AWS::MGN::Connector
+    Properties:
+      Name: ""
+      SsmInstanceID: ""
+      SsmCommandConfig:
+        CloudWatchLogGroupName: ""
+        CloudWatchOutputEnabled: false
+        OutputS3BucketName: ""
+        S3OutputEnabled: false
+      Tags:
+        - Key: ""
+          Value: ""

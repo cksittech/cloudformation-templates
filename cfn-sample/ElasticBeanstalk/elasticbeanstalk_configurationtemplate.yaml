@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticbeanstalkConfigurationtemplate:
+    Type: AWS::ElasticBeanstalk::ConfigurationTemplate
+    Properties:
+      ApplicationName: ""
+      Description: ""
+      EnvironmentId: ""
+      PlatformArn: ""
+      SolutionStackName: ""
+      OptionSettings:
+        - Namespace: ""
+          OptionName: ""
+          ResourceName: ""
+          Value: ""
+      SourceConfiguration:
+        ApplicationName: ""
+        TemplateName: ""

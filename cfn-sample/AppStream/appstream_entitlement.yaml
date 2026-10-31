@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamEntitlement:
+    Type: AWS::AppStream::Entitlement
+    Properties:
+      AppVisibility: ""
+      Description: ""
+      Name: ""
+      StackName: ""
+      Attributes:
+        - Name: ""
+          Value: ""

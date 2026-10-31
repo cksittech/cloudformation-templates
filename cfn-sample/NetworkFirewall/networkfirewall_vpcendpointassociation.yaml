@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallVpcendpointassociation:
+    Type: AWS::NetworkFirewall::VpcEndpointAssociation
+    Properties:
+      Description: ""
+      FirewallArn: ""
+      VpcId: ""
+      SubnetMapping:
+        IPAddressType: ""
+        SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

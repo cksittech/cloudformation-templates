@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Dhcpoptions:
+    Type: AWS::EC2::DHCPOptions
+    Properties:
+      DomainName: ""
+      DomainNameServers: []
+      Ipv6AddressPreferredLeaseTime: 0
+      NetbiosNameServers: []
+      NetbiosNodeType: 0
+      NtpServers: []
+      Tags:
+        - Key: ""
+          Value: ""

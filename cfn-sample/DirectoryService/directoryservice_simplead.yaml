@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectoryserviceSimplead:
+    Type: AWS::DirectoryService::SimpleAD
+    Properties:
+      CreateAlias: false
+      Description: ""
+      EnableSso: false
+      Name: ""
+      Password: ""
+      ShortName: ""
+      Size: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcSettings:
+        SubnetIds: []
+        VpcId: ""

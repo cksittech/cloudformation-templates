@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventschemasSchema:
+    Type: AWS::EventSchemas::Schema
+    Properties:
+      Content: ""
+      Description: ""
+      RegistryName: ""
+      SchemaName: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

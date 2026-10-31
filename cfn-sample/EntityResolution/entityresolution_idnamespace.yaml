@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEntityresolutionIdnamespace:
+    Type: AWS::EntityResolution::IdNamespace
+    Properties:
+      Description: ""
+      IdNamespaceName: ""
+      RoleArn: ""
+      Type: ""
+      IdMappingWorkflowProperties:
+        - IdMappingType: ""
+          ProviderProperties:
+            ProviderServiceArn: ""
+            ProviderConfiguration: {}
+          RuleBasedProperties:
+            AttributeMatchingModel: ""
+            RecordMatchingModels: []
+            RuleDefinitionTypes: []
+            Rules:
+              - MatchingKeys: []
+                RuleName: ""
+      InputSourceConfig:
+        - InputSourceARN: ""
+          SchemaName: ""
+      Tags:
+        - Key: ""
+          Value: ""

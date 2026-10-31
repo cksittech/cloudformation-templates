@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNeptuneDbinstance:
+    Type: AWS::Neptune::DBInstance
+    Properties:
+      AllowMajorVersionUpgrade: false
+      AutoMinorVersionUpgrade: false
+      AvailabilityZone: ""
+      DBClusterIdentifier: ""
+      DBInstanceClass: ""
+      DBInstanceIdentifier: ""
+      DBParameterGroupName: ""
+      DBSubnetGroupName: ""
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      Tags:
+        - Key: ""
+          Value: ""

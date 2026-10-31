@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKafkaconnectCustomplugin:
+    Type: AWS::KafkaConnect::CustomPlugin
+    Properties:
+      ContentType: ""
+      Description: ""
+      Name: ""
+      Location:
+        S3Location:
+          BucketArn: ""
+          FileKey: ""
+          ObjectVersion: ""
+      Tags:
+        - Key: ""
+          Value: ""

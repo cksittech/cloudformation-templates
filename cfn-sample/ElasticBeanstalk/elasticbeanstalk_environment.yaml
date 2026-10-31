@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticbeanstalkEnvironment:
+    Type: AWS::ElasticBeanstalk::Environment
+    Properties:
+      ApplicationName: ""
+      CNAMEPrefix: ""
+      Description: ""
+      EnvironmentName: ""
+      OperationsRole: ""
+      PlatformArn: ""
+      SolutionStackName: ""
+      TemplateName: ""
+      VersionLabel: ""
+      OptionSettings:
+        - Namespace: ""
+          OptionName: ""
+          ResourceName: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Tier:
+        Name: ""
+        Type: ""
+        Version: ""

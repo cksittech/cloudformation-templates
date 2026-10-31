@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyApp:
+    Type: AWS::Amplify::App
+    Properties:
+      AccessToken: ""
+      BuildSpec: ""
+      ComputeRoleArn: ""
+      CustomHeaders: ""
+      Description: ""
+      EnableBranchAutoDeletion: false
+      IAMServiceRole: ""
+      Name: ""
+      OauthToken: ""
+      Platform: ""
+      Repository: ""
+      AutoBranchCreationConfig:
+        AutoBranchCreationPatterns: []
+        BuildSpec: ""
+        EnableAutoBranchCreation: false
+        EnableAutoBuild: false
+        EnablePerformanceMode: false
+        EnablePullRequestPreview: false
+        Framework: ""
+        PullRequestEnvironmentName: ""
+        Stage: ""
+        BasicAuthConfig:
+          EnableBasicAuth: false
+          Password: ""
+          Username: ""
+        EnvironmentVariables:
+          - Name: ""
+            Value: ""
+      BasicAuthConfig:
+        EnableBasicAuth: false
+        Password: ""
+        Username: ""
+      CacheConfig:
+        Type: ""
+      CustomRules:
+        - Condition: ""
+          Source: ""
+          Status: ""
+          Target: ""
+      EnvironmentVariables:
+        - Name: ""
+          Value: ""
+      JobConfig:
+        BuildComputeType: ""
+      Tags:
+        - Key: ""
+          Value: ""

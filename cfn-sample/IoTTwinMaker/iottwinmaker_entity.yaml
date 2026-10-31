@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIottwinmakerEntity:
+    Type: AWS::IoTTwinMaker::Entity
+    Properties:
+      Description: ""
+      EntityId: ""
+      EntityName: ""
+      ParentEntityId: ""
+      WorkspaceId: ""
+      Components: {}
+      CompositeComponents: {}
+      Tags: {}

@@ -1,0 +1,166 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ec2fleet:
+    Type: AWS::EC2::EC2Fleet
+    Properties:
+      Context: ""
+      ExcessCapacityTerminationPolicy: ""
+      ReplaceUnhealthyInstances: false
+      TerminateInstancesWithExpiration: false
+      Type: ""
+      ValidFrom: ""
+      ValidUntil: ""
+      LaunchTemplateConfigs:
+        - LaunchTemplateSpecification:
+            LaunchTemplateId: ""
+            LaunchTemplateName: ""
+            LaunchTemplateSpecificationUserData: ""
+            Version: ""
+          Overrides:
+            - AvailabilityZone: ""
+              AvailabilityZoneId: ""
+              InstanceType: ""
+              KeyName: ""
+              MaxPrice: ""
+              Priority: 0
+              SubnetId: ""
+              WeightedCapacity: 0
+              BlockDeviceMappings:
+                - DeviceName: ""
+                  NoDevice: ""
+                  VirtualName: ""
+                  Ebs:
+                    DeleteOnTermination: false
+                    Encrypted: false
+                    Iops: 0
+                    KmsKeyId: ""
+                    SnapshotId: ""
+                    VolumeSize: 0
+                    VolumeType: ""
+                    MultiAvailabilityZoneConfiguration:
+                      ConfigurationType: ""
+                      StandbyAvailabilityZones:
+                        - AvailabilityZone: ""
+                          AvailabilityZoneId: ""
+              IamInstanceProfile:
+                Arn: ""
+                Name: ""
+              InstanceRequirements:
+                AcceleratorManufacturers: []
+                AcceleratorNames: []
+                AcceleratorTypes: []
+                AllowedInstanceTypes: []
+                BareMetal: ""
+                BurstablePerformance: ""
+                CpuManufacturers: []
+                ExcludedInstanceTypes: []
+                InstanceGenerations: []
+                LocalStorage: ""
+                LocalStorageTypes: []
+                MaxSpotPriceAsPercentageOfOptimalOnDemandPrice: 0
+                OnDemandMaxPricePercentageOverLowestPrice: 0
+                RequireEncryptionInTransit: false
+                RequireHibernateSupport: false
+                SpotMaxPricePercentageOverLowestPrice: 0
+                AcceleratorCount:
+                  Max: 0
+                  Min: 0
+                AcceleratorTotalMemoryMiB:
+                  Max: 0
+                  Min: 0
+                BaselineEbsBandwidthMbps:
+                  Max: 0
+                  Min: 0
+                BaselinePerformanceFactors:
+                  Cpu:
+                    References:
+                      - InstanceFamily: ""
+                MemoryGiBPerVCpu:
+                  Max: 0
+                  Min: 0
+                MemoryMiB:
+                  Max: 0
+                  Min: 0
+                NetworkBandwidthGbps:
+                  Max: 0
+                  Min: 0
+                NetworkInterfaceCount:
+                  Max: 0
+                  Min: 0
+                TotalLocalStorageGB:
+                  Max: 0
+                  Min: 0
+                VCpuCount:
+                  Max: 0
+                  Min: 0
+              MetadataOptions:
+                HttpEndpoint: ""
+                HttpPutResponseHopLimit: 0
+                HttpTokens: ""
+              NetworkInterfaces:
+                - AssociatePublicIpAddress: false
+                  DeleteOnTermination: false
+                  Description: ""
+                  DeviceIndex: 0
+                  Groups: []
+                  InterfaceType: ""
+                  Ipv6AddressCount: 0
+                  NetworkCardIndex: 0
+                  NetworkInterfaceId: ""
+                  PrivateIpAddress: ""
+                  SecondaryPrivateIpAddressCount: 0
+                  SubnetId: ""
+                  Ipv6Addresses:
+                    - Ipv6Address: ""
+                  PrivateIpAddresses:
+                    - Primary: false
+                      PrivateIpAddress: ""
+              Placement:
+                Affinity: ""
+                AvailabilityZone: ""
+                GroupName: ""
+                HostId: ""
+                HostResourceGroupArn: ""
+                PartitionNumber: 0
+                SpreadDomain: ""
+                Tenancy: ""
+      OnDemandOptions:
+        AllocationStrategy: ""
+        MaxTotalPrice: ""
+        MinTargetCapacity: 0
+        SingleAvailabilityZone: false
+        SingleInstanceType: false
+        CapacityReservationOptions:
+          UsageStrategy: ""
+      ReservedCapacityOptions:
+        AllocationStrategy: ""
+        ReservationTypes: []
+        CapacityReservationTarget:
+          CapacityReservationIds: []
+          CapacityReservationResourceGroupArns: []
+        ReservedCapacityFallbackOptions:
+          MarketTypes: []
+      SpotOptions:
+        AllocationStrategy: ""
+        InstanceInterruptionBehavior: ""
+        InstancePoolsToUseCount: 0
+        MaxTotalPrice: ""
+        MinTargetCapacity: 0
+        SingleAvailabilityZone: false
+        SingleInstanceType: false
+        MaintenanceStrategies:
+          CapacityRebalance:
+            ReplacementStrategy: ""
+            TerminationDelay: 0
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""
+      TargetCapacitySpecification:
+        DefaultTargetCapacityType: ""
+        OnDemandTargetCapacity: 0
+        SpotTargetCapacity: 0
+        TargetCapacityUnitType: ""
+        TotalTargetCapacity: 0

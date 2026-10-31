@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsChannel:
+    Type: AWS::IVS::Channel
+    Properties:
+      Authorized: false
+      ContainerFormat: "TS"
+      InsecureIngest: false
+      LatencyMode: "LOW"
+      Name: "-"
+      Preset: ""
+      RecordingConfigurationArn: ""
+      Type: "STANDARD"
+      MultitrackInputConfiguration:
+        Enabled: false
+        MaximumResolution: ""
+        Policy: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Natgateway:
+    Type: AWS::EC2::NatGateway
+    Properties:
+      AllocationId: ""
+      AvailabilityMode: ""
+      ConnectivityType: ""
+      MaxDrainDurationSeconds: 0
+      PrivateIpAddress: ""
+      SecondaryAllocationIds: []
+      SecondaryPrivateIpAddressCount: 0
+      SecondaryPrivateIpAddresses: []
+      SubnetId: ""
+      VpcId: ""
+      AvailabilityZoneAddresses:
+        - AllocationIds: []
+          AvailabilityZone: ""
+          AvailabilityZoneId: ""
+      Tags:
+        - Key: ""
+          Value: ""

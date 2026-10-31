@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkfirewallFirewallpolicy:
+    Type: AWS::NetworkFirewall::FirewallPolicy
+    Properties:
+      Description: ""
+      FirewallPolicyName: ""
+      FirewallPolicy:
+        EnableTLSSessionHolding: false
+        StatefulDefaultActions: []
+        StatelessDefaultActions: []
+        StatelessFragmentDefaultActions: []
+        TLSInspectionConfigurationArn: ""
+        PolicyVariables:
+          RuleVariables: {}
+        Route53ResolvedIPValidation:
+          Action: ""
+          DNSExpiryExceptionPolicy: ""
+          DNSFirewallRuleGroupId: ""
+          BypassDestinationValidationIPRanges:
+            - AddressDefinition: ""
+          SourceIPRanges:
+            - AddressDefinition: ""
+        StatefulEngineOptions:
+          RuleOrder: ""
+          StreamExceptionPolicy: ""
+          FlowTimeouts:
+            TcpIdleTimeoutSeconds: 0
+        StatefulRuleGroupReferences:
+          - DeepThreatInspection: false
+            Priority: 0
+            ResourceArn: ""
+            Override:
+              Action: ""
+        StatelessCustomActions:
+          - ActionName: ""
+            ActionDefinition:
+              PublishMetricAction:
+                Dimensions:
+                  - Value: ""
+        StatelessRuleGroupReferences:
+          - Priority: 0
+            ResourceArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

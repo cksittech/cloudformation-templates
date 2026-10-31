@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMacieMember:
+    Type: AWS::Macie::Member
+    Properties:
+      AccountId: ""
+      Email: ""
+      Tags:
+        - Key: ""
+          Value: ""

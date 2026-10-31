@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskTopic:
+    Type: AWS::MSK::Topic
+    Properties:
+      ClusterArn: ""
+      Configs: ""
+      PartitionCount: 0
+      ReplicationFactor: 0
+      TopicName: ""

@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResourceexplorer2View:
+    Type: AWS::ResourceExplorer2::View
+    Properties:
+      Scope: ""
+      ViewName: ""
+      Filters:
+        FilterString: ""
+      IncludedProperties:
+        - Name: ""
+      Tags: {}

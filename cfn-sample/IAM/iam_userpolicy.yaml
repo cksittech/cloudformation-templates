@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamUserpolicy:
+    Type: AWS::IAM::UserPolicy
+    Properties:
+      PolicyName: ""
+      UserName: ""
+      PolicyDocument: {}

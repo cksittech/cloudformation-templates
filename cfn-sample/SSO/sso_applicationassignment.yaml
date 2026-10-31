@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoApplicationassignment:
+    Type: AWS::SSO::ApplicationAssignment
+    Properties:
+      ApplicationArn: ""
+      PrincipalId: ""
+      PrincipalType: ""

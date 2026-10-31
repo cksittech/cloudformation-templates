@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInspectorv2Cisscanconfiguration:
+    Type: AWS::InspectorV2::CisScanConfiguration
+    Properties:
+      ScanName: ""
+      SecurityLevel: ""
+      Schedule:
+        Daily:
+          StartTime:
+            TimeOfDay: ""
+            TimeZone: ""
+        Monthly:
+          Day: ""
+          StartTime:
+            TimeOfDay: ""
+            TimeZone: ""
+        OneTime: {}
+        Weekly:
+          Days: []
+          StartTime:
+            TimeOfDay: ""
+            TimeZone: ""
+      Tags: {}
+      Targets:
+        AccountIds: []
+        TargetResourceTags: {}

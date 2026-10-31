@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerPartnerapp:
+    Type: AWS::SageMaker::PartnerApp
+    Properties:
+      AppVersion: ""
+      AuthType: ""
+      EnableAutoMinorVersionUpgrade: false
+      EnableIamSessionBasedIdentity: false
+      ExecutionRoleArn: ""
+      KmsKeyId: ""
+      Name: ""
+      Tier: ""
+      Type: ""
+      ApplicationConfig:
+        AdminUsers: []
+        Arguments: {}
+      MaintenanceConfig:
+        MaintenanceWindowStart: ""
+      Tags:
+        - Key: ""
+          Value: ""

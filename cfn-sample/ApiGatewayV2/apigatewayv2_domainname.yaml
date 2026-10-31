@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Domainname:
+    Type: AWS::ApiGatewayV2::DomainName
+    Properties:
+      DomainName: ""
+      RoutingMode: "API_MAPPING_ONLY"
+      DomainNameConfigurations:
+        - CertificateArn: ""
+          CertificateName: ""
+          EndpointType: ""
+          IpAddressType: ""
+          OwnershipVerificationCertificateArn: ""
+          SecurityPolicy: ""
+      MutualTlsAuthentication:
+        TruststoreUri: ""
+        TruststoreVersion: ""
+      Tags: {}

@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRolesanywhereTrustanchor:
+    Type: AWS::RolesAnywhere::TrustAnchor
+    Properties:
+      Enabled: false
+      Name: ""
+      NotificationSettings:
+        - Channel: ""
+          Enabled: false
+          Event: ""
+          Threshold: 0
+      Source:
+        SourceType: ""
+        SourceData:
+          AcmPcaArn: ""
+          X509CertificateData: ""
+      Tags:
+        - Key: ""
+          Value: ""

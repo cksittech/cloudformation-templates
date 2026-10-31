@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApigatewayv2Portalproduct:
+    Type: AWS::ApiGatewayV2::PortalProduct
+    Properties:
+      Description: ""
+      DisplayName: ""
+      Tags:
+        - Key: ""
+          Value: ""

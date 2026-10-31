@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorSourcelocation:
+    Type: AWS::MediaTailor::SourceLocation
+    Properties:
+      SourceLocationName: ""
+      AccessConfiguration:
+        AccessType: ""
+        SecretsManagerAccessTokenConfiguration:
+          HeaderName: ""
+          SecretArn: ""
+          SecretStringKey: ""
+      DefaultSegmentDeliveryConfiguration:
+        BaseUrl: ""
+      HttpConfiguration:
+        BaseUrl: ""
+      SegmentDeliveryConfigurations:
+        - BaseUrl: ""
+          Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

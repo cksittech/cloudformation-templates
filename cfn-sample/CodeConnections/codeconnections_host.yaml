@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCodeconnectionsHost:
+    Type: AWS::CodeConnections::Host
+    Properties:
+      Name: ""
+      ProviderEndpoint: ""
+      ProviderType: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      VpcConfiguration:
+        SecurityGroupIds: []
+        SubnetIds: []
+        TlsCertificate: ""
+        VpcId: ""

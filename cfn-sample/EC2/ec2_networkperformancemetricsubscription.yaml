@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkperformancemetricsubscription:
+    Type: AWS::EC2::NetworkPerformanceMetricSubscription
+    Properties:
+      Destination: ""
+      Metric: ""
+      Source: ""
+      Statistic: ""

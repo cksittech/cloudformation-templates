@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeResourcepolicy:
+    Type: AWS::VpcLattice::ResourcePolicy
+    Properties:
+      ResourceArn: ""
+      Policy: {}

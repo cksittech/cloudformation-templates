@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleObservabilityadminTelemetrypipelines:
+    Type: AWS::ObservabilityAdmin::TelemetryPipelines
+    Properties:
+      Name: ""
+      Configuration:
+        Body: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,40 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerEndpoint:
+    Type: AWS::SageMaker::Endpoint
+    Properties:
+      EndpointConfigName: ""
+      EndpointName: ""
+      RetainAllVariantProperties: false
+      RetainDeploymentConfig: false
+      DeploymentConfig:
+        AutoRollbackConfiguration:
+          Alarms:
+            - AlarmName: ""
+        BlueGreenUpdatePolicy:
+          MaximumExecutionTimeoutInSeconds: 0
+          TerminationWaitInSeconds: 0
+          TrafficRoutingConfiguration:
+            Type: ""
+            WaitIntervalInSeconds: 0
+            CanarySize:
+              Type: ""
+              Value: 0
+            LinearStepSize:
+              Type: ""
+              Value: 0
+        RollingUpdatePolicy:
+          MaximumExecutionTimeoutInSeconds: 0
+          WaitIntervalInSeconds: 0
+          MaximumBatchSize:
+            Type: ""
+            Value: 0
+          RollbackMaximumBatchSize:
+            Type: ""
+            Value: 0
+      ExcludeRetainedVariantProperties:
+        - VariantPropertyType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Networkinterfaceattachment:
+    Type: AWS::EC2::NetworkInterfaceAttachment
+    Properties:
+      DeleteOnTermination: true
+      DeviceIndex: ""
+      EnaQueueCount: 0
+      InstanceId: ""
+      NetworkInterfaceId: ""
+      EnaSrdSpecification:
+        EnaSrdEnabled: false
+        EnaSrdUdpSpecification:
+          EnaSrdUdpEnabled: false

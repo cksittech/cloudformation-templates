@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerVpcattachment:
+    Type: AWS::NetworkManager::VpcAttachment
+    Properties:
+      CoreNetworkId: ""
+      RoutingPolicyLabel: ""
+      SubnetArns: []
+      VpcArn: ""
+      Options:
+        ApplianceModeSupport: false
+        DnsSupport: true
+        Ipv6Support: false
+        SecurityGroupReferencingSupport: true
+      Tags:
+        - Key: ""
+          Value: ""

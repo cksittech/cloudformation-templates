@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLicensemanagerGrant:
+    Type: AWS::LicenseManager::Grant
+    Properties:
+      AllowedOperations: []
+      GrantName: ""
+      HomeRegion: ""
+      LicenseArn: ""
+      Principals: []
+      Status: ""
+      Tags:
+        - Key: ""
+          Value: ""

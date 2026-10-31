@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackageChannel:
+    Type: AWS::MediaPackage::Channel
+    Properties:
+      Description: ""
+      Id: ""
+      EgressAccessLogs:
+        LogGroupName: ""
+      HlsIngest:
+        ingestEndpoints: []
+      IngressAccessLogs:
+        LogGroupName: ""
+      Tags:
+        - Key: ""
+          Value: ""

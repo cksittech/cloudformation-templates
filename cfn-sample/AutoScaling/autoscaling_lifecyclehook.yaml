@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAutoscalingLifecyclehook:
+    Type: AWS::AutoScaling::LifecycleHook
+    Properties:
+      AutoScalingGroupName: ""
+      DefaultResult: ""
+      HeartbeatTimeout: 0
+      LifecycleHookName: ""
+      LifecycleTransition: ""
+      NotificationMetadata: ""
+      NotificationTargetARN: ""
+      RoleARN: ""

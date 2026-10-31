@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheSecuritygroupingress:
+    Type: AWS::ElastiCache::SecurityGroupIngress
+    Properties:
+      CacheSecurityGroupName: ""
+      EC2SecurityGroupName: ""
+      EC2SecurityGroupOwnerId: ""

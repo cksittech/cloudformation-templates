@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigConfigurationprofile:
+    Type: AWS::AppConfig::ConfigurationProfile
+    Properties:
+      ApplicationId: ""
+      DeletionProtectionCheck: ""
+      Description: ""
+      KmsKeyIdentifier: ""
+      LocationUri: ""
+      Name: ""
+      RetrievalRoleArn: ""
+      Type: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Validators:
+        - Content: ""
+          Type: ""

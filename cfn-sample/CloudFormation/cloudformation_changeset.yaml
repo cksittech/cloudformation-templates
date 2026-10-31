@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationChangeset:
+    Type: AWS::CloudFormation::ChangeSet
+    Properties:
+      Capabilities: []
+      ChangeSetName: ""
+      ChangeSetType: ""
+      DeploymentMode: ""
+      Description: ""
+      ImportExistingResources: false
+      IncludeNestedStacks: false
+      NotificationARNs: []
+      OnStackFailure: ""
+      RoleARN: ""
+      StackName: ""
+      TemplateBody: ""
+      TemplateURL: ""
+      UsePreviousTemplate: false
+      Tags:
+        - Key: ""
+          Value: ""

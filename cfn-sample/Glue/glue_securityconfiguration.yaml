@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueSecurityconfiguration:
+    Type: AWS::Glue::SecurityConfiguration
+    Properties:
+      Name: ""
+      EncryptionConfiguration:
+        CloudWatchEncryption:
+          CloudWatchEncryptionMode: ""
+          KmsKeyArn: ""
+        JobBookmarksEncryption:
+          JobBookmarksEncryptionMode: ""
+          KmsKeyArn: ""
+        S3Encryptions:
+          - KmsKeyArn: ""
+            S3EncryptionMode: ""

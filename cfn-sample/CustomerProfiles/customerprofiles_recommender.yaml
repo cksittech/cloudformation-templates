@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCustomerprofilesRecommender:
+    Type: AWS::CustomerProfiles::Recommender
+    Properties:
+      Description: ""
+      DomainName: ""
+      RecommenderName: ""
+      RecommenderRecipeName: ""
+      RecommenderConfig:
+        EventsConfig:
+          EventParametersList:
+            - EventType: ""
+              EventValueThreshold: 0
+      Tags:
+        - Key: ""
+          Value: ""

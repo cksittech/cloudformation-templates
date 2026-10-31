@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationefs:
+    Type: AWS::DataSync::LocationEFS
+    Properties:
+      AccessPointArn: ""
+      EfsFilesystemArn: ""
+      FileSystemAccessRoleArn: ""
+      InTransitEncryption: ""
+      Subdirectory: ""
+      Ec2Config:
+        SecurityGroupArns: []
+        SubnetArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

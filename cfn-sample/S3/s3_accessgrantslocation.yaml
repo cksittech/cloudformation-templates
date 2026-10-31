@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleS3Accessgrantslocation:
+    Type: AWS::S3::AccessGrantsLocation
+    Properties:
+      IamRoleArn: ""
+      LocationScope: ""
+      Tags:
+        - Key: ""
+          Value: ""

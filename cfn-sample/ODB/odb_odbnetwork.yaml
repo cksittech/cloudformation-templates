@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOdbOdbnetwork:
+    Type: AWS::ODB::OdbNetwork
+    Properties:
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      BackupSubnetCidr: ""
+      ClientSubnetCidr: ""
+      CrossRegionS3RestoreSources: []
+      CustomDomainName: ""
+      DefaultDnsPrefix: ""
+      DeleteAssociatedResources: false
+      DisplayName: ""
+      KmsAccess: ""
+      KmsPolicyDocument: ""
+      S3Access: ""
+      S3PolicyDocument: ""
+      StsAccess: ""
+      StsPolicyDocument: ""
+      ZeroEtlAccess: ""
+      Tags:
+        - Key: ""
+          Value: ""

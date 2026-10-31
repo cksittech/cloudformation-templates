@@ -1,0 +1,72 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerSpace:
+    Type: AWS::SageMaker::Space
+    Properties:
+      DomainId: ""
+      SpaceDisplayName: ""
+      SpaceName: ""
+      OwnershipSettings:
+        OwnerUserProfileName: ""
+      SpaceSettings:
+        AppType: ""
+        RemoteAccess: ""
+        SpaceManagedResources: ""
+        CodeEditorAppSettings:
+          AppLifecycleManagement:
+            IdleSettings:
+              IdleTimeoutInMinutes: 0
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        CustomFileSystems:
+          - EFSFileSystem:
+              FileSystemId: ""
+            FSxLustreFileSystem:
+              FileSystemId: ""
+            S3FileSystem:
+              S3Uri: ""
+        JupyterLabAppSettings:
+          AppLifecycleManagement:
+            IdleSettings:
+              IdleTimeoutInMinutes: 0
+          CodeRepositories:
+            - RepositoryUrl: ""
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        JupyterServerAppSettings:
+          LifecycleConfigArns: []
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        KernelGatewayAppSettings:
+          LifecycleConfigArns: []
+          CustomImages:
+            - AppImageConfigName: ""
+              ImageName: ""
+              ImageVersionNumber: 0
+          DefaultResourceSpec:
+            InstanceType: ""
+            LifecycleConfigArn: ""
+            SageMakerImageArn: ""
+            SageMakerImageVersionArn: ""
+            TrainingPlanArn: ""
+        SpaceStorageSettings:
+          EbsStorageSettings:
+            EbsVolumeSizeInGb: 0
+      SpaceSharingSettings:
+        SharingType: ""
+      Tags:
+        - Key: ""
+          Value: ""

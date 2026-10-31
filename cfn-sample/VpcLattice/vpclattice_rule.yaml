@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVpclatticeRule:
+    Type: AWS::VpcLattice::Rule
+    Properties:
+      ListenerIdentifier: ""
+      Name: ""
+      Priority: 0
+      ServiceIdentifier: ""
+      Action:
+        FixedResponse:
+          StatusCode: 0
+        Forward:
+          TargetGroups:
+            - TargetGroupIdentifier: ""
+              Weight: 0
+      Match:
+        HttpMatch:
+          Method: ""
+          HeaderMatches:
+            - CaseSensitive: false
+              Name: ""
+              Match:
+                Contains: ""
+                Exact: ""
+                Prefix: ""
+          PathMatch:
+            CaseSensitive: false
+            Match:
+              Exact: ""
+              Prefix: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudformationStack:
+    Type: AWS::CloudFormation::Stack
+    Properties:
+      Capabilities: []
+      Description: ""
+      DisableRollback: false
+      EnableTerminationProtection: false
+      NotificationARNs: []
+      RoleARN: ""
+      StackName: ""
+      StackPolicyURL: ""
+      StackStatusReason: ""
+      TemplateURL: ""
+      TimeoutInMinutes: 0
+      Parameters: {}
+      StackPolicyBody: {}
+      Tags:
+        - Key: ""
+          Value: ""
+      TemplateBody: {}

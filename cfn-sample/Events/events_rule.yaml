@@ -1,0 +1,91 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Description: ""
+      EventBusName: ""
+      EventPattern: ""
+      Name: ""
+      RoleArn: ""
+      ScheduleExpression: ""
+      State: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Targets:
+        - Arn: ""
+          Id: ""
+          Input: ""
+          InputPath: ""
+          RoleArn: ""
+          AppSyncParameters:
+            GraphQLOperation: ""
+          BatchParameters:
+            JobDefinition: ""
+            JobName: ""
+            ArrayProperties:
+              Size: 0
+            RetryStrategy:
+              Attempts: 0
+          DeadLetterConfig:
+            Arn: ""
+          EcsParameters:
+            EnableECSManagedTags: false
+            EnableExecuteCommand: false
+            Group: ""
+            LaunchType: ""
+            PlatformVersion: ""
+            PropagateTags: ""
+            ReferenceId: ""
+            TaskCount: 0
+            TaskDefinitionArn: ""
+            CapacityProviderStrategy:
+              - Base: 0
+                CapacityProvider: ""
+                Weight: 0
+            NetworkConfiguration:
+              AwsVpcConfiguration:
+                AssignPublicIp: ""
+                SecurityGroups: []
+                Subnets: []
+            PlacementConstraints:
+              - Expression: ""
+                Type: ""
+            PlacementStrategies:
+              - Field: ""
+                Type: ""
+            TagList:
+              - Key: ""
+                Value: ""
+          HttpParameters:
+            PathParameterValues: []
+            HeaderParameters: {}
+            QueryStringParameters: {}
+          InputTransformer:
+            InputTemplate: ""
+            InputPathsMap: {}
+          KinesisParameters:
+            PartitionKeyPath: ""
+          RedshiftDataParameters:
+            Database: ""
+            DbUser: ""
+            SecretManagerArn: ""
+            Sql: ""
+            Sqls: []
+            StatementName: ""
+            WithEvent: false
+          RetryPolicy:
+            MaximumEventAgeInSeconds: 0
+            MaximumRetryAttempts: 0
+          RunCommandParameters:
+            RunCommandTargets:
+              - Key: ""
+                Values: []
+          SageMakerPipelineParameters:
+            PipelineParameterList:
+              - Name: ""
+                Value: ""
+          SqsParameters:
+            MessageGroupId: ""

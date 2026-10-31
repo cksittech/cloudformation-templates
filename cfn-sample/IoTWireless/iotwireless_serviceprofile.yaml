@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessServiceprofile:
+    Type: AWS::IoTWireless::ServiceProfile
+    Properties:
+      Name: ""
+      LoRaWAN:
+        AddGwMetadata: false
+        PrAllowed: false
+        RaAllowed: false
+      Tags:
+        - Key: ""
+          Value: ""

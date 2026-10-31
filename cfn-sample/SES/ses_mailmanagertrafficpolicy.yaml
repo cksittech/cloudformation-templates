@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanagertrafficpolicy:
+    Type: AWS::SES::MailManagerTrafficPolicy
+    Properties:
+      DefaultAction: ""
+      MaxMessageSizeBytes: 0
+      TrafficPolicyName: ""
+      PolicyStatements:
+        - Action: ""
+          Conditions:
+            - BooleanExpression:
+                Operator: ""
+                Evaluate:
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+                  IsInAddressList:
+                    AddressLists: []
+                    Attribute: ""
+              IpExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+              Ipv6Expression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+              StringExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+              TlsExpression:
+                Operator: ""
+                Value: ""
+                Evaluate:
+                  Attribute: ""
+      Tags:
+        - Key: ""
+          Value: ""

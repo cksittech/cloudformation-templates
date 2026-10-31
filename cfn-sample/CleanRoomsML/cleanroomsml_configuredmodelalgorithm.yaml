@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsmlConfiguredmodelalgorithm:
+    Type: AWS::CleanRoomsML::ConfiguredModelAlgorithm
+    Properties:
+      Description: ""
+      KmsKeyArn: ""
+      Name: ""
+      RoleArn: ""
+      InferenceContainerConfig:
+        ImageUri: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TrainingContainerConfig:
+        Arguments: []
+        Entrypoint: []
+        ImageUri: ""
+        MetricDefinitions:
+          - Name: ""
+            Regex: ""

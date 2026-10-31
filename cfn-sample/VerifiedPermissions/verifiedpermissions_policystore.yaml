@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVerifiedpermissionsPolicystore:
+    Type: AWS::VerifiedPermissions::PolicyStore
+    Properties:
+      Description: ""
+      DeletionProtection:
+        Mode: "DISABLED"
+      EncryptionSettings:
+        Default: {}
+        KmsEncryptionSettings:
+          Key: ""
+          EncryptionContext: {}
+      Schema:
+        CedarJson: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ValidationSettings:
+        Mode: ""

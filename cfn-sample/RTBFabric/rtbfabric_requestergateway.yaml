@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRtbfabricRequestergateway:
+    Type: AWS::RTBFabric::RequesterGateway
+    Properties:
+      Description: ""
+      SecurityGroupIds: []
+      SubnetIds: []
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

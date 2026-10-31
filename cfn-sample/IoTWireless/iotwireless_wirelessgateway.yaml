@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessWirelessgateway:
+    Type: AWS::IoTWireless::WirelessGateway
+    Properties:
+      Description: ""
+      LastUplinkReceivedAt: ""
+      Name: ""
+      ThingArn: ""
+      ThingName: ""
+      LoRaWAN:
+        GatewayEui: ""
+        RfRegion: ""
+      Tags:
+        - Key: ""
+          Value: ""

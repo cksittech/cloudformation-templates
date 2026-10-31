@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheServerlesscachesnapshot:
+    Type: AWS::ElastiCache::ServerlessCacheSnapshot
+    Properties:
+      KmsKeyId: ""
+      ServerlessCacheName: ""
+      ServerlessCacheSnapshotName: ""
+      Tags:
+        - Key: ""
+          Value: ""

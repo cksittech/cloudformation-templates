@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotSoftwarepackage:
+    Type: AWS::IoT::SoftwarePackage
+    Properties:
+      Description: ""
+      PackageName: ""
+      Tags:
+        - Key: ""
+          Value: ""

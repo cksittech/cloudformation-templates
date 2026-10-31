@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeDataset:
+    Type: AWS::Personalize::Dataset
+    Properties:
+      DatasetGroupArn: ""
+      DatasetType: ""
+      Name: ""
+      SchemaArn: ""
+      DatasetImportJob:
+        DatasetArn: ""
+        DatasetImportJobArn: ""
+        JobName: ""
+        RoleArn: ""
+        DataSource:
+          DataLocation: ""
+      Tags:
+        - Key: ""
+          Value: ""

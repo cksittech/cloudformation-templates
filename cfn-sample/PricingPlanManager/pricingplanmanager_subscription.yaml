@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePricingplanmanagerSubscription:
+    Type: AWS::PricingPlanManager::Subscription
+    Properties:
+      PlanFamily: ""
+      PlanTier: ""
+      ResourceArns: []
+      UsageLevel: ""

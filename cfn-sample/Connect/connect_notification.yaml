@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectNotification:
+    Type: AWS::Connect::Notification
+    Properties:
+      ExpiresAt: ""
+      InstanceArn: ""
+      Priority: ""
+      Recipients: []
+      Content:
+        DeDE: ""
+        EnUS: ""
+        EsES: ""
+        FrFR: ""
+        IdID: ""
+        ItIT: ""
+        JaJP: ""
+        KoKR: ""
+        PtBR: ""
+        ZhCN: ""
+        ZhTW: ""
+      Tags:
+        - Key: ""
+          Value: ""

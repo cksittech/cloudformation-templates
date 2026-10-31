@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMedialiveInput:
+    Type: AWS::MediaLive::Input
+    Properties:
+      InputNetworkLocation: ""
+      InputSecurityGroups: []
+      Name: ""
+      RoleArn: ""
+      SdiSources: []
+      Type: ""
+      Destinations:
+        - Network: ""
+          StaticIpAddress: ""
+          StreamName: ""
+          NetworkRoutes:
+            - Cidr: ""
+              Gateway: ""
+      InputDevices:
+        - Id: ""
+      MediaConnectFlows:
+        - FlowArn: ""
+      MulticastSettings:
+        Sources:
+          - SourceIp: ""
+            Url: ""
+      RouterSettings:
+        EncryptionType: ""
+        SecretArn: ""
+        Destinations:
+          - AvailabilityZoneName: ""
+      Smpte2110ReceiverGroupSettings:
+        Smpte2110ReceiverGroups:
+          - SdpSettings:
+              AncillarySdps:
+                - MediaIndex: 0
+                  SdpUrl: ""
+              AudioSdps:
+                - MediaIndex: 0
+                  SdpUrl: ""
+              VideoSdp:
+                MediaIndex: 0
+                SdpUrl: ""
+      Sources:
+        - PasswordParam: ""
+          Url: ""
+          Username: ""
+      SrtSettings:
+        SrtCallerSources:
+          - MinimumLatency: 0
+            SrtListenerAddress: ""
+            SrtListenerPort: ""
+            StreamId: ""
+            Decryption:
+              Algorithm: ""
+              PassphraseSecretArn: ""
+        SrtListenerSettings:
+          MinimumLatency: 0
+          StreamId: ""
+          Decryption:
+            Algorithm: ""
+            PassphraseSecretArn: ""
+      Tags: {}
+      Vpc:
+        SecurityGroupIds: []
+        SubnetIds: []

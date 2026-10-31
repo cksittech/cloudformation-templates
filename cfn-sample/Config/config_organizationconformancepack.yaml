@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConfigOrganizationconformancepack:
+    Type: AWS::Config::OrganizationConformancePack
+    Properties:
+      DeliveryS3Bucket: ""
+      DeliveryS3KeyPrefix: ""
+      ExcludedAccounts: []
+      OrganizationConformancePackName: ""
+      TemplateBody: ""
+      TemplateS3Uri: ""
+      ConformancePackInputParameters:
+        - ParameterName: ""
+          ParameterValue: ""
+      Tags:
+        - Key: ""
+          Value: ""

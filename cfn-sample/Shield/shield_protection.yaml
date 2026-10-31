@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleShieldProtection:
+    Type: AWS::Shield::Protection
+    Properties:
+      HealthCheckArns: []
+      Name: ""
+      ResourceArn: ""
+      ApplicationLayerAutomaticResponseConfiguration:
+        Status: ""
+        Action:
+          Block: {}
+          Count: {}
+      Tags:
+        - Key: ""
+          Value: ""

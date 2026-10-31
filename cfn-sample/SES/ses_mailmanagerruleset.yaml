@@ -1,0 +1,148 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanagerruleset:
+    Type: AWS::SES::MailManagerRuleSet
+    Properties:
+      RuleSetName: ""
+      Rules:
+        - Name: ""
+          Actions:
+            - AddHeader:
+                HeaderName: ""
+                HeaderValue: ""
+              Archive:
+                ActionFailurePolicy: ""
+                TargetArchive: ""
+              Bounce:
+                ActionFailurePolicy: ""
+                DiagnosticMessage: ""
+                Message: ""
+                RoleArn: ""
+                Sender: ""
+                SmtpReplyCode: ""
+                StatusCode: ""
+              DeliverToMailbox:
+                ActionFailurePolicy: ""
+                MailboxArn: ""
+                RoleArn: ""
+              DeliverToQBusiness:
+                ActionFailurePolicy: ""
+                ApplicationId: ""
+                IndexId: ""
+                RoleArn: ""
+              Drop: {}
+              InvokeLambda:
+                ActionFailurePolicy: ""
+                FunctionArn: ""
+                InvocationType: ""
+                RetryTimeMinutes: 0
+                RoleArn: ""
+              PublishToSns:
+                ActionFailurePolicy: ""
+                Encoding: ""
+                PayloadType: ""
+                RoleArn: ""
+                TopicArn: ""
+              Relay:
+                ActionFailurePolicy: ""
+                MailFrom: ""
+                Relay: ""
+              ReplaceRecipient:
+                ReplaceWith: []
+              Send:
+                ActionFailurePolicy: ""
+                RoleArn: ""
+              WriteToS3:
+                ActionFailurePolicy: ""
+                RoleArn: ""
+                S3Bucket: ""
+                S3Prefix: ""
+                S3SseKmsKeyId: ""
+          Conditions:
+            - BooleanExpression:
+                Operator: ""
+                Evaluate:
+                  Attribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+                  IsInAddressList:
+                    AddressLists: []
+                    Attribute: ""
+              DmarcExpression:
+                Operator: ""
+                Values: []
+              IpExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+              NumberExpression:
+                Operator: ""
+                Value: 0
+                Evaluate:
+                  Attribute: ""
+              StringExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+                  ClientCertificateAttribute: ""
+                  MimeHeaderAttribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+              VerdictExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+          Unless:
+            - BooleanExpression:
+                Operator: ""
+                Evaluate:
+                  Attribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+                  IsInAddressList:
+                    AddressLists: []
+                    Attribute: ""
+              DmarcExpression:
+                Operator: ""
+                Values: []
+              IpExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+              NumberExpression:
+                Operator: ""
+                Value: 0
+                Evaluate:
+                  Attribute: ""
+              StringExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+                  ClientCertificateAttribute: ""
+                  MimeHeaderAttribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+              VerdictExpression:
+                Operator: ""
+                Values: []
+                Evaluate:
+                  Attribute: ""
+                  Analysis:
+                    Analyzer: ""
+                    ResultField: ""
+      Tags:
+        - Key: ""
+          Value: ""

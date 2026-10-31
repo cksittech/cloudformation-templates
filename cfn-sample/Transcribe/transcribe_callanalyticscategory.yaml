@@ -1,0 +1,68 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTranscribeCallanalyticscategory:
+    Type: AWS::Transcribe::CallAnalyticsCategory
+    Properties:
+      CategoryName: ""
+      InputType: ""
+      Rules:
+        - InterruptionFilter:
+            Negate: false
+            ParticipantRole: ""
+            Threshold: 0
+            AbsoluteTimeRange:
+              EndTime: 0
+              First: 0
+              Last: 0
+              StartTime: 0
+            RelativeTimeRange:
+              EndPercentage: 0
+              First: 0
+              Last: 0
+              StartPercentage: 0
+          NonTalkTimeFilter:
+            Negate: false
+            Threshold: 0
+            AbsoluteTimeRange:
+              EndTime: 0
+              First: 0
+              Last: 0
+              StartTime: 0
+            RelativeTimeRange:
+              EndPercentage: 0
+              First: 0
+              Last: 0
+              StartPercentage: 0
+          SentimentFilter:
+            Negate: false
+            ParticipantRole: ""
+            Sentiments: []
+            AbsoluteTimeRange:
+              EndTime: 0
+              First: 0
+              Last: 0
+              StartTime: 0
+            RelativeTimeRange:
+              EndPercentage: 0
+              First: 0
+              Last: 0
+              StartPercentage: 0
+          TranscriptFilter:
+            Negate: false
+            ParticipantRole: ""
+            Targets: []
+            TranscriptFilterType: ""
+            AbsoluteTimeRange:
+              EndTime: 0
+              First: 0
+              Last: 0
+              StartTime: 0
+            RelativeTimeRange:
+              EndPercentage: 0
+              First: 0
+              Last: 0
+              StartPercentage: 0
+      Tags:
+        - Key: ""
+          Value: ""

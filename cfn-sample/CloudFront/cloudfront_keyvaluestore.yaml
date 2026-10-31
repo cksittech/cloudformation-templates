@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontKeyvaluestore:
+    Type: AWS::CloudFront::KeyValueStore
+    Properties:
+      Comment: ""
+      Name: ""
+      ImportSource:
+        SourceArn: ""
+        SourceType: ""
+      Tags:
+        - Key: ""
+          Value: ""

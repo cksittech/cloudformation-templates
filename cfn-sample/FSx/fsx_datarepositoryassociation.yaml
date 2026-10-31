@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxDatarepositoryassociation:
+    Type: AWS::FSx::DataRepositoryAssociation
+    Properties:
+      BatchImportMetaDataOnCreate: false
+      DataRepositoryPath: ""
+      FileSystemId: ""
+      FileSystemPath: ""
+      ImportedFileChunkSize: 0
+      S3:
+        AutoExportPolicy:
+          Events: []
+        AutoImportPolicy:
+          Events: []
+      Tags:
+        - Key: ""
+          Value: ""

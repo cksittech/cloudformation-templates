@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppconfigEnvironment:
+    Type: AWS::AppConfig::Environment
+    Properties:
+      ApplicationId: ""
+      DeletionProtectionCheck: ""
+      Description: ""
+      Name: ""
+      Monitors:
+        - AlarmArn: ""
+          AlarmRoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

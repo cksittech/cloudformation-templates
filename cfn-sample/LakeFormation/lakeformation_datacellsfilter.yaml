@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationDatacellsfilter:
+    Type: AWS::LakeFormation::DataCellsFilter
+    Properties:
+      ColumnNames: []
+      DatabaseName: ""
+      Name: ""
+      TableCatalogId: ""
+      TableName: ""
+      ColumnWildcard:
+        ExcludedColumnNames: []
+      RowFilter:
+        FilterExpression: ""
+        AllRowsWildcard: {}

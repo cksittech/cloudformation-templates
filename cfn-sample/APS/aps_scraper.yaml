@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleApsScraper:
+    Type: AWS::APS::Scraper
+    Properties:
+      Alias: ""
+      Destination:
+        AmpConfiguration:
+          WorkspaceArn: ""
+        CloudWatchConfiguration:
+          DatasetArn: ""
+      RoleConfiguration:
+        SourceRoleArn: ""
+        TargetRoleArn: ""
+      ScrapeConfiguration:
+        ConfigurationBlob: ""
+      ScraperLoggingConfiguration:
+        LoggingDestination:
+          CloudWatchLogs:
+            LogGroupArn: ""
+        ScraperComponents:
+          - Type: ""
+            Config:
+              Options: {}
+      Source:
+        EksConfiguration:
+          ClusterArn: ""
+          SecurityGroupIds: []
+          SubnetIds: []
+        VpcConfiguration:
+          SecurityGroupIds: []
+          SubnetIds: []
+      Tags:
+        - Key: ""
+          Value: ""

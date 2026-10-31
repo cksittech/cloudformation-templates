@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBatchServiceenvironment:
+    Type: AWS::Batch::ServiceEnvironment
+    Properties:
+      ServiceEnvironmentName: ""
+      ServiceEnvironmentType: ""
+      State: ""
+      CapacityLimits:
+        - CapacityUnit: ""
+          MaxCapacity: 0
+      Tags: {}

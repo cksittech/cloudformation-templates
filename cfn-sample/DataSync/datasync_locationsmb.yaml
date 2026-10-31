@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatasyncLocationsmb:
+    Type: AWS::DataSync::LocationSMB
+    Properties:
+      AgentArns: []
+      AuthenticationType: ""
+      DnsIpAddresses: []
+      Domain: ""
+      KerberosKeytab: ""
+      KerberosKrb5Conf: ""
+      KerberosPrincipal: ""
+      Password: ""
+      ServerHostname: ""
+      Subdirectory: ""
+      User: ""
+      CmkSecretConfig:
+        KmsKeyArn: ""
+      CustomSecretConfig:
+        SecretAccessRoleArn: ""
+        SecretArn: ""
+      MountOptions:
+        Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

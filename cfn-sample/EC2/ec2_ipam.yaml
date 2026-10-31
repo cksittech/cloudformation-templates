@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Ipam:
+    Type: AWS::EC2::IPAM
+    Properties:
+      Description: ""
+      EnablePrivateGua: false
+      MeteredAccount: ""
+      Tier: ""
+      DefaultResourceDiscoveryOrganizationalUnitExclusions:
+        - OrganizationsEntityPath: ""
+      OperatingRegions:
+        - RegionName: ""
+      Tags:
+        - Key: ""
+          Value: ""

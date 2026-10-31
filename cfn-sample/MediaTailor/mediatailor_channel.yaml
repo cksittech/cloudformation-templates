@@ -1,0 +1,31 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorChannel:
+    Type: AWS::MediaTailor::Channel
+    Properties:
+      Audiences: []
+      ChannelName: ""
+      PlaybackMode: ""
+      Tier: ""
+      FillerSlate:
+        SourceLocationName: ""
+        VodSourceName: ""
+      LogConfiguration:
+        LogTypes: []
+      Outputs:
+        - ManifestName: ""
+          SourceGroup: ""
+          DashPlaylistSettings:
+            ManifestWindowSeconds: 0
+            MinBufferTimeSeconds: 0
+            MinUpdatePeriodSeconds: 0
+            SuggestedPresentationDelaySeconds: 0
+          HlsPlaylistSettings:
+            AdMarkupType: []
+            ManifestWindowSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      TimeShiftConfiguration:
+        MaxTimeDelaySeconds: 0

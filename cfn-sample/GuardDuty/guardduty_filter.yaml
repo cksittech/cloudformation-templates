@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyFilter:
+    Type: AWS::GuardDuty::Filter
+    Properties:
+      Action: ""
+      Description: ""
+      DetectorId: ""
+      Name: ""
+      Rank: 0
+      FindingCriteria:
+        Criterion: {}
+      Tags:
+        - Key: ""
+          Value: ""

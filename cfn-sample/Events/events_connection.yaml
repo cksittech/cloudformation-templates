@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsConnection:
+    Type: AWS::Events::Connection
+    Properties:
+      AuthorizationType: ""
+      Description: ""
+      KmsKeyIdentifier: ""
+      Name: ""
+      AuthParameters:
+        ApiKeyAuthParameters:
+          ApiKeyName: ""
+          ApiKeyValue: ""
+        BasicAuthParameters:
+          Password: ""
+          Username: ""
+        ConnectivityParameters:
+          ResourceParameters:
+            ResourceConfigurationArn: ""
+        InvocationHttpParameters:
+          BodyParameters:
+            - IsValueSecret: true
+              Key: ""
+              Value: ""
+          HeaderParameters:
+            - IsValueSecret: true
+              Key: ""
+              Value: ""
+          QueryStringParameters:
+            - IsValueSecret: true
+              Key: ""
+              Value: ""
+        OAuthParameters:
+          AuthorizationEndpoint: ""
+          HttpMethod: ""
+          ClientParameters:
+            ClientID: ""
+            ClientSecret: ""
+          OAuthHttpParameters:
+            BodyParameters:
+              - IsValueSecret: true
+                Key: ""
+                Value: ""
+            HeaderParameters:
+              - IsValueSecret: true
+                Key: ""
+                Value: ""
+            QueryStringParameters:
+              - IsValueSecret: true
+                Key: ""
+                Value: ""
+      InvocationConnectivityParameters:
+        ResourceParameters:
+          ResourceConfigurationArn: ""

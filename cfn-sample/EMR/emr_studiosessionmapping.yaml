@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrStudiosessionmapping:
+    Type: AWS::EMR::StudioSessionMapping
+    Properties:
+      IdentityName: ""
+      IdentityType: ""
+      SessionPolicyArn: ""
+      StudioId: ""

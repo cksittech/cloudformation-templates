@@ -1,0 +1,432 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafv2Rulegroup:
+    Type: AWS::WAFv2::RuleGroup
+    Properties:
+      AvailableLabels: []
+      Capacity: 0
+      ConsumedLabels: []
+      Description: ""
+      Name: ""
+      Scope: ""
+      CustomResponseBodies: {}
+      MonetizationConfig:
+        CurrencyMode: ""
+        CryptoConfig:
+          PaymentNetworks:
+            - Chain: ""
+              WalletAddress: ""
+              Prices:
+                - Amount: ""
+                  Currency: ""
+      Rules:
+        - Name: ""
+          Priority: 0
+          Action:
+            Allow:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Block:
+              CustomResponse:
+                CustomResponseBodyKey: ""
+                ResponseCode: 0
+                ResponseHeaders:
+                  - Name: ""
+                    Value: ""
+            Captcha:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Challenge:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Count:
+              CustomRequestHandling:
+                InsertHeaders:
+                  - Name: ""
+                    Value: ""
+            Monetize:
+              PriceMultiplier: ""
+          CaptchaConfig:
+            ImmunityTimeProperty:
+              ImmunityTime: 0
+          ChallengeConfig:
+            ImmunityTimeProperty:
+              ImmunityTime: 0
+          RuleLabels:
+            - Name: ""
+          Statement:
+            AndStatement:
+              Statements: []
+            AsnMatchStatement:
+              AsnList: []
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+            ByteMatchStatement:
+              PositionalConstraint: ""
+              SearchString: ""
+              SearchStringBase64: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            GeoMatchStatement:
+              CountryCodes: []
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+            IPSetReferenceStatement:
+              Arn: ""
+              IPSetForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+                Position: ""
+            LabelMatchStatement:
+              Key: ""
+              Scope: ""
+            NotStatement:
+              Statement: {}
+            OrStatement:
+              Statements: []
+            RateBasedStatement:
+              AggregateKeyType: ""
+              EvaluationWindowSec: 0
+              Limit: 0
+              CustomKeys:
+                - ASN: {}
+                  Cookie:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  ForwardedIP: {}
+                  HTTPMethod: {}
+                  Header:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  IP: {}
+                  JA3Fingerprint:
+                    FallbackBehavior: ""
+                  JA4Fingerprint:
+                    FallbackBehavior: ""
+                  LabelNamespace:
+                    Namespace: ""
+                  QueryArgument:
+                    Name: ""
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  QueryString:
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+                  UriPath:
+                    TextTransformations:
+                      - Priority: 0
+                        Type: ""
+              ForwardedIPConfig:
+                FallbackBehavior: ""
+                HeaderName: ""
+              ScopeDownStatement: {}
+            RegexMatchStatement:
+              RegexString: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            RegexPatternSetReferenceStatement:
+              Arn: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            SizeConstraintStatement:
+              ComparisonOperator: ""
+              Size: 0
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            SqliMatchStatement:
+              SensitivityLevel: ""
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+            XssMatchStatement:
+              FieldToMatch:
+                AllQueryArguments: {}
+                Body:
+                  OversizeHandling: ""
+                Cookies:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedCookies: []
+                    IncludedCookies: []
+                    All: {}
+                HeaderOrder:
+                  OversizeHandling: ""
+                Headers:
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    ExcludedHeaders: []
+                    IncludedHeaders: []
+                    All: {}
+                JA3Fingerprint:
+                  FallbackBehavior: ""
+                JA4Fingerprint:
+                  FallbackBehavior: ""
+                JsonBody:
+                  InvalidFallbackBehavior: ""
+                  MatchScope: ""
+                  OversizeHandling: ""
+                  MatchPattern:
+                    IncludedPaths: []
+                    All: {}
+                Method: {}
+                QueryString: {}
+                SingleHeader:
+                  Name: ""
+                SingleQueryArgument:
+                  Name: ""
+                UriFragment:
+                  FallbackBehavior: ""
+                UriPath: {}
+              PreParseTextTransformations:
+                - Priority: 0
+                  Type: ""
+              TextTransformations:
+                - Priority: 0
+                  Type: ""
+          VisibilityConfig:
+            CloudWatchMetricsEnabled: false
+            MetricName: ""
+            SampledRequestsEnabled: false
+      Tags:
+        - Key: ""
+          Value: ""
+      VisibilityConfig:
+        CloudWatchMetricsEnabled: false
+        MetricName: ""
+        SampledRequestsEnabled: false

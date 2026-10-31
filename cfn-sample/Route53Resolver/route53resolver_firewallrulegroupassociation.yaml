@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53resolverFirewallrulegroupassociation:
+    Type: AWS::Route53Resolver::FirewallRuleGroupAssociation
+    Properties:
+      FirewallRuleGroupId: ""
+      MutationProtection: ""
+      Name: ""
+      Priority: 0
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

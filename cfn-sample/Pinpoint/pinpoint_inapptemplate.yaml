@@ -1,0 +1,56 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointInapptemplate:
+    Type: AWS::Pinpoint::InAppTemplate
+    Properties:
+      Layout: ""
+      TemplateDescription: ""
+      TemplateName: ""
+      Content:
+        - BackgroundColor: ""
+          ImageUrl: ""
+          BodyConfig:
+            Alignment: ""
+            Body: ""
+            TextColor: ""
+          HeaderConfig:
+            Alignment: ""
+            Header: ""
+            TextColor: ""
+          PrimaryBtn:
+            Android:
+              ButtonAction: ""
+              Link: ""
+            DefaultConfig:
+              BackgroundColor: ""
+              BorderRadius: 0
+              ButtonAction: ""
+              Link: ""
+              Text: ""
+              TextColor: ""
+            IOS:
+              ButtonAction: ""
+              Link: ""
+            Web:
+              ButtonAction: ""
+              Link: ""
+          SecondaryBtn:
+            Android:
+              ButtonAction: ""
+              Link: ""
+            DefaultConfig:
+              BackgroundColor: ""
+              BorderRadius: 0
+              ButtonAction: ""
+              Link: ""
+              Text: ""
+              TextColor: ""
+            IOS:
+              ButtonAction: ""
+              Link: ""
+            Web:
+              ButtonAction: ""
+              Link: ""
+      CustomConfig: {}
+      Tags: {}

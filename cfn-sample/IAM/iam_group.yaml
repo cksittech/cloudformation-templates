@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIamGroup:
+    Type: AWS::IAM::Group
+    Properties:
+      GroupName: ""
+      ManagedPolicyArns: []
+      Path: ""
+      Policies:
+        - PolicyDocument: ""
+          PolicyName: ""

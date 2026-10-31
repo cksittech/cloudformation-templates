@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOmicsRuncache:
+    Type: AWS::Omics::RunCache
+    Properties:
+      CacheBehavior: ""
+      CacheBucketOwnerId: ""
+      CacheS3Location: ""
+      Description: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoIdentitypoolprincipaltag:
+    Type: AWS::Cognito::IdentityPoolPrincipalTag
+    Properties:
+      IdentityPoolId: ""
+      IdentityProviderName: ""
+      UseDefaults: false
+      PrincipalTags: {}

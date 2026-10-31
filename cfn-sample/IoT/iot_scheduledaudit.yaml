@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotScheduledaudit:
+    Type: AWS::IoT::ScheduledAudit
+    Properties:
+      DayOfMonth: ""
+      DayOfWeek: ""
+      Frequency: ""
+      ScheduledAuditName: ""
+      TargetCheckNames: []
+      Tags:
+        - Key: ""
+          Value: ""

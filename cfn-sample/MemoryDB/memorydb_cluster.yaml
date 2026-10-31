@@ -1,0 +1,37 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMemorydbCluster:
+    Type: AWS::MemoryDB::Cluster
+    Properties:
+      ACLName: ""
+      AutoMinorVersionUpgrade: false
+      ClusterName: ""
+      DataTiering: ""
+      Description: ""
+      Engine: ""
+      EngineVersion: ""
+      FinalSnapshotName: ""
+      IpDiscovery: ""
+      KmsKeyId: ""
+      MaintenanceWindow: ""
+      MultiRegionClusterName: ""
+      NetworkType: ""
+      NodeType: ""
+      NumReplicasPerShard: 0
+      NumShards: 0
+      ParameterGroupName: ""
+      Port: 0
+      SecurityGroupIds: []
+      SnapshotArns: []
+      SnapshotName: ""
+      SnapshotRetentionLimit: 0
+      SnapshotWindow: ""
+      SnsTopicArn: ""
+      SnsTopicStatus: ""
+      SubnetGroupName: ""
+      TLSEnabled: false
+      ClusterEndpoint: {}
+      Tags:
+        - Key: ""
+          Value: ""

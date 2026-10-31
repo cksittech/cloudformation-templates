@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCertificatemanagerCertificate:
+    Type: AWS::CertificateManager::Certificate
+    Properties:
+      CertificateAuthorityArn: ""
+      CertificateExport: ""
+      CertificateTransparencyLoggingPreference: ""
+      DomainName: ""
+      KeyAlgorithm: ""
+      SubjectAlternativeNames: []
+      ValidationMethod: ""
+      DomainValidationOptions:
+        - DomainName: ""
+          HostedZoneId: ""
+          ValidationDomain: ""
+      Tags:
+        - Key: ""
+          Value: ""

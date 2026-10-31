@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAskSkill:
+    Type: Alexa::ASK::Skill
+    Properties:
+      VendorId: ""
+      AuthenticationConfiguration:
+        ClientId: ""
+        ClientSecret: ""
+        RefreshToken: ""
+      SkillPackage:
+        S3Bucket: ""
+        S3BucketRole: ""
+        S3Key: ""
+        S3ObjectVersion: ""
+        Overrides:
+          Manifest: {}

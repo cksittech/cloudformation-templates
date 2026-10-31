@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53resolverOutpostresolver:
+    Type: AWS::Route53Resolver::OutpostResolver
+    Properties:
+      InstanceCount: 0
+      Name: ""
+      OutpostArn: ""
+      PreferredInstanceType: ""
+      Tags:
+        - Key: ""
+          Value: ""

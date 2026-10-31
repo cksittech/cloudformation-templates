@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCleanroomsmlTrainingdataset:
+    Type: AWS::CleanRoomsML::TrainingDataset
+    Properties:
+      Description: ""
+      Name: ""
+      RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TrainingData:
+        - Type: ""
+          InputConfig:
+            DataSource:
+              GlueDataSource:
+                CatalogId: ""
+                DatabaseName: ""
+                TableName: ""
+            Schema:
+              - ColumnName: ""
+                ColumnTypes: []

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOutpostsOutpost:
+    Type: AWS::Outposts::Outpost
+    Properties:
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      Description: ""
+      Name: ""
+      SiteId: ""
+      SupportedHardwareType: ""
+      Tags:
+        - Key: ""
+          Value: ""

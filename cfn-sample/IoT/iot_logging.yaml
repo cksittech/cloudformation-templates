@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotLogging:
+    Type: AWS::IoT::Logging
+    Properties:
+      AccountId: ""
+      DefaultLogLevel: ""
+      RoleArn: ""
+      EventConfigurations:
+        - EventType: ""
+          LogDestination: ""
+          LogLevel: ""

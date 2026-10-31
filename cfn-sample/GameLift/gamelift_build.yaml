@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGameliftBuild:
+    Type: AWS::GameLift::Build
+    Properties:
+      Name: ""
+      OperatingSystem: ""
+      ServerSdkVersion: ""
+      Version: ""
+      StorageLocation:
+        Bucket: ""
+        Key: ""
+        ObjectVersion: ""
+        RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

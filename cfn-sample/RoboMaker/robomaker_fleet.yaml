@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRobomakerFleet:
+    Type: AWS::RoboMaker::Fleet
+    Properties:
+      Name: ""
+      Tags: {}

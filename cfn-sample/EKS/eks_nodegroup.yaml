@@ -1,0 +1,55 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEksNodegroup:
+    Type: AWS::EKS::Nodegroup
+    Properties:
+      AmiType: ""
+      CapacityType: ""
+      ClusterName: ""
+      DiskSize: 0
+      ForceUpdateEnabled: false
+      InstanceTypes: []
+      NodeRole: ""
+      NodegroupName: ""
+      ReleaseVersion: ""
+      Subnets: []
+      Version: ""
+      Labels: {}
+      LaunchTemplate:
+        Id: ""
+        Name: ""
+        Version: ""
+      NodeRepairConfig:
+        Enabled: false
+        MaxParallelNodesRepairedCount: 0
+        MaxParallelNodesRepairedPercentage: 0
+        MaxUnhealthyNodeThresholdCount: 0
+        MaxUnhealthyNodeThresholdPercentage: 0
+        NodeRepairConfigOverrides:
+          - MinRepairWaitTimeMins: 0
+            NodeMonitoringCondition: ""
+            NodeUnhealthyReason: ""
+            RepairAction: ""
+      RemoteAccess:
+        Ec2SshKey: ""
+        SourceSecurityGroups: []
+      ScalingConfig:
+        DesiredSize: 0
+        MaxSize: 0
+        MinSize: 0
+      Tags: {}
+      Taints:
+        - Effect: ""
+          Key: ""
+          Value: ""
+      UpdateConfig:
+        MaxUnavailable: 0
+        MaxUnavailablePercentage: 0
+        UpdateStrategy: ""
+      WarmPoolConfig:
+        Enabled: false
+        MaxGroupPreparedCapacity: 0
+        MinSize: 0
+        PoolState: ""
+        ReuseOnScaleIn: false

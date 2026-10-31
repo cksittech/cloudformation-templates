@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAcmpcaPermission:
+    Type: AWS::ACMPCA::Permission
+    Properties:
+      Actions: []
+      CertificateAuthorityArn: ""
+      Principal: ""
+      SourceAccount: ""

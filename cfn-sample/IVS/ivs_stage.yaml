@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIvsStage:
+    Type: AWS::IVS::Stage
+    Properties:
+      Name: ""
+      AutoParticipantRecordingConfiguration:
+        MediaTypes: ["AUDIO_VIDEO"]
+        RecordingReconnectWindowSeconds: 0
+        StorageConfigurationArn: ""
+        HlsConfiguration:
+          ParticipantRecordingHlsConfiguration:
+            TargetSegmentDurationSeconds: 6
+        ThumbnailConfiguration:
+          ParticipantThumbnailConfiguration:
+            RecordingMode: "DISABLED"
+            Storage: ["SEQUENTIAL"]
+            TargetIntervalSeconds: 60
+      Tags:
+        - Key: ""
+          Value: ""

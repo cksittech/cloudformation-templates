@@ -1,0 +1,128 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectcampaignsv2Campaign:
+    Type: AWS::ConnectCampaignsV2::Campaign
+    Properties:
+      ConnectCampaignFlowArn: ""
+      ConnectInstanceId: ""
+      Name: ""
+      Type: ""
+      ChannelSubtypeConfig:
+        Email:
+          Capacity: 0
+          DefaultOutboundConfig:
+            ConnectSourceEmailAddress: ""
+            SourceEmailAddressDisplayName: ""
+            WisdomTemplateArn: ""
+          OutboundMode:
+            AgentlessConfig: {}
+        Sms:
+          Capacity: 0
+          DefaultOutboundConfig:
+            ConnectSourcePhoneNumberArn: ""
+            WisdomTemplateArn: ""
+          OutboundMode:
+            AgentlessConfig: {}
+        Telephony:
+          Capacity: 0
+          ConnectQueueId: ""
+          DefaultOutboundConfig:
+            ConnectContactFlowId: ""
+            ConnectSourcePhoneNumber: ""
+            RingTimeout: 0
+            AnswerMachineDetectionConfig:
+              AwaitAnswerMachinePrompt: false
+              EnableAnswerMachineDetection: false
+          OutboundMode:
+            AgentlessConfig: {}
+            PredictiveConfig:
+              BandwidthAllocation: 0
+            PreviewConfig:
+              AgentActions: []
+              BandwidthAllocation: 0
+              TimeoutConfig:
+                DurationInSeconds: 0
+            ProgressiveConfig:
+              BandwidthAllocation: 0
+        WhatsApp:
+          Capacity: 0
+          DefaultOutboundConfig:
+            ConnectSourcePhoneNumberArn: ""
+            WisdomTemplateArn: ""
+          OutboundMode:
+            AgentlessConfig: {}
+      CommunicationLimitsOverride:
+        InstanceLimitsHandling: ""
+        AllChannelsSubtypes:
+          CommunicationLimitList:
+            - Frequency: 0
+              MaxCountPerRecipient: 0
+              Unit: ""
+      CommunicationTimeConfig:
+        Email:
+          OpenHours:
+            DailyHours:
+              - Key: ""
+                Value:
+                  - EndTime: ""
+                    StartTime: ""
+          RestrictedPeriods:
+            RestrictedPeriodList:
+              - EndDate: ""
+                Name: ""
+                StartDate: ""
+        LocalTimeZoneConfig:
+          DefaultTimeZone: ""
+          LocalTimeZoneDetection: []
+          LocalTimeZoneDetectionScope: ""
+        Sms:
+          OpenHours:
+            DailyHours:
+              - Key: ""
+                Value:
+                  - EndTime: ""
+                    StartTime: ""
+          RestrictedPeriods:
+            RestrictedPeriodList:
+              - EndDate: ""
+                Name: ""
+                StartDate: ""
+        Telephony:
+          OpenHours:
+            DailyHours:
+              - Key: ""
+                Value:
+                  - EndTime: ""
+                    StartTime: ""
+          RestrictedPeriods:
+            RestrictedPeriodList:
+              - EndDate: ""
+                Name: ""
+                StartDate: ""
+        WhatsApp:
+          OpenHours:
+            DailyHours:
+              - Key: ""
+                Value:
+                  - EndTime: ""
+                    StartTime: ""
+          RestrictedPeriods:
+            RestrictedPeriodList:
+              - EndDate: ""
+                Name: ""
+                StartDate: ""
+      EntryLimitsConfig:
+        MaxEntryCount: 0
+        MinEntryInterval: ""
+      Schedule:
+        EndTime: ""
+        RefreshFrequency: ""
+        StartTime: ""
+      Source:
+        CustomerProfilesSegmentArn: ""
+        EventTrigger:
+          CustomerProfilesDomainArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

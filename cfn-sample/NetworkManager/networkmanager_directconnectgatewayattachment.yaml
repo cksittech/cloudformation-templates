@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerDirectconnectgatewayattachment:
+    Type: AWS::NetworkManager::DirectConnectGatewayAttachment
+    Properties:
+      CoreNetworkId: ""
+      DirectConnectGatewayArn: ""
+      EdgeLocations: []
+      RoutingPolicyLabel: ""
+      Tags:
+        - Key: ""
+          Value: ""

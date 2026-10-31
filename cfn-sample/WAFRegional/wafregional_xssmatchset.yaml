@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafregionalXssmatchset:
+    Type: AWS::WAFRegional::XssMatchSet
+    Properties:
+      Name: ""
+      XssMatchTuples:
+        - TextTransformation: ""
+          FieldToMatch:
+            Data: ""
+            Type: ""

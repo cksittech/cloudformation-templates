@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworksecuritymanagerScope:
+    Type: AWS::NetworkSecurityManager::Scope
+    Properties:
+      ScopeConfiguration: ""
+      ScopeDescription: ""
+      ScopeName: ""
+      Tags:
+        - Key: ""
+          Value: ""

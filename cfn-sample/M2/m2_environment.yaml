@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleM2Environment:
+    Type: AWS::M2::Environment
+    Properties:
+      Description: ""
+      EngineType: ""
+      EngineVersion: ""
+      InstanceType: ""
+      KmsKeyId: ""
+      Name: ""
+      NetworkType: ""
+      PreferredMaintenanceWindow: ""
+      PubliclyAccessible: false
+      SecurityGroupIds: []
+      SubnetIds: []
+      HighAvailabilityConfig:
+        DesiredCapacity: 0
+      StorageConfigurations:
+        - Efs:
+            FileSystemId: ""
+            MountPoint: ""
+          Fsx:
+            FileSystemId: ""
+            MountPoint: ""
+      Tags: {}

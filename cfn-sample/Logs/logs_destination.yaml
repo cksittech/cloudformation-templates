@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsDestination:
+    Type: AWS::Logs::Destination
+    Properties:
+      DestinationName: ""
+      DestinationPolicy: ""
+      RoleArn: ""
+      TargetArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

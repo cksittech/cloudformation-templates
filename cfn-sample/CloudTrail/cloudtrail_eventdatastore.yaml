@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudtrailEventdatastore:
+    Type: AWS::CloudTrail::EventDataStore
+    Properties:
+      BillingMode: ""
+      FederationEnabled: false
+      FederationRoleArn: ""
+      IngestionEnabled: false
+      InsightsDestination: ""
+      KmsKeyId: ""
+      MaxEventSize: ""
+      MultiRegionEnabled: false
+      Name: ""
+      OrganizationEnabled: false
+      RetentionPeriod: 0
+      TerminationProtectionEnabled: false
+      AdvancedEventSelectors:
+        - Name: ""
+          FieldSelectors:
+            - EndsWith: []
+              Equals: []
+              Field: ""
+              NotEndsWith: []
+              NotEquals: []
+              NotStartsWith: []
+              StartsWith: []
+      ContextKeySelectors:
+        - Equals: []
+          Type: ""
+      InsightSelectors:
+        - InsightType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleVerifiedpermissionsIdentitysource:
+    Type: AWS::VerifiedPermissions::IdentitySource
+    Properties:
+      PolicyStoreId: ""
+      PrincipalEntityType: ""
+      Configuration:
+        CognitoUserPoolConfiguration:
+          ClientIds: []
+          UserPoolArn: ""
+          GroupConfiguration:
+            GroupEntityType: ""
+        OpenIdConnectConfiguration:
+          EntityIdPrefix: ""
+          Issuer: ""
+          GroupConfiguration:
+            GroupClaim: ""
+            GroupEntityType: ""
+          TokenSelection:
+            AccessTokenOnly:
+              Audiences: []
+              PrincipalIdClaim: "sub"
+            IdentityTokenOnly:
+              ClientIds: []
+              PrincipalIdClaim: "sub"

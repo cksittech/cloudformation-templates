@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsmDocument:
+    Type: AWS::SSM::Document
+    Properties:
+      DocumentFormat: "JSON"
+      DocumentType: ""
+      Name: ""
+      TargetType: ""
+      UpdateMethod: "Replace"
+      VersionName: ""
+      Attachments:
+        - Key: ""
+          Name: ""
+          Values: []
+      Content: {}
+      Requires:
+        - Name: ""
+          Version: ""
+      Tags:
+        - Key: ""
+          Value: ""

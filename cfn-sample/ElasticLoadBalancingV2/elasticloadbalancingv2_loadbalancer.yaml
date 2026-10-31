@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingv2Loadbalancer:
+    Type: AWS::ElasticLoadBalancingV2::LoadBalancer
+    Properties:
+      EnableCapacityReservationProvisionStabilize: false
+      EnablePrefixForIpv6SourceNat: ""
+      EnforceSecurityGroupInboundRulesOnPrivateLinkTraffic: ""
+      IpAddressType: ""
+      Ipv4IpamPoolId: ""
+      Name: ""
+      Scheme: ""
+      SecurityGroups: []
+      Subnets: []
+      Type: ""
+      LoadBalancerAttributes:
+        - Key: ""
+          Value: ""
+      MinimumLoadBalancerCapacity:
+        CapacityUnits: 0
+      SubnetMappings:
+        - AllocationId: ""
+          IPv6Address: ""
+          PrivateIPv4Address: ""
+          SourceNatIpv6Prefix: ""
+          SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

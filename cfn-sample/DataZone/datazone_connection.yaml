@@ -1,0 +1,119 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneConnection:
+    Type: AWS::DataZone::Connection
+    Properties:
+      Description: ""
+      DomainIdentifier: ""
+      EnableTrustedIdentityPropagation: false
+      EnvironmentIdentifier: ""
+      Name: ""
+      ProjectIdentifier: ""
+      Scope: ""
+      AwsLocation:
+        AccessRole: ""
+        AwsAccountId: ""
+        AwsRegion: ""
+        IamConnectionId: ""
+      Configurations:
+        - Classification: ""
+          Properties: {}
+      Props:
+        AmazonQProperties:
+          AuthMode: ""
+          IsEnabled: false
+          ProfileArn: ""
+        AthenaProperties:
+          WorkgroupName: ""
+        GlueProperties:
+          GlueConnectionInput:
+            ConnectionType: ""
+            Description: ""
+            MatchCriteria: ""
+            Name: ""
+            ValidateCredentials: false
+            ValidateForComputeEnvironments: []
+            AthenaProperties: {}
+            AuthenticationConfiguration:
+              AuthenticationType: ""
+              KmsKeyArn: ""
+              SecretArn: ""
+              BasicAuthenticationCredentials:
+                Password: ""
+                UserName: ""
+              CustomAuthenticationCredentials: {}
+              OAuth2Properties:
+                OAuth2GrantType: ""
+                TokenUrl: ""
+                AuthorizationCodeProperties:
+                  AuthorizationCode: ""
+                  RedirectUri: ""
+                OAuth2ClientApplication:
+                  AWSManagedClientApplicationReference: ""
+                  UserManagedClientApplicationClientId: ""
+                OAuth2Credentials:
+                  AccessToken: ""
+                  JwtToken: ""
+                  RefreshToken: ""
+                  UserManagedClientApplicationClientSecret: ""
+                TokenUrlParametersMap: {}
+            ConnectionProperties: {}
+            PhysicalConnectionRequirements:
+              AvailabilityZone: ""
+              SecurityGroupIdList: []
+              SubnetId: ""
+              SubnetIdList: []
+            PythonProperties: {}
+            SparkProperties: {}
+        HyperPodProperties:
+          ClusterName: ""
+        IamProperties:
+          GlueLineageSyncEnabled: false
+          RoleArn: ""
+        LakehouseProperties:
+          GlueLineageSyncEnabled: false
+        MlflowProperties:
+          TrackingServerArn: ""
+        RedshiftProperties:
+          DatabaseName: ""
+          Host: ""
+          Port: 0
+          Credentials:
+            SecretArn: ""
+            UsernamePassword:
+              Password: ""
+              Username: ""
+          LineageSync:
+            Enabled: false
+            Schedule:
+              Schedule: ""
+          Storage:
+            ClusterName: ""
+            WorkgroupName: ""
+        S3Properties:
+          RegisterS3AccessGrantLocation: false
+          S3AccessGrantLocationId: ""
+          S3Uri: ""
+        SparkEmrProperties:
+          ComputeArn: ""
+          InstanceProfileArn: ""
+          JavaVirtualEnv: ""
+          LogUri: ""
+          ManagedEndpointArn: ""
+          PythonVirtualEnv: ""
+          RuntimeRole: ""
+          TrustedCertificatesS3Uri: ""
+        SparkGlueProperties:
+          GlueConnectionName: ""
+          GlueVersion: ""
+          IdleTimeout: 0
+          JavaVirtualEnv: ""
+          NumberOfWorkers: 0
+          PythonVirtualEnv: ""
+          WorkerType: ""
+          AdditionalArgs:
+            Connection: ""
+        WorkflowsMwaaProperties:
+          MwaaEnvironmentName: ""
+        WorkflowsServerlessProperties: {}

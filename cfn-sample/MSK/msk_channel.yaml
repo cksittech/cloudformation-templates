@@ -1,0 +1,65 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMskChannel:
+    Type: AWS::MSK::Channel
+    Properties:
+      ChannelName: ""
+      ClusterArn: ""
+      EncryptionConfiguration:
+        KmsKeyArn: ""
+      IcebergDestinationConfiguration:
+        AppendOnly: true
+        CompressionType: ""
+        DataFreshnessInSeconds: 0
+        ServiceExecutionRoleArn: ""
+        Catalog:
+          CatalogArn: ""
+          WarehouseLocation: ""
+        DeadLetterQueueS3:
+          BucketArn: ""
+          ErrorOutputPrefix: ""
+          ExpectedBucketOwner: ""
+        DestinationTableList:
+          - DestinationDatabaseName: ""
+            DestinationTableName: ""
+            PartitionSpec:
+              PartitionStrategy: ""
+              SourceList:
+                - SourceName: ""
+        SchemaEvolution:
+          EnableSchemaEvolution: false
+        TableCreation:
+          EnableTableCreation: true
+      LoggingInfo:
+        CloudWatchLogs:
+          Enabled: false
+          LogGroup: ""
+        Firehose:
+          DeliveryStream: ""
+          Enabled: false
+        S3:
+          Bucket: ""
+          Enabled: false
+          Prefix: ""
+      S3DestinationConfiguration:
+        DataFreshnessInSeconds: 0
+        ServiceExecutionRoleArn: ""
+        DeadLetterQueueS3:
+          BucketArn: ""
+          ErrorOutputPrefix: ""
+          ExpectedBucketOwner: ""
+        Storage:
+          BucketArn: ""
+          CompressionType: ""
+          ExpectedBucketOwner: ""
+          OutputKeyTemplate: ""
+          OutputPrefix: ""
+          StorageClass: ""
+      Tags: {}
+      TopicConfigurationList:
+        - TopicArn: ""
+          RecordConverter:
+            ValueConverter: ""
+          RecordSchema:
+            GsrArn: ""

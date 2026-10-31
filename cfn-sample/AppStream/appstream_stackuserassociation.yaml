@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppstreamStackuserassociation:
+    Type: AWS::AppStream::StackUserAssociation
+    Properties:
+      AuthenticationType: ""
+      SendEmailNotification: false
+      StackName: ""
+      UserName: ""

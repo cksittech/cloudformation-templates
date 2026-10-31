@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotCustommetric:
+    Type: AWS::IoT::CustomMetric
+    Properties:
+      DisplayName: ""
+      MetricName: ""
+      MetricType: ""
+      Tags:
+        - Key: ""
+          Value: ""

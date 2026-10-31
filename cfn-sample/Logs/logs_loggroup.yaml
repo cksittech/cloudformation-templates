@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLogsLoggroup:
+    Type: AWS::Logs::LogGroup
+    Properties:
+      BearerTokenAuthenticationEnabled: false
+      DeletionProtectionEnabled: false
+      FieldIndexPolicies: []
+      KmsKeyId: ""
+      LogGroupClass: "STANDARD"
+      LogGroupName: ""
+      RetentionInDays: 0
+      DataProtectionPolicy: {}
+      ResourcePolicyDocument: {}
+      Tags:
+        - Key: ""
+          Value: ""

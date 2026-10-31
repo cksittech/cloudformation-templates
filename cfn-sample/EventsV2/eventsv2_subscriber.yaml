@@ -1,0 +1,85 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsv2Subscriber:
+    Type: AWS::EventsV2::Subscriber
+    Properties:
+      Description: ""
+      EventBusArn: ""
+      Name: ""
+      ResumePosition: ""
+      StartingPosition: ""
+      State: ""
+      Type: ""
+      BatchConfiguration:
+        MaxBatchSize: 0
+        MaxBatchWindowInSeconds: 0
+      FilterConfiguration:
+        Language: ""
+        Filters:
+          - Pattern: ""
+            Scope: ""
+      InvokeConfiguration:
+        RoleArn: ""
+        TargetArn: ""
+        EventBusV2Parameters:
+          DeduplicationConfiguration:
+            DeduplicationType: ""
+          Metadata: {}
+          SystemMetadata:
+            DeduplicationId: ""
+            EventGroupId: ""
+        HttpParameters:
+          InvocationTimeoutSeconds: ""
+          PathParameterValues: []
+          HeaderParameters: {}
+          QueryStringParameters: {}
+        KinesisParameters:
+          ExplicitHashKey: ""
+          PartitionKey: ""
+        LambdaParameters:
+          DurableExecutionName: ""
+          InvocationTimeoutSeconds: ""
+          InvocationType: ""
+          Qualifier: ""
+          TenantId: ""
+        SnsParameters:
+          MessageDeduplicationId: ""
+          MessageGroupId: ""
+          MessageStructure: ""
+          Subject: ""
+          MessageAttributes: {}
+        SqsParameters:
+          DelaySeconds: ""
+          MessageDeduplicationId: ""
+          MessageGroupId: ""
+          MessageAttributes: {}
+          MessageSystemAttributes: {}
+        StepFunctionsParameters:
+          InvocationTimeoutSeconds: ""
+          InvocationType: ""
+          Name: ""
+          TraceHeader: ""
+        UniversalTargetParameters:
+          Input: ""
+          InvocationTimeoutSeconds: ""
+      LogConfiguration:
+        IncludePayload: ""
+        Level: ""
+      OnFailureConfiguration:
+        Arn: ""
+      PointInTimeConfiguration:
+        EndPoint: 0
+        PointType: ""
+        StartingPoint: 0
+      RetryPolicy:
+        MaxEventAgeInSeconds: 0
+        MaxRetryAttempts: 0
+        RetryStrategy: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Transformer:
+        Type: ""
+        JsonataConfiguration:
+          Expression: ""

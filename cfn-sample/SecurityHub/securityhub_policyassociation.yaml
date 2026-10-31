@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubPolicyassociation:
+    Type: AWS::SecurityHub::PolicyAssociation
+    Properties:
+      ConfigurationPolicyId: ""
+      TargetId: ""
+      TargetType: ""

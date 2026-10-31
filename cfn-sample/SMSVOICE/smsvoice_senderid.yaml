@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSmsvoiceSenderid:
+    Type: AWS::SMSVOICE::SenderId
+    Properties:
+      DeletionProtectionEnabled: false
+      IsoCountryCode: ""
+      SenderId: ""
+      Tags:
+        - Key: ""
+          Value: ""

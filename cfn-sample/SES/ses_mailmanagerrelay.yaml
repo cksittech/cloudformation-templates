@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanagerrelay:
+    Type: AWS::SES::MailManagerRelay
+    Properties:
+      RelayName: ""
+      ServerName: ""
+      ServerPort: 0
+      Authentication:
+        SecretArn: ""
+        NoAuthentication: {}
+      Tags:
+        - Key: ""
+          Value: ""

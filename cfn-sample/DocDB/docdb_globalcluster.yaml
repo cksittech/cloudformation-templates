@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDocdbGlobalcluster:
+    Type: AWS::DocDB::GlobalCluster
+    Properties:
+      DeletionProtection: false
+      Engine: "docdb"
+      EngineVersion: ""
+      GlobalClusterIdentifier: ""
+      SourceDBClusterIdentifier: ""
+      StorageEncrypted: false
+      Tags:
+        - Key: ""
+          Value: ""

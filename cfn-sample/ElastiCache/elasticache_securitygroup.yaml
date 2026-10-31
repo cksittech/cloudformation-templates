@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticacheSecuritygroup:
+    Type: AWS::ElastiCache::SecurityGroup
+    Properties:
+      Description: ""
+      Tags:
+        - Key: ""
+          Value: ""

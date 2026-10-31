@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailCertificate:
+    Type: AWS::Lightsail::Certificate
+    Properties:
+      CertificateName: ""
+      DomainName: ""
+      SubjectAlternativeNames: []
+      Tags:
+        - Key: ""
+          Value: ""

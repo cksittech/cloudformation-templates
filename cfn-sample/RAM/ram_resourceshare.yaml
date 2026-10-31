@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRamResourceshare:
+    Type: AWS::RAM::ResourceShare
+    Properties:
+      AllowExternalPrincipals: false
+      Name: ""
+      PermissionArns: []
+      Principals: []
+      ResourceArns: []
+      Sources: []
+      ResourceShareConfiguration:
+        ExclusiveAccountAccess: false
+        RetainSharingOnAccountLeaveOrganization: false
+      Tags:
+        - Key: ""
+          Value: ""

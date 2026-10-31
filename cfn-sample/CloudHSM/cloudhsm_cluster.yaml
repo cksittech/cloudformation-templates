@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudhsmCluster:
+    Type: AWS::CloudHSM::Cluster
+    Properties:
+      HsmType: ""
+      Mode: ""
+      NetworkType: ""
+      SubnetIds: []
+      BackupRetentionPolicy:
+        Type: ""
+        Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

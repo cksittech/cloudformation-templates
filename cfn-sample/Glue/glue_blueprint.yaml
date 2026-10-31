@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueBlueprint:
+    Type: AWS::Glue::Blueprint
+    Properties:
+      BlueprintLocation: ""
+      Description: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

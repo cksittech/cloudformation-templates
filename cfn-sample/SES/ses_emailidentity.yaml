@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesEmailidentity:
+    Type: AWS::SES::EmailIdentity
+    Properties:
+      EmailIdentity: ""
+      ConfigurationSetAttributes:
+        ConfigurationSetName: ""
+      DkimAttributes:
+        SigningEnabled: false
+      DkimSigningAttributes:
+        DomainSigningPrivateKey: ""
+        DomainSigningSelector: ""
+        NextSigningKeyLength: ""
+      FeedbackAttributes:
+        EmailForwardingEnabled: false
+      MailFromAttributes:
+        BehaviorOnMxFailure: ""
+        MailFromDomain: ""
+      Tags:
+        - Key: ""
+          Value: ""

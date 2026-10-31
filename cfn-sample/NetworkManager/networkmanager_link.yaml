@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerLink:
+    Type: AWS::NetworkManager::Link
+    Properties:
+      Description: ""
+      GlobalNetworkId: ""
+      Provider: ""
+      SiteId: ""
+      Type: ""
+      Bandwidth:
+        DownloadSpeed: 0
+        UploadSpeed: 0
+      Tags:
+        - Key: ""
+          Value: ""

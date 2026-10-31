@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRdsOptiongroup:
+    Type: AWS::RDS::OptionGroup
+    Properties:
+      EngineName: ""
+      MajorEngineVersion: ""
+      OptionGroupDescription: ""
+      OptionGroupName: ""
+      OptionConfigurations:
+        - DBSecurityGroupMemberships: []
+          OptionName: ""
+          OptionVersion: ""
+          Port: 0
+          VpcSecurityGroupMemberships: []
+          OptionSettings:
+            - Name: ""
+              Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

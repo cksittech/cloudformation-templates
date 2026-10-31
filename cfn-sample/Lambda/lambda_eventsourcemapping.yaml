@@ -1,0 +1,72 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaEventsourcemapping:
+    Type: AWS::Lambda::EventSourceMapping
+    Properties:
+      BatchSize: 0
+      BisectBatchOnFunctionError: false
+      Enabled: false
+      EventSourceArn: ""
+      FunctionName: ""
+      FunctionResponseTypes: []
+      KmsKeyArn: ""
+      MaximumBatchingWindowInSeconds: 0
+      MaximumRecordAgeInSeconds: 0
+      MaximumRetryAttempts: 0
+      ParallelizationFactor: 0
+      Queues: []
+      StartingPosition: ""
+      StartingPositionTimestamp: 0
+      Topics: []
+      TumblingWindowInSeconds: 0
+      AmazonManagedKafkaEventSourceConfig:
+        ConsumerGroupId: ""
+        SchemaRegistryConfig:
+          EventRecordFormat: ""
+          SchemaRegistryURI: ""
+          AccessConfigs:
+            - Type: ""
+              URI: ""
+          SchemaValidationConfigs:
+            - Attribute: ""
+      DestinationConfig:
+        OnFailure:
+          Destination: ""
+      DocumentDBEventSourceConfig:
+        CollectionName: ""
+        DatabaseName: ""
+        FullDocument: ""
+      FilterCriteria:
+        Filters:
+          - Pattern: ""
+      LoggingConfig:
+        SystemLogLevel: ""
+      MetricsConfig:
+        Metrics: []
+      ProvisionedPollerConfig:
+        MaximumPollers: 0
+        MinimumPollers: 0
+        PollerGroupName: ""
+      ScalingConfig:
+        MaximumConcurrency: 0
+      SelfManagedEventSource:
+        Endpoints:
+          KafkaBootstrapServers: []
+      SelfManagedKafkaEventSourceConfig:
+        ConsumerGroupId: ""
+        ConsumptionMode: ""
+        SchemaRegistryConfig:
+          EventRecordFormat: ""
+          SchemaRegistryURI: ""
+          AccessConfigs:
+            - Type: ""
+              URI: ""
+          SchemaValidationConfigs:
+            - Attribute: ""
+      SourceAccessConfigurations:
+        - Type: ""
+          URI: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,72 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediatailorPlaybackconfiguration:
+    Type: AWS::MediaTailor::PlaybackConfiguration
+    Properties:
+      AdDecisionServerUrl: ""
+      InsertionMode: ""
+      Name: ""
+      PersonalizationThresholdSeconds: 0
+      SlateAdUrl: ""
+      TranscodeProfileName: ""
+      VideoContentSourceUrl: ""
+      AdConditioningConfiguration:
+        StreamingMediaFileConditioning: ""
+      AdDecisionServerConfiguration:
+        HttpRequest:
+          Body: ""
+          CompressRequest: ""
+          HttpMethod: ""
+          Headers: {}
+        VastResponse:
+          AdSequencingMode: ""
+      AdsPersonalizationConcurrency:
+        EnableVodVastParallelization: false
+        MaxConcurrentAdsRequests: 0
+      AdsPersonalizationTimeouts:
+        AdsRequestTimeoutMilliseconds: 0
+        LiveMaximumAdsPersonalizationTimeMilliseconds: 0
+        PrefetchAdsRequestTimeoutMilliseconds: 0
+        PrefetchMaximumAdsPersonalizationTimeMilliseconds: 0
+        VodMaximumAdsPersonalizationTimeMilliseconds: 0
+      AvailSuppression:
+        FillPolicy: ""
+        Mode: ""
+        Value: ""
+      BeaconingConfiguration:
+        ClientSide:
+          AdditionalEventTypes: []
+          ReportingMode: ""
+      Bumper:
+        EndUrl: ""
+        StartUrl: ""
+      CdnConfiguration:
+        AdSegmentUrlPrefix: ""
+        ContentSegmentUrlPrefix: ""
+      ConfigurationAliases: {}
+      DashConfiguration:
+        MpdLocation: ""
+        OriginManifestType: ""
+      FunctionMapping: {}
+      HlsConfiguration: {}
+      LivePreRollConfiguration:
+        AdDecisionServerUrl: ""
+        MaxDurationSeconds: 0
+        AdDecisionServerConfiguration:
+          VastResponse:
+            AdSequencingMode: ""
+      LogConfiguration:
+        EnabledLoggingStrategies: []
+        PercentEnabled: 0
+        AdsInteractionLog:
+          ExcludeEventTypes: []
+          PublishOptInEventTypes: []
+        ManifestServiceInteractionLog:
+          ExcludeEventTypes: []
+      ManifestProcessingRules:
+        AdMarkerPassthrough:
+          Enabled: false
+      Tags:
+        - Key: ""
+          Value: ""

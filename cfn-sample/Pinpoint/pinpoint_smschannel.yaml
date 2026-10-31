@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointSmschannel:
+    Type: AWS::Pinpoint::SMSChannel
+    Properties:
+      ApplicationId: ""
+      Enabled: false
+      SenderId: ""
+      ShortCode: ""

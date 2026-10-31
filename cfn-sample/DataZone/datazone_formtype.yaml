@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneFormtype:
+    Type: AWS::DataZone::FormType
+    Properties:
+      Description: ""
+      DomainIdentifier: ""
+      Name: ""
+      OwningProjectIdentifier: ""
+      Status: ""
+      Model:
+        Smithy: ""

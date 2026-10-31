@@ -1,0 +1,54 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontResponseheaderspolicy:
+    Type: AWS::CloudFront::ResponseHeadersPolicy
+    Properties:
+      ResponseHeadersPolicyConfig:
+        Comment: ""
+        Name: ""
+        CorsConfig:
+          AccessControlAllowCredentials: false
+          AccessControlMaxAgeSec: 0
+          OriginOverride: false
+          AccessControlAllowHeaders:
+            Items: []
+          AccessControlAllowMethods:
+            Items: []
+          AccessControlAllowOrigins:
+            Items: []
+          AccessControlExposeHeaders:
+            Items: []
+        CustomHeadersConfig:
+          Items:
+            - Header: ""
+              Override: false
+              Value: ""
+        RemoveHeadersConfig:
+          Items:
+            - Header: ""
+        SecurityHeadersConfig:
+          ContentSecurityPolicy:
+            ContentSecurityPolicy: ""
+            Override: false
+          ContentTypeOptions:
+            Override: false
+          FrameOptions:
+            FrameOption: ""
+            Override: false
+          ReferrerPolicy:
+            Override: false
+            ReferrerPolicy: ""
+          StrictTransportSecurity:
+            AccessControlMaxAgeSec: 0
+            IncludeSubdomains: false
+            Override: false
+            Preload: false
+          XSSProtection:
+            ModeBlock: false
+            Override: false
+            Protection: false
+            ReportUri: ""
+        ServerTimingHeadersConfig:
+          Enabled: false
+          SamplingRate: 0

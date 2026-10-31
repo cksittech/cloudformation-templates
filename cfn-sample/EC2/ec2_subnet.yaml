@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Subnet:
+    Type: AWS::EC2::Subnet
+    Properties:
+      AssignIpv6AddressOnCreation: false
+      AvailabilityZone: ""
+      AvailabilityZoneId: ""
+      CidrBlock: ""
+      EnableDns64: false
+      EnableLniAtDeviceIndex: 0
+      Ipv4IpamPoolId: ""
+      Ipv4NetmaskLength: 0
+      Ipv6CidrBlock: ""
+      Ipv6IpamPoolId: ""
+      Ipv6Native: false
+      Ipv6NetmaskLength: 0
+      MapPublicIpOnLaunch: false
+      OutpostArn: ""
+      VpcId: ""
+      PrivateDnsNameOptionsOnLaunch:
+        EnableResourceNameDnsAAAARecord: false
+        EnableResourceNameDnsARecord: false
+        HostnameType: ""
+      Tags:
+        - Key: ""
+          Value: ""

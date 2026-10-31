@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDeadlineQueuefleetassociation:
+    Type: AWS::Deadline::QueueFleetAssociation
+    Properties:
+      FarmId: ""
+      FleetId: ""
+      QueueId: ""

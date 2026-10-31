@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53resolverResolverrule:
+    Type: AWS::Route53Resolver::ResolverRule
+    Properties:
+      DelegationRecord: ""
+      DomainName: ""
+      Name: ""
+      ResolverEndpointId: ""
+      RuleType: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TargetIps:
+        - Ip: ""
+          Ipv6: ""
+          Port: ""
+          Protocol: ""
+          ServerNameIndication: ""

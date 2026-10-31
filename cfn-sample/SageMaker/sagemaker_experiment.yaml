@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerExperiment:
+    Type: AWS::SageMaker::Experiment
+    Properties:
+      Description: ""
+      DisplayName: ""
+      ExperimentName: ""
+      Tags:
+        - Key: ""
+          Value: ""

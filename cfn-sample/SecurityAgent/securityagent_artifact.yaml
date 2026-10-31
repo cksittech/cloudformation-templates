@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityagentArtifact:
+    Type: AWS::SecurityAgent::Artifact
+    Properties:
+      AgentSpaceId: ""
+      ArtifactContent: ""
+      ArtifactType: ""
+      FileName: ""

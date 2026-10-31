@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleM2Application:
+    Type: AWS::M2::Application
+    Properties:
+      Description: ""
+      EngineType: ""
+      KmsKeyId: ""
+      Name: ""
+      RoleArn: ""
+      Definition:
+        Content: ""
+        S3Location: ""
+      Tags: {}

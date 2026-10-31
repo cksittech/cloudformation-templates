@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerExperimenttrialcomponent:
+    Type: AWS::SageMaker::ExperimentTrialComponent
+    Properties:
+      DisplayName: ""
+      EndTime: ""
+      StartTime: ""
+      TrialComponentName: ""
+      MetadataProperties:
+        CommitId: ""
+        GeneratedBy: ""
+        ProjectId: ""
+        Repository: ""
+      Status:
+        Message: ""
+        PrimaryStatus: ""
+      Tags:
+        - Key: ""
+          Value: ""

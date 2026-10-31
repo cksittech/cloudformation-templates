@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontFunction:
+    Type: AWS::CloudFront::Function
+    Properties:
+      AutoPublish: false
+      FunctionCode: ""
+      Name: ""
+      FunctionConfig:
+        Comment: ""
+        Runtime: ""
+        KeyValueStoreAssociations:
+          - KeyValueStoreARN: ""
+      FunctionMetadata: {}
+      Tags:
+        - Key: ""
+          Value: ""

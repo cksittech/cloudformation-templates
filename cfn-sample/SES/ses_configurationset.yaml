@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesConfigurationset:
+    Type: AWS::SES::ConfigurationSet
+    Properties:
+      Name: ""
+      ArchivingOptions:
+        ArchiveArn: ""
+      DeliveryOptions:
+        MaxDeliverySeconds: 0
+        SendingPoolName: ""
+        TlsPolicy: ""
+      ReputationOptions:
+        ReputationMetricsEnabled: false
+      SendingOptions:
+        SendingEnabled: false
+      SuppressionOptions:
+        SuppressedReasons: []
+        ValidationOptions:
+          ConditionThreshold:
+            ConditionThresholdEnabled: ""
+            OverallConfidenceThreshold:
+              ConfidenceVerdictThreshold: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      TrackingOptions:
+        CustomRedirectDomain: ""
+        HttpsPolicy: ""
+      VdmOptions:
+        DashboardOptions:
+          EngagementMetrics: ""
+        GuardianOptions:
+          OptimizedSharedDelivery: ""

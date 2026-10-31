@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSecurityhubAggregatorv2:
+    Type: AWS::SecurityHub::AggregatorV2
+    Properties:
+      LinkedRegions: []
+      RegionLinkingMode: ""
+      Tags: {}

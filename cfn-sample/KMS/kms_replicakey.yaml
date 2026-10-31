@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleKmsReplicakey:
+    Type: AWS::KMS::ReplicaKey
+    Properties:
+      Description: ""
+      Enabled: false
+      PendingWindowInDays: 0
+      PrimaryKeyArn: ""
+      KeyPolicy: {}
+      Tags:
+        - Key: ""
+          Value: ""

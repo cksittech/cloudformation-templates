@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDataexchangeEventaction:
+    Type: AWS::DataExchange::EventAction
+    Properties:
+      Action:
+        ExportRevisionToS3:
+          Encryption:
+            KmsKeyArn: ""
+            Type: ""
+          RevisionDestination:
+            Bucket: ""
+            KeyPattern: ""
+      Event:
+        RevisionPublished:
+          DataSetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

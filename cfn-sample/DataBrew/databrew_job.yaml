@@ -1,0 +1,93 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatabrewJob:
+    Type: AWS::DataBrew::Job
+    Properties:
+      DatasetName: ""
+      EncryptionKeyArn: ""
+      EncryptionMode: ""
+      LogSubscription: ""
+      MaxCapacity: 0
+      MaxRetries: 0
+      Name: ""
+      ProjectName: ""
+      RoleArn: ""
+      Timeout: 0
+      Type: ""
+      DataCatalogOutputs:
+        - CatalogId: ""
+          DatabaseName: ""
+          Overwrite: false
+          TableName: ""
+          DatabaseOptions:
+            TableName: ""
+            TempDirectory:
+              Bucket: ""
+              BucketOwner: ""
+              Key: ""
+          S3Options:
+            Location:
+              Bucket: ""
+              BucketOwner: ""
+              Key: ""
+      DatabaseOutputs:
+        - DatabaseOutputMode: ""
+          GlueConnectionName: ""
+          DatabaseOptions:
+            TableName: ""
+            TempDirectory:
+              Bucket: ""
+              BucketOwner: ""
+              Key: ""
+      JobSample:
+        Mode: ""
+        Size: 0
+      OutputLocation:
+        Bucket: ""
+        BucketOwner: ""
+        Key: ""
+      Outputs:
+        - CompressionFormat: ""
+          Format: ""
+          MaxOutputFiles: 0
+          Overwrite: false
+          PartitionColumns: []
+          FormatOptions:
+            Csv:
+              Delimiter: ""
+          Location:
+            Bucket: ""
+            BucketOwner: ""
+            Key: ""
+      ProfileConfiguration:
+        ColumnStatisticsConfigurations:
+          - Selectors:
+              - Name: ""
+                Regex: ""
+            Statistics:
+              IncludedStatistics: []
+              Overrides:
+                - Statistic: ""
+                  Parameters: {}
+        DatasetStatisticsConfiguration:
+          IncludedStatistics: []
+          Overrides:
+            - Statistic: ""
+              Parameters: {}
+        EntityDetectorConfiguration:
+          EntityTypes: []
+          AllowedStatistics:
+            Statistics: []
+        ProfileColumns:
+          - Name: ""
+            Regex: ""
+      Recipe:
+        Name: ""
+        Version: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      ValidationConfigurations:
+        - RulesetArn: ""
+          ValidationMode: ""

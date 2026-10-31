@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailBucket:
+    Type: AWS::Lightsail::Bucket
+    Properties:
+      BucketName: ""
+      BundleId: ""
+      ObjectVersioning: false
+      ReadOnlyAccessAccounts: []
+      ResourcesReceivingAccess: []
+      AccessRules:
+        AllowPublicOverrides: false
+        GetObject: ""
+      Tags:
+        - Key: ""
+          Value: ""

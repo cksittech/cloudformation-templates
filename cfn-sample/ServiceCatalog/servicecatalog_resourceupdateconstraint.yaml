@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogResourceupdateconstraint:
+    Type: AWS::ServiceCatalog::ResourceUpdateConstraint
+    Properties:
+      AcceptLanguage: ""
+      Description: ""
+      PortfolioId: ""
+      ProductId: ""
+      TagUpdateOnProvisionedProduct: ""

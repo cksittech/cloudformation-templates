@@ -1,0 +1,30 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAmplifyBranch:
+    Type: AWS::Amplify::Branch
+    Properties:
+      AppId: ""
+      BranchName: ""
+      BuildSpec: ""
+      ComputeRoleArn: ""
+      Description: ""
+      EnableAutoBuild: false
+      EnablePerformanceMode: false
+      EnablePullRequestPreview: false
+      EnableSkewProtection: false
+      Framework: ""
+      PullRequestEnvironmentName: ""
+      Stage: ""
+      Backend:
+        StackArn: ""
+      BasicAuthConfig:
+        EnableBasicAuth: false
+        Password: ""
+        Username: ""
+      EnvironmentVariables:
+        - Name: ""
+          Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

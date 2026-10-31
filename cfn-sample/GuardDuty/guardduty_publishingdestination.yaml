@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyPublishingdestination:
+    Type: AWS::GuardDuty::PublishingDestination
+    Properties:
+      DestinationType: ""
+      DetectorId: ""
+      DestinationProperties:
+        DestinationArn: ""
+        KmsKeyArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

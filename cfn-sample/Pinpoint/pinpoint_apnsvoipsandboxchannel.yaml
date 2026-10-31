@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePinpointApnsvoipsandboxchannel:
+    Type: AWS::Pinpoint::APNSVoipSandboxChannel
+    Properties:
+      ApplicationId: ""
+      BundleId: ""
+      Certificate: ""
+      DefaultAuthenticationMethod: ""
+      Enabled: false
+      PrivateKey: ""
+      TeamId: ""
+      TokenKey: ""
+      TokenKeyId: ""

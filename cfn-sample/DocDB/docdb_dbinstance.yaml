@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDocdbDbinstance:
+    Type: AWS::DocDB::DBInstance
+    Properties:
+      AutoMinorVersionUpgrade: false
+      AvailabilityZone: ""
+      CACertificateIdentifier: ""
+      CertificateRotationRestart: false
+      DBClusterIdentifier: ""
+      DBInstanceClass: ""
+      DBInstanceIdentifier: ""
+      EnablePerformanceInsights: false
+      PreferredMaintenanceWindow: ""
+      Tags:
+        - Key: ""
+          Value: ""

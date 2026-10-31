@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleOpensearchserverlessCollectiongroup:
+    Type: AWS::OpenSearchServerless::CollectionGroup
+    Properties:
+      Description: ""
+      Generation: ""
+      Name: ""
+      StandbyReplicas: ""
+      CapacityLimits:
+        MaxIndexingCapacityInOcu: 0
+        MaxSearchCapacityInOcu: 0
+        MinIndexingCapacityInOcu: 0
+        MinSearchCapacityInOcu: 0
+      Tags:
+        - Key: ""
+          Value: ""

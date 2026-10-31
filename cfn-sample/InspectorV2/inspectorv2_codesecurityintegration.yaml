@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInspectorv2Codesecurityintegration:
+    Type: AWS::InspectorV2::CodeSecurityIntegration
+    Properties:
+      Name: ""
+      Type: ""
+      CreateIntegrationDetails:
+        gitlabSelfManaged:
+          accessToken: ""
+          instanceUrl: ""
+      Tags: {}
+      UpdateIntegrationDetails:
+        github:
+          code: ""
+          installationId: ""
+        gitlabSelfManaged:
+          authCode: ""

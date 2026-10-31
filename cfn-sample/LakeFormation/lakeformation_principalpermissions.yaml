@@ -1,0 +1,47 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLakeformationPrincipalpermissions:
+    Type: AWS::LakeFormation::PrincipalPermissions
+    Properties:
+      Catalog: ""
+      Permissions: []
+      PermissionsWithGrantOption: []
+      Principal:
+        DataLakePrincipalIdentifier: ""
+      Resource:
+        Catalog:
+          Id: ""
+        DataCellsFilter:
+          DatabaseName: ""
+          Name: ""
+          TableCatalogId: ""
+          TableName: ""
+        DataLocation:
+          CatalogId: ""
+          ResourceArn: ""
+        Database:
+          CatalogId: ""
+          Name: ""
+        LFTag:
+          CatalogId: ""
+          TagKey: ""
+          TagValues: []
+        LFTagPolicy:
+          CatalogId: ""
+          ResourceType: ""
+          Expression:
+            - TagKey: ""
+              TagValues: []
+        Table:
+          CatalogId: ""
+          DatabaseName: ""
+          Name: ""
+          TableWildcard: {}
+        TableWithColumns:
+          CatalogId: ""
+          ColumnNames: []
+          DatabaseName: ""
+          Name: ""
+          ColumnWildcard:
+            ExcludedColumnNames: []

@@ -1,0 +1,235 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBedrockagentcoreMemory:
+    Type: AWS::BedrockAgentCore::Memory
+    Properties:
+      Description: ""
+      EncryptionKeyArn: ""
+      EventExpiryDuration: 0
+      MemoryExecutionRoleArn: ""
+      Name: ""
+      IndexedKeys:
+        - Key: ""
+          Type: ""
+      MemoryStrategies:
+        - CustomMemoryStrategy:
+            Description: ""
+            Name: ""
+            NamespaceTemplates: []
+            Namespaces: []
+            Configuration:
+              EpisodicOverride:
+                Consolidation:
+                  AppendToPrompt: ""
+                  ModelId: ""
+                Extraction:
+                  AppendToPrompt: ""
+                  ModelId: ""
+                Reflection:
+                  AppendToPrompt: ""
+                  ModelId: ""
+                  NamespaceTemplates: []
+                  Namespaces: []
+                  MemoryRecordSchema:
+                    MetadataSchema:
+                      - ExtractionType: ""
+                        Key: ""
+                        Type: ""
+                        ExtractionConfig:
+                          LlmExtractionConfig:
+                            Definition: ""
+                            LlmExtractionInstruction: ""
+                            Validation:
+                              NumberValidation:
+                                MaxValue: 0
+                                MinValue: 0
+                              StringListValidation:
+                                AllowedValues: []
+                                MaxItems: 0
+                              StringValidation:
+                                AllowedValues: []
+              SelfManagedConfiguration:
+                HistoricalContextWindowSize: 0
+                InvocationConfiguration:
+                  PayloadDeliveryBucketName: ""
+                  TopicArn: ""
+                TriggerConditions:
+                  - MessageBasedTrigger:
+                      MessageCount: 0
+                    TimeBasedTrigger:
+                      IdleSessionTimeout: 0
+                    TokenBasedTrigger:
+                      TokenCount: 0
+              SemanticOverride:
+                Consolidation:
+                  AppendToPrompt: ""
+                  ModelId: ""
+                Extraction:
+                  AppendToPrompt: ""
+                  ModelId: ""
+              SummaryOverride:
+                Consolidation:
+                  AppendToPrompt: ""
+                  ModelId: ""
+              UserPreferenceOverride:
+                Consolidation:
+                  AppendToPrompt: ""
+                  ModelId: ""
+                Extraction:
+                  AppendToPrompt: ""
+                  ModelId: ""
+            MemoryRecordSchema:
+              MetadataSchema:
+                - ExtractionType: ""
+                  Key: ""
+                  Type: ""
+                  ExtractionConfig:
+                    LlmExtractionConfig:
+                      Definition: ""
+                      LlmExtractionInstruction: ""
+                      Validation:
+                        NumberValidation:
+                          MaxValue: 0
+                          MinValue: 0
+                        StringListValidation:
+                          AllowedValues: []
+                          MaxItems: 0
+                        StringValidation:
+                          AllowedValues: []
+            RecordExpirySpecification:
+              RecordExpiryDurationDays: 0
+          EpisodicMemoryStrategy:
+            Description: ""
+            Name: ""
+            NamespaceTemplates: []
+            Namespaces: []
+            MemoryRecordSchema:
+              MetadataSchema:
+                - ExtractionType: ""
+                  Key: ""
+                  Type: ""
+                  ExtractionConfig:
+                    LlmExtractionConfig:
+                      Definition: ""
+                      LlmExtractionInstruction: ""
+                      Validation:
+                        NumberValidation:
+                          MaxValue: 0
+                          MinValue: 0
+                        StringListValidation:
+                          AllowedValues: []
+                          MaxItems: 0
+                        StringValidation:
+                          AllowedValues: []
+            RecordExpirySpecification:
+              RecordExpiryDurationDays: 0
+            ReflectionConfiguration:
+              NamespaceTemplates: []
+              Namespaces: []
+              MemoryRecordSchema:
+                MetadataSchema:
+                  - ExtractionType: ""
+                    Key: ""
+                    Type: ""
+                    ExtractionConfig:
+                      LlmExtractionConfig:
+                        Definition: ""
+                        LlmExtractionInstruction: ""
+                        Validation:
+                          NumberValidation:
+                            MaxValue: 0
+                            MinValue: 0
+                          StringListValidation:
+                            AllowedValues: []
+                            MaxItems: 0
+                          StringValidation:
+                            AllowedValues: []
+          SemanticMemoryStrategy:
+            Description: ""
+            Name: ""
+            NamespaceTemplates: []
+            Namespaces: []
+            MemoryRecordSchema:
+              MetadataSchema:
+                - ExtractionType: ""
+                  Key: ""
+                  Type: ""
+                  ExtractionConfig:
+                    LlmExtractionConfig:
+                      Definition: ""
+                      LlmExtractionInstruction: ""
+                      Validation:
+                        NumberValidation:
+                          MaxValue: 0
+                          MinValue: 0
+                        StringListValidation:
+                          AllowedValues: []
+                          MaxItems: 0
+                        StringValidation:
+                          AllowedValues: []
+            RecordExpirySpecification:
+              RecordExpiryDurationDays: 0
+          SummaryMemoryStrategy:
+            Description: ""
+            Name: ""
+            NamespaceTemplates: []
+            Namespaces: []
+            MemoryRecordSchema:
+              MetadataSchema:
+                - ExtractionType: ""
+                  Key: ""
+                  Type: ""
+                  ExtractionConfig:
+                    LlmExtractionConfig:
+                      Definition: ""
+                      LlmExtractionInstruction: ""
+                      Validation:
+                        NumberValidation:
+                          MaxValue: 0
+                          MinValue: 0
+                        StringListValidation:
+                          AllowedValues: []
+                          MaxItems: 0
+                        StringValidation:
+                          AllowedValues: []
+            RecordExpirySpecification:
+              RecordExpiryDurationDays: 0
+          UserPreferenceMemoryStrategy:
+            Description: ""
+            Name: ""
+            NamespaceTemplates: []
+            Namespaces: []
+            MemoryRecordSchema:
+              MetadataSchema:
+                - ExtractionType: ""
+                  Key: ""
+                  Type: ""
+                  ExtractionConfig:
+                    LlmExtractionConfig:
+                      Definition: ""
+                      LlmExtractionInstruction: ""
+                      Validation:
+                        NumberValidation:
+                          MaxValue: 0
+                          MinValue: 0
+                        StringListValidation:
+                          AllowedValues: []
+                          MaxItems: 0
+                        StringValidation:
+                          AllowedValues: []
+            RecordExpirySpecification:
+              RecordExpiryDurationDays: 0
+      NamespaceKeys:
+        - Key: ""
+          Validation:
+            AllowedValues: []
+            RegexPattern: ""
+      StreamDeliveryResources:
+        Resources:
+          - Kinesis:
+              DataStreamArn: ""
+              ContentConfigurations:
+                - Level: ""
+                  Type: ""
+      Tags: {}

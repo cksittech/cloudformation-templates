@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGreengrassLoggerdefinition:
+    Type: AWS::Greengrass::LoggerDefinition
+    Properties:
+      Name: ""
+      InitialVersion:
+        Loggers:
+          - Component: ""
+            Id: ""
+            Level: ""
+            Space: 0
+            Type: ""
+      Tags: {}

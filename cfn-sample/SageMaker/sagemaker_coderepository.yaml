@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerCoderepository:
+    Type: AWS::SageMaker::CodeRepository
+    Properties:
+      CodeRepositoryName: ""
+      GitConfig:
+        Branch: ""
+        RepositoryUrl: ""
+        SecretArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

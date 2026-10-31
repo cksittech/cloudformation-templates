@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailAlarm:
+    Type: AWS::Lightsail::Alarm
+    Properties:
+      AlarmName: ""
+      ComparisonOperator: ""
+      ContactProtocols: []
+      DatapointsToAlarm: 0
+      EvaluationPeriods: 0
+      MetricName: ""
+      MonitoredResourceName: ""
+      NotificationEnabled: false
+      NotificationTriggers: []
+      Threshold: 0
+      TreatMissingData: ""

@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLightsailDisksnapshot:
+    Type: AWS::Lightsail::DiskSnapshot
+    Properties:
+      DiskName: ""
+      DiskSnapshotName: ""
+      Tags:
+        - Key: ""
+          Value: ""

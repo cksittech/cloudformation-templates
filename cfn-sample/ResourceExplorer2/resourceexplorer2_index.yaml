@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResourceexplorer2Index:
+    Type: AWS::ResourceExplorer2::Index
+    Properties:
+      Type: ""
+      Tags: {}

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SamplePersonalizeCampaign:
+    Type: AWS::Personalize::Campaign
+    Properties:
+      MinProvisionedTPS: 0
+      Name: ""
+      SolutionVersionArn: ""
+      CampaignConfig:
+        EnableMetadataWithRecommendations: false
+        SyncWithLatestSolutionVersion: false
+        ItemExplorationConfig: {}
+        RankingInfluence: {}
+      Tags:
+        - Key: ""
+          Value: ""

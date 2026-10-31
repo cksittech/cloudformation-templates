@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubv2Servicefunction:
+    Type: AWS::ResilienceHubV2::ServiceFunction
+    Properties:
+      Criticality: ""
+      Description: ""
+      Name: ""
+      ServiceArn: ""

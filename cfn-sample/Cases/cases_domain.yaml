@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCasesDomain:
+    Type: AWS::Cases::Domain
+    Properties:
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

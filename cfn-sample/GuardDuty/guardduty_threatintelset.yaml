@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGuarddutyThreatintelset:
+    Type: AWS::GuardDuty::ThreatIntelSet
+    Properties:
+      Activate: false
+      DetectorId: ""
+      ExpectedBucketOwner: ""
+      Format: ""
+      Location: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""

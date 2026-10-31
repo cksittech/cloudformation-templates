@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRtbfabricInboundexternallink:
+    Type: AWS::RTBFabric::InboundExternalLink
+    Properties:
+      GatewayId: ""
+      LinkAttributes:
+        CustomerProvidedId: ""
+        ResponderErrorMasking:
+          - Action: ""
+            HttpCode: ""
+            LoggingTypes: []
+            ResponseLoggingPercentage: 0
+      LinkLogSettings:
+        ApplicationLogs:
+          LinkApplicationLogSampling:
+            ErrorLog: 0
+            FilterLog: 0
+      Tags:
+        - Key: ""
+          Value: ""

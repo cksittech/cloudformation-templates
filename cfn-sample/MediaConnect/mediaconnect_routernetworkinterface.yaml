@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediaconnectRouternetworkinterface:
+    Type: AWS::MediaConnect::RouterNetworkInterface
+    Properties:
+      Name: ""
+      RegionName: ""
+      Configuration:
+        Public:
+          AllowRules:
+            - Cidr: ""
+        Vpc:
+          SecurityGroupIds: []
+          SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudwatchMetricstream:
+    Type: AWS::CloudWatch::MetricStream
+    Properties:
+      FirehoseArn: ""
+      IncludeLinkedAccountsMetrics: false
+      Name: ""
+      OutputFormat: ""
+      RoleArn: ""
+      ExcludeFilters:
+        - MetricNames: []
+          Namespace: ""
+      IncludeFilters:
+        - MetricNames: []
+          Namespace: ""
+      StatisticsConfigurations:
+        - AdditionalStatistics: []
+          IncludeMetrics:
+            - MetricName: ""
+              Namespace: ""
+      Tags:
+        - Key: ""
+          Value: ""

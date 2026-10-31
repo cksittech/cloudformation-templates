@@ -1,0 +1,21 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSagemakerWorkteam:
+    Type: AWS::SageMaker::Workteam
+    Properties:
+      Description: ""
+      WorkforceName: ""
+      WorkteamName: ""
+      MemberDefinitions:
+        - CognitoMemberDefinition:
+            CognitoClientId: ""
+            CognitoUserGroup: ""
+            CognitoUserPool: ""
+          OidcMemberDefinition:
+            OidcGroups: []
+      NotificationConfiguration:
+        NotificationTopicArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

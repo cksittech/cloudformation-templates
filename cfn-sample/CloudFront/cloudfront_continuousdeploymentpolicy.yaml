@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCloudfrontContinuousdeploymentpolicy:
+    Type: AWS::CloudFront::ContinuousDeploymentPolicy
+    Properties:
+      ContinuousDeploymentPolicyConfig:
+        Enabled: false
+        StagingDistributionDnsNames: []
+        Type: ""
+        SingleHeaderPolicyConfig:
+          Header: ""
+          Value: ""
+        SingleWeightPolicyConfig:
+          Weight: 0
+          SessionStickinessConfig:
+            IdleTTL: 0
+            MaximumTTL: 0
+        TrafficConfig:
+          Type: ""
+          SingleHeaderConfig:
+            Header: ""
+            Value: ""
+          SingleWeightConfig:
+            Weight: 0
+            SessionStickinessConfig:
+              IdleTTL: 0
+              MaximumTTL: 0

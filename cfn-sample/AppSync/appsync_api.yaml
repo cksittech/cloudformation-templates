@@ -1,0 +1,36 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppsyncApi:
+    Type: AWS::AppSync::Api
+    Properties:
+      Name: ""
+      OwnerContact: ""
+      EventConfig:
+        AuthProviders:
+          - AuthType: ""
+            CognitoConfig:
+              AppIdClientRegex: ""
+              AwsRegion: ""
+              UserPoolId: ""
+            LambdaAuthorizerConfig:
+              AuthorizerResultTtlInSeconds: 0
+              AuthorizerUri: ""
+              IdentityValidationExpression: ""
+            OpenIDConnectConfig:
+              AuthTTL: 0
+              ClientId: ""
+              IatTTL: 0
+              Issuer: ""
+        ConnectionAuthModes:
+          - AuthType: ""
+        DefaultPublishAuthModes:
+          - AuthType: ""
+        DefaultSubscribeAuthModes:
+          - AuthType: ""
+        LogConfig:
+          CloudWatchLogsRoleArn: ""
+          LogLevel: ""
+      Tags:
+        - Key: ""
+          Value: ""

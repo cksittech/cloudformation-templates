@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspacesinstancesVolume:
+    Type: AWS::WorkspacesInstances::Volume
+    Properties:
+      AvailabilityZone: ""
+      Encrypted: false
+      Iops: 0
+      KmsKeyId: ""
+      SizeInGB: 0
+      SnapshotId: ""
+      Throughput: 0
+      VolumeType: ""
+      TagSpecifications:
+        - ResourceType: ""
+          Tags:
+            - Key: ""
+              Value: ""

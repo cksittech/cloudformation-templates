@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleResiliencehubv2Policy:
+    Type: AWS::ResilienceHubV2::Policy
+    Properties:
+      Description: ""
+      KmsKeyId: ""
+      Name: ""
+      SharingEnabled: false
+      AvailabilitySlo:
+        Target: 0
+      DataRecovery:
+        TimeBetweenBackupsInMinutes: 0
+      MultiAz:
+        DisasterRecoveryApproach: ""
+        RpoInMinutes: 0
+        RtoInMinutes: 0
+      MultiRegion:
+        DisasterRecoveryApproach: ""
+        RpoInMinutes: 0
+        RtoInMinutes: 0
+      Tags:
+        - Key: ""
+          Value: ""

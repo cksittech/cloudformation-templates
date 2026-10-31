@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotwirelessDestination:
+    Type: AWS::IoTWireless::Destination
+    Properties:
+      Description: ""
+      Expression: ""
+      ExpressionType: ""
+      Name: ""
+      RoleArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

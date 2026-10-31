@@ -1,0 +1,75 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingv2Listener:
+    Type: AWS::ElasticLoadBalancingV2::Listener
+    Properties:
+      AlpnPolicy: []
+      LoadBalancerArn: ""
+      Port: 0
+      Protocol: ""
+      SslPolicy: ""
+      Certificates:
+        - CertificateArn: ""
+      DefaultActions:
+        - Order: 0
+          TargetGroupArn: ""
+          Type: ""
+          AuthenticateCognitoConfig:
+            OnUnauthenticatedRequest: ""
+            Scope: ""
+            SessionCookieName: ""
+            SessionTimeout: ""
+            UserPoolArn: ""
+            UserPoolClientId: ""
+            UserPoolDomain: ""
+            AuthenticationRequestExtraParams: {}
+          AuthenticateOidcConfig:
+            AuthorizationEndpoint: ""
+            ClientId: ""
+            ClientSecret: ""
+            Issuer: ""
+            OnUnauthenticatedRequest: ""
+            Scope: ""
+            SessionCookieName: ""
+            SessionTimeout: ""
+            TokenEndpoint: ""
+            UseExistingClientSecret: false
+            UserInfoEndpoint: ""
+            AuthenticationRequestExtraParams: {}
+          FixedResponseConfig:
+            ContentType: ""
+            MessageBody: ""
+            StatusCode: ""
+          ForwardConfig:
+            TargetGroupStickinessConfig:
+              DurationSeconds: 0
+              Enabled: false
+            TargetGroups:
+              - TargetGroupArn: ""
+                Weight: 0
+          JwtValidationConfig:
+            Issuer: ""
+            JwksEndpoint: ""
+            AdditionalClaims:
+              - Format: ""
+                Name: ""
+                Values: []
+          RedirectConfig:
+            Host: ""
+            Path: ""
+            Port: ""
+            Protocol: ""
+            Query: ""
+            StatusCode: ""
+      ListenerAttributes:
+        - Key: ""
+          Value: ""
+      MutualAuthentication:
+        AdvertiseTrustStoreCaNames: ""
+        IgnoreClientCertificateExpiry: false
+        Mode: ""
+        TrustStoreArn: ""
+      Tags:
+        - Key: ""
+          Value: ""

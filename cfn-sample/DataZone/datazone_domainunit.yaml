@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDatazoneDomainunit:
+    Type: AWS::DataZone::DomainUnit
+    Properties:
+      Description: ""
+      DomainIdentifier: ""
+      Name: ""
+      ParentDomainUnitIdentifier: ""

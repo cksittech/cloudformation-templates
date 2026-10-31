@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCognitoManagedloginbranding:
+    Type: AWS::Cognito::ManagedLoginBranding
+    Properties:
+      ClientId: ""
+      ReturnMergedResources: false
+      UseCognitoProvidedValues: false
+      UserPoolId: ""
+      Assets:
+        - Bytes: ""
+          Category: ""
+          ColorMode: ""
+          Extension: ""
+          ResourceId: ""
+      Settings: {}

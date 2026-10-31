@@ -1,0 +1,27 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleTimestreamTable:
+    Type: AWS::Timestream::Table
+    Properties:
+      DatabaseName: ""
+      TableName: ""
+      MagneticStoreWriteProperties:
+        EnableMagneticStoreWrites: false
+        MagneticStoreRejectedDataLocation:
+          S3Configuration:
+            BucketName: ""
+            EncryptionOption: ""
+            KmsKeyId: ""
+            ObjectKeyPrefix: ""
+      RetentionProperties:
+        MagneticStoreRetentionPeriodInDays: ""
+        MemoryStoreRetentionPeriodInHours: ""
+      Schema:
+        CompositePartitionKey:
+          - EnforcementInRecord: ""
+            Name: ""
+            Type: ""
+      Tags:
+        - Key: ""
+          Value: ""

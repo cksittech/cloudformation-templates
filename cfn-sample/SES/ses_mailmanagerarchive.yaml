@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSesMailmanagerarchive:
+    Type: AWS::SES::MailManagerArchive
+    Properties:
+      ArchiveName: ""
+      KmsKeyArn: ""
+      Retention:
+        RetentionPeriod: ""
+      Tags:
+        - Key: ""
+          Value: ""

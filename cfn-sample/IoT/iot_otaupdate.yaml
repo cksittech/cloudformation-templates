@@ -1,0 +1,67 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleIotOtaupdate:
+    Type: AWS::IoT::OTAUpdate
+    Properties:
+      Description: ""
+      OtaUpdateId: ""
+      Protocols: []
+      RoleArn: ""
+      TargetSelection: ""
+      Targets: []
+      AdditionalParameters: {}
+      AwsJobAbortConfig:
+        AbortCriteriaList:
+          - Action: ""
+            FailureType: ""
+            MinNumberOfExecutedThings: 0
+            ThresholdPercentage: 0
+      AwsJobExecutionsRolloutConfig:
+        MaximumPerMinute: 0
+        ExponentialRate:
+          BaseRatePerMinute: 0
+          IncrementFactor: 0
+          RateIncreaseCriteria:
+            NumberOfNotifiedThings: 0
+            NumberOfSucceededThings: 0
+      AwsJobPresignedUrlConfig:
+        ExpiresInSec: 0
+      AwsJobTimeoutConfig:
+        InProgressTimeoutInMinutes: 0
+      Files:
+        - FileName: ""
+          FileType: 0
+          FileVersion: ""
+          Attributes: {}
+          CodeSigning:
+            AwsSignerJobId: ""
+            CustomCodeSigning:
+              HashAlgorithm: ""
+              SignatureAlgorithm: ""
+              CertificateChain:
+                CertificateName: ""
+                InlineDocument: ""
+              Signature:
+                InlineDocument: ""
+            StartSigningJobParameter:
+              SigningProfileName: ""
+              Destination:
+                S3Destination:
+                  Bucket: ""
+                  Prefix: ""
+              SigningProfileParameter:
+                CertificateArn: ""
+                CertificatePathOnDevice: ""
+                Platform: ""
+          FileLocation:
+            S3Location:
+              Bucket: ""
+              Key: ""
+              Version: ""
+            Stream:
+              FileId: 0
+              StreamId: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleSsoAssignment:
+    Type: AWS::SSO::Assignment
+    Properties:
+      InstanceArn: ""
+      PermissionSetArn: ""
+      PrincipalId: ""
+      PrincipalType: ""
+      TargetId: ""
+      TargetType: ""

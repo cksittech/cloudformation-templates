@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleNetworkmanagerSite:
+    Type: AWS::NetworkManager::Site
+    Properties:
+      Description: ""
+      GlobalNetworkId: ""
+      Location:
+        Address: ""
+        Latitude: ""
+        Longitude: ""
+      Tags:
+        - Key: ""
+          Value: ""

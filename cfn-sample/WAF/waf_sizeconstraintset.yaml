@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWafSizeconstraintset:
+    Type: AWS::WAF::SizeConstraintSet
+    Properties:
+      Name: ""
+      SizeConstraints:
+        - ComparisonOperator: ""
+          Size: 0
+          TextTransformation: ""
+          FieldToMatch:
+            Data: ""
+            Type: ""

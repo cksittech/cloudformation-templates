@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEventsArchive:
+    Type: AWS::Events::Archive
+    Properties:
+      ArchiveName: ""
+      Description: ""
+      KmsKeyIdentifier: ""
+      RetentionDays: 0
+      SourceArn: ""
+      EventPattern: {}

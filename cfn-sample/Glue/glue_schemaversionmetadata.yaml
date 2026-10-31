@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleGlueSchemaversionmetadata:
+    Type: AWS::Glue::SchemaVersionMetadata
+    Properties:
+      Key: ""
+      SchemaVersionId: ""
+      Value: ""

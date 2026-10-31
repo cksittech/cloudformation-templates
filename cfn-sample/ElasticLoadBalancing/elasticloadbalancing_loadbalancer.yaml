@@ -1,0 +1,53 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleElasticloadbalancingLoadbalancer:
+    Type: AWS::ElasticLoadBalancing::LoadBalancer
+    Properties:
+      AvailabilityZones: []
+      CrossZone: false
+      Instances: []
+      LoadBalancerName: ""
+      Scheme: ""
+      SecurityGroups: []
+      Subnets: []
+      AccessLoggingPolicy:
+        EmitInterval: 0
+        Enabled: false
+        S3BucketName: ""
+        S3BucketPrefix: ""
+      AppCookieStickinessPolicy:
+        - CookieName: ""
+          PolicyName: ""
+      ConnectionDrainingPolicy:
+        Enabled: false
+        Timeout: 0
+      ConnectionSettings:
+        IdleTimeout: 0
+      HealthCheck:
+        HealthyThreshold: ""
+        Interval: ""
+        Target: ""
+        Timeout: ""
+        UnhealthyThreshold: ""
+      LBCookieStickinessPolicy:
+        - CookieExpirationPeriod: ""
+          PolicyName: ""
+      Listeners:
+        - InstancePort: ""
+          InstanceProtocol: ""
+          LoadBalancerPort: ""
+          PolicyNames: []
+          Protocol: ""
+          SSLCertificateId: ""
+      Policies:
+        - InstancePorts: []
+          LoadBalancerPorts: []
+          PolicyName: ""
+          PolicyType: ""
+          Attributes:
+            - Name: ""
+              Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleConnectPredefinedattribute:
+    Type: AWS::Connect::PredefinedAttribute
+    Properties:
+      InstanceArn: ""
+      Name: ""
+      Purposes: []
+      AttributeConfiguration:
+        EnableValueValidationOnAssociation: false
+        IsReadOnly: false
+      Values:
+        StringList: []

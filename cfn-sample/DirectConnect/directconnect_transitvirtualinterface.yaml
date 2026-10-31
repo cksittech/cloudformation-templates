@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleDirectconnectTransitvirtualinterface:
+    Type: AWS::DirectConnect::TransitVirtualInterface
+    Properties:
+      AllocateTransitVirtualInterfaceRoleArn: ""
+      ConnectionId: ""
+      DirectConnectGatewayId: ""
+      EnableSiteLink: false
+      Mtu: 0
+      RateLimit: ""
+      VirtualInterfaceName: ""
+      Vlan: 0
+      BgpPeers:
+        - AddressFamily: ""
+          AmazonAddress: ""
+          Asn: ""
+          AuthKey: ""
+          CustomerAddress: ""
+      Tags:
+        - Key: ""
+          Value: ""

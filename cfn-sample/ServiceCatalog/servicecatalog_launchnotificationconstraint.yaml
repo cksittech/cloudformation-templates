@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleServicecatalogLaunchnotificationconstraint:
+    Type: AWS::ServiceCatalog::LaunchNotificationConstraint
+    Properties:
+      AcceptLanguage: ""
+      Description: ""
+      NotificationArns: []
+      PortfolioId: ""
+      ProductId: ""

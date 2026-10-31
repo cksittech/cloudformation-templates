@@ -1,0 +1,76 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleCassandraTable:
+    Type: AWS::Cassandra::Table
+    Properties:
+      ClientSideTimestampsEnabled: false
+      DefaultTimeToLive: 0
+      KeyspaceName: ""
+      PointInTimeRecoveryEnabled: false
+      TableName: ""
+      AutoScalingSpecifications:
+        ReadCapacityAutoScaling:
+          AutoScalingDisabled: false
+          MaximumUnits: 0
+          MinimumUnits: 0
+          ScalingPolicy:
+            TargetTrackingScalingPolicyConfiguration:
+              DisableScaleIn: false
+              ScaleInCooldown: 0
+              ScaleOutCooldown: 0
+              TargetValue: 0
+        WriteCapacityAutoScaling:
+          AutoScalingDisabled: false
+          MaximumUnits: 0
+          MinimumUnits: 0
+          ScalingPolicy:
+            TargetTrackingScalingPolicyConfiguration:
+              DisableScaleIn: false
+              ScaleInCooldown: 0
+              ScaleOutCooldown: 0
+              TargetValue: 0
+      BillingMode:
+        Mode: "ON_DEMAND"
+        ProvisionedThroughput:
+          ReadCapacityUnits: 0
+          WriteCapacityUnits: 0
+      CdcSpecification:
+        Status: ""
+        ViewType: "NEW_AND_OLD_IMAGES"
+        Tags:
+          - Key: ""
+            Value: ""
+      ClusteringKeyColumns:
+        - OrderBy: "ASC"
+          Column:
+            ColumnName: ""
+            ColumnType: ""
+      EncryptionSpecification:
+        EncryptionType: "AWS_OWNED_KMS_KEY"
+        KmsKeyIdentifier: ""
+      PartitionKeyColumns:
+        - ColumnName: ""
+          ColumnType: ""
+      RegularColumns:
+        - ColumnName: ""
+          ColumnType: ""
+      ReplicaSpecifications:
+        - ReadCapacityUnits: 0
+          Region: ""
+          ReadCapacityAutoScaling:
+            AutoScalingDisabled: false
+            MaximumUnits: 0
+            MinimumUnits: 0
+            ScalingPolicy:
+              TargetTrackingScalingPolicyConfiguration:
+                DisableScaleIn: false
+                ScaleInCooldown: 0
+                ScaleOutCooldown: 0
+                TargetValue: 0
+      Tags:
+        - Key: ""
+          Value: ""
+      WarmThroughput:
+        ReadUnitsPerSecond: 0
+        WriteUnitsPerSecond: 0

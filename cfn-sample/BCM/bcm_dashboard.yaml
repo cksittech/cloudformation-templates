@@ -1,0 +1,158 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleBcmDashboard:
+    Type: AWS::BCM::Dashboard
+    Properties:
+      Description: ""
+      Name: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      Widgets:
+        - Description: ""
+          Height: 0
+          HorizontalOffset: 0
+          Title: ""
+          Width: 0
+          Configs:
+            - DisplayConfig:
+                Graph: {}
+                Table: {}
+              QueryParameters:
+                CostAndUsage:
+                  Granularity: ""
+                  Metrics: []
+                  Filter:
+                    And: []
+                    Or: []
+                    CostCategories:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Dimensions:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Not: {}
+                    Tags:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                  GroupBy:
+                    - Key: ""
+                      Type: ""
+                  TimeRange:
+                    EndTime:
+                      Type: ""
+                      Value: ""
+                    StartTime:
+                      Type: ""
+                      Value: ""
+                ReservationCoverage:
+                  Granularity: ""
+                  Metrics: []
+                  Filter:
+                    And: []
+                    CostCategories:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Dimensions:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Not: {}
+                    Tags:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                  GroupBy:
+                    - Key: ""
+                      Type: ""
+                  TimeRange:
+                    EndTime:
+                      Type: ""
+                      Value: ""
+                    StartTime:
+                      Type: ""
+                      Value: ""
+                ReservationUtilization:
+                  Granularity: ""
+                  Filter:
+                    And: []
+                    CostCategories:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Dimensions:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Not: {}
+                    Tags:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                  GroupBy:
+                    - Key: ""
+                      Type: ""
+                  TimeRange:
+                    EndTime:
+                      Type: ""
+                      Value: ""
+                    StartTime:
+                      Type: ""
+                      Value: ""
+                SavingsPlansCoverage:
+                  Granularity: ""
+                  Metrics: []
+                  Filter:
+                    And: []
+                    CostCategories:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Dimensions:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Not: {}
+                    Tags:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                  GroupBy:
+                    - Key: ""
+                      Type: ""
+                  TimeRange:
+                    EndTime:
+                      Type: ""
+                      Value: ""
+                    StartTime:
+                      Type: ""
+                      Value: ""
+                SavingsPlansUtilization:
+                  Granularity: ""
+                  Filter:
+                    And: []
+                    CostCategories:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Dimensions:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                    Not: {}
+                    Tags:
+                      Key: ""
+                      MatchOptions: []
+                      Values: []
+                  TimeRange:
+                    EndTime:
+                      Type: ""
+                      Value: ""
+                    StartTime:
+                      Type: ""
+                      Value: ""

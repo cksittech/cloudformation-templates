@@ -1,0 +1,163 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleInspectorv2Filter:
+    Type: AWS::InspectorV2::Filter
+    Properties:
+      Description: ""
+      FilterAction: ""
+      Name: ""
+      FilterCriteria:
+        AwsAccountId:
+          - Comparison: ""
+            Value: ""
+        CodeVulnerabilityDetectorName:
+          - Comparison: ""
+            Value: ""
+        CodeVulnerabilityDetectorTags:
+          - Comparison: ""
+            Value: ""
+        CodeVulnerabilityFilePath:
+          - Comparison: ""
+            Value: ""
+        ComponentId:
+          - Comparison: ""
+            Value: ""
+        ComponentType:
+          - Comparison: ""
+            Value: ""
+        Ec2InstanceImageId:
+          - Comparison: ""
+            Value: ""
+        Ec2InstanceSubnetId:
+          - Comparison: ""
+            Value: ""
+        Ec2InstanceVpcId:
+          - Comparison: ""
+            Value: ""
+        EcrImageArchitecture:
+          - Comparison: ""
+            Value: ""
+        EcrImageHash:
+          - Comparison: ""
+            Value: ""
+        EcrImageInUseCount:
+          - LowerInclusive: 0
+            UpperInclusive: 0
+        EcrImagePushedAt:
+          - EndInclusive: 0
+            StartInclusive: 0
+        EcrImageRegistry:
+          - Comparison: ""
+            Value: ""
+        EcrImageRepositoryName:
+          - Comparison: ""
+            Value: ""
+        EcrImageTags:
+          - Comparison: ""
+            Value: ""
+        EpssScore:
+          - LowerInclusive: 0
+            UpperInclusive: 0
+        ExploitAvailable:
+          - Comparison: ""
+            Value: ""
+        FindingArn:
+          - Comparison: ""
+            Value: ""
+        FindingStatus:
+          - Comparison: ""
+            Value: ""
+        FindingType:
+          - Comparison: ""
+            Value: ""
+        FirstObservedAt:
+          - EndInclusive: 0
+            StartInclusive: 0
+        FixAvailable:
+          - Comparison: ""
+            Value: ""
+        InspectorScore:
+          - LowerInclusive: 0
+            UpperInclusive: 0
+        LambdaFunctionExecutionRoleArn:
+          - Comparison: ""
+            Value: ""
+        LambdaFunctionLastModifiedAt:
+          - EndInclusive: 0
+            StartInclusive: 0
+        LambdaFunctionLayers:
+          - Comparison: ""
+            Value: ""
+        LambdaFunctionName:
+          - Comparison: ""
+            Value: ""
+        LambdaFunctionRuntime:
+          - Comparison: ""
+            Value: ""
+        LastObservedAt:
+          - EndInclusive: 0
+            StartInclusive: 0
+        NetworkProtocol:
+          - Comparison: ""
+            Value: ""
+        PortRange:
+          - BeginInclusive: 0
+            EndInclusive: 0
+        RelatedVulnerabilities:
+          - Comparison: ""
+            Value: ""
+        ResourceId:
+          - Comparison: ""
+            Value: ""
+        ResourceTags:
+          - Comparison: ""
+            Key: ""
+            Value: ""
+        ResourceType:
+          - Comparison: ""
+            Value: ""
+        Severity:
+          - Comparison: ""
+            Value: ""
+        Title:
+          - Comparison: ""
+            Value: ""
+        UpdatedAt:
+          - EndInclusive: 0
+            StartInclusive: 0
+        VendorSeverity:
+          - Comparison: ""
+            Value: ""
+        VulnerabilityId:
+          - Comparison: ""
+            Value: ""
+        VulnerabilitySource:
+          - Comparison: ""
+            Value: ""
+        VulnerablePackages:
+          - Architecture:
+              Comparison: ""
+              Value: ""
+            Epoch:
+              LowerInclusive: 0
+              UpperInclusive: 0
+            FilePath:
+              Comparison: ""
+              Value: ""
+            Name:
+              Comparison: ""
+              Value: ""
+            Release:
+              Comparison: ""
+              Value: ""
+            SourceLambdaLayerArn:
+              Comparison: ""
+              Value: ""
+            SourceLayerHash:
+              Comparison: ""
+              Value: ""
+            Version:
+              Comparison: ""
+              Value: ""
+      Tags: {}

@@ -1,0 +1,9 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleRoute53globalresolverHostedzoneassociation:
+    Type: AWS::Route53GlobalResolver::HostedZoneAssociation
+    Properties:
+      HostedZoneId: ""
+      Name: ""
+      ResourceArn: ""

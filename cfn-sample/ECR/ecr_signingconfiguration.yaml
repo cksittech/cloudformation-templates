@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEcrSigningconfiguration:
+    Type: AWS::ECR::SigningConfiguration
+    Properties:
+      Rules:
+        - SigningProfileArn: ""
+          RepositoryFilters:
+            - Filter: ""
+              FilterType: ""

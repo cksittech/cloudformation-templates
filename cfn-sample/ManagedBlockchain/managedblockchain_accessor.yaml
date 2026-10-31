@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleManagedblockchainAccessor:
+    Type: AWS::ManagedBlockchain::Accessor
+    Properties:
+      AccessorType: ""
+      NetworkType: ""
+      Tags:
+        - Key: ""
+          Value: ""

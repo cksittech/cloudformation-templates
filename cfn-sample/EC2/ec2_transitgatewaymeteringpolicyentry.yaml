@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Transitgatewaymeteringpolicyentry:
+    Type: AWS::EC2::TransitGatewayMeteringPolicyEntry
+    Properties:
+      DestinationCidrBlock: ""
+      DestinationPortRange: ""
+      DestinationTransitGatewayAttachmentId: ""
+      DestinationTransitGatewayAttachmentType: ""
+      MeteredAccount: ""
+      PolicyRuleNumber: 0
+      Protocol: ""
+      SourceCidrBlock: ""
+      SourcePortRange: ""
+      SourceTransitGatewayAttachmentId: ""
+      SourceTransitGatewayAttachmentType: ""
+      TransitGatewayMeteringPolicyId: ""

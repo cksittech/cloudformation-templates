@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleWorkspaceswebSessionlogger:
+    Type: AWS::WorkSpacesWeb::SessionLogger
+    Properties:
+      CustomerManagedKey: ""
+      DisplayName: ""
+      AdditionalEncryptionContext: {}
+      EventFilter:
+        Include: []
+        All: {}
+      LogConfiguration:
+        S3:
+          Bucket: ""
+          BucketOwner: ""
+          FolderStructure: ""
+          KeyPrefix: ""
+          LogFileFormat: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleLambdaVersion:
+    Type: AWS::Lambda::Version
+    Properties:
+      CodeSha256: ""
+      Description: ""
+      FunctionName: ""
+      FunctionScalingConfig:
+        MaxExecutionEnvironments: 0
+        MinExecutionEnvironments: 0
+      ProvisionedConcurrencyConfig:
+        ProvisionedConcurrentExecutions: 0
+      RuntimePolicy:
+        RuntimeVersionArn: ""
+        UpdateRuntimeOn: ""

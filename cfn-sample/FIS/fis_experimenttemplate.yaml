@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFisExperimenttemplate:
+    Type: AWS::FIS::ExperimentTemplate
+    Properties:
+      Description: ""
+      RoleArn: ""
+      Actions: {}
+      ExperimentOptions:
+        AccountTargeting: ""
+        EmptyTargetResolutionMode: ""
+      ExperimentReportConfiguration:
+        PostExperimentDuration: ""
+        PreExperimentDuration: ""
+        DataSources:
+          CloudWatchDashboards:
+            - DashboardIdentifier: ""
+        Outputs:
+          ExperimentReportS3Configuration:
+            BucketName: ""
+            Prefix: ""
+      LogConfiguration:
+        LogSchemaVersion: 0
+        CloudWatchLogsConfiguration:
+          LogGroupArn: ""
+        S3Configuration:
+          BucketName: ""
+          Prefix: ""
+      StopConditions:
+        - Source: ""
+          Value: ""
+      Tags: {}
+      Targets: {}

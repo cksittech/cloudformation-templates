@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEmrStep:
+    Type: AWS::EMR::Step
+    Properties:
+      ActionOnFailure: ""
+      EncryptionKeyArn: ""
+      JobFlowId: ""
+      LogUri: ""
+      Name: ""
+      HadoopJarStep:
+        Args: []
+        Jar: ""
+        MainClass: ""
+        StepProperties:
+          - Key: ""
+            Value: ""

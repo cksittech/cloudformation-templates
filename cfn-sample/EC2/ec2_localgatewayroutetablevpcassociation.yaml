@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleEc2Localgatewayroutetablevpcassociation:
+    Type: AWS::EC2::LocalGatewayRouteTableVPCAssociation
+    Properties:
+      LocalGatewayRouteTableId: ""
+      VpcId: ""
+      Tags:
+        - Key: ""
+          Value: ""

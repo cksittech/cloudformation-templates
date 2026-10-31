@@ -1,0 +1,157 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleMediapackagev2Originendpoint:
+    Type: AWS::MediaPackageV2::OriginEndpoint
+    Properties:
+      ChannelGroupName: ""
+      ChannelName: ""
+      ContainerType: ""
+      Description: ""
+      OriginEndpointName: ""
+      StartoverWindowSeconds: 0
+      StreamNameOutputMode: ""
+      UriSeparator: ""
+      DashManifests:
+        - AudioTimelinePattern: ""
+          Compactness: ""
+          DrmSignaling: ""
+          ManifestName: ""
+          ManifestWindowSeconds: 0
+          MinBufferTimeSeconds: 0
+          MinUpdatePeriodSeconds: 0
+          PeriodTriggers: []
+          Profiles: []
+          SegmentTemplateFormat: ""
+          SuggestedPresentationDelaySeconds: 0
+          UriPathType: ""
+          AvailabilityStartTimeConfiguration:
+            FixedAvailabilityStartTime: ""
+          BaseUrls:
+            - DvbPriority: 0
+              DvbWeight: 0
+              ServiceLocation: ""
+              Url: ""
+          DvbSettings:
+            ErrorMetrics:
+              - Probability: 0
+                ReportingUrl: ""
+            FontDownload:
+              FontFamily: ""
+              MimeType: ""
+              Url: ""
+          FilterConfiguration:
+            ClipStartTime: ""
+            DrmSettings: ""
+            End: ""
+            ManifestFilter: ""
+            Start: ""
+            TimeDelaySeconds: 0
+            Multiview:
+              Layout: ""
+              Sources: []
+          ProgramInformation:
+            Copyright: ""
+            LanguageCode: ""
+            MoreInformationUrl: ""
+            Source: ""
+            Title: ""
+          ScteDash:
+            AdMarkerDash: ""
+            ScteInManifests: ""
+          SubtitleConfiguration:
+            TtmlConfiguration:
+              TtmlProfile: ""
+          UtcTiming:
+            TimingMode: ""
+            TimingSource: ""
+      ForceEndpointErrorConfiguration:
+        EndpointErrorConditions: []
+      HlsManifests:
+        - ChildManifestName: ""
+          ManifestName: ""
+          ManifestWindowSeconds: 0
+          ProgramDateTimeIntervalSeconds: 0
+          UriPathType: ""
+          UrlEncodeChildManifest: false
+          FilterConfiguration:
+            ClipStartTime: ""
+            DrmSettings: ""
+            End: ""
+            ManifestFilter: ""
+            Start: ""
+            TimeDelaySeconds: 0
+            Multiview:
+              Layout: ""
+              Sources: []
+          ScteHls:
+            AdMarkerHls: ""
+            ScteInManifests: ""
+          StartTag:
+            Precise: false
+            TimeOffset: 0
+      LowLatencyHlsManifests:
+        - ChildManifestName: ""
+          ManifestName: ""
+          ManifestWindowSeconds: 0
+          ProgramDateTimeIntervalSeconds: 0
+          UriPathType: ""
+          UrlEncodeChildManifest: false
+          FilterConfiguration:
+            ClipStartTime: ""
+            DrmSettings: ""
+            End: ""
+            ManifestFilter: ""
+            Start: ""
+            TimeDelaySeconds: 0
+          ScteHls:
+            AdMarkerHls: ""
+            ScteInManifests: ""
+          StartTag:
+            Precise: false
+            TimeOffset: 0
+      MssManifests:
+        - ManifestLayout: ""
+          ManifestName: ""
+          ManifestWindowSeconds: 0
+          FilterConfiguration:
+            ClipStartTime: ""
+            DrmSettings: ""
+            End: ""
+            ManifestFilter: ""
+            Start: ""
+            TimeDelaySeconds: 0
+      Segment:
+        IncludeIframeOnlyStreams: false
+        OutputTimestampMode: ""
+        SegmentDurationSeconds: 0
+        SegmentName: ""
+        TsIncludeDvbSubtitles: false
+        TsUseAudioRenditionGroup: false
+        Encryption:
+          CmafExcludeSegmentDrmMetadata: false
+          ConstantInitializationVector: ""
+          KeyRotationIntervalSeconds: 0
+          EncryptionMethod:
+            CmafEncryptionMethod: ""
+            IsmEncryptionMethod: ""
+            TsEncryptionMethod: ""
+          SpekeKeyProvider:
+            CertificateArn: ""
+            DrmSystems: []
+            ResourceId: ""
+            RoleArn: ""
+            SpekeVersion: ""
+            Url: ""
+            ContentKeyPeriodConfiguration:
+              ContentKeyPeriodTiming: ""
+            EncryptionContractConfiguration:
+              PresetSpeke20Audio: ""
+              PresetSpeke20Video: ""
+        Scte:
+          CustomAdTypes: []
+          ScteFilter: []
+          ScteInSegments: ""
+      Tags:
+        - Key: ""
+          Value: ""

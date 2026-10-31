@@ -1,0 +1,29 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleFsxS3accesspointattachment:
+    Type: AWS::FSx::S3AccessPointAttachment
+    Properties:
+      Name: ""
+      Type: ""
+      OntapConfiguration:
+        VolumeId: ""
+        FileSystemIdentity:
+          Type: ""
+          UnixUser:
+            Name: ""
+          WindowsUser:
+            Name: ""
+      OpenZFSConfiguration:
+        VolumeId: ""
+        FileSystemIdentity:
+          Type: ""
+          PosixUser:
+            Gid: 0
+            Uid: 0
+            SecondaryGids:
+              - Gid: 0
+      S3AccessPoint:
+        Policy: {}
+        VpcConfiguration:
+          VpcId: ""
