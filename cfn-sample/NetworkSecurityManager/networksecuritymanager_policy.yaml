@@ -1,0 +1,22 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleNetworksecuritymanagerPolicy:
+    Type: AWS::NetworkSecurityManager::Policy
+    Properties:
+      FirewallType: ""
+      PolicyDescription: ""
+      PolicyName: ""
+      Priority: 0
+      AssociatedTemplateAndRuleList:
+        - RuleArn: ""
+          TemplateArn: ""
+      PolicyConfiguration:
+        RemediationEnabled: false
+        ResourcesCleanUp: false
+        WafConfig:
+          ConflictResolution: ""
+          ExistingCustomerWebACLResolution: ""
+      Tags:
+        - Key: ""
+          Value: ""

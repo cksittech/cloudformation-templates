@@ -27,6 +27,12 @@ Resources:
         Threshold:
           Operator: ""
           Value: ""
+      Filter:
+        Include: ""
+        Groups:
+          - Type: ""
+            Dimensions:
+              - Attributes: {}
       Tags:
         - Key: ""
           Value: ""

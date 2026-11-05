@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleIvsAdconfiguration:
+    Type: AWS::IVS::AdConfiguration
+    Properties:
+      Name: ""
+      MediaTailorPlaybackConfigurations:
+        - PlaybackConfigurationArn: ""
+      PostRollConfiguration:
+        DurationSeconds: 0
+        Enabled: false
+      Tags:
+        - Key: ""
+          Value: ""

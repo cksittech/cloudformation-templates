@@ -1,0 +1,34 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleStoragegatewayNfsfileshare:
+    Type: AWS::StorageGateway::NFSFileShare
+    Properties:
+      AuditDestinationARN: ""
+      BucketRegion: ""
+      ClientList: []
+      DefaultStorageClass: ""
+      EncryptionType: ""
+      FileShareName: ""
+      GatewayARN: ""
+      GuessMIMETypeEnabled: false
+      KMSEncrypted: false
+      KMSKey: ""
+      LocationARN: ""
+      NotificationPolicy: ""
+      ObjectACL: ""
+      ReadOnly: false
+      RequesterPays: false
+      Role: ""
+      Squash: ""
+      VPCEndpointDNSName: ""
+      CacheAttributes:
+        CacheStaleTimeoutInSeconds: 0
+      NFSFileShareDefaults:
+        DirectoryMode: ""
+        FileMode: ""
+        GroupId: 0
+        OwnerId: 0
+      Tags:
+        - Key: ""
+          Value: ""

@@ -17,9 +17,13 @@ Resources:
         OnUpdate: false
       ImageScanningConfiguration:
         ImageScanningEnabled: false
+        ImageScanningTypes: []
         EcrConfiguration:
           ContainerTags: []
           RepositoryName: ""
+        ScanResultCondition:
+          FixAvailable: false
+          MaximumSeverityLabel: ""
       ImageTestsConfiguration:
         ImageTestsEnabled: false
         TimeoutMinutes: 0

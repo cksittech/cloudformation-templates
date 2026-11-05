@@ -5,6 +5,7 @@ Resources:
     Type: AWS::Transfer::Workflow
     Properties:
       Description: ""
+      StructuredLogDestinations: []
       OnExceptionSteps:
         - Type: ""
           CopyStepDetails:

@@ -1,0 +1,17 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleNetworkfirewallContainerassociation:
+    Type: AWS::NetworkFirewall::ContainerAssociation
+    Properties:
+      ContainerAssociationName: ""
+      Description: ""
+      Type: ""
+      ContainerMonitoringConfigurations:
+        - ClusterArn: ""
+          AttributeFilters:
+            - Key: ""
+              Value: ""
+      Tags:
+        - Key: ""
+          Value: ""

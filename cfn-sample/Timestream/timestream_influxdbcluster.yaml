@@ -11,6 +11,7 @@ Resources:
       DbStorageType: ""
       DeploymentType: ""
       FailoverMode: ""
+      KmsKeyId: ""
       Name: ""
       NetworkType: ""
       Organization: ""

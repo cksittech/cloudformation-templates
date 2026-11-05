@@ -1,0 +1,42 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleMgnLaunchconfigurationtemplate:
+    Type: AWS::MGN::LaunchConfigurationTemplate
+    Properties:
+      AssociatePublicIpAddress: false
+      BootMode: ""
+      CopyPrivateIp: false
+      CopyTags: false
+      EnableMapAutoTagging: false
+      EnableParametersEncryption: false
+      LaunchDisposition: ""
+      MapAutoTaggingMpeID: ""
+      ParametersEncryptionKey: ""
+      SmallVolumeMaxSize: 0
+      TargetInstanceTypeRightSizingMethod: ""
+      LargeVolumeConf:
+        Iops: 0
+        Throughput: 0
+        VolumeType: ""
+      Licensing:
+        OsByol: false
+      PostLaunchActions:
+        CloudWatchLogGroupName: ""
+        Deployment: ""
+        S3LogBucket: ""
+        S3OutputKeyPrefix: ""
+        SsmDocuments:
+          - ActionName: ""
+            MustSucceedForCutover: false
+            SsmDocumentName: ""
+            TimeoutSeconds: 0
+            ExternalParameters: {}
+            Parameters: {}
+      SmallVolumeConf:
+        Iops: 0
+        Throughput: 0
+        VolumeType: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleWisdomContent:
+    Type: AWS::Wisdom::Content
+    Properties:
+      KnowledgeBaseId: ""
+      Name: ""
+      OverrideLinkOutUri: ""
+      Title: ""
+      UploadId: ""
+      Metadata: {}
+      Tags:
+        - Key: ""
+          Value: ""

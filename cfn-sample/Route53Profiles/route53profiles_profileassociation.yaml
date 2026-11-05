@@ -6,6 +6,7 @@ Resources:
     Properties:
       Arn: ""
       Name: ""
+      Priority: 0
       ProfileId: ""
       ResourceId: ""
       Tags:

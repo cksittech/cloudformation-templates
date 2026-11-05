@@ -15,9 +15,13 @@ Resources:
       Status: ""
       ImageScanningConfiguration:
         ImageScanningEnabled: false
+        ImageScanningTypes: []
         EcrConfiguration:
           ContainerTags: []
           RepositoryName: ""
+        ScanResultCondition:
+          FixAvailable: false
+          MaximumSeverityLabel: ""
       ImageTags: {}
       ImageTestsConfiguration:
         ImageTestsEnabled: false

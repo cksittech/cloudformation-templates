@@ -35,6 +35,9 @@ Resources:
         TlsSessionResumptionMode: ""
         ProxyConfig:
           SftpMode: ""
+        SftpPorts:
+          - CommunicationMode: ""
+            SftpPort: 0
       S3StorageOptions:
         DirectoryListingOptimization: ""
       Tags:

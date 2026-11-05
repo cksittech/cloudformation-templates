@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleWellarchitectedAgentprofile:
+    Type: AWS::WellArchitected::AgentProfile
+    Properties:
+      BusinessOverview: ""
+      DeletionProtection: false
+      Description: ""
+      DisplayName: ""
+      ExecutionRoleArn: ""
+      Name: ""
+      Pillars: []
+      AggregationConfiguration:
+        - AccessRoleArn: ""
+          AccountId: ""
+          Regions: []
+      Tags:
+        - Key: ""
+          Value: ""

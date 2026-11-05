@@ -10,6 +10,9 @@ Resources:
           WorkspaceArn: ""
         CloudWatchConfiguration:
           DatasetArn: ""
+      Exporters:
+        - OpenSearchConfiguration:
+            DomainArn: ""
       RoleConfiguration:
         SourceRoleArn: ""
         TargetRoleArn: ""

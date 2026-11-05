@@ -18,8 +18,8 @@ Resources:
       ScaleDownBehavior: ""
       SecurityConfiguration: ""
       ServiceRole: ""
+      SessionEnabled: false
       StepConcurrencyLevel: 0
-      VisibleToAllUsers: false
       AdditionalInfo: {}
       Applications:
         - Args: []
@@ -346,6 +346,13 @@ Resources:
           MaximumOnDemandCapacityUnits: 0
           MinimumCapacityUnits: 0
           UnitType: ""
+      MonitoringConfiguration:
+        CloudWatchLogConfiguration:
+          Enabled: false
+          EncryptionKeyArn: ""
+          LogGroupName: ""
+          LogStreamNamePrefix: ""
+          LogTypes: {}
       PlacementGroupConfigs:
         - InstanceRole: ""
           PlacementStrategy: ""

@@ -1,0 +1,35 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleStoragegatewaySmbfileshare:
+    Type: AWS::StorageGateway::SMBFileShare
+    Properties:
+      AccessBasedEnumeration: false
+      AdminUserList: []
+      AuditDestinationARN: ""
+      Authentication: ""
+      BucketRegion: ""
+      CaseSensitivity: ""
+      DefaultStorageClass: ""
+      EncryptionType: ""
+      FileShareName: ""
+      GatewayARN: ""
+      GuessMIMETypeEnabled: false
+      InvalidUserList: []
+      KMSEncrypted: false
+      KMSKey: ""
+      LocationARN: ""
+      NotificationPolicy: ""
+      ObjectACL: ""
+      OplocksEnabled: false
+      ReadOnly: false
+      RequesterPays: false
+      Role: ""
+      SMBACLEnabled: false
+      VPCEndpointDNSName: ""
+      ValidUserList: []
+      CacheAttributes:
+        CacheStaleTimeoutInSeconds: 0
+      Tags:
+        - Key: ""
+          Value: ""
