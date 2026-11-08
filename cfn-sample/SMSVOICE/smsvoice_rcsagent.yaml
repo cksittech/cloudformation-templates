@@ -1,0 +1,19 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleSmsvoiceRcsagent:
+    Type: AWS::SMSVOICE::RcsAgent
+    Properties:
+      DeletionProtectionEnabled: false
+      OptOutListName: ""
+      SelfManagedOptOutsEnabled: false
+      TwoWayChannelArn: ""
+      TwoWayChannelRole: ""
+      TwoWayEnabled: false
+      TwoWayMediaS3BucketName: ""
+      TwoWayMediaS3KeyPrefix: ""
+      TwoWayMediaS3Role: ""
+      TwoWayRcsEventsEnabled: []
+      Tags:
+        - Key: ""
+          Value: ""

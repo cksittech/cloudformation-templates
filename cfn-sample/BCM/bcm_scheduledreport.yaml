@@ -1,0 +1,28 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleBcmScheduledreport:
+    Type: AWS::BCM::ScheduledReport
+    Properties:
+      DashboardArn: ""
+      Description: ""
+      Name: ""
+      ScheduledReportExecutionRoleArn: ""
+      WidgetIds: []
+      ScheduleConfig:
+        ScheduleExpression: ""
+        ScheduleExpressionTimeZone: ""
+        State: ""
+        SchedulePeriod:
+          EndTime: ""
+          StartTime: ""
+      Tags:
+        - Key: ""
+          Value: ""
+      WidgetDateRangeOverride:
+        EndTime:
+          Type: ""
+          Value: ""
+        StartTime:
+          Type: ""
+          Value: ""

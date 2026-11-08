@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleWellarchitectedAgentgoal:
+    Type: AWS::WellArchitected::AgentGoal
+    Properties:
+      Description: ""
+      Pillars: []
+      ProfileArn: ""
+      Title: ""

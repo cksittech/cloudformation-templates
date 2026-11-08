@@ -1,0 +1,14 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleCustomerprofilesRecommenderfilter:
+    Type: AWS::CustomerProfiles::RecommenderFilter
+    Properties:
+      Description: ""
+      DomainName: ""
+      RecommenderFilterExpression: ""
+      RecommenderFilterName: ""
+      RecommenderSchemaName: ""
+      Tags:
+        - Key: ""
+          Value: ""

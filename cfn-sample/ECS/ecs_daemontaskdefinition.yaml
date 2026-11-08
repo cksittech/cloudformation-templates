@@ -92,3 +92,5 @@ Resources:
         - Name: ""
           Host:
             SourcePath: ""
+          LogDriverVolumeConfiguration:
+            Driver: ""

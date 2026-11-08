@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleSagemakerComputequota:
+    Type: AWS::SageMaker::ComputeQuota
+    Properties:
+      ActivationState: ""
+      ClusterArn: ""
+      Description: ""
+      Name: ""
+      ComputeQuotaConfig:
+        PreemptTeamTasks: ""
+        ComputeQuotaResources:
+          - Accelerators: 0
+            Count: 0
+            InstanceType: ""
+            MemoryInGiB: 0
+            VCpu: 0
+            AcceleratorPartition:
+              Count: 0
+              Type: ""
+        ResourceSharingConfig:
+          BorrowLimit: 0
+          Strategy: ""
+          AbsoluteBorrowLimits:
+            - Accelerators: 0
+              Count: 0
+              InstanceType: ""
+              MemoryInGiB: 0
+              VCpu: 0
+              AcceleratorPartition:
+                Count: 0
+                Type: ""
+      ComputeQuotaTarget:
+        FairShareWeight: 0
+        TeamName: ""
+      Tags:
+        - Key: ""
+          Value: ""

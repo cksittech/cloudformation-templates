@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleEc2Ipaminternetregistryassociation:
+    Type: AWS::EC2::IpamInternetRegistryAssociation
+    Properties:
+      Description: ""
+      IpamId: ""
+      OrganizationHandle: ""
+      Rir: ""
+      Tags:
+        - Key: ""
+          Value: ""

@@ -12,7 +12,6 @@ Resources:
           NetworkProtocol: ""
           SecurityGroupIds: []
           SubnetIds: []
-          ElasticIpConfiguration: {}
       Tags:
         - Key: ""
           Value: ""

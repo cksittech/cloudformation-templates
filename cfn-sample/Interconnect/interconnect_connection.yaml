@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleInterconnectConnection:
+    Type: AWS::Interconnect::Connection
+    Properties:
+      ActivationKey: ""
+      Bandwidth: ""
+      Description: ""
+      EnvironmentId: ""
+      AttachPoint:
+        Arn: ""
+        DirectConnectGateway: ""
+      RemoteAccount:
+        Identifier: ""
+      Tags:
+        - Key: ""
+          Value: ""

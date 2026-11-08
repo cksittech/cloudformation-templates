@@ -29,6 +29,7 @@ Resources:
           FipsEnabled: false
           InstanceMetadataTagsPropagation: false
           Monitoring: ""
+          NitroEnclavesEnabled: false
           CapacityReservations:
             ReservationGroupArn: ""
             ReservationPreference: ""

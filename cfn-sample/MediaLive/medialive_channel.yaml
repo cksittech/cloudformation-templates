@@ -891,6 +891,11 @@ Resources:
                   Hlg2020Settings: {}
                   Rec601Settings: {}
                   Rec709Settings: {}
+                FilterSettings:
+                  AutoFilterSettings: {}
+                  NoneFilterSettings: {}
+                  PerceptualFilterSettings:
+                    Strength: ""
                 TimecodeBurninSettings:
                   FontSize: ""
                   Position: ""
@@ -905,6 +910,7 @@ Resources:
               H264Settings:
                 AdaptiveQuantization: ""
                 AfdSignaling: ""
+                AllowExplicitWeightedPrediction: ""
                 Bitrate: 0
                 BufFillPct: 0
                 BufSize: 0
@@ -949,8 +955,12 @@ Resources:
                   Rec601Settings: {}
                   Rec709Settings: {}
                 FilterSettings:
+                  AutoFilterSettings: {}
                   BandwidthReductionFilterSettings:
                     PostFilterSharpening: ""
+                    Strength: ""
+                  NoneFilterSettings: {}
+                  PerceptualFilterSettings:
                     Strength: ""
                   TemporalFilterSettings:
                     PostFilterSharpening: ""
@@ -1009,8 +1019,12 @@ Resources:
                   Rec601Settings: {}
                   Rec709Settings: {}
                 FilterSettings:
+                  AutoFilterSettings: {}
                   BandwidthReductionFilterSettings:
                     PostFilterSharpening: ""
+                    Strength: ""
+                  NoneFilterSettings: {}
+                  PerceptualFilterSettings:
                     Strength: ""
                   TemporalFilterSettings:
                     PostFilterSharpening: ""

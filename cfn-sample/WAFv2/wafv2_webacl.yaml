@@ -13,6 +13,7 @@ Resources:
           - Name: ""
             Values: []
       AssociationConfig:
+        ChallengeJavascriptSdkInjection: {}
         RequestBody: {}
       CaptchaConfig:
         ImmunityTimeProperty:
