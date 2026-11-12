@@ -15,6 +15,7 @@ Resources:
         IdleTimeoutMinutes: 0
       IdentityCenterConfiguration:
         IdentityCenterInstanceArn: ""
+        UserBackgroundSessionsEnabled: false
       ImageConfiguration:
         ImageUri: ""
       InitialCapacity:

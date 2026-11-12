@@ -1,0 +1,38 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleCloudwatchAlert:
+    Type: AWS::CloudWatch::Alert
+    Properties:
+      Description: ""
+      Name: ""
+      NotificationsEnabled: false
+      ProfileId: ""
+      SpaceId: ""
+      NotificationRules:
+        - Target:
+            Arn: ""
+            Type: ""
+            Metadata: {}
+          Trigger:
+            StateValues: []
+      Rule:
+        TelemetryRule:
+          Condition:
+            Comparator: ""
+            CriticalThreshold: 0
+            ThresholdField: ""
+            ThresholdMode: ""
+            WarningThreshold: 0
+          Evaluation:
+            IntervalSeconds: 0
+            PendingDurationSeconds: 0
+            RecoveryDurationSeconds: 0
+          NoData:
+            TreatAs: ""
+          Query:
+            Expression: ""
+            Language: ""
+      Tags:
+        - Key: ""
+          Value: ""

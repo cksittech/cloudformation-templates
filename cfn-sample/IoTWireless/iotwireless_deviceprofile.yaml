@@ -25,6 +25,7 @@ Resources:
         SupportsClassB: false
         SupportsClassC: false
         SupportsJoin: false
+      Sidewalk: {}
       Tags:
         - Key: ""
           Value: ""

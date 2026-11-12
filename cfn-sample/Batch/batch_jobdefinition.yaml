@@ -200,6 +200,12 @@ Resources:
                 RunAsGroup: 0
                 RunAsNonRoot: false
                 RunAsUser: 0
+                Capabilities:
+                  Add: []
+                  Drop: []
+                SeccompProfile:
+                  LocalhostProfile: ""
+                  Type: ""
               VolumeMounts:
                 - MountPath: ""
                   Name: ""
@@ -226,6 +232,12 @@ Resources:
                 RunAsGroup: 0
                 RunAsNonRoot: false
                 RunAsUser: 0
+                Capabilities:
+                  Add: []
+                  Drop: []
+                SeccompProfile:
+                  LocalhostProfile: ""
+                  Type: ""
               VolumeMounts:
                 - MountPath: ""
                   Name: ""
@@ -235,6 +247,14 @@ Resources:
             Namespace: ""
             Annotations: {}
             Labels: {}
+          SecurityContext:
+            FsGroup: 0
+            RunAsGroup: 0
+            RunAsNonRoot: false
+            RunAsUser: 0
+            SeccompProfile:
+              LocalhostProfile: ""
+              Type: ""
           Volumes:
             - Name: ""
               EmptyDir:
@@ -433,6 +453,12 @@ Resources:
                       RunAsGroup: 0
                       RunAsNonRoot: false
                       RunAsUser: 0
+                      Capabilities:
+                        Add: []
+                        Drop: []
+                      SeccompProfile:
+                        LocalhostProfile: ""
+                        Type: ""
                     VolumeMounts:
                       - MountPath: ""
                         Name: ""
@@ -459,6 +485,12 @@ Resources:
                       RunAsGroup: 0
                       RunAsNonRoot: false
                       RunAsUser: 0
+                      Capabilities:
+                        Add: []
+                        Drop: []
+                      SeccompProfile:
+                        LocalhostProfile: ""
+                        Type: ""
                     VolumeMounts:
                       - MountPath: ""
                         Name: ""
@@ -468,6 +500,14 @@ Resources:
                   Namespace: ""
                   Annotations: {}
                   Labels: {}
+                SecurityContext:
+                  FsGroup: 0
+                  RunAsGroup: 0
+                  RunAsNonRoot: false
+                  RunAsUser: 0
+                  SeccompProfile:
+                    LocalhostProfile: ""
+                    Type: ""
                 Volumes:
                   - Name: ""
                     EmptyDir:

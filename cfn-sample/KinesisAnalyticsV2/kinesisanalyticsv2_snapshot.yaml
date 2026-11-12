@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleKinesisanalyticsv2Snapshot:
+    Type: AWS::KinesisAnalyticsV2::Snapshot
+    Properties:
+      ApplicationName: ""
+      SnapshotDescription: ""
+      SnapshotFormat: ""
+      SnapshotName: ""
+      ImportSourceConfiguration:
+        ImportRoleArn: ""
+        SourceType: ""
+        SourceEncryptionConfiguration:
+          KeyId: ""
+          KeyType: ""
+        SourceS3PrefixLocation:
+          BucketARN: ""
+          KeyPrefix: ""
+      SnapshotEncryptionConfigurationDescription:
+        KeyId: ""
+        KeyType: ""
+      Tags:
+        - Key: ""
+          Value: ""

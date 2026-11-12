@@ -1,0 +1,13 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleEc2Subnetcidrreservation:
+    Type: AWS::EC2::SubnetCidrReservation
+    Properties:
+      Cidr: ""
+      Description: ""
+      ReservationType: ""
+      SubnetId: ""
+      Tags:
+        - Key: ""
+          Value: ""

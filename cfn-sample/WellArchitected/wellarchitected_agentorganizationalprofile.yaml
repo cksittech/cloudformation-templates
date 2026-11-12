@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleWellarchitectedAgentorganizationalprofile:
+    Type: AWS::WellArchitected::AgentOrganizationalProfile
+    Properties:
+      BusinessOverview: ""
+      DeletionProtection: false
+      Description: ""
+      DisplayName: ""
+      Name: ""
+      Pillars: []
+      Tags:
+        - Key: ""
+          Value: ""

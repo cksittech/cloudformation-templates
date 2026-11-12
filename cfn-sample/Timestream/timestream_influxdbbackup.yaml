@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleTimestreamInfluxdbbackup:
+    Type: AWS::Timestream::InfluxDBBackup
+    Properties:
+      DbResourceId: ""
+      Name: ""
+      RetentionDays: 0
+      Tags:
+        - Key: ""
+          Value: ""

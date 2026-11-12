@@ -7,8 +7,11 @@ Resources:
       AmiId: ""
       ClusterId: ""
       IamInstanceProfileArn: ""
+      LaunchTemplateMode: ""
       Name: ""
       PurchaseOption: ""
+      SecurityGroupIds: []
+      SshKeyName: ""
       SubnetIds: []
       CustomLaunchTemplate:
         TemplateId: ""

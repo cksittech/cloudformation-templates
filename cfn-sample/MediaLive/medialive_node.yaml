@@ -1,0 +1,20 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  CfnSampleMedialiveNode:
+    Type: AWS::MediaLive::Node
+    Properties:
+      ClusterId: ""
+      Name: ""
+      Role: ""
+      NodeInterfaceMappings:
+        - LogicalInterfaceName: ""
+          NetworkInterfaceMode: ""
+          PhysicalInterfaceName: ""
+      SdiSourceMappings:
+        - CardNumber: 0
+          ChannelNumber: 0
+          SdiSource: ""
+      Tags:
+        - Key: ""
+          Value: ""

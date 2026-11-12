@@ -1684,6 +1684,19 @@ Resources:
         Options:
           Timezone: ""
           WeekStart: ""
+          CustomActionDefaults:
+            HighlightOperation:
+              Trigger: ""
+          VisualMessages:
+            NoDataMessage:
+              Description: ""
+              DescriptionVisibility: ""
+              Enabled: false
+              LinkText: ""
+              LinkUrl: ""
+              LinkVisibility: ""
+              Title: ""
+              TitleVisibility: ""
         ParameterDeclarations:
           - DateTimeParameterDeclaration:
               Name: ""
@@ -1792,6 +1805,9 @@ Resources:
             Name: ""
             SheetId: ""
             Title: ""
+            CustomActionDefaults:
+              HighlightOperation:
+                Trigger: ""
             FilterControls:
               - CrossSheet:
                   FilterControlId: ""

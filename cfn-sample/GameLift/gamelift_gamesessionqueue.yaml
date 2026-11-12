@@ -12,6 +12,10 @@ Resources:
         - DestinationArn: ""
       FilterConfiguration:
         AllowedLocations: []
+      LogConfiguration:
+        DeliveryDestinations:
+          - DestinationArn: ""
+            LogDestination: ""
       PlayerLatencyPolicies:
         - MaximumIndividualPlayerLatencyMilliseconds: 0
           PolicyDurationSeconds: 0

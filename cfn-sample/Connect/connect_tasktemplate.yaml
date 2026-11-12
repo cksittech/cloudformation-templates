@@ -21,6 +21,8 @@ Resources:
         RequiredFields:
           - Id:
               Name: ""
+      ContactHooks:
+        WrapUpFlowArn: ""
       Defaults:
         - DefaultValue: ""
           Id:
